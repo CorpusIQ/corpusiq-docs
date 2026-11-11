@@ -1,9 +1,9 @@
 ---
-title: LangGraph + Hermes Integration
-description: Stateful graph-based agent workflows - conditional routing, persistence, and production patterns with LangGraph and Hermes
+title: "LangGraph + Hermes Integration"
+description: "Stateful graph-based agent workflows - conditional routing, persistence, and production patterns with LangGraph and Hermes"
 canonical: "https://www.corpusiq.io/docs/hermes/orchestration/langgraph/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: 2026-11-11
 tags: ["hermes orchestration", "multi-agent", "agent workflow"]
 
 ---
@@ -243,6 +243,7 @@ State saved to SQLite after every node transition. Survives process restarts.
 ```python
 from langgraph.checkpoint.sqlite import SqliteSaver
 
+# Requires the separate langgraph-checkpoint-sqlite package
 checkpointer = SqliteSaver.from_conn_string("hermes_langgraph.db")
 workflow = graph.compile(checkpointer=checkpointer)
 
@@ -286,28 +287,34 @@ workflow.invoke(
 
 ## Production Pattern 3: Human-in-the-Loop
 
-LangGraph supports interrupting execution for human approval:
+LangGraph interrupts execution for human approval from inside a node, using
+the `interrupt()` function. The checkpointer saves state at that point, and you
+resume by re-invoking the graph with a `Command`:
 
 ```python
-def sensitive_action(state):
-    """Action that requires human approval before execution."""
-    # This node will interrupt and wait
-    pass
+from langgraph.types import interrupt, Command
 
-graph.add_node("approval_check", sensitive_action)
+def approval_check(state):
+    """Pause here until a human approves the action."""
+    approved = interrupt({"action": "publish", "draft": state["final_output"]})
+    # On resume, Command(resume=...) becomes the return value
+    return {"approved": approved}
 
-# Compile with interrupt before the sensitive node
-workflow = graph.compile(
-    checkpointer=checkpointer,
-    interrupt_before=["approval_check"]
-)
+graph.add_node("approval_check", approval_check)
 
-# Execution pauses at approval_check
-result = workflow.invoke(state, config)
+# Compile with a checkpointer. interrupt() needs durable state to resume from.
+workflow = graph.compile(checkpointer=checkpointer)
 
-# Human reviews and approves
-workflow.invoke(None, config)  # Resumes from checkpoint
+config = {"configurable": {"thread_id": "approval_001"}}
+result = workflow.invoke(state, config)   # Pauses inside approval_check
+
+# Human reviews the payload, then resumes with a value
+workflow.invoke(Command(resume=True), config)
 ```
+
+Static `interrupt_before=[...]` breakpoints at compile time are the older
+form. The dynamic `interrupt()` call is the current API, and it can be placed
+anywhere in a node and made conditional on state.
 
 ### Approval Patterns
 

@@ -1,7 +1,7 @@
 ---
-title: Google Preferred Sources Badge - Get Cited in AI Overviews
-description: "How the Google Preferred Sources badge works and how to add it to your site in two lines of code. Get a preferred badge in AI Overviews, AI Mode, and Top Stories."
-last_updated: 2026-11-01
+title: "Google Preferred Sources Badge - Get Cited in AI Overviews"
+description: "How the Google Preferred Sources badge works and how to add it to your site in two lines of code. Get a preferred badge in AI Overviews, AI Mode, and Top"
+last_updated: 2026-11-11
 canonical: "https://www.corpusiq.io/docs/hermes/seo/google-preferred-sources-badge/"
 robots: "index,follow"
 tags: ["geo", "aeo", "seo", "ai overviews", "google search"]
@@ -36,6 +36,8 @@ For business tools sites, this targets the same surfaces as AEO and GEO work: AI
 ## Eligibility
 
 Only domain-level and subdomain-level sites are eligible. Subdirectory paths are not.
+
+Google also requires the site to be included in Search generative AI features in Search Console before it can appear in the source preferences tool.
 
 - Eligible: `https://example.com`, `https://code.example.com`
 - Not eligible: `https://example.com/blog`

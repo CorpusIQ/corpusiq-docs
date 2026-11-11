@@ -1,22 +1,21 @@
 ---
 title: "CorpusIQ vs Viktor Pricing: Flat Plans vs Credit Metering"
-description: "Viktor charges by credits ($50-$50K per month depending on usage). CorpusIQ uses flat monthly plans. Compare the real costs of AI business assistants."
+description: "Viktor charges by credits on top of a monthly plan. CorpusIQ uses flat monthly plans. Compare the real costs of AI business assistants"
 tags: [compare, pricing, viktor, ai employee]
-last_updated: "2026-11-01"
+last_updated: 2026-11-11
 ---
 
 # CorpusIQ vs Viktor Pricing
 
-Viktor sells an AI employee that lives in Slack and Microsoft Teams and charges by the credit. CorpusIQ sells a data layer for your existing AI assistants and charges a flat monthly rate. The pricing models are the difference between a predictable tool and a metered surprise.
+Viktor sells an AI employee that lives in Slack, Microsoft Teams, and email, and charges by the credit. CorpusIQ sells a data layer for your existing AI assistants and charges a flat monthly rate. The pricing models are the difference between a predictable tool and a metered surprise.
 
 ## How Viktor prices
 
 Viktor uses credit-based pricing. Every plan includes all features and all integrations; the only variable is how many credits you buy.
 
-- Free tier: $100 in credits, no credit card
-- Team plans: $50/month (20,000 credits) up to $5,000/month (2,000,000 credits); the most popular plan is $750/month for 300,000 credits
-- Medium company: $7,500/month to $30,000/month
-- Enterprise: $35,000/month to $50,000/month, custom terms beyond that
+- Free tier: up to $100 in credits, no credit card; free credits never expire
+- Team: $100/month with 40,000 shared credits monthly, selectable in tiers from $50 to $500/month as usage grows
+- Enterprise: custom pricing, with volume credit discounts and invoiced terms
 
 Credits are consumed per task. A quick task costs 100-300 credits. A complex workflow costs 500-1,500 credits. A full project can cost 2,000-5,000 credits.
 
@@ -36,7 +35,7 @@ CorpusIQ is a flat monthly subscription. Same price whether you ask 10 questions
 | | Viktor | CorpusIQ |
 |---|---|---|
 | Billing model | Credits, consumed per task | Flat monthly |
-| Price range | $50 to $50,000/month | $29.95 to $189.95/month |
+| Price range | $0 to $500/month, Enterprise custom | $29.95 to $189.95/month |
 | Cost per question | Unknown until you run it | Zero marginal cost |
 | Plan ceiling | Usage caps every tier | Usage is included |
 | Predictability | Meter-based | Fixed |
@@ -57,7 +56,7 @@ It depends on usage. For a small team running a handful of tasks a day, Viktor's
 
 ### Do credits roll over?
 
-Viktor free and trial credits never expire. Monthly plan credits reset each cycle, which means unused credits at the end of the month are gone. With CorpusIQ, there is nothing to roll over because there is nothing to meter.
+Viktor free credits never expire, and unused monthly plan credits roll over to the next month. With CorpusIQ, there is nothing to roll over because there is nothing to meter.
 
 ### Which is better for a growing team?
 

@@ -1,26 +1,30 @@
 ---
 title: "MCP Roadmap and CorpusIQ: Protocol Direction Explained"
-description: "The new MCP roadmap prioritizes progressive discovery, tool result contracts, agent identity, and stateless servers. CorpusIQ shipped these patterns first. What each priority area means for governed business answers."
+description: "The MCP roadmap's five priority areas, mapped to what CorpusIQ already ships. What each area means for governed business answers"
 canonical: "/hermes/mcp/mcp-roadmap-corpusiq/"
 robots: "index, follow"
 tags: [mcp, roadmap, progressive-discovery, stateless, agent-identity, answerspec, governance]
-last_updated: "2026-11-01"
+last_updated: 2026-11-11
 ---
 
 # MCP Roadmap and CorpusIQ
 
 The Model Context Protocol team publishes a roadmap that sets the direction
-for protocol work. The updated roadmap (August 2026) organizes the work into
-five priority areas. Several of them describe patterns CorpusIQ already
-shipped. This page maps each priority area to the CorpusIQ implementation.
+for protocol work. The updated roadmap (last revised 2026-08-22) organizes the
+work into five priority areas: agentic messaging primitives, HTTP-native
+transport unification, agent identity and enterprise-ready security, improved
+primitives, and SDK developer experience. Several of them describe patterns
+CorpusIQ already shipped. This page maps each priority area to the CorpusIQ
+implementation.
 
 ## Progressive discovery
 
-The roadmap states that connecting to a server with a hundred tools means the
-model pays for the entire surface before the user asks a single question, and
-tool selection gets worse as the list grows. The protocol is starting a
-progressive discovery effort so a server can offer a small entry point and
-reveal more of its catalog as the conversation narrows.
+Progressive discovery is one of the three deliverables in the fourth priority
+area, improved primitives. The roadmap states that connecting to a server with
+a hundred tools means the model pays for the entire surface before the user
+asks a single question, and tool selection gets worse as the list grows. The
+protocol is starting a progressive discovery effort so a server can offer a
+small entry point and reveal more of its catalog as the conversation narrows.
 
 CorpusIQ ships this pattern today. A single model-facing entry point resolves
 the question into a governed workflow, and the tool surface is revealed
@@ -28,10 +32,10 @@ incrementally. The model makes one decision; CorpusIQ does the routing.
 
 ## Tool result contracts
 
-The roadmap identifies that a tool call response can carry the same output in
-more than one form, and a server developer has no way to know which form a
-client will put in front of the model. The goal is to standardize one clear
-contract.
+The same improved primitives area carries a tool result shape deliverable: a
+tool call response can carry the same output in more than one form, and a
+server developer has no way to know which form a client will put in front of
+the model. The goal is to standardize one clear contract.
 
 CorpusIQ already defines a single output contract for business answers: the
 AnswerSpec. Every answer carries the reconciliation summary, the pinned metric
@@ -40,9 +44,10 @@ contract, every client.
 
 ## Stateless servers
 
-The 2026-07-28 specification release removed protocol-level sessions and the
-initialization handshake. Servers can now scale horizontally without holding
-state.
+Statelessness is not an open roadmap item: it shipped. The 2026-07-28
+specification release removed protocol-level sessions and the
+initialization handshake, and 2026-07-28 remains the current revision. Servers
+can now scale horizontally without holding state.
 
 CorpusIQ builds on this: answers are self-contained. The rendered result is a
 direct function of the verified tool result, so the same question renders the
