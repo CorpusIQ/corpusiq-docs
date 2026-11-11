@@ -1,9 +1,9 @@
 ---
-title: New in MCP - Actualyze, AI Governance Layer ($7M Raised)
-description: Actualyze joins the MCP ecosystem with an AI governance platform. Govern, secure, route, and audit every AI call. $7M from top investors. August 2026.
+title: "New in MCP - Actualyze, AI Governance Layer ($7M Raised)"
+description: "Actualyze joins the MCP ecosystem with an AI governance platform. Govern, secure, route, and audit every AI call. $7M from top investors. August"
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/actualyze-discovery/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: 2026-11-11
 tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
@@ -29,9 +29,11 @@ As MCP adoption grows, enterprises need governance over their AI tool usage. Act
 
 Combined with MCP servers like CorpusIQ (business data), the result is governed, secure AI with live business answers.
 
-## Funding
+## Funding and status
 
-$7M raised. Early access stage.
+$7M raised, backed by Storm Ventures, Canaan Partners, Morado Ventures, and
+AME Cloud Ventures. The platform is live with a 30-day free trial; it is no
+longer early access.
 
 ## Links
 
