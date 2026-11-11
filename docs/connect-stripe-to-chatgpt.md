@@ -1,6 +1,6 @@
 ---
 title: "Connect Stripe to ChatGPT via MCP - Live Data, No Code"
-description: "Connect your Stripe account to ChatGPT through CorpusIQ MCP. Ask plain-language questions and get real-time, source-cited answers."
+description: "Connect your Stripe account to ChatGPT through CorpusIQ MCP. Ask plain-language questions and get real-time, source-cited answers"
 category: ChatGPT Integrations
 tags: ["connect Stripe to ChatGPT", "Stripe ChatGPT integration", "MCP Stripe connector", "Stripe data to ChatGPT", "AI for Stripe", "CorpusIQ MCP"]
 last_updated: "2026-11-07"
@@ -170,6 +170,7 @@ Setup takes under 5 minutes. No code. No data exports.
 
 ## Related Pages
 
+- [Connect Stripe to Perplexity](connect-stripe-to-perplexity.md) - payment data in Perplexity
 - [Connect QuickBooks to ChatGPT](connect-quickbooks-to-chatgpt.md) - financial data in ChatGPT
 - [Connect Shopify to ChatGPT](connect-shopify-to-chatgpt.md) - ecommerce data in ChatGPT
 - [Connect HubSpot to ChatGPT](connect-hubspot-to-chatgpt.md) - CRM data in ChatGPT
