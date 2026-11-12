@@ -1,6 +1,6 @@
 ---
 title: "agent-sessions - macOS Agent Session Browser Setup"
-description: "Install and configure agent-sessions (683⭐) - a local-first macOS app for browsing, searching, and resuming AI coding-agent session histories across Hermes"
+description: "Install and configure agent-sessions: a local-first macOS app for browsing, searching and resuming AI coding-agent session histories across Hermes."
 skill_name: agent-sessions
 category: session-management
 difficulty: Easy

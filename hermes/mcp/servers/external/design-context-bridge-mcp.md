@@ -1,6 +1,6 @@
 ---
 title: "Design Context Bridge MCP - Figma-to-Code for Hermes"
-description: "Turn any AI agent into a frontend developer that reads Figma files natively. Components, colors, type scale, routes, icons - faithful design-to-code, not"
+description: "Turn any AI agent into a frontend developer that reads Figma files natively: components, colors, type scale, routes and icons, no guesswork."
 category: mcp
 tags: [mcp-server, design, figma, frontend, design-to-code, components, product-design]
 last_updated: 2026-11-01

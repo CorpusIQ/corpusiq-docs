@@ -1,6 +1,6 @@
 ---
 title: "MCP Apps: Interactive UIs Inside Claude and ChatGPT"
-description: "MCP Apps is the first official MCP extension. Tools return interactive dashboards, forms, and visualizations that render inside Claude and ChatGPT"
+description: "MCP Apps is the first official MCP extension. Tools return interactive dashboards, forms and visualizations that render inside Claude and ChatGPT."
 canonical: "/hermes/mcp/mcp-apps-interactive-ui/"
 robots: "index, follow"
 tags: [mcp, apps, ui, interactive, dashboards, claude, chatgpt, extension]

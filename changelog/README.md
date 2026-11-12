@@ -1,6 +1,6 @@
 ---
 title: README
-description: "What's shipped to production, newest first. Customer-facing changes only - internal refactors and infrastructure work live in the engineering tracker, not"
+description: "What shipped to production, newest first. Customer-facing changes only; internal refactors and infrastructure work stay in the engineering tracker."
 last_updated: "2026-11-07"
 ---
 # Changelog
