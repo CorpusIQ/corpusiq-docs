@@ -147,7 +147,7 @@ CorpusIQ does not retain raw customer files or full connector response payloads.
 
 ---
 
-**Next steps:** [Connect QuickBooks to Perplexity now](https://corpusiq.io/connect/quickbooks-with-perplexity)
+**Next steps:** [Connect QuickBooks to Perplexity now](https://www.corpusiq.io/connectors/perplexity)
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
 
