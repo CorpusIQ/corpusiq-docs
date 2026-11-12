@@ -1,7 +1,7 @@
 ---
 title: "Ahrefs - CorpusIQ Docs"
 description: "Ahrefs is one of the most trusted platforms for backlink analysis and domain authority scoring. Connecting it lets CorpusIQ pull domain ratings, organ."
-last_updated: "2026-11-07"
+last_updated: "2026-11-08"
 ---
 # Ahrefs
 

@@ -3,7 +3,7 @@ title: "Connect Stripe to Perplexity via MCP"
 description: "Connect Stripe to Perplexity through CorpusIQ MCP. Ask about charges, subscriptions, churn and payouts and get answers from your own payment data"
 category: Perplexity Integrations
 tags: ["connect Stripe to Perplexity", "Stripe Perplexity integration", "MCP Stripe connector", "Stripe data to AI", "ask Stripe in plain English", "CorpusIQ MCP"]
-last_updated: "2026-11-11"
+last_updated: "2026-11-12"
 canonical: "https://www.corpusiq.io/docs/connect-stripe-to-perplexity"
 robots: "index,follow"
 ---

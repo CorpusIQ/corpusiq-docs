@@ -1,7 +1,7 @@
 ---
 title: seo-corpusiq-fr
 description: "CorpusIQ pour le marché français : connectez QuickBooks, Stripe, Shopify et HubSpot à ChatGPT et obtenez des réponses citées."
-last_updated: "2026-11-01"
+last_updated: "2026-11-12"
 ---
 # Plateforme MCP CorpusIQ - Connectez vos données business à ChatGPT en 5 minutes
 

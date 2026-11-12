@@ -7,7 +7,7 @@ added: 2026-08-13
 source: mcp.so
 relevance: ★★
 tags: [accounting, invoicing, erp, finance, oauth, poland, remote-mcp]
-last_updated: "2026-11-01"
+last_updated: "2026-11-12"
 ---
 
 # Fakto.app wFirma MCP

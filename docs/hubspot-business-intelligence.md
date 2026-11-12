@@ -24,7 +24,7 @@ keywords:
 - HubSpot conversational CRM
 canonical: "https://www.corpusiq.io/docs/hubspot-business-intelligence/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-12"
 ---
 
 # HubSpot Business Intelligence - Connect Your CRM to AI

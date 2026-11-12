@@ -3,7 +3,7 @@ title: "Connect Dropbox to Perplexity via MCP"
 description: "Connect Dropbox to Perplexity through CorpusIQ MCP. Ask about contracts, board decks and invoices held in your folders, answered from the actual files."
 category: Perplexity Integrations
 tags: ["connect Dropbox to Perplexity", "Dropbox Perplexity integration", "MCP Dropbox connector", "document search", "contract lookup", "CorpusIQ MCP"]
-last_updated: "2026-11-05"
+last_updated: "2026-11-08"
 canonical: "https://www.corpusiq.io/docs/connect-dropbox-to-perplexity"
 robots: "index,follow"
 ---

@@ -3,7 +3,7 @@ title: "Connect Odoo to Perplexity via MCP"
 description: "Connect Odoo to Perplexity through CorpusIQ MCP. Ask about open quotations, overdue invoices, stock on hand and pipeline across ERP modules."
 category: Perplexity Integrations
 tags: ["connect Odoo to Perplexity", "Odoo Perplexity integration", "MCP Odoo connector", "ERP data to AI", "inventory and invoices", "CorpusIQ MCP"]
-last_updated: "2026-11-05"
+last_updated: "2026-11-08"
 canonical: "https://www.corpusiq.io/docs/connect-odoo-to-perplexity"
 robots: "index,follow"
 ---

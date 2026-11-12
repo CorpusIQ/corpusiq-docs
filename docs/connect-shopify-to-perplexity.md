@@ -3,7 +3,7 @@ title: "Connect Shopify to Perplexity via MCP"
 description: "Connect Shopify to Perplexity through CorpusIQ MCP. Ask about orders, products, customers and payouts and get answers cited to your own store data"
 category: Perplexity Integrations
 tags: ["connect Shopify to Perplexity", "Shopify Perplexity integration", "MCP Shopify connector", "Shopify data to AI", "ask Shopify in plain English", "CorpusIQ MCP"]
-last_updated: "2026-11-11"
+last_updated: "2026-11-12"
 canonical: "https://www.corpusiq.io/docs/connect-shopify-to-perplexity"
 robots: "index,follow"
 ---

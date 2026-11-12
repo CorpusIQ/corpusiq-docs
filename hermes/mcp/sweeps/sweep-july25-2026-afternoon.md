@@ -1,7 +1,7 @@
 ---
 title: "MCP Sweep - July 25, 2026 Afternoon (11:00 AM MST)"
 description: "Sweep notes from July 25 afternoon: new MCP servers catalogued with guides, a GitHub search-token warning and an OpusGrowth launch watch."
-last_updated: 2026-11-01
+last_updated: 2026-11-12
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-july25-2026-afternoon/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

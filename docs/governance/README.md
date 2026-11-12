@@ -3,7 +3,7 @@ title: "CorpusIQ Governance and Controls"
 description: CorpusIQ MSR governance explained. The Metric Spec Registry defines a business number once, tracks resolution and drift, and keeps an audit trail.
 category: "Documentation"
 tags: ["corpusiq governance", "msr", "metric spec registry", "drift detection", "provenance", "audit trail"]
-last_updated: "2026-11-07"
+last_updated: "2026-11-12"
 canonical: "https://www.corpusiq.io/governance"
 robots: "index,follow"
 ---

@@ -3,7 +3,7 @@ title: "Connect ActiveCampaign to Perplexity via MCP"
 description: "Connect ActiveCampaign to Perplexity through CorpusIQ MCP. Ask which campaigns earned, which automations carry the pipeline and how deals are moving."
 category: Perplexity Integrations
 tags: ["connect ActiveCampaign to Perplexity", "ActiveCampaign Perplexity integration", "MCP ActiveCampaign connector", "email campaign performance", "automation health", "CorpusIQ MCP"]
-last_updated: "2026-11-05"
+last_updated: "2026-11-08"
 canonical: "https://www.corpusiq.io/docs/connect-activecampaign-to-perplexity"
 robots: "index,follow"
 ---
