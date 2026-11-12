@@ -1626,7 +1626,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/contributors</loc>
-         <lastmod>2026-11-11</lastmod>
+         <lastmod>2026-11-12</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/data</loc>
@@ -1638,7 +1638,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/ecosystem</loc>
-         <lastmod>2026-11-11</lastmod>
+         <lastmod>2026-11-12</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/ecosystem/august-2026</loc>
@@ -4213,6 +4213,10 @@
          <lastmod>2026-11-01</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/haven-financing-mcp</loc>
+         <lastmod>2026-11-12</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/havoptic-mcp</loc>
          <lastmod>2026-11-01</lastmod>
     </url>
@@ -6213,6 +6217,10 @@
          <lastmod>2026-11-01</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/splitscanner-mcp</loc>
+         <lastmod>2026-11-12</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/sprintcheckout-mcp</loc>
          <lastmod>2026-11-01</lastmod>
     </url>
@@ -6509,6 +6517,10 @@
          <lastmod>2026-11-01</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/tracwell-mcp</loc>
+         <lastmod>2026-11-12</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/tradingagentstack-mcp</loc>
          <lastmod>2026-11-01</lastmod>
     </url>
@@ -6743,6 +6755,10 @@
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/vetagent-mcp</loc>
          <lastmod>2026-11-01</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/vetto-mcp</loc>
+         <lastmod>2026-11-12</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/veyra-mcp</loc>
@@ -7042,7 +7058,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps</loc>
-         <lastmod>2026-11-11</lastmod>
+         <lastmod>2026-11-12</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-aug26-2026-afternoon</loc>
@@ -7379,6 +7395,10 @@
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-november11-2026-night</loc>
          <lastmod>2026-11-11</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-november12-2026-night</loc>
+         <lastmod>2026-11-12</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-november2-2026-evening</loc>
