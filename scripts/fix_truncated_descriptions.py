@@ -178,9 +178,24 @@ def main(argv: list[str]) -> int:
         targets = list(vpm.pages(root))
 
     changed = 0
+    skipped_block = 0
     for p in targets:
         if not os.path.exists(p):
             print('MISSING %s' % p)
+            continue
+        try:
+            raw = open(p, encoding='utf-8', errors='replace').read()
+        except OSError:
+            continue
+        # Block-scalar descriptions (`description: >-` / `description: |`) span
+        # indented continuation lines. Rewriting only the key line orphaned that
+        # text and produced invalid YAML (`description: ">"`), which silently
+        # dropped the meta description and blocked the docs deploy behind the
+        # frontmatter gate. Those pages are complete sentences already: leave
+        # them alone.
+        if re.search(r'(?m)^description:\s*[>|]', raw):
+            skipped_block += 1
+            print('SKIP block-scalar %s' % os.path.relpath(p, root))
             continue
         try:
             res = repair(p)
@@ -202,6 +217,8 @@ def main(argv: list[str]) -> int:
     print('%s: %d description(s) %s' % ('APPLIED' if apply else 'DRY RUN',
                                         changed,
                                         'repaired' if apply else 'repairable'))
+    if skipped_block:
+        print('skipped %d block-scalar description(s) (folded/literal YAML)' % skipped_block)
     return 0
 
 
