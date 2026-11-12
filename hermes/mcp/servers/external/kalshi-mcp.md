@@ -1,6 +1,6 @@
 ---
 title: "Kalshi MCP - Prediction Markets for AI Agents"
-description: "Connect Kalshi prediction markets to Hermes Agent. Get markets, positions, and place orders from any AI agent. First MCP for CFTC-regulated prediction"
+description: "Connect Kalshi prediction markets to Hermes Agent: markets, positions and orders from any AI agent, for CFTC-regulated prediction markets in the US."
 category: mcp
 tags: [mcp-server, kalshi, prediction-markets, finance, trading, event-contracts]
 last_updated: 2026-11-01

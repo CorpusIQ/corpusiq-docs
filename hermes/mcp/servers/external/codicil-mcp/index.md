@@ -1,6 +1,6 @@
 ---
 title: "codicil - Documentation Indexing MCP with Chroma + Ollama"
-description: "Index your repo's Markdown/YAML/TOML docs into a local Chroma vector store and expose query_docs/reindex_docs over MCP. Uses Ollama embeddings when"
+description: "Index a repo's Markdown, YAML and TOML docs into a local Chroma store and expose query_docs and reindex_docs over MCP."
 source: github.com/colehellman/codicil
 stars: 0
 language: Python

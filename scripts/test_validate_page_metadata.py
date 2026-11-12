@@ -67,5 +67,40 @@ class UnbrandTest(unittest.TestCase):
             self.assertFalse(vpm.brand_dupe(once))
 
 
+class DescCutTest(unittest.TestCase):
+    """2026-11-12: descriptions shortened in place by deleting the tail.
+
+    Both cases below shipped live. The first ends on a noun, so the dangling
+    vocabulary could never see it; the second ends on 'not'.
+    """
+
+    def page(self, desc, body):
+        return '---\ntitle: "T"\ndescription: "%s"\n---\n\n# T\n\n%s\n' % (desc, body)
+
+    def test_cut_quote_of_body_copy_is_flagged(self):
+        desc = ('runbook.v1 is an application-layer contract for MCP that makes '
+                'execution required, versioned, and auditable. Deterministic at the host')
+        body = ('Design principles - Deterministic at the host boundary, free '
+                'reasoning between checkpoints. Acquisition is a host function.')
+        self.assertIsNotNone(vpm.desc_cut(desc, self.page(desc, body)))
+
+    def test_cut_on_function_word_is_flagged(self):
+        desc = ('Deterministic compensation data for 3,000 US public companies '
+                'as callable MCP tools. Sourced from SEC proxy filings, not')
+        self.assertIsNotNone(vpm.desc_cut(desc, self.page(desc, '# Other\n\nText.')))
+
+    def test_complete_description_with_period_passes(self):
+        desc = 'Daily sweeps catalog new MCP servers, their capabilities, and integration potential.'
+        body = ('Daily sweeps catalog new MCP servers, their capabilities, and '
+                'integration potential. Recent sweeps document them.')
+        self.assertIsNone(vpm.desc_cut(desc, self.page(desc, body)))
+
+    def test_unpunctuated_description_before_a_new_sentence_passes(self):
+        desc = ('MCP Apps is the first official MCP extension. Tools render '
+                'inside Claude and ChatGPT')
+        body = 'MCP Apps is the first official MCP extension, live since January 26, 2026.'
+        self.assertIsNone(vpm.desc_cut(desc, self.page(desc, body)))
+
+
 if __name__ == '__main__':
     unittest.main()

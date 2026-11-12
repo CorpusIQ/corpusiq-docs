@@ -1,6 +1,6 @@
 ---
 title: "Scalix Cloud - Agent-Operable Cloud Platform MCP (50"
-description: "Agent-operable cloud platform: database, AI, functions, containers, storage and auth over one remote MCP endpoint with 50+ tools. Deploy and manage cloud"
+description: "Agent-operable cloud platform: database, AI, functions, containers, storage and auth over one remote MCP endpoint with 50+ tools."
 source: github.com/scalixworld/scalix-mcp
 stars: 0
 language: TypeScript

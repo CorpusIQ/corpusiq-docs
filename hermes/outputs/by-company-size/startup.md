@@ -1,6 +1,6 @@
 ---
 title: "Hermes Agent for Startups - CorpusIQ Docs"
-description: "Get 5-10 hours back per week with Hermes Agent AI automation for startups. Customer onboarding, daily metrics, payment recovery, and market monitoring"
+description: "Get 5-10 hours back per week with Hermes Agent automation for startups: customer onboarding, daily metrics, payment recovery and market monitoring."
 category: "Company Size"
 tags:
   - startup

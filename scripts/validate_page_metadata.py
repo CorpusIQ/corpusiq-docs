@@ -59,6 +59,97 @@ SKIP_DIRS = {'.git', 'site', 'node_modules', '.cache', '__pycache__'}
 MAX_DESC = 160
 MAX_TITLE = 60
 
+# 2026-11-12: DESCRIPTION TAIL TRUNCATION. A bulk writer (2026-11-01) and the
+# freshness lane (2026-11-12, two pages) shortened `description:` values in
+# place by deleting the tail. The dangling() vocabulary caught the cases that
+# ended on a connective; the ones that ended on a NOUN passed every gate and
+# shipped as live meta descriptions reading "... Deterministic at the host",
+# "... Sourced from SEC proxy filings, not", "... faithful design-to-code, not".
+# Two signatures, both requiring no terminal punctuation so complete
+# descriptions (many legitimately run to 160 without a period) stay untouched:
+#   1. CUT_WORD  - the last word can never close a sentence ('not' included;
+#                  dangling() keeps it out of the title rule because "...are
+#                  not." is legitimate English).
+#   2. CUT_IN_BODY - the description's trailing 40 or 30 characters appear in
+#                  the page body followed by more words that run to a sentence
+#                  end, i.e. the description is a cut quote of page copy.
+# The 22-character tier is deliberately NOT fatal: at that length a coincidence
+# with unrelated body copy is common. The repair tool uses it.
+CUT_WORDS = frozenset((
+    'not', 'these', 'both', 'either', 'nor', 'and', 'or', 'the', 'of', 'to',
+    'for', 'with', 'a', 'an', 'at', 'in', 'on', 'by', 'from', 'as', 'that',
+    'which', 'is', 'are', 'was', 'were', 'be', 'been', 'vs', 'via', 'plus',
+    'between', 'across', 'through', 'into', 'than', 'including', 'such',
+))
+DESC_TERM = re.compile(r'[.!?"\')\]]\s*$')
+
+
+def _plain_body(text):
+    m = re.match(r'^---\n.*?\n---\n(.*)$', text, re.S)
+    body = m.group(1) if m else text
+    body = re.sub(r'[*_`#>\[\]()]', ' ', body)
+    return re.sub(r'\s+', ' ', body).strip().lower()
+
+
+def desc_cut(desc, text):
+    """Return a reason string when a live meta description was cut mid-sentence."""
+    d = ' '.join(desc.split())
+    if not d or len(d) > MAX_DESC or DESC_TERM.search(d):
+        return None
+    last = d.split(' ')[-1].strip('.,:;').lower()
+    if last in CUT_WORDS:
+        return 'CUT WORD: ...%s' % d[-40:]
+    body = _plain_body(text)
+    raw = re.match(r'^---\n.*?\n---\n(.*)$', text, re.S)
+    raw = raw.group(1) if raw else text
+    dn = d.lower()
+    for n in (40, 30, 22):
+        if len(dn) < n:
+            continue
+        tail = dn[-n:]
+        start = 0
+        while True:
+            i = body.find(tail, start)
+            if i < 0:
+                break
+            start = i + 1
+            after = body[i + len(tail):i + len(tail) + 200]
+            if not re.match(r'\s+[A-Za-z0-9]', after) or not re.search(r'[.!?]', after):
+                continue
+            # A cut lands mid-sentence, so the body continues in lower case. An
+            # upper-case continuation is the next sentence (the description was
+            # complete and the body simply says more) - the 22-character tier is
+            # only trustworthy with this filter.
+            if n <= 22 and not re.match(r'\s+[a-z0-9]', after):
+                continue
+            if _match_is_heading(raw, tail):
+                continue  # the phrase is a section heading, not cut prose
+            return 'CUT IN BODY: ...%s || %s' % (d[-36:], after[:42].strip())
+    return None
+
+
+def _match_is_heading(raw, tail):
+    """True when every occurrence of `tail` in the raw body sits on a heading line.
+
+    2026-11-12: "Production guide ... coordination strategies" matched its own
+    "## Coordination Strategies" heading and read as a truncation. Prose and
+    heading text are the same words, so the line marker is the discriminator.
+    """
+    seen = False
+    low = raw.lower()
+    start = 0
+    while True:
+        i = low.find(tail, start)
+        if i < 0:
+            break
+        seen = True
+        line_start = raw.rfind('\n', 0, i) + 1
+        line = raw[line_start:raw.find('\n', i) if raw.find('\n', i) >= 0 else len(raw)]
+        if not line.lstrip().startswith('#'):
+            return False
+        start = i + 1
+    return seen
+
 # 2026-11-01: repeated brand suffix in the <title>. The site template renders
 # page.meta.title verbatim, so a title authored as "Supabase - CorpusIQ Docs -
 # CorpusIQ Docs" reaches the SERP twice brand-suffixed. Measured cost: the
@@ -226,7 +317,10 @@ def main(argv):
 
         desc = value(fm, 'description')
         if desc:
-            if dangling(desc):
+            cut = desc_cut(desc, text)
+            if cut:
+                bad_title.append((rel, 'DESC %s' % cut))
+            elif dangling(desc):
                 bad_title.append((rel, 'DESC DANGLING: ...%s' % desc[-40:]))
             elif DROPPED_PREP.search(desc):
                 bad_title.append((rel, 'DESC DROPPED WORD: %s'

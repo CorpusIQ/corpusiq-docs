@@ -1,6 +1,6 @@
 ---
 title: seo-corpusiq-fr
-description: "*(French-market landing page - founder is French, EU market is strategic)*"
+description: "CorpusIQ pour le marché français : connectez QuickBooks, Stripe, Shopify et HubSpot à ChatGPT et obtenez des réponses citées."
 last_updated: "2026-11-01"
 ---
 # Plateforme MCP CorpusIQ - Connectez vos données business à ChatGPT en 5 minutes

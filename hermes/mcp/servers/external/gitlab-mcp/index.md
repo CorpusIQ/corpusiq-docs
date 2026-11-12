@@ -1,6 +1,6 @@
 ---
 title: "GitLab MCP - CorpusIQ Docs"
-description: "GitLab MCP server for AI clients - manage projects, merge requests, issues, pipelines, wiki and releases over stdio, SSE or Streamable HTTP"
+description: "GitLab MCP server for AI clients: projects, merge requests, issues, pipelines, wiki and releases over stdio, SSE or Streamable HTTP, with OAuth."
 category: Developer Tools
 stars: 1,898
 added: 2026-08-18

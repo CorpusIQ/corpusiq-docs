@@ -1,6 +1,6 @@
 ---
 title: "MCP Server Sweep - July 21, 2026 (Late Night)"
-description: "30 brand-new MCP servers discovered from mcpservers.org /all page (newest-first listing). 6 integration guides drafted for business-operator-relevant"
+description: "30 brand-new MCP servers from the mcpservers.org newest-first listing, with 6 integration guides drafted for operator-relevant servers."
 category: mcp
 tags: [mcp-servers, discovery, sweep, catalog, 2026]
 last_updated: 2026-11-01

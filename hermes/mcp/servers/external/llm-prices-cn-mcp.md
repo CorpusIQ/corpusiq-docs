@@ -1,6 +1,6 @@
 ---
 title: "LLM Prices CN MCP Server - Daily-Verified LLM Pricing"
-description: "Integration guide for szp2005/llm-prices-cn: 44+ LLM models, daily-verified pricing (CN & global), hosted MCP server for live price queries and token cost"
+description: "Integration guide for llm-prices-cn: 44+ LLM models with daily-verified CN and global pricing, served as live price and token-cost queries."
 category: finance
 tags: [mcp, llm-pricing, cost-optimization, api, token-estimation]
 source: awesome-mcp-servers

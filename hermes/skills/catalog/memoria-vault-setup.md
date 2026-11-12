@@ -1,6 +1,6 @@
 ---
 title: "memoria-vault - Multi-Agent Research OS for Obsidian"
-description: "Deploy memoria-vault (4⭐) - seven specialized AI agents that read, enrich, and write inside your Obsidian vault. Turn your notes into an active research"
+description: "Deploy memoria-vault: seven specialized AI agents that read, enrich and write inside your Obsidian vault, turning notes into an active research lab."
 skill_name: memoria-vault
 category: research-pkm
 difficulty: Medium
