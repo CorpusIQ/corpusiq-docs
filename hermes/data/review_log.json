@@ -22334,5 +22334,131 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-11-12T04:03:06.842651+00:00"
+  },
+  {
+    "repo": "ch8er/kelpie",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-12T10:03:24.510340+00:00"
+  },
+  {
+    "repo": "AlphaPerseii3000/jev-effort-router",
+    "score": 58,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-12T10:03:24.510354+00:00"
+  },
+  {
+    "repo": "haykguy/butler",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-12T10:03:24.510357+00:00"
+  },
+  {
+    "repo": "Mqdd27/Kantong",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-12T10:03:24.510360+00:00"
+  },
+  {
+    "repo": "dubr1k/writing-ru",
+    "score": 51,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-12T10:03:24.510362+00:00"
+  },
+  {
+    "repo": "BlackHelio/agent-wallet",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-12T10:03:24.510364+00:00"
+  },
+  {
+    "repo": "subnano-ai/hermes-plugin",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-12T10:03:24.510366+00:00"
+  },
+  {
+    "repo": "kbelludoo/hermes-nim",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-12T10:03:24.510367+00:00"
+  },
+  {
+    "repo": "nbandan/heirpros-mcp",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-12T10:03:24.510369+00:00"
+  },
+  {
+    "repo": "vogtersea/hermes-ugreen-nas",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-12T10:03:24.510371+00:00"
+  },
+  {
+    "repo": "HCH725/hermes-104-hunter",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-12T10:03:24.510373+00:00"
+  },
+  {
+    "repo": "agentveil-protocol/agentveil-sdk",
+    "score": 67,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-12T10:03:24.510375+00:00"
+  },
+  {
+    "repo": "Loo1015/hermes-memory-kit",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-12T10:03:24.510377+00:00"
+  },
+  {
+    "repo": "0xdopewilly/emporium-near",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-12T10:03:24.510379+00:00"
+  },
+  {
+    "repo": "al3xar/hermes-agent",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-12T10:03:24.510380+00:00"
+  },
+  {
+    "repo": "npetroff24/hermes-plugin-idle-compact",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-12T10:03:24.510383+00:00"
+  },
+  {
+    "repo": "xggbest/cc-switch",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-12T10:03:24.510385+00:00"
+  },
+  {
+    "repo": "inkandwire/hermes-embargo",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-12T10:03:24.510386+00:00"
   }
 ]
