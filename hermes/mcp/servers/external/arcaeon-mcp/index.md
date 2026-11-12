@@ -1,6 +1,6 @@
 ---
-title: "Arcaeon MCP - An Agent Record That Cannot Be Quietly"
-description: "One package that replaced thirteen: hash-chained ledgers driven end to end on this host, a tampered row named by line, an MCP server graded by reading"
+title: "Arcaeon MCP - A Record an Agent Cannot Rewrite"
+description: "Hash-chained agent ledgers driven end to end, a tampered row named by line, a source grade of our own MCP server, and a two-sided deal verdict"
 category: Compliance
 stars: "1 (GitHub, 2026-11-11)"
 added: 2026-11-12
