@@ -1,9 +1,9 @@
 ---
 title: "Skills Marketplace - CorpusIQ Docs"
-description: "Discover and install community skills from skills.sh - 1,573+ curated skills across 22 categories. Browse by category, check trending skills, submit"
+description: "Discover and install community skills from skills.sh - 1,579+ curated skills across 22 categories. Browse by category, check trending skills, submit"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/"
 robots: "index,follow"
-last_updated: "2026-11-11"
+last_updated: "2026-11-12"
 tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---
@@ -12,9 +12,10 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 The Skills Marketplace is the community hub for discovering, installing, and sharing Hermes agent skills. Every skill listed here is a production-ready, executable workflow from [skills.sh](https://skills.sh) - install with a single command and use immediately.
 
-**1,573+ curated skill repos across 22 categories.** Updated weekly as new skills are published.
+**1,579+ curated skill repos across 22 categories.** Updated weekly as new skills are published.
 
 ## Recent Sweeps
+- [November 12, 2026 (Morning) - Glebis Claude Skills (glebis/claude-skills, 14,683 combined, 96 listings, 413 stars, MIT, Solopreneur operations: research runs, meeting transcripts, PDF and deck production, image and voice generation and personal analytics), Pawbytes Skill Suites (pawbytes/skill-suites, 10,105 combined, 76 listings, 118 stars, MIT, Marketing and creative operations: SOSTAC planning, social and content production, video repurposing, product development and webinar production), Asgard Skills (asgard-ai-platform/skills, 4,981 combined, 96 listings, 245 stars, MIT, Business method libraries: 301 Chinese-language skills across theory models, algorithms, frameworks, economics and Taiwan market practice), Privacy and Data Protection Skills (mukul975/privacy-data-protection-skills, 4,267 combined, 96 listings, 336 stars, Apache-2.0, Privacy compliance: GDPR, EU AI Act, CCPA, HIPAA, LGPD and DPDP procedures with audit and DPIA workflows), Looker Skills (looker-open-source/looker-skills, 3,277 combined, 26 listings, 47 stars, Apache-2.0, Business intelligence: LookML views, models, explores, fields, tests and access grants plus a seven-step onboarding pipeline), Dataverse Skills (microsoft/dataverse-skills, 3,100 combined, 11 listings, 257 stars, MIT, Microsoft data platform: Dataverse schema, queries, records, solutions, security and admin skills plus Dynamics 365 Finance and Operations)](/hermes/skills/marketplace/new-nov12-2026-morning-skills) - a fresh 78-query generic business-process probe, 6,055 rows across 2,054 sources, 23 candidates sized from source, 6 publisher clusters, 391 listings, 6 setup guides
 - [November 11, 2026 (Evening) - Microsoft Aspire Skills (microsoft/aspire-skills, 8,474 combined, 8 listings, 94 stars, MIT, .NET distributed apps: AppHost routing, local orchestration and telemetry, deploy targets, terminal automation and a Project v2 migration), AI Marketing Skills (BrianRWagner/ai-marketing-claude-code-skills, 10,449 combined, 24 listings, 455 stars, no LICENSE file, Marketing operations: positioning, cold outreach, content systems, de-AI rewriting, LinkedIn and X voice and AI search visibility), Baoyu Design (jimliu/baoyu-design, 16,167 combined, 10 listings, 6,382 stars, NOASSERTION, Design artifacts: local slide decks, canvases, design systems, dashboards, chart guidance, motion films and whiteboards), Code Review Skill (awesome-skills/code-review-skill, 5,093 combined, 2 listings, 2,249 stars, MIT, Engineering quality: a four-phase review over 21,000 lines of per-language guidance, six severity labels and security checklists), YouTube Clipper (op7418/youtube-clipper-skill, 4,415 combined, 1 listing, 2,307 stars, MIT, Video repurposing: semantic chaptering, frame-accurate cuts, batch bilingual subtitles and platform copy), Tinybird Agent Skills (tinybirdco/tinybird-agent-skills, 4,743 combined, 4 listings, 21 stars, no LICENSE file, Real-time analytics: 18 project rules, the tb CLI surface and the TypeScript and Python SDKs), Apify Awesome Skills (apify/awesome-skills, 4,199 combined, 39 listings, 294 stars, Apache-2.0, Market and lead intelligence: e-commerce pricing, verified emails, ad research and AI answer visibility)](/hermes/skills/marketplace/new-nov11-2026-evening-skills) - a fresh 72-query generic probe, 5,254 rows across 1,294 sources, 42 candidates sized from source, 7 publisher clusters, 88 listings, 7 setup guides
 - [November 11, 2026 (Morning) - Anthropic Healthcare Skills (anthropics/healthcare, 2,256 combined, 10 listings, 443 stars, no LICENSE file, Healthcare operations: clinical data extraction, coding, claims review, FHIR integration and contract questions, with seven connected MCP servers), Apple Skills (rshankras/claude-code-apple-skills, 13,116 combined, 96 listings, 882 stars, MIT, Apple platform: 165 skills across 23 categories covering iOS, macOS, watchOS, visionOS, App Store optimization and release review), Agent Stuff (mitsuhiko/agent-stuff, 5,538 combined, 21 listings, 3,212 stars, Apache-2.0, Builder utilities: OpenSCAD modelling, Chrome DevTools browser control, headless Ghidra, tmux session control and gh workflows), Claude Patent Creator (robthepcguy/claude-patent-creator, 2,710 combined, 17 listings, 211 stars, MIT, Intellectual property: hybrid RAG over MPEP, 35 USC and 37 CFR, prior-art search and 112(a) and 112(b) checks), GRC Skills (sushegaad/claude-skills-governance-risk-and-compliance, 9,363 combined, 36 listings, 1,060 stars, MIT, Compliance: one skill per framework across ISO 27001, SOC 2, FedRAMP, GDPR, HIPAA, EU AI Act and NIST 800-53), KiCad Happy (aklofas/kicad-happy, 8,216 combined, 12 listings, 1,644 stars, MIT, Hardware design: schematic and layout parsing, power tree computation, ESD audits, EMC pre-checks and distributor sourcing), MATLAB Agentic Toolkit (matlab/matlab-agentic-toolkit, 6,814 combined, 96 listings, 1,290 stars, NOASSERTION, Engineering and scientific computing: 158 skills that drive the MATLAB MCP server so an agent runs code instead of guessing toolbox signatures)](/hermes/skills/marketplace/new-nov11-2026-morning-skills) - a 57-query domain probe at 2.7s pacing, 3,803 rows across 1,745 sources, 24 candidates sized from source, 7 publisher clusters, 288 listings, 7 setup guides
 - [November 10, 2026 (Evening) - Embedded Skills (zhinkgit/embeddedskills, 8,222 combined, 12 listings, 793 stars, MIT, Embedded systems: Keil and GCC builds, J-Link and OpenOCD flashing, serial, CAN and network debugging), Flutter AI Rules (evanca/flutter-ai-rules, 8,083 combined, 37 listings, 670 stars, MIT, Flutter development: state management, architecture, testing, accessibility and 16 Firebase service skills), Sanity Context Skills (sanity-io/context, 3,479 combined, 4 listings, 7 stars, no LICENSE file, Structured content: agent context construction, prompt shaping and GROQ queries over Sanity), Self-Learning Skill (philschmid/self-learning-skill, 3,432 combined, 1 listing, 97 stars, Apache-2.0, Agent self-improvement: researching a new library on the web into a reusable SKILL.md), draw.io MCP (jgraph/drawio-mcp, 3,421 combined, 1 listing, 5,809 stars, Apache-2.0, Diagramming: the official draw.io MCP server and the drawio skill for .drawio files, ELK layout and export), UX Writing Skill (content-designer/ux-writing-skill, 3,063 combined, 1 listing, 262 stars, MIT, Product copy: interface microcopy, error and empty states and design-system voice enforcement)](/hermes/skills/marketplace/new-nov10-2026-evening-skills) - the pre-sized queue from the Nov 10 morning fire, 6 publisher clusters, 56 listings, 6 setup guides
@@ -366,7 +367,7 @@ New skills are discovered weekly through automated sweeps of skills.sh. Each dis
 
 ---
 
-**Total: 1,573+ curated skill repos across 22 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
+**Total: 1,579+ curated skill repos across 22 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
 
 *← [Skills Home](/hermes/skills) | [Skills Catalog](/hermes/skills/catalog) | [Latest Discoveries →](/hermes/skills/marketplace/new-june29-2026)*
 
@@ -452,7 +453,7 @@ New skills are discovered weekly through automated sweeps of skills.sh. Each dis
 
 ### What is the Hermes Skills Marketplace?
 
-The Skills Marketplace is the community hub for discovering, installing, and sharing Hermes agent skills. It indexes 1,573+ curated skill repositories across 22 categories from skills.sh, each with a setup guide and installation command.
+The Skills Marketplace is the community hub for discovering, installing, and sharing Hermes agent skills. It indexes 1,579+ curated skill repositories across 22 categories from skills.sh, each with a setup guide and installation command.
 
 ### How do I install a skill from the marketplace?
 
@@ -472,7 +473,7 @@ Weekly, with recent sweep pages published as new publisher clusters and skills a
       "name": "What is the Hermes Skills Marketplace?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The Skills Marketplace is the community hub for discovering, installing, and sharing Hermes agent skills. It indexes 1,573+ curated skill repositories across 22 categories from skills.sh, each with a setup guide and installation command."
+        "text": "The Skills Marketplace is the community hub for discovering, installing, and sharing Hermes agent skills. It indexes 1,579+ curated skill repositories across 22 categories from skills.sh, each with a setup guide and installation command."
       }
     },
     {
