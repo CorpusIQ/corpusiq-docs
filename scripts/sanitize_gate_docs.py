@@ -50,10 +50,17 @@ DANGLING = {
 def sanitize_len(value, maxlen):
     """Dash-normalize, clamp to a whole-word boundary <= maxlen, then drop any
     trailing dangling connective so the result also passes
-    validate_page_metadata.dangling()."""
+    validate_page_metadata.dangling().
+
+    A value that already fits is returned untouched. Routing it through
+    trim_dangling() anyway was silently deleting the sentence-final period from
+    every description the hook touched ("...make them useful." became
+    "...make them useful"), which is exactly the no-terminal-punctuation class
+    the SEO repairs were fixing (2026-11-12).
+    """
     value = value.replace(EM_DASH, '-').replace(EN_DASH, '-')
     if len(value) <= maxlen:
-        return trim_dangling(value)
+        return value
     head = value[:maxlen]
     if ' ' in head:
         head = head.rsplit(' ', 1)[0]
@@ -94,11 +101,19 @@ def sanitize_text(txt):
         for key, maxlen in (('title', MAX_TITLE), ('description', MAX_DESC)):
             if stripped.startswith(key + ':'):
                 val = stripped.split(':', 1)[1].strip()
+                # A folded/literal block scalar carries its value on the
+                # indented lines below; rewriting this line to a quoted string
+                # destroyed them. 2026-11-12: `description: >-` became
+                # `description: ">"` and the value leaked into the page body.
+                # The block is left alone (the render hook caps the value).
+                if val in ('>', '>-', '>+', '|', '|-', '|+'):
+                    break
                 if len(val) >= 2 and val[0] in '\'"' and val[-1] in '\'"':
                     val = val[1:-1]
-                val = sanitize_len(val, maxlen)
-                indent = lines[i][:len(lines[i]) - len(lines[i].lstrip())]
-                lines[i] = '%s%s: "%s"' % (indent, key, val)
+                new_val = sanitize_len(val, maxlen)
+                if new_val != val:
+                    indent = lines[i][:len(lines[i]) - len(lines[i].lstrip())]
+                    lines[i] = '%s%s: "%s"' % (indent, key, new_val)
                 break
     return '\n'.join(lines)
 

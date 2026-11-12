@@ -105,6 +105,32 @@ class SanitizeGateDocsTests(unittest.TestCase):
             if line.startswith('title:') or line.startswith('description:'):
                 self.assertIn('"', line)
 
+    # --- 2026-11-12 regressions -------------------------------------------
+    def test_in_limit_description_keeps_its_period(self):
+        # The sanitizer ran trim_dangling() on values that already fit, and its
+        # final rstrip(' ,;:.-') deleted the sentence-final period. Every
+        # description committed through the hook lost its full stop.
+        raw = ('---\ntitle: "Ok"\n'
+               'description: "Ask pipeline questions in plain English and get cited answers."\n'
+               '---\nbody\n')
+        self.assertEqual(s.sanitize_text(raw), raw)
+
+    def test_unquoted_in_limit_description_is_not_requoted(self):
+        raw = ('---\ntitle: "Ok"\n'
+               'description: Ask pipeline questions in plain English.\n'
+               '---\nbody\n')
+        self.assertEqual(s.sanitize_text(raw), raw)
+
+    def test_folded_block_scalar_is_untouched(self):
+        # `description: >-` was treated as the value itself, so the line became
+        # description: ">" and the folded value was orphaned in the body.
+        raw = ('---\ntitle: "ChatGPT Integration - CorpusIQ Docs"\n'
+               'description: >-\n'
+               '  Use CorpusIQ inside ChatGPT. Ask natural-language questions\n'
+               '  and get cited answers without leaving the chat.\n'
+               '---\nbody\n')
+        self.assertEqual(s.sanitize_text(raw), raw)
+
 
 if __name__ == '__main__':
     unittest.main()
