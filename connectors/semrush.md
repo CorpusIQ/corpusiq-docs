@@ -1,7 +1,7 @@
 ---
 title: "Semrush - CorpusIQ Docs"
 description: "Bring SEO and competitive search data into the conversation."
-last_updated: "2026-11-07"
+last_updated: "2026-11-08"
 ---
 # Semrush
 

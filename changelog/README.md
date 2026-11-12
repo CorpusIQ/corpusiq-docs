@@ -1,7 +1,7 @@
 ---
 title: README
 description: "What shipped to production, newest first. Customer-facing changes only; internal refactors and infrastructure work stay in the engineering tracker."
-last_updated: "2026-11-07"
+last_updated: "2026-11-12"
 ---
 # Changelog
 

@@ -3,7 +3,7 @@ title: "Connect Outlook to Claude via MCP - Search and Read Mail"
 description: Connect Outlook to Claude through CorpusIQ MCP. Search the mailbox, read threads and check the calendar in plain language, read-only via Graph.
 category: Claude Integrations
 tags: ["connect Outlook to Claude", "Outlook Claude integration", "MCP Outlook connector", "Microsoft Graph to Claude", "search Outlook mail in Claude", "CorpusIQ MCP"]
-last_updated: "2026-11-07"
+last_updated: "2026-11-12"
 canonical: "https://www.corpusiq.io/docs/connect-outlook-to-claude"
 robots: "index,follow"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "TikTok - CorpusIQ Docs"
 description: "Bring your TikTok account analytics into the same view as your other channels. Ask which videos are driving the most engagement and how TikTok stacks."
-last_updated: "2026-11-07"
+last_updated: "2026-11-08"
 ---
 # TikTok
 

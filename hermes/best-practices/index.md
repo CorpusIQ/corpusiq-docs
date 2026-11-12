@@ -3,7 +3,7 @@ title: "Hermes Agent Best Practices Guide"
 description: "Hermes Agent best practices for production AI automation: anti-patterns, maturity model, cron design, model selection, memory, security and skills."
 category: best-practices
 tags: [hermes-agent, best-practices, ai-automation, maturity-model, anti-patterns, production, reliability]
-last_updated: 2026-11-10
+last_updated: 2026-11-12
 canonical: "https://www.corpusiq.io/docs/hermes/best-practices/"
 robots: "index,follow"
 

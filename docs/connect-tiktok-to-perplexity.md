@@ -3,7 +3,7 @@ title: "Connect TikTok to Perplexity via MCP"
 description: "Connect TikTok to Perplexity through CorpusIQ MCP. Ask which videos carry the account, what engagement per view looks like and how the channel is trending."
 category: Perplexity Integrations
 tags: ["connect TikTok to Perplexity", "TikTok Perplexity integration", "MCP TikTok connector", "video analytics", "channel performance", "CorpusIQ MCP"]
-last_updated: "2026-11-05"
+last_updated: "2026-11-08"
 canonical: "https://www.corpusiq.io/docs/connect-tiktok-to-perplexity"
 robots: "index,follow"
 ---

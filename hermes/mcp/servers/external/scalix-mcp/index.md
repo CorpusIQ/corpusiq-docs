@@ -7,7 +7,7 @@ language: TypeScript
 transport: Streamable HTTP (Remote)
 auth: OAuth
 category: Cloud & DevOps
-last_updated: 2026-11-01
+last_updated: 2026-11-12
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/scalix-mcp/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

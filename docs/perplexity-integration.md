@@ -3,7 +3,7 @@ title: "Perplexity Integration - CorpusIQ Docs"
 description: "Connect CorpusIQ to Perplexity through the MCP server endpoint. Ask business questions about revenue, customers, orders, and marketing from live data"
 canonical: "https://www.corpusiq.io/docs/perplexity-integration"
 robots: "index,follow"
-last_updated: "2026-11-06"
+last_updated: "2026-11-11"
 tags: ["perplexity", "mcp", "perplexity mcp server", "connect data to perplexity", "business data", "ai business intelligence"]
 ---
 

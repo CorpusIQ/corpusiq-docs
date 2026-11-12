@@ -3,7 +3,7 @@ title: "Connect QuickBooks to Perplexity via MCP"
 description: "Connect QuickBooks to Perplexity through CorpusIQ MCP. Ask about margin, overdue invoices and cash position and get cited answers from your own books"
 category: Perplexity Integrations
 tags: ["connect QuickBooks to Perplexity", "QuickBooks Perplexity integration", "MCP QuickBooks connector", "QuickBooks data to AI", "ask QuickBooks in plain English", "CorpusIQ MCP"]
-last_updated: "2026-11-11"
+last_updated: "2026-11-12"
 canonical: "https://www.corpusiq.io/docs/connect-quickbooks-to-perplexity"
 robots: "index,follow"
 ---

@@ -11,7 +11,7 @@ keywords:
 - deep sales analytics
 - MCP HubSpot Claude
 - Claude AI sales intelligence
-last_updated: "2026-11-07"
+last_updated: "2026-11-12"
 category: HubSpot
 cluster: 7
 canonical_url: https://www.corpusiq.io/docs/claude-for-hubspot

@@ -10,7 +10,7 @@ tags:
   - lean
   - AI agent
   - early stage
-last_updated: "2026-11-07"
+last_updated: "2026-11-12"
 canonical: "https://www.corpusiq.io/docs/hermes/outputs/by-company-size/startup/"
 robots: "index,follow"
 

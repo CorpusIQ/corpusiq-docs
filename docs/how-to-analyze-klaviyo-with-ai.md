@@ -2,7 +2,7 @@
 title: "How to Analyze Klaviyo with AI (Plain English)"
 description: Analyze Klaviyo with AI and ask campaign, flow and revenue questions in plain English in ChatGPT, Claude or Perplexity, with cited answers.
 tags: [connectors, ai, chatgpt, claude]
-last_updated: 2026-11-01
+last_updated: 2026-11-12
 ---
 
 ## How to analyze Klaviyo with AI

@@ -3,7 +3,7 @@ title: "Connect Google Sheets to Perplexity via MCP"
 description: Connect Google Sheets to Perplexity through CorpusIQ MCP. Ask about budgets, trackers and pipelines, and get answers tied to the sheet and tab.
 category: Perplexity Integrations
 tags: ["connect Google Sheets to Perplexity", "Google Sheets Perplexity integration", "MCP Sheets connector", "spreadsheet data to Perplexity", "ask questions about a spreadsheet", "CorpusIQ MCP"]
-last_updated: "2026-11-04"
+last_updated: "2026-11-12"
 canonical: "https://www.corpusiq.io/docs/connect-google-sheets-to-perplexity"
 robots: "index,follow"
 ---

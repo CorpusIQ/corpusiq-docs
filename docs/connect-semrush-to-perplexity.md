@@ -3,7 +3,7 @@ title: "Connect Semrush to Perplexity via MCP"
 description: "Connect Semrush to Perplexity through CorpusIQ MCP. Ask which keywords a competitor ranks for, who links to them and where your organic ground is going."
 category: Perplexity Integrations
 tags: ["connect Semrush to Perplexity", "Semrush Perplexity integration", "MCP Semrush connector", "keyword research", "backlink profile", "CorpusIQ MCP"]
-last_updated: "2026-11-05"
+last_updated: "2026-11-08"
 canonical: "https://www.corpusiq.io/docs/connect-semrush-to-perplexity"
 robots: "index,follow"
 ---

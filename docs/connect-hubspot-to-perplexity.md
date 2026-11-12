@@ -3,7 +3,7 @@ title: "Connect HubSpot to Perplexity via MCP"
 description: "Connect HubSpot to Perplexity through CorpusIQ MCP. Ask about pipeline, deal health and stalled contacts and get answers cited to your own CRM records"
 category: Perplexity Integrations
 tags: ["connect HubSpot to Perplexity", "HubSpot Perplexity integration", "MCP HubSpot connector", "CRM data to AI", "ask HubSpot in plain English", "CorpusIQ MCP"]
-last_updated: "2026-11-11"
+last_updated: "2026-11-12"
 canonical: "https://www.corpusiq.io/docs/connect-hubspot-to-perplexity"
 robots: "index,follow"
 ---

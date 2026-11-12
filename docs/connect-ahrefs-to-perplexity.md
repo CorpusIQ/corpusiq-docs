@@ -1,9 +1,9 @@
 ---
 title: "Connect Ahrefs to Perplexity via MCP"
-description: "Connect Ahrefs to Perplexity through CorpusIQ MCP. Ask about domain ratings, ranking keywords and referring domains and get the numbers cited to the source."
+description: "Connect Ahrefs to Perplexity through CorpusIQ MCP. Ask about domain ratings, ranking keywords and referring domains and get the numbers cited"
 category: Perplexity Integrations
 tags: ["connect Ahrefs to Perplexity", "Ahrefs Perplexity integration", "MCP Ahrefs connector", "SEO data to AI", "backlink analysis with AI", "CorpusIQ MCP"]
-last_updated: "2026-11-04"
+last_updated: "2026-11-08"
 canonical: "https://www.corpusiq.io/docs/connect-ahrefs-to-perplexity"
 robots: "index,follow"
 ---
