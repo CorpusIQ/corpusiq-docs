@@ -66,6 +66,10 @@ NOT_AN_ACTOR_MARKERS = (
 IGNORE_SLUGS = {
     "apify/agent-skills", "apify/apify-mcp-server", "apify/mcp",
     "apify/apify-cli", "apify/crawlee", "apify/fingerprint-suite",
+    # Skills repositories, not Actors: apify/awesome-skills is the pack
+    # documented at hermes/skills/catalog/apify-awesome-skills-setup.md and
+    # returns 404 from /v2/acts by design (same class as apify/agent-skills).
+    "apify/awesome-skills",
 }
 REPO_DEFAULT = Path(__file__).resolve().parent.parent
 
