@@ -1,6 +1,6 @@
 ---
 title: "Connect Google Docs to Claude via MCP - Document Answers"
-description: "Connect Google Docs to Claude through CorpusIQ MCP. Ask what a brief, contract or meeting note says and get the passage, read-only, from the account you already use."
+description: Connect Google Docs to Claude through CorpusIQ MCP. Ask what a brief, contract or meeting note says and get the passage, read-only.
 category: Claude Integrations
 tags: ["connect Google Docs to Claude", "Google Docs Claude integration", "MCP Docs connector", "ask Claude about a Google Doc", "document search in Claude", "CorpusIQ MCP"]
 last_updated: "2026-11-07"
