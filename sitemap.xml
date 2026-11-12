@@ -8833,6 +8833,10 @@
          <lastmod>2026-11-06</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/asgard-skills-setup</loc>
+         <lastmod>2026-11-12</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/asmartbear-skills-setup</loc>
          <lastmod>2026-11-01</lastmod>
     </url>
@@ -9557,6 +9561,10 @@
          <lastmod>2026-11-01</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/dataverse-skills-setup</loc>
+         <lastmod>2026-11-12</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/daymade-claude-code-skills-setup</loc>
          <lastmod>2026-11-01</lastmod>
     </url>
@@ -9995,6 +10003,10 @@
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/github-code-review-setup</loc>
          <lastmod>2026-11-01</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/glebis-claude-skills-setup</loc>
+         <lastmod>2026-11-12</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/gmgn-skills-setup</loc>
@@ -10693,6 +10705,10 @@
          <lastmod>2026-11-01</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/looker-skills-setup</loc>
+         <lastmod>2026-11-12</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/loop-maker-setup</loc>
          <lastmod>2026-11-01</lastmod>
     </url>
@@ -11333,6 +11349,10 @@
          <lastmod>2026-11-01</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/pawbytes-skill-suites-setup</loc>
+         <lastmod>2026-11-12</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/payloadcms-skills-setup</loc>
          <lastmod>2026-11-05</lastmod>
     </url>
@@ -11491,6 +11511,10 @@
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/prisma-next-skills-setup</loc>
          <lastmod>2026-11-01</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/privacy-data-protection-skills-setup</loc>
+         <lastmod>2026-11-12</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/proactive-agent-setup</loc>
@@ -13034,7 +13058,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/marketplace</loc>
-         <lastmod>2026-11-11</lastmod>
+         <lastmod>2026-11-12</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/marketplace/new-aug10-2026</loc>
@@ -13483,6 +13507,10 @@
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/marketplace/new-nov11-2026-morning-skills</loc>
          <lastmod>2026-11-11</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/skills/marketplace/new-nov12-2026-morning-skills</loc>
+         <lastmod>2026-11-12</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/marketplace/new-nov2-2026-evening-skills</loc>
