@@ -1,9 +1,9 @@
 ---
-title: Mac Mini M4 - Worker Node Pattern
-description: "Apple Mac Mini M4 as a dedicated worker node for browser automation, content operations, and GitHub management in a multi-machine agent setup."
+title: "Mac Mini M4 - Worker Node Pattern"
+description: "Apple Mac Mini M4 as a dedicated worker node for browser automation, content operations, and GitHub management in a multi-machine agent setup"
 canonical: "https://www.corpusiq.io/docs/hermes/infrastructure/mac-mini/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-11"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---
@@ -29,7 +29,10 @@ Authenticated via a personal access token. Manages repository creation, push ope
 Coordinates with video-generation APIs for UGC video creation. Scripts and review workflows staged here before distribution.
 
 ## Software
-- macOS with zsh
+- macOS with zsh. Hermes' macOS build is Apple Silicon only - Intel Macs are not a supported platform.
 - Git for version control
-- Python 3 for scripts and automation
+- Python 3 - current first-party Hermes installs run on Python 3.14
+- Node.js, npm, pnpm, ripgrep and FFmpeg, supplied and pinned by Hermes' own package manager (PM) rather than adopted from the system install
 - SSH for remote operations from the primary node
+
+The POSIX source installer needs Git, curl, tar and a SHA-256 utility before it can run. Everything else in the list above is managed by Hermes itself.

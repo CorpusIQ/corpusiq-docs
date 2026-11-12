@@ -3,7 +3,7 @@ title: "DDC Construction Skills - BIM and Cost Takeoff Setup"
 description: "DataDrivenConstruction: 4.5K combined installs across 20 listings; construction skills for BIM analysis, CAD conversion and cost takeoff"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/ddc-construction-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-10"
+last_updated: "2026-11-11"
 tags: ["hermes skill", "agent skill", "skill setup", "construction", "bim", "cost estimation", "cad"]
 ---
 

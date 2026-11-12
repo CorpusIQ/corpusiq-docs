@@ -1,9 +1,9 @@
 ---
-title: Reflexion - Self-Improving Agent Patterns
-description: Building agents that evaluate their own output, detect errors, and adjust strategy - production Reflexion patterns with Hermes
+title: "Reflexion - Self-Improving Agent Patterns"
+description: "Building agents that evaluate their own output, detect errors, and adjust strategy - production Reflexion patterns with Hermes"
 canonical: "https://www.corpusiq.io/docs/hermes/orchestration/reflexion/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-11"
 tags: ["hermes orchestration", "multi-agent", "agent workflow"]
 
 ---
@@ -11,6 +11,8 @@ tags: ["hermes orchestration", "multi-agent", "agent workflow"]
 # Reflexion - Self-Improving Agent Patterns
 
 Reflexion is the pattern of having an agent evaluate its own output, detect issues, and adjust its approach before delivering a final result. Instead of a human catching mistakes, the agent catches them itself - then fixes them.
+
+The pattern comes from [Reflexion: Language Agents with Verbal Reinforcement Learning](https://arxiv.org/abs/2303.11366) (Shinn et al., 2023). The contribution is narrow and worth keeping: the agent reinforces itself with linguistic feedback and a reflective memory buffer instead of updating model weights.
 
 This guide covers production Reflexion patterns with Hermes: evaluation loop design, error detection strategies, strategy adjustment mechanisms, and concrete examples you can deploy.
 
@@ -331,7 +333,7 @@ def multi_evaluator_reflexion(task: str, active_evaluators: list[str]) -> str:
 ### Configuration
 
 ```yaml
-# hermes/config/reflexion.yaml
+# config/reflexion.yaml - application-side settings for your own Reflexion wrapper
 reflexion:
   default_max_iterations: 3
   cost_ceiling_per_task: 0.50  # USD - hard stop
@@ -358,19 +360,12 @@ reflexion:
 
 ### Hermes Cron Integration
 
-Schedule Reflexion-based quality checks:
+Schedule Reflexion-based quality checks. Cron jobs are created with `hermes cron create "<schedule>" "<prompt>"` (or `/cron add` in chat) and stored in `~/.hermes/cron/jobs.json` - there is no per-job YAML file to hand-edit. Skills, model pins and delivery targets are flags on the job itself.
 
-```yaml
-# hermes/cron/content_quality_check.yaml
-name: content_quality_reflexion
-schedule: "0 8,14,20 * * *"  # Three times daily
-task: reflexion.quality_check.recent_content
-params:
-  lookback_hours: 6
-  evaluators: [accuracy, clarity, bias]
-  auto_fix: true  # Automatically apply corrections
-timeout: 600
-notify_on: ["failure"]
+```bash
+# Three times daily, evaluate content published in the last 6 hours
+hermes cron create "0 8,14,20 * * *" \
+  "Run the Reflexion quality check on content published in the last 6 hours. Evaluate it with the accuracy, clarity and bias evaluators. Apply the corrections that are safe to apply automatically, and report every change you made."
 ```
 
 ### Monitoring Reflexion Performance
@@ -379,7 +374,7 @@ Track these metrics to optimize your Reflexion setup:
 
 - **Pass rate on first attempt:** High (>70%) means your initial prompts are good. Low means you're over-relying on Reflexion.
 - **Average iterations to pass:** Should be under 2. Higher means your evaluation criteria might be too strict or your initial execution is weak.
-- **Cost per task (with vs. without Reflexion):** Reflexion adds 30-80% to task cost but typically improves quality by 40-60%.
+- **Cost per task (with vs. without Reflexion):** Measure both on your own workload. The added cost is one evaluator call per iteration; whether the quality gain justifies it is a per-task question, not a fixed ratio.
 - **False pass rate:** Spot-check outputs that passed evaluation. If >5% have errors, your evaluation criteria or model are insufficient.
 
 ## Common Pitfalls
