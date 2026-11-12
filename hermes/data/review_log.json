@@ -22250,5 +22250,89 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-11-11T11:03:10.936047+00:00"
+  },
+  {
+    "repo": "kris-holy/hermes-keln-provider",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-12T04:03:06.842618+00:00"
+  },
+  {
+    "repo": "USA-RedDragon/talaria-hub",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-12T04:03:06.842631+00:00"
+  },
+  {
+    "repo": "jlcg-git/hermes-weather-skill",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-12T04:03:06.842634+00:00"
+  },
+  {
+    "repo": "iruzen-dono/hermes-project-oracle",
+    "score": 59,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-12T04:03:06.842636+00:00"
+  },
+  {
+    "repo": "keylimesoda/hermes-sms-bridge",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-12T04:03:06.842638+00:00"
+  },
+  {
+    "repo": "soerjo/hermes-binance-mcp",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-12T04:03:06.842640+00:00"
+  },
+  {
+    "repo": "Tormen28/argos",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-12T04:03:06.842642+00:00"
+  },
+  {
+    "repo": "anshdhawann/hermes-manager",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-12T04:03:06.842644+00:00"
+  },
+  {
+    "repo": "iknowterry/modelscout",
+    "score": 53,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-12T04:03:06.842646+00:00"
+  },
+  {
+    "repo": "snuff12/hermes-market",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-12T04:03:06.842648+00:00"
+  },
+  {
+    "repo": "vedranius/hermes-wrm-pro",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-12T04:03:06.842650+00:00"
+  },
+  {
+    "repo": "xuelingkang/oneshotbox",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-12T04:03:06.842651+00:00"
   }
 ]
