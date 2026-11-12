@@ -191,6 +191,13 @@ def unbrand(title):
 
 
 def pages(root):
+    # 2026-11-12: a FILE argument used to scan nothing (os.walk on a file yields
+    # no directories), so `validate_page_metadata.py some-page.md` printed
+    # "RESULT: PASS" for a page that would have blocked a commit. Scan the file.
+    if os.path.isfile(root):
+        if root.endswith('.md'):
+            yield root
+        return
     for dp, dirs, fns in os.walk(root):
         dirs[:] = [d for d in dirs if d not in SKIP_DIRS]
         for f in fns:
@@ -271,7 +278,9 @@ def main(argv):
 
     dup_footer, bad_title, long_desc, open_desc, fixed = [], [], 0, 0, []
     rebranded = []
+    scanned = 0
     for p in pages(root):
+        scanned += 1
         rel = os.path.relpath(p, root)
         try:
             text = open(p, encoding='utf-8', errors='replace').read()
@@ -332,6 +341,7 @@ def main(argv):
 
     total = len(dup_footer) + len(bad_title)
     print('page-metadata gate: %s' % os.path.relpath(root))
+    print('  pages scanned            : %d' % scanned)
     print('  duplicate footer lines   : %d' % len(dup_footer))
     print('  dangling/invalid titles  : %d' % len(bad_title))
     print('  titles repaired from H1  : %d' % len(fixed))
@@ -346,6 +356,11 @@ def main(argv):
         print('   [fixed] %s | %s -> %s' % (rel, old, new))
     for rel, old, new in rebranded[:20]:
         print('   [brand] %s | %s -> %s' % (rel, old, new))
+    if scanned == 0:
+        # A gate that scans nothing and prints PASS is worse than no gate: it
+        # certifies a tree it never read.
+        print('RESULT: FAIL (no markdown pages found under %s)' % os.path.relpath(root))
+        return 1
     if total:
         print('RESULT: %s (%d findings)' % ('warn' if warn else 'FAIL', total))
         return 0 if warn else 1

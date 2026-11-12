@@ -40,6 +40,33 @@ def extract_frontmatter(content):
     return content[3:end], content[end + 3:]
 
 
+_BLOCK_SCALAR_RE = re.compile(r'^([>|])([+-]?)([1-9]?)$')
+
+
+def _read_block_scalar(lines, start):
+    """Join a YAML block scalar's indented body (lines after `description: >-`).
+
+    PyYAML is not installed under the system interpreter that CI runs, so the
+    string fallback below has to understand block scalars itself. Reading only
+    the indicator line returns the 2-char string '>-' and the caller reports a
+    healthy page as a short description.
+    """
+    body = []
+    for line in lines[start:]:
+        if not line.strip():
+            body.append('')
+            continue
+        if not line[:1].isspace():
+            break
+        body.append(line)
+    while body and not body[-1].strip():
+        body.pop()
+    if not body:
+        return ''
+    indent = min(len(l) - len(l.lstrip()) for l in body if l.strip())
+    return [l[indent:] if l.strip() else '' for l in body]
+
+
 def parse_description(frontmatter):
     """Extract description from frontmatter string or dict."""
     if isinstance(frontmatter, dict):
@@ -51,12 +78,23 @@ def parse_description(frontmatter):
             return str(data['description'])
     except Exception:
         pass
-    # Fallback regexes: quoted first, then unquoted single-line (valid YAML)
+    # Fallback regexes: quoted first, then block scalar, then unquoted single-line
     m = re.search(r'description:\s*"(.*?)"', str(frontmatter), re.DOTALL)
     if m:
         return m.group(1)
-    m = re.search(r'description:\s*([^\n].*)$', str(frontmatter), re.MULTILINE)
-    return m.group(1).strip().strip('"\'') if m else None
+    lines = str(frontmatter).splitlines()
+    for i, line in enumerate(lines):
+        km = re.match(r'description:\s*(.*)$', line)
+        if not km:
+            continue
+        value = km.group(1).strip().strip('\'"')
+        bm = _BLOCK_SCALAR_RE.match(value)
+        if bm:
+            body = _read_block_scalar(lines, i + 1)
+            joiner = ' ' if bm.group(1) == '>' else '\n'
+            return joiner.join(body).strip()
+        return value
+    return None
 
 
 def parse_title(frontmatter):

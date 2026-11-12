@@ -1,7 +1,7 @@
 ---
 title: Guides - Hermes Agent Patterns and Research
 description: "Practical guides for Hermes agents: AI memory systems, MCP servers for business operators, trending agent tools, and Claude Code integration."
-last_updated: 2026-11-05
+last_updated: 2026-11-12
 canonical: "https://www.corpusiq.io/docs/hermes/guides/"
 robots: "index,follow"
 tags: ["hermes agent", "ai agent", "nous research"]
@@ -23,6 +23,8 @@ Hands-on guides and research digests for building and operating AI agents. Each 
 | [How to Vet an MCP Server Before You Connect It](vetting-an-mcp-server) | Ten-minute check: read the tool list, probe the endpoint, inspect OAuth discovery, narrow the credential |
 | [Business Intelligence for the Era of AI](business-intelligence-era-of-ai) | Why connecting business data to AI is getting cheap while trusting the answers is not |
 | [How to Check an AI Answer Against Your Books](check-ai-answer-against-your-books) | Five-minute habit: check the source, check the definition, check the date |
+| [How to Rewind a Hermes Conversation](conversation-rewind) | Edit an earlier prompt, resume from it, or fork the session without losing the original transcript |
+| [Run the Hermes Desktop Workspace in a Browser Tab](hermes-webapp) | What the Webapp serves, what a signed-in tab can do, and how to expose it without opening the host |
 
 *← [Hermes Home](/hermes) | [Skills Catalog →](/hermes/skills/catalog)*
 

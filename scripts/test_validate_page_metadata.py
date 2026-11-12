@@ -102,5 +102,43 @@ class DescCutTest(unittest.TestCase):
         self.assertIsNone(vpm.desc_cut(desc, self.page(desc, body)))
 
 
+class ScanScopeTest(unittest.TestCase):
+    """The gate must read what it was pointed at.
+
+    Before 2026-11-12 a FILE argument walked zero directories and returned
+    "RESULT: PASS", so a page that would block a commit passed a manual check.
+    A path with no markdown at all did the same.
+    """
+
+    def setUp(self):
+        import tempfile
+        self.tmp = tempfile.mkdtemp()
+
+    def tearDown(self):
+        import shutil
+        shutil.rmtree(self.tmp, ignore_errors=True)
+
+    def write(self, name, text):
+        import os
+        path = os.path.join(self.tmp, name)
+        with open(path, 'w', encoding='utf-8') as fh:
+            fh.write(text)
+        return path
+
+    def run_gate(self, path):
+        return vpm.main(['validate_page_metadata.py', path])
+
+    def test_dangling_title_in_a_single_file_is_found(self):
+        path = self.write('bad.md', '---\ntitle: "How to Publish a Doc Without It"\n---\n\n# Body\n')
+        self.assertEqual(self.run_gate(path), 1)
+
+    def test_clean_single_file_passes(self):
+        path = self.write('good.md', '---\ntitle: "How to Publish a Doc Page"\n---\n\n# Body\n')
+        self.assertEqual(self.run_gate(path), 0)
+
+    def test_empty_tree_fails_instead_of_certifying_nothing(self):
+        self.assertEqual(self.run_gate(self.tmp), 1)
+
+
 if __name__ == '__main__':
     unittest.main()
