@@ -1,8 +1,8 @@
 ---
 title: "runbook.v1: Governed Workflow Execution for MCP"
-description: "runbook.v1 is an application-layer contract for MCP that makes enterprise workflow execution required, versioned, and auditable. Deterministic at the host boundary, free reasoning between checkpoints. Schema, reference implementation, and conformance suite."
+description: "runbook.v1 is an application-layer contract for MCP that makes enterprise workflow execution required, versioned, and auditable. Deterministic at the host"
 tags: [mcp, runbook, governance, workflows, enterprise]
-last_updated: "2026-11-01"
+last_updated: "2026-11-12"
 ---
 
 # runbook.v1: Governed Workflow Execution for MCP
@@ -69,7 +69,7 @@ Every invocation is user-visible and cancellable. This is deterministic orchestr
 
 ## Reference implementation
 
-- Schema: schema/runbook.v1.schema.json
+- Schema: schema/runbook-v1-schema.json
 - Specification: spec/runbook-v1.md
 - Reference host implementation (Python, against the Messages API): reference/python/runbook_host.py
 - Conformance suite: 24/24 tests passing
