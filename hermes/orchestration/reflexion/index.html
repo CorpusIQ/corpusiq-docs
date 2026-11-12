@@ -107,8 +107,8 @@
     "description": "Building agents that evaluate their own output, detect errors, and adjust strategy - production Reflexion patterns with Hermes",
     "url": "https://www.corpusiq.io/docs/hermes/orchestration/reflexion",
     
-    "datePublished": "2026-11-01",
-    "dateModified": "2026-11-01",
+    "datePublished": "2026-11-11",
+    "dateModified": "2026-11-11",
     
     "author": {
       "@type": "Organization",
@@ -132,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-11-01">
+  <meta name="last-updated" content="2026-11-11">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -154,7 +154,7 @@
   <script async src="https://news.google.com/swg/js/v1/publisher.js"></script>
 
   
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Article", "TechArticle"], "headline": "Reflexion - Self-Improving Agent Patterns", "url": "https://www.corpusiq.io/docs/hermes/orchestration/reflexion", "image": "https://www.corpusiq.io/og?title=Reflexion%20-%20Self-Improving%20Agent%20Patterns&category=Docs", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.corpusiq.io/docs/hermes/orchestration/reflexion"}, "datePublished": "2026-11-01", "dateModified": "2026-11-01", "author": {"@id": "https://www.corpusiq.io#organization"}, "publisher": {"@id": "https://www.corpusiq.io#organization"}, "isPartOf": {"@id": "https://www.corpusiq.io#website"}, "inLanguage": "en-US", "description": "Building agents that evaluate their own output, detect errors, and adjust strategy - production Reflexion patterns with Hermes", "articleSection": "Hermes"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Article", "TechArticle"], "headline": "Reflexion - Self-Improving Agent Patterns", "url": "https://www.corpusiq.io/docs/hermes/orchestration/reflexion", "image": "https://www.corpusiq.io/og?title=Reflexion%20-%20Self-Improving%20Agent%20Patterns&category=Docs", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.corpusiq.io/docs/hermes/orchestration/reflexion"}, "datePublished": "2026-11-01", "dateModified": "2026-11-11", "author": {"@id": "https://www.corpusiq.io#organization"}, "publisher": {"@id": "https://www.corpusiq.io#organization"}, "isPartOf": {"@id": "https://www.corpusiq.io#website"}, "inLanguage": "en-US", "description": "Building agents that evaluate their own output, detect errors, and adjust strategy - production Reflexion patterns with Hermes", "articleSection": "Hermes"}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Docs", "item": "https://www.corpusiq.io/docs"}, {"@type": "ListItem", "position": 2, "name": "Hermes", "item": "https://www.corpusiq.io/docs/hermes"}, {"@type": "ListItem", "position": 3, "name": "Orchestration", "item": "https://www.corpusiq.io/docs/hermes/orchestration"}, {"@type": "ListItem", "position": 4, "name": "Reflexion - Self-Improving Agent Patterns", "item": "https://www.corpusiq.io/docs/hermes/orchestration/reflexion"}]}</script>
 </head>
   
@@ -12767,6 +12767,7 @@
 
 <h1 id="reflexion-self-improving-agent-patterns">Reflexion - Self-Improving Agent Patterns<a class="headerlink" href="#reflexion-self-improving-agent-patterns" title="Anchor link to this section">&para;</a></h1>
 <p>Reflexion is the pattern of having an agent evaluate its own output, detect issues, and adjust its approach before delivering a final result. Instead of a human catching mistakes, the agent catches them itself - then fixes them.</p>
+<p>The pattern comes from <a href="https://arxiv.org/abs/2303.11366">Reflexion: Language Agents with Verbal Reinforcement Learning</a> (Shinn et al., 2023). The contribution is narrow and worth keeping: the agent reinforces itself with linguistic feedback and a reflective memory buffer instead of updating model weights.</p>
 <p>This guide covers production Reflexion patterns with Hermes: evaluation loop design, error detection strategies, strategy adjustment mechanisms, and concrete examples you can deploy.</p>
 <h2 id="the-core-loop">The Core Loop<a class="headerlink" href="#the-core-loop" title="Anchor link to this section">&para;</a></h2>
 <p>Every Reflexion implementation follows the same structure:</p>
@@ -13074,7 +13075,7 @@
 </table>
 <h2 id="production-deployment-with-hermes">Production Deployment with Hermes<a class="headerlink" href="#production-deployment-with-hermes" title="Anchor link to this section">&para;</a></h2>
 <h3 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="c1"># hermes/config/reflexion.yaml</span>
+<div class="highlight"><pre><span></span><code><span class="c1"># config/reflexion.yaml - application-side settings for your own Reflexion wrapper</span>
 <span class="nt">reflexion</span><span class="p">:</span>
 <span class="w">  </span><span class="nt">default_max_iterations</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">3</span>
 <span class="w">  </span><span class="nt">cost_ceiling_per_task</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">0.50</span><span class="w">  </span><span class="c1"># USD - hard stop</span>
@@ -13099,24 +13100,17 @@
 <span class="w">    </span><span class="nt">store_intermediate_outputs</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span><span class="w">  </span><span class="c1"># For debugging</span>
 </code></pre></div>
 <h3 id="hermes-cron-integration">Hermes Cron Integration<a class="headerlink" href="#hermes-cron-integration" title="Anchor link to this section">&para;</a></h3>
-<p>Schedule Reflexion-based quality checks:</p>
-<div class="highlight"><pre><span></span><code><span class="c1"># hermes/cron/content_quality_check.yaml</span>
-<span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">content_quality_reflexion</span>
-<span class="nt">schedule</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;0</span><span class="nv"> </span><span class="s">8,14,20</span><span class="nv"> </span><span class="s">*</span><span class="nv"> </span><span class="s">*</span><span class="nv"> </span><span class="s">*&quot;</span><span class="w">  </span><span class="c1"># Three times daily</span>
-<span class="nt">task</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">reflexion.quality_check.recent_content</span>
-<span class="nt">params</span><span class="p">:</span>
-<span class="w">  </span><span class="nt">lookback_hours</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">6</span>
-<span class="w">  </span><span class="nt">evaluators</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">[</span><span class="nv">accuracy</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="nv">clarity</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="nv">bias</span><span class="p p-Indicator">]</span>
-<span class="w">  </span><span class="nt">auto_fix</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span><span class="w">  </span><span class="c1"># Automatically apply corrections</span>
-<span class="nt">timeout</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">600</span>
-<span class="nt">notify_on</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">[</span><span class="s">&quot;failure&quot;</span><span class="p p-Indicator">]</span>
+<p>Schedule Reflexion-based quality checks. Cron jobs are created with <code>hermes cron create "&lt;schedule&gt;" "&lt;prompt&gt;"</code> (or <code>/cron add</code> in chat) and stored in <code>~/.hermes/cron/jobs.json</code> - there is no per-job YAML file to hand-edit. Skills, model pins and delivery targets are flags on the job itself.</p>
+<div class="highlight"><pre><span></span><code><span class="c1"># Three times daily, evaluate content published in the last 6 hours</span>
+hermes<span class="w"> </span>cron<span class="w"> </span>create<span class="w"> </span><span class="s2">&quot;0 8,14,20 * * *&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span><span class="s2">&quot;Run the Reflexion quality check on content published in the last 6 hours. Evaluate it with the accuracy, clarity and bias evaluators. Apply the corrections that are safe to apply automatically, and report every change you made.&quot;</span>
 </code></pre></div>
 <h3 id="monitoring-reflexion-performance">Monitoring Reflexion Performance<a class="headerlink" href="#monitoring-reflexion-performance" title="Anchor link to this section">&para;</a></h3>
 <p>Track these metrics to optimize your Reflexion setup:</p>
 <ul>
 <li><strong>Pass rate on first attempt:</strong> High (&gt;70%) means your initial prompts are good. Low means you're over-relying on Reflexion.</li>
 <li><strong>Average iterations to pass:</strong> Should be under 2. Higher means your evaluation criteria might be too strict or your initial execution is weak.</li>
-<li><strong>Cost per task (with vs. without Reflexion):</strong> Reflexion adds 30-80% to task cost but typically improves quality by 40-60%.</li>
+<li><strong>Cost per task (with vs. without Reflexion):</strong> Measure both on your own workload. The added cost is one evaluator call per iteration; whether the quality gain justifies it is a per-task question, not a fixed ratio.</li>
 <li><strong>False pass rate:</strong> Spot-check outputs that passed evaluation. If &gt;5% have errors, your evaluation criteria or model are insufficient.</li>
 </ul>
 <h2 id="common-pitfalls">Common Pitfalls<a class="headerlink" href="#common-pitfalls" title="Anchor link to this section">&para;</a></h2>
