@@ -1,6 +1,6 @@
 ---
 title: "MCP Ecosystem Sweeps - CorpusIQ Docs"
-description: "Automated discovery of MCP servers and tools: daily sweeps catalog new servers, their capabilities and integration potential."
+description: "Automated discovery of MCP servers and tools: daily sweeps catalog new servers, their capabilities and integration potential"
 last_updated: 2026-11-12
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/"
 robots: "index,follow"
@@ -16,6 +16,7 @@ Automated discovery of MCP servers and tools from across the ecosystem. These sw
 
 The sweep reports document newly discovered MCP servers, categorized by business function and evaluated for integration with the CorpusIQ platform.
 
+- [MCP Server Discovery - November 12, 2026 (Midday)](sweep-november12-2026-midday)
 - [MCP Server Discovery - November 12, 2026 (Night)](sweep-november12-2026-night)
 - [MCP Server Discovery - November 11, 2026 (Night)](sweep-november11-2026-night)
 - [MCP Server Discovery - November 11, 2026 (Midday Supplement)](sweep-november11-2026-midday-supplement)
