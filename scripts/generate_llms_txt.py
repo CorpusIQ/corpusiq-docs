@@ -18,6 +18,42 @@ from feed_text import truncate_for_feed
 SITE = "https://www.corpusiq.io/docs"
 ROOT = Path(__file__).resolve().parent.parent
 
+# Words that must never be the last word of a one-line index summary.
+_DANGLING_WORDS = {
+    'a', 'an', 'and', 'as', 'at', 'but', 'by', 'for', 'from', 'in', 'into',
+    'is', 'it', 'its', 'of', 'on', 'or', 'the', 'to', 'via', 'vs', 'with',
+    'your', 'that', 'this', 'those', 'without', 'plus',
+}
+
+
+def index_description(desc, limit=160):
+    """One-line index summary that never stops mid-word or on a connective.
+
+    The index line is what an LLM crawler reads first, so a summary cut at a
+    fixed character count ("...read-only, from the account y") reads as a
+    corrupt record. Prefer the last complete sentence inside the limit, then
+    the first complete sentence that closes just past it (bounded at 200),
+    then a word boundary with any trailing function word dropped. The limit
+    matches the rendered meta-description cap, so a page description that
+    already fits ships whole instead of being re-cut here.
+    """
+    text = re.sub(r'\s+', ' ', desc or '').strip()
+    if len(text) <= limit:
+        return text
+    head = text[:limit]
+    ends = [m.end() for m in re.finditer(r'[.!?](?=\s|$)', head)]
+    if ends and ends[-1] >= 90:
+        return head[:ends[-1]]
+    for m in re.finditer(r'[.!?](?=\s|$)', text[limit:]):
+        if limit + m.end() <= 200:
+            return text[:limit + m.end()].strip()
+        break
+    words = head.rsplit(' ', 1)[0].split(' ')
+    while words and words[-1].lower().strip('.,;:') in _DANGLING_WORDS:
+        words.pop()
+    return ' '.join(words).rstrip(' ,;:-') or head
+
+
 def read_frontmatter(path):
     content = path.read_text(encoding='utf-8')
     if not content.startswith('---'):
@@ -136,7 +172,7 @@ for section, paths in INDEX_SECTIONS:
         url = url_for(rel)
         h1 = re.search(r'^# (.+)$', body, re.M)
         title = h1.group(1).strip() if h1 else (meta.get('title') or path.stem.replace('-', ' ').title())
-        desc = (meta.get('description') or '')[:150]
+        desc = index_description(meta.get('description') or '')
         entries.append(f"- [{title}]({url}): {desc}")
     if entries:
         lines.append(f"## {section}")
