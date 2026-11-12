@@ -1,6 +1,6 @@
 ---
 title: "MCP Server Discovery - November 11, 2026 (Night)"
-description: "A ten-hour window where one map grew by 234 entries in a three-minute bulk publish, the feed produced a single card, and the one product that earned"
+description: "A ten-hour window where one map grew by 234 entries in one bulk publish, the feed produced a single card, and the entry that earned a guide was driven"
 category: MCP Ecosystem
 added: 2026-11-11
 last_updated: 2026-11-11
