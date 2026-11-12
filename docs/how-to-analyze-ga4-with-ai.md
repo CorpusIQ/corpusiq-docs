@@ -1,6 +1,6 @@
 ---
-title: How to Analyze GA4 with AI (Plain English Answers)
-description: "Connect GA4 to ChatGPT, Claude, or Perplexity and ask traffic, conversion, and channel questions in plain English with source-cited answers from your live analytics."
+title: "How to Analyze GA4 with AI (Plain English Answers)"
+description: Analyze GA4 with AI and ask traffic, conversion and channel questions in plain English in ChatGPT, Claude or Perplexity, with cited answers.
 tags: [connectors, ai, chatgpt, claude]
 last_updated: 2026-11-01
 ---

@@ -2,7 +2,7 @@
 title: "QuickBooks Business Intelligence - AI-Powered BI"
 url: /docs/quickbooks-business-intelligence
 h1: 'QuickBooks Business Intelligence: Turn Accounting Data into Strategic Advantage'
-description: Upgrade QuickBooks to an enterprise BI platform with CorpusIQ MCP. Combine financial data with CRM, ecommerce, and marketing sources for unified business intelligence powered by AI.
+description: Turn QuickBooks into a business intelligence platform with CorpusIQ MCP. Combine financial, CRM and marketing data for unified AI analysis.
 keywords:
 - QuickBooks business intelligence
 - accounting BI platform

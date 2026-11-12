@@ -1,6 +1,6 @@
 ---
 title: "Enterprise AI Data Access: Security, SSO & Audit"
-description: "How enterprises can securely give AI access to business data with SSO/SAML, read-only external-source retrieval, audit trails, live retrieval, and scoped retention."
+description: How enterprises give AI secure access to business data. SSO/SAML, read-only retrieval, audit trails and scoped retention, without the jargon.
 category: Enterprise Security
 tags: [Enterprise AI Data Access, SSO, SAML, SOC 2, CASA Tier 2, Data Residency, Audit Trails, Read-Only External-Source Retrieval, Scoped Data Retention]
 last_updated: "2026-11-07"

@@ -2,7 +2,7 @@
 title: "How to Analyze QuickBooks Data with AI"
 url: /docs/how-to-analyze-quickbooks-with-ai
 h1: 'How to Analyze QuickBooks Data with AI: A Complete Step-by-Step Guide'
-description: Master AI-powered QuickBooks analysis. Step-by-step guide to P&L analysis, cash flow trends, customer profitability, expense optimization, and financial forecasting using ChatGPT and Claude.
+description: How to analyze QuickBooks with AI. A step-by-step guide to P&L, cash flow, customer profitability and forecasting in ChatGPT or Claude.
 keywords:
 - analyze QuickBooks with AI
 - QuickBooks data analysis AI
