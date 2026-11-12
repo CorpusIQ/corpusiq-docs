@@ -29,7 +29,7 @@ Authenticated via a personal access token. Manages repository creation, push ope
 Coordinates with video-generation APIs for UGC video creation. Scripts and review workflows staged here before distribution.
 
 ## Software
-- macOS with zsh. Hermes' macOS build is Apple Silicon only - Intel Macs are not a supported platform.
+- macOS with zsh. Stable releases build the desktop bundle and the `Hermes-Setup.dmg` installer for Apple Silicon only. Intel Macs are Tier 2: install the CLI and run `hermes desktop`, or use a `darwin-x64` bundle from a release cut with `--with macos-intel`.
 - Git for version control
 - Python 3 - current first-party Hermes installs run on Python 3.14
 - Node.js, npm, pnpm, ripgrep and FFmpeg, supplied and pinned by Hermes' own package manager (PM) rather than adopted from the system install
