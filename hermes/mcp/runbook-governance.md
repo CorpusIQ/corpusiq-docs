@@ -1,8 +1,8 @@
 ---
 title: "Prompt Compliance Is Not Governance"
-description: "An MCP server can expose a workflow, but the model decides whether to run it. For enterprise, that is a governance gap. runbook.v1 makes execution required, versioned, and auditable."
+description: "An MCP server can expose a workflow, but the model decides whether to run it. For enterprise, that is a governance gap. runbook.v1 makes execution"
 tags: [mcp, governance, runbook, enterprise, agents]
-last_updated: "2026-11-01"
+last_updated: "2026-11-12"
 ---
 
 # Prompt Compliance Is Not Governance
@@ -40,7 +40,7 @@ The vendor that provides it wins the procurement. The vendor that waits watches 
 
 runbook.v1 is an application-layer contract. Zero changes to the MCP protocol. The manifest resolves through existing MCP resources. Enforcement is host-side.
 
-- Schema: schema/runbook.v1.schema.json
+- Schema: schema/runbook-v1-schema.json
 - Specification: spec/runbook-v1.md
 - Reference implementation (Python, against the Messages API): reference/python/runbook_host.py
 - Conformance suite: 24/24 passing
