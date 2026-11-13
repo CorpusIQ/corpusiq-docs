@@ -22460,5 +22460,68 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-11-12T10:03:24.510386+00:00"
+  },
+  {
+    "repo": "USA-RedDragon/talaria",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-13T04:03:18.388606+00:00"
+  },
+  {
+    "repo": "RajaRenga/RemediGenius-CE",
+    "score": 65,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-13T04:03:18.388620+00:00"
+  },
+  {
+    "repo": "NKocur/hermesdesk-agent",
+    "score": 39,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-13T04:03:18.388623+00:00"
+  },
+  {
+    "repo": "lusor-ai/plugins",
+    "score": 65,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-13T04:03:18.388625+00:00"
+  },
+  {
+    "repo": "33hodl/hermes-watchdog",
+    "score": 54,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-13T04:03:18.388627+00:00"
+  },
+  {
+    "repo": "SenjuWoo/RimWorldForge",
+    "score": 58,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-13T04:03:18.388629+00:00"
+  },
+  {
+    "repo": "ooohjh/Cowart-Hermes",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-13T04:03:18.388631+00:00"
+  },
+  {
+    "repo": "elderica/hellocloud-hermes-agent-imagegen",
+    "score": 42,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-13T04:03:18.388632+00:00"
+  },
+  {
+    "repo": "sw897/agent-asset-kit",
+    "score": 42,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-13T04:03:18.388634+00:00"
   }
 ]

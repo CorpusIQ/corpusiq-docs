@@ -94368,5 +94368,301 @@
     "near_duplicates": [],
     "discovered_at": "2026-11-12T10:02:53.359587+00:00",
     "status": "pending"
+  },
+  {
+    "name": "USA-RedDragon/talaria",
+    "url": "https://github.com/USA-RedDragon/talaria",
+    "description": "Run a server Hermes Agent's shell and file tools on your own PC",
+    "stars": 0,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "updated_at": "2026-11-13T03:52:04Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "JackTheGit/hermes-autonomous-server",
+      "stablyai/orca"
+    ],
+    "discovered_at": "2026-11-13T04:00:49.431657+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "RajaRenga/RemediGenius-CE",
+    "url": "https://github.com/RajaRenga/RemediGenius-CE",
+    "description": "AWS security triage desk on the Hermes agent: a prioritized P1-P4 queue, evidence-backed read-only investigations, and reviewable IaC fixes. Self-hosted, read-only, Apache-2.0.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "agent",
+      "aws",
+      "aws-security",
+      "cloud-security",
+      "devsecops",
+      "guardduty",
+      "hermes",
+      "iam",
+      "security-automation",
+      "securityhub",
+      "terraform",
+      "triage"
+    ],
+    "updated_at": "2026-11-13T01:12:42Z",
+    "category": "core",
+    "score": 65,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-11-13T04:00:49.437425+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "NKocur/hermesdesk-agent",
+    "url": "https://github.com/NKocur/hermesdesk-agent",
+    "description": "Windows-first Pi-based coding CLI for a self-hosted HermesDesk / Strata gateway.",
+    "stars": 0,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [
+      "cli",
+      "coding-agent",
+      "pi",
+      "self-hosted",
+      "strata",
+      "windows"
+    ],
+    "updated_at": "2026-11-10T16:16:41Z",
+    "category": "core",
+    "score": 39,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-11-13T04:00:49.440290+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "lusor-ai/plugins",
+    "url": "https://github.com/lusor-ai/plugins",
+    "description": "Lusor plugins for AI agents: Cursor, Factory Droid, Grok Build, Hermes Agent, Perplexity",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [
+      "agent-plugins",
+      "ai-agents",
+      "android",
+      "cursor-plugin",
+      "factory-droid",
+      "grok",
+      "hermes-agent",
+      "iphone",
+      "mcp",
+      "mcp-server",
+      "perplexity"
+    ],
+    "updated_at": "2026-11-13T03:54:47Z",
+    "category": "core",
+    "score": 65,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "42-evey/hermes-plugins",
+      "NousResearch/hermes-official-plugins"
+    ],
+    "discovered_at": "2026-11-13T04:00:49.443201+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "33hodl/hermes-watchdog",
+    "url": "https://github.com/33hodl/hermes-watchdog",
+    "description": "Cron jobs that fix themselves \u2014 playbook repairs, verification and an incident ledger for Hermes Agent",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "automation",
+      "cron",
+      "hermes-agent",
+      "hermes-plugin",
+      "monitoring",
+      "self-healing"
+    ],
+    "updated_at": "2026-11-13T03:59:27Z",
+    "category": "core",
+    "score": 54,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory",
+      "longyunfeigu/learn-hermes-agent",
+      "Sibyl-Labs/Sibyl-Memory",
+      "itechmeat/open-second-brain",
+      "mlennie/hermes-mcp",
+      "cx2002302-lang/zettelkasten-second-memory",
+      "kenryu42/cc-safety-net",
+      "EternalNight996/memory-eternal"
+    ],
+    "discovered_at": "2026-11-13T04:00:49.446169+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "SenjuWoo/RimWorldForge",
+    "url": "https://github.com/SenjuWoo/RimWorldForge",
+    "description": "Local-first AI modding workbench for RimWorld 1.6: Def indexing (game + installed mods), typed-plan generation, static validation, deterministic builds, Player.log storm diagnosis \u2014 MCP for Hermes / Claude Code / Codex.",
+    "stars": 1,
+    "forks": 1,
+    "language": "Python",
+    "topics": [
+      "ai-agents",
+      "automation",
+      "biotech",
+      "claude-code",
+      "codex",
+      "def",
+      "harmony",
+      "hermes",
+      "hugslib",
+      "mcp",
+      "mcp-server",
+      "modding-tools",
+      "model-context-protocol",
+      "python",
+      "rimworld",
+      "rimworld-mod",
+      "rimworld-modding",
+      "toolkit",
+      "windows",
+      "xml"
+    ],
+    "updated_at": "2026-11-07T20:50:05Z",
+    "category": "mcp",
+    "score": 58,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "jnMetaCode/superpowers-zh",
+      "yoloshii/ClawMem",
+      "jnMetaCode/shellward",
+      "Bo1202/Aivy-OS",
+      "EternalNight996/memory-eternal"
+    ],
+    "discovered_at": "2026-11-13T04:00:57.324579+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "ooohjh/Cowart-Hermes",
+    "url": "https://github.com/ooohjh/Cowart-Hermes",
+    "description": "\u628a Cowart \u753b\u5e03\u63a5\u5165 Hermes Desktop \u4e0e\u5f53\u524d\u4f1a\u8bdd\u56fe\u50cf\u5de5\u5177\u7684 Windows \u9002\u914d\u5668\u3002\u5305\u542b\u53ef\u7ef4\u62a4\u7684\u9002\u914d\u6e90\u7801\u3001\u9884\u6784\u5efa Cowart MCP/widget\u3001\u79bb\u7ebf\u6d4b\u8bd5\u3001\u786e\u5b9a\u6027\u6253\u5305\u5de5\u5177\u3002",
+    "stars": 0,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [],
+    "updated_at": "2026-11-13T00:32:21Z",
+    "category": "mcp",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-11-13T04:00:57.327443+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "elderica/hellocloud-hermes-agent-imagegen",
+    "url": "https://github.com/elderica/hellocloud-hermes-agent-imagegen",
+    "description": "HelloCloud \u753b\u50cf\u751f\u6210\u30d0\u30c3\u30af\u30a8\u30f3\u30c9 \u2014 Hermes Agent \u7528\u30d7\u30e9\u30b0\u30a4\u30f3",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-11-12T13:11:57Z",
+    "category": "forks",
+    "score": 42,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-11-13T04:01:13.085858+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "sw897/agent-asset-kit",
+    "url": "https://github.com/sw897/agent-asset-kit",
+    "description": "A CLI for AI agents to try skills, collect edits, and share them across devices and agents, without changing how you enter each project.",
+    "stars": 1,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "agent-assets",
+      "agent-skills",
+      "ai-agents",
+      "asset-management",
+      "claude-code",
+      "codex",
+      "cross-device-sync",
+      "hermes-agent",
+      "opencode",
+      "python-cli",
+      "skill-manager"
+    ],
+    "updated_at": "2026-11-13T03:59:15Z",
+    "category": "forks",
+    "score": 42,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_topic",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory",
+      "unmodeled-tyler/vessel-browser",
+      "hugocarreira/agentrc",
+      "yang1989haoa-gif/synapse-studio",
+      "Sylinko/Everywhere",
+      "agentrq/agentrq",
+      "codeofaxel/Kiln",
+      "dfrostar/neuralmind",
+      "EternalNight996/memory-eternal"
+    ],
+    "discovered_at": "2026-11-13T04:01:13.089011+00:00",
+    "status": "pending"
   }
 ]
