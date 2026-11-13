@@ -176,6 +176,7 @@ The GA4 Data API is powerful but requires significant engineering to make conver
 - [Connect Stripe to ChatGPT](connect-stripe-to-chatgpt.md) - payment data in ChatGPT
 - [Connect HubSpot to ChatGPT](connect-hubspot-to-chatgpt.md) - CRM data in ChatGPT
 - [Connect Klaviyo to ChatGPT](connectors.md) - email marketing data in ChatGPT
+- [Connect Google Analytics to Perplexity](connect-google-analytics-to-perplexity.md) - the same traffic data with market context
 - [ChatGPT Integration Overview](chatgpt-integration.md) - the full integration
 - [Benefits of MCP for Business](benefits-of-mcp-for-business.md) - why MCP wins
 - [MCP for Marketing](mcp-for-marketing.md) - MCP for marketing teams
