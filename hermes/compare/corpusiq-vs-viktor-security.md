@@ -2,12 +2,12 @@
 title: "CorpusIQ vs Viktor Security: Per-Person vs Shared Access"
 description: "Viktor shares all integrations at the workspace level with Private Mode coming soon. CorpusIQ ships per-user scoping and read-only OAuth today. Compare the security models."
 tags: [compare, security, viktor, rbac, ai employee]
-last_updated: "2026-11-01"
+last_updated: "2026-11-12"
 ---
 
 # CorpusIQ vs Viktor Security
 
-Viktor connects 3,200+ tools to your Slack workspace and shares every connection with everyone on the workspace. CorpusIQ connects 40+ business tools to your AI assistants and scopes every connection to the user who authorized it. The difference is the difference between a shared login and a governed system.
+Viktor connects 9,800+ tools to your Slack workspace and shares every connection with everyone on the workspace. CorpusIQ connects 40+ business tools to your AI assistants and scopes every connection to the user who authorized it. The difference is the difference between a shared login and a governed system.
 
 ## How Viktor handles access
 

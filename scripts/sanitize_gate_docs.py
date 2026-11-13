@@ -98,9 +98,18 @@ def sanitize_text(txt):
         return txt
     for i in range(1, close):
         stripped = lines[i].strip()
-        for key, maxlen in (('title', MAX_TITLE), ('description', MAX_DESC)):
+        for key, maxlen in (('title', MAX_TITLE),):
             if stripped.startswith(key + ':'):
                 val = stripped.split(':', 1)[1].strip()
+                # `description` is deliberately NOT clamped here. The hook used
+                # to cut it to MAX_DESC on a word boundary, which ships a
+                # fragment as the live <meta name="description"> (2026-11-12:
+                # "...Per-Person vs Shared Access" + a truncated compare line
+                # cost a 33-page repair, PR #310). The render-time hook
+                # scripts/hooks/truncate_meta_description.py already caps the
+                # served value, and the ops gate reports an over-length
+                # description as a WARN (meta_len), never a failure, so cutting
+                # it in source deletes content that nothing puts back.
                 # A folded/literal block scalar carries its value on the
                 # indented lines below; rewriting this line to a quoted string
                 # destroyed them. 2026-11-12: `description: >-` became
