@@ -4713,6 +4713,10 @@
          <lastmod>2026-11-01</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/logpulse-mcp</loc>
+         <lastmod>2026-11-13</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/lookfirst-mcp</loc>
          <lastmod>2026-11-04</lastmod>
     </url>
@@ -5831,6 +5835,10 @@
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/ripplewatch-mcp</loc>
          <lastmod>2026-11-05</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/risk-aware-trading-agents-mcp</loc>
+         <lastmod>2026-11-13</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/rivalize-mcp</loc>
@@ -7447,6 +7455,10 @@
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-november12-2026-night</loc>
          <lastmod>2026-11-12</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-november13-2026-midday-supplement</loc>
+         <lastmod>2026-11-13</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-november13-2026-midday</loc>
