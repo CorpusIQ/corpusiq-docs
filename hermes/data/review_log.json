@@ -22523,5 +22523,68 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-11-13T04:03:18.388634+00:00"
+  },
+  {
+    "repo": "kszymczycha/hermes-agent-stack",
+    "score": 33,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-13T10:03:27.159399+00:00"
+  },
+  {
+    "repo": "DarkoKuzmanovic/herdr-mods",
+    "score": 48,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-13T10:03:27.159414+00:00"
+  },
+  {
+    "repo": "obezglavlen/Mac-Wakeprobe",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-13T10:03:27.159417+00:00"
+  },
+  {
+    "repo": "sandman-sh/Hermes-CoBrowse",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-13T10:03:27.159419+00:00"
+  },
+  {
+    "repo": "cyt-666/hermes-mteam-qbit",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-13T10:03:27.159421+00:00"
+  },
+  {
+    "repo": "clockwork-dev/hermes-antigravity-oauth",
+    "score": 54,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-13T10:03:27.159423+00:00"
+  },
+  {
+    "repo": "slashman413/cowork",
+    "score": 58,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-13T10:03:27.159425+00:00"
+  },
+  {
+    "repo": "horelvis/bot-hq",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-13T10:03:27.159427+00:00"
+  },
+  {
+    "repo": "thanhtantran/hermes-gadget-sdk",
+    "score": 42,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-13T10:03:27.159429+00:00"
   }
 ]

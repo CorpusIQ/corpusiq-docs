@@ -94664,5 +94664,272 @@
     ],
     "discovered_at": "2026-11-13T04:01:13.089011+00:00",
     "status": "pending"
+  },
+  {
+    "name": "kszymczycha/hermes-agent-stack",
+    "url": "https://github.com/kszymczycha/hermes-agent-stack",
+    "description": "Hermes Agent - Local Deployment Stack",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-06-27T12:00:03Z",
+    "category": "core",
+    "score": 33,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "stale"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-11-13T10:00:56.519392+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "DarkoKuzmanovic/herdr-mods",
+    "url": "https://github.com/DarkoKuzmanovic/herdr-mods",
+    "description": "Mods for the Herdr desktop app: agent session IDs and Resume in the Agents list (Claude Code, Codex, Pi, OpenCode, Hermes), git, ports and PR badges in Spaces, CPU/memory/GPU status bar",
+    "stars": 0,
+    "forks": 1,
+    "language": "JavaScript",
+    "topics": [
+      "ai-agents",
+      "claude-code",
+      "codex",
+      "coding-agents",
+      "developer-tools",
+      "herdr",
+      "herdr-app",
+      "herdr-mod",
+      "opencode",
+      "pi-coding-agent",
+      "terminal"
+    ],
+    "updated_at": "2026-11-11T22:20:17Z",
+    "category": "core",
+    "score": 48,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "colbymchenry/codegraph",
+      "EverMind-AI/EverOS",
+      "Romanescu11/hermes-skill-factory",
+      "Shelpuk-AI-Technology-Consulting/kindly-web-search-mcp-server",
+      "itechmeat/open-second-brain",
+      "tale-project/tale",
+      "AVIDS2/memorix",
+      "ruvnet/metaharness",
+      "liaohch3/claude-tap",
+      "MemTensor/memmy-agent",
+      "Devin-AXIS/iPolloWork",
+      "jazzyalex/agent-sessions",
+      "rexleimo/aios",
+      "Orkas-AI/Orkas",
+      "codeofaxel/Kiln",
+      "davidondrej/cloudroom",
+      "EternalNight996/memory-eternal"
+    ],
+    "discovered_at": "2026-11-13T10:00:56.521225+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "obezglavlen/Mac-Wakeprobe",
+    "url": "https://github.com/obezglavlen/Mac-Wakeprobe",
+    "description": "Stay your mac out of sleep and check for power. Hermes agent usage",
+    "stars": 0,
+    "forks": 0,
+    "language": "Shell",
+    "topics": [],
+    "updated_at": "2026-11-13T06:05:06Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory"
+    ],
+    "discovered_at": "2026-11-13T10:00:56.523153+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "sandman-sh/Hermes-CoBrowse",
+    "url": "https://github.com/sandman-sh/Hermes-CoBrowse",
+    "description": "Multi-Window Spatial Co-Browsing Canvas & Dual-Control Automation Studio for Hermes Agent",
+    "stars": 1,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "cobrowse",
+      "hermes",
+      "hermes-agent",
+      "hermes-agent-plugin",
+      "hermes-plugin"
+    ],
+    "updated_at": "2026-11-13T10:00:39Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-11-13T10:00:56.524758+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "cyt-666/hermes-mteam-qbit",
+    "url": "https://github.com/cyt-666/hermes-mteam-qbit",
+    "description": "Hermes Agent plugin for M-Team search and qBittorrent integration.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-11-12T14:24:07Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "kaankacar/stellar-agent-kit"
+    ],
+    "discovered_at": "2026-11-13T10:00:56.526902+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "clockwork-dev/hermes-antigravity-oauth",
+    "url": "https://github.com/clockwork-dev/hermes-antigravity-oauth",
+    "description": "Hermes Agent model-provider plugin for Google Antigravity OAuth subscriptions (Gemini 4 Argon, Claude 5.5, GPT-OSS)",
+    "stars": 1,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-11-10T22:07:33Z",
+    "category": "core",
+    "score": 54,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "zeyxx/hermes-antigravity"
+    ],
+    "discovered_at": "2026-11-13T10:00:56.528514+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "slashman413/cowork",
+    "url": "https://github.com/slashman413/cowork",
+    "description": "\ud83e\udd1d Open-source Mission Control & MCP Task Queue for Claude Code, Codex, Gemini CLI & Hermes. Dark Web UI, auto-fallback chains, remote fleet.",
+    "stars": 1,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [
+      "agent-dashboard",
+      "ai-agent-orchestration",
+      "ai-agents",
+      "automation",
+      "autonomous-agents",
+      "claude",
+      "claude-code",
+      "codex",
+      "developer-tools",
+      "gemini-cli",
+      "homelab",
+      "llm",
+      "local-ai",
+      "mcp",
+      "mcp-server",
+      "model-context-protocol",
+      "multi-agent",
+      "ollama",
+      "open-source",
+      "self-hosted"
+    ],
+    "updated_at": "2026-11-13T09:20:23Z",
+    "category": "mcp",
+    "score": 58,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "farion1231/cc-switch",
+      "iOfficeAI/AionUi",
+      "CodeAbra/iai-personal-memory-engine",
+      "AVIDS2/memorix",
+      "Orkas-AI/Orkas"
+    ],
+    "discovered_at": "2026-11-13T10:01:04.520543+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "horelvis/bot-hq",
+    "url": "https://github.com/horelvis/bot-hq",
+    "description": "A team of Hermes agents you chat with, each with its own screen on one Orgo computer. Composio apps, xAI voice and X research.",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-11-13T09:19:07Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory",
+      "stablyai/orca",
+      "Orkas-AI/Orkas",
+      "sno-ai/sno-station",
+      "dfrostar/neuralmind",
+      "EternalNight996/memory-eternal"
+    ],
+    "discovered_at": "2026-11-13T10:01:20.452882+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "thanhtantran/hermes-gadget-sdk",
+    "url": "https://github.com/thanhtantran/hermes-gadget-sdk",
+    "description": "Build small ESP32 voice gadgets for your own Hermes Agent: push-to-talk firmware, a desktop simulator and a Hermes platform plugin.",
+    "stars": 0,
+    "forks": 0,
+    "language": "C++",
+    "topics": [],
+    "updated_at": "2026-10-26T23:59:52Z",
+    "category": "forks",
+    "score": 42,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_month"
+    ],
+    "near_duplicates": [
+      "Adolanium/hermes-gadget-sdk"
+    ],
+    "discovered_at": "2026-11-13T10:01:20.455000+00:00",
+    "status": "pending"
   }
 ]
