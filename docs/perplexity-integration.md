@@ -98,6 +98,10 @@ A: Same endpoint, different client. This guide is for using Perplexity as the MC
 - **[Connect Ahrefs to Perplexity](connect-ahrefs-to-perplexity.md)** - domain ratings, ranking keywords and referring domains
 - **[Connect ActiveCampaign to Perplexity](connect-activecampaign-to-perplexity.md)** - campaign performance, automation health and pipeline age
 - **[Connect Dropbox to Perplexity](connect-dropbox-to-perplexity.md)** - contracts, board decks and invoices read from your folders
+- **[Connect Google Analytics to Perplexity](connect-google-analytics-to-perplexity.md)** - traffic, channels and conversion from your own GA4 properties
+- **[Connect Google Search Console to Perplexity](connect-google-search-console-to-perplexity.md)** - the queries and pages that actually earn the clicks
+- **[Connect Google Ads to Perplexity](connect-google-ads-to-perplexity.md)** - spend, quality score and wasted search terms from your ad account
+- **[Connect Mailchimp to Perplexity](connect-mailchimp-to-perplexity.md)** - campaign revenue, list health and segment behaviour
 - **[Connect Odoo to Perplexity](connect-odoo-to-perplexity.md)** - quotations, invoices, stock and pipeline across ERP modules
 - **[Connect Semrush to Perplexity](connect-semrush-to-perplexity.md)** - competitor keywords, backlinks and demand sizing
 - **[Connect TikTok to Perplexity](connect-tiktok-to-perplexity.md)** - per-video performance and channel trend

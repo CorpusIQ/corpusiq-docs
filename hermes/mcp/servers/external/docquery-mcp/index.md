@@ -143,4 +143,4 @@ What holds it back is depth: four tools cover listing and reading, and everythin
 
 For a team whose data is a spreadsheet plus a folder of documents, this is the shortest path from that pair to an agent that can answer a question across both. It is not a warehouse and does not pretend to be.
 
-See also: [Basis MCP](/hermes/mcp/servers/external/basis-mcp/) for an Excel engine an agent can audit, [SumOffice MCP](/hermes/mcp/servers/external/sumoffice-mcp/) for editing a real workbook, and [OpenDocKit MCP](/hermes/mcp/servers/external/opendockit-mcp/) for a local document reader.
+See also: [Basis MCP](/hermes/mcp/servers/external/basis-mcp/) for an Excel engine an agent can audit, [SumOffice MCP](/hermes/mcp/servers/external/sumoffice-mcp/) for editing a real workbook, and OpenDocKit MCP, read and held this pass rather than catalogued, for a local document reader.

@@ -225,6 +225,10 @@ nav:
   - Connect Odoo to Perplexity: connect-odoo-to-perplexity.md
   - Connect Semrush to Perplexity: connect-semrush-to-perplexity.md
   - Connect TikTok to Perplexity: connect-tiktok-to-perplexity.md
+  - Connect Google Analytics to Perplexity: connect-google-analytics-to-perplexity.md
+  - Connect Google Search Console to Perplexity: connect-google-search-console-to-perplexity.md
+  - Connect Google Ads to Perplexity: connect-google-ads-to-perplexity.md
+  - Connect Mailchimp to Perplexity: connect-mailchimp-to-perplexity.md
 - Business AI Use Cases:
   - AI for Business Intelligence: ai-for-business-intelligence.md
   - AI for Financial Analysis: ai-for-financial-analysis.md

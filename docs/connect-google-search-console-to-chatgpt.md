@@ -93,6 +93,7 @@ It is not. Retrieval happens on demand against the live API. CorpusIQ does not r
 ## Related Pages
 
 - [Connect Google Search Console to Claude](connect-google-search-console-to-claude.md) - the same connector in Claude
+- [Connect Google Search Console to Perplexity](connect-google-search-console-to-perplexity.md) - the same query data with market context
 - [Connect Google Analytics to ChatGPT](connect-google-analytics-to-chatgpt.md) - the outcome layer beside the query layer
 - [Connect Google Ads to ChatGPT](connect-google-ads-to-chatgpt.md) - paid search beside organic
 - [Browse all CorpusIQ connectors](connectors.md) - the full list

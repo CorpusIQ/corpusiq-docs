@@ -8890,6 +8890,7 @@ You need access to the Google Ads account that grants permission to authorize th
 ## Internal Links
 
 - [Connect Google Ads to Claude](connectors/connect-google-ads-to-claude.md) - the same account, set up for Claude Desktop
+- [Connect Google Ads to Perplexity](connect-google-ads-to-perplexity.md) - the same account, with auction context
 - [Browse all CorpusIQ connectors](connectors.md)
 - [Connect Meta Ads to ChatGPT](connect-meta-ads-to-chatgpt.md)
 - [Connect Google Analytics to ChatGPT](connect-google-analytics-to-chatgpt.md)
@@ -8902,6 +8903,142 @@ You need access to the Google Ads account that grants permission to authorize th
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# How to Connect Google Ads to Perplexity with CorpusIQ MCP
+URL: https://www.corpusiq.io/docs/connect-google-ads-to-perplexity
+
+
+# How to Connect Google Ads to Perplexity with CorpusIQ MCP
+
+Perplexity is good at the outside world. What a keyword costs in your category, what changed in the auction this quarter, how competitors are positioning.
+
+It cannot see your own account. What you actually paid, which keywords carry a weak quality score, which search terms drained the budget. That lives in Google Ads.
+
+Connecting Google Ads through CorpusIQ MCP puts both in one thread. Perplexity answers the question about your campaigns from your own account, read-only, and names the campaigns, accounts and date window behind the figures.
+
+### Why Connect Google Ads to Perplexity?
+
+- **Cost benchmark against your own spend.** "Our cost per lead is 84 dollars. Is that high for this category right now?"
+- **Wasted spend.** "Which search terms spent more than 200 dollars last month with no conversion?"
+- **Quality score.** "Which keywords sit below a quality score of 5, and what does that usually mean for cost?"
+- **Budget pacing.** "Which campaigns are pacing over budget this month, and by how much?"
+- **Auction context.** "Where is our impression share lost, to budget or to rank?"
+- **Read-only by scope.** What the signed-in Google user can see is what the connector can read. It cannot change a bid, a budget, a keyword or a campaign state.
+
+### How It Works
+
+1. **Connect Google Workspace to CorpusIQ** with the Google account that can see the Ads accounts. Google Ads arrives through that same connection, not a separate one.
+2. **If you use a manager account**, set the login customer ID so linked client accounts are reachable.
+3. **Add CorpusIQ to Perplexity** as a custom remote MCP server, using the endpoint from your CorpusIQ account settings.
+4. **Perplexity answers** from campaign and ad group performance, keywords with quality scores and impression share, search terms, geographic and device breakdowns, and custom queries, then adds the market context you asked for.
+
+Direct MCP retrieval is read-only. It does not retain raw customer files or full connector response payloads; operational query logs are kept for up to 30 days.
+
+### Setup Steps
+
+**In CorpusIQ**
+
+1. Open your dashboard and go to **Connectors**.
+2. Select **Google Workspace** and sign in with the Google account that has access to the Ads account you want answerable.
+3. Approve read access on Google's consent screen. Ads data arrives through the same connection.
+4. If you manage accounts through an MCC, set the login customer ID so the client accounts are reachable.
+5. Confirm the account you want is visible. Anyone without access to the Ads account cannot authorize it.
+
+**In Perplexity**
+
+6. Open **Settings** and find the **MCP servers** section.
+7. Add a custom remote MCP server and paste the endpoint:
+
+```
+https://mcp2.corpusiq.io/mcp
+```
+
+8. Connect and approve the CorpusIQ authorization page once.
+9. Start a new thread and ask a question about your campaigns.
+
+### Example Perplexity Questions
+
+**Spend and efficiency**
+
+- "What did we spend last month by campaign, and what did it return?"
+- "Which campaigns have a cost per conversion above 100 dollars?"
+- "How has our cost per click moved against the category average this quarter?"
+
+**Keywords**
+
+- "Which keywords have an impression share below 40 percent and a quality score above 7?"
+- "Which keywords lost the most spend with zero conversions this month?"
+- "Where are we losing impression share, to budget or to rank?"
+
+**Search terms**
+
+- "Which search terms triggered our ads but are clearly the wrong intent?"
+- "What new search terms appeared last month that we are not bidding on?"
+- "Which search terms converted more than once?"
+
+**Structure and pacing**
+
+- "Which ad groups carry fewer than three ads?"
+- "Which campaigns are pacing over budget this month?"
+- "How does performance split by device and by geography?"
+
+### Comparison: The Google Ads Interface vs Google Ads Through Perplexity
+
+| | Google Ads interface | Google Ads through Perplexity |
+|---|---|---|
+| A performance read-out | Build the report, segment, export | Ask the question |
+| Explaining a cost move | Read the change history and infer | Ask why, then verify against the cited rows |
+| Category context | Open another tab and search | Same thread |
+| Manager accounts | Switch accounts, repeat the report | Name the account in the question |
+
+### FAQ
+
+<details>
+<summary><strong>Is Google Ads a separate connector?</strong></summary>
+
+No. It arrives through the Google Workspace connection. You sign in with the Google account that can see the Ads account and approve read access once, and the Ads tools become available alongside Gmail, Drive, Sheets, Analytics and Search Console.
+</details>
+
+<details>
+<summary><strong>Can it change bids or budgets?</strong></summary>
+
+No. The grant is read access scoped to what the signed-in Google user can already see. Bid, budget, keyword and campaign-state changes are outside the retrieval path.
+</details>
+
+<details>
+<summary><strong>Does it work with a manager account?</strong></summary>
+
+Yes, with one setting. Set the login customer ID for the MCC so the linked client accounts can be reached, then name the client account in the question.
+</details>
+
+<details>
+<summary><strong>Can I run a custom query?</strong></summary>
+
+Yes. The connector exposes a query path for the account you authorized, so a question that the standard tools do not cover can be answered as a custom pull rather than a guess.
+</details>
+
+<details>
+<summary><strong>Does this work only in Perplexity?</strong></summary>
+
+No. Google Ads is exposed to ChatGPT, Claude and Perplexity through the same endpoint on the same subscription.
+</details>
+
+<details>
+<summary><strong>Where is the ad data stored?</strong></summary>
+
+CorpusIQ does not retain raw customer files or full connector response payloads. Operational logs may persist for up to 30 days. See the [read-only and security documentation](/hermes/security/read-only-and-security).
+</details>
+
+---
+
+**Next steps:** [Connect Google Ads to Perplexity now](https://www.corpusiq.io/connectors/perplexity)
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.CorpusIQ.io).*
 
 ---
 # How to Connect Google Analytics to ChatGPT with CorpusIQ MCP
@@ -9195,6 +9332,143 @@ Yes. The API returns data based on the property's configured reporting identity 
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# How to Connect Google Analytics to Perplexity with CorpusIQ MCP
+URL: https://www.corpusiq.io/docs/connect-google-analytics-to-perplexity
+
+
+# How to Connect Google Analytics to Perplexity with CorpusIQ MCP
+
+Perplexity is good at the outside world. Benchmark conversion rates for your category, what changed in search this quarter, how peers are spending.
+
+It cannot see your own numbers. Which channel actually converts, which landing page carries the revenue, whether last month was up or down. That data sits in GA4 and nowhere else.
+
+Connecting Google Analytics through CorpusIQ MCP puts both in one thread. Perplexity answers the question about your traffic from your own properties, read-only, and names the property, the date range and the dimensions it read.
+
+### Why Connect Google Analytics to Perplexity?
+
+- **Benchmark against your own number.** "Our conversion rate is 2.1 percent. Is that normal for a B2B services site?" Both halves answered in one thread.
+- **Channel performance.** "Which channel drove the most revenue last quarter, and what did it cost us per session?"
+- **Landing page attribution.** "Which ten landing pages brought the most converting sessions this month?"
+- **Campaign read-out.** "How did the November campaign perform against the previous one, by source and medium?"
+- **Drop-off diagnosis.** "Where does the checkout funnel lose the most sessions?"
+- **Read-only by scope.** The OAuth grant is read access to GA4 data. It cannot change a property, an event, a conversion setting or a data filter.
+
+### How It Works
+
+1. **Connect Google Analytics to CorpusIQ** through Google OAuth, granting read-only access to your GA4 properties.
+2. **Choose the properties.** You decide which GA4 properties the connection can read.
+3. **Add CorpusIQ to Perplexity** as a custom remote MCP server, using the endpoint from your CorpusIQ account settings.
+4. **Perplexity answers** with the figure, the period it covers, the property it came from, and the market context you asked for around it.
+
+Direct MCP retrieval is read-only. It does not retain raw customer files or full connector response payloads; operational query logs are kept for up to 30 days.
+
+### Setup Steps
+
+**In CorpusIQ**
+
+1. Open your dashboard and go to **Connectors**.
+2. Select **Google Analytics** and click **Connect Google Analytics**.
+3. Sign in with the Google account that can see the GA4 properties you want answerable and approve the read-only grant.
+4. Select the properties to expose. Properties you do not select are not reachable.
+
+**In Perplexity**
+
+5. Open **Settings** and find the **MCP servers** section.
+6. Add a custom remote MCP server and paste the endpoint:
+
+```
+https://mcp2.corpusiq.io/mcp
+```
+
+7. Connect and approve the CorpusIQ authorization page once.
+8. Start a new thread and ask a question about your traffic.
+
+Requires a Google account with access to the properties. No developer project, no service account JSON, no Data API client to maintain.
+
+### Example Perplexity Questions
+
+**Traffic and channels**
+
+- "What was our total traffic last month, broken down by channel, and which channel grew fastest?"
+- "Which source and medium pair brought the most new users this quarter?"
+- "How much of our traffic is organic versus paid, and how has that split moved in six months?"
+
+**Conversion and revenue**
+
+- "What is our conversion rate by channel, and how does it compare to the industry benchmark?"
+- "Which landing pages produced the most converting sessions this quarter?"
+- "What is our revenue per session by campaign?"
+
+**Content and engagement**
+
+- "Which blog posts held attention longest last month?"
+- "Which pages have a high bounce rate and more than a thousand sessions?"
+- "What are our top ten pages by engaged sessions this year?"
+
+**Diagnosis**
+
+- "Where does the signup funnel lose the most sessions, desktop versus mobile?"
+- "Which device category converts worst, and does that match the industry pattern?"
+- "Did the site speed change in October show up in engagement metrics?"
+
+### Comparison: The GA4 Interface vs GA4 Through Perplexity
+
+| | GA4 interface | GA4 through Perplexity |
+|---|---|---|
+| Getting a number | Build the report, pick dimensions, pick metrics | Ask the question |
+| Adding outside context | Copy the figure into another tool | Same thread |
+| First question of the month | Rebuild the exploration | Ask again |
+| Explaining a movement | Read the chart and guess | Ask for the cause, then verify with the cited report |
+
+### FAQ
+
+<details>
+<summary><strong>Does this need a Google Cloud project or a service account?</strong></summary>
+
+No. The connection is a Google OAuth grant made by a user who can already see the properties. There is no client ID to create and no JSON key to store.
+</details>
+
+<details>
+<summary><strong>Can it change my GA4 setup?</strong></summary>
+
+No. The grant is read access to analytics data. Properties, events, key events, audiences and data filters are not writable through the retrieval tools.
+</details>
+
+<details>
+<summary><strong>How current is the data?</strong></summary>
+
+GA4 standard reports finish processing with a delay, and recent days can be incomplete while that completes. Ask for a closed period when the figure has to be final, and check the answer against the GA4 interface for anything time sensitive.
+</details>
+
+<details>
+<summary><strong>Can I limit which properties are visible?</strong></summary>
+
+Yes. Property selection happens in CorpusIQ when the connector is authorized, so a team can expose one brand's property without exposing the rest of the portfolio.
+</details>
+
+<details>
+<summary><strong>Does this work only in Perplexity?</strong></summary>
+
+No. Google Analytics is exposed to ChatGPT, Claude and Perplexity through the same endpoint on the same subscription.
+</details>
+
+<details>
+<summary><strong>Where is the analytics data stored?</strong></summary>
+
+CorpusIQ does not retain raw customer files or full connector response payloads. Operational logs may persist for up to 30 days. See the [read-only and security documentation](/hermes/security/read-only-and-security).
+</details>
+
+---
+
+**Next steps:** [Connect Google Analytics to Perplexity now](https://www.corpusiq.io/connectors/perplexity)
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.CorpusIQ.io).*
 
 ---
 # How to Connect Google Calendar to ChatGPT with CorpusIQ MCP
@@ -10366,6 +10640,7 @@ It is not. Retrieval happens on demand against the live API. CorpusIQ does not r
 ## Related Pages
 
 - [Connect Google Search Console to Claude](connect-google-search-console-to-claude.md) - the same connector in Claude
+- [Connect Google Search Console to Perplexity](connect-google-search-console-to-perplexity.md) - the same query data with market context
 - [Connect Google Analytics to ChatGPT](connect-google-analytics-to-chatgpt.md) - the outcome layer beside the query layer
 - [Connect Google Ads to ChatGPT](connect-google-ads-to-chatgpt.md) - paid search beside organic
 - [Browse all CorpusIQ connectors](connectors.md) - the full list
@@ -10543,6 +10818,142 @@ It is not stored. Retrieval happens on demand against the live API. CorpusIQ doe
 - [MCP vs API Integrations](mcp-vs-api-integrations.md) - why the access model differs
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+
+---
+# How to Connect Google Search Console to Perplexity with CorpusIQ MCP
+URL: https://www.corpusiq.io/docs/connect-google-search-console-to-perplexity
+
+
+# How to Connect Google Search Console to Perplexity with CorpusIQ MCP
+
+Perplexity is good at search itself. What a query means, who ranks for it, what changed in the results page this month.
+
+It cannot see your own query data. Which pages lost clicks, which queries brought impressions without a click, where position moved. That lives in Search Console, behind your verified property.
+
+Connecting Search Console through CorpusIQ MCP puts both in one thread. Perplexity answers the question about your search performance from your own property, read-only, and states the property, the date range and the dimensions it read.
+
+### Why Connect Google Search Console to Perplexity?
+
+- **Query intent plus your numbers.** "We rank 7th for this query with a 1.2 percent CTR. What do the top three results do differently?" Both halves in one thread.
+- **Cannibalisation checks.** "Which queries bring up more than one of our pages, and which page wins?"
+- **Lost click diagnosis.** "Where did impressions rise while clicks fell last quarter?"
+- **Page decay.** "Which pages lost more than 20 percent of their clicks over three months?"
+- **Content planning.** "Which queries do we rank for on page two, and what intent do they carry?"
+- **Read-only by scope.** Nothing in the retrieval path can submit a sitemap, request indexing or change a property setting.
+
+### How It Works
+
+1. **Connect Google.** Search Console is part of the Google connector in CorpusIQ, alongside Gmail, Calendar, Drive, Sheets, Google Analytics and Google Ads. One authorization covers them.
+2. **Grant read access.** You approve the Search Console read scope for properties you own or administer.
+3. **Add CorpusIQ to Perplexity** as a custom remote MCP server, using the endpoint from your CorpusIQ account settings.
+4. **Perplexity answers** from your query and page data, then adds the external context the question needs.
+
+Direct MCP retrieval is read-only. It does not retain raw customer files or full connector response payloads; operational query logs are kept for up to 30 days.
+
+### Setup Steps
+
+**In CorpusIQ**
+
+1. Open your dashboard and go to **Connectors**.
+2. Select **Google** and sign in with the Google account that is a verified owner or full user of the Search Console property.
+3. Approve read access on Google's consent screen. Search Console data arrives through that same connection.
+4. If you manage several properties, confirm which one the question should target. The answer names the property it read.
+
+**In Perplexity**
+
+5. Open **Settings** and find the **MCP servers** section.
+6. Add a custom remote MCP server and paste the endpoint:
+
+```
+https://mcp2.corpusiq.io/mcp
+```
+
+7. Connect and approve the CorpusIQ authorization page once.
+8. Start a new thread and ask a question about search performance.
+
+An agency can read a client property under the client's own permission set, because access follows the Google account you authorize.
+
+### Example Perplexity Questions
+
+**Performance**
+
+- "How many clicks and impressions did the site get last month, and how did that change year over year?"
+- "Which ten queries brought the most clicks last quarter?"
+- "What is our average position by country?"
+
+**Queries and intent**
+
+- "Which queries have more than a thousand impressions and a click-through rate under one percent?"
+- "Which page-two queries look commercial rather than informational?"
+- "What questions are people asking that we rank for but never answer directly?"
+
+**Pages**
+
+- "Which pages lost the most clicks over the last three months?"
+- "Which new pages gained traction since they were published?"
+- "Which pages rank for more than twenty queries but convert nothing?"
+
+**Technical**
+
+- "Which pages were indexed this month, and which are excluded?"
+- "Did the core update change our position on our top twenty queries?"
+
+### Comparison: The Search Console Interface vs Search Console Through Perplexity
+
+| | Search Console | Search Console through Perplexity |
+|---|---|---|
+| A query report | Filter, sort, export, then read | Ask the question |
+| Adding outside context | Copy it into a chat somewhere else | Same thread |
+| Explaining a drop | Read the chart and infer | Ask for the cause, then verify against the cited rows |
+| Long history | Bounded by the 16-month window | Same window, asked as a question |
+
+### FAQ
+
+<details>
+<summary><strong>Which properties can be connected?</strong></summary>
+
+Any property the authorized Google account owns or has full access to, including domain properties and URL-prefix properties. Access follows your Google permissions, not a CorpusIQ-side list.
+</details>
+
+<details>
+<summary><strong>Can it submit a sitemap or request indexing?</strong></summary>
+
+No. The grant carries the read scope for search performance data. Write operations such as sitemap submission, indexing requests and property settings are outside the retrieval path.
+</details>
+
+<details>
+<summary><strong>How much history is available?</strong></summary>
+
+Search Console keeps a bounded history of about 16 months. Questions about older periods have no data behind them, and recent days can still be filling in, so ask for a closed range when a figure has to be final.
+</details>
+
+<details>
+<summary><strong>Do I need both Google Analytics and Search Console?</strong></summary>
+
+They answer different questions. Search Console covers what happened on the results page, Analytics covers what visitors did after they arrived. Both arrive through the same Google connection, so adding the second costs one authorization.
+</details>
+
+<details>
+<summary><strong>Does this work only in Perplexity?</strong></summary>
+
+No. Search Console is exposed to ChatGPT, Claude and Perplexity through the same endpoint on the same subscription.
+</details>
+
+<details>
+<summary><strong>Where is the search data stored?</strong></summary>
+
+CorpusIQ does not retain raw customer files or full connector response payloads. Operational logs may persist for up to 30 days. See the [read-only and security documentation](/hermes/security/read-only-and-security).
+</details>
+
+---
+
+**Next steps:** [Connect Google Search Console to Perplexity now](https://www.corpusiq.io/connectors/perplexity)
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.CorpusIQ.io).*
 
 ---
 # How to Connect Google Sheets to ChatGPT with CorpusIQ MCP
@@ -12079,6 +12490,7 @@ CorpusIQ does not retain raw customer files or full connector response payloads.
 - [Connect HubSpot to ChatGPT](connect-hubspot-to-chatgpt.md) - lifecycle and pipeline beside the send
 - [Connect Shopify to ChatGPT](connect-shopify-to-chatgpt.md) - the revenue side of the comparison
 - [Connect Mailchimp to Claude](connect-mailchimp-to-claude.md) - the same campaign questions for Claude Desktop
+- [Connect Mailchimp to Perplexity](connect-mailchimp-to-perplexity.md) - the same campaign questions with market context
 - [Browse all CorpusIQ connectors](connectors.md) - the full list
 - [AI for Marketing Analytics](ai-for-marketing-analytics.md) - the analysis pattern
 - [How to Connect Business Data to ChatGPT](how-to-connect-business-data-to-chatgpt.md) - the general setup
@@ -12247,6 +12659,141 @@ CorpusIQ does not retain raw customer files or full connector response payloads.
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# How to Connect Mailchimp to Perplexity with CorpusIQ MCP
+URL: https://www.corpusiq.io/docs/connect-mailchimp-to-perplexity
+
+
+# How to Connect Mailchimp to Perplexity with CorpusIQ MCP
+
+Perplexity is good at the outside world. Industry open rates, deliverability changes at the mailbox providers, what subject lines work in your category this year.
+
+It cannot see your list. Which campaign actually drove revenue, which segment stopped opening, how fast the audience grew. That data sits in Mailchimp.
+
+Connecting Mailchimp through CorpusIQ MCP puts both in one thread. Perplexity answers the question about your email programme from your own account, read-only, and names the campaigns, audiences and date ranges it read.
+
+### Why Connect Mailchimp to Perplexity?
+
+- **Benchmark against your own list.** "Our open rate is 28 percent. How does that compare with the category this quarter?"
+- **Campaign read-out.** "Which campaign drove the most revenue last quarter, and what was its cost per order?"
+- **List health.** "How much did the audience grow last month, net of unsubscribes and bounces?"
+- **Segment behaviour.** "Which segment opens most and buys least?"
+- **Deliverability.** "Which campaigns had a bounce rate above two percent, and what changed?"
+- **Read-only by scope.** The connection reads campaigns, audiences and reports. It cannot send a campaign, edit a list or change an automation.
+
+### How It Works
+
+1. **Connect Mailchimp to CorpusIQ** with a read-only API key or through OAuth, whichever your account supports.
+2. **Add CorpusIQ to Perplexity** as a custom remote MCP server, using the endpoint from your CorpusIQ account settings.
+3. **CorpusIQ reads** the campaigns, reports, audiences and segments the question needs.
+4. **Perplexity answers** from that retrieved content, names the campaigns it used, and adds the external context you asked for.
+
+Direct MCP retrieval is read-only. It does not retain raw customer files or full connector response payloads; operational query logs are kept for up to 30 days.
+
+### Setup Steps
+
+**In CorpusIQ**
+
+1. Log in and open **Connectors**.
+2. Select **Mailchimp**.
+3. Authorize the connection with a read-only API key, or through OAuth if your Mailchimp plan supports it. A key is created in Mailchimp under **Account**, then **Extras**, then **API keys**.
+4. Confirm the account is connected. Access follows the account or key you approve, and nothing outside it is reachable.
+
+**In Perplexity**
+
+5. Open **Settings** and find the **MCP servers** section.
+6. Add a custom remote MCP server and paste the endpoint:
+
+```
+https://mcp2.corpusiq.io/mcp
+```
+
+7. Connect and approve the CorpusIQ authorization page once.
+8. Start a new thread and ask a question about your email programme.
+
+### Example Perplexity Questions
+
+**Campaign performance**
+
+- "Which three campaigns had the highest revenue last quarter?"
+- "What was the click-through rate by campaign for the last ten sends?"
+- "Which campaign had the best revenue per recipient?"
+
+**List health**
+
+- "How did the audience grow last month, net of unsubscribes and bounces?"
+- "Which segments are shrinking fastest?"
+- "How many subscribers joined through a form versus an import this quarter?"
+
+**Segmentation**
+
+- "Which segment has the highest average order value?"
+- "Which subscribers opened nothing in ninety days?"
+- "How does the engaged segment compare with the rest of the list on click rate?"
+
+**Content and testing**
+
+- "Which subject lines performed best in the last twenty sends?"
+- "Does the send day change open rate on our list?"
+- "Which links in the last quarter's newsletters got the most clicks?"
+
+### Comparison: The Mailchimp Interface vs Mailchimp Through Perplexity
+
+| | Mailchimp interface | Mailchimp through Perplexity |
+|---|---|---|
+| Campaign comparison | Open each report, note the numbers | Ask for the comparison |
+| Adding industry context | Copy the figure into another tab | Same thread |
+| Segment history | Filter, then read charts | Ask the question |
+| A recurring monthly read-out | Rebuild the view | Ask again |
+
+### FAQ
+
+<details>
+<summary><strong>Does this need a developer or a paid Mailchimp add-on?</strong></summary>
+
+No developer. The connection uses a read-only API key or OAuth against the account you authorize, which is why no integration code has to be written or maintained.
+</details>
+
+<details>
+<summary><strong>Can it send a campaign or edit a list?</strong></summary>
+
+No. The connection reads campaigns, reports, audiences and segments. Sending, editing and automation changes are outside the retrieval path.
+</details>
+
+<details>
+<summary><strong>Does it read subscriber records?</strong></summary>
+
+It can read audience and segment data, which includes subscriber records. That is why the scope is read-only and revocable, and why the connection should be authorized on an account whose data you are allowed to query.
+</details>
+
+<details>
+<summary><strong>Can I cut the connection myself?</strong></summary>
+
+Yes. Revoke the key in Mailchimp under **Account**, then **Extras**, then **API keys**, and the connection ends.
+</details>
+
+<details>
+<summary><strong>Does this work only in Perplexity?</strong></summary>
+
+No. Mailchimp is exposed to ChatGPT, Claude and Perplexity through the same endpoint on the same subscription.
+</details>
+
+<details>
+<summary><strong>Where is the Mailchimp data stored?</strong></summary>
+
+CorpusIQ does not retain raw customer files or full connector response payloads. Operational logs may persist for up to 30 days. See the [read-only and security documentation](/hermes/security/read-only-and-security).
+</details>
+
+---
+
+**Next steps:** [Connect Mailchimp to Perplexity now](https://www.corpusiq.io/connectors/perplexity)
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.CorpusIQ.io).*
 
 ---
 # How to Connect Meta Ads to ChatGPT with CorpusIQ MCP
@@ -25880,6 +26427,10 @@ A: Same endpoint, different client. This guide is for using Perplexity as the MC
 - **[Connect Ahrefs to Perplexity](connect-ahrefs-to-perplexity.md)** - domain ratings, ranking keywords and referring domains
 - **[Connect ActiveCampaign to Perplexity](connect-activecampaign-to-perplexity.md)** - campaign performance, automation health and pipeline age
 - **[Connect Dropbox to Perplexity](connect-dropbox-to-perplexity.md)** - contracts, board decks and invoices read from your folders
+- **[Connect Google Analytics to Perplexity](connect-google-analytics-to-perplexity.md)** - traffic, channels and conversion from your own GA4 properties
+- **[Connect Google Search Console to Perplexity](connect-google-search-console-to-perplexity.md)** - the queries and pages that actually earn the clicks
+- **[Connect Google Ads to Perplexity](connect-google-ads-to-perplexity.md)** - spend, quality score and wasted search terms from your ad account
+- **[Connect Mailchimp to Perplexity](connect-mailchimp-to-perplexity.md)** - campaign revenue, list health and segment behaviour
 - **[Connect Odoo to Perplexity](connect-odoo-to-perplexity.md)** - quotations, invoices, stock and pipeline across ERP modules
 - **[Connect Semrush to Perplexity](connect-semrush-to-perplexity.md)** - competitor keywords, backlinks and demand sizing
 - **[Connect TikTok to Perplexity](connect-tiktok-to-perplexity.md)** - per-video performance and channel trend
