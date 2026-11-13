@@ -3,7 +3,7 @@ title: "Content Operations - CorpusIQ Docs"
 description: Automated content production with Hermes - HeyGen video, Postiz publishing, social automation, community engagement
 canonical: "https://www.corpusiq.io/docs/hermes/content-ops/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-13"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---
@@ -33,7 +33,7 @@ Research → Draft → Review → Schedule → Post → Monitor → Engage
 | TikTok | HeyGen video agent + Postiz CLI | UGC-style AI videos |
 | Instagram | Postiz CLI | Video + image posts |
 | X/Twitter | Postiz CLI | Technical threads |
-| Reddit | PRAW | Helpful comments + posts |
+| Reddit | Playwright with a saved login session | Helpful comments + posts (browsing is login-gated) |
 | Discord | Native API | Community engagement |
 | LinkedIn | Postiz CLI | Professional content |
 | HN | Playwright | Technical discussion |
