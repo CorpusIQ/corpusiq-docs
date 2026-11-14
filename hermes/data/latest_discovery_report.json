@@ -1,15 +1,46 @@
 {
-  "run_time": "2026-11-14T05:03:38.344286+00:00",
-  "new_approved": [],
+  "run_time": "2026-11-14T10:08:56.015089+00:00",
+  "new_approved": [
+    {
+      "name": "PlayForm/Aphrodite",
+      "url": "https://github.com/PlayForm/Aphrodite",
+      "description": "Aphrodite\u2001\ud83d\udc8b\u2001CCR compression proxy + absorptive preview pipeline for Hermes Agent - headroom-core engine, type-aware classifier, tool relay, ~10 ms end-to-end.",
+      "stars": 113,
+      "forks": 4,
+      "language": "Rust",
+      "topics": [
+        "aphrodite",
+        "compression",
+        "context-engineering",
+        "hermes-agent",
+        "hermes-plugin"
+      ],
+      "updated_at": "2026-11-12T05:52:43Z",
+      "category": "core",
+      "score": 71,
+      "tier": "AUTO_APPROVE",
+      "score_reasons": [
+        "direct_hermes_reference",
+        "moderate_stars_100+",
+        "detailed_description",
+        "active_week",
+        "has_homepage"
+      ],
+      "near_duplicates": [],
+      "discovered_at": "2026-11-14T10:06:17.968250+00:00",
+      "status": "approved",
+      "approved_at": "2026-11-14T10:08:55.925540+00:00"
+    }
+  ],
   "integration": {
     "published_file": "hermes/ecosystem/index.md",
     "note": "Add every approved repo to hermes/ecosystem/index.md - it is the page users see at /hermes/ecosystem/. The old ecosystem.md twin is gone (collision closed Nov 3 2026); there is no mirror to keep."
   },
   "stats": {
-    "total_found": 16,
-    "auto_approved": 0,
-    "pending_review": 16,
-    "total_approved": 212,
-    "total_pending": 3188
+    "total_found": 10,
+    "auto_approved": 1,
+    "pending_review": 9,
+    "total_approved": 213,
+    "total_pending": 3197
   }
 }
