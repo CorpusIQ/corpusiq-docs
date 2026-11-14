@@ -3,7 +3,7 @@ title: "Playwright Skill - Code-First Browser Automation Setup"
 description: "Playwright Skill: 7.1K combined installs. lackeyjb's MIT skill writes and runs real Playwright scripts, with dev-server detection and reusable tests."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/playwright-skill-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-13"
 tags: ["hermes skill", "agent skill", "skill setup", "browser automation", "playwright", "testing"]
 ---
 
@@ -11,7 +11,7 @@ tags: ["hermes skill", "agent skill", "skill setup", "browser automation", "play
 
 **Source:** [lackeyjb/playwright-skill](https://www.skills.sh/lackeyjb/playwright-skill) via skills.sh - 7.1K combined installs across 1 indexed listing; snapshot 2026-10-29 (Oct 29 morning sweep)
 
-**GitHub:** [lackeyjb/playwright-skill](https://github.com/lackeyjb/playwright-skill) - 3,250 stars, MIT License, branch main, last pushed 2026-08-14; one skill at `skills/playwright-skill/` inside a Claude Code plugin root (`.claude-plugin/`), shipping `SKILL.md`, `run.js`, `lib/helpers.js`, `API_REFERENCE.md`, `package.json`, a `tests/` directory and a CI workflow
+**GitHub:** [lackeyjb/playwright-skill](https://github.com/lackeyjb/playwright-skill) - 3,292 stars, MIT License, branch main, last pushed 2026-11-01 (re-checked 2026-11-13); one skill at `skills/playwright-skill/` inside a Claude Code plugin root (`.claude-plugin/`), shipping `SKILL.md`, `run.js`, `lib/helpers.js`, `API_REFERENCE.md`, `package.json`, a `tests/` directory and a CI workflow
 
 **Category:** Browser automation and end-to-end testing for coding agents
 
@@ -114,13 +114,13 @@ skills.sh verdicts for sampled skills (verified 2026-10-29) - re-check the secur
 
 One listing was sampled: Gen Agent Trust Hub and Socket both pass it, and Snyk returns a warning rather than a failure. W011 is a warning code, and in a skill like this one it points at the class of risk where a package fetches its runtime and browser binaries from the network at setup time and then executes code written on the fly, instead of running only pinned, vendored files. The verdict table records the code and not a finding detail, so read the Snyk page for the specific sink before you rely on the number.
 
-What that class means concretely here. `package.json` declares a single dependency, `playwright` at `^1.62.0`, which is a caret range and not an exact pin, so `npm install` inside `npm run setup` can resolve a newer release than the one the author tested. The same setup step downloads a Chromium build, and `run.js` then executes JavaScript the agent wrote. A lockfile does ship in the repo and CI uses `npm ci` against it, so installing with `npm ci` instead of `npm install` gives you the tested resolution.
+What that class means concretely here. `package.json` declares a single dependency, `playwright` at `^1.62.0`, which is a caret range and not an exact pin, so `npm install` inside `npm run setup` can resolve a newer release than the one the author tested. It does: npm published `playwright` 1.65.1 as the latest release when this was re-checked on 2026-11-13, which satisfies `^1.62.0`. The same setup step downloads a Chromium build, and `run.js` then executes JavaScript the agent wrote. A lockfile does ship in the repo and CI uses `npm ci` against it, so installing with `npm ci` instead of `npm install` gives you the tested resolution.
 
 No installer in this repository pipes curl to bash. Installation is the `skills` CLI, the Claude Code plugin manager, or a copy plus `npm run setup`, and setup is `npm install` followed by `npx playwright install`. The two behaviours worth a review pass are the declared tool scope, `Bash(node:*)`, `Bash(npm:*)`, `Read` and `Write`, which allows the agent to run arbitrary Node and npm commands, and the CDP advice, which the SKILL.md itself limits by saying not to use it for secrets unless you explicitly ask.
 
 ## Limitations
 
-- Snapshot data, verified 2026-10-29: 7056 combined installs across 1 indexed listing; 3250 GitHub stars; MIT License; last pushed 2026-08-14. Counts drift over time.
+- Snapshot data, verified 2026-10-29 and re-checked 2026-11-13: 7056 combined installs across 1 indexed listing; 3,292 GitHub stars; MIT License; last pushed 2026-11-01. Counts drift over time.
 - Single-maintainer project. The author field is lackeyjb in both the SKILL.md metadata and the plugin manifest, so cadence, security response and the 5.0.0 breaking changes all rest on one person, with no organisation behind the repository.
 - Runtime cost is real: Node.js 20 or newer, a network install of Playwright and Chromium at setup, and a headed browser unless `PW_HEADLESS=true` or there is no display. Headless servers need that variable set explicitly.
 - The skill is nested at `skills/playwright-skill/` under a plugin root, so any installer that expects a `SKILL.md` at the repository root will miss `run.js`, `lib/` and `package.json`. This guide's pack records 3 owner rows across all sources but only 1 indexed listing carrying an install count, so treat the 7.1K figure as one listing's total and not the publisher's.
