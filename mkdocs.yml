@@ -339,6 +339,8 @@ nav:
     - Research: hermes/agents/research-agent.md
     - Legal: hermes/agents/legal-agent.md
     - HR: hermes/agents/hr-agent.md
+    - Business Analyst (agent pack): hermes/agent-pack/business-analyst.md
+    - Growth Analyst (agent pack): hermes/agent-pack/growth-analyst.md
   - Case Studies:
     - Overview: hermes/outputs/index.md
     - Compliance: hermes/outputs/case-studies/compliance-audit.md
