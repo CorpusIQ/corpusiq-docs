@@ -7,23 +7,46 @@ compatibility: Hermes Agent v0.20.0+
 installs: New (June 2026)
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-a2a-bridge-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-13"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
 # Hermes A2A Bridge - Setup Guide
 
+> **Status: archived upstream, superseded by built-in A2A (verified 2026-11-13).**
+> `asimons81/hermes-a2a-bridge` is read-only on GitHub, last pushed 2026-08-16, and its
+> README opens with a retirement notice pointing at native A2A in Hermes Agent. Start with
+> [Native A2A in Hermes Agent](#native-a2a-in-hermes-agent-recommended) below. The rest of
+> this page stays as the working record for bridges already installed.
+
 ## Overview
 
-The Hermes A2A Bridge gives Hermes Agent the ability to communicate with other AI agents using the Agent-to-Agent (A2A) Protocol. While MCP lets agents use tools, A2A lets agents call other agents. This bridge is a local-first implementation of the A2A HTTP+JSON subset.
+The Hermes A2A Bridge gives Hermes Agent the ability to communicate with other AI agents using the Agent-to-Agent (A2A) Protocol. While MCP lets agents use tools, A2A lets agents call other agents. This bridge is a local-first implementation of the A2A HTTP+JSON subset. It was retired once A2A landed in Hermes Agent itself.
 
 **Key Facts:**
-- **Protocol:** A2A v0.4.6 (HTTP+JSON subset)
+- **Status:** archived upstream (read-only), no fixes or support
+- **Bridge version:** v0.5.0
+- **Protocol:** A2A HTTP+JSON, protocol version `1.0` observed on `supportedInterfaces`; not full conformance
 - **Python:** 3.11+
 - **Transport:** Local HTTP server (default: `127.0.0.1:8765`)
 - **Auth:** Bearer token for task endpoints
 - **Storage:** SQLite3 task database
+
+---
+
+## Native A2A in Hermes Agent (recommended)
+
+A2A ships in Hermes Agent as a gateway platform plus the `a2a` toolset, so the standalone bridge is no longer needed. The official documentation is at [hermes-agent.nousresearch.com/docs/user-guide/messaging/a2a](https://hermes-agent.nousresearch.com/docs/user-guide/messaging/a2a). Verified against that page on 2026-11-13:
+
+- **Protocol:** A2A v1.0, stewarded by the Linux Foundation. Interoperates with the official `a2a-sdk`, LangChain, CrewAI and Google ADK peers.
+- **Inbound:** enable A2A as a gateway platform with `hermes gateway setup`, or in `~/.hermes/config.yaml` set `gateway.platforms.a2a.enabled: true` with `gateway.platforms.a2a.extra.port` (the documented example uses port 9900).
+- **Outbound:** the `a2a` toolset, off by default. Turn it on per platform: `hermes tools enable a2a --platform cli`, or `--platform telegram`, or `--platform a2a` to let inbound tasks call peers.
+- **Tools:** `a2a_discover`, `a2a_call`, `a2a_list`, `a2a_history`, `a2a_orchestrate`.
+- **Inbound surface:** Agent Card at `GET /.well-known/agent-card.json`, JSON-RPC 2.0 at `POST /`, SSE streaming for `SendStreamingMessage`, HMAC-SHA256 signed push notifications.
+- **Peers:** declared under `a2a_agents` in `config.yaml`, each with `url`, optional `auth`, `timeout` and `capabilities`.
+
+Current Hermes releases ship this without a pip install or a plugin enable step. Check your own build with `hermes tools list` before assuming the `a2a` toolset exists.
 
 ---
 
@@ -36,6 +59,8 @@ The Hermes A2A Bridge gives Hermes Agent the ability to communicate with other A
 ---
 
 ## Installation
+
+> The steps below install the archived bridge. They were last confirmed against the repository as it stood before 2026-08-16. For new setups use native A2A instead.
 
 ### 1. Clone and Install
 
@@ -221,6 +246,7 @@ hermes a2a card --json
 
 ## Limitations
 
+- **Archived upstream:** no releases, fixes or support. The repository is read-only.
 - **Not full A2A compliance:** This implements the HTTP+JSON subset only
 - **Local-first:** Default bind is `127.0.0.1` - network access requires explicit config
 - **v0.20.0 UI gap:** Plugin discovery in `hermes plugins list` may require manual config.yaml edit
@@ -228,6 +254,6 @@ hermes a2a card --json
 
 ---
 
-*← [Skills Catalog](/hermes/skills/catalog) | [A2A Bridge on GitHub](https://github.com/asimons81/hermes-a2a-bridge) →*
+*← [Skills Catalog](/hermes/skills/catalog) | [A2A Bridge on GitHub (archived)](https://github.com/asimons81/hermes-a2a-bridge) | [Native A2A docs](https://hermes-agent.nousresearch.com/docs/user-guide/messaging/a2a) →*
 
 *Curated by CorpusIQ - one MCP endpoint, all your business tools.*

@@ -3,7 +3,7 @@ title: "Vue Ecosystem Skills - Version-Aware Vue Context"
 description: "Vue ecosystem agent skills: 5.9K combined installs. 35 version-aware skills for Vue 3.6, Pinia, Vue Router, VueUse, Reka UI, Vuetify and TanStack."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/vue-ecosystem-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-13"
 tags: ["hermes skill", "agent skill", "skill setup", "vue", "frontend", "pinia"]
 ---
 
@@ -17,7 +17,7 @@ tags: ["hermes skill", "agent skill", "skill setup", "vue", "frontend", "pinia"]
 
 **Quality Tier:** 🟢 Green - generated from published package sources by skilld, MIT licensed, 35 skill directories against 35 indexed listings, and all five sampled skills pass Gen Agent Trust Hub, Socket and Snyk
 
-Harlan Wilton's skilld project generates this collection rather than hand-writing it. Each skill is rebuilt from the published npm package of one Vue library, using that package's docs, GitHub issues, discussions and changelog as sources, and each one is regenerated when the library ships a new release. The 35 skills cover the core (`vue`, `pinia`, `vue-router`, `vue-test-utils`, `unhead`), UI libraries (`quasar`, `vuetify`, `primevue`, `shadcn-vue`, `reka-ui`, `floating-ui-vue`, `vue-data-ui`, `unovis-vue`), data and state (`pinia-colada`, six TanStack adapters), forms (`vee-validate`, `formkit`), animation (`motion-v`, `vueuse-motion`) and tooling (`vue-i18n`, `vitepress`, `tresjs`, `slidev-cli`), plus the VueUse family split across core, shared, components, integrations, math and motion.
+Harlan Wilton's skilld project generates this collection rather than hand-writing it. Each skill is rebuilt from the published npm package of one Vue library, using that package's docs, GitHub issues, discussions and changelog as sources, and each one is regenerated when the library ships a new release. The 35 skills cover the core (`vue`, `pinia`, `vue-router`, `vue-test-utils`, `unhead`), UI libraries (`quasar`, `vuetify`, `primevue`, `shadcn-vue`, `reka-ui`, `floating-ui-vue`, `vue-data-ui`, `unovis-vue`), data and state (`pinia-colada`, seven TanStack adapters), forms (`vee-validate`, `formkit`), animation (`motion-v`, `vueuse-motion`) and tooling (`vue-i18n`, `vitepress`, `tresjs`, `slidev-cli`), plus the VueUse family split across core, shared, components, integrations, math and motion.
 
 The pitch is version awareness, and the files back it up with numbers. Each `SKILL.md` names the package version it was built against in its H1 and cites file paths in the prepared package for its claims: `vue` 3.6.0-beta.17, `pinia` 4.0.3, `vue-router` 5.3.1, `@vueuse/core` 15.0.0, `vuetify` 4.0.1, `quasar` 2.33.1, `@tanstack/vue-table` 9.2.4, `reka-ui` 2.10.5. That matters because agents default to the Vue 2 or Pinia 2 patterns in their training data, and a cited baseline is checkable in a way that prose advice is not.
 
@@ -148,7 +148,7 @@ No skill file carries a credential, and none of them executes anything itself; t
 
 ## Limitations
 
-- Snapshot data, verified 2026-11-01: 5,930 combined installs across 35 indexed listings; 184 GitHub stars; MIT; last pushed 2026-10-10. Counts drift over time.
+- Snapshot data, verified 2026-11-01: 5,930 combined installs across 35 indexed listings; 184 GitHub stars; MIT; last pushed 2026-10-10. Counts drift over time. Directory count and the per-skill version baselines were re-checked on 2026-11-13 and had not moved: 35 `skills/` directories, same H1 baselines.
 - The README's version comments lag the skill baselines, because each skill is rebuilt on release: it lists `pinia` at 3.0.4 against `pinia@4.0.3` in the skill, `vue` at 3.6.0-beta.6 against 3.6.0-beta.17, `vue-router` at 5.0.2 against 5.3.1, and `vueuse-core` at 14.2.1 against 15.0.0. Trust the `SKILL.md` heading, not the comment.
 - Install names and directory names differ. The README carries 33 `--skill` names against 35 directories, with `formkit`, `motion-vue`, `tresjs` and `unhead` mapping to `formkit-core-skilld`, `motion-v-skilld`, `tresjs-core-skilld` and `unhead-vue-skilld`, while `slidev-cli-skilld` and `unovis-ts-skilld` have no install line in the README at all.
 - The plugin manifest is narrower again. `.claude-plugin/marketplace.json` defines 32 plugins over 32 directories, so the marketplace route cannot reach `slidev-cli-skilld`, `unhead-vue-skilld` or `unovis-ts-skilld`; those three need the CLI or a directory copy.
