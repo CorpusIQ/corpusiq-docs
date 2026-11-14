@@ -1,7 +1,8 @@
 {
   "_comment": "Publisher rename map for scripts/check_catalog_source_dupes.py. A repository that moves to a new owner looks like a brand-new publisher to an offline sweep, which is how two guides for one project get published. Add the retired identity here (lower case, keyed by old owner/repo) with the current owner/repo as the value. No catalog guide may cite a retired key; the gate fails until the page is repointed or removed.",
   "aliases": {
-    "calesthio/openmontage": "openmontageinc/openmontage"
+    "calesthio/openmontage": "openmontageinc/openmontage",
+    "kepano/obsidian-skills": "obsidianmd/obsidian-skills"
   },
   "retired_ok": {}
 }
