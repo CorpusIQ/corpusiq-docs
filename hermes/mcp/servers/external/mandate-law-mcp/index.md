@@ -119,7 +119,7 @@ No key, no account, no OAuth. `check_scope` and `get_counsel_triggers` are free 
 
 ## Where this sits in the catalog
 
-The legal entries here are document tools and research corpora: [ClauseAI](/hermes/mcp/servers/external/clauseai-mcp/) generates attorney-drafted templates keyless, **Legal Doc Intelligence** and [GoldLegal](/hermes/mcp/servers/external/goldlegal-mcp/) read and score contracts, Anteroom researches regulatory history, Lawstronaut answers questions about global law. All of them stop at information.
+The legal entries here are document tools and research corpora: [ClauseAI](/hermes/mcp/servers/external/clauseai-mcp/) generates attorney-drafted templates keyless, **Legal Doc Intelligence** and [GoldLegal](/hermes/mcp/servers/external/) read and score contracts, Anteroom researches regulatory history, Lawstronaut answers questions about global law. All of them stop at information.
 
 Mandate Law is the first entry where a licensed person takes the matter. The distinction is not marketing: a document tool cannot tell you that your disclosure is adequate in your jurisdiction, and this one can, at a price it states before you ask. The honest limits are in the same file - one attorney, one admission, United States only, and non-U.S. questions are flagged for local counsel rather than answered.
 

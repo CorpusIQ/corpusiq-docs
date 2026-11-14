@@ -229,6 +229,9 @@ nav:
   - Connect Google Search Console to Perplexity: connect-google-search-console-to-perplexity.md
   - Connect Google Ads to Perplexity: connect-google-ads-to-perplexity.md
   - Connect Mailchimp to Perplexity: connect-mailchimp-to-perplexity.md
+  - Connect Salesforce to Perplexity: connect-salesforce-to-perplexity.md
+  - Connect NetSuite to Perplexity: connect-netsuite-to-perplexity.md
+  - Connect PostgreSQL to Perplexity: connect-postgresql-to-perplexity.md
 - Business AI Use Cases:
   - AI for Business Intelligence: ai-for-business-intelligence.md
   - AI for Financial Analysis: ai-for-financial-analysis.md
@@ -339,6 +342,7 @@ nav:
     - Research: hermes/agents/research-agent.md
     - Legal: hermes/agents/legal-agent.md
     - HR: hermes/agents/hr-agent.md
+    - Agent Pack Overview: hermes/agent-pack/index.md
     - Business Analyst (agent pack): hermes/agent-pack/business-analyst.md
     - Growth Analyst (agent pack): hermes/agent-pack/growth-analyst.md
   - Case Studies:

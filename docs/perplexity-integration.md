@@ -106,6 +106,9 @@ A: Same endpoint, different client. This guide is for using Perplexity as the MC
 - **[Connect Semrush to Perplexity](connect-semrush-to-perplexity.md)** - competitor keywords, backlinks and demand sizing
 - **[Connect TikTok to Perplexity](connect-tiktok-to-perplexity.md)** - per-video performance and channel trend
 - **[Connect Gmail to Perplexity](connect-gmail-to-perplexity.md)** - commitments, vendor terms and unanswered threads read from your own mailbox
+- **[Connect Salesforce to Perplexity](connect-salesforce-to-perplexity.md)** - pipeline by region, accounts gone quiet and deals stuck in one stage
+- **[Connect NetSuite to Perplexity](connect-netsuite-to-perplexity.md)** - P&L by subsidiary, inventory below reorder point and open purchase orders
+- **[Connect PostgreSQL to Perplexity](connect-postgresql-to-perplexity.md)** - orders, customers and revenue from your own tables, with the tables named
 
 ## Internal Links
 
