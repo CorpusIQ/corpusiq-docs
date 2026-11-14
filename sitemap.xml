@@ -122,7 +122,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/chatgpt-integration</loc>
-         <lastmod>2026-11-08</lastmod>
+         <lastmod>2026-11-12</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/claude-for-hubspot</loc>
@@ -214,15 +214,23 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connect-google-ads-to-chatgpt</loc>
-         <lastmod>2026-11-07</lastmod>
+         <lastmod>2026-11-13</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/connect-google-ads-to-perplexity</loc>
+         <lastmod>2026-11-13</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connect-google-analytics-to-chatgpt</loc>
-         <lastmod>2026-11-07</lastmod>
+         <lastmod>2026-11-13</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connect-google-analytics-to-claude</loc>
          <lastmod>2026-11-07</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/connect-google-analytics-to-perplexity</loc>
+         <lastmod>2026-11-13</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connect-google-calendar-to-chatgpt</loc>
@@ -258,11 +266,15 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connect-google-search-console-to-chatgpt</loc>
-         <lastmod>2026-11-01</lastmod>
+         <lastmod>2026-11-13</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connect-google-search-console-to-claude</loc>
          <lastmod>2026-11-04</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/connect-google-search-console-to-perplexity</loc>
+         <lastmod>2026-11-13</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connect-google-sheets-to-chatgpt</loc>
@@ -306,11 +318,15 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connect-mailchimp-to-chatgpt</loc>
-         <lastmod>2026-11-12</lastmod>
+         <lastmod>2026-11-13</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connect-mailchimp-to-claude</loc>
          <lastmod>2026-11-07</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/connect-mailchimp-to-perplexity</loc>
+         <lastmod>2026-11-13</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connect-meta-ads-to-chatgpt</loc>
@@ -694,7 +710,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/perplexity-integration</loc>
-         <lastmod>2026-11-11</lastmod>
+         <lastmod>2026-11-13</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/quick-start</loc>
@@ -1123,6 +1139,14 @@
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp-ecosystem</loc>
          <lastmod>2026-11-04</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/agent-pack/business-analyst</loc>
+         <lastmod>2026-11-13</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/agent-pack/growth-analyst</loc>
+         <lastmod>2026-11-13</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/agents</loc>
@@ -1638,7 +1662,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/ecosystem</loc>
-         <lastmod>2026-11-12</lastmod>
+         <lastmod>2026-11-14</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/ecosystem/august-2026</loc>
@@ -2887,6 +2911,10 @@
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/audiogramapi-mcp</loc>
          <lastmod>2026-11-01</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/auditro-mcp</loc>
+         <lastmod>2026-11-13</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/auracite-mcp</loc>
@@ -4425,6 +4453,10 @@
          <lastmod>2026-11-01</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/invoices-to-spreadsheets-mcp</loc>
+         <lastmod>2026-11-13</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/invoket-mcp</loc>
          <lastmod>2026-11-01</lastmod>
     </url>
@@ -4799,6 +4831,10 @@
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/mamba-reporting-window-finder</loc>
          <lastmod>2026-11-01</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/mandate-law-mcp</loc>
+         <lastmod>2026-11-13</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/manifold-mcp</loc>
@@ -7455,6 +7491,10 @@
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-november12-2026-night</loc>
          <lastmod>2026-11-12</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-november13-2026-evening</loc>
+         <lastmod>2026-11-13</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-november13-2026-midday-supplement</loc>
@@ -10254,7 +10294,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-a2a-bridge-setup</loc>
-         <lastmod>2026-11-01</lastmod>
+         <lastmod>2026-11-13</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-advanced-memory-setup</loc>
@@ -11566,7 +11606,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/playwright-skill-setup</loc>
-         <lastmod>2026-11-01</lastmod>
+         <lastmod>2026-11-13</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/playwright-social-media-automation-setup</loc>
@@ -12566,7 +12606,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/vue-ecosystem-skills-setup</loc>
-         <lastmod>2026-11-01</lastmod>
+         <lastmod>2026-11-13</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/vuejs-ai-skills-setup</loc>
