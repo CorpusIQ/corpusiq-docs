@@ -22586,5 +22586,117 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-11-13T10:03:27.159429+00:00"
+  },
+  {
+    "repo": "trainultra/coach",
+    "score": 65,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-14T05:03:38.255753+00:00"
+  },
+  {
+    "repo": "stennyc/env-brief",
+    "score": 51,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-14T05:03:38.255767+00:00"
+  },
+  {
+    "repo": "pedroberaldo87/hermes-tube",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-14T05:03:38.255770+00:00"
+  },
+  {
+    "repo": "DionCroft/Signal_Grove",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-14T05:03:38.255772+00:00"
+  },
+  {
+    "repo": "Nadeon/Hermes-addon",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-14T05:03:38.255774+00:00"
+  },
+  {
+    "repo": "OleMurpho/wetnoodle",
+    "score": 56,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-14T05:03:38.255776+00:00"
+  },
+  {
+    "repo": "jinsu133/hermes-phone-assistant",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-14T05:03:38.255778+00:00"
+  },
+  {
+    "repo": "Caravaca-Labs/pagetranslate-mcp",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-14T05:03:38.255780+00:00"
+  },
+  {
+    "repo": "daniels-martins/frontend-sensei",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-14T05:03:38.255782+00:00"
+  },
+  {
+    "repo": "questionpunk/hermes-plugin",
+    "score": 37,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-14T05:03:38.255784+00:00"
+  },
+  {
+    "repo": "flabanabba8/skill-workshop",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-14T05:03:38.255786+00:00"
+  },
+  {
+    "repo": "neonexia/mist-plugins",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-14T05:03:38.255788+00:00"
+  },
+  {
+    "repo": "GarishGumdrop/hermes-agent",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-14T05:03:38.255790+00:00"
+  },
+  {
+    "repo": "yongyong80/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-14T05:03:38.255791+00:00"
+  },
+  {
+    "repo": "aaaaadrien/hermes-php",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-14T05:03:38.255793+00:00"
+  },
+  {
+    "repo": "studioluftbruecke/hermes-unblockbruecke",
+    "score": 65,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-14T05:03:38.255795+00:00"
   }
 ]
