@@ -90,7 +90,7 @@ The first pass of this fire ranked candidates by probe rows and put `codewithmuk
 
 ## Live verification
 
-Deploy run after the merge. Every new guide page returns 200 with its own title on `docs.corpusiq.io` and through the `www.corpusiq.io/docs` proxy, the batch page returns 200, the catalog index renders the new sweep heading with all 12 links, the marketplace index carries the updated stamp and links this page, and all 12 new URLs appear in `sitemap.xml`.
+Deploy run after the push to main. Every new guide page returns 200 with its own title on `docs.corpusiq.io` and through the `www.corpusiq.io/docs` proxy, the batch page returns 200, the catalog index renders the new sweep heading with all 12 links, the marketplace index carries the updated stamp and links this page, and all 13 new URLs appear in `sitemap.xml`: the 12 guides plus this page.
 
 ## Integration
 
