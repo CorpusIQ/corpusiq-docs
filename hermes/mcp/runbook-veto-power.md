@@ -2,7 +2,7 @@
 title: "Should AI Models Have Veto Power Over Workflows?"
 description: "The debate behind MCP governance: when an enterprise workflow is mandated, should the model be able to skip it? Why fail-closed execution is the answer for finance and compliance."
 tags: [mcp, governance, runbook, agents, enterprise, debate]
-last_updated: "2026-11-01"
+last_updated: "2026-11-14"
 ---
 
 # Should AI Models Have Veto Power Over Workflows?
@@ -42,7 +42,7 @@ Fail-closed is what makes the difference between an assistant and a system.
 runbook.v1 defines exactly this: a versioned manifest resolved from a trusted skills server, executed by the host with fail-closed semantics. Zero changes to the MCP protocol. Enforcement is host-side.
 
 - Repository: github.com/CorpusIQ/runbook-spec
-- Proposal: github.com/modelcontextprotocol/modelcontextprotocol/issues/3270
+- Proposal: github.com/modelcontextprotocol/modelcontextprotocol/issues/3270 (filed August 18, 2026; closed as completed October 31, 2026)
 - Conformance: 24/24 tests passing
 
 The debate is real and worth having. The answer that survives contact with an auditor is the one where the model cannot skip the workflow.
