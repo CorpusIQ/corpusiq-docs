@@ -7709,5 +7709,35 @@
     "discovered_at": "2026-11-11T04:00:49.182343+00:00",
     "status": "approved",
     "approved_at": "2026-11-11T04:03:18.215386+00:00"
+  },
+  {
+    "name": "PlayForm/Aphrodite",
+    "url": "https://github.com/PlayForm/Aphrodite",
+    "description": "Aphrodite\u2001\ud83d\udc8b\u2001CCR compression proxy + absorptive preview pipeline for Hermes Agent - headroom-core engine, type-aware classifier, tool relay, ~10 ms end-to-end.",
+    "stars": 113,
+    "forks": 4,
+    "language": "Rust",
+    "topics": [
+      "aphrodite",
+      "compression",
+      "context-engineering",
+      "hermes-agent",
+      "hermes-plugin"
+    ],
+    "updated_at": "2026-11-12T05:52:43Z",
+    "category": "core",
+    "score": 71,
+    "tier": "AUTO_APPROVE",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "moderate_stars_100+",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-11-14T10:06:17.968250+00:00",
+    "status": "approved",
+    "approved_at": "2026-11-14T10:08:55.925540+00:00"
   }
 ]
