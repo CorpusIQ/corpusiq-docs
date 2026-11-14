@@ -45,6 +45,6 @@ A format contract is the difference between "an agent that produces a report" an
 - Repository: github.com/CorpusIQ/runbook-spec
 - Response contract proposal: spec/response-contract-v1.1.md
 - Render tool spec: World B implementation (image content blocks)
-- MCP proposal: github.com/modelcontextprotocol/modelcontextprotocol/issues/3270
+- MCP proposal: github.com/modelcontextprotocol/modelcontextprotocol/issues/3270 (closed as completed October 31, 2026)
 
 Prompt compliance is not governance. Output compliance is not optional either.
