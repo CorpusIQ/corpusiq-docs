@@ -22831,5 +22831,82 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-11-15T05:03:43.046179+00:00"
+  },
+  {
+    "repo": "otsoa-dubief/tenure",
+    "score": 56,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-15T10:04:01.603068+00:00"
+  },
+  {
+    "repo": "lumizone/postsider-agent-plugin",
+    "score": 54,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-15T10:04:01.603082+00:00"
+  },
+  {
+    "repo": "lumizone/gsc-magic-agent-plugin",
+    "score": 59,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-15T10:04:01.603085+00:00"
+  },
+  {
+    "repo": "netbja/agent-bus-monitor",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-15T10:04:01.603087+00:00"
+  },
+  {
+    "repo": "mortang2410/hermes-skill-router",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-15T10:04:01.603090+00:00"
+  },
+  {
+    "repo": "swswordholy-tech/AgentsChat",
+    "score": 54,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-15T10:04:01.603092+00:00"
+  },
+  {
+    "repo": "LastDreamTeam/LDAI_NodeAgentMCP",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-15T10:04:01.603094+00:00"
+  },
+  {
+    "repo": "qiyuechen0929/ekko-studio-plugin-omh",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-15T10:04:01.603095+00:00"
+  },
+  {
+    "repo": "yusuketakuma/hermes-mcs",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-15T10:04:01.603098+00:00"
+  },
+  {
+    "repo": "BagutoSI/hermes",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-15T10:04:01.603099+00:00"
+  },
+  {
+    "repo": "curiositypilot/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-15T10:04:01.603104+00:00"
   }
 ]
