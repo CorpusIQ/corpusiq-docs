@@ -94,6 +94,7 @@ Queries run against your database, so cost follows your own query patterns. Filt
 ## Related Pages
 
 - [Connect PostgreSQL to Claude](connect-postgresql-to-claude.md) - the same connection, set up for Claude Desktop
+- [Connect PostgreSQL to Perplexity](connect-postgresql-to-perplexity.md) - orders, customers and revenue in plain language, with the tables named
 - [Browse all CorpusIQ connectors](connectors.md) - the full list
 - [MCP vs API Integrations](mcp-vs-api-integrations.md) - why the access model differs
 - [CorpusIQ Security Architecture](../security/) - how credentials and data are handled

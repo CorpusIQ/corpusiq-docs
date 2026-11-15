@@ -168,6 +168,7 @@ Setup takes under 5 minutes for a connection that would take weeks to build via 
 - [Connect Stripe to ChatGPT](connect-stripe-to-chatgpt.md) - payment data in ChatGPT
 - [Connect Gmail to ChatGPT](connect-gmail-to-chatgpt.md) - email data in ChatGPT
 - [Connect NetSuite to ChatGPT](connect-netsuite-to-chatgpt.md) - enterprise ERP data in ChatGPT
+- [Connect Salesforce to Perplexity](connect-salesforce-to-perplexity.md) - pipeline by region, accounts at risk and stalled deals, from your own CRM
 - [ChatGPT Integration Overview](chatgpt-integration.md) - the full integration
 - [Benefits of MCP for Business](benefits-of-mcp-for-business.md) - why MCP wins
 - [MCP for Enterprise](mcp-for-enterprise.md) - enterprise deployment

@@ -184,6 +184,7 @@ NetSuite setup takes 5-10 minutes of admin time, one time only. After that, any 
 - [Connect Shopify to ChatGPT](connect-shopify-to-chatgpt.md) - ecommerce data in ChatGPT
 - [Connect Stripe to ChatGPT](connect-stripe-to-chatgpt.md) - payment data in ChatGPT
 - [Connect HubSpot to ChatGPT](connect-hubspot-to-chatgpt.md) - CRM data in ChatGPT
+- [Connect NetSuite to Perplexity](connect-netsuite-to-perplexity.md) - P&L by subsidiary, inventory below reorder point and open purchase orders from your own ERP
 - [ChatGPT Integration Overview](chatgpt-integration.md) - the full integration
 - [Benefits of MCP for Business](benefits-of-mcp-for-business.md) - why MCP wins
 - [MCP for Enterprise](mcp-for-enterprise.md) - enterprise deployment

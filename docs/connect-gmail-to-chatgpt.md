@@ -164,6 +164,7 @@ Under 5 minutes from signup to email intelligence in ChatGPT.
 
 - [Connect Outlook to ChatGPT](connect-outlook-to-chatgpt.md) - Microsoft email in ChatGPT
 - [Connect Gmail to Claude](connect-gmail-to-claude.md) - the same inbox, queried from Claude
+- [Connect Gmail to Perplexity](connect-gmail-to-perplexity.md) - which threads carry a commitment, and what a vendor actually agreed
 - [Connect Slack to ChatGPT](connect-slack-to-chatgpt.md) - team communication in ChatGPT
 - [Connect HubSpot to ChatGPT](connect-hubspot-to-chatgpt.md) - CRM data in ChatGPT
 - [Connect Salesforce to ChatGPT](connect-salesforce-to-chatgpt.md) - enterprise CRM in ChatGPT
