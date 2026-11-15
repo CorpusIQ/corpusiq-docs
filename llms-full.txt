@@ -13490,6 +13490,166 @@ Yes. Configure your NetSuite role's subsidiary restrictions - CorpusIQ honors th
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
 
 ---
+# How to Connect NetSuite to Perplexity with CorpusIQ MCP
+URL: https://www.corpusiq.io/docs/connect-netsuite-to-perplexity
+
+
+# How to Connect NetSuite to Perplexity with CorpusIQ MCP
+
+Perplexity is good at the world outside the ERP: supply chain news, freight rates, the announcement from a vendor you depend on.
+
+It cannot see your inventory position, your open purchase orders, or your P&L by subsidiary, because none of that is public.
+
+Connecting NetSuite through CorpusIQ MCP puts both in one thread. Perplexity answers the ERP question from your own account, read-only, and names the records it read.
+
+### Why Connect NetSuite to Perplexity?
+
+- **Margin in context.** "Our gross margin by subsidiary for the quarter is on screen. What moved in our input costs this quarter?" Both halves answered in one thread.
+- **Inventory versus demand.** "Which SKUs are below their reorder point, and which of those suppliers had lead time warnings this month?"
+- **Procurement.** "Which purchase orders are open past their expected delivery date, by vendor?"
+- **Subsidiary consolidation.** Ask across entities without a saved search for each one.
+- **Order to cash.** "What is our order to cash cycle by subsidiary?" instead of a workbook built by hand.
+- **Read-only by role.** Token-based authentication with a read-only role. The retrieval tools documented on this page are read-only.
+
+### How It Works
+
+1. **Create a read-only integration role in NetSuite** and generate token-based authentication tokens.
+2. **Connect NetSuite to CorpusIQ** with the account ID, consumer key, consumer secret, token ID and token secret.
+3. **Add CorpusIQ to Perplexity** as a custom remote MCP server, using the endpoint from your CorpusIQ account settings.
+4. **CorpusIQ reads** the records that answer the question through the SuiteTalk REST API.
+5. **Perplexity answers** from that result, with the surrounding market context you asked for.
+
+Direct MCP retrieval is read-only. It does not retain raw customer files or full connector response payloads; operational logs keep query text, per-user tool-call metadata and bounded outcome summaries for up to 30 days.
+
+### Setup Steps
+
+**In NetSuite**
+
+1. Ask a NetSuite administrator to create an **integration record** for CorpusIQ.
+2. Build a role that carries read permissions only, on the record types you want answerable.
+3. Generate the **token-based authentication** credentials for that role: consumer key, consumer secret, token ID and token secret.
+
+**In CorpusIQ**
+
+4. Open your dashboard and go to **Connectors**.
+5. Select **NetSuite** and enter the **Account ID**, **Consumer Key**, **Consumer Secret**, **Token ID** and **Token Secret**.
+6. Choose which record types are reachable. The connector turns green.
+
+**In Perplexity**
+
+7. Open **Settings** and find the **MCP servers** section.
+8. Add a custom MCP server and paste the endpoint:
+
+```
+https://mcp2.corpusiq.io/mcp
+```
+
+9. Connect and approve the CorpusIQ authorization page once.
+10. Start a new thread and ask a question about your ERP data.
+
+The setup is a one-time token entry with a NetSuite admin. There is no SuiteScript to write and no saved search to maintain.
+
+### Example Perplexity Questions
+
+**Financials**
+
+- "Show me the P&L by subsidiary for last quarter, and tell me which line moved most against the same quarter last year."
+- "What is our AP aging, and which vendors are we paying late?"
+- "Which departments are over budget this month?"
+
+**Inventory and supply chain**
+
+- "Which SKUs are below their reorder point across all warehouses, sorted by how far below?"
+- "What is inventory turnover by product category?"
+- "Which locations hold excess inventory relative to the last 90 days of movement?"
+
+**Orders and procurement**
+
+- "Show me open purchase orders by expected delivery date."
+- "Which sales orders have not been fulfilled, and how old are they?"
+- "What is our average order to cash cycle time?"
+
+**Cross-source**
+
+- "Compare NetSuite revenue by month to Stripe collections for the same months." (requires the Stripe connector)
+- "Which NetSuite customers also have open Salesforce opportunities this quarter?" (requires the Salesforce connector)
+- "Does the demand we see in Google Analytics match the order volume in NetSuite?" (requires the Google Analytics connector)
+
+### Security
+
+- **Read-only role.** A dedicated NetSuite role limited to read permissions decides what the connector can reach. It never sees a record type you did not grant.
+- **No stored credentials on your side.** CorpusIQ holds the encrypted token credentials; you can revoke the tokens in NetSuite at any time.
+- **Scoped direct-MCP retention.** Raw customer files and full connector payloads are not retained. Operational logs keep query text, tool-call metadata and bounded outcome summaries for up to 30 days.
+- **TLS in transit** between NetSuite, CorpusIQ and Perplexity.
+
+### Comparison: NetSuite Saved Searches vs NetSuite in Perplexity
+
+| Aspect | NetSuite saved searches | CorpusIQ MCP with Perplexity |
+|---|---|---|
+| Who builds it | A NetSuite admin or consultant | Anyone with the connector |
+| Input | Search criteria in NetSuite | A question in plain language |
+| Outside context | Leave NetSuite and search separately | Same thread, same answer |
+| Cross-system | Export and reconcile by hand | Asked across connectors |
+| Change the question | Edit the search | Ask it again |
+| Write access | Yes, for a role that has it | None through the retrieval tools |
+
+A saved search is a good answer to a question that will be asked the same way every month. It is no help to the question that has never been asked before.
+
+### FAQ: Common Questions
+
+<details>
+<summary><strong>Can Perplexity change anything in NetSuite?</strong></summary>
+
+No. The retrieval tools documented on this page are read-only, and the integration role carries read permissions. Transactions, inventory and vendor records are untouched.
+</details>
+
+<details>
+<summary><strong>Does this cover multi-currency and multi-subsidiary accounts?</strong></summary>
+
+Yes. Transactions return at line level with their original currencies, and answers can be scoped to a subsidiary or asked across all of them.
+</details>
+
+<details>
+<summary><strong>Which NetSuite API does the connector use?</strong></summary>
+
+The SuiteTalk REST API with token-based authentication. OneWorld accounts consolidate through the same path.
+</details>
+
+<details>
+<summary><strong>How current is the data?</strong></summary>
+
+Live. Each question reads the current state of the account, so a receipt posted this morning appears in the next answer. Verify time-sensitive figures against the cited record.
+</details>
+
+<details>
+<summary><strong>Does this work only in Perplexity?</strong></summary>
+
+No. NetSuite is exposed to ChatGPT, Claude and Perplexity through the same endpoint on the same subscription.
+</details>
+
+<details>
+<summary><strong>What happens when the tokens rotate?</strong></summary>
+
+Rotate the tokens in NetSuite and re-enter them in CorpusIQ. Questions stop working until the new credentials are in, so keep the rotation on a known schedule.
+</details>
+
+<details>
+<summary><strong>Where is the NetSuite data stored?</strong></summary>
+
+CorpusIQ does not retain raw customer files or full connector response payloads. Operational logs may persist for up to 30 days. See the [read-only and security documentation](/hermes/security/read-only-and-security).
+</details>
+
+---
+
+**Next steps:** [Connect NetSuite to Perplexity now](https://www.corpusiq.io/connectors/perplexity)
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.CorpusIQ.io).*
+
+---
 # How to Connect Notion to ChatGPT with CorpusIQ MCP
 URL: https://www.corpusiq.io/docs/connect-notion-to-chatgpt
 
@@ -14618,6 +14778,165 @@ Claude reads the schema, holds the whole question, and writes the query while ex
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
 
 ---
+# How to Connect PostgreSQL to Perplexity with CorpusIQ MCP
+URL: https://www.corpusiq.io/docs/connect-postgresql-to-perplexity
+
+
+# How to Connect PostgreSQL to Perplexity with CorpusIQ MCP
+
+A PostgreSQL database holds the operational truth of a business: orders, customers, invoices, inventory, events. Almost nobody outside engineering can read it.
+
+Most questions about that data end in one of two places: a request to the data team, or a spreadsheet exported last month and quietly out of date.
+
+Connecting PostgreSQL through CorpusIQ MCP puts the read side of the database behind a plain-language question. You ask, Perplexity reads the tables as they stand, and the answer names the tables and columns it used.
+
+### Why Connect PostgreSQL to Perplexity?
+
+- **Counts without a ticket.** "How many orders did we take last week, by day?" instead of a request to engineering.
+- **Customer questions.** "Which accounts are above 10,000 in revenue over the last 90 days?"
+- **Stock state.** "Which SKUs have stock on hand below the reorder point?"
+- **Behaviour questions.** "What is the average time between signup and first order?"
+- **Schema-aware SQL.** Perplexity reads the tables and columns the connecting role can see, then writes the join rather than describing how to write it.
+- **Read-only by role.** SELECT on the schemas you grant, and nothing else. The retrieval tools documented on this page are read-only.
+
+### How It Works
+
+1. **Create a read-only role in PostgreSQL** and grant SELECT on the schemas you want reachable.
+2. **Connect PostgreSQL to CorpusIQ** in the dashboard with the host, database name and that role's credentials.
+3. **Add CorpusIQ to Perplexity** as a custom remote MCP server, using the endpoint from your CorpusIQ account settings.
+4. **CorpusIQ translates** the question into a read-only query, runs it against your instance, and returns the rows.
+5. **Perplexity answers** from the result, naming the tables it read and adding outside context where you asked for it.
+
+Direct MCP retrieval is read-only. It does not retain raw customer files or full connector response payloads; operational logs keep query text, per-user tool-call metadata and bounded outcome summaries for up to 30 days.
+
+### Setup Steps
+
+**In PostgreSQL**
+
+1. Create a role for this purpose. Do not reuse the application owner account.
+2. Grant SELECT on the schemas that hold the data you want answerable, and nothing else.
+3. Confirm the instance accepts connections from outside its own network. An allowlist has to include the connector before anything else works.
+
+**In CorpusIQ**
+
+4. Open your dashboard and go to **Connectors**.
+5. Select **PostgreSQL** and enter the host, database name and the read-only credentials.
+6. The connector turns green once the first query succeeds.
+
+**In Perplexity**
+
+7. Open **Settings** and find the **MCP servers** section.
+8. Add a custom MCP server and paste the endpoint:
+
+```
+https://mcp2.corpusiq.io/mcp
+```
+
+9. Connect and approve the CorpusIQ authorization page once.
+10. Start a new thread and ask a question about the database.
+
+### Example Perplexity Questions
+
+**Trading and revenue**
+
+- "How many orders did we take last week, by day?"
+- "Show revenue by month for the last 12 months and tell me which month broke the trend."
+- "Which customers spent more than 10,000 in the last 90 days?"
+- "Is that customer concentration normal for a business of our size?"
+
+**Operations and stock**
+
+- "Which SKUs are below the reorder point right now, sorted by how far below?"
+- "What is the median time from order to shipment, by warehouse?"
+- "Which orders are still open after 14 days?"
+
+**Schema and exploration**
+
+- "List the tables in the public schema and tell me which ones look transactional."
+- "Which columns join the orders table to the customers table?"
+- "Write the query that answers the last question, then run it."
+
+**Cross-source**
+
+- "Compare the orders table total for last month against Stripe payouts." (requires the Stripe connector)
+- "Which accounts in the CRM have no rows in the orders table?" (requires the CRM connector)
+
+### Security
+
+- **Read-only role.** SELECT on scoped schemas. The credential cannot write, and the MCP path does not try.
+- **Credential stays in CorpusIQ.** Connection details are held encrypted; the database decides what the role may see.
+- **Network allowlist.** The instance has to accept the connection for anything to work, so an allowlist stays the first control, not an afterthought.
+- **Scoped direct-MCP retention.** Raw customer files and full connector response payloads are not retained. Operational logs keep query text, tool-call metadata and bounded outcome summaries for up to 30 days.
+- **TLS in transit** between your database, CorpusIQ and Perplexity.
+
+### Comparison: A SQL Client vs PostgreSQL in Perplexity
+
+| Aspect | A SQL client | CorpusIQ MCP with Perplexity |
+|---|---|---|
+| Who can use it | Someone who writes SQL | Anyone who can ask a question |
+| Input | A query | A question in plain language |
+| Outside context | Switch tabs and search separately | Same thread, same answer |
+| Joins across systems | Export both sides | Asked across connectors |
+| Write risk | Whatever the login can do | None through the retrieval tools |
+| Answer | Rows to interpret | Rows plus the reading of them |
+
+A query returns rows. The question is what the rows mean, and that is the part a person still has to do.
+
+### FAQ: Common Questions
+
+<details>
+<summary><strong>Can Perplexity change anything in the database?</strong></summary>
+
+No. The retrieval tools documented on this page are read-only, and the role you create carries SELECT on the schemas you granted. Nothing writes, deletes or alters a table.
+</details>
+
+<details>
+<summary><strong>Which PostgreSQL versions and managed services are covered?</strong></summary>
+
+Anything that speaks the PostgreSQL wire protocol, including the managed offerings on AWS, Google Cloud and Azure. The connector connects the same way a client would.
+</details>
+
+<details>
+<summary><strong>Does it read the whole database?</strong></summary>
+
+Only what the role can see. Schema grants are the boundary, so a database with several tenant schemas can expose one of them.
+</details>
+
+<details>
+<summary><strong>What about row-level visibility?</strong></summary>
+
+Row-level security policies still apply to the connecting role. If the policy restricts rows, the answers only ever see the rows the role may read.
+</details>
+
+<details>
+<summary><strong>How current is the data?</strong></summary>
+
+Live. Each question runs against the current state of the tables. Verify time-sensitive figures against the cited rows.
+</details>
+
+<details>
+<summary><strong>Does this work only in Perplexity?</strong></summary>
+
+No. PostgreSQL is exposed to ChatGPT, Claude and Perplexity through the same endpoint on the same subscription.
+</details>
+
+<details>
+<summary><strong>Where is the database data stored?</strong></summary>
+
+CorpusIQ does not retain raw customer files or full connector response payloads. Operational logs may persist for up to 30 days. See the [read-only and security documentation](/hermes/security/read-only-and-security).
+</details>
+
+---
+
+**Next steps:** [Connect PostgreSQL to Perplexity now](https://www.corpusiq.io/connectors/perplexity)
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.CorpusIQ.io).*
+
+---
 # How to Connect PostHog to ChatGPT with CorpusIQ MCP
 URL: https://www.corpusiq.io/docs/connect-posthog-to-chatgpt
 
@@ -15649,6 +15968,162 @@ CorpusIQ maintains a SOC 2 aligned posture; formal SOC 2 Type II certification i
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# How to Connect Salesforce to Perplexity with CorpusIQ MCP
+URL: https://www.corpusiq.io/docs/connect-salesforce-to-perplexity
+
+
+# How to Connect Salesforce to Perplexity with CorpusIQ MCP
+
+Perplexity is built for the outside view: market movement, competitor announcements, what analysts say about your sector this quarter.
+
+It cannot see your pipeline, your account history, or the deal that has sat in the same stage since July, because none of that is public.
+
+Connecting Salesforce through CorpusIQ MCP puts both halves in one thread. Perplexity answers the CRM question from your own org, read-only, and names the objects it read.
+
+### Why Connect Salesforce to Perplexity?
+
+- **Pipeline with market context.** "Our win rate on deals over 100,000 is 34 percent. How does that compare to enterprise SaaS benchmarks?" Both halves answered in one thread.
+- **Accounts at risk.** "Which accounts have had no activity in 90 days and still carry an open opportunity?"
+- **Stalled deals.** "Show me opportunities that have not moved stage in 45 days, by owner."
+- **Forecast support.** Pipeline by stage, by region, by rep, before the forecast call rather than during it.
+- **Account prep.** One question returns contacts, open opportunities and recent cases for the account you are about to call.
+- **Read-only by scope.** The retrieval tools documented on this page are read-only. There is no path from Perplexity into a Salesforce record.
+
+### How It Works
+
+1. **Connect Salesforce to CorpusIQ** through Salesforce OAuth 2.0, granting read-only access to the objects you select.
+2. **Add CorpusIQ to Perplexity** as a custom remote MCP server, using the endpoint from your CorpusIQ account settings.
+3. **CorpusIQ reads** the accounts, opportunities, contacts and cases that answer the question.
+4. **Perplexity answers** with the figure, the period it covers, and the outside context you asked for around it.
+
+Direct MCP retrieval is read-only. It does not retain raw customer files or full connector response payloads; operational logs keep query text, per-user tool-call metadata and bounded outcome summaries for up to 30 days.
+
+### Setup Steps
+
+**In CorpusIQ**
+
+1. Open your dashboard and go to **Connectors**.
+2. Select **Salesforce** and click **Connect Salesforce**.
+3. You land on the Salesforce OAuth screen. Approve the read-only grant.
+4. Choose which objects are reachable: Accounts, Opportunities, Contacts, Leads, Cases, and any custom object the REST API exposes.
+5. Return to CorpusIQ. The connector turns green and your org is queryable.
+
+**In Perplexity**
+
+6. Open **Settings** and find the **MCP servers** section.
+7. Add a custom MCP server and paste the endpoint:
+
+```
+https://mcp2.corpusiq.io/mcp
+```
+
+8. Connect and approve the CorpusIQ authorization page once.
+9. Start a new thread and ask a question about your pipeline.
+
+Requires a Salesforce admin for the initial grant. Field-level security is honored, so a user who cannot see a field in Salesforce will not see it in an answer.
+
+### Example Perplexity Questions
+
+**Pipeline and forecast**
+
+- "What is our total pipeline by stage and region this quarter?"
+- "Which opportunities over 100,000 are expected to close before the end of the quarter?"
+- "What is our historical close rate for opportunities above 100,000, and how does that compare to the sector?"
+- "Show pipeline coverage ratio by rep."
+
+**Account health**
+
+- "Which accounts have had no activity in 90 days and still have an open opportunity?"
+- "Give me a profile of the account we meet on Thursday: contacts, open deals, recent cases."
+- "Which accounts renewed last year have no renewal opportunity in the current quarter?"
+
+**Sales operations**
+
+- "What is the average deal cycle by opportunity type?"
+- "Which lead sources convert to closed won most often?"
+- "Show me every opportunity that has been in the same stage for more than 45 days."
+
+**Cross-source**
+
+- "Compare Salesforce pipeline by quarter to QuickBooks booked revenue." (requires the QuickBooks connector)
+- "Which Salesforce accounts also appear in Stripe with a lapsed subscription?" (requires the Stripe connector)
+
+### Security
+
+- **Read-only retrieval tools.** The tools documented on this page are marked read-only, and the OAuth grant covers read access to the objects you selected. There is no write path from Perplexity into a Salesforce record.
+- **Field-level security respected.** Salesforce's own permissions decide what an answer can contain.
+- **No stored credentials on your side.** CorpusIQ holds the encrypted OAuth token; you hold the Salesforce grant and can revoke it at any time.
+- **Scoped direct-MCP retention.** Raw customer files and full connector payloads are not retained. Operational logs keep query text, tool-call metadata and bounded outcome summaries for up to 30 days.
+- **TLS in transit** between Salesforce, CorpusIQ and Perplexity.
+
+### Comparison: Salesforce Reports vs Salesforce in Perplexity
+
+| Aspect | Salesforce reports and dashboards | CorpusIQ MCP with Perplexity |
+|---|---|---|
+| Input | A report someone configured | A question in plain language |
+| Owner | Admin or analyst | Anyone with the connector |
+| Outside context | Copy the number into a search tab | Same thread, same answer |
+| Cross-system | Export and join by hand | Asked across connectors |
+| Follow-up | Rebuild the report | Ask the next question |
+| Write access | Yes, by your users | None through the retrieval tools |
+
+A dashboard answers the question your team knew to ask last quarter. A connected org answers the one that came up in the meeting.
+
+### FAQ: Common Questions
+
+<details>
+<summary><strong>Can Perplexity change anything in Salesforce?</strong></summary>
+
+No. The retrieval tools documented on this page are read-only. Opportunities, accounts and cases are untouched.
+</details>
+
+<details>
+<summary><strong>Does this work with custom objects?</strong></summary>
+
+Yes, when the object is reachable through the Salesforce REST API and your grant covers it. Objects outside the grant stay invisible.
+</details>
+
+<details>
+<summary><strong>Which Salesforce editions are covered?</strong></summary>
+
+Any edition where an admin can approve an OAuth connected app with API access. Sandbox and production orgs carry separate grants, so choose which one you connect.
+</details>
+
+<details>
+<summary><strong>How current is the data?</strong></summary>
+
+Live. Each question reads the current state of the org, so a stage change made a minute ago shows up in the next answer. Verify time-sensitive figures against the cited record.
+</details>
+
+<details>
+<summary><strong>Does this work only in Perplexity?</strong></summary>
+
+No. Salesforce is exposed to ChatGPT, Claude and Perplexity through the same endpoint on the same subscription.
+</details>
+
+<details>
+<summary><strong>Can I limit an answer to one business unit?</strong></summary>
+
+The grant is per org, and answers follow the field and object permissions of the connecting role. If you need unit-level separation, connect the org role that matches the boundary you want.
+</details>
+
+<details>
+<summary><strong>Where is the Salesforce data stored?</strong></summary>
+
+CorpusIQ does not retain raw customer files or full connector response payloads. Operational logs may persist for up to 30 days. See the [read-only and security documentation](/hermes/security/read-only-and-security).
+</details>
+
+---
+
+**Next steps:** [Connect Salesforce to Perplexity now](https://www.corpusiq.io/connectors/perplexity)
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.CorpusIQ.io).*
 
 ---
 # How to Connect Semrush to ChatGPT with CorpusIQ MCP
@@ -26435,6 +26910,9 @@ A: Same endpoint, different client. This guide is for using Perplexity as the MC
 - **[Connect Semrush to Perplexity](connect-semrush-to-perplexity.md)** - competitor keywords, backlinks and demand sizing
 - **[Connect TikTok to Perplexity](connect-tiktok-to-perplexity.md)** - per-video performance and channel trend
 - **[Connect Gmail to Perplexity](connect-gmail-to-perplexity.md)** - commitments, vendor terms and unanswered threads read from your own mailbox
+- **[Connect Salesforce to Perplexity](connect-salesforce-to-perplexity.md)** - pipeline by region, accounts gone quiet and deals stuck in one stage
+- **[Connect NetSuite to Perplexity](connect-netsuite-to-perplexity.md)** - P&L by subsidiary, inventory below reorder point and open purchase orders
+- **[Connect PostgreSQL to Perplexity](connect-postgresql-to-perplexity.md)** - orders, customers and revenue from your own tables, with the tables named
 
 ## Internal Links
 

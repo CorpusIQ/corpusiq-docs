@@ -349,6 +349,10 @@
          <lastmod>2026-11-07</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/connect-netsuite-to-perplexity</loc>
+         <lastmod>2026-11-14</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/connect-notion-to-chatgpt</loc>
          <lastmod>2026-11-07</lastmod>
     </url>
@@ -381,6 +385,10 @@
          <lastmod>2026-11-07</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/connect-postgresql-to-perplexity</loc>
+         <lastmod>2026-11-14</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/connect-posthog-to-chatgpt</loc>
          <lastmod>2026-11-01</lastmod>
     </url>
@@ -407,6 +415,10 @@
     <url>
          <loc>https://www.corpusiq.io/docs/connect-salesforce-to-claude</loc>
          <lastmod>2026-11-07</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/connect-salesforce-to-perplexity</loc>
+         <lastmod>2026-11-14</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connect-semrush-to-chatgpt</loc>
@@ -1141,6 +1153,10 @@
          <lastmod>2026-11-04</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/agent-pack</loc>
+         <lastmod>2026-11-14</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/agent-pack/business-analyst</loc>
          <lastmod>2026-11-13</lastmod>
     </url>
@@ -1542,7 +1558,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/compare/corpusiq-vs-composio</loc>
-         <lastmod>2026-11-01</lastmod>
+         <lastmod>2026-11-14</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/compare/corpusiq-vs-databox</loc>
@@ -1550,7 +1566,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/compare/corpusiq-vs-fivetran</loc>
-         <lastmod>2026-11-01</lastmod>
+         <lastmod>2026-11-14</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/compare/corpusiq-vs-glean</loc>
@@ -1578,7 +1594,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/compare/corpusiq-vs-n8n</loc>
-         <lastmod>2026-11-01</lastmod>
+         <lastmod>2026-11-14</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/compare/corpusiq-vs-northbeam</loc>
@@ -4850,7 +4866,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/mandate-law-mcp</loc>
-         <lastmod>2026-11-13</lastmod>
+         <lastmod>2026-11-14</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/manifold-mcp</loc>
