@@ -87,7 +87,7 @@ That's it. You can now use Hermes Agent interactively. For persistent operation 
 
 ### Option: Hermes Desktop App (macOS / Windows / Linux)
 
-Prefer a graphical interface over the terminal? The official **Hermes Desktop** app ships as a first-party download alongside the current release line (v0.23.0, released November 5, 2026) - a native Electron application, not a terminal wrapper:
+Prefer a graphical interface over the terminal? The official **Hermes Desktop** app ships as a first-party download alongside the current release line (v0.23.1, released November 9, 2026) - a native Electron application, not a terminal wrapper:
 
 - One-click install from [hermes-agent.nousresearch.com](https://hermes-agent.nousresearch.com/) with in-app self-update
 - Proper chat window with streaming, drag-and-drop files, clipboard image paste

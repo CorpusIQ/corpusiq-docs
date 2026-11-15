@@ -10,7 +10,7 @@ tags: ["hermes agent", "ai agent", "nous research"]
 
 # Trending AI Agent Tools - August 2026
 
-Weekly scan of new open-source AI agent tools worth investigating for Hermes and CorpusIQ. Star counts below are as of November 2, 2026.
+Weekly scan of new open-source AI agent tools worth investigating for Hermes and CorpusIQ. Star counts below are as of November 15, 2026.
 
 ## Caspian SDK - Agent Communication Layer
 
@@ -22,19 +22,19 @@ Weekly scan of new open-source AI agent tools worth investigating for Hermes and
 
 ## Vibe-Research - Personal Trading Research Agent
 
-⭐ 3,461 stars. Local-first trading research agent ([simonlin1212/Vibe-Research](https://github.com/simonlin1212/Vibe-Research)). Covers A-stock (China), US stocks, and HK stocks with daily recaps, news radar, individual stock data, sector centers, and portfolio tracking.
+⭐ 3,720 stars. Local-first trading research agent ([simonlin1212/Vibe-Research](https://github.com/simonlin1212/Vibe-Research)). Covers A-stock (China), US stocks, and HK stocks with daily recaps, news radar, individual stock data, sector centers, and portfolio tracking.
 
 **Why it matters for CorpusIQ**: This is a domain-specific AI agent that pulls data from multiple financial sources. The architecture mirrors CorpusIQ's approach: connect disparate data sources, give the AI a unified query layer, deliver trusted answers. The trading-specific UI patterns (portfolio dashboard, daily recap cards, news radar) are design references for CorpusIQ's business intelligence display layer.
 
 ## Open Science - Model-Agnostic Research Workbench
 
-⭐ 2,074 stars. Open-source, local-first, model-agnostic AI research workbench ([ai4s-research/open-science](https://github.com/ai4s-research/open-science)). Works across macOS, Windows, and Linux. Designed for scientific discovery but applicable to any multi-source research workflow.
+⭐ 2,099 stars. Open-source, local-first, model-agnostic AI research workbench ([ai4s-research/open-science](https://github.com/ai4s-research/open-science)). Works across macOS, Windows, and Linux. Designed for scientific discovery but applicable to any multi-source research workflow.
 
 **Why it matters for Hermes**: The model-agnostic local architecture is the same pattern Hermes uses (DeepSeek primary, Claude fallback, Qwen local). Open Science's workbench UI for multi-model research could inform Hermes desktop improvements.
 
 ## OpenChatCut - Conversational AI Video Editor
 
-⭐ 2,861 stars. Open-source, local-first conversational AI video editor with professional multi-track timeline ([0xsline/OpenChatCut](https://github.com/0xsline/OpenChatCut)). Lets users edit video by talking to an AI agent.
+⭐ 3,124 stars. Open-source, local-first conversational AI video editor with professional multi-track timeline ([0xsline/OpenChatCut](https://github.com/0xsline/OpenChatCut)). Lets users edit video by talking to an AI agent.
 
 **Why it matters for Hermes**: This is a practical application of agent-driven creative work. The conversational editing pattern (describe what you want, AI executes) is directly applicable to Hermes's vision of agent-driven business operations. Instead of configuring dashboards, you describe what you need.
 
