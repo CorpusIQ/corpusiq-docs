@@ -57,6 +57,7 @@ CorpusIQ never creates ads, edits budgets, or pauses campaigns.
 ## See also
 
 - [Connect Meta Ads to Claude](connect-meta-ads-to-claude.md) - the same ad account in Claude Desktop, with the Business Manager access requirement and the attribution caveat.
+- [Connect Meta Ads to Perplexity](../connect-meta-ads-to-perplexity.md) - spend, placement and creative performance beside category benchmarks.
 - [Facebook Page connector](facebook.md) - organic Page data, kept separate from paid.
 
 ---

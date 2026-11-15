@@ -46,6 +46,7 @@ Read-only. CorpusIQ never sends mail, replies, deletes messages, or creates even
 
 - [Connect Outlook to Claude](../connect-outlook-to-claude.md) - the Claude Desktop setup, the questions worth asking and the read-only boundary.
 - [Connect Outlook to ChatGPT](../connect-outlook-to-chatgpt.md) - the ChatGPT setup, the questions worth asking and the read-only boundary.
+- [Connect Outlook to Perplexity](../connect-outlook-to-perplexity.md) - commitments, unanswered threads and renewal terms, with the outside record in the same answer.
 
 ---
 
