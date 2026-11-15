@@ -6808,6 +6808,7 @@ CorpusIQ does not retain raw customer files or full connector response payloads.
 ## Related Pages
 
 - [Connect Airtable to Claude](connectors/connect-airtable-to-claude.md) - the same base, set up for Claude Desktop with the token scopes that matter
+- [Connect Airtable to Perplexity](connect-airtable-to-perplexity.md) - roadmaps, hiring pipelines and trackers, cited to the base and table used
 - [Airtable connector reference](connectors/airtable.md) - scopes, visible objects and troubleshooting
 - [Connect Notion to ChatGPT](connect-notion-to-chatgpt.md) - the other document-shaped knowledge base
 - [Connect Monday.com to ChatGPT](connect-monday-com-to-chatgpt.md) - work tracking in ChatGPT
@@ -9552,6 +9553,7 @@ CorpusIQ does not retain raw customer files or full connector response payloads.
 - [Connect Google Drive to ChatGPT](connect-google-drive-to-chatgpt.md) - documents behind the meeting
 - [Connect Google Sheets to ChatGPT](connect-google-sheets-to-chatgpt.md) - the plan beside the calendar
 - [Connect Google Calendar to Claude](connect-google-calendar-to-claude.md) - the same meeting-load questions for Claude Desktop
+- [Connect Google Calendar to Perplexity](connect-google-calendar-to-perplexity.md) - what is booked and what was agreed, read from live calendars
 - [Browse all CorpusIQ connectors](connectors.md) - the full list
 - [How to Connect Business Data to ChatGPT](how-to-connect-business-data-to-chatgpt.md) - the general setup
 - [AI for Executive Reporting](ai-for-executive-reporting.md) - turning calendar facts into a report
@@ -10226,6 +10228,7 @@ CorpusIQ does not retain raw customer files or full connector response payloads.
 - [Connect Google Calendar to ChatGPT](connect-google-calendar-to-chatgpt.md) - the meeting behind the document
 - [Connect Notion to ChatGPT](connect-notion-to-chatgpt.md) - the other knowledge base
 - [Connect Google Drive to Claude](connect-google-drive-to-claude.md) - the same document answers for Claude Desktop
+- [Connect Google Drive to Perplexity](connect-google-drive-to-perplexity.md) - what a contract says and which version is current, tied to the live file
 - [Browse all CorpusIQ connectors](connectors.md) - the full list
 - [AI for Document Search](ai-for-document-search.md) - the document use case in depth
 - [How to Connect Business Data to ChatGPT](how-to-connect-business-data-to-chatgpt.md) - the general setup
@@ -11044,6 +11047,7 @@ CorpusIQ does not retain raw customer files or full connector response payloads.
 - [Google Workspace connectors](connectors/google_workspace.md) - Drive, Gmail, Calendar and Sheets
 - [Connect Google Analytics to ChatGPT](connect-google-analytics-to-chatgpt.md) - traffic beside the plan
 - [Connect Google Sheets to Claude](connect-google-sheets-to-claude.md) - the same sheet data for Claude Desktop
+- [Connect Google Sheets to Perplexity](connect-google-sheets-to-perplexity.md) - budgets, trackers and pipelines, tied to the sheet and tab
 - [Browse all CorpusIQ connectors](connectors.md) - the full list
 - [How to Connect Business Data to ChatGPT](how-to-connect-business-data-to-chatgpt.md) - the general setup
 - [MCP vs API Integrations](mcp-vs-api-integrations.md) - why the access model differs
@@ -12241,6 +12245,7 @@ You need an account with API access and the permission level required to authori
 ## Internal Links
 
 - [Connect Klaviyo to Claude](connectors/connect-klaviyo-to-claude.md) - the same account, set up for Claude Desktop
+- [Connect Klaviyo to Perplexity](connect-klaviyo-to-perplexity.md) - what email and SMS actually earned, and which flows recover carts
 - [Browse all CorpusIQ connectors](connectors.md)
 - [MCP for Ecommerce: multi-channel order intelligence](mcp-for-ecommerce.md)
 - [Connect Shopify to ChatGPT](connect-shopify-to-chatgpt.md)
@@ -15060,6 +15065,7 @@ Queries run against your database, so cost follows your own query patterns. Filt
 ## Related Pages
 
 - [Connect PostgreSQL to Claude](connect-postgresql-to-claude.md) - the same connection, set up for Claude Desktop
+- [Connect PostgreSQL to Perplexity](connect-postgresql-to-perplexity.md) - orders, customers and revenue in plain language, with the tables named
 - [Browse all CorpusIQ connectors](connectors.md) - the full list
 - [MCP vs API Integrations](mcp-vs-api-integrations.md) - why the access model differs
 - [CorpusIQ Security Architecture](../security/) - how credentials and data are handled
