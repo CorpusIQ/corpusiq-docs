@@ -109,6 +109,10 @@ A: Same endpoint, different client. This guide is for using Perplexity as the MC
 - **[Connect Salesforce to Perplexity](connect-salesforce-to-perplexity.md)** - pipeline by region, accounts gone quiet and deals stuck in one stage
 - **[Connect NetSuite to Perplexity](connect-netsuite-to-perplexity.md)** - P&L by subsidiary, inventory below reorder point and open purchase orders
 - **[Connect PostgreSQL to Perplexity](connect-postgresql-to-perplexity.md)** - orders, customers and revenue from your own tables, with the tables named
+- **[Connect Slack to Perplexity](connect-slack-to-perplexity.md)** - what was decided, who owns the action and where a thread went quiet
+- **[Connect Notion to Perplexity](connect-notion-to-perplexity.md)** - your own policies, processes and trackers read from live pages
+- **[Connect Outlook to Perplexity](connect-outlook-to-perplexity.md)** - commitments, unanswered threads and renewal terms from the mailbox
+- **[Connect Meta Ads to Perplexity](connect-meta-ads-to-perplexity.md)** - campaign, placement and creative performance beside category benchmarks
 
 ## Internal Links
 

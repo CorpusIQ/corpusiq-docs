@@ -50,6 +50,12 @@ CorpusIQ never creates pages, edits content, or modifies databases.
 - **"Integration token invalid"** - The token may have been regenerated. Create a new integration at notion.so/my-integrations and update the token in CorpusIQ.
 - **Block content looks incomplete** - Notion paginates block children. Large pages will return content in pages; CorpusIQ handles pagination automatically, but very large documents may need multiple calls.
 
+## See also
+
+- [Connect Notion to Claude](../connect-notion-to-claude.md) - the Claude Desktop setup, the token path and the sharing boundary.
+- [Connect Notion to ChatGPT](../connect-notion-to-chatgpt.md) - the ChatGPT setup and the questions worth asking.
+- [Connect Notion to Perplexity](../connect-notion-to-perplexity.md) - policies, processes and trackers read from live pages, with the outside view beside them.
+
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

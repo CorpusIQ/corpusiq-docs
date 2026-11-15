@@ -166,6 +166,7 @@ Notion's built-in search is excellent for navigating a known workspace. MCP with
 - [Connect SharePoint to ChatGPT](connect-sharepoint-to-chatgpt.md) - Microsoft intranet in ChatGPT
 - [Connect Google Drive to ChatGPT](https://www.corpusiq.io/docs) - file storage data (available via CorpusIQ MCP)
 - [Connect Slack to ChatGPT](connect-slack-to-chatgpt.md) - team communication in ChatGPT
+- [Connect Slack to Perplexity](connect-slack-to-perplexity.md) - decisions and open threads with market context
 - [Connect Asana to ChatGPT](connect-asana-to-chatgpt.md) - project management in ChatGPT
 - [Connect Monday.com to ChatGPT](connect-monday-com-to-chatgpt.md) - work management in ChatGPT
 - [ChatGPT Integration Overview](chatgpt-integration.md) - the full integration

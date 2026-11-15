@@ -232,6 +232,10 @@ nav:
   - Connect Salesforce to Perplexity: connect-salesforce-to-perplexity.md
   - Connect NetSuite to Perplexity: connect-netsuite-to-perplexity.md
   - Connect PostgreSQL to Perplexity: connect-postgresql-to-perplexity.md
+  - Connect Slack to Perplexity: connect-slack-to-perplexity.md
+  - Connect Notion to Perplexity: connect-notion-to-perplexity.md
+  - Connect Outlook to Perplexity: connect-outlook-to-perplexity.md
+  - Connect Meta Ads to Perplexity: connect-meta-ads-to-perplexity.md
 - Business AI Use Cases:
   - AI for Business Intelligence: ai-for-business-intelligence.md
   - AI for Financial Analysis: ai-for-financial-analysis.md

@@ -165,6 +165,7 @@ Under 5 minutes from signup to enterprise email intelligence in ChatGPT.
 ## Related Pages
 
 - [Connect Outlook to Claude](connect-outlook-to-claude.md) - the same mailbox, set up for Claude Desktop
+- [Connect Outlook to Perplexity](connect-outlook-to-perplexity.md) - commitments and unanswered threads with market context
 - [Connect Gmail to ChatGPT](connect-gmail-to-chatgpt.md) - Google email in ChatGPT
 - [Connect SharePoint to ChatGPT](connect-sharepoint-to-chatgpt.md) - Microsoft intranet in ChatGPT
 - [Connect Slack to ChatGPT](connect-slack-to-chatgpt.md) - team communication in ChatGPT

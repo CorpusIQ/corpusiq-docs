@@ -43,6 +43,12 @@ Read-only. CorpusIQ never posts, replies, joins channels, or DMs anyone.
 - Private channels missing - CorpusIQ only sees channels the connecting user is a member of. Add yourself to the channel and reconnect.
 - "Couldn't find that message" - Slack search is limited to messages newer than the workspace's retention window.
 
+## See also
+
+- [Connect Slack to Claude](../connect-slack-to-claude.md) - the Claude Desktop setup, the scopes it reviews and the read-only boundary.
+- [Connect Slack to ChatGPT](../connect-slack-to-chatgpt.md) - the ChatGPT setup and the questions worth asking.
+- [Connect Slack to Perplexity](../connect-slack-to-perplexity.md) - decisions and open threads, with the outside record in the same answer.
+
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

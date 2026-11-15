@@ -165,6 +165,7 @@ Under 5 minutes from signup to Slack answers in ChatGPT.
 - [Connect Gmail to ChatGPT](connect-gmail-to-chatgpt.md) - email data in ChatGPT
 - [Connect Outlook to ChatGPT](connect-outlook-to-chatgpt.md) - Microsoft email in ChatGPT
 - [Connect Notion to ChatGPT](connect-notion-to-chatgpt.md) - documentation in ChatGPT
+- [Connect Slack to Perplexity](connect-slack-to-perplexity.md) - decisions and open threads with market context
 - [Connect Jira to ChatGPT](connect-jira-to-chatgpt.md) - development tracking in ChatGPT
 - [Connect HubSpot to ChatGPT](connect-hubspot-to-chatgpt.md) - CRM data in ChatGPT
 - [ChatGPT Integration Overview](chatgpt-integration.md) - the full integration
