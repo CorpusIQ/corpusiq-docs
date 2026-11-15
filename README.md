@@ -123,7 +123,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full guide.
 - **Website:** [corpusiq.io](https://www.corpusiq.io)
 - **Affiliate program:** [25% recurring for 3 years](https://www.corpusiq.io/affiliate?utm_source=docs&utm_medium=referral&utm_campaign=readme)
 - **GitHub Discussions:** [Ask questions, share ideas](https://github.com/CorpusIQ/corpusiq-docs/discussions)
-- **MCP directory:** Listed on [mcp.so](https://mcp.so), [Smithery.ai](https://smithery.ai), and the [Official MCP Registry](https://registry.modelcontextprotocol.io)
+- **MCP directory:** Listed on [Glama](https://glama.ai/mcp/servers/CorpusIQ/corpusiq-docs), [mcp.so](https://mcp.so), and the [Official MCP Registry](https://registry.modelcontextprotocol.io)
 
 ---
 
