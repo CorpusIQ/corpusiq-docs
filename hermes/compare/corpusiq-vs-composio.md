@@ -1,12 +1,12 @@
 ---
 title: "CorpusIQ vs Composio: What Each One Does"
 description: "Composio gives agents tool access to 250+ apps. CorpusIQ is the layer that gives AI assistants governed access to business data."
-last_updated: "2026-11-01"
+last_updated: "2026-11-14"
 ---
 
 # CorpusIQ vs Composio: What Each One Does
 
-Composio gives agents tool access to 250+ apps. CorpusIQ is the layer that gives AI assistants governed access to business data, with validation, citations, and read-only scopes.
+Composio gives agents tool access to 1,700+ apps. CorpusIQ is the layer that gives AI assistants governed access to business data, with validation, citations, and read-only scopes.
 
 ## Quick comparison
 
@@ -26,7 +26,7 @@ Composio is the right system for agent tool integrations and MCP infrastructure.
 
 The pain starts when tool access is not the same thing as trusted answers. Composio connects. CorpusIQ validates, cites, and governs what the agent reads.
 
-CorpusIQ connects Composio to those systems and exposes all of them to ChatGPT, Claude, and Perplexity. ask a question that spans QuickBooks, Stripe, and Shopify and get one validated, source-cited answer.
+CorpusIQ connects Composio to those systems and exposes all of them to ChatGPT, Claude, and Perplexity. Ask a question that spans QuickBooks, Stripe, and Shopify and get one validated, source-cited answer.
 
 ## FAQ
 

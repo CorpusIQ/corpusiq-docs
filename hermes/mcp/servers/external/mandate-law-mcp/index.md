@@ -7,7 +7,7 @@ added: 2026-11-13
 source: "the mcp.so feed card at 2026-11-13T22:27Z, the vendor's services catalog at /api/services.json, and a keyless session on this host: initialize, tools/list, six check_scope calls and one get_counsel_triggers call"
 relevance: ★★★
 tags: [legal, law-firm, fixed-fee, compliance, ai-features, engagement, keyless, mcp]
-last_updated: "2026-11-13"
+last_updated: "2026-11-14"
 ---
 
 # Mandate Law MCP
