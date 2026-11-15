@@ -3225,6 +3225,10 @@
          <lastmod>2026-11-01</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/checkchinatransit-mcp</loc>
+         <lastmod>2026-11-14</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/checkout-page-mcp</loc>
          <lastmod>2026-11-01</lastmod>
     </url>
@@ -5429,6 +5433,10 @@
          <lastmod>2026-11-01</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/paintcolormatcher-mcp</loc>
+         <lastmod>2026-11-14</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/pairbook-mcp</loc>
          <lastmod>2026-11-01</lastmod>
     </url>
@@ -6377,6 +6385,10 @@
          <lastmod>2026-11-01</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/stackrates-mcp</loc>
+         <lastmod>2026-11-14</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/stackscope-mcp</loc>
          <lastmod>2026-11-01</lastmod>
     </url>
@@ -6655,6 +6667,10 @@
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/transcodely-mcp</loc>
          <lastmod>2026-11-01</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/transformer-gg-mcp</loc>
+         <lastmod>2026-11-14</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/trello-mcp</loc>
@@ -7547,6 +7563,10 @@
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-november13-2026-night</loc>
          <lastmod>2026-11-13</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-november14-2026-evening</loc>
+         <lastmod>2026-11-14</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-november14-2026-midday-supplement</loc>
