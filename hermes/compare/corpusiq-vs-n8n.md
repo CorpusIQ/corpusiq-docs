@@ -1,7 +1,7 @@
 ---
 title: "CorpusIQ vs n8n: AI Business Intelligence vs Workflow"
 description: "Both CorpusIQ and n8n connect your business tools. But they serve different purposes. Here is how to choose."
-last_updated: 2026-11-01
+last_updated: 2026-11-14
 canonical: "https://www.corpusiq.io/docs/hermes/compare/corpusiq-vs-n8n/"
 robots: "index,follow"
 tags: ["hermes agent", "ai agent", "nous research"]
@@ -55,7 +55,7 @@ n8n can be self-hosted, which appeals to teams with strict data residency requir
 | Starting price | $29.95/month | Free (self-hosted) / $20/month (cloud) |
 | Free trial | 30 days, no credit card | Free tier available |
 | AI integration | ChatGPT, Claude, Perplexity | Limited AI nodes |
-| Connectors | 40+ pre-built | 400+ community nodes |
+| Connectors | 40+ pre-built | 2,698 integrations |
 | Setup time | Minutes | Hours to days per workflow |
 | Best for | Business intelligence | Process automation |
 
