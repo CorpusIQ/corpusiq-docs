@@ -14,7 +14,7 @@ Hermes serves as the platform's primary orchestration framework and execution en
 
 ## Version History
 
-The current upstream release is v0.23.0, published 5 November 2026. A fresh install lands on the latest stable release, and `hermes update` follows that channel from then on. The product line ships with:
+The current upstream release is v0.23.1, published 9 November 2026. A fresh install lands on the latest stable release, and `hermes update` follows that channel from then on. The product line ships with:
 
 - Model switching with fallback chains
 - Browser and computer-use tooling
