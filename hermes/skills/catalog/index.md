@@ -3,7 +3,7 @@ title: "Hermes Skills Catalog - Quality-Tiered Directory"
 description: "Curated directory of community-validated Hermes agent skills. Quality tiers (Production/Beta/Community), starter pack, evaluation guide, and installation"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/"
 robots: "index,follow"
-last_updated: "2026-11-14"
+last_updated: "2026-11-15"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
@@ -1394,6 +1394,18 @@ Thirteen repository clusters surfaced by a widened 172-query topic probe plus on
 - [Bootstrap Agent Skills - Framework Guidance](/hermes/skills/catalog/bootstrap-agent-skills-setup) - twbs/bootstrap, 6,467 combined, 12 listings, 175,057 stars, MIT, the official Bootstrap repo now ships skills for Bootstrap 6: colour system, components and their JavaScript, the utility API, Vite, npm, Parcel and Webpack builds and both v5 and v4 migration paths
 - [WooCommerce Agent Skills - Store Development](/hermes/skills/catalog/woocommerce-agent-skills-setup) - woocommerce/woocommerce, 6,189 combined, 12 listings, 10,599 stars, GPL-2.0, WooCommerce monorepo skills on the trunk branch: backend development conventions, code review, performance, the dev cycle, copy guidelines and Store API route work
 - [Uncodixfy - Anti AI UI Pattern Skill](/hermes/skills/catalog/uncodixfy-setup) - cyxzdev/uncodixfy, 5,677 combined, 1 listings, 2,683 stars, MIT, a negative rule set rather than a design system: it names the floating cards, gradient dashboards, glass panels and decorative labels an agent falls back to and gives the plain implementation for each
+
+### New - November 15, 2026 Evening Sweep (9 publisher guides)
+
+- [Pwguler Skills - Triple Debt Engineering Suite](/hermes/skills/catalog/pwguler-skills-setup) - pwguler/skills, 15,161 combined, 47 listings, 10 stars, MIT, one loop against technical, cognitive and intent debt: drill, implement, verify, land, with 24 principles folded into the step that needs them
+- [Pandoscope Skills - Agentic Engineering Library](/hermes/skills/catalog/pandoscope-skills-setup) - pandoscope/skills, 14,554 combined, 14 listings, 1 stars, MIT, original and derived skills in one canonical repo, from caveman-compressed review through TDD, domain modeling, ADRs and ticket slicing, with a Trust Hub Fail on grilling stated up front
+- [YouTube Agent Skills - Eleven Channel Skills](/hermes/skills/catalog/youtube-agent-skills-setup) - jakeschincariol/youtube-agent-skill, 12,226 combined, 11 listings, 6,060 stars, MIT, eleven skills that run a channel without publishing anything: 21 hook formulas, title and thumbnail linting as one pairing, retention reads, an edit decision list and Shorts discovery
+- [Learn AI Basics - Devpost Learner Curriculum](/hermes/skills/catalog/learn-ai-basics-setup) - challengepost/learn-ai-basics, 11,061 combined, 9 listings, 84 stars, MIT, the Devpost Learn hackathon curriculum as six skills from 1-start to 6-ship, where the agent interviews and organizes and the learner supplies every decision
+- [GitLab CLI Skills - glab Command Reference](/hermes/skills/catalog/gitlab-cli-skills-setup) - vince-winkintel/gitlab-cli-skills, 7,673 combined, 53 listings, 51 stars, MIT, one routing skill plus 52 glab command skills covering merge requests, CI, runners, the API, registries, keys and releases, written for agents rather than for humans
+- [Reelary Skills - Local Footage Search for Agents](/hermes/skills/catalog/reelary-skills-setup) - reelary/skills, 6,787 combined, 6 listings, 1 stars, no LICENSE file, six skills over the Reelary desktop app: index local footage, find shots by meaning or quote, build B-roll, rough cuts, verticals and NLE exports, with nothing leaving the machine
+- [Oil UI - Interface Design Skill for Agents](/hermes/skills/catalog/oil-ui-setup) - oil-oil/oil-ui, 4,724 combined, 1 listing, 3,422 stars, MIT, one design skill that recommends a single direction or explores three genuinely distinct ones, then checks the real screen in two viewports, with a Socket Warn and the paid Pro edition noted
+- [Vibe Security - Security Audit for Vibe-Coded](/hermes/skills/catalog/vibe-security-skill-setup) - raroque/vibe-security-skill, 3,869 combined, 1 listing, 1,235 stars, MIT, a stack-aware security audit that loads only the references the project needs: Supabase row-level security, Stripe payment flows, React Native bundle secrets
+- [Solid Skills - SOLID and TDD Coding Standards](/hermes/skills/catalog/solid-skills-setup) - ramziddin/solid-skills, 3,673 combined, 1 listing, 634 stars, no LICENSE file, one skill carrying nine reference files, SOLID and TDD through clean code, code smells, design patterns and clean architecture, aimed at TypeScript and NestJS
 
 ### New - November 14, 2026 Evening Sweep (16 publisher guides)
 
