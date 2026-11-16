@@ -6,7 +6,7 @@ installs: 182
 quality_tier: 🔵 Community
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/oh-my-hermes-workflow-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-15"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
@@ -72,8 +72,14 @@ hermes skills list | grep oh-my-hermes
 
 ### Activate a Workflow
 
-```bash
-hermes skill invoke oh-my-hermes-workflow --workflow session-start
+Inside a Hermes session the skill is a slash command and the workflow name is passed as instruction text. Headless runs preload the skill with `-s` and pass the instruction to `-z`:
+
+```text
+# Inside a Hermes session
+/oh-my-hermes-workflow --workflow session-start
+
+# Headless (script or cron)
+hermes -s oh-my-hermes-workflow -z "--workflow session-start"
 ```
 
 ### Create a Custom Workflow
@@ -87,25 +93,25 @@ description: Daily growth metrics collection and reporting
 steps:
   - name: check-email
     tool: terminal
-    command: "hermes skill invoke corpusiq-session-start --check-email"
+    command: "hermes -s corpusiq-session-start -z 'check email'"
   - name: pull-analytics
     tool: terminal
-    command: "hermes skill invoke corpusiq-report-data-extraction"
+    command: "hermes -s corpusiq-report-data-extraction -z 'pull analytics'"
   - name: social-sweep
     tool: terminal
-    command: "hermes skill invoke corpusiq-organic-discovery --sweep"
+    command: "hermes -s corpusiq-organic-discovery -z 'run the sweep'"
   - name: generate-report
     tool: terminal
-    command: "hermes skill invoke corpusiq-daily-html-reporting"
+    command: "hermes -s corpusiq-daily-html-reporting -z 'generate the report'"
   - name: push-telegram
     tool: terminal
-    command: "hermes skill invoke corpusiq-daily-html-reporting --deliver"
+    command: "hermes -s corpusiq-daily-html-reporting -z 'deliver the report'"
 ```
 
 Run it:
 
-```bash
-hermes skill invoke oh-my-hermes-workflow --workflow corpusiq-growth-report
+```text
+/oh-my-hermes-workflow --workflow corpusiq-growth-report
 ```
 
 ---
@@ -123,15 +129,15 @@ Oh-My-Hermes Workflow is particularly useful for:
 
 ## Verification
 
-```bash
+```text
 # List available workflows
-hermes skill invoke oh-my-hermes-workflow --list
+/oh-my-hermes-workflow --list
 
 # Run a dry-run
-hermes skill invoke oh-my-hermes-workflow --workflow session-start --dry-run
+/oh-my-hermes-workflow --workflow session-start --dry-run
 
 # Check workflow history
-hermes skill invoke oh-my-hermes-workflow --history
+/oh-my-hermes-workflow --history
 ```
 
 ---

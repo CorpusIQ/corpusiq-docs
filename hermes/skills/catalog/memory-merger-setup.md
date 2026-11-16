@@ -6,7 +6,7 @@ repo: https://github.com/github/awesome-copilot
 stars: 36,652
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/memory-merger-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-15"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
@@ -75,11 +75,14 @@ The skill activates when you mention:
 
 ```bash
 # View memory stats before merging
-hermes memory stats
+hermes memory status
+```
 
-# Run the memory merger
-hermes skill run memory-merger --dry-run  # Preview changes
-hermes skill run memory-merger --commit   # Apply changes
+Inside a Hermes session the merger is a slash command:
+
+```text
+/memory-merger --dry-run  # Preview changes
+/memory-merger --commit   # Apply changes
 ```
 
 ### Automated (Recommended)

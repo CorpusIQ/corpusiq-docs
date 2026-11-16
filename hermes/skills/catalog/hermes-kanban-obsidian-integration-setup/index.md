@@ -6,7 +6,7 @@ installs: 136
 quality_tier: 🔵 Community
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-kanban-obsidian-integration-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-15"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
@@ -59,8 +59,10 @@ npx skills add https://github.com/reason-machines/hermes-skills --skill hermes-k
 
 ### Step 3: Configure Vault Path
 
-```bash
-hermes skill invoke hermes-kanban-obsidian-integration \
+Commands on this page run as slash commands inside a Hermes session; the flags are passed to the agent as instruction text.
+
+```text
+/hermes-kanban-obsidian-integration \
   --config vault_path="~/Documents/Obsidian/CorpusIQ"
 ```
 
@@ -91,8 +93,8 @@ link_style: wikilink                # wikilink | markdown
 
 Hermes translates this to:
 
-```bash
-hermes skill invoke hermes-kanban-obsidian-integration \
+```text
+/hermes-kanban-obsidian-integration \
   --board "Agent Tasks" \
   --add "Research competitors" \
   --column "Todo" \
@@ -102,8 +104,8 @@ hermes skill invoke hermes-kanban-obsidian-integration \
 
 ### List Tasks on a Board
 
-```bash
-hermes skill invoke hermes-kanban-obsidian-integration --board "Agent Tasks" --list
+```text
+/hermes-kanban-obsidian-integration --board "Agent Tasks" --list
 ```
 
 **Sample Output:**
@@ -126,8 +128,8 @@ Done (12):
 
 ### Move a Task
 
-```bash
-hermes skill invoke hermes-kanban-obsidian-integration \
+```text
+/hermes-kanban-obsidian-integration \
   --board "Agent Tasks" \
   --task "Research competitors" \
   --move "Doing"
@@ -135,8 +137,8 @@ hermes skill invoke hermes-kanban-obsidian-integration \
 
 ### Add Context to a Task
 
-```bash
-hermes skill invoke hermes-kanban-obsidian-integration \
+```text
+/hermes-kanban-obsidian-integration \
   --board "Agent Tasks" \
   --task "Research competitors" \
   --note "Top 3 competitors identified: Synthex, AgentFlow, TaskPilot. See [[Competitive Analysis]]"
@@ -166,8 +168,8 @@ For CorpusIQ workflows:
 
 ### Example: Daily Standup Board
 
-```bash
-hermes skill invoke hermes-kanban-obsidian-integration \
+```text
+/hermes-kanban-obsidian-integration \
   --board "Daily Standup" \
   --add-column "Yesterday" \
   --add-column "Today" \
@@ -178,12 +180,12 @@ hermes skill invoke hermes-kanban-obsidian-integration \
 
 ## Verification
 
-```bash
+```text
 # Check connection to vault
-hermes skill invoke hermes-kanban-obsidian-integration --check
+/hermes-kanban-obsidian-integration --check
 
 # Create test board
-hermes skill invoke hermes-kanban-obsidian-integration \
+/hermes-kanban-obsidian-integration \
   --board "Test Board" \
   --add "Test task from Hermes" \
   --column "Todo"

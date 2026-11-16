@@ -6,7 +6,7 @@ installs: 173
 quality_tier: 🔵 Community
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/minions-hermes-mission-control-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-15"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
@@ -96,10 +96,12 @@ notifications:
 
 ## Usage
 
+The mission control skill runs as a slash command inside a session; the flags below are passed to the agent as instruction text. Scheduled dispatches use the Hermes cron CLI.
+
 ### Dispatch a Swarm Task
 
-```bash
-hermes skill invoke minions-hermes-mission-control \
+```text
+/minions-hermes-mission-control \
   --dispatch "Research top 5 AI agent trends for Q3 2026" \
   --agents corpusiq-growth,corpusiq-research \
   --board trends-research
@@ -107,8 +109,8 @@ hermes skill invoke minions-hermes-mission-control \
 
 ### Check Board Status
 
-```bash
-hermes skill invoke minions-hermes-mission-control --board trends-research --status
+```text
+/minions-hermes-mission-control --board trends-research --status
 ```
 
 **Sample Output:**
@@ -123,14 +125,14 @@ Board: trends-research | 3 tasks | Updated: 2s ago
 
 ### Aggregate Results
 
-```bash
-hermes skill invoke minions-hermes-mission-control --board trends-research --aggregate
+```text
+/minions-hermes-mission-control --board trends-research --aggregate
 ```
 
 ### Cancel a Board
 
-```bash
-hermes skill invoke minions-hermes-mission-control --board trends-research --cancel
+```text
+/minions-hermes-mission-control --board trends-research --cancel
 ```
 
 ---
@@ -157,13 +159,18 @@ For CorpusIQ multi-agent workflows:
 
 ### Example: Overnight Content Sweep
 
-```bash
-hermes skill invoke minions-hermes-mission-control \
+```text
+/minions-hermes-mission-control \
   --dispatch "Full overnight sweep: skills.sh + social mining + email check" \
   --agents corpusiq-growth,corpusiq-research \
   --strategy scatter \
-  --board overnight-sweep \
-  --schedule "0 2 * * *"
+  --board overnight-sweep
+```
+
+To repeat it nightly, schedule the dispatch with the Hermes cron CLI:
+
+```bash
+hermes cron create "0 2 * * *" "full overnight sweep: skills.sh + social mining + email check" --skill minions-hermes-mission-control
 ```
 
 ---
@@ -172,16 +179,13 @@ hermes skill invoke minions-hermes-mission-control \
 
 ```bash
 # List active boards
-hermes skill invoke minions-hermes-mission-control --boards
+hermes -s minions-hermes-mission-control -z "--boards"
 
 # Test with a simple dispatch
-hermes skill invoke minions-hermes-mission-control \
-  --dispatch "Self-test: echo 'hello' and return" \
-  --agents corpusiq-growth \
-  --board test-board
+hermes -s minions-hermes-mission-control -z '--dispatch "Self-test: echo hello and return" --agents corpusiq-growth --board test-board'
 
 # Check result
-hermes skill invoke minions-hermes-mission-control --board test-board --aggregate
+hermes -s minions-hermes-mission-control -z "--board test-board --aggregate"
 ```
 
 ---
