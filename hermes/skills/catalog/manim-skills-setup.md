@@ -3,7 +3,7 @@ title: "Manim Skills - Math Animation for Agents"
 description: "adithya-s-k/manim_skill: 7.0K combined installs across 2 listings, best-practice skills for Manim Community Edition and 3Blue1Brown's ManimGL."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/manim-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-14"
+last_updated: "2026-11-15"
 tags: ["hermes skill", "agent skill", "skill setup", "manim", "animation", "python"]
 ---
 

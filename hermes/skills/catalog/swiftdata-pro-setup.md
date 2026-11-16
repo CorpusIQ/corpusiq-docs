@@ -3,7 +3,7 @@ title: "SwiftData Pro - Swift Data Modeling Skill Setup"
 description: "twostraws/swiftdata-agent-skill: 9.8K combined installs from one listing, a SwiftData review skill covering models, predicates, indexes and CloudKit."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/swiftdata-pro-setup/"
 robots: "index,follow"
-last_updated: "2026-11-14"
+last_updated: "2026-11-15"
 tags: ["hermes skill", "agent skill", "skill setup", "swiftdata", "swift", "ios"]
 ---
 

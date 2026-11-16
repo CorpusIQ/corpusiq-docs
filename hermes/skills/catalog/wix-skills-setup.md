@@ -3,7 +3,7 @@ title: "Wix Skills - Site, App and Design System Setup"
 description: "wix/skills: 8.8K combined installs across 37 listings, Wix skills for app extensions, headless sites, the Design System and business management."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/wix-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-14"
+last_updated: "2026-11-15"
 tags: ["hermes skill", "agent skill", "skill setup", "wix", "headless", "web development"]
 ---
 

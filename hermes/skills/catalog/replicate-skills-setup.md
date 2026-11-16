@@ -3,7 +3,7 @@ title: "Replicate Skills - Model Discovery and Inference"
 description: "replicate/skills: 17.7K combined installs across 8 listings, skills for finding, comparing and running Replicate models plus Cog packaging and prompting."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/replicate-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-14"
+last_updated: "2026-11-15"
 tags: ["hermes skill", "agent skill", "skill setup", "replicate", "inference", "cog"]
 ---
 

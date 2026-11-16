@@ -3,7 +3,7 @@ title: "Text-to-Lottie - Animation Generation Setup"
 description: "diffusionstudio/lottie: 11.5K combined installs from one listing, a skill that writes production-ready Lottie JSON animations for a local Skia player."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/text-to-lottie-setup/"
 robots: "index,follow"
-last_updated: "2026-11-14"
+last_updated: "2026-11-15"
 tags: ["hermes skill", "agent skill", "skill setup", "lottie", "animation", "motion design"]
 ---
 

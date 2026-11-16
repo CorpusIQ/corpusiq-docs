@@ -3,7 +3,7 @@ title: "1Password MCP Server ★ Official (Beta)"
 description: "Official 1Password MCP server (beta) allowing MCP clients like Codex and Kiro to manage 1Password Environments with secure authorization prompts. Secrets"
 category: mcp
 tags: [mcp-server, security, secrets-management, 1password, official, devops, ai-agents]
-last_updated: 2026-11-01
+last_updated: 2026-11-16
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/1password-mcp/"
 robots: "index,follow"
 
@@ -35,37 +35,46 @@ Secrets remain in 1Password and are only accessed by authorized processes at run
 ## Requirements
 
 - A 1Password account with Environments access
-- An MCP-compatible client (Codex, Kiro, Claude Code, Cursor, VS Code)
-- 1Password CLI installed for local development workflows
+- The 1Password desktop app, installed and signed in
+- An MCP client that supports stdio transport: Claude Code, Codex (Mac and Linux), Cursor, Kiro, or any other stdio MCP client
 
 ## Setup
 
-### Step 1: Enable MCP Server Access in 1Password
+### Step 1: Create an Environment in 1Password
 
-Navigate to your 1Password Environments settings and turn on MCP server access. This generates the connection endpoint your MCP client will use.
+The MCP server reads Environment names and secret names only. Secret values stay in 1Password and are never returned to the client, even when an agent requests them.
 
 ### Step 2: Configure Your MCP Client
 
-Add the 1Password MCP server endpoint to your client's MCP configuration. For Claude Code:
+The server runs locally as the `1password-mcp` command. For Claude Code, install the 1Password Developer Tools plugin, which registers the MCP configuration for you:
 
-```bash
-claude mcp add 1password --url https://your-environment.1password.dev/mcp
+```
+/plugin marketplace add 1Password/1password-claude-plugin
+/plugin install 1password@1password
 ```
 
-For Cursor/VS Code, add to your `mcp.json`:
+Restart Claude Code, then enter `/mcp` to confirm the 1Password server is connected.
+
+For any other stdio client, add the `1password-mcp` command to its configuration file. JSON config files:
 
 ```json
 {
   "mcpServers": {
     "1password": {
-      "url": "https://your-environment.1password.dev/mcp",
-      "transport": "streamable-http"
+      "command": "1password-mcp"
     }
   }
 }
 ```
 
-First connection triggers an OAuth authorization flow - sign in to 1Password and authorize the MCP client.
+TOML config files:
+
+```toml
+[mcp_servers.1password]
+command = "1password-mcp"
+```
+
+Then restart your client.
 
 ## Business Relevance
 
@@ -88,7 +97,7 @@ This is a landmark MCP server for operators running AI agents in production:
 
 ## Limitations (Beta)
 
-- Currently supports Codex and Kiro as primary MCP clients; broader client support expected
+- Documented client setup covers Claude Code, Codex, Cursor, and Kiro, plus a generic stdio path for any other MCP client. Codex support is Mac and Linux only
 - Beta status - API may change before GA
 - Requires 1Password Environments (separate from standard 1Password vaults)
 

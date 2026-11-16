@@ -3,7 +3,7 @@ title: "Basecamp Skills - 37signals Product Automation"
 description: "basecamp/skills: 3.2K combined installs across 9 listings, agent skills that drive the Basecamp, HEY and Fizzy CLIs for projects, email and boards."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/basecamp-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-14"
+last_updated: "2026-11-15"
 tags: ["hermes skill", "agent skill", "skill setup", "basecamp", "hey", "cli automation"]
 ---
 

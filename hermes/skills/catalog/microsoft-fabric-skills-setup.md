@@ -3,7 +3,7 @@ title: "Microsoft Fabric Skills - Power BI Agent Suite"
 description: "microsoft/skills-for-fabric: 3.6K combined installs across 17 listings, official Fabric and Power BI skills for semantic models, reports and OneLake."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/microsoft-fabric-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-14"
+last_updated: "2026-11-15"
 tags: ["hermes skill", "agent skill", "skill setup", "microsoft fabric", "power bi", "analytics"]
 ---
 

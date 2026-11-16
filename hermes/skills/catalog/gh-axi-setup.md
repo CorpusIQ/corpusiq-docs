@@ -3,7 +3,7 @@ title: "gh-axi - Token-Efficient GitHub CLI for Agents"
 description: "kunchenguid/gh-axi: 9.9K combined installs from one listing, a token-efficient GitHub CLI wrapper with structured output and next-step hints for agents."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/gh-axi-setup/"
 robots: "index,follow"
-last_updated: "2026-11-14"
+last_updated: "2026-11-15"
 tags: ["hermes skill", "agent skill", "skill setup", "github", "cli", "devops"]
 ---
 

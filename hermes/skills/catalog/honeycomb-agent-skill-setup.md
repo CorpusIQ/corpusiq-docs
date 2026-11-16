@@ -3,7 +3,7 @@ title: "Honeycomb Agent Skill - Observability Setup"
 description: "honeycombio/agent-skill: 4.1K combined installs across 8 listings, Honeycomb skills for OpenTelemetry, SLOs, queries and production investigation."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/honeycomb-agent-skill-setup/"
 robots: "index,follow"
-last_updated: "2026-11-14"
+last_updated: "2026-11-15"
 tags: ["hermes skill", "agent skill", "skill setup", "honeycomb", "observability", "opentelemetry"]
 ---
 

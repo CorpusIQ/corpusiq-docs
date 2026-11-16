@@ -3,7 +3,7 @@ title: "Home Assistant Skills - Automation Setup Guide"
 description: "homeassistant-ai/skills: 9.3K combined installs from one listing, a Home Assistant best-practice skill for automations, dashboards and safe refactors."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/home-assistant-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-14"
+last_updated: "2026-11-15"
 tags: ["hermes skill", "agent skill", "skill setup", "home assistant", "smart home", "automation"]
 ---
 
