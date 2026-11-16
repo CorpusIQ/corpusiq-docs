@@ -1,41 +1,85 @@
 {
-  "run_time": "2026-11-16T05:03:17.296087+00:00",
+  "run_time": "2026-11-16T11:33:35.319409+00:00",
   "new_approved": [
     {
-      "name": "ZiChuanLan/agent-purge",
-      "url": "https://github.com/ZiChuanLan/agent-purge",
-      "description": "One persona, many coding agents. Replace or inject system prompts across codex, claude, opencode, grok, omp, hermes, pi, zcode - with a local web console.",
-      "stars": 1840,
-      "forks": 1038,
+      "name": "hollisorg/iv-studio",
+      "url": "https://github.com/hollisorg/iv-studio",
+      "description": "Free, open-source AI film studio on your own PC. Recurring characters, MiniMax H3 and Seedance shots, voices, music, a short-film wizard and a real editor, on your ComfyUI or your own cloud GPU. Windows, Mac and Linux, with 216 MCP tools so Claude Code, Codex or Hermes can run it.",
+      "stars": 105,
+      "forks": 21,
       "language": "JavaScript",
       "topics": [
+        "ai-filmmaking",
+        "ai-video",
+        "character-consistency",
         "claude-code",
-        "codex",
-        "coding-agent",
-        "deepseek-harness",
-        "harness",
-        "magpie-plugin",
-        "omp",
-        "opencode",
-        "pi",
-        "system-prompt"
+        "comfyui",
+        "desktop-app",
+        "electron",
+        "image-to-video",
+        "local-ai",
+        "lora",
+        "mcp",
+        "mcp-server",
+        "minimax-h3",
+        "music-generation",
+        "open-source",
+        "seedance",
+        "text-to-video",
+        "video-editor",
+        "video-generation",
+        "voice-cloning"
       ],
-      "updated_at": "2026-11-16T04:50:16Z",
-      "category": "core",
-      "score": 75,
+      "updated_at": "2026-11-15T17:45:35Z",
+      "category": "mcp",
+      "score": 78,
       "tier": "AUTO_APPROVE",
       "score_reasons": [
         "hermes_mention",
-        "high_stars_1000+",
+        "agent_ecosystem",
+        "moderate_stars_100+",
         "detailed_description",
-        "active_week"
+        "active_week",
+        "has_homepage"
       ],
       "near_duplicates": [
-        "Orkas-AI/Orkas"
+        "1Panel-dev/1Panel",
+        "iOfficeAI/AionUi",
+        "Romanescu11/hermes-skill-factory",
+        "yoloshii/ClawMem",
+        "unmodeled-tyler/vessel-browser",
+        "itechmeat/open-second-brain",
+        "ZeroPointRepo/awesome-hermes-skills",
+        "JackTheGit/hermes-autonomous-server",
+        "muyezhu/YanCotta-enterprise_challenge_sprint_1_hermes_reply-20251003220334",
+        "Bo1202/Aivy-OS",
+        "tale-project/tale",
+        "CodeAbra/iai-personal-memory-engine",
+        "AVIDS2/memorix",
+        "ruvnet/metaharness",
+        "PatterAI/Patter",
+        "Javis603/token-monitor",
+        "liaohch3/claude-tap",
+        "MemTensor/memmy-agent",
+        "Devin-AXIS/iPolloWork",
+        "kenryu42/cc-safety-net",
+        "sandbaseai/cli",
+        "conorbronsdon/avoid-ai-writing",
+        "VasiHemanth/tokentelemetry",
+        "agentrq/agentrq",
+        "stablyai/orca",
+        "cavi-ai/mlx-agent",
+        "Orkas-AI/Orkas",
+        "homarr-labs/dashboard-icons",
+        "codeofaxel/Kiln",
+        "sno-ai/sno-station",
+        "dfrostar/neuralmind",
+        "davidondrej/cloudroom",
+        "EternalNight996/memory-eternal"
       ],
-      "discovered_at": "2026-11-16T05:00:48.331619+00:00",
+      "discovered_at": "2026-11-16T11:31:12.956577+00:00",
       "status": "approved",
-      "approved_at": "2026-11-16T05:03:17.206561+00:00"
+      "approved_at": "2026-11-16T11:33:35.229299+00:00"
     }
   ],
   "integration": {
@@ -43,10 +87,10 @@
     "note": "Add every approved repo to hermes/ecosystem/index.md - it is the page users see at /hermes/ecosystem/. The old ecosystem.md twin is gone (collision closed Nov 3 2026); there is no mirror to keep."
   },
   "stats": {
-    "total_found": 16,
+    "total_found": 13,
     "auto_approved": 1,
-    "pending_review": 15,
-    "total_approved": 214,
-    "total_pending": 3232
+    "pending_review": 12,
+    "total_approved": 215,
+    "total_pending": 3244
   }
 }

@@ -97128,5 +97128,343 @@
     ],
     "discovered_at": "2026-11-16T05:02:46.175695+00:00",
     "status": "pending"
+  },
+  {
+    "name": "mArTi3-github/hermes-certification-assistant",
+    "url": "https://github.com/mArTi3-github/hermes-certification-assistant",
+    "description": "\u0414\u0438\u0441\u0442\u0440\u0438\u0431\u0443\u0442\u0438\u0432 \u043f\u0440\u043e\u0444\u0438\u043b\u044f Hermes Agent \u0434\u043b\u044f \u0441\u0435\u0440\u0442\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u043e\u043d\u043d\u043e\u0439 \u0442\u0435\u0441\u0442\u043e\u0432\u043e\u0439 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u0430\u0446\u0438\u0438 \u0424\u0421\u0422\u042d\u041a (\u043f\u0440\u0438\u043a\u0430\u0437 \u2116 76)",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-11-13T19:28:13Z",
+    "category": "core",
+    "score": 49,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-11-16T11:31:04.934417+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "cltf/HermesAgentBook",
+    "url": "https://github.com/cltf/HermesAgentBook",
+    "description": "\u5b66\u4e60\u7814\u7a76Hermes Agent",
+    "stars": 0,
+    "forks": 0,
+    "language": "HTML",
+    "topics": [],
+    "updated_at": "2026-11-16T11:26:06Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-11-16T11:31:04.936115+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "RajaRenga/iacgenius-ce",
+    "url": "https://github.com/RajaRenga/iacgenius-ce",
+    "description": "IaC Genius Community Edition: turn a plain-language request into validated Terraform/OpenTofu and a reviewable PR, on Hermes Agent. The model proposes; the toolchain decides. Never applies infrastructure.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-11-16T04:32:31Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-11-16T11:31:04.938109+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "gcunharodrigues/hermes-quota-router",
+    "url": "https://github.com/gcunharodrigues/hermes-quota-router",
+    "description": "Optional subscription-quota governance plugin for Hermes Agent.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-11-16T11:28:28Z",
+    "category": "core",
+    "score": 44,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-11-16T11:31:04.939967+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "DriftMousie/AgentEVMWallet",
+    "url": "https://github.com/DriftMousie/AgentEVMWallet",
+    "description": "EvmForAgent\u662f\u9762\u5411 Hermes \u7b49 AI Agent \u7684\u81ea\u6258\u7ba1 EVM \u94b1\u5305\u5de5\u5177\u5305\uff0c\u91c7\u7528 Python \u4e0e Web3.py \u6784\u5efa\uff0c\u63d0\u4f9b 12 \u4e2a\u53ef\u72ec\u7acb\u8fd0\u884c\u7684\u529f\u80fd\u6a21\u5757\u3002\u652f\u6301\u591a\u94b1\u5305\u6807\u7b7e\u7ba1\u7406\u3001\u591a\u94fe RPC \u4e3b\u5907\u5207\u6362\u3001\u539f\u751f\u5e01\u53ca ERC-20 \u4f59\u989d\u67e5\u8be2\u3001\u8f6c\u8d26\u4e0e\u6388\u6743\u3001\u5408\u7ea6\u8bfb\u5199\u3001ERC-721/1155 \u64cd\u4f5c\u3001\u4e8b\u4ef6\u65e5\u5fd7\u8bfb\u53d6\u548c\u6d88\u606f\u7b7e\u540d\u3002\u53ef\u4ece\u4ea4\u6613\u54c8\u5e0c\u63d0\u53d6 calldata\uff0c\u7ed3\u5408 ABI \u6216\u51fd\u6570\u7b7e\u540d\u89e3\u6790\u53c2\u6570\u3001\u5bfc\u51fa\u5e76\u4fee\u6539\u8c03\u7528\u6a21\u677f\u3002\u7edf\u4e00\u7684\u547d\u4ee4\u884c\u4e0e JSON \u63a5\u53e3\u4fbf\u4e8e Agent \u96c6\u6210\uff0c\u9644\u5e26 Skill \u548c\u4f7f\u7528\u8bf4\u660e\u3002\u79c1\u94a5\u4ec5\u5728\u672c\u5730\u52a0\u8f7d\u4e0e\u7b7e\u540d\uff0cRPC \u72ec\u7acb\u4fdd\u5b58\u5728 CSV \u4e2d\uff1b\u5199\u64cd\u4f5c\u9ed8\u8ba4\u9884\u89c8\u548c\u6a21\u62df\uff0c\u663e\u5f0f\u6267\u884c\u540e\u624d\u5e7f\u64ad\uff0c\u5e76\u652f\u6301 Nonce \u534f\u8c03\u3001\u4ea4\u6613\u72b6\u6001\u8ffd\u8e2a\u3001\u540c\u7b14\u91cd\u64ad\u53ca\u7b80\u5355\u6279\u91cf\u6267\u884c\u3002",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-11-16T07:51:41Z",
+    "category": "core",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-11-16T11:31:04.942079+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "hypergraphdev/hermes-hxa-connect",
+    "url": "https://github.com/hypergraphdev/hermes-hxa-connect",
+    "description": "Python HXA Connect SDK for Hermes Agent \u2014 bot-to-bot communication",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-15T14:25:12Z",
+    "category": "core",
+    "score": 33,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "stale"
+    ],
+    "near_duplicates": [
+      "kaankacar/stellar-agent-kit",
+      "operatecenter/operate-hermes-plugin"
+    ],
+    "discovered_at": "2026-11-16T11:31:04.943649+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "vynquantum/vyn-memory",
+    "url": "https://github.com/vynquantum/vyn-memory",
+    "description": "One shared memory (facts + Obsidian vault) for Claude, ChatGPT/Codex, Antigravity and Hermes, over MCP, REST and a skill",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-11-15T14:38:26Z",
+    "category": "mcp",
+    "score": 42,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "CYC2002tommy/Deep-Research-Agent"
+    ],
+    "discovered_at": "2026-11-16T11:31:12.951279+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Pirol-ai/kyte-hermes",
+    "url": "https://github.com/Pirol-ai/kyte-hermes",
+    "description": "kyte for the Hermes agent \u2014 the MCP catalog entry, and (next) the plugin",
+    "stars": 0,
+    "forks": 0,
+    "language": "Shell",
+    "topics": [],
+    "updated_at": "2026-11-16T09:40:28Z",
+    "category": "mcp",
+    "score": 44,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "awizemann/scarf",
+      "Romanescu11/hermes-skill-factory",
+      "Sibyl-Labs/Sibyl-Memory",
+      "agentchatme/agentchat-hermes",
+      "ksimback/hermes-atlas-mcp",
+      "kaankacar/stellar-agent-kit",
+      "hermes-ecosystem",
+      "ksimback/hermes-ecosystem",
+      "ruvnet/metaharness",
+      "cx2002302-lang/zettelkasten-second-memory",
+      "pyrate-llama/hermes-ui",
+      "MemTensor/memmy-agent",
+      "EternalNight996/memory-eternal"
+    ],
+    "discovered_at": "2026-11-16T11:31:12.954762+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "openhuthq/openhut",
+    "url": "https://github.com/openhuthq/openhut",
+    "description": "Self-hosted Hermes agents for a team: one curl install, isolated agents, a permissioned MCP gateway",
+    "stars": 1,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-11-15T15:35:24Z",
+    "category": "mcp",
+    "score": 54,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "EternalNight996/memory-eternal"
+    ],
+    "discovered_at": "2026-11-16T11:31:12.959568+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Shine8592/hermes-plugin-ops",
+    "url": "https://github.com/Shine8592/hermes-plugin-ops",
+    "description": "Agent skill: choosing, installing, writing and verifying Hermes plugins \u2014 read issues not READMEs. Bilingual EN/\u4e2d\u6587.",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-11-16T05:13:56Z",
+    "category": "skills",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-11-16T11:31:20.884894+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "using-system/otelyssey",
+    "url": "https://github.com/using-system/otelyssey",
+    "description": "OpenTelemetry plugins for every coding agent, in the Agent Plugins format \u2014 a marketplace that runs itself: open an issue, the repository validates, reviews, lists and follows your plugin.",
+    "stars": 133,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "agent-plugins",
+      "agent-skills",
+      "ai-agents",
+      "claude-code",
+      "codex",
+      "coding-agents",
+      "copilot-cli",
+      "developer-tools",
+      "grok-build",
+      "hermes-agent",
+      "marketplace",
+      "mcp",
+      "mistral-vibe",
+      "observability",
+      "openclaw",
+      "opentelemetry",
+      "otel",
+      "plugin-marketplace",
+      "telemetry",
+      "tracing"
+    ],
+    "updated_at": "2026-11-16T09:56:53Z",
+    "category": "forks",
+    "score": 62,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_topic",
+      "agent_ecosystem",
+      "moderate_stars_100+",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "1Panel-dev/1Panel",
+      "MervinPraison/PraisonAI",
+      "Romanescu11/hermes-skill-factory",
+      "longyunfeigu/learn-hermes-agent",
+      "unmodeled-tyler/vessel-browser",
+      "Sibyl-Labs/Sibyl-Memory",
+      "itechmeat/open-second-brain",
+      "CYC2002tommy/Deep-Research-Agent",
+      "aiunlocked1412/hermes-agent-pixel",
+      "tale-project/tale",
+      "hermes-ecosystem",
+      "ksimback/hermes-ecosystem",
+      "ruvnet/metaharness",
+      "PatterAI/Patter",
+      "cx2002302-lang/zettelkasten-second-memory",
+      "pyrate-llama/hermes-ui",
+      "MemTensor/memmy-agent",
+      "Devin-AXIS/iPolloWork",
+      "kenryu42/cc-safety-net",
+      "moonlight-lupin/agent-skills",
+      "stablyai/orca",
+      "codeofaxel/Kiln",
+      "sno-ai/sno-station",
+      "dfrostar/neuralmind",
+      "EternalNight996/memory-eternal",
+      "operatecenter/operate-hermes-plugin"
+    ],
+    "discovered_at": "2026-11-16T11:31:28.775081+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "pgen0x/hermes-oci-free-tier-report",
+    "url": "https://github.com/pgen0x/hermes-oci-free-tier-report",
+    "description": "Oracle Cloud Free Tier monitor for Hermes Agent: daily OCI Always Free usage & cost alerts to Telegram, Discord, WhatsApp, Slack \u2014 no LLM, no API keys",
+    "stars": 1,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "always-free",
+      "ampere-a1",
+      "cost-monitoring",
+      "cron",
+      "finops",
+      "free-tier",
+      "hermes",
+      "hermes-agent",
+      "monitoring",
+      "oci",
+      "oracle-cloud",
+      "oracle-cloud-free-tier",
+      "telegram",
+      "telegram-bot"
+    ],
+    "updated_at": "2026-11-16T09:35:21Z",
+    "category": "messaging",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "kkllxy/hermes-web-ui"
+    ],
+    "discovered_at": "2026-11-16T11:32:56.016044+00:00",
+    "status": "pending"
   }
 ]
