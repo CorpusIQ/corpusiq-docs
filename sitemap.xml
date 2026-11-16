@@ -154,7 +154,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connect-airtable-to-chatgpt</loc>
-         <lastmod>2026-11-07</lastmod>
+         <lastmod>2026-11-15</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connect-airtable-to-perplexity</loc>
@@ -202,7 +202,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connect-gmail-to-chatgpt</loc>
-         <lastmod>2026-11-06</lastmod>
+         <lastmod>2026-11-15</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connect-gmail-to-claude</loc>
@@ -234,7 +234,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connect-google-calendar-to-chatgpt</loc>
-         <lastmod>2026-11-01</lastmod>
+         <lastmod>2026-11-15</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connect-google-calendar-to-claude</loc>
@@ -254,7 +254,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connect-google-drive-to-chatgpt</loc>
-         <lastmod>2026-11-12</lastmod>
+         <lastmod>2026-11-15</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connect-google-drive-to-claude</loc>
@@ -278,7 +278,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connect-google-sheets-to-chatgpt</loc>
-         <lastmod>2026-11-01</lastmod>
+         <lastmod>2026-11-15</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connect-google-sheets-to-claude</loc>
@@ -310,7 +310,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connect-klaviyo-to-chatgpt</loc>
-         <lastmod>2026-11-07</lastmod>
+         <lastmod>2026-11-15</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connect-klaviyo-to-perplexity</loc>
@@ -330,7 +330,11 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connect-meta-ads-to-chatgpt</loc>
-         <lastmod>2026-11-07</lastmod>
+         <lastmod>2026-11-15</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/connect-meta-ads-to-perplexity</loc>
+         <lastmod>2026-11-15</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connect-monday-com-to-chatgpt</loc>
@@ -342,7 +346,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connect-netsuite-to-chatgpt</loc>
-         <lastmod>2026-11-07</lastmod>
+         <lastmod>2026-11-15</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connect-netsuite-to-claude</loc>
@@ -354,11 +358,15 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connect-notion-to-chatgpt</loc>
-         <lastmod>2026-11-07</lastmod>
+         <lastmod>2026-11-15</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connect-notion-to-claude</loc>
          <lastmod>2026-11-07</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/connect-notion-to-perplexity</loc>
+         <lastmod>2026-11-15</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connect-odoo-to-chatgpt</loc>
@@ -370,15 +378,19 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connect-outlook-to-chatgpt</loc>
-         <lastmod>2026-11-07</lastmod>
+         <lastmod>2026-11-15</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connect-outlook-to-claude</loc>
          <lastmod>2026-11-12</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/connect-outlook-to-perplexity</loc>
+         <lastmod>2026-11-15</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/connect-postgresql-to-chatgpt</loc>
-         <lastmod>2026-11-01</lastmod>
+         <lastmod>2026-11-15</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connect-postgresql-to-claude</loc>
@@ -410,7 +422,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connect-salesforce-to-chatgpt</loc>
-         <lastmod>2026-11-07</lastmod>
+         <lastmod>2026-11-15</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connect-salesforce-to-claude</loc>
@@ -450,11 +462,15 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connect-slack-to-chatgpt</loc>
-         <lastmod>2026-11-07</lastmod>
+         <lastmod>2026-11-15</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connect-slack-to-claude</loc>
          <lastmod>2026-11-07</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/connect-slack-to-perplexity</loc>
+         <lastmod>2026-11-15</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connect-stripe-to-chatgpt</loc>
@@ -722,7 +738,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/perplexity-integration</loc>
-         <lastmod>2026-11-13</lastmod>
+         <lastmod>2026-11-15</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/quick-start</loc>
@@ -962,7 +978,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connectors/facebook_marketing</loc>
-         <lastmod>2026-11-07</lastmod>
+         <lastmod>2026-11-15</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connectors/ga4</loc>
@@ -1034,7 +1050,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connectors/notion</loc>
-         <lastmod>2026-11-07</lastmod>
+         <lastmod>2026-11-15</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connectors/odoo</loc>
@@ -1046,7 +1062,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connectors/outlook</loc>
-         <lastmod>2026-11-07</lastmod>
+         <lastmod>2026-11-15</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connectors/perplexity-business-data-mcp</loc>
@@ -1086,7 +1102,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connectors/slack</loc>
-         <lastmod>2026-11-07</lastmod>
+         <lastmod>2026-11-15</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connectors/stripe</loc>
@@ -1758,7 +1774,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/guides/trending-ai-agent-tools-aug2026</loc>
-         <lastmod>2026-11-02</lastmod>
+         <lastmod>2026-11-15</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/guides/vetting-an-mcp-server</loc>
@@ -3247,6 +3263,10 @@
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/china-with-me-mcp</loc>
          <lastmod>2026-11-14</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/chinamedvisit-mcp</loc>
+         <lastmod>2026-11-15</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/chirpie-mcp</loc>
@@ -6581,6 +6601,10 @@
          <lastmod>2026-11-01</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/tensorust-ontology-mcp</loc>
+         <lastmod>2026-11-15</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/teos-warn-act-mcp</loc>
          <lastmod>2026-11-01</lastmod>
     </url>
@@ -7593,6 +7617,10 @@
          <lastmod>2026-11-14</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-november15-2026-evening</loc>
+         <lastmod>2026-11-15</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-november15-2026-midday</loc>
          <lastmod>2026-11-15</lastmod>
     </url>
@@ -8306,7 +8334,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/orchestration/hermes</loc>
-         <lastmod>2026-11-14</lastmod>
+         <lastmod>2026-11-15</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/orchestration/langgraph</loc>
@@ -8526,7 +8554,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/setup</loc>
-         <lastmod>2026-11-07</lastmod>
+         <lastmod>2026-11-15</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/setup/backup-and-restore</loc>
@@ -9106,7 +9134,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/autolora-setup</loc>
-         <lastmod>2026-11-01</lastmod>
+         <lastmod>2026-11-15</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/autonnel-skills-setup</loc>
@@ -10438,7 +10466,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-advanced-memory-setup</loc>
-         <lastmod>2026-11-01</lastmod>
+         <lastmod>2026-11-15</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-agel-comp-setup</loc>
@@ -11134,7 +11162,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/mattpocock-skills-setup</loc>
-         <lastmod>2026-11-01</lastmod>
+         <lastmod>2026-11-15</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/mattpocock-skills-zh-cn-setup</loc>
@@ -11186,7 +11214,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/memory-merger-setup</loc>
-         <lastmod>2026-11-01</lastmod>
+         <lastmod>2026-11-15</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/mempalace-setup</loc>
@@ -13138,7 +13166,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-dojo-setup</loc>
-         <lastmod>2026-11-01</lastmod>
+         <lastmod>2026-11-15</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-ershov-setup</loc>
@@ -13154,7 +13182,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-kanban-obsidian-integration-setup</loc>
-         <lastmod>2026-11-01</lastmod>
+         <lastmod>2026-11-15</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-learns-manim-setup</loc>
@@ -13226,7 +13254,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/minions-hermes-mission-control-setup</loc>
-         <lastmod>2026-11-01</lastmod>
+         <lastmod>2026-11-15</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/monitoring-expert-setup</loc>
@@ -13234,7 +13262,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/oh-my-hermes-workflow-setup</loc>
-         <lastmod>2026-11-01</lastmod>
+         <lastmod>2026-11-15</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-android-setup</loc>

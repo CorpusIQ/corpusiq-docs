@@ -6808,6 +6808,7 @@ CorpusIQ does not retain raw customer files or full connector response payloads.
 ## Related Pages
 
 - [Connect Airtable to Claude](connectors/connect-airtable-to-claude.md) - the same base, set up for Claude Desktop with the token scopes that matter
+- [Connect Airtable to Perplexity](connect-airtable-to-perplexity.md) - roadmaps, hiring pipelines and trackers, cited to the base and table used
 - [Airtable connector reference](connectors/airtable.md) - scopes, visible objects and troubleshooting
 - [Connect Notion to ChatGPT](connect-notion-to-chatgpt.md) - the other document-shaped knowledge base
 - [Connect Monday.com to ChatGPT](connect-monday-com-to-chatgpt.md) - work tracking in ChatGPT
@@ -9552,6 +9553,7 @@ CorpusIQ does not retain raw customer files or full connector response payloads.
 - [Connect Google Drive to ChatGPT](connect-google-drive-to-chatgpt.md) - documents behind the meeting
 - [Connect Google Sheets to ChatGPT](connect-google-sheets-to-chatgpt.md) - the plan beside the calendar
 - [Connect Google Calendar to Claude](connect-google-calendar-to-claude.md) - the same meeting-load questions for Claude Desktop
+- [Connect Google Calendar to Perplexity](connect-google-calendar-to-perplexity.md) - what is booked and what was agreed, read from live calendars
 - [Browse all CorpusIQ connectors](connectors.md) - the full list
 - [How to Connect Business Data to ChatGPT](how-to-connect-business-data-to-chatgpt.md) - the general setup
 - [AI for Executive Reporting](ai-for-executive-reporting.md) - turning calendar facts into a report
@@ -10226,6 +10228,7 @@ CorpusIQ does not retain raw customer files or full connector response payloads.
 - [Connect Google Calendar to ChatGPT](connect-google-calendar-to-chatgpt.md) - the meeting behind the document
 - [Connect Notion to ChatGPT](connect-notion-to-chatgpt.md) - the other knowledge base
 - [Connect Google Drive to Claude](connect-google-drive-to-claude.md) - the same document answers for Claude Desktop
+- [Connect Google Drive to Perplexity](connect-google-drive-to-perplexity.md) - what a contract says and which version is current, tied to the live file
 - [Browse all CorpusIQ connectors](connectors.md) - the full list
 - [AI for Document Search](ai-for-document-search.md) - the document use case in depth
 - [How to Connect Business Data to ChatGPT](how-to-connect-business-data-to-chatgpt.md) - the general setup
@@ -11044,6 +11047,7 @@ CorpusIQ does not retain raw customer files or full connector response payloads.
 - [Google Workspace connectors](connectors/google_workspace.md) - Drive, Gmail, Calendar and Sheets
 - [Connect Google Analytics to ChatGPT](connect-google-analytics-to-chatgpt.md) - traffic beside the plan
 - [Connect Google Sheets to Claude](connect-google-sheets-to-claude.md) - the same sheet data for Claude Desktop
+- [Connect Google Sheets to Perplexity](connect-google-sheets-to-perplexity.md) - budgets, trackers and pipelines, tied to the sheet and tab
 - [Browse all CorpusIQ connectors](connectors.md) - the full list
 - [How to Connect Business Data to ChatGPT](how-to-connect-business-data-to-chatgpt.md) - the general setup
 - [MCP vs API Integrations](mcp-vs-api-integrations.md) - why the access model differs
@@ -12241,6 +12245,7 @@ You need an account with API access and the permission level required to authori
 ## Internal Links
 
 - [Connect Klaviyo to Claude](connectors/connect-klaviyo-to-claude.md) - the same account, set up for Claude Desktop
+- [Connect Klaviyo to Perplexity](connect-klaviyo-to-perplexity.md) - what email and SMS actually earned, and which flows recover carts
 - [Browse all CorpusIQ connectors](connectors.md)
 - [MCP for Ecommerce: multi-channel order intelligence](mcp-for-ecommerce.md)
 - [Connect Shopify to ChatGPT](connect-shopify-to-chatgpt.md)
@@ -12897,6 +12902,7 @@ You need permission on the ad account that allows authorizing an integration, an
 ## Internal Links
 
 - [Connect Meta Ads to Claude](connectors/connect-meta-ads-to-claude.md) - the same ad account, set up for Claude Desktop
+- [Connect Meta Ads to Perplexity](connect-meta-ads-to-perplexity.md) - spend, placement and creative performance beside category benchmarks
 - [Browse all CorpusIQ connectors](connectors.md)
 - [Connect Google Ads to ChatGPT](connect-google-ads-to-chatgpt.md)
 - [Connect Klaviyo to ChatGPT](connect-klaviyo-to-chatgpt.md)
@@ -12909,6 +12915,162 @@ You need permission on the ad account that allows authorizing an integration, an
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# How to Connect Meta Ads to Perplexity with CorpusIQ MCP
+URL: https://www.corpusiq.io/docs/connect-meta-ads-to-perplexity
+
+
+# How to Connect Meta Ads to Perplexity with CorpusIQ MCP
+
+Paid social reporting lives in four places at once: campaign level for budget, ad set level for audience, ad level for creative, and the lead form for what actually arrived.
+
+Perplexity can tell you what cost per acquisition looks like in your category this quarter. It cannot tell you which of your campaigns is paying it.
+
+Connecting Meta Ads through CorpusIQ MCP puts both halves in one thread. Perplexity answers from your own ad account, read-only, and names the campaign the figure came from.
+
+### Why Connect Meta Ads to Perplexity?
+
+- **Spend against benchmark.** "Our cost per lead rose this quarter. What is normal for this category, and which ad sets drove the rise?"
+- **Placement comparison.** "Compare Facebook and Instagram placements by cost per result, then tell me where the audience overlap usually sits."
+- **Waste.** "Which ad sets are spending but producing no conversions?"
+- **Creative.** "Which ads have the best cost per result over 60 days, and what pattern do the winners share?"
+- **Lead forms.** "How many leads came through our forms this quarter, and what did each cost against industry benchmarks?"
+- **Read-only by annotation.** The retrieval tools documented on this page are read-only. There is no path from Perplexity into a budget or an audience.
+
+### How It Works
+
+1. **Connect Meta to CorpusIQ** through Meta's OAuth flow, approving `ads_read` on the accounts you select.
+2. **Add CorpusIQ to Perplexity** as a custom remote MCP server, using the endpoint from your CorpusIQ account settings.
+3. **CorpusIQ reads** campaigns, ad sets, ads, audience insights and lead forms for the date range in your question.
+4. **Perplexity answers** with the figure, the period it covers, and the outside context you asked for around it.
+
+Direct MCP retrieval is read-only. It does not retain raw customer files or full connector response payloads; operational logs keep query text, per-user tool-call metadata and bounded outcome summaries for up to 30 days.
+
+### Setup Steps
+
+**In CorpusIQ**
+
+1. Open your dashboard and go to **Connectors**.
+2. Select **Meta** and start the authorization. Meta is one connector covering Facebook, Instagram and Meta Ads, so you approve once.
+3. Sign in with a Facebook user that is a person on the ad account in Business Manager. Page-level admin is not enough.
+4. Choose which ad accounts CorpusIQ may read, and approve `ads_read` on Meta's consent screen.
+5. Return to CorpusIQ. The connector turns green and the account is queryable.
+
+**In Perplexity**
+
+6. Open **Settings** and find the **MCP servers** section.
+7. Add a custom MCP server and paste the endpoint:
+
+```
+https://mcp2.corpusiq.io/mcp
+```
+
+8. Connect and approve the CorpusIQ authorization page once.
+9. Start a new thread with "which campaigns spent the most this month" to confirm the account is visible.
+
+If the answer is "no ad accounts found", the Facebook user is not a person on the ad account in Business Manager. Add the person there and reconnect.
+
+### Example Perplexity Questions
+
+**Spend and return**
+
+- "Which campaigns spent the most this month, and what did each return against category benchmarks?"
+- "What is our cost per acquisition trend over six months, and how does it compare to paid search?"
+- "Which ad sets are spending with no conversions in the last 30 days?"
+
+**Placement and audience**
+
+- "Compare Facebook and Instagram placements by cost per result."
+- "Which audiences have the highest frequency, and where is fatigue showing?"
+- "What is our reach against the size of the addressable audience for this category?"
+
+**Creative and leads**
+
+- "Which creatives have the best cost per result over 60 days?"
+- "How many leads came through our lead forms this quarter, and what did each cost?"
+- "Which ads produced leads that also appear as customers in our commerce platform?"
+
+**Cross-source**
+
+- "Compare Meta Ads cost per acquisition with Google Ads for the same period." (requires the Google Ads connector)
+- "Do the purchases Meta reports match what our commerce platform booked?" (requires a commerce connector)
+- "Is the email revenue from Klaviyo coming from customers we acquired through paid social?" (requires the Klaviyo connector)
+
+### Security
+
+- **Read-only retrieval tools.** The tools documented on this page are read-only. Spend, budgets, audiences and campaigns cannot be changed from Perplexity.
+- **Meta permissions respected.** `ads_read` is a read permission, and the grant is limited to the ad accounts you selected during authorization.
+- **No stored credentials on your side.** CorpusIQ holds the encrypted Meta token; you hold the grant and can revoke it in Business Manager at any time.
+- **Scoped direct-MCP retention.** Raw customer files and full connector payloads are not retained. Operational logs keep query text, tool-call metadata and bounded outcome summaries for up to 30 days.
+- **TLS in transit** between Meta, CorpusIQ and Perplexity.
+
+### Comparison: Ads Manager vs Meta Ads in Perplexity
+
+| Aspect | Meta Ads Manager | CorpusIQ MCP with Perplexity |
+|---|---|---|
+| Input | Columns, breakdowns and filters you set up | A question in plain language |
+| Levels | One level at a time | Campaign, ad set and ad in one answer |
+| Outside context | Copy the figure into a search tab | Same thread, same answer |
+| Cross-system | Export and join by hand | Asked across connectors |
+| Attribution caveat | Visible in reporting settings | Stated alongside the figure |
+| Write access | Yes, by your users | None through the retrieval tools |
+
+Ads Manager reports what you configured it to report. A connected ad account answers the question that came up in the review.
+
+### FAQ: Common Questions
+
+<details>
+<summary><strong>Can Perplexity pause an ad or change a budget?</strong></summary>
+
+No. The retrieval tools documented on this page are read-only. Changes stay in Meta Ads Manager.
+</details>
+
+<details>
+<summary><strong>Does this cover Instagram as well as Facebook?</strong></summary>
+
+Yes. Meta is a single CorpusIQ connector covering Facebook, Instagram and Meta Ads, so placement-level comparison between the two is available in one question.
+</details>
+
+<details>
+<summary><strong>Why do the numbers differ from Ads Manager?</strong></summary>
+
+Meta revises attribution for up to seven days after a click, so figures inside that window can move. Ask for a date range that closed more than a week ago when a number has to match a report exactly.
+</details>
+
+<details>
+<summary><strong>Can I see lead form performance?</strong></summary>
+
+Yes. Lead form data is part of the Meta connector, so lead volume and cost per lead are queryable alongside campaign spend.
+</details>
+
+<details>
+<summary><strong>Why does it say no ad accounts found?</strong></summary>
+
+The authorizing Facebook user must be added as a person on the ad account in Business Manager. Being an admin of the Page does not grant ad account access. Fix the person assignment, then reconnect.
+</details>
+
+<details>
+<summary><strong>Does this work only in Perplexity?</strong></summary>
+
+No. Meta Ads is exposed to ChatGPT, Claude and Perplexity through the same endpoint on the same subscription.
+</details>
+
+<details>
+<summary><strong>Where is the ad data stored?</strong></summary>
+
+CorpusIQ does not retain raw customer files or full connector response payloads. Operational logs may persist for up to 30 days. See the [read-only and security documentation](/hermes/security/read-only-and-security).
+</details>
+
+---
+
+**Next steps:** [Connect Meta Ads to Perplexity now](https://www.corpusiq.io/connectors/perplexity)
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.CorpusIQ.io).*
 
 ---
 # How to Connect Monday.com to ChatGPT with CorpusIQ MCP
@@ -13909,6 +14071,166 @@ A: The Notion integration token grants workspace-level access to shared pages. A
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
 
 ---
+# How to Connect Notion to Perplexity with CorpusIQ MCP
+URL: https://www.corpusiq.io/docs/connect-notion-to-perplexity
+
+
+# How to Connect Notion to Perplexity with CorpusIQ MCP
+
+Perplexity is strong on the public record: industry practice, regulation, what the standard approach looks like elsewhere.
+
+What it cannot tell you is what your own company decided. The onboarding guide, the pricing policy, the sprint board, the hiring pipeline and the process nobody wrote down outside Notion are all invisible to it.
+
+Connecting Notion through CorpusIQ MCP puts those two halves in one thread. Perplexity answers from your own workspace, read-only, and cites the page or database it read.
+
+### Why Connect Notion to Perplexity?
+
+- **Policy with the outside view.** "What does our remote work policy say, and how does it compare to what comparable companies publish?"
+- **Process answers.** "What is our documented process for approving a discount above 20 percent?"
+- **Project state.** "Which projects in the tracker are behind their target date, and who owns each?"
+- **Hiring pipeline.** "How many candidates are in final interview this month, at the stage we usually lose them?"
+- **Documentation coverage.** "Which of our product pages have not been updated since the last release?"
+- **Read-only by capability.** The retrieval tools documented on this page are read-only, and the integration token is created with read content access.
+
+### How It Works
+
+1. **Create a Notion internal integration**, grant it read content capability, and share the pages or databases you want reachable.
+2. **Connect Notion to CorpusIQ** by pasting the integration token.
+3. **Add CorpusIQ to Perplexity** as a custom remote MCP server, using the endpoint from your CorpusIQ account settings.
+4. **Perplexity answers** from the pages and database rows the integration can see, and names the page it read.
+
+Direct MCP retrieval is read-only. It does not retain raw customer files or full connector response payloads; operational logs keep query text, per-user tool-call metadata and bounded outcome summaries for up to 30 days.
+
+### Setup Steps
+
+**In Notion**
+
+1. Open **Settings and members**, then **Integrations**, and create a new internal integration.
+2. Set its capabilities to **read content**. Do not enable insert or update.
+3. Copy the integration token.
+4. Open each page or database you want reachable, choose **Connections**, and add the integration. Notion requires explicit sharing per page.
+
+**In CorpusIQ**
+
+5. Open your dashboard and go to **Connectors**.
+6. Select **Notion** and paste the integration token. The connector turns green.
+
+**In Perplexity**
+
+7. Open **Settings** and find the **MCP servers** section.
+8. Add a custom MCP server and paste the endpoint:
+
+```
+https://mcp2.corpusiq.io/mcp
+```
+
+9. Connect and approve the CorpusIQ authorization page once.
+10. Start a new thread and ask about a page or a database.
+
+Sharing is the real access boundary. A page that is not shared with the integration cannot be read, even by a workspace owner.
+
+### Example Perplexity Questions
+
+**Policy and knowledge**
+
+- "What does our onboarding guide say, and what does comparable practice look like for a company our size?"
+- "Summarize our security policy, then tell me which framework clauses it leaves unaddressed."
+- "What did we decide about remote work, and how common is that policy in our industry?"
+
+**Databases and trackers**
+
+- "List every project in the tracker with status In Progress and a target date this quarter."
+- "Which candidates in the hiring pipeline have been in final interview for more than two weeks?"
+- "What changed in the pricing database this month, and who changed it?"
+
+**Documentation health**
+
+- "Which pages have not been updated since the last product release?"
+- "Find every page that mentions the API migration and summarize how they differ."
+- "Which product pages contradict each other on pricing?"
+
+**Cross-source**
+
+- "Do the projects marked done in Notion match the epics closed in Jira?" (requires the Jira connector)
+- "Which accounts mentioned in the CRM also have a Notion page, and does the status agree?" (requires a CRM connector)
+- "Compare the hiring plan in Notion with the headcount figures in the finance system." (requires a finance connector)
+
+### Security
+
+- **Read-only retrieval tools.** The tools documented on this page are read-only, and the integration is created with read content capability only.
+- **Explicit sharing per page.** Notion requires you to share each page or database with the integration, so the reachable set is the set you chose.
+- **No stored credentials on your side.** CorpusIQ holds the encrypted token; you can revoke it in Notion at any time, and revocation takes effect on the next call.
+- **Scoped direct-MCP retention.** Raw customer files and full connector payloads are not retained. Operational logs keep query text, tool-call metadata and bounded outcome summaries for up to 30 days.
+- **TLS in transit** between Notion, CorpusIQ and Perplexity.
+
+### Comparison: Notion Search and Notion AI vs Notion in Perplexity
+
+| Aspect | Notion search and Notion AI | CorpusIQ MCP with Perplexity |
+|---|---|---|
+| Input | A phrase, or a question inside one page | A question across the pages you shared |
+| Scope | Titles, snippets, one page context | Full page content and database rows |
+| Outside context | Open a second tab | Same thread, same answer |
+| Cross-system | Copy content out by hand | Asked across connectors |
+| Synthesis | Page-level | Across pages and databases |
+| Write access | Yes, by your users | None through the retrieval tools |
+
+Notion search finds the page. A connected workspace answers the question that spans five of them.
+
+### FAQ: Common Questions
+
+<details>
+<summary><strong>Can Perplexity edit or create Notion pages?</strong></summary>
+
+No. The integration is created with read content capability and the retrieval tools documented on this page are read-only. Content, databases and settings are untouched.
+</details>
+
+<details>
+<summary><strong>Does it see every page in the workspace?</strong></summary>
+
+Only the pages and databases you shared with the integration. That is a stronger boundary than a workspace-wide token: nothing outside the shared set is reachable.
+</details>
+
+<details>
+<summary><strong>Can it query database properties and filters?</strong></summary>
+
+Yes. Notion databases carry typed properties such as select, date, number and person, and a question can filter on them: "every project with status In Progress and priority High".
+</details>
+
+<details>
+<summary><strong>Does it read page content or only titles?</strong></summary>
+
+Full content through block traversal, including paragraphs, headings, lists and callouts, plus database schema and rows.
+</details>
+
+<details>
+<summary><strong>How current is the data?</strong></summary>
+
+Live. Each question reads the current state of the pages you shared, so an edit made a minute ago appears in the next answer.
+</details>
+
+<details>
+<summary><strong>Does this work only in Perplexity?</strong></summary>
+
+No. Notion is exposed to ChatGPT, Claude and Perplexity through the same endpoint on the same subscription.
+</details>
+
+<details>
+<summary><strong>Where is the Notion data stored?</strong></summary>
+
+CorpusIQ does not retain raw customer files or full connector response payloads. Operational logs may persist for up to 30 days. See the [read-only and security documentation](/hermes/security/read-only-and-security).
+</details>
+
+---
+
+**Next steps:** [Connect Notion to Perplexity now](https://www.corpusiq.io/connectors/perplexity)
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.CorpusIQ.io).*
+
+---
 # How to Connect Odoo to ChatGPT with CorpusIQ MCP
 URL: https://www.corpusiq.io/docs/connect-odoo-to-chatgpt
 
@@ -14497,6 +14819,162 @@ Outlook search returns messages. Claude reads them, reconciles what three people
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
 
 ---
+# How to Connect Outlook to Perplexity with CorpusIQ MCP
+URL: https://www.corpusiq.io/docs/connect-outlook-to-perplexity
+
+
+# How to Connect Outlook to Perplexity with CorpusIQ MCP
+
+The commitment a client made is in an email. So is the delivery date somebody moved, the invoice dispute nobody closed, and the reason the renewal slipped.
+
+Perplexity can research the company you are about to meet. It cannot read the thread where that company told you what it actually needs.
+
+Connecting Outlook through CorpusIQ MCP puts the mailbox and the outside record in one thread. Perplexity answers from your own messages, read-only, and names the message and the date it read.
+
+### Why Connect Outlook to Perplexity?
+
+- **Account history.** "Summarize my email history with this account, then tell me what changed at that company publicly this quarter."
+- **Unanswered threads.** "Which client threads have gone more than five days without a reply from us?"
+- **Commitments.** "What delivery dates did we commit to in writing this month?"
+- **Disputes.** "Find every message about the invoice dispute and list what was agreed and what is still open."
+- **Vendor terms.** "What renewal terms did the vendor propose, and how do they compare to standard terms in their category?"
+- **Read-only by permission.** The retrieval tools documented on this page are read-only, and `Mail.Read` carries no write capability.
+
+### How It Works
+
+1. **Connect Outlook to CorpusIQ** through Microsoft OAuth 2.0 with delegated read permissions on Microsoft Graph.
+2. **Add CorpusIQ to Perplexity** as a custom remote MCP server, using the endpoint from your CorpusIQ account settings.
+3. **CorpusIQ reads** the messages, folders and conversation threads that answer the question, as the signed-in user.
+4. **Perplexity answers** with what was said, when, by whom, and the outside context you asked for around it.
+
+Direct MCP retrieval is read-only. It does not retain raw customer files or full connector response payloads; operational logs keep query text, per-user tool-call metadata and bounded outcome summaries for up to 30 days.
+
+### Setup Steps
+
+**In CorpusIQ**
+
+1. Open your dashboard and go to **Connectors**.
+2. Select **Outlook**, or **Microsoft 365** if OneDrive is already connected, and click **Connect**.
+3. Sign in with your Microsoft account and review the requested permissions: `Mail.Read` and `Calendars.Read`.
+4. Click **Accept**. You return to CorpusIQ and the card turns green.
+5. The mailbox is now queryable as the account you approved with.
+
+**In Perplexity**
+
+6. Open **Settings** and find the **MCP servers** section.
+7. Add a custom MCP server and paste the endpoint:
+
+```
+https://mcp2.corpusiq.io/mcp
+```
+
+8. Connect and approve the CorpusIQ authorization page once.
+9. Start a new thread with "show me my Outlook folders" to confirm the mailbox is visible.
+
+A tenant administrator may need to consent before the grant completes, depending on the organization's app policy. Answers follow the mailbox of the account that authorized, so the connection never reaches a mailbox nobody approved.
+
+### Example Perplexity Questions
+
+**Account and relationship**
+
+- "Summarize my correspondence with this account this year, then tell me what they announced publicly last quarter."
+- "When did we last hear from the procurement contact, and what did they ask for?"
+- "How many threads with this customer are still open?"
+
+**Commitments and risk**
+
+- "What delivery dates did we commit to in writing this month, and which are now at risk?"
+- "Which client threads have had no reply from us in more than five days?"
+- "Find every email that mentions a discount and list the terms offered."
+
+**Operations**
+
+- "What spreadsheets were shared with me last week, and by whom?"
+- "List PDF attachments from the legal team in the last 30 days."
+- "Which messages about the compliance audit are unanswered?"
+
+**Cross-source**
+
+- "Do the delivery dates in email match the milestones in the project tracker?" (requires a project connector)
+- "Which accounts that emailed about renewal also have an open opportunity in the CRM?" (requires a CRM connector)
+- "Compare what was agreed by email with the invoices issued this quarter." (requires a finance connector)
+
+### Security
+
+- **Read-only retrieval tools.** The tools documented on this page are read-only. `Mail.Read` on Microsoft Graph grants no ability to send, delete, move or modify a message.
+- **Your mailbox, your permissions.** Answers follow the delegated permission of the account that authorized, and the tenant's own policies apply on top.
+- **No stored credentials on your side.** CorpusIQ holds the encrypted OAuth token; you hold the Microsoft grant and can revoke it from your account at any time.
+- **Scoped direct-MCP retention.** Raw customer files and full connector payloads are not retained. Operational logs keep query text, tool-call metadata and bounded outcome summaries for up to 30 days.
+- **TLS in transit** between Microsoft Graph, CorpusIQ and Perplexity.
+
+### Comparison: Outlook Search vs Outlook in Perplexity
+
+| Aspect | Outlook search | CorpusIQ MCP with Perplexity |
+|---|---|---|
+| Input | A keyword or a sender | A question in plain language |
+| Result | A list of messages to open | An answer drawn from the message bodies |
+| Threads | You read the whole chain | Summarized, with decisions and open items |
+| Outside context | Copy the thread into a search tab | Same thread, same answer |
+| Cross-system | Export and join by hand | Asked across connectors |
+| Write access | Yes, by your users | None through the retrieval tools |
+
+Search returns the message. A connected mailbox answers the question the message was about.
+
+### FAQ: Common Questions
+
+<details>
+<summary><strong>Can Perplexity send, delete or move an email?</strong></summary>
+
+No. The retrieval tools documented on this page are read-only, and `Mail.Read` carries no write capability on Microsoft Graph.
+</details>
+
+<details>
+<summary><strong>Which mailbox does it read?</strong></summary>
+
+The mailbox of the account that approved the grant. Shared mailboxes and other users' folders are not reachable through that consent.
+</details>
+
+<details>
+<summary><strong>Can it search one folder at a time?</strong></summary>
+
+Yes. "Show me my Outlook folders" lists the structure, then a question can target one folder or search across all of them.
+</details>
+
+<details>
+<summary><strong>Does it read attachments?</strong></summary>
+
+Attachment metadata such as filename, type and size is available. Attachment contents are not parsed into answers, so an attachment's body is out of scope.
+</details>
+
+<details>
+<summary><strong>How current is the data?</strong></summary>
+
+Live. Each question reads the current state of the mailbox, so a message received a minute ago appears in the next answer. Verify anything time-sensitive against the cited message.
+</details>
+
+<details>
+<summary><strong>Does this work only in Perplexity?</strong></summary>
+
+No. Outlook is exposed to ChatGPT, Claude and Perplexity through the same endpoint on the same subscription.
+</details>
+
+<details>
+<summary><strong>Where is the email data stored?</strong></summary>
+
+CorpusIQ does not retain raw customer files or full connector response payloads. Operational logs may persist for up to 30 days. See the [read-only and security documentation](/hermes/security/read-only-and-security).
+</details>
+
+---
+
+**Next steps:** [Connect Outlook to Perplexity now](https://www.corpusiq.io/connectors/perplexity)
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.CorpusIQ.io).*
+
+---
 # How to Connect PostgreSQL to ChatGPT with CorpusIQ MCP
 URL: https://www.corpusiq.io/docs/connect-postgresql-to-chatgpt
 
@@ -14587,6 +15065,7 @@ Queries run against your database, so cost follows your own query patterns. Filt
 ## Related Pages
 
 - [Connect PostgreSQL to Claude](connect-postgresql-to-claude.md) - the same connection, set up for Claude Desktop
+- [Connect PostgreSQL to Perplexity](connect-postgresql-to-perplexity.md) - orders, customers and revenue in plain language, with the tables named
 - [Browse all CorpusIQ connectors](connectors.md) - the full list
 - [MCP vs API Integrations](mcp-vs-api-integrations.md) - why the access model differs
 - [CorpusIQ Security Architecture](../security/) - how credentials and data are handled
@@ -17387,6 +17866,168 @@ A: Grant CorpusIQ access only to specific channels by configuring your Slack app
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# How to Connect Slack to Perplexity with CorpusIQ MCP
+URL: https://www.corpusiq.io/docs/connect-slack-to-perplexity
+
+
+# How to Connect Slack to Perplexity with CorpusIQ MCP
+
+Perplexity answers the outside question well: what moved in your market, what a competitor shipped, what the benchmark for your segment looks like this quarter.
+
+It cannot see the channel where the pricing change was argued out, the thread where the vendor decision was made, or the file someone dropped in a project channel three weeks ago. None of that is public.
+
+Connecting Slack through CorpusIQ MCP puts both halves in one thread. Perplexity answers the internal question from your own workspace, read-only, and names the channel and date it read.
+
+### Why Connect Slack to Perplexity?
+
+- **Decisions with context.** "What did we decide about the pricing change, and how does that compare to what competitors announced this quarter?" Both halves in one answer.
+- **Stalled threads.** "Which channels have gone quiet on the migration project this month?"
+- **Ownership.** "Who committed to the vendor follow-up, in which channel, and when?"
+- **Benchmarking.** "Our top ten channels by message volume this month. Is that pattern normal for a company our size?"
+- **Meeting prep.** "Summarize everything discussed in the enterprise account channels in the last two weeks."
+- **Read-only by scope.** The retrieval tools documented on this page are read-only. There is no path from Perplexity into a Slack message or setting.
+
+### How It Works
+
+1. **Connect Slack to CorpusIQ** through Slack OAuth 2.0, granting read-only access to the scopes you review on the consent screen.
+2. **Add CorpusIQ to Perplexity** as a custom remote MCP server, using the endpoint from your CorpusIQ account settings.
+3. **CorpusIQ reads** the channels, messages, threads and files that answer the question, as the authorizing user.
+4. **Perplexity answers** with the decision, the channel and the date, and the outside context you asked for around it.
+
+Direct MCP retrieval is read-only. It does not retain raw customer files or full connector response payloads; operational logs keep query text, per-user tool-call metadata and bounded outcome summaries for up to 30 days.
+
+### Setup Steps
+
+**In CorpusIQ**
+
+1. Open your dashboard and go to **Connectors**.
+2. Select **Slack** and click **Connect Slack**.
+3. You land on the Slack OAuth screen. Review the requested scopes: `channels:read`, `channels:history`, `search:read` and `files:read`.
+4. Approve the read-only grant and pick the workspace if you belong to more than one.
+5. Return to CorpusIQ. The connector turns green and the workspace is queryable.
+
+**In Perplexity**
+
+6. Open **Settings** and find the **MCP servers** section.
+7. Add a custom MCP server and paste the endpoint:
+
+```
+https://mcp2.corpusiq.io/mcp
+```
+
+8. Connect and approve the CorpusIQ authorization page once.
+9. Start a new thread and ask a question about a channel.
+
+A workspace owner may need to approve the app for the workspace before the grant completes. Slack's own permission model decides what an answer can contain: private channels and direct messages appear only where the authorizing user already has access.
+
+### Example Perplexity Questions
+
+**Decisions and context**
+
+- "What did we decide about the Q4 pricing change, and what did competitors announce this quarter?"
+- "Summarize the vendor selection discussion in the procurement channel, then tell me what public reviews say about that vendor."
+- "Which objections came up in the enterprise channel, and how have other companies answered them?"
+
+**Activity and coverage**
+
+- "Which channels have had no messages in 30 days that used to be active?"
+- "What are our ten busiest channels this month, and is that distribution healthy for a company of our size?"
+- "Which project channels have open questions nobody answered this week?"
+
+**Search and retrieval**
+
+- "Find the last file shared in the marketing channel and tell me what changed in it."
+- "Search Slack for everything said about the API deprecation, and when it was first raised."
+- "Pull the full thread on the budget proposal and list the open items."
+
+**Cross-source**
+
+- "Which Slack decisions match the Jira tickets that are still blocked?" (requires the Jira connector)
+- "Compare what the sales channel said about pipeline this month with the HubSpot figures." (requires the HubSpot connector)
+- "Did the traffic spike GA4 recorded come up in Slack, and in which channel?" (requires the Google Analytics connector)
+
+### Security
+
+- **Read-only retrieval tools.** The tools documented on this page are read-only, and every Slack scope the connector requests is a read scope: `channels:read`, `channels:history`, `search:read` and `files:read`. There is no path from Perplexity into a Slack message, channel or setting.
+- **Slack permissions respected.** Private channels and direct messages are reachable only where the authorizing user is already a member, so the connection never widens anyone's access.
+- **No stored credentials on your side.** CorpusIQ holds the encrypted OAuth token; you hold the Slack grant and can revoke it at any time from the workspace's app settings.
+- **Scoped direct-MCP retention.** Raw customer files and full connector payloads are not retained. Operational logs keep query text, tool-call metadata and bounded outcome summaries for up to 30 days.
+- **TLS in transit** between Slack, CorpusIQ and Perplexity.
+
+### Comparison: Slack Search vs Slack in Perplexity
+
+| Aspect | Slack search | CorpusIQ MCP with Perplexity |
+|---|---|---|
+| Input | A keyword or a person | A question in plain language |
+| Scope | Messages that match the keyword | Answers synthesized across channels and threads |
+| Outside context | Copy the thread into a search tab | Same thread, same answer |
+| Cross-system | Read, then switch tools | Asked across connectors |
+| Decisions | You read and infer | Extracted, with channel and date |
+| Write access | Yes, by your users | None through the retrieval tools |
+
+Slack search finds the message you already knew existed. A connected workspace answers the question that came up in the meeting.
+
+### FAQ: Common Questions
+
+<details>
+<summary><strong>Can Perplexity post to Slack or change a channel?</strong></summary>
+
+No. The retrieval tools documented on this page are read-only. Messages, channels and workspace settings are untouched.
+</details>
+
+<details>
+<summary><strong>Can it read private channels and direct messages?</strong></summary>
+
+Only where the authorizing user already has access. Slack's permission model is enforced on every call, so a private channel you are not in stays invisible.
+</details>
+
+<details>
+<summary><strong>Does this cover Slack Connect channels?</strong></summary>
+
+Yes, where the authorizing user has access. Messages from external organizations appear with the same attribution they carry in Slack.
+</details>
+
+<details>
+<summary><strong>How current is the data?</strong></summary>
+
+Live. Each question reads the current state of the workspace, so a message posted a minute ago appears in the next answer. Verify time-sensitive points against the cited channel and date.
+</details>
+
+<details>
+<summary><strong>Which scopes are requested?</strong></summary>
+
+`channels:read`, `channels:history`, `search:read` and `files:read`. Every one is a read scope. No scope that can send a message or change a setting is requested.
+</details>
+
+<details>
+<summary><strong>What about very large workspaces?</strong></summary>
+
+Questions are answered against the channels and date ranges you name. "Search the sales channel for pricing discussions this month" narrows the read instead of scanning thousands of channels.
+</details>
+
+<details>
+<summary><strong>Does this work only in Perplexity?</strong></summary>
+
+No. Slack is exposed to ChatGPT, Claude and Perplexity through the same endpoint on the same subscription.
+</details>
+
+<details>
+<summary><strong>Where is the Slack data stored?</strong></summary>
+
+CorpusIQ does not retain raw customer files or full connector response payloads. Operational logs may persist for up to 30 days. See the [read-only and security documentation](/hermes/security/read-only-and-security).
+</details>
+
+---
+
+**Next steps:** [Connect Slack to Perplexity now](https://www.corpusiq.io/connectors/perplexity)
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.CorpusIQ.io).*
 
 ---
 # How to Connect Stripe to ChatGPT with CorpusIQ MCP
@@ -26913,6 +27554,10 @@ A: Same endpoint, different client. This guide is for using Perplexity as the MC
 - **[Connect Salesforce to Perplexity](connect-salesforce-to-perplexity.md)** - pipeline by region, accounts gone quiet and deals stuck in one stage
 - **[Connect NetSuite to Perplexity](connect-netsuite-to-perplexity.md)** - P&L by subsidiary, inventory below reorder point and open purchase orders
 - **[Connect PostgreSQL to Perplexity](connect-postgresql-to-perplexity.md)** - orders, customers and revenue from your own tables, with the tables named
+- **[Connect Slack to Perplexity](connect-slack-to-perplexity.md)** - what was decided, who owns the action and where a thread went quiet
+- **[Connect Notion to Perplexity](connect-notion-to-perplexity.md)** - your own policies, processes and trackers read from live pages
+- **[Connect Outlook to Perplexity](connect-outlook-to-perplexity.md)** - commitments, unanswered threads and renewal terms from the mailbox
+- **[Connect Meta Ads to Perplexity](connect-meta-ads-to-perplexity.md)** - campaign, placement and creative performance beside category benchmarks
 
 ## Internal Links
 
@@ -33316,6 +33961,7 @@ CorpusIQ never creates ads, edits budgets, or pauses campaigns.
 ## See also
 
 - [Connect Meta Ads to Claude](connect-meta-ads-to-claude.md) - the same ad account in Claude Desktop, with the Business Manager access requirement and the attribution caveat.
+- [Connect Meta Ads to Perplexity](../connect-meta-ads-to-perplexity.md) - spend, placement and creative performance beside category benchmarks.
 - [Facebook Page connector](facebook.md) - organic Page data, kept separate from paid.
 
 ---
@@ -34582,6 +35228,12 @@ CorpusIQ never creates pages, edits content, or modifies databases.
 - **"Integration token invalid"** - The token may have been regenerated. Create a new integration at notion.so/my-integrations and update the token in CorpusIQ.
 - **Block content looks incomplete** - Notion paginates block children. Large pages will return content in pages; CorpusIQ handles pagination automatically, but very large documents may need multiple calls.
 
+## See also
+
+- [Connect Notion to Claude](../connect-notion-to-claude.md) - the Claude Desktop setup, the token path and the sharing boundary.
+- [Connect Notion to ChatGPT](../connect-notion-to-chatgpt.md) - the ChatGPT setup and the questions worth asking.
+- [Connect Notion to Perplexity](../connect-notion-to-perplexity.md) - policies, processes and trackers read from live pages, with the outside view beside them.
+
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
@@ -34735,6 +35387,7 @@ Read-only. CorpusIQ never sends mail, replies, deletes messages, or creates even
 
 - [Connect Outlook to Claude](../connect-outlook-to-claude.md) - the Claude Desktop setup, the questions worth asking and the read-only boundary.
 - [Connect Outlook to ChatGPT](../connect-outlook-to-chatgpt.md) - the ChatGPT setup, the questions worth asking and the read-only boundary.
+- [Connect Outlook to Perplexity](../connect-outlook-to-perplexity.md) - commitments, unanswered threads and renewal terms, with the outside record in the same answer.
 
 ---
 
@@ -35339,6 +35992,12 @@ Read-only. CorpusIQ never posts, replies, joins channels, or DMs anyone.
 - "App not approved" - your Slack admin has restricted third-party apps. Send them the install link from your dashboard for approval.
 - Private channels missing - CorpusIQ only sees channels the connecting user is a member of. Add yourself to the channel and reconnect.
 - "Couldn't find that message" - Slack search is limited to messages newer than the workspace's retention window.
+
+## See also
+
+- [Connect Slack to Claude](../connect-slack-to-claude.md) - the Claude Desktop setup, the scopes it reviews and the read-only boundary.
+- [Connect Slack to ChatGPT](../connect-slack-to-chatgpt.md) - the ChatGPT setup and the questions worth asking.
+- [Connect Slack to Perplexity](../connect-slack-to-perplexity.md) - decisions and open threads, with the outside record in the same answer.
 
 ---
 
