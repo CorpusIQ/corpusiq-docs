@@ -1,6 +1,6 @@
 ---
 title: "1Password MCP Server ★ Official (Beta)"
-description: "Official 1Password MCP server (beta) allowing MCP clients like Codex and Kiro to manage 1Password Environments with secure authorization prompts. Secrets"
+description: "Official 1Password MCP server (beta): lets Claude Code, Codex, Cursor and Kiro manage 1Password Environments through secure authorization prompts."
 category: mcp
 tags: [mcp-server, security, secrets-management, 1password, official, devops, ai-agents]
 last_updated: 2026-11-16
@@ -11,7 +11,7 @@ robots: "index,follow"
 
 # 1Password MCP Server ★ Official (Beta) - New July 17
 
-The 1Password MCP server bridges MCP-compatible AI agents (Codex, Kiro, Claude Code, Cursor) to 1Password Environments - letting agents create environments, list variables, and manage secrets without ever reading or exposing the secret values.
+The 1Password MCP server bridges MCP-compatible AI agents (Claude Code, Codex, Cursor, Kiro and any stdio MCP client) to 1Password Environments - letting agents create environments, list variables, and manage secrets without ever reading or exposing the secret values.
 
 This is the first major secrets-management platform to ship an official MCP server, marking a significant milestone in AI agent security infrastructure.
 
