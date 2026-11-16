@@ -107,8 +107,8 @@
     "description": "Official 1Password MCP server (beta) allowing MCP clients like Codex and Kiro to manage 1Password Environments with secure authorization prompts. Secrets",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/1password-mcp",
     
-    "datePublished": "2026-11-01",
-    "dateModified": "2026-11-01",
+    "datePublished": "2026-11-16",
+    "dateModified": "2026-11-16",
     
     "author": {
       "@type": "Organization",
@@ -132,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-11-01">
+  <meta name="last-updated" content="2026-11-16">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -154,7 +154,7 @@
   <script async src="https://news.google.com/swg/js/v1/publisher.js"></script>
 
   
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Article", "TechArticle"], "headline": "1Password MCP Server ★ Official (Beta)", "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/1password-mcp", "image": "https://www.corpusiq.io/og?title=1Password%20MCP%20Server%20%E2%98%85%20Official%20%28Beta%29&category=Docs", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/1password-mcp"}, "datePublished": "2026-11-01", "dateModified": "2026-11-01", "author": {"@id": "https://www.corpusiq.io#organization"}, "publisher": {"@id": "https://www.corpusiq.io#organization"}, "isPartOf": {"@id": "https://www.corpusiq.io#website"}, "inLanguage": "en-US", "description": "Official 1Password MCP server (beta) allowing MCP clients like Codex and Kiro to manage 1Password Environments with secure authorization prompts. Secrets", "articleSection": "Hermes"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Article", "TechArticle"], "headline": "1Password MCP Server ★ Official (Beta)", "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/1password-mcp", "image": "https://www.corpusiq.io/og?title=1Password%20MCP%20Server%20%E2%98%85%20Official%20%28Beta%29&category=Docs", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/1password-mcp"}, "datePublished": "2026-11-01", "dateModified": "2026-11-16", "author": {"@id": "https://www.corpusiq.io#organization"}, "publisher": {"@id": "https://www.corpusiq.io#organization"}, "isPartOf": {"@id": "https://www.corpusiq.io#website"}, "inLanguage": "en-US", "description": "Official 1Password MCP server (beta) allowing MCP clients like Codex and Kiro to manage 1Password Environments with secure authorization prompts. Secrets", "articleSection": "Hermes"}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Docs", "item": "https://www.corpusiq.io/docs"}, {"@type": "ListItem", "position": 2, "name": "Hermes", "item": "https://www.corpusiq.io/docs/hermes"}, {"@type": "ListItem", "position": 3, "name": "MCP", "item": "https://www.corpusiq.io/docs/hermes/mcp"}, {"@type": "ListItem", "position": 4, "name": "Servers", "item": "https://www.corpusiq.io/docs/hermes/mcp/servers"}, {"@type": "ListItem", "position": 5, "name": "External", "item": "https://www.corpusiq.io/docs/hermes/mcp/servers/external"}, {"@type": "ListItem", "position": 6, "name": "1Password MCP Server ★ Official (Beta)", "item": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/1password-mcp"}]}</script>
 </head>
   
@@ -13081,10 +13081,10 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#step-1-enable-mcp-server-access-in-1password" class="md-nav__link">
+  <a href="#step-1-create-an-environment-in-1password" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Step 1: Enable MCP Server Access in 1Password
+        Step 1: Create an Environment in 1Password
       
     </span>
   </a>
@@ -13191,27 +13191,32 @@
 <h2 id="requirements">Requirements<a class="headerlink" href="#requirements" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li>A 1Password account with Environments access</li>
-<li>An MCP-compatible client (Codex, Kiro, Claude Code, Cursor, VS Code)</li>
-<li>1Password CLI installed for local development workflows</li>
+<li>The 1Password desktop app, installed and signed in</li>
+<li>An MCP client that supports stdio transport: Claude Code, Codex (Mac and Linux), Cursor, Kiro, or any other stdio MCP client</li>
 </ul>
 <h2 id="setup">Setup<a class="headerlink" href="#setup" title="Anchor link to this section">&para;</a></h2>
-<h3 id="step-1-enable-mcp-server-access-in-1password">Step 1: Enable MCP Server Access in 1Password<a class="headerlink" href="#step-1-enable-mcp-server-access-in-1password" title="Anchor link to this section">&para;</a></h3>
-<p>Navigate to your 1Password Environments settings and turn on MCP server access. This generates the connection endpoint your MCP client will use.</p>
+<h3 id="step-1-create-an-environment-in-1password">Step 1: Create an Environment in 1Password<a class="headerlink" href="#step-1-create-an-environment-in-1password" title="Anchor link to this section">&para;</a></h3>
+<p>The MCP server reads Environment names and secret names only. Secret values stay in 1Password and are never returned to the client, even when an agent requests them.</p>
 <h3 id="step-2-configure-your-mcp-client">Step 2: Configure Your MCP Client<a class="headerlink" href="#step-2-configure-your-mcp-client" title="Anchor link to this section">&para;</a></h3>
-<p>Add the 1Password MCP server endpoint to your client's MCP configuration. For Claude Code:</p>
-<div class="highlight"><pre><span></span><code>claude<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>1password<span class="w"> </span>--url<span class="w"> </span>https://your-environment.1password.dev/mcp
+<p>The server runs locally as the <code>1password-mcp</code> command. For Claude Code, install the 1Password Developer Tools plugin, which registers the MCP configuration for you:</p>
+<div class="highlight"><pre><span></span><code>/plugin marketplace add 1Password/1password-claude-plugin
+/plugin install 1password@1password
 </code></pre></div>
-<p>For Cursor/VS Code, add to your <code>mcp.json</code>:</p>
+<p>Restart Claude Code, then enter <code>/mcp</code> to confirm the 1Password server is connected.</p>
+<p>For any other stdio client, add the <code>1password-mcp</code> command to its configuration file. JSON config files:</p>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
 <span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
 <span class="w">    </span><span class="nt">&quot;1password&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://your-environment.1password.dev/mcp&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;transport&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;streamable-http&quot;</span>
+<span class="w">      </span><span class="nt">&quot;command&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;1password-mcp&quot;</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>
 <span class="p">}</span>
 </code></pre></div>
-<p>First connection triggers an OAuth authorization flow - sign in to 1Password and authorize the MCP client.</p>
+<p>TOML config files:</p>
+<div class="highlight"><pre><span></span><code><span class="k">[mcp_servers.1password]</span>
+<span class="n">command</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;1password-mcp&quot;</span>
+</code></pre></div>
+<p>Then restart your client.</p>
 <h2 id="business-relevance">Business Relevance<a class="headerlink" href="#business-relevance" title="Anchor link to this section">&para;</a></h2>
 <p>This is a landmark MCP server for operators running AI agents in production:</p>
 <ol>
@@ -13247,7 +13252,7 @@ this one can be combined with a company's own business data in a single answer.<
 <p><a href="/docs/connectors">See what CorpusIQ connects</a></p>
 <h2 id="limitations-beta">Limitations (Beta)<a class="headerlink" href="#limitations-beta" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>Currently supports Codex and Kiro as primary MCP clients; broader client support expected</li>
+<li>Documented client setup covers Claude Code, Codex, Cursor, and Kiro, plus a generic stdio path for any other MCP client. Codex support is Mac and Linux only</li>
 <li>Beta status - API may change before GA</li>
 <li>Requires 1Password Environments (separate from standard 1Password vaults)</li>
 </ul>
