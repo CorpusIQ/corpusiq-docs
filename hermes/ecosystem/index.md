@@ -1,18 +1,18 @@
 ---
 title: "Hermes Ecosystem - Complete Resource Directory"
-description: "The definitive directory of Hermes Agent resources - 455+ repos, docs, community tools, SDKs, integrations, benchmarks, and research"
+description: "The definitive directory of Hermes Agent resources - 456+ repos, docs, community tools, SDKs, integrations, benchmarks, and research"
 canonical: "https://www.corpusiq.io/docs/hermes/ecosystem/"
 robots: "index,follow"
-last_updated: "2026-11-15"
+last_updated: "2026-11-16"
 tags: ["hermes ecosystem", "agent ecosystem", "community"]
 
 ---
 
 # Hermes Ecosystem - Complete Resource Directory
 
-The most comprehensive directory of Hermes Agent resources in existence. 455+ repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research - all organized and cross-referenced.
+The most comprehensive directory of Hermes Agent resources in existence. 456+ repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research - all organized and cross-referenced.
 
-> **Last updated:** November 15, 2026 · **Repos indexed:** 455+ · **Categories:** 18
+> **Last updated:** November 16, 2026 · **Repos indexed:** 456+ · **Categories:** 18
 >
 > 👉 **[Submit a repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)** · Missing something? [Open a PR →](https://github.com/CorpusIQ/corpusiq-docs)
 
@@ -35,7 +35,7 @@ The most comprehensive directory of Hermes Agent resources in existence. 455+ re
 | [Deployment & Infrastructure](#deployment-infrastructure) | 21 | [↓](#deployment-infrastructure) |
 | [Security & Governance](#security-governance) | 4 | [↓](#security-governance) |
 | [Research & Benchmarks](#research-benchmarks) | 12 | [↓](#research-benchmarks) |
-| [Content & Media](#content-media) | 5 | [↓](#content-media) |
+| [Content & Media](#content-media) | 6 | [↓](#content-media) |
 | [Platform-Specific](#platform-specific) | 12 | [↓](#platform-specific) |
 | [Domain Applications](#domain-applications) | 27 | [↓](#domain-applications) |
 | [Forks & Derivatives](#forks-derivatives) | 15 | [↓](#forks-derivatives) |
@@ -466,7 +466,7 @@ GitHub's official community-contributed instructions, agents, skills, and config
 ### CorpusIQ/corpusiq-docs/hermes ← YOU ARE HERE
 ⭐ **[Star this repo →](https://github.com/CorpusIQ/corpusiq-docs)**
 
-The most comprehensive Hermes production resource: 1,700+ pages, 455+ repos indexed, 1,137+ skills cataloged, 40+ MCP connectors, production-cron reference architecture, memory stack deep-dives, deployment patterns. Everything the official docs don't cover.
+The most comprehensive Hermes production resource: 1,700+ pages, 456+ repos indexed, 1,137+ skills cataloged, 40+ MCP connectors, production-cron reference architecture, memory stack deep-dives, deployment patterns. Everything the official docs don't cover.
 
 **Related:** [Architecture →](/hermes/architecture) · [Knowledge →](/hermes/knowledge) · [Crons →](/hermes/governance/scheduling) · [MCP →](/hermes/mcp)
 
@@ -4059,6 +4059,17 @@ Cross-platform publishing: X, LinkedIn, TikTok, Instagram, YouTube. Postiz-power
 
 ---
 
+### hollisorg/iv-studio
+⭐ **105** · `JavaScript` · [github.com/hollisorg/iv-studio](https://github.com/hollisorg/iv-studio)
+
+Free, open-source AI film studio on your own PC. Recurring characters, MiniMax H3 and Seedance shots, voices, music, a short-film wizard and a real editor, running on your own ComfyUI or your own cloud GPU. Windows, Mac and Linux, with 216 MCP tools so Claude Code, Codex or Hermes can drive it end to end.
+
+**License:** MIT 
+**Key capabilities:** Character consistency, text-to-video and image-to-video, voice cloning, music generation, timeline editor, 216 MCP tools, local or cloud GPU execution 
+**Topics:** ai-filmmaking, character-consistency, comfyui, mcp-server, video-editor
+
+---
+
 ### Alfo-Tech-Lab/vidilearn
 [github.com/Alfo-Tech-Lab/vidilearn](https://github.com/Alfo-Tech-Lab/vidilearn)
 
@@ -4559,7 +4570,7 @@ Community wiki with deployment patterns and configuration recipes. Crowd-sourced
 
 | Metric | Value |
 |--------|-------|
-| Total repos indexed | 455 |
+| Total repos indexed | 456 |
 | Categories | 18 |
 | Official Nous Research repos | 6 |
 | Community awesome lists | 31 |
@@ -4636,7 +4647,7 @@ This directory is maintained by [CorpusIQ](https://corpusiq.io). New resources a
 - Skills and plugins
 - Language-specific resources
 
-> **📊 Ecosystem Stats:** 455 repos · 18 categories · 1M+ community stars · 106 skill collections · 51 MCP integrations · 27 domain applications
+> **📊 Ecosystem Stats:** 456 repos · 18 categories · 1M+ community stars · 106 skill collections · 51 MCP integrations · 27 domain applications
 
 ---
 
@@ -4644,7 +4655,7 @@ This directory is maintained by [CorpusIQ](https://corpusiq.io). New resources a
 
 ### What is the Hermes Ecosystem Directory?
 
-The **Hermes Ecosystem Directory** is the most comprehensive collection of Hermes Agent resources in existence - **455+ repositories** organized across 18 categories including core tools, UIs, memory systems, MCP integrations, skills, deployment, research, and domain applications. It's the definitive map of the Hermes universe.
+The **Hermes Ecosystem Directory** is the most comprehensive collection of Hermes Agent resources in existence - **456+ repositories** organized across 18 categories including core tools, UIs, memory systems, MCP integrations, skills, deployment, research, and domain applications. It's the definitive map of the Hermes universe.
 
 ### How do I find tools and resources for Hermes Agent?
 

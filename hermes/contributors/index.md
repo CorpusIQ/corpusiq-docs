@@ -8,7 +8,7 @@ tags:
   - open-source
   - submit-repo
   - ecosystem
-last_updated: 2026-11-15
+last_updated: 2026-11-16
 canonical: "https://www.corpusiq.io/docs/hermes/contributors/"
 robots: "index,follow"
 
@@ -24,7 +24,7 @@ The **Hermes Ecosystem Directory** is the most comprehensive collection of Herme
 
 | Metric | Value |
 |--------|-------|
-| **Repos indexed** | 455 |
+| **Repos indexed** | 456 |
 | **Community contributors credited** | 2 |
 | **Review time** | <48 hours |
 | **Categories** | 18 |
@@ -58,7 +58,7 @@ Check the [Pending Review Queue](https://github.com/CorpusIQ/corpusiq-docs/issue
 
 | Contributor | Submissions | Approved | Role |
 |-------------|------------|----------|------|
-| [@CorpusIQ](https://github.com/CorpusIQ) | 3232 | 214 | Maintainer |
+| [@CorpusIQ](https://github.com/CorpusIQ) | 3244 | 215 | Maintainer |
 | [@BlueSkyID666](https://github.com/BlueSkyID666) | 1 | 1 | Contributor |
 | [@louis030195](https://github.com/louis030195) | 1 | 1 | Contributor |
 
@@ -94,13 +94,13 @@ Accepted repos are added to the [Hermes Ecosystem Directory](/hermes/ecosystem) 
 
 ## Related Pages
 
-- [Hermes Ecosystem Directory - 455+ Repos](/hermes/ecosystem)
+- [Hermes Ecosystem Directory - 456+ Repos](/hermes/ecosystem)
 - [Hermes Knowledge Hub - Production Reference](/hermes)
 - [Skills Catalog](/hermes/skills/catalog)
 - [Submit a Repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)
 
 
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) - 455+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) - 456+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 
 ---
 

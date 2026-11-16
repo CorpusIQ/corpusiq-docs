@@ -23020,5 +23020,96 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-11-16T05:03:17.206612+00:00"
+  },
+  {
+    "repo": "mArTi3-github/hermes-certification-assistant",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-16T11:33:35.229313+00:00"
+  },
+  {
+    "repo": "cltf/HermesAgentBook",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-16T11:33:35.229317+00:00"
+  },
+  {
+    "repo": "RajaRenga/iacgenius-ce",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-16T11:33:35.229320+00:00"
+  },
+  {
+    "repo": "gcunharodrigues/hermes-quota-router",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-16T11:33:35.229322+00:00"
+  },
+  {
+    "repo": "DriftMousie/AgentEVMWallet",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-16T11:33:35.229324+00:00"
+  },
+  {
+    "repo": "hypergraphdev/hermes-hxa-connect",
+    "score": 33,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-16T11:33:35.229326+00:00"
+  },
+  {
+    "repo": "vynquantum/vyn-memory",
+    "score": 42,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-16T11:33:35.229328+00:00"
+  },
+  {
+    "repo": "Pirol-ai/kyte-hermes",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-16T11:33:35.229330+00:00"
+  },
+  {
+    "repo": "hollisorg/iv-studio",
+    "score": 78,
+    "tier": "AUTO_APPROVE",
+    "action": "auto_approved",
+    "timestamp": "2026-11-16T11:33:35.229332+00:00"
+  },
+  {
+    "repo": "openhuthq/openhut",
+    "score": 54,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-16T11:33:35.229334+00:00"
+  },
+  {
+    "repo": "Shine8592/hermes-plugin-ops",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-16T11:33:35.229336+00:00"
+  },
+  {
+    "repo": "using-system/otelyssey",
+    "score": 62,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-16T11:33:35.229338+00:00"
+  },
+  {
+    "repo": "pgen0x/hermes-oci-free-tier-report",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-16T11:33:35.229340+00:00"
   }
 ]
