@@ -45,6 +45,7 @@ Read-only. CorpusIQ never posts, deletes, comments, or follows.
 
 - [Connect TikTok to ChatGPT](../connect-tiktok-to-chatgpt.md) - per-video performance and channel trend questions inside a ChatGPT thread.
 - [Connect TikTok to Perplexity](../connect-tiktok-to-perplexity.md) - per-video performance and channel trend questions inside a Perplexity thread.
+- [Connect TikTok to Claude](../connect-tiktok-to-claude.md) - video performance and channel comparisons read inside a Claude thread.
 
 ---
 

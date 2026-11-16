@@ -208,6 +208,12 @@ nav:
   - Connect Google Ads to Claude: connectors/connect-google-ads-to-claude.md
   - Connect Klaviyo to Claude: connectors/connect-klaviyo-to-claude.md
   - Connect Meta Ads to Claude: connectors/connect-meta-ads-to-claude.md
+  - Connect ActiveCampaign to Claude: connect-activecampaign-to-claude.md
+  - Connect Ahrefs to Claude: connect-ahrefs-to-claude.md
+  - Connect Dropbox to Claude: connect-dropbox-to-claude.md
+  - Connect Odoo to Claude: connect-odoo-to-claude.md
+  - Connect Semrush to Claude: connect-semrush-to-claude.md
+  - Connect TikTok to Claude: connect-tiktok-to-claude.md
 - Perplexity Integrations:
   - Connect QuickBooks to Perplexity: connect-quickbooks-to-perplexity.md
   - Connect Shopify to Perplexity: connect-shopify-to-perplexity.md

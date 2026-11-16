@@ -50,6 +50,7 @@ Read-only. CorpusIQ never confirms orders, posts invoices, or moves stock.
 
 - [Connect Odoo to ChatGPT](../connect-odoo-to-chatgpt.md) - quotations, invoices, stock and pipeline across ERP modules in one ChatGPT thread.
 - [Connect Odoo to Perplexity](../connect-odoo-to-perplexity.md) - quotations, invoices, stock and pipeline across ERP modules in one Perplexity thread.
+- [Connect Odoo to Claude](../connect-odoo-to-claude.md) - quotations, invoices, stock and projects across ERP modules inside a Claude thread.
 
 ---
 

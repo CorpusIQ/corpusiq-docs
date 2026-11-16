@@ -50,6 +50,7 @@ Read-only. CorpusIQ never spends Semrush units beyond the queries you ask for.
 
 - [Connect Semrush to ChatGPT](../connect-semrush-to-chatgpt.md) - competitor keywords, backlinks and demand sizing inside a ChatGPT thread.
 - [Connect Semrush to Perplexity](../connect-semrush-to-perplexity.md) - competitor keywords, backlinks and demand sizing inside a Perplexity thread.
+- [Connect Semrush to Claude](../connect-semrush-to-claude.md) - competitor keywords and backlink profiles read inside a Claude thread.
 
 ---
 
