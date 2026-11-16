@@ -22908,5 +22908,117 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-11-15T10:04:01.603104+00:00"
+  },
+  {
+    "repo": "ClutchCassidy420/Atrium-Front-End-for-Hermes-Agent",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-16T05:03:17.206578+00:00"
+  },
+  {
+    "repo": "wiroai/Wiro-Hermes",
+    "score": 59,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-16T05:03:17.206582+00:00"
+  },
+  {
+    "repo": "SparshK312/sparsh-hermes-agent",
+    "score": 59,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-16T05:03:17.206585+00:00"
+  },
+  {
+    "repo": "adesai1033/hermes-commute-skill",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-16T05:03:17.206587+00:00"
+  },
+  {
+    "repo": "ewonglh/job-search-pipeline",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-16T05:03:17.206590+00:00"
+  },
+  {
+    "repo": "ZiChuanLan/agent-purge",
+    "score": 75,
+    "tier": "AUTO_APPROVE",
+    "action": "auto_approved",
+    "timestamp": "2026-11-16T05:03:17.206592+00:00"
+  },
+  {
+    "repo": "apratamaa516/humans-workshop-20261116",
+    "score": 54,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-16T05:03:17.206594+00:00"
+  },
+  {
+    "repo": "Coke1120/Dots-Agent-Bridge",
+    "score": 42,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-16T05:03:17.206596+00:00"
+  },
+  {
+    "repo": "supachai-j/netpaw",
+    "score": 54,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-16T05:03:17.206598+00:00"
+  },
+  {
+    "repo": "JerryLiu369/awesome-quant-skills",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-16T05:03:17.206600+00:00"
+  },
+  {
+    "repo": "vaicauchuyentreninternet-crypto/agent-signal",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-16T05:03:17.206602+00:00"
+  },
+  {
+    "repo": "sesantanajr/hermes-atlas-evolution",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-16T05:03:17.206604+00:00"
+  },
+  {
+    "repo": "jjackkun/claude-harness-hermes",
+    "score": 48,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-16T05:03:17.206606+00:00"
+  },
+  {
+    "repo": "0xMrBlueOps/hermes-bt6-bt7-hardening",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-16T05:03:17.206608+00:00"
+  },
+  {
+    "repo": "hitechcloudvn/cloud-hermes-management",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-16T05:03:17.206610+00:00"
+  },
+  {
+    "repo": "angusvka-spec/hermes-lang-uk",
+    "score": 51,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-16T05:03:17.206612+00:00"
   }
 ]

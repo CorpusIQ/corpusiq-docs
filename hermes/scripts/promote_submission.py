@@ -268,6 +268,12 @@ def bump_published_counts(text):
 
     text = re.sub(r"(\d+)\+ (repositories|repos)(, docs)?", bump, text)
     text = re.sub(r"\*\*Repos indexed:\*\* (\d+)\+", bump_indexed, text)
+    # Stats-table shape: "| Total repos indexed | 455 |". It carries no "+", so the
+    # repo/repositories passes above never matched it and the table sat one entry
+    # behind the published stamps after every insert. Bump it here so one insert
+    # moves all four count surfaces together.
+    text = re.sub(r"(?m)^(\| Total repos indexed \| )(\d+)( \|)$",
+                  lambda m: f"{m.group(1)}{int(m.group(2)) + 1}{m.group(3)}", text, count=1)
     today = az_today()
     text = re.sub(r'last_updated: "\d{4}-\d{2}-\d{2}"',
                   f'last_updated: "{today}"', text, count=1)
