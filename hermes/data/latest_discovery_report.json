@@ -1,15 +1,52 @@
 {
-  "run_time": "2026-11-15T10:04:01.692337+00:00",
-  "new_approved": [],
+  "run_time": "2026-11-16T05:03:17.296087+00:00",
+  "new_approved": [
+    {
+      "name": "ZiChuanLan/agent-purge",
+      "url": "https://github.com/ZiChuanLan/agent-purge",
+      "description": "One persona, many coding agents. Replace or inject system prompts across codex, claude, opencode, grok, omp, hermes, pi, zcode - with a local web console.",
+      "stars": 1840,
+      "forks": 1038,
+      "language": "JavaScript",
+      "topics": [
+        "claude-code",
+        "codex",
+        "coding-agent",
+        "deepseek-harness",
+        "harness",
+        "magpie-plugin",
+        "omp",
+        "opencode",
+        "pi",
+        "system-prompt"
+      ],
+      "updated_at": "2026-11-16T04:50:16Z",
+      "category": "core",
+      "score": 75,
+      "tier": "AUTO_APPROVE",
+      "score_reasons": [
+        "hermes_mention",
+        "high_stars_1000+",
+        "detailed_description",
+        "active_week"
+      ],
+      "near_duplicates": [
+        "Orkas-AI/Orkas"
+      ],
+      "discovered_at": "2026-11-16T05:00:48.331619+00:00",
+      "status": "approved",
+      "approved_at": "2026-11-16T05:03:17.206561+00:00"
+    }
+  ],
   "integration": {
     "published_file": "hermes/ecosystem/index.md",
     "note": "Add every approved repo to hermes/ecosystem/index.md - it is the page users see at /hermes/ecosystem/. The old ecosystem.md twin is gone (collision closed Nov 3 2026); there is no mirror to keep."
   },
   "stats": {
-    "total_found": 11,
-    "auto_approved": 0,
-    "pending_review": 11,
-    "total_approved": 213,
-    "total_pending": 3217
+    "total_found": 16,
+    "auto_approved": 1,
+    "pending_review": 15,
+    "total_approved": 214,
+    "total_pending": 3232
   }
 }
