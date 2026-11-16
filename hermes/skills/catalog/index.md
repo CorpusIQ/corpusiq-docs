@@ -3,7 +3,7 @@ title: "Hermes Skills Catalog - Quality-Tiered Directory"
 description: "Curated directory of community-validated Hermes agent skills. Quality tiers (Production/Beta/Community), starter pack, evaluation guide, and installation"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/"
 robots: "index,follow"
-last_updated: "2026-11-15"
+last_updated: "2026-11-16"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
@@ -1394,6 +1394,23 @@ Thirteen repository clusters surfaced by a widened 172-query topic probe plus on
 - [Bootstrap Agent Skills - Framework Guidance](/hermes/skills/catalog/bootstrap-agent-skills-setup) - twbs/bootstrap, 6,467 combined, 12 listings, 175,057 stars, MIT, the official Bootstrap repo now ships skills for Bootstrap 6: colour system, components and their JavaScript, the utility API, Vite, npm, Parcel and Webpack builds and both v5 and v4 migration paths
 - [WooCommerce Agent Skills - Store Development](/hermes/skills/catalog/woocommerce-agent-skills-setup) - woocommerce/woocommerce, 6,189 combined, 12 listings, 10,599 stars, GPL-2.0, WooCommerce monorepo skills on the trunk branch: backend development conventions, code review, performance, the dev cycle, copy guidelines and Store API route work
 - [Uncodixfy - Anti AI UI Pattern Skill](/hermes/skills/catalog/uncodixfy-setup) - cyxzdev/uncodixfy, 5,677 combined, 1 listings, 2,683 stars, MIT, a negative rule set rather than a design system: it names the floating cards, gradient dashboards, glass panels and decorative labels an agent falls back to and gives the plain implementation for each
+
+### New - November 16, 2026 Morning Sweep (14 publisher guides)
+
+- [Blender Skills - MCP Production Pipeline](/hermes/skills/catalog/blender-skills-setup) - arjun988/blender-skills, 50,725 combined, 93 listings, 3,835 stars, MIT, 94 specialist Blender skills that drive a live Blender session over MCP, from blockout and rigging to simulation and engine export
+- [Basilic Skills - Slash Playbooks for Coding Agents](/hermes/skills/catalog/basilic-skills-setup) - blockmatic-icebox/basilic-skills, 36,217 combined, 96 listings, 1 stars, no LICENSE file, slash-command coding playbooks from /w-plan through /w-ship, installed as one workflow unit with nested /w-* steps
+- [Pedro Nauck Skills - Curated Agent Skill Library](/hermes/skills/catalog/pedronauck-skills-setup) - pedronauck/skills, 32,017 combined, 96 listings, 655 stars, MIT, Pedro Nauck's curated library: React 19 and Tailwind v4 frontend skills, QA dogfooding, marketing and business workflows
+- [Tauri Skills - Desktop and Mobile App Development](/hermes/skills/catalog/tauri-skills-setup) - full-stack-skills/tauri-skills, 31,071 combined, 56 listings, 30 stars, Apache-2.0, 52 Tauri v2 skills covering IPC, capabilities, plugins, builds and distribution for desktop and mobile apps
+- [Roblox Agent Skills - Production Roblox Skill Suite](/hermes/skills/catalog/roblox-agent-skills-setup) - el4cteo/roblox-skills, 25,473 combined, 23 listings, 118 stars, MIT, a third independent Roblox publisher, weighted to production systems: analytics and live-ops, architecture, data stores, monetization
+- [GrepAI Skills - Semantic Code Search and Call Graphs](/hermes/skills/catalog/grepai-skills-setup) - yoanbernabeu/grepai-skills, 19,366 combined, 27 listings, 20 stars, MIT, 27 skills over GrepAI semantic code search: local embeddings, indexing, meaning-based search and call-graph tracing
+- [Syncfusion MAUI UI Skills - Component Suite Setup](/hermes/skills/catalog/syncfusion-maui-skills-setup) - syncfusion/maui-ui-components-skills, 16,766 combined, 81 listings, 62 stars, no LICENSE file, one skill per Syncfusion .NET MAUI control family, with per-control references, migration notes and theming
+- [Spark CLI Skills - Email, Calendar and Meetings for Agents](/hermes/skills/catalog/spark-cli-skills-setup) - readdle/spark-cli-skills, 11,880 combined, 34 listings, 157 stars, MIT, Readdle's Spark CLI skills: one command reference, single-task recipes and long-running personas for email plus calendar
+- [Spree Agent Skills - Spree 6 Commerce Skill Suite](/hermes/skills/catalog/spree-agent-skills-setup) - spree/agent-skills, 10,079 combined, 42 listings, 10 stars, MIT, 39 Spree 6 commerce skills across catalog, checkout, payments and fulfillment, plus a subagent, hooks and MCP server
+- [Webhook Skills - Provider Webhook Receivers and Verification](/hermes/skills/catalog/webhook-skills-setup) - hookdeck/webhook-skills, 10,021 combined, 96 listings, 102 stars, MIT, provider webhook receivers with signature verification and runnable Express, Next.js and FastAPI handlers
+- [Three.js Skills - 3D Graphics Toolkit for Agents](/hermes/skills/catalog/threejs-skills-setup) - full-stack-skills/threejs-skills, 9,207 combined, 22 listings, 12 stars, Apache-2.0, 18 Three.js skills for scenes, materials, animation and post-processing, with four OpenSpec workflow skills alongside
+- [Founder Skills - Validate Your Business Before Launch](/hermes/skills/catalog/founder-skill-setup) - jakeschincariol/founder-skill, 7,893 combined, 11 listings, 3,840 stars, MIT, eleven skills that test a business before launch: a three-lens board, a marketing director, a CFO and a 100-buyer panel
+- [Screenwriting Skills - Screenwriting and Dramaturgy Suite](/hermes/skills/catalog/screenwriting-skills-setup) - jtydhr88/screenwriting-skills, 7,716 combined, 26 listings, 2,091 stars, MIT, 26 dramaturgy skills distilled from 47 craft books and 23 script volumes, Chinese bodies with English term mapping
+- [Koru Works Skills - Document-Driven Coding Workflow](/hermes/skills/catalog/koruworks-skills-setup) - koruworks/skills, 4,451 combined, 26 listings, 0 stars, MIT, 26 document-driven dev skills from shape and plan to execute, accept and handoff, built around one-plain-question decisions
 
 ### New - November 15, 2026 Evening Sweep (9 publisher guides)
 
