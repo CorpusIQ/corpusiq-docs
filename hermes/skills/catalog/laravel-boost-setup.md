@@ -3,7 +3,7 @@ title: "Laravel Boost - Laravel AI Development Setup"
 description: "laravel/boost: 3.3K combined installs across 3 listings, the official Laravel package that installs agent skills, guidelines and MCP tools into a project."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/laravel-boost-setup/"
 robots: "index,follow"
-last_updated: "2026-11-14"
+last_updated: "2026-11-15"
 tags: ["hermes skill", "agent skill", "skill setup", "laravel", "php", "livewire"]
 ---
 

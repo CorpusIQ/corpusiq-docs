@@ -3,7 +3,7 @@ title: "Amplicode Spring Skills - Spring Boot Agent Suite"
 description: "amplicode/spring-skills: 6.5K combined installs across 16 listings, Spring Boot skills for project exploration, JPA models, DTOs and REST controllers."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/amplicode-spring-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-14"
+last_updated: "2026-11-15"
 tags: ["hermes skill", "agent skill", "skill setup", "spring boot", "java", "kotlin"]
 ---
 

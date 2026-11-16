@@ -3,7 +3,7 @@ title: "Inertia Rails Skills - Inertia.js for Rails Setup"
 description: "inertia-rails/skills: 4.5K combined installs across 11 listings, the Inertia.js workflow for Rails: setup, pages, controllers, forms, typing and shadcn."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/inertia-rails-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-14"
+last_updated: "2026-11-15"
 tags: ["hermes skill", "agent skill", "skill setup", "inertia.js", "rails", "react"]
 ---
 

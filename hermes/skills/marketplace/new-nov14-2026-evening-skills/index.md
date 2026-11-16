@@ -3,7 +3,7 @@ title: "New Skills - November 14, 2026 Evening"
 description: "Skills.sh sweep (Nov 14 evening): 16 publisher guides for 112,605 combined installs across 135 indexed listings, from Replicate to Deno"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-nov14-2026-evening-skills/"
 robots: "index,follow"
-last_updated: "2026-11-14"
+last_updated: "2026-11-15"
 tags: ["hermes skill", "agent skill", "skills.sh", "sweep", "marketplace", "hermes agent"]
 ---
 

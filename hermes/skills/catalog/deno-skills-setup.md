@@ -3,7 +3,7 @@ title: "Deno Skills - Official Deno Development Suite"
 description: "denoland/skills: 2.8K combined installs across 8 listings, official Deno skills for permissions, Deploy, Fresh frontends, sandboxes and Node migration."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/deno-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-14"
+last_updated: "2026-11-15"
 tags: ["hermes skill", "agent skill", "skill setup", "deno", "typescript", "javascript"]
 ---
 

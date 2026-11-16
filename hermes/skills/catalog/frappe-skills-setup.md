@@ -3,7 +3,7 @@ title: "Frappe Skills - ERP Development and Review"
 description: "frappe/skills: 7.3K combined installs across 11 listings, Frappe and ERPNext app development, code review, security advisories and merged-ready shipping."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/frappe-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-14"
+last_updated: "2026-11-15"
 tags: ["hermes skill", "agent skill", "skill setup", "frappe", "erpnext", "code review"]
 ---
 

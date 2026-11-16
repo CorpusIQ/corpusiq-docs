@@ -3,7 +3,7 @@ title: "Streamlit Agent Skills - Data App Development"
 description: "streamlit/agent-skills: 3.5K combined installs from one listing, a meta-skill that finds the Streamlit skills bundled in the installed pip package."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/streamlit-agent-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-14"
+last_updated: "2026-11-15"
 tags: ["hermes skill", "agent skill", "skill setup", "streamlit", "python", "data apps"]
 ---
 
