@@ -3,7 +3,7 @@ title: "19 Matt Pocock TypeScript Skills for Hermes Agent"
 description: "Install 19 Matt Pocock TypeScript and React skills for AI agents. Code review, refactoring, and implementation workflows. 1.7M+ combined installs."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/mattpocock-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-15"
 tags: ["hermes skill", "agent skill", "skill setup"]
 ---
 
@@ -73,35 +73,38 @@ npx skills add mattpocock/skills --skill migrate-to-shoehorn
 
 ## CLI Reference
 
-All skills are invoked through Hermes Agent's skill system:
+Once installed, each skill is a slash command inside a Hermes session. For headless runs, preload the skill with `-s` and pass the instruction to `-z`:
 
-```bash
+```text
 # Write a new skill for Hermes
-hermes skill mattpocock/skills/write-a-skill
+/write-a-skill
 
 # Get the big picture before making changes
-hermes skill mattpocock/skills/zoom-out
+/zoom-out
 
 # Debug with caveman approach
-hermes skill mattpocock/skills/caveman
+/caveman
 
 # Design a TypeScript interface
-hermes skill mattpocock/skills/design-an-interface
+/design-an-interface
 
 # Request a refactoring plan
-hermes skill mattpocock/skills/request-refactor-plan
+/request-refactor-plan
 
 # Edit technical writing
-hermes skill mattpocock/skills/edit-article
+/edit-article
 
 # Work through implementation (NEW)
-hermes skill mattpocock/skills/implement
+/implement
 
 # Map complex decisions (NEW)
-hermes skill mattpocock/skills/decision-mapping
+/decision-mapping
 
 # Get real-time Q&A help (NEW)
-hermes skill mattpocock/skills/ask-matt
+/ask-matt
+
+# Headless or cron: preload the skill, then pass the instruction
+hermes -s ask-matt -z "why does this interface need three generics?"
 ```
 
 ---
@@ -123,7 +126,7 @@ hermes skill mattpocock/skills/ask-matt
 | Issue | Fix |
 |---|---|
 | `npx skills add` not found | Run `npm install -g skills` first |
-| Skill not loading in Hermes | Check `hermes skill list` - the skill name must match the install name exactly |
+| Skill not loading in Hermes | Check `hermes skills list` - the skill name must match the install name exactly |
 | TypeScript errors after using `design-an-interface` | The skill generates TypeScript interfaces - review before committing |
 
 ---

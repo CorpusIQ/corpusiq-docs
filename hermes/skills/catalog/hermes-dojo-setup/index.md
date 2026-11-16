@@ -7,7 +7,7 @@ installs: 27
 quality_tier: 🔵 Community
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-dojo-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-15"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
@@ -86,26 +86,28 @@ notify_on_improvement: true         # Send notification when skills are improved
 
 ## Usage
 
+Hermes Dojo runs as a slash command inside a session; the flags below are passed to the agent as instruction text. Scheduled runs use the Hermes cron CLI.
+
 ### Run a Manual Improvement Cycle
 
-```bash
-hermes skill invoke hermes-dojo --action audit
+```text
+/hermes-dojo --action audit
 ```
 
 This performs a one-time audit of all skills in the configured profile, scores them, and identifies the weakest ones.
 
 ### Run Continuous Monitoring
 
-```bash
-hermes skill invoke hermes-dojo --action watch
+```text
+/hermes-dojo --action watch
 ```
 
 Runs the Dojo in continuous mode - it monitors, detects weaknesses, applies fixes, and reports on the configured interval.
 
 ### Generate a Report
 
-```bash
-hermes skill invoke hermes-dojo --action report
+```text
+/hermes-dojo --action report
 ```
 
 Generates a summary report of the last improvement cycle.
@@ -153,10 +155,10 @@ For CorpusIQ-connected agent workflows, the Hermes Dojo can:
 
 ```bash
 # Weekly skill audit - Monday 6 AM
-0 6 * * 1 hermes skill invoke hermes-dojo --action audit --profile <your-profile>
+hermes cron create "0 6 * * 1" "audit --profile <your-profile>" --skill hermes-dojo
 
 # Daily improvement report - 6 PM
-0 18 * * * hermes skill invoke hermes-dojo --action report --profile <your-profile>
+hermes cron create "0 18 * * *" "report --profile <your-profile>" --skill hermes-dojo
 ```
 
 ---
@@ -170,7 +172,7 @@ After installation, verify the Dojo is working:
 hermes skills inspect hermes-dojo
 
 # 2. Run a dry-run audit (no changes)
-hermes skill invoke hermes-dojo --action audit --dry-run
+hermes -s hermes-dojo -z "audit --dry-run"
 
 # 3. Check the report directory
 ls ~/.hermes/dojo/reports/
