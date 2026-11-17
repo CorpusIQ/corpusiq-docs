@@ -1,6 +1,6 @@
 ---
 title: "Skills Marketplace - CorpusIQ Docs"
-description: "Discover and install community skills from skills.sh - 1,663+ curated skills across 22 categories. Browse by category, check trending skills, submit"
+description: "Discover and install community skills from skills.sh - 1,673+ curated skills across 22 categories. Browse by category, check trending skills, submit"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/"
 robots: "index,follow"
 last_updated: "2026-11-16"
@@ -375,7 +375,7 @@ New skills are discovered weekly through automated sweeps of skills.sh. Each dis
 
 ---
 
-**Total: 1,663+ curated skill repos across 22 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
+**Total: 1,673+ curated skill repos across 22 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
 
 *← [Skills Home](/hermes/skills) | [Skills Catalog](/hermes/skills/catalog) | [Latest Discoveries →](/hermes/skills/marketplace/new-june29-2026)*
 
@@ -461,7 +461,7 @@ New skills are discovered weekly through automated sweeps of skills.sh. Each dis
 
 ### What is the Hermes Skills Marketplace?
 
-The Skills Marketplace is the community hub for discovering, installing, and sharing Hermes agent skills. It indexes 1,663+ curated skill repositories across 22 categories from skills.sh, each with a setup guide and installation command.
+The Skills Marketplace is the community hub for discovering, installing, and sharing Hermes agent skills. It indexes 1,673+ curated skill repositories across 22 categories from skills.sh, each with a setup guide and installation command.
 
 ### How do I install a skill from the marketplace?
 
@@ -481,7 +481,7 @@ Weekly, with recent sweep pages published as new publisher clusters and skills a
       "name": "What is the Hermes Skills Marketplace?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The Skills Marketplace is the community hub for discovering, installing, and sharing Hermes agent skills. It indexes 1,663+ curated skill repositories across 22 categories from skills.sh, each with a setup guide and installation command."
+        "text": "The Skills Marketplace is the community hub for discovering, installing, and sharing Hermes agent skills. It indexes 1,673+ curated skill repositories across 22 categories from skills.sh, each with a setup guide and installation command."
       }
     },
     {
