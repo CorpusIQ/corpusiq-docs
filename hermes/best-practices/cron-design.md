@@ -3,7 +3,7 @@ title: "Cron Design Best Practices for Hermes Agent"
 description: Production-grade cron design for Hermes Agent scheduled automation. Idempotency, error handling with retry/backoff, rate limiting, monitoring, delivery targets, and anti-patterns. Build crons that don't fail silently.
 category: best-practices
 tags: [hermes-agent, cron-design, scheduled-automation, idempotency, error-handling, monitoring, rate-limiting]
-last_updated: 2026-11-07
+last_updated: 2026-11-16
 canonical: "https://www.corpusiq.io/docs/hermes/best-practices/cron-design/"
 robots: "index,follow"
 
@@ -29,7 +29,7 @@ SCHEDULE → DATA COLLECTION → PROCESSING → VALIDATION → OUTPUT → LOGGIN
 
 ## What Hermes cron actually gives you
 
-Verified against the official cron documentation and the CLI (`hermes cron create --help`) on the current release line, Hermes Agent v0.23.0 (released 2026-11-05), rechecked 2026-11-06:
+Verified against the official cron documentation and the CLI (`hermes cron create --help`) on the current release line, Hermes Agent v0.23.2 (released 2026-11-16), rechecked 2026-11-16:
 
 - **Schedules run in your profile's timezone** (`timezone:` in `config.yaml`), not raw UTC. A job can pin its own zone: `hermes cron create "0 9 * * 1-5" --timezone America/New_York "US market open brief"`.
 - **Script-only jobs skip the model entirely:** `hermes cron create "every 5m" --no-agent --script memory-watchdog.sh --name memory-watchdog`. Stdout is delivered verbatim, empty stdout is a silent tick, and a non-zero exit or timeout raises an alert.

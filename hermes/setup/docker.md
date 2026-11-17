@@ -3,7 +3,7 @@ title: "Hermes Agent Docker Image and Docker Compose Setup"
 description: Run Hermes Agent from the official nousresearch/hermes-agent Docker image. Docker Compose config, persistent volumes, MCP servers, cron persistence and a production checklist.
 category: setup
 tags: [docker, hermes-agent, setup-guide, container, docker-compose, reproducible, cicd, deployment]
-last_updated: 2026-11-07
+last_updated: 2026-11-16
 canonical: "https://www.corpusiq.io/docs/hermes/setup/docker/"
 robots: "index,follow"
 
@@ -47,6 +47,8 @@ docker run -it --rm \
   nousresearch/hermes-agent setup
 ```
 
+For unattended operation, `hermes setup --portal` inside the container is the lowest-friction path: the refresh token persists in the mounted volume, so nothing expires while you are not watching.
+
 Then start the container as a persistent gateway:
 
 ```bash
@@ -58,6 +60,12 @@ docker run -d --name hermes \
 ```
 
 Port 8642 exposes the gateway's OpenAI-compatible API server and health endpoint. It is optional if you only use chat platforms, and required if you want the dashboard or external tools to reach the gateway. Inside the official image the gateway is supervised by s6-overlay, so a crash restarts it in seconds without losing the container.
+
+Three container details worth knowing before you copy the Compose file:
+
+- **The API server is gated on `API_SERVER_ENABLED=true`.** To reach it beyond `127.0.0.1`, also set `API_SERVER_HOST=0.0.0.0` and an `API_SERVER_KEY` of at least 8 characters (`openssl rand -hex 32`).
+- **The dashboard on 9119 fails closed.** A non-loopback bind refuses to start unless a dashboard auth provider is configured (username/password via `HERMES_DASHBOARD_BASIC_AUTH_USERNAME` + `_PASSWORD`, Nous Portal OAuth, or self-hosted OIDC), and `HERMES_DASHBOARD_INSECURE` is now a deprecated no-op. The Compose file below keeps that port on `127.0.0.1`, so it is reachable only through an SSH tunnel until you add a provider.
+- **Browser tools need shared memory.** Chromium in a container wants `--shm-size=1g` (`shm_size: 1g` in Compose). If the browser is missing, install it inside the container with `hermes pm install chromium`; `browser.executable_path` in the mounted `config.yaml` overrides the packaged build.
 
 ## Full docker-compose.yml
 

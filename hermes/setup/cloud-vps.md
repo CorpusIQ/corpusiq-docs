@@ -3,7 +3,7 @@ title: "Cloud VPS Hermes Agent Setup - CorpusIQ Docs"
 description: Deploy Hermes Agent on a cloud VPS for always-on AI automation. Step-by-step setup for Hetzner, DigitalOcean, AWS, Vultr. API-based models, systemd persistence, security hardening. $5/month budget deployment.
 category: setup
 tags: [cloud-vps, hermes-agent, setup-guide, hetzner, digitalocean, openrouter, systemd, 24/7-automation]
-last_updated: 2026-11-07
+last_updated: 2026-11-16
 canonical: "https://www.corpusiq.io/docs/hermes/setup/cloud-vps/"
 robots: "index,follow"
 
@@ -102,6 +102,15 @@ docker run -d --name hermes \
 Run `docker run -it --rm -v ~/.hermes:/opt/data nousresearch/hermes-agent setup` once first to write your API keys into `~/.hermes/.env`. Full setup in the [Docker guide](docker.md).
 
 ### Step 6: Systemd Service
+
+The CLI can write the unit for you, which is the shorter path and keeps the paths correct:
+
+```bash
+hermes gateway install --start-now
+hermes gateway status
+```
+
+If you want to own the unit yourself, this is the equivalent:
 
 ```bash
 sudo tee /etc/systemd/system/hermes-gateway.service << 'EOF'

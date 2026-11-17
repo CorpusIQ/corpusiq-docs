@@ -3,7 +3,7 @@ title: "Mac Mini M4 AI Server Setup: Ollama, MLX, Playwright"
 description: "Run local LLMs on a Mac Mini M4 with Ollama and MLX, plus Playwright browser automation and persistent crons. One silent box, no worker nodes, free inference."
 category: setup
 tags: [mac-mini, hermes-agent, setup-guide, ollama, mlx, browser-automation, standalone, apple-silicon]
-last_updated: 2026-11-07
+last_updated: 2026-11-16
 canonical: "https://www.corpusiq.io/docs/hermes/setup/mac-mini-standalone/"
 robots: "index,follow"
 
@@ -26,7 +26,7 @@ The Mac Mini M4's unified memory architecture (16-32GB shared CPU/GPU) makes it 
 | **Browser Automation** | Playwright runs natively on macOS; patchright for Cloudflare-bypass |
 | **Memory** | [Honcho](/hermes/knowledge) (peer memory), GBrain (project knowledge), memcore-cloud (cross-session) |
 | **Crons** | Hermes cron scheduler with launchd for auto-restart |
-| **Messaging** | Native Telegram, Slack, Discord, and 17+ messaging platforms |
+| **Messaging** | 21+ messaging platforms - 19 native to the gateway (Telegram, Slack, Discord, WhatsApp, Signal, SMS, Matrix, ...) plus IRC and Microsoft Teams through plugins |
 
 ## Step-by-Step Installation
 
