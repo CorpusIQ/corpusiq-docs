@@ -31,8 +31,12 @@ failure, and the message names both numbers.
 Usage
 -----
     python3 scripts/check_progress_counts.py [repo_root]
+    python3 scripts/check_progress_counts.py --fix [repo_root]
 
 Exit 0 when every parsed claim matches, 1 when any parsed claim disagrees.
+With --fix, a disagreeing claim is rewritten to the derived value in place and
+the script exits 0, so an automated publisher can repair the block instead of
+handing back a red check on a number no human typed this cycle.
 """
 import re
 import subprocess
@@ -123,8 +127,34 @@ def evaluate(text, files):
     return failures, unparsed, checked
 
 
+def apply_fix(text, failures, files):
+    """Rewrite each failing claim to its derived value. Returns (text, changes).
+
+    Kept separate from evaluate() so the test suite can drive it. Only a claim
+    that failed is touched: a claim that already agrees is left byte-identical,
+    which keeps the diff to the numbers that actually moved.
+    """
+    changes = []
+    for label, predicate, pattern in CLAIMS:
+        if label not in [f[0] for f in failures]:
+            continue
+        actual = format(sum(1 for f in files if predicate(f)), ",")
+
+        def repl(match, actual=actual):
+            head = match.group(0)[:match.start(1) - match.start(0)]
+            tail = match.group(0)[match.end(1) - match.start(0):]
+            return head + actual + tail
+
+        text, n = re.subn(pattern, repl, text, count=1)
+        if n:
+            changes.append("%s -> %s" % (label, actual))
+    return text, changes
+
+
 def main():
-    root = sys.argv[1] if len(sys.argv) > 1 else "."
+    argv = [a for a in sys.argv[1:] if not a.startswith("--")]
+    do_fix = "--fix" in sys.argv
+    root = argv[0] if argv else "."
     files = tracked_files(root)
     text = read_progress(root)
     failures, unparsed, checked = evaluate(text, files)
@@ -134,6 +164,20 @@ def main():
               % (label, format(stated, ","), format(actual, ",")))
     for label in unparsed:
         print("SKIP  %-34s no claim found in PROGRESS.md" % label)
+
+    if failures and do_fix:
+        text, changes = apply_fix(text, failures, files)
+        with open("%s/%s" % (root, PROGRESS), "w", encoding="utf-8") as fh:
+            fh.write(text)
+        for c in changes:
+            print("FIXED %s" % c)
+        again, unparsed2, checked2 = evaluate(read_progress(root), files)
+        if again:
+            print("\nRESULT: --fix left %d claim(s) still disagreeing" % len(again))
+            return 1
+        print("\nRESULT: repaired %d claim(s); %d now match the tree"
+              % (len(changes), checked2))
+        return 0
 
     if failures:
         print("\nRESULT: %d claim(s) disagree with the tree. Update the "
