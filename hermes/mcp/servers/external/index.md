@@ -8344,3 +8344,9 @@ Linked from this index so the pages are reachable by crawl.
 - [Nowistay MCP - Vacation Rental PMS in the Chat](/hermes/mcp/servers/external/nowistay-mcp/)
 - [Kote Charts MCP - Bitcoin On-Chain Metrics](/hermes/mcp/servers/external/kote-charts-mcp/)
 - [Podseeker MCP - Podcast Booking Database](/hermes/mcp/servers/external/podseeker-mcp/)
+
+**November 17, 2026 (midday):**
+
+- [Markan MCP - Steam Sales Estimates You Can Recompute](/hermes/mcp/servers/external/markan-mcp/)
+- [Builtalist MCP - 32,000 Buildings Worth the Detour](/hermes/mcp/servers/external/builtalist-mcp/)
+- [Protocol Change Feed MCP - DeFi Votes and Upgrades](/hermes/mcp/servers/external/protocol-change-feed-mcp/)
