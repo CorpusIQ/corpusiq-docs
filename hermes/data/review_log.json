@@ -23111,5 +23111,68 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-11-16T11:33:35.229340+00:00"
+  },
+  {
+    "repo": "jefferyjob/awesome-hermes-agent-zh",
+    "score": 61,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-17T05:04:19.703786+00:00"
+  },
+  {
+    "repo": "XiaoBinGan/hermes-purge",
+    "score": 51,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-17T05:04:19.703801+00:00"
+  },
+  {
+    "repo": "dingchenjie/hermes-agent",
+    "score": 65,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-17T05:04:19.703804+00:00"
+  },
+  {
+    "repo": "InterfazeAI/interfaze-agent-plugin",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-17T05:04:19.703806+00:00"
+  },
+  {
+    "repo": "Winding-Labs/zest-hermes",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-17T05:04:19.703808+00:00"
+  },
+  {
+    "repo": "Overpress-Media/cobrain-plugin",
+    "score": 59,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-17T05:04:19.703810+00:00"
+  },
+  {
+    "repo": "furukawa658/kioku",
+    "score": 48,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-17T05:04:19.703812+00:00"
+  },
+  {
+    "repo": "sanjeevguid/gbrain",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-17T05:04:19.703814+00:00"
+  },
+  {
+    "repo": "RogerHsu7/hermes-agent",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-17T05:04:19.703816+00:00"
   }
 ]
