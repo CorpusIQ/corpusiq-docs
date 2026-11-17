@@ -167,6 +167,9 @@ nav:
   - Connect Airtable to ChatGPT: connect-airtable-to-chatgpt.md
   - Connect Mailchimp to ChatGPT: connect-mailchimp-to-chatgpt.md
   - Connect PostgreSQL to ChatGPT: connect-postgresql-to-chatgpt.md
+  - Connect Microsoft SQL Server to ChatGPT: connect-mssql-to-chatgpt.md
+  - Connect Azure Cosmos DB to ChatGPT: connect-cosmosdb-to-chatgpt.md
+  - Connect LinkedIn Ads to ChatGPT: connect-linkedin-ads-to-chatgpt.md
   - Connect PostHog to ChatGPT: connect-posthog-to-chatgpt.md
   - Connect Google Docs to ChatGPT: connect-google-docs-to-chatgpt.md
   - Connect YouTube to ChatGPT: connect-youtube-to-chatgpt.md
@@ -197,6 +200,8 @@ nav:
   - Connect Google Docs to Claude: connect-google-docs-to-claude.md
   - Connect Outlook to Claude: connect-outlook-to-claude.md
   - Connect PostgreSQL to Claude: connect-postgresql-to-claude.md
+  - Connect Microsoft SQL Server to Claude: connect-mssql-to-claude.md
+  - Connect Azure Cosmos DB to Claude: connect-cosmosdb-to-claude.md
   - Connect PostHog to Claude: connect-posthog-to-claude.md
   - Connect Jira to Claude: connect-jira-to-claude.md
   - Connect YouTube to Claude: connect-youtube-to-claude.md
@@ -238,6 +243,7 @@ nav:
   - Connect Salesforce to Perplexity: connect-salesforce-to-perplexity.md
   - Connect NetSuite to Perplexity: connect-netsuite-to-perplexity.md
   - Connect PostgreSQL to Perplexity: connect-postgresql-to-perplexity.md
+  - Connect LinkedIn Ads to Perplexity: connect-linkedin-ads-to-perplexity.md
   - Connect Slack to Perplexity: connect-slack-to-perplexity.md
   - Connect Notion to Perplexity: connect-notion-to-perplexity.md
   - Connect Outlook to Perplexity: connect-outlook-to-perplexity.md

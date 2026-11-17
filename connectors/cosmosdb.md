@@ -48,6 +48,11 @@ CorpusIQ never inserts, updates, or deletes documents.
 - **AAD auth fails** - The principal must hold the Cosmos DB Built-in Data Reader role (not just RBAC on the account).
 - **Cross-partition errors** - Some queries need `cross_partition=true`. Toggle it in the connection settings if your container is partitioned.
 
+## See also
+
+- [Connect Azure Cosmos DB to ChatGPT](../connect-cosmosdb-to-chatgpt.md) - containers, events and telemetry inside a ChatGPT thread.
+- [Connect Azure Cosmos DB to Claude](../connect-cosmosdb-to-claude.md) - containers, events and telemetry inside a Claude thread.
+
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
