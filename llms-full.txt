@@ -6304,6 +6304,165 @@ Direct MCP retrieval is read-only. Raw customer files and full connector respons
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
 
 ---
+# How to Connect ActiveCampaign to Claude with CorpusIQ MCP
+URL: https://www.corpusiq.io/docs/connect-activecampaign-to-claude
+
+
+# How to Connect ActiveCampaign to Claude with CorpusIQ MCP
+
+ActiveCampaign knows which contacts open, which automations fire, and which deals are sitting still. What it does not do is answer a question that spans all three. Reporting lives behind a builder, and the answer you usually want needs a contact list joined to campaign performance joined to pipeline stage.
+
+Connecting ActiveCampaign to Claude through CorpusIQ MCP puts that join in a sentence. You ask, Claude reads the records that answer it, and the reply names the campaigns, lists and deals behind the number.
+
+### Why Connect ActiveCampaign to Claude?
+
+- **List health in one question.** Contact counts, engagement and which tags are actually in use, without building a segment first.
+- **Campaign performance read across sends.** "How did the last three newsletters compare" returns a comparison, not three screenshots.
+- **Automation load.** See which automations carry the most active contacts, and which ones have quietly stopped mattering.
+- **Pipeline context beside email history.** Deals sit in the same connector as the sequences that produced them, so a stalled deal can be traced to the last automation a contact finished.
+- **Cross-source joins.** Pair contact and campaign data with orders, revenue or site analytics in the same conversation.
+- **Read path only.** The connection uses an API key with read permissions. Claude searches and reads. It does not send mail.
+
+### How It Works
+
+1. **Connect ActiveCampaign to CorpusIQ** using your API URL and API key from Settings, Developer.
+2. **Connect CorpusIQ to Claude** as an MCP server, using the config block from your CorpusIQ account settings.
+3. **CorpusIQ translates** your question into ActiveCampaign API calls, retrieves the matching contacts, campaigns, automations and deals, and assembles the records.
+4. **Claude answers** from that retrieved content, naming the campaigns and lists behind each figure.
+
+CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
+
+### Setup Steps
+
+**In CorpusIQ**
+
+1. Log in to CorpusIQ and open **Connectors**.
+2. Select **ActiveCampaign** and click Connect.
+3. In a second tab, sign in to ActiveCampaign and open **Settings, Developer**.
+4. Copy your **API URL** and **API key**.
+5. Paste both into the CorpusIQ form and save. ActiveCampaign turns from gray to green.
+6. Copy the MCP config block under **Settings, Integrations, Claude Desktop**.
+
+**In Claude Desktop**
+
+7. Open **Settings, Developer, Edit Config**. This opens `claude_desktop_config.json`.
+8. Add the CorpusIQ entry:
+
+```json
+{
+  "mcpServers": {
+    "corpusiq": {
+      "command": "npx",
+      "args": [
+        "-y", "mcp-remote",
+        "https://mcp2.corpusiq.io/mcp"
+      ]
+    }
+  }
+}
+```
+
+9. Save the file and fully quit Claude Desktop. Not just the window: quit the application.
+10. Reopen Claude, complete the device login when prompted, and the tools indicator appears next to the message box.
+
+If the tools indicator does not appear, work through [Claude can't see CorpusIQ](troubleshooting/claude-cant-see-corpusiq.md) before changing anything else.
+
+### Example Claude Questions
+
+**List and contact questions**
+
+- "How many contacts are on each of my ActiveCampaign lists?"
+- "Which tags have more than 500 contacts on them?"
+- "Show me contacts added in the last 30 days and which list each one landed on."
+- "Which contacts have not opened anything in 90 days?"
+
+**Campaign questions**
+
+- "How did my last campaign perform?"
+- "Compare open and click rates across my last four newsletters."
+- "Which campaign drove the most clicks per recipient?"
+- "List campaigns sent this quarter with subject lines and send dates."
+
+**Automation and pipeline questions**
+
+- "Which automations have the most active contacts?"
+- "Which automation has the lowest completion rate?"
+- "Show me deals that have been open longer than 30 days."
+- "What is the total value of deals in each pipeline stage?"
+
+### Security
+
+- **Key-scoped access.** ActiveCampaign issues the API key, and the permissions attached to that key bound what Claude can read. Issue a dedicated key if you want this connection isolated from your other integrations.
+- **Read path only.** CorpusIQ reads contacts, lists, campaigns, automations and deals. No send, edit or automation-toggle path is exposed to the assistant.
+- **Revocable at any time.** Rotate or delete the key in ActiveCampaign under Settings, Developer, and the connection stops working immediately.
+- **Scoped direct-MCP retention.** CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
+
+### Comparison: ActiveCampaign reporting vs ActiveCampaign Through Claude
+
+| Question | ActiveCampaign reports | CorpusIQ MCP with Claude |
+|---|---|---|
+| Input | A report builder and segment filters | A question in plain language |
+| Contacts plus campaign | Two exports and a spreadsheet join | One answer |
+| Automation comparison | One automation at a time | A ranked list across automations |
+| Deals in email context | A separate pipeline view | Same conversation as the email history |
+| Write access | Full account access in the UI | None exposed to the assistant |
+
+ActiveCampaign reporting tells you what happened in one corner of the account. Claude answers questions that cross corners.
+
+### FAQ: Common Questions
+
+<details>
+<summary><strong>Can Claude send or schedule email through this connection?</strong></summary>
+
+No. The API key is used for read calls only. Campaigns are read as records, and there is no send, schedule or draft path reachable from the assistant.
+</details>
+
+<details>
+<summary><strong>Can Claude edit contacts, tags or automations?</strong></summary>
+
+No. CorpusIQ exposes no write tools for ActiveCampaign. Contact edits, tag changes and automation changes stay in ActiveCampaign.
+</details>
+
+<details>
+<summary><strong>Does this include deal and pipeline data?</strong></summary>
+
+Yes. Deals, their values, stages and open dates are available alongside contacts and campaigns, so email activity and pipeline movement can be read together.
+</details>
+
+<details>
+<summary><strong>Which API key should I use for this?</strong></summary>
+
+A key you can rotate without breaking other integrations. ActiveCampaign lets you issue keys under Settings, Developer, so a dedicated key keeps this connection isolated.
+</details>
+
+<details>
+<summary><strong>How current is the data?</strong></summary>
+
+Every question is answered against the account at the moment you ask. There is no nightly copy of contacts or campaigns behind the answers.
+</details>
+
+<details>
+<summary><strong>Can I restrict what the connection sees?</strong></summary>
+
+The key inherits the permissions of the user who created it. Scope it by issuing the key from an account limited to the lists and pipelines you want visible.
+</details>
+
+---
+
+**Next steps:** [Connect ActiveCampaign to Claude now](https://www.corpusiq.io/docs/connectors/activecampaign)
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+## See also
+
+- [Connect ActiveCampaign to Perplexity](connect-activecampaign-to-perplexity.md) - contacts, campaigns and pipeline read from the same account inside a Perplexity thread.
+- [Connect ActiveCampaign to ChatGPT](connect-activecampaign-to-chatgpt.md) - list health and automation questions answered inside a ChatGPT thread.
+- [ActiveCampaign connector reference](connectors/activecampaign.md) - connection requirements, visible objects and troubleshooting.
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
 # How to Connect ActiveCampaign to Perplexity with CorpusIQ MCP
 URL: https://www.corpusiq.io/docs/connect-activecampaign-to-perplexity
 
@@ -6564,6 +6723,164 @@ Direct MCP retrieval is read-only. Raw customer files and full connector respons
 - [MCP vs API Integrations](mcp-vs-api-integrations.md) - why the access model differs
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+
+---
+# How to Connect Ahrefs to Claude with CorpusIQ MCP
+URL: https://www.corpusiq.io/docs/connect-ahrefs-to-claude
+
+
+# How to Connect Ahrefs to Claude with CorpusIQ MCP
+
+Ahrefs holds the clearest view of who ranks for what, but the work of reading it is manual. A competitive question turns into five tabs, three exports and a spreadsheet that is out of date by the time anyone opens it.
+
+Connecting Ahrefs to Claude through CorpusIQ MCP makes the research conversational. Ask how two domains compare, and the answer names the referring domains and keywords behind the comparison.
+
+### Why Connect Ahrefs to Claude?
+
+- **Domain comparison in one answer.** Domain Rating, referring domains and organic traffic for several domains side by side.
+- **Keyword footprint questions.** Which terms a domain ranks for in the top ten, with positions and volumes.
+- **Backlink reading.** Live backlinks, referring domains and historical totals without the backlink explorer.
+- **Competitor sizing.** Organic competitors and the pages earning their traffic, so content gaps are visible rather than inferred.
+- **Demand checks.** Search volume, difficulty and CPC before a keyword decision, in the same thread as the content plan.
+- **Read path only.** CorpusIQ reads Ahrefs data through its API and returns it to the conversation.
+
+### How It Works
+
+1. **Connect Ahrefs to CorpusIQ** using an API token from your Ahrefs account.
+2. **Connect CorpusIQ to Claude** as an MCP server, using the config block from your CorpusIQ account settings.
+3. **CorpusIQ translates** your question into the Ahrefs API calls that answer it: domain overview, organic keywords, backlinks, referring domains or keyword research.
+4. **Claude answers** from the returned data, naming the domain and metric each figure describes.
+
+CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
+
+### Setup Steps
+
+**In CorpusIQ**
+
+1. Log in to CorpusIQ and open **Connectors**.
+2. Select **Ahrefs** and click Connect.
+3. In a second tab, open Ahrefs **Settings, API** and copy your API token. API access requires an Advanced plan or higher.
+4. Paste the token into the CorpusIQ form and save. Ahrefs turns from gray to green.
+5. Copy the MCP config block under **Settings, Integrations, Claude Desktop**.
+
+**In Claude Desktop**
+
+7. Open **Settings, Developer, Edit Config**. This opens `claude_desktop_config.json`.
+8. Add the CorpusIQ entry:
+
+```json
+{
+  "mcpServers": {
+    "corpusiq": {
+      "command": "npx",
+      "args": [
+        "-y", "mcp-remote",
+        "https://mcp2.corpusiq.io/mcp"
+      ]
+    }
+  }
+}
+```
+
+9. Save the file and fully quit Claude Desktop. Not just the window: quit the application.
+10. Reopen Claude, complete the device login when prompted, and the tools indicator appears next to the message box.
+
+If the tools indicator does not appear, work through [Claude can't see CorpusIQ](troubleshooting/claude-cant-see-corpusiq.md) before changing anything else.
+
+### Example Claude Questions
+
+**Domain questions**
+
+- "What is the Domain Rating for competitor.com?"
+- "Compare Domain Rating and referring domains for our domain against our three closest competitors."
+- "How much organic traffic does example.com get per month?"
+- "Which of these four domains has the strongest backlink profile?"
+
+**Keyword questions**
+
+- "Which keywords does my domain rank for in the top 10?"
+- "What is the search volume and CPC for enterprise CRM?"
+- "Which high volume keywords do competitors rank for that we do not?"
+- "List our quick win keywords: positions 11 to 20 with volume above 500."
+
+**Backlink and content questions**
+
+- "Show me the top referring domains linking to my site."
+- "Which competitor pages earn the most organic traffic?"
+- "Who are my top organic competitors?"
+- "Has our referring domain count grown this quarter?"
+
+### Security
+
+- **Token-scoped access.** The API token carries the permissions of your Ahrefs account and the limits of your plan. Issue a token you can rotate on its own.
+- **Read calls only.** The connection issues read calls for domain, keyword and backlink data. Your Ahrefs projects, alerts and saved reports are not modified.
+- **Revocable at any time.** Delete the token in Ahrefs under Settings, API, and the connection stops working immediately.
+- **Scoped direct-MCP retention.** CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
+
+### Comparison: Ahrefs dashboards vs Ahrefs Through Claude
+
+| Question | Ahrefs dashboard | CorpusIQ MCP with Claude |
+|---|---|---|
+| Input | A report and a domain picker | A question in plain language |
+| Output | Tables and charts to read | A direct answer with the metrics behind it |
+| Multi-domain comparison | Export and line up by hand | One comparison answer |
+| Keyword gap analysis | Manual set arithmetic | Asked as a sentence |
+| Write access | Project and report edits | None exposed to the assistant |
+
+Ahrefs is where the data lives. Claude is where the question gets answered.
+
+### FAQ: Common Questions
+
+<details>
+<summary><strong>Do I need a specific Ahrefs plan?</strong></summary>
+
+API access requires an Advanced plan or higher. Without it the token is refused by Ahrefs and the connector cannot read data.
+</details>
+
+<details>
+<summary><strong>Does every question spend API rows?</strong></summary>
+
+Yes. Each question issues the API calls needed to answer it, so narrower questions cost less. CorpusIQ reads only what the question requires.
+</details>
+
+<details>
+<summary><strong>Can Claude see keyword and backlink data for any domain?</strong></summary>
+
+It can read whatever your Ahrefs plan entitles the token to read, including domains outside your own account, subject to your plan limits.
+</details>
+
+<details>
+<summary><strong>Can Claude change my Ahrefs projects?</strong></summary>
+
+No. The connection is read-only for the documented reports. Projects, alerts and saved reports stay untouched.
+</details>
+
+<details>
+<summary><strong>How current is the data?</strong></summary>
+
+Ahrefs refreshes on its own crawl schedule, and CorpusIQ reads the data available when you ask. Very new domains can lag until Ahrefs indexes them.
+</details>
+
+<details>
+<summary><strong>Can I use this for client reporting?</strong></summary>
+
+Yes. The answers are drawn from the same account data you would export, with the domain and metric named so the source is checkable.
+</details>
+
+---
+
+**Next steps:** [Connect Ahrefs to Claude now](https://www.corpusiq.io/docs/connectors/ahrefs)
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+## See also
+
+- [Connect Ahrefs to Perplexity](connect-ahrefs-to-perplexity.md) - domain ratings and keyword footprints inside a Perplexity thread.
+- [Connect Ahrefs to ChatGPT](connect-ahrefs-to-chatgpt.md) - backlink and keyword research inside a ChatGPT thread.
+- [Ahrefs connector reference](connectors/ahrefs.md) - connection requirements, visible data and troubleshooting.
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
 
 ---
 # How to Connect Ahrefs to Perplexity with CorpusIQ MCP
@@ -8177,6 +8494,165 @@ Direct MCP retrieval is read-only. Raw customer files and full connector respons
 - [How to Connect Business Data to ChatGPT](how-to-connect-business-data-to-chatgpt.md) - the general setup
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+
+---
+# How to Connect Dropbox to Claude with CorpusIQ MCP
+URL: https://www.corpusiq.io/docs/connect-dropbox-to-claude
+
+
+# How to Connect Dropbox to Claude with CorpusIQ MCP
+
+A lot of operating context lives in Dropbox. Signed contracts, past board updates, vendor invoices, design files, the deck someone rebuilt three times. Finding the right document is usually a memory test, and reading it is a second one.
+
+Connecting Dropbox to Claude through CorpusIQ MCP turns that folder tree into something you can question. Ask what the latest agency contract says, and the answer comes back with the file it came from.
+
+### Why Connect Dropbox to Claude?
+
+- **Search by meaning, not filename.** "The invoice from the logistics vendor in March" does not need the file to be called that.
+- **Read inside documents.** Word, Excel, PowerPoint, PDF and text contents are read, not just listed.
+- **Cross-source context.** Contract terms sit in the same conversation as revenue, customer records or project data from other connectors.
+- **Folder inventory.** What is in a folder, what changed this week, what nobody has touched since last year.
+- **Quota and account checks.** Storage usage and account details without opening the Dropbox admin page.
+- **No write path.** The connection reads files. It never uploads, edits, moves or deletes them.
+
+### How It Works
+
+1. **Connect Dropbox to CorpusIQ** through the Dropbox consent screen, approving read access.
+2. **Connect CorpusIQ to Claude** as an MCP server, using the config block from your CorpusIQ account settings.
+3. **CorpusIQ translates** your question into Dropbox search and file reads, then extracts the text from the matching documents.
+4. **Claude answers** from that content and names the file each detail came from.
+
+CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
+
+### Setup Steps
+
+**In CorpusIQ**
+
+1. Log in to CorpusIQ and open **Connectors**.
+2. Select **Dropbox** and click Connect.
+3. Sign in to Dropbox when the consent screen appears.
+4. Approve read access. You are returned to CorpusIQ and Dropbox turns from gray to green.
+5. Copy the MCP config block under **Settings, Integrations, Claude Desktop**.
+
+**In Claude Desktop**
+
+7. Open **Settings, Developer, Edit Config**. This opens `claude_desktop_config.json`.
+8. Add the CorpusIQ entry:
+
+```json
+{
+  "mcpServers": {
+    "corpusiq": {
+      "command": "npx",
+      "args": [
+        "-y", "mcp-remote",
+        "https://mcp2.corpusiq.io/mcp"
+      ]
+    }
+  }
+}
+```
+
+9. Save the file and fully quit Claude Desktop. Not just the window: quit the application.
+10. Reopen Claude, complete the device login when prompted, and the tools indicator appears next to the message box.
+
+If the tools indicator does not appear, work through [Claude can't see CorpusIQ](troubleshooting/claude-cant-see-corpusiq.md) before changing anything else.
+
+### Example Claude Questions
+
+**Finding documents**
+
+- "Find my Dropbox file mentioning the Q3 board deck."
+- "Which contracts in Dropbox were signed this year?"
+- "Show me files added to the Shared folder in the last two weeks."
+- "Find the most recent invoice from our logistics vendor."
+
+**Reading documents**
+
+- "What does the latest agency contract say about termination notice?"
+- "Summarize the terms in our current office lease."
+- "Compare the payment terms in these two vendor agreements."
+- "What did the last board update say about hiring?"
+
+**Account and housekeeping questions**
+
+- "How much Dropbox storage am I using?"
+- "Which files in the Contracts folder have not been modified in a year?"
+- "What is in my Dropbox Contracts folder?"
+- "List the five largest documents in this folder."
+
+### Security
+
+- **OAuth consent, read scope.** Access is granted through Dropbox OAuth and limited to reading account information and file contents.
+- **No write tools.** CorpusIQ never uploads, edits, deletes or moves files, and does not expose share-link creation to the assistant.
+- **Revocable at any time.** Dropbox, Settings, Connected apps. Removing CorpusIQ there ends the connection.
+- **Scoped direct-MCP retention.** CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
+
+### Comparison: Dropbox search vs Dropbox Through Claude
+
+| Question | Dropbox search | CorpusIQ MCP with Claude |
+|---|---|---|
+| Input | Filename keywords and filters | A question in plain language |
+| Output | A list of files | An answer with the file named as the source |
+| Reading | You open each document | Claude reads the contents and synthesizes |
+| Comparison | Manual across files | Difference between two documents in one answer |
+| Cross-source | Dropbox only | Documents plus records from other connectors |
+| Write access | Yes, by you | None exposed to the assistant |
+
+Dropbox search is the right tool when you know the filename. Claude is the right tool when you know the question.
+
+### FAQ: Common Questions
+
+<details>
+<summary><strong>Can Claude see every file in my Dropbox?</strong></summary>
+
+It can search what the authorizing account can access. Files shared with you and Team folders follow your existing Dropbox permissions, so the connection never sees more than you do.
+</details>
+
+<details>
+<summary><strong>Can Claude change or delete files?</strong></summary>
+
+No. The connection is read-only. Nothing is uploaded, edited, moved or deleted.
+</details>
+
+<details>
+<summary><strong>Which file types can be read?</strong></summary>
+
+Word documents, Excel workbooks, PowerPoint decks, PDFs and plain text are read. Images and other binary formats are referenced by name and metadata rather than parsed.
+</details>
+
+<details>
+<summary><strong>Does this work with Dropbox Business?</strong></summary>
+
+Yes. It connects to personal and Business accounts. Team folders appear according to the permissions of the account that authorized the connection.
+</details>
+
+<details>
+<summary><strong>How current is the file list?</strong></summary>
+
+Each question runs against Dropbox at the moment you ask, so files added minutes ago are visible.
+</details>
+
+<details>
+<summary><strong>Do I need to move files into a special folder?</strong></summary>
+
+No. Nothing needs reorganizing and no files are copied. The connection searches your existing folder structure.
+</details>
+
+---
+
+**Next steps:** [Connect Dropbox to Claude now](https://www.corpusiq.io/docs/connectors/dropbox)
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+## See also
+
+- [Connect Dropbox to Perplexity](connect-dropbox-to-perplexity.md) - contracts and decks read from your own folders inside a Perplexity thread.
+- [Connect Dropbox to ChatGPT](connect-dropbox-to-chatgpt.md) - document search and comparison inside a ChatGPT thread.
+- [Dropbox connector reference](connectors/dropbox.md) - connection requirements, visible objects and troubleshooting.
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
 
 ---
 # How to Connect Dropbox to Perplexity with CorpusIQ MCP
@@ -14337,6 +14813,164 @@ Direct MCP retrieval is read-only. Raw customer files and full connector respons
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
 
 ---
+# How to Connect Odoo to Claude with CorpusIQ MCP
+URL: https://www.corpusiq.io/docs/connect-odoo-to-claude
+
+
+# How to Connect Odoo to Claude with CorpusIQ MCP
+
+Odoo holds the operating record: quotations, invoices, inventory, projects, employees. It also spreads that record across modules, so a question that crosses modules becomes a tour of the menu.
+
+Connecting Odoo to Claude through CorpusIQ MCP collapses that tour. Ask what open quotations are worth and which customers owe you money, and both answers arrive with the records behind them.
+
+### Why Connect Odoo to Claude?
+
+- **Cross-module questions.** Sales, invoicing, inventory and projects answered in one response instead of four screens.
+- **Quotation and order visibility.** Open quotations, their line items and their total value, without building a filter.
+- **Receivables.** Overdue customer invoices and vendor bills read as a list.
+- **Stock position.** On-hand quantities per product and location, asked as a sentence.
+- **Project and people context.** Active projects, task counts and employee records read alongside the commercial data.
+- **No write path.** The connection reads records. It never confirms orders, posts invoices or moves stock.
+
+### How It Works
+
+1. **Connect Odoo to CorpusIQ** with your instance URL, database name, login and API key.
+2. **Connect CorpusIQ to Claude** as an MCP server, using the config block from your CorpusIQ account settings.
+3. **CorpusIQ translates** your question into Odoo record reads across the modules involved, then assembles the results.
+4. **Claude answers** from those records and names the module and record type each figure comes from.
+
+CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
+
+### Setup Steps
+
+**In CorpusIQ**
+
+1. Log in to CorpusIQ and open **Connectors**.
+2. Select **Odoo** and click Connect.
+3. Enter your Odoo URL, for example https://yourcompany.odoo.com, the database name shown on the Odoo login screen, your login and an API key.
+4. Save. CorpusIQ verifies the connection and Odoo turns from gray to green.
+5. Copy the MCP config block under **Settings, Integrations, Claude Desktop**.
+
+**In Claude Desktop**
+
+7. Open **Settings, Developer, Edit Config**. This opens `claude_desktop_config.json`.
+8. Add the CorpusIQ entry:
+
+```json
+{
+  "mcpServers": {
+    "corpusiq": {
+      "command": "npx",
+      "args": [
+        "-y", "mcp-remote",
+        "https://mcp2.corpusiq.io/mcp"
+      ]
+    }
+  }
+}
+```
+
+9. Save the file and fully quit Claude Desktop. Not just the window: quit the application.
+10. Reopen Claude, complete the device login when prompted, and the tools indicator appears next to the message box.
+
+If the tools indicator does not appear, work through [Claude can't see CorpusIQ](troubleshooting/claude-cant-see-corpusiq.md) before changing anything else.
+
+### Example Claude Questions
+
+**Sales and pipeline questions**
+
+- "What is the value of open quotations in Odoo right now?"
+- "How many opportunities are in the negotiation stage?"
+- "Which quotations expire this month?"
+- "Show me sale orders confirmed this week with their totals."
+
+**Finance questions**
+
+- "Show me overdue customer invoices."
+- "Which vendor bills are unpaid?"
+- "What did we invoice last month, by customer?"
+- "How much tax did we collect last quarter?"
+
+**Inventory and project questions**
+
+- "What is on hand for SKU X across all warehouses?"
+- "Which products are below their reorder point?"
+- "List active projects and their task counts."
+- "Show me stock transfers scheduled this week."
+
+### Security
+
+- **Record-level access.** Odoo enforces the connected user's access rights, so Claude sees the modules and records that user can already open. Connect a read-scoped user if you want the boundary explicit.
+- **No write path.** CorpusIQ reads records. There is no confirm, post, validate or stock-move path exposed to the assistant.
+- **Revocable at any time.** Revoke the API key in Odoo under Preferences, Account Security, and the connection stops working.
+- **Scoped direct-MCP retention.** CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
+
+### Comparison: Odoo screens vs Odoo Through Claude
+
+| Question | Odoo UI | CorpusIQ MCP with Claude |
+|---|---|---|
+| Input | Module, menu, filters | A question in plain language |
+| Output | Record lists you read | A synthesized answer with records named |
+| Cross-module | One module at a time | Sales, finance and stock in one answer |
+| Exports | Manual list export | Structured text on request |
+| Write access | Full record access in the UI | None exposed to the assistant |
+
+Odoo records the business. Claude answers questions about it without making anyone learn the menu structure.
+
+### FAQ: Common Questions
+
+<details>
+<summary><strong>Does this work with Odoo Online, Odoo.sh and self-hosted instances?</strong></summary>
+
+Yes. The connection takes your instance URL, database name, login and API key, which covers Odoo Online, Odoo.sh and self-hosted deployments.
+</details>
+
+<details>
+<summary><strong>Can Claude confirm orders or post invoices?</strong></summary>
+
+No. The connection reads records only. Order confirmation, invoice posting and stock moves stay in Odoo, performed by your team.
+</details>
+
+<details>
+<summary><strong>What happens if a module looks empty?</strong></summary>
+
+Access follows the connected user's rights. If a module returns nothing, the user is probably missing that module's access rights in Odoo.
+</details>
+
+<details>
+<summary><strong>How do I connect a specific Odoo user?</strong></summary>
+
+Generate the API key from that user's Preferences, Account Security page. The key inherits that user's access rights.
+</details>
+
+<details>
+<summary><strong>Authentication failed. What should I check?</strong></summary>
+
+Generate a fresh API key in Odoo and confirm the database name matches exactly what the Odoo login screen shows.
+</details>
+
+<details>
+<summary><strong>How current is the data?</strong></summary>
+
+Each question runs against your Odoo instance when you ask, so records created this morning are included.
+</details>
+
+---
+
+**Next steps:** [Connect Odoo to Claude now](https://www.corpusiq.io/docs/connectors/odoo)
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+## See also
+
+- [Connect Odoo to Perplexity](connect-odoo-to-perplexity.md) - quotations, invoices and stock across ERP modules inside a Perplexity thread.
+- [Connect Odoo to ChatGPT](connect-odoo-to-chatgpt.md) - ERP questions answered inside a ChatGPT thread.
+- [Odoo connector reference](connectors/odoo.md) - connection requirements, visible objects and troubleshooting.
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
 # How to Connect Odoo to Perplexity with CorpusIQ MCP
 URL: https://www.corpusiq.io/docs/connect-odoo-to-perplexity
 
@@ -16706,6 +17340,164 @@ Direct MCP retrieval is read-only. Raw customer files and full connector respons
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
 
 ---
+# How to Connect Semrush to Claude with CorpusIQ MCP
+URL: https://www.corpusiq.io/docs/connect-semrush-to-claude
+
+
+# How to Connect Semrush to Claude with CorpusIQ MCP
+
+Semrush answers a lot of questions well, one report at a time. The moment a question spans two domains, or two periods, or search data beside paid data, the work moves into a spreadsheet.
+
+Connecting Semrush to Claude through CorpusIQ MCP keeps that work in the conversation. Ask where a competitor gained organic ground, and the answer names the keyword sets and referring domains that explain it.
+
+### Why Connect Semrush to Claude?
+
+- **Competitive keyword read.** Which terms competitors rank for, at which positions, with the volumes behind them.
+- **Backlink profile comparison.** Referring domains and total backlinks for several domains in one answer.
+- **Organic movement.** Where a domain is gaining or losing visibility, read as a list rather than a chart.
+- **Demand sizing.** Search volume and CPC pulled into the same thread as the content or campaign decision.
+- **Cross-source joins.** Search data beside revenue, pipeline or site analytics from other connectors.
+- **Read path only.** CorpusIQ reads Semrush reports through the API and returns the rows to the conversation.
+
+### How It Works
+
+1. **Connect Semrush to CorpusIQ** using your Semrush API key.
+2. **Connect CorpusIQ to Claude** as an MCP server, using the config block from your CorpusIQ account settings.
+3. **CorpusIQ translates** your question into the Semrush API reports that answer it, then assembles the returned rows.
+4. **Claude answers** from that data, naming the domain, keyword and period each figure describes.
+
+CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
+
+### Setup Steps
+
+**In CorpusIQ**
+
+1. Log in to CorpusIQ and open **Connectors**.
+2. Select **Semrush** and click Connect.
+3. In Semrush, open **Settings, API** and copy your API key. The API requires the Business plan or higher, and each call spends API units.
+4. Paste the key into the CorpusIQ form and save. Semrush turns from gray to green.
+5. Copy the MCP config block under **Settings, Integrations, Claude Desktop**.
+
+**In Claude Desktop**
+
+7. Open **Settings, Developer, Edit Config**. This opens `claude_desktop_config.json`.
+8. Add the CorpusIQ entry:
+
+```json
+{
+  "mcpServers": {
+    "corpusiq": {
+      "command": "npx",
+      "args": [
+        "-y", "mcp-remote",
+        "https://mcp2.corpusiq.io/mcp"
+      ]
+    }
+  }
+}
+```
+
+9. Save the file and fully quit Claude Desktop. Not just the window: quit the application.
+10. Reopen Claude, complete the device login when prompted, and the tools indicator appears next to the message box.
+
+If the tools indicator does not appear, work through [Claude can't see CorpusIQ](troubleshooting/claude-cant-see-corpusiq.md) before changing anything else.
+
+### Example Claude Questions
+
+**Competitive questions**
+
+- "Which keywords does competitor.com rank for that we do not?"
+- "Compare keyword footprints for our domain and our two main competitors."
+- "Who are our top organic competitors?"
+- "Which competitor gained the most organic visibility this quarter?"
+
+**Backlink questions**
+
+- "How does my backlink profile compare to competitor.com?"
+- "How many referring domains point at our site?"
+- "Which referring domains link to two or more of our competitors?"
+- "Has our referring domain count grown in the last 90 days?"
+
+**Demand questions**
+
+- "What is the search volume and CPC for enterprise CRM?"
+- "Which of these ten keywords have the lowest difficulty above 1,000 volume?"
+- "What does paid search demand look like for project management software?"
+- "Which keywords do we rank for between positions 11 and 30?"
+
+### Security
+
+- **Key-scoped access.** The Semrush API key carries your plan entitlements and spends your API units. Issue a key you can rotate on its own.
+- **Read reports only.** The connection issues read calls for analytics reports. Your Semrush projects, campaigns and position tracking are not modified.
+- **Revocable at any time.** Regenerate the key in Semrush under Settings, API, and the connection stops working immediately.
+- **Scoped direct-MCP retention.** CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
+
+### Comparison: Semrush reports vs Semrush Through Claude
+
+| Question | Semrush reports | CorpusIQ MCP with Claude |
+|---|---|---|
+| Input | A report and a domain field | A question in plain language |
+| Output | Tables and charts | A direct answer with the metrics named |
+| Multi-domain comparison | One domain at a time | Side by side in one answer |
+| Keyword gap | Manual export and subtraction | Asked as a sentence |
+| Unit spend | Per report, visible in the UI | Per question, as narrow as you make it |
+
+Semrush gives you the reports. Claude turns them into answers, and only spends units on the reports a question needs.
+
+### FAQ: Common Questions
+
+<details>
+<summary><strong>Which Semrush plan do I need?</strong></summary>
+
+API access requires the Business plan or higher. On lower plans the key is rejected at the Semrush layer, not by CorpusIQ.
+</details>
+
+<details>
+<summary><strong>Do questions consume API units?</strong></summary>
+
+Yes. Every question issues the API calls needed to answer it, and Semrush bills those in units. Narrower questions spend less.
+</details>
+
+<details>
+<summary><strong>Can Claude modify my Semrush projects?</strong></summary>
+
+No. The connection reads report data only. Projects, campaigns and position tracking are untouched.
+</details>
+
+<details>
+<summary><strong>Why does a domain show no data?</strong></summary>
+
+Semrush data lags reality, so a very new domain can be missing until it is indexed. A domain with no data is reported as no data rather than zero.
+</details>
+
+<details>
+<summary><strong>Can I compare several competitors in one question?</strong></summary>
+
+Yes. Multi-domain comparisons are answered in a single response, which is where the export work usually disappears.
+</details>
+
+<details>
+<summary><strong>How current is the data?</strong></summary>
+
+CorpusIQ reads Semrush data as it stands when you ask. Database refresh timing is Semrush's own schedule, not a CorpusIQ cache.
+</details>
+
+---
+
+**Next steps:** [Connect Semrush to Claude now](https://www.corpusiq.io/docs/connectors/semrush)
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+## See also
+
+- [Connect Semrush to Perplexity](connect-semrush-to-perplexity.md) - competitor keywords and backlinks inside a Perplexity thread.
+- [Connect Semrush to ChatGPT](connect-semrush-to-chatgpt.md) - search demand and competitor research inside a ChatGPT thread.
+- [Semrush connector reference](connectors/semrush.md) - connection requirements, visible data and troubleshooting.
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
 # How to Connect Semrush to Perplexity with CorpusIQ MCP
 URL: https://www.corpusiq.io/docs/connect-semrush-to-perplexity
 
@@ -18576,6 +19368,164 @@ Direct MCP retrieval is read-only. Raw customer files and full connector respons
 - [MCP vs API Integrations](mcp-vs-api-integrations.md) - why the access model differs
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+
+---
+# How to Connect TikTok to Claude with CorpusIQ MCP
+URL: https://www.corpusiq.io/docs/connect-tiktok-to-claude
+
+
+# How to Connect TikTok to Claude with CorpusIQ MCP
+
+TikTok analytics tells you what a video did. It is much worse at telling you why one video outperformed another, or how the channel compares with the rest of your content spend when the numbers live in different dashboards.
+
+Connecting TikTok to Claude through CorpusIQ MCP puts your video data beside everything else you measure. Ask which videos earn engagement per view, and the answer arrives with the video list it came from.
+
+### Why Connect TikTok to Claude?
+
+- **Ranked video performance.** Top videos by views, likes, comments or shares, without scrolling the analytics tab.
+- **Engagement per view.** A fairer comparison than raw totals when one video has ten times the reach of another.
+- **Follower and posting context.** Profile level counts read in the same answer as per-video detail.
+- **Cross-channel comparison.** Put TikTok results beside YouTube, Instagram or paid social in one conversation, once those connectors are added.
+- **Period questions.** "This month" and "last 90 days" are answered from the same underlying video records.
+- **Read path only.** The connection reads profile, videos and analytics. It never posts, comments or follows.
+
+### How It Works
+
+1. **Connect TikTok to CorpusIQ** through the TikTok authorization screen, approving the profile, video list and analytics scopes.
+2. **Connect CorpusIQ to Claude** as an MCP server, using the config block from your CorpusIQ account settings.
+3. **CorpusIQ translates** your question into TikTok API calls for profile, video list and per-video analytics, then assembles the records.
+4. **Claude answers** from that data and names the videos behind the numbers.
+
+CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
+
+### Setup Steps
+
+**In CorpusIQ**
+
+1. Log in to CorpusIQ and open **Connectors**.
+2. Select **TikTok** and click Connect.
+3. Sign in to TikTok if you are not already signed in.
+4. Review the requested scopes, which cover profile, video list and video analytics, and click Authorize. TikTok requires accepting all of them.
+5. TikTok turns from gray to green in the CorpusIQ dashboard.
+6. Copy the MCP config block under **Settings, Integrations, Claude Desktop**.
+
+**In Claude Desktop**
+
+7. Open **Settings, Developer, Edit Config**. This opens `claude_desktop_config.json`.
+8. Add the CorpusIQ entry:
+
+```json
+{
+  "mcpServers": {
+    "corpusiq": {
+      "command": "npx",
+      "args": [
+        "-y", "mcp-remote",
+        "https://mcp2.corpusiq.io/mcp"
+      ]
+    }
+  }
+}
+```
+
+9. Save the file and fully quit Claude Desktop. Not just the window: quit the application.
+10. Reopen Claude, complete the device login when prompted, and the tools indicator appears next to the message box.
+
+If the tools indicator does not appear, work through [Claude can't see CorpusIQ](troubleshooting/claude-cant-see-corpusiq.md) before changing anything else.
+
+### Example Claude Questions
+
+**Video performance**
+
+- "What are my top 10 TikTok videos by views?"
+- "Which videos drove the most engagement per view?"
+- "How many likes did I get on TikTok this month?"
+- "List my videos posted in the last 30 days with views and shares."
+
+**Account questions**
+
+- "Show my TikTok follower count and total video count."
+- "What is my average view count per video?"
+- "Which video has the best comment to view ratio?"
+- "How many videos have I posted this quarter?"
+
+**Cross-channel questions**
+
+- "Compare TikTok views with YouTube views for the same period."
+- "Which platform gave us the most engagement per view last month?"
+- "Did the video that worked on TikTok get similar reach on Instagram?"
+
+### Security
+
+- **Scope-bound access.** TikTok shows the requested scopes on its authorization screen: profile, video list and video analytics. Access is limited to those.
+- **No write path.** CorpusIQ reads videos and analytics. There is no publish, comment, follow or delete path exposed to the assistant.
+- **Revocable at any time.** TikTok, Settings, Security, Manage app permissions. Removing CorpusIQ there ends the connection.
+- **Scoped direct-MCP retention.** CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
+
+### Comparison: TikTok analytics vs TikTok Through Claude
+
+| Question | TikTok analytics tab | CorpusIQ MCP with Claude |
+|---|---|---|
+| Input | Date range and video picker | A question in plain language |
+| Output | Charts and per-video tables | A ranked answer with the videos named |
+| Comparison | One video at a time | Videos ranked by any measure you ask for |
+| Cross-channel | TikTok only | TikTok beside your other channels |
+| Write access | Yes, by you in the app | None exposed to the assistant |
+
+TikTok analytics answers what happened on TikTok. Claude answers what it means next to everything else.
+
+### FAQ: Common Questions
+
+<details>
+<summary><strong>Can Claude post to TikTok?</strong></summary>
+
+No. The connection reads profile, video and analytics data only. Publishing stays in the TikTok app.
+</details>
+
+<details>
+<summary><strong>Does this work for multiple TikTok accounts?</strong></summary>
+
+Each account is authorized separately, so a personal and a brand account can both be connected without sharing a login.
+</details>
+
+<details>
+<summary><strong>Which metrics are available?</strong></summary>
+
+Views, likes, comments, shares, and profile level follower and video counts, read from the account at the moment you ask.
+</details>
+
+<details>
+<summary><strong>Why did authorization fail?</strong></summary>
+
+TikTok requires every requested scope to be approved. Reconnect and accept the full set; a partial approval is rejected at the TikTok layer.
+</details>
+
+<details>
+<summary><strong>Can I see competitor accounts?</strong></summary>
+
+No. The connection covers accounts you authorize. Public competitor data is a research question for a different source.
+</details>
+
+<details>
+<summary><strong>How current is the data?</strong></summary>
+
+Each question runs against the account when you ask, so a video posted this morning is included.
+</details>
+
+---
+
+**Next steps:** [Connect TikTok to Claude now](https://www.corpusiq.io/docs/connectors/tiktok)
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+## See also
+
+- [Connect TikTok to Perplexity](connect-tiktok-to-perplexity.md) - video performance and channel comparisons inside a Perplexity thread.
+- [Connect TikTok to ChatGPT](connect-tiktok-to-chatgpt.md) - ranked video analytics inside a ChatGPT thread.
+- [TikTok connector reference](connectors/tiktok.md) - connection requirements, visible objects and troubleshooting.
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
 
 ---
 # How to Connect TikTok to Perplexity with CorpusIQ MCP
@@ -32057,6 +33007,7 @@ CorpusIQ never sends mail, edits contacts, or changes automations.
 
 - [Connect ActiveCampaign to ChatGPT](../connect-activecampaign-to-chatgpt.md) - campaign, automation and pipeline questions inside a ChatGPT thread.
 - [Connect ActiveCampaign to Perplexity](../connect-activecampaign-to-perplexity.md) - campaign, automation and pipeline questions inside a Perplexity thread.
+- [Connect ActiveCampaign to Claude](../connect-activecampaign-to-claude.md) - contacts, campaigns and pipeline deals read from the same account, asked inside a Claude thread.
 
 ---
 
@@ -32175,6 +33126,7 @@ Read-only. CorpusIQ never consumes Ahrefs API rows beyond the queries you ask fo
 
 - [Connect Ahrefs to ChatGPT](../connect-ahrefs-to-chatgpt.md) - domain ratings, keyword and backlink questions inside a ChatGPT thread.
 - [Connect Ahrefs to Perplexity](../connect-ahrefs-to-perplexity.md) - domain ratings, keyword and backlink questions inside a Perplexity thread.
+- [Connect Ahrefs to Claude](../connect-ahrefs-to-claude.md) - domain ratings, keyword footprints and referring domains read inside a Claude thread.
 
 ---
 
@@ -33745,6 +34697,7 @@ CorpusIQ never uploads, edits, deletes, or moves files.
 
 - [Connect Dropbox to ChatGPT](../connect-dropbox-to-chatgpt.md) - contracts, decks and invoices read from your folders inside a ChatGPT thread.
 - [Connect Dropbox to Perplexity](../connect-dropbox-to-perplexity.md) - contracts, decks and invoices read from your folders inside a Perplexity thread.
+- [Connect Dropbox to Claude](../connect-dropbox-to-claude.md) - contracts, decks and invoices read from your own folders inside a Claude thread.
 
 ---
 
@@ -35289,6 +36242,7 @@ Read-only. CorpusIQ never confirms orders, posts invoices, or moves stock.
 
 - [Connect Odoo to ChatGPT](../connect-odoo-to-chatgpt.md) - quotations, invoices, stock and pipeline across ERP modules in one ChatGPT thread.
 - [Connect Odoo to Perplexity](../connect-odoo-to-perplexity.md) - quotations, invoices, stock and pipeline across ERP modules in one Perplexity thread.
+- [Connect Odoo to Claude](../connect-odoo-to-claude.md) - quotations, invoices, stock and projects across ERP modules inside a Claude thread.
 
 ---
 
@@ -35801,6 +36755,7 @@ Read-only. CorpusIQ never spends Semrush units beyond the queries you ask for.
 
 - [Connect Semrush to ChatGPT](../connect-semrush-to-chatgpt.md) - competitor keywords, backlinks and demand sizing inside a ChatGPT thread.
 - [Connect Semrush to Perplexity](../connect-semrush-to-perplexity.md) - competitor keywords, backlinks and demand sizing inside a Perplexity thread.
+- [Connect Semrush to Claude](../connect-semrush-to-claude.md) - competitor keywords and backlink profiles read inside a Claude thread.
 
 ---
 
@@ -36200,6 +37155,7 @@ Read-only. CorpusIQ never posts, deletes, comments, or follows.
 
 - [Connect TikTok to ChatGPT](../connect-tiktok-to-chatgpt.md) - per-video performance and channel trend questions inside a ChatGPT thread.
 - [Connect TikTok to Perplexity](../connect-tiktok-to-perplexity.md) - per-video performance and channel trend questions inside a Perplexity thread.
+- [Connect TikTok to Claude](../connect-tiktok-to-claude.md) - video performance and channel comparisons read inside a Claude thread.
 
 ---
 

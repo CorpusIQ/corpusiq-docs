@@ -141,12 +141,20 @@
          <lastmod>2026-11-08</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/connect-activecampaign-to-claude</loc>
+         <lastmod>2026-11-16</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/connect-activecampaign-to-perplexity</loc>
          <lastmod>2026-11-08</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connect-ahrefs-to-chatgpt</loc>
          <lastmod>2026-11-08</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/connect-ahrefs-to-claude</loc>
+         <lastmod>2026-11-16</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connect-ahrefs-to-perplexity</loc>
@@ -195,6 +203,10 @@
     <url>
          <loc>https://www.corpusiq.io/docs/connect-dropbox-to-chatgpt</loc>
          <lastmod>2026-11-08</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/connect-dropbox-to-claude</loc>
+         <lastmod>2026-11-16</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connect-dropbox-to-perplexity</loc>
@@ -373,6 +385,10 @@
          <lastmod>2026-11-08</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/connect-odoo-to-claude</loc>
+         <lastmod>2026-11-16</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/connect-odoo-to-perplexity</loc>
          <lastmod>2026-11-08</lastmod>
     </url>
@@ -437,6 +453,10 @@
          <lastmod>2026-11-08</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/connect-semrush-to-claude</loc>
+         <lastmod>2026-11-16</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/connect-semrush-to-perplexity</loc>
          <lastmod>2026-11-08</lastmod>
     </url>
@@ -487,6 +507,10 @@
     <url>
          <loc>https://www.corpusiq.io/docs/connect-tiktok-to-chatgpt</loc>
          <lastmod>2026-11-08</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/connect-tiktok-to-claude</loc>
+         <lastmod>2026-11-16</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connect-tiktok-to-perplexity</loc>
@@ -1142,7 +1166,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes</loc>
-         <lastmod>2026-11-14</lastmod>
+         <lastmod>2026-11-17</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/agent-marketplace</loc>
@@ -1282,7 +1306,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/best-practices/cron-design</loc>
-         <lastmod>2026-11-07</lastmod>
+         <lastmod>2026-11-16</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/best-practices/local-coding-agent</loc>
@@ -1306,7 +1330,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/best-practices/security</loc>
-         <lastmod>2026-11-07</lastmod>
+         <lastmod>2026-11-16</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/best-practices/skill-development</loc>
@@ -1338,7 +1362,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/changelog</loc>
-         <lastmod>2026-11-10</lastmod>
+         <lastmod>2026-11-17</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/changelog/v0.10.0</loc>
@@ -1503,6 +1527,10 @@
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/changelog/v0.23.1</loc>
          <lastmod>2026-11-10</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/changelog/v0.23.2</loc>
+         <lastmod>2026-11-17</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/changelog/v0.3.0</loc>
@@ -4637,6 +4665,10 @@
          <lastmod>2026-11-01</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/kote-charts-mcp</loc>
+         <lastmod>2026-11-16</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/kresmion-mcp</loc>
          <lastmod>2026-11-01</lastmod>
     </url>
@@ -5623,6 +5655,10 @@
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/podbenchmark-mcp</loc>
          <lastmod>2026-11-01</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/podseeker-mcp</loc>
+         <lastmod>2026-11-16</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/pointrover-mcp</loc>
@@ -7641,6 +7677,10 @@
          <lastmod>2026-11-15</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-november16-2026-midday-supplement</loc>
+         <lastmod>2026-11-16</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-november16-2026-midday</loc>
          <lastmod>2026-11-16</lastmod>
     </url>
@@ -8582,7 +8622,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/setup/cloud-vps</loc>
-         <lastmod>2026-11-07</lastmod>
+         <lastmod>2026-11-16</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/setup/corpusiq-cron-patterns</loc>
@@ -8594,15 +8634,15 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/setup/docker</loc>
-         <lastmod>2026-11-07</lastmod>
+         <lastmod>2026-11-16</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/setup/gaming-pc</loc>
-         <lastmod>2026-11-07</lastmod>
+         <lastmod>2026-11-16</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/setup/mac-mini-standalone</loc>
-         <lastmod>2026-11-07</lastmod>
+         <lastmod>2026-11-16</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/setup/raspberry-pi</loc>
@@ -14406,7 +14446,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/troubleshooting</loc>
-         <lastmod>2026-11-07</lastmod>
+         <lastmod>2026-11-16</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/troubleshooting/corpusiq</loc>
