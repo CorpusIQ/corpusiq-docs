@@ -3,7 +3,7 @@ title: "Troubleshooting Guide - CorpusIQ Docs"
 description: "The six most common CorpusIQ problems and their fixes: connection errors, missing data, authentication failures, and assistants that cannot see your connectors."
 canonical: "https://www.corpusiq.io/docs/hermes/troubleshooting/"
 robots: "index,follow"
-last_updated: "2026-11-07"
+last_updated: "2026-11-16"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---
@@ -60,7 +60,7 @@ ping -c 10 <mcp-server-host>
 - **Rate limiting:** External API the MCP server calls is rate-limiting
 - **Connection pool exhaustion:** Too many concurrent agent threads exhausting MCP connection pool
 
-**Fix:** Increase MCP timeout in config (`mcp_timeout: 60`), implement retry with backoff, or add connection pooling.
+**Fix:** Raise the timeouts on that server's own entry in `config.yaml` - `timeout` bounds each tool call and `connect_timeout` bounds the initial connection and the MCP `initialize` handshake. There is no global `mcp_timeout` key; timeouts are per server. Then let transient failures retry with backoff rather than retrying in a tight loop.
 
 ### Symptom: Specific tool always fails while others work
 
@@ -217,33 +217,28 @@ hermes cron edit <job_id>                # widen the schedule if runs are collid
 
 Jobs that depend on other jobs (`context_from`) fail when the upstream fails.
 
-**Fix:** Make chains resilient:
+**Fix:** `context_from` takes one job id or a list of them, nothing else - there is no `primary:`/`fallback:`/`max_staleness_hours:` mapping. List the upstream jobs in priority order so the second one covers when the first has no output, and check the upstream job's own state before blaming the chain:
 
-```yaml
-# Instead of hard dependency
-context_from: "daily_data_sync"
-
-# Use fallback chain
-context_from:
-  primary: "daily_data_sync"
-  fallback: "daily_data_sync_cached"  # Uses yesterday's data
-  max_staleness_hours: 48             # Alert if fallback is too stale
+```text
+context_from: ["daily_data_sync", "daily_data_sync_cached"]
 ```
+
+Outputs are concatenated in the order listed, silent ticks and empty outputs are skipped when the context is assembled, and error documents stay eligible so the next run still gets recovery context. If the upstream really is stale, `hermes cron runs --limit 5 <job_id>` reports `last_error` / `last_fire_error` for it - fix that job rather than teaching the consumer to guess.
 
 ### Cron Monitoring Setup
 
-```yaml
-# hermes/cron/monitor_all_crons.yaml
-name: cron_health_monitor
-schedule: "*/15 * * * *"  # Every 15 minutes
-task: monitor.check_all_crons
-params:
-  alert_on:
-    - "consecutive_failures >= 2"
-    - "last_run > 2x schedule_interval"
-    - "output_size_decreased > 80%"
-  alert_channel: "ops-alerts"
+There is no separate cron monitor config file and no `alert_channel:` key. Jobs live in one flat `~/.hermes/cron/jobs.json` table, so the monitor is itself a cron job - a no-agent script job whose only job is to look at the others:
+
+```bash
+# Script is a file under $HERMES_HOME/scripts/, never a command line
+hermes cron create "*/15 * * * *" \
+  --no-agent \
+  --script cron-health.sh \
+  --name cron-health \
+  --deliver local
 ```
+
+The script prints nothing while every job's `last_status` is `ok` (empty stdout is a silent tick, so a healthy fleet stays quiet) and prints one line per problem job. A non-zero exit or a timeout raises its own alert, so a broken watchdog cannot fail silently. `hermes cron doctor` runs the built-in consistency checks over the same table, and `--failure-deliver` keeps failure notices pointed at a channel that survives when a job's normal delivery target is broken.
 
 ## Browser Automation Failures
 
@@ -251,27 +246,24 @@ Browser automation is inherently fragile. Websites change, CAPTCHAs appear, and 
 
 ### Symptom: "Browser executable doesn't exist"
 
-**Diagnosis:**
+**Diagnosis:** Hermes picks the first Chromium that exists, in this order: `browser.executable_path` in `config.yaml`, the Chromium installed by the package manager, `/etc/hermes/chromium-executable-path` (official Docker image), then a system `chromium` / `chromium-browser` on `PATH`. `agent-browser` is a retired package name that now maps to `chromium`, so a `~/.agent-browser/config.json` from an older install is not read at all.
+
+**Fix:** Install or repair the packaged Chromium, then point at an explicit binary only if you need a different build:
 
 ```bash
-# Check installed browsers
-npx playwright install --dry-run
-
-# Check current config
-cat ~/.agent-browser/config.json
+hermes pm install chromium        # also undoes an earlier --skip-browser choice
+npx playwright install-deps chromium   # Debian/Ubuntu system libraries
 ```
 
-**Fix (ARM64/Linux):**
-
-```json
-// ~/.agent-browser/config.json
-{
-  "executablePath": "/path/to/chromium-1223/chrome",
-  "args": ["--headless=new", "--no-sandbox", "--disable-dev-shm-usage"]
-}
+```yaml
+# ~/.hermes/config.yaml
+browser:
+  executable_path: ""     # "" = the packaged Chromium
+  chromium_args: ["--no-sandbox", "--disable-dev-shm-usage"]
+  headed: false
 ```
 
-On aarch64 systems, standard Chrome/Chromium paths don't work. Use Playwright's bundled Chromium and specify the path explicitly.
+`browser.executable_path` accepts a path or a bare command name. On aarch64 Linux where no packaged build exists, install a system Chromium and leave `executable_path` empty so the `PATH` fallback finds it.
 
 ### Symptom: Browser times out on navigation
 
@@ -352,11 +344,13 @@ hermes config show
 
 **Common routing problems:**
 
+Hermes does not have a task-type routing table: the model is whatever `model.default` / `model.provider` resolve to, a per-job cron pin, or the active fallback chain. That makes every one of these a configuration question, not a rule to add:
+
 | Problem | Cause | Fix |
 |---|---|---|
-| Premium model for simple classification | No routing rule for classification tasks | Add `task_type: classification → tier: lightweight` |
-| Lightweight model for complex reasoning | Task complexity underestimated | Add `min_complexity: 7 → tier: premium` rule |
-| Model from wrong provider | Provider priority misconfigured | Set `provider_preference` in routing config |
+| Premium model for simple classification | The session is running the default model | Set a cheaper default, or pin just that job: `hermes cron edit <job_id> --model <cheap-model>` |
+| Lightweight model for complex reasoning | No per-task escalation exists | Switch that conversation with `/model`, or pin a stronger model on the job that needs it |
+| Model from the wrong provider | `model.provider` and `model.default` disagree | Run `hermes model` - it writes both keys together |
 
 ### Symptom: "Model not found" or provider errors
 
@@ -394,23 +388,22 @@ hermes insights --days 7 --source cli
 
 **Optimization:**
 
-```yaml
-# hermes/config/models.yaml
-routing:
-  default_tier: "standard"  # Don't default to premium
-  cost_ceiling_daily: 5.00  # Hard stop at $5/day
+```bash
+# What the last 7 days actually cost, and which sessions drove it
+hermes insights --days 7
 
-  rules:
-    - task_type: "classification"
-      tier: "lightweight"
-    - task_type: "formatting"
-      tier: "lightweight"
-    - task_type: "summarization"
-      tier: "standard"
-    - task_type: "strategic_analysis"
-      tier: "premium"
-      max_daily_calls: 20  # Cap premium calls
+# Shrink the fixed prompt before a single token is billed
+hermes prompt-size
+hermes tools disable <toolset>
+
+# Keep the scheduled fleet on a cheap model without touching your chat model
+hermes config set cron.model <cheap-model>
+
+# Cheap primary, stronger provider takes over only on failure
+hermes fallback add
 ```
+
+There is no `cost_ceiling_daily` or `routing:` block in a `models.yaml` - a hard spend stop is a provider-side budget on the API key, not a Hermes config key. Hermes itself gives you the per-session cost breakdown, the per-job cron model pin, and the fallback chain.
 
 ## Gateway Crashes
 
@@ -516,22 +509,17 @@ ssh user@worker-node.local
 
 ### Worker Node Health Check
 
-```yaml
-# hermes/cron/worker_health.yaml
-name: worker_node_health
-schedule: "*/5 * * * *"
-task: health.check_worker_node
-params:
-  host: "worker-node.local"
-  checks:
-    - ssh_connectivity
-    - disk_usage
-    - memory_usage
-    - browser_driver_status
-    - content_queue_depth
-  alert_on_failure: true
-  alert_channel: "ops-alerts"
+Cron jobs are created through the CLI (or the `cronjob_manage` tool), not by dropping a YAML file into a directory. A worker check is a no-agent script job: the script runs on the worker-facing host and stays silent while everything is healthy.
+
+```bash
+hermes cron create "*/5 * * * *" \
+  --no-agent \
+  --script worker-health.sh \
+  --name worker-health \
+  --deliver local
 ```
+
+Put the checks in the script itself (`ssh`, `df`, `free`, browser driver, queue depth) and make it exit non-zero on failure - a non-zero exit or timeout is delivered as an alert, while empty stdout is a silent tick. `--failure-deliver` routes those failure notices to a channel that survives when the job's normal delivery target is down.
 
 ## Quick Reference: Recovery Commands
 
