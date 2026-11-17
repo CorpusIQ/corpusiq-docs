@@ -1,18 +1,18 @@
 ---
 title: "Hermes Ecosystem - Complete Resource Directory"
-description: "The definitive directory of Hermes Agent resources - 456+ repos, docs, community tools, SDKs, integrations, benchmarks, and research"
+description: "The definitive directory of Hermes Agent resources - 457+ repos, docs, community tools, SDKs, integrations, benchmarks, and research"
 canonical: "https://www.corpusiq.io/docs/hermes/ecosystem/"
 robots: "index,follow"
-last_updated: "2026-11-16"
+last_updated: "2026-11-17"
 tags: ["hermes ecosystem", "agent ecosystem", "community"]
 
 ---
 
 # Hermes Ecosystem - Complete Resource Directory
 
-The most comprehensive directory of Hermes Agent resources in existence. 456+ repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research - all organized and cross-referenced.
+The most comprehensive directory of Hermes Agent resources in existence. 457+ repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research - all organized and cross-referenced.
 
-> **Last updated:** November 16, 2026 · **Repos indexed:** 456+ · **Categories:** 18
+> **Last updated:** November 17, 2026 · **Repos indexed:** 457+ · **Categories:** 18
 >
 > 👉 **[Submit a repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)** · Missing something? [Open a PR →](https://github.com/CorpusIQ/corpusiq-docs)
 
@@ -26,7 +26,7 @@ The most comprehensive directory of Hermes Agent resources in existence. 456+ re
 | [Documentation & Learning](#documentation-learning) | 4 | [↓](#documentation-learning) |
 | [Community & Awesome Lists](#community-awesome-lists) | 31 | [↓](#community-awesome-lists) |
 | [UI & Dashboards](#ui-dashboards) | 26 | [↓](#ui-dashboards) |
-| [Memory & Knowledge](#memory-knowledge) | 35 | [↓](#memory-knowledge) |
+| [Memory & Knowledge](#memory-knowledge) | 36 | [↓](#memory-knowledge) |
 | [MCP & Integrations](#mcp-integrations) | 51 | [↓](#mcp-integrations) |
 | [Skills & Plugins](#skills-plugins) | 106 | [↓](#skills-plugins) |
 | [Tools & Utilities](#tools-utilities) | 62 | [↓](#tools-utilities) |
@@ -466,7 +466,7 @@ GitHub's official community-contributed instructions, agents, skills, and config
 ### CorpusIQ/corpusiq-docs/hermes ← YOU ARE HERE
 ⭐ **[Star this repo →](https://github.com/CorpusIQ/corpusiq-docs)**
 
-The most comprehensive Hermes production resource: 1,700+ pages, 456+ repos indexed, 1,137+ skills cataloged, 40+ MCP connectors, production-cron reference architecture, memory stack deep-dives, deployment patterns. Everything the official docs don't cover.
+The most comprehensive Hermes production resource: 1,700+ pages, 457+ repos indexed, 1,137+ skills cataloged, 40+ MCP connectors, production-cron reference architecture, memory stack deep-dives, deployment patterns. Everything the official docs don't cover.
 
 **Related:** [Architecture →](/hermes/architecture) · [Knowledge →](/hermes/knowledge) · [Crons →](/hermes/governance/scheduling) · [MCP →](/hermes/mcp)
 
@@ -869,6 +869,17 @@ One brain, many harnesses. Portable `.agent/` folder (memory + skills + config) 
 The Zero-Dependency, Sub-Millisecond AI Memory System for Hermes Agents and Everyone Else. Production-grade local memory with zero external dependencies - battle-tested across agents, AI, ML, and Nous Research workflows.
 
 **Key capabilities:** Zero dependencies, sub-ms retrieval, local-first, Hermes-native, agents/AI/ML ecosystem
+
+---
+
+### tommy0103/obelisk
+⭐ **950** · `JavaScript` · [github.com/tommy0103/obelisk](https://github.com/tommy0103/obelisk)
+
+Indexes your local coding-agent history into one SQLite database and serves it to two audiences: agents query it through an `obelisk` CLI plus a skill that teaches them to search their own past sessions, and humans browse it through an Electron app with session, memory, and usage views. Watches the provider directories of Hermes Agent, Claude Code, Codex, Copilot, Kiro, Kimi Code, OpenCode, Pi, and more, turning scattered JSONL transcripts into sub-millisecond `search()` and `sql()` calls.
+
+**Maintainer:** tommy0103 · **License:** AGPL-3.0 · **Homepage:** [obelisk.antinomie.org](https://obelisk.antinomie.org)
+**Key capabilities:** Session-history indexing across 12+ coding agents, local SQLite store at `~/.obelisk/obelisk.sqlite`, agent-driven JS query layer, subagent and workflow outcome search, desktop browser app, weekly recap cards
+**Related:** [Memory Stack →](/hermes/knowledge) · [Knowledge Architecture →](/hermes/knowledge)
 
 ---
 
@@ -4570,7 +4581,7 @@ Community wiki with deployment patterns and configuration recipes. Crowd-sourced
 
 | Metric | Value |
 |--------|-------|
-| Total repos indexed | 456 |
+| Total repos indexed | 457 |
 | Categories | 18 |
 | Official Nous Research repos | 6 |
 | Community awesome lists | 31 |
@@ -4647,7 +4658,7 @@ This directory is maintained by [CorpusIQ](https://corpusiq.io). New resources a
 - Skills and plugins
 - Language-specific resources
 
-> **📊 Ecosystem Stats:** 456 repos · 18 categories · 1M+ community stars · 106 skill collections · 51 MCP integrations · 27 domain applications
+> **📊 Ecosystem Stats:** 457 repos · 18 categories · 1M+ community stars · 106 skill collections · 51 MCP integrations · 27 domain applications
 
 ---
 
@@ -4655,7 +4666,7 @@ This directory is maintained by [CorpusIQ](https://corpusiq.io). New resources a
 
 ### What is the Hermes Ecosystem Directory?
 
-The **Hermes Ecosystem Directory** is the most comprehensive collection of Hermes Agent resources in existence - **456+ repositories** organized across 18 categories including core tools, UIs, memory systems, MCP integrations, skills, deployment, research, and domain applications. It's the definitive map of the Hermes universe.
+The **Hermes Ecosystem Directory** is the most comprehensive collection of Hermes Agent resources in existence - **457+ repositories** organized across 18 categories including core tools, UIs, memory systems, MCP integrations, skills, deployment, research, and domain applications. It's the definitive map of the Hermes universe.
 
 ### How do I find tools and resources for Hermes Agent?
 

@@ -23174,5 +23174,103 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-11-17T05:04:19.703816+00:00"
+  },
+  {
+    "repo": "ondrejkrpec/haven",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-17T11:33:51.642070+00:00"
+  },
+  {
+    "repo": "ChillCodeForge/hermes-self-improvement",
+    "score": 42,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-17T11:33:51.642074+00:00"
+  },
+  {
+    "repo": "electricsheephq/heartbeat2",
+    "score": 69,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-17T11:33:51.642077+00:00"
+  },
+  {
+    "repo": "hitly-net/hitly",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-17T11:33:51.642078+00:00"
+  },
+  {
+    "repo": "omnim-ai/hermes-artifactbridge",
+    "score": 42,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-17T11:33:51.642080+00:00"
+  },
+  {
+    "repo": "zimza1abim/hermes-next-ios",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-17T11:33:51.642083+00:00"
+  },
+  {
+    "repo": "zimza1abim/hermes-next-android",
+    "score": 62,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-17T11:33:51.642084+00:00"
+  },
+  {
+    "repo": "Chamoouske/agsync",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-17T11:33:51.642086+00:00"
+  },
+  {
+    "repo": "XibalbaTechSol/super-cortex",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-17T11:33:51.642088+00:00"
+  },
+  {
+    "repo": "Micraow/hermes-openui",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-17T11:33:51.642090+00:00"
+  },
+  {
+    "repo": "Uniterra-Solutions/tidy-up-your-thoughts",
+    "score": 48,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-17T11:33:51.642092+00:00"
+  },
+  {
+    "repo": "tommy0103/obelisk",
+    "score": 75,
+    "tier": "AUTO_APPROVE",
+    "action": "auto_approved",
+    "timestamp": "2026-11-17T11:33:51.642094+00:00"
+  },
+  {
+    "repo": "zxg0919/hermes-agent",
+    "score": 36,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-17T11:33:51.642096+00:00"
+  },
+  {
+    "repo": "jainanushk8/ai-lead-management-system",
+    "score": 58,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-17T11:33:51.642097+00:00"
   }
 ]

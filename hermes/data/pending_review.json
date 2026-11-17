@@ -97812,5 +97812,410 @@
     ],
     "discovered_at": "2026-11-17T05:03:48.619729+00:00",
     "status": "pending"
+  },
+  {
+    "name": "ondrejkrpec/haven",
+    "url": "https://github.com/ondrejkrpec/haven",
+    "description": "Personal agent system built around Hermes, with versioned configuration and reproducible documentation",
+    "stars": 1,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-11-11T13:29:07Z",
+    "category": "core",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-11-17T11:31:15.189761+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "ChillCodeForge/hermes-self-improvement",
+    "url": "https://github.com/ChillCodeForge/hermes-self-improvement",
+    "description": "A safety-gated self-improvement framework for Hermes Agent with separate generator, evaluator, and promoter roles.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-16T14:26:05Z",
+    "category": "core",
+    "score": 42,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_quarter"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory",
+      "EternalNight996/memory-eternal"
+    ],
+    "discovered_at": "2026-11-17T11:31:15.191746+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "electricsheephq/heartbeat2",
+    "url": "https://github.com/electricsheephq/heartbeat2",
+    "description": "Give your Hermes agent a working life between messages: wakes, watchers and roles, within daily turn and message caps.",
+    "stars": 17,
+    "forks": 3,
+    "language": "Python",
+    "topics": [
+      "ai-agent",
+      "ai-agents",
+      "heartbeat",
+      "hermes",
+      "hermes-agent",
+      "hermes-plugin",
+      "proactive-agents"
+    ],
+    "updated_at": "2026-11-17T02:41:10Z",
+    "category": "core",
+    "score": 69,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "agent_ecosystem",
+      "some_stars_10+",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "EternalNight996/memory-eternal"
+    ],
+    "discovered_at": "2026-11-17T11:31:15.193699+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "hitly-net/hitly",
+    "url": "https://github.com/hitly-net/hitly",
+    "description": "Human-in-the-loop approval inbox for any agent (Open source, Mastra, Hermes, HTTP, LangGraph, and Temporal)",
+    "stars": 1,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-11-16T22:16:49Z",
+    "category": "core",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-11-17T11:31:15.195621+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "omnim-ai/hermes-artifactbridge",
+    "url": "https://github.com/omnim-ai/hermes-artifactbridge",
+    "description": "Experimental ArtifactBridge delegation tools for unmodified Hermes Agent",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-21T12:53:55Z",
+    "category": "core",
+    "score": 42,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_month"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-11-17T11:31:15.197194+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "zimza1abim/hermes-next-ios",
+    "url": "https://github.com/zimza1abim/hermes-next-ios",
+    "description": "Native iPhone and iPad client for a Hermes Webapp server: chats, bots, cron, MCP and plugins in SwiftUI.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Swift",
+    "topics": [
+      "ai-assistant",
+      "chat-client",
+      "hermes",
+      "hermes-agent",
+      "ios",
+      "ipados",
+      "mcp",
+      "swift",
+      "swiftui",
+      "websocket"
+    ],
+    "updated_at": "2026-11-17T02:28:56Z",
+    "category": "mcp",
+    "score": 49,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-11-17T11:31:23.928069+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "zimza1abim/hermes-next-android",
+    "url": "https://github.com/zimza1abim/hermes-next-android",
+    "description": "Hermes Next: a native Android client for the Hermes Agent Webapp. Chats, bots, cron, skills and MCP without the web page, with instant background alerts.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Kotlin",
+    "topics": [
+      "ai-assistant",
+      "android",
+      "chat-client",
+      "hermes",
+      "hermes-agent",
+      "jetpack-compose",
+      "kotlin",
+      "llm",
+      "material3",
+      "mcp",
+      "nous-research",
+      "websocket"
+    ],
+    "updated_at": "2026-11-17T02:28:04Z",
+    "category": "mcp",
+    "score": 62,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "1Panel-dev/1Panel",
+      "awizemann/scarf",
+      "Romanescu11/hermes-skill-factory",
+      "unmodeled-tyler/vessel-browser",
+      "Sibyl-Labs/Sibyl-Memory",
+      "itechmeat/open-second-brain",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "mlennie/hermes-mcp",
+      "chrisryugj/hermes-dashboard",
+      "ksimback/hermes-atlas-mcp",
+      "ahonore42/logios-brain",
+      "zakahadi/llm-eval-cli",
+      "hermeshub",
+      "ruvnet/metaharness",
+      "pyrate-llama/hermes-ui",
+      "MemTensor/memmy-agent",
+      "cogwheel0/conduit",
+      "moonlight-lupin/agent-skills",
+      "stablyai/orca",
+      "cedricziel/hermes-app",
+      "rusty4444/hermes-android",
+      "dfrostar/neuralmind",
+      "EternalNight996/memory-eternal"
+    ],
+    "discovered_at": "2026-11-17T11:31:23.929881+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Chamoouske/agsync",
+    "url": "https://github.com/Chamoouske/agsync",
+    "description": "Sincroniza MCPs e skills de um repo git para Claude Code, Codex, OpenCode e Hermes",
+    "stars": 0,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [],
+    "updated_at": "2026-11-14T11:16:41Z",
+    "category": "mcp",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-11-17T11:31:23.931511+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "XibalbaTechSol/super-cortex",
+    "url": "https://github.com/XibalbaTechSol/super-cortex",
+    "description": "Local, provenance-aware graph memory MCP server for Hermes Agent",
+    "stars": 1,
+    "forks": 0,
+    "language": "HTML",
+    "topics": [],
+    "updated_at": "2026-11-17T09:41:31Z",
+    "category": "mcp",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "itechmeat/open-second-brain"
+    ],
+    "discovered_at": "2026-11-17T11:31:23.933422+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Micraow/hermes-openui",
+    "url": "https://github.com/Micraow/hermes-openui",
+    "description": "Streaming, interactive OpenUI answers for Hermes Agent \u2014 plugin + skill, no host patches.",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [
+      "agent-skills",
+      "generative-ui",
+      "hermes-agent",
+      "openui",
+      "react"
+    ],
+    "updated_at": "2026-11-17T05:34:35Z",
+    "category": "skills",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-11-17T11:31:32.680370+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Uniterra-Solutions/tidy-up-your-thoughts",
+    "url": "https://github.com/Uniterra-Solutions/tidy-up-your-thoughts",
+    "description": "Hermes plugin: five bundled skills that turn a vague idea into a cited report and diagrams \u2014 Socratic questioning, lens-based refine, mermaid visualisation, report writing, and retrospection on the process itself.",
+    "stars": 1,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "agent-skills",
+      "ai-agents",
+      "brainstorming",
+      "hermes-agent",
+      "hermes-plugin",
+      "knowledge-management",
+      "llm",
+      "markdown",
+      "mermaid",
+      "note-taking",
+      "pkm",
+      "plugin",
+      "second-brain",
+      "thinking",
+      "writing"
+    ],
+    "updated_at": "2026-11-16T16:20:56Z",
+    "category": "skills",
+    "score": 48,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory",
+      "cx2002302-lang/zettelkasten-second-memory"
+    ],
+    "discovered_at": "2026-11-17T11:31:32.684892+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "zxg0919/hermes-agent",
+    "url": "https://github.com/zxg0919/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 1,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-05-03T03:59:42Z",
+    "category": "forks",
+    "score": 36,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "stale",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "awesome-hermes-agent",
+      "zcweah1981/awesome-hermes-agent-zh",
+      "Anil-matcha/awesome-hermes-agent",
+      "aivrar/portable-hermes-agent",
+      "bablobanov/hermes-agent-telegram-dashboard"
+    ],
+    "discovered_at": "2026-11-17T11:31:40.737210+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "jainanushk8/ai-lead-management-system",
+    "url": "https://github.com/jainanushk8/ai-lead-management-system",
+    "description": "End-to-end AI-powered lead intake, scoring, and management system. Built with FastAPI, SQLite (ACID/WAL), local Ollama (NousResearch Hermes 3), autonomous tool-calling AI agent, n8n workflow automation, and Gamma AI analytics reporting.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "ai-agent",
+      "ai-automation",
+      "ai-ops",
+      "automnomous-agent",
+      "fastapi",
+      "function-calling",
+      "gamma-ai",
+      "hermes-3",
+      "lead-management",
+      "lead-scoring",
+      "llm",
+      "n8n",
+      "ollama",
+      "pydantic-ai",
+      "python3",
+      "rest-api",
+      "sales-automation",
+      "sqlite",
+      "tool-calling",
+      "workflow-automation"
+    ],
+    "updated_at": "2026-11-17T08:53:25Z",
+    "category": "ui",
+    "score": 58,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "unmodeled-tyler/vessel-browser",
+      "anomaliagent007-hue/hermes-mimo-bridge"
+    ],
+    "discovered_at": "2026-11-17T11:33:20.309189+00:00",
+    "status": "pending"
   }
 ]
