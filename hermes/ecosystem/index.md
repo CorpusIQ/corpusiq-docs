@@ -4586,7 +4586,7 @@ Community wiki with deployment patterns and configuration recipes. Crowd-sourced
 | Official Nous Research repos | 6 |
 | Community awesome lists | 31 |
 | UI/Dashboard projects | 26 |
-| Memory systems | 35 |
+| Memory systems | 36 |
 | MCP integrations | 51 |
 | Skill collections & plugins | 106 |
 | Tools & utilities | 62 |
