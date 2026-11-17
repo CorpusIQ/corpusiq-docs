@@ -55,17 +55,20 @@ Apply: `wsl --shutdown` in PowerShell, then reopen WSL.
 
 ### Step 3: GPU Passthrough (NVIDIA)
 
+Install the latest NVIDIA Windows display driver for your GPU - that single install maps CUDA into WSL:
+
 ```powershell
-# In PowerShell - install NVIDIA WSL2 driver
-winget install --id=Nvidia.CUDA -e
+# Download the GeForce / RTX production driver for your GPU from https://www.nvidia.com/drivers/
+# Not the CUDA toolkit, and no Linux driver is involved
 ```
 
-Inside WSL:
+Inside WSL, confirm the mapping instead of installing a driver:
 
 ```bash
-nvidia-smi  # Should show your GPU
-sudo apt install nvidia-utils-550  # If not found
+nvidia-smi   # Should show your GPU (WSL exposes a reduced feature set)
 ```
+
+Do **not** install a Linux NVIDIA driver inside WSL. `nvidia-utils-*`, `cuda-drivers` and `nvidia-open` overwrite the driver mapped in from Windows and break CUDA; install only the CUDA Toolkit packages if you need to compile.
 
 ### Step 4: Install Dependencies
 
@@ -79,7 +82,8 @@ sudo apt install -y git curl tar ffmpeg
 Install Node.js separately only if your own tooling needs a system-wide copy:
 
 ```bash
-curl -fsSL https://deb.nodesource.com/setup_24.x | sudo -E bash -
+# Node 26 is the current LTS line (LTS since October 2026)
+curl -fsSL https://deb.nodesource.com/setup_26.x | sudo -E bash -
 sudo apt install -y nodejs
 ```
 
@@ -107,7 +111,8 @@ curl -fsSL https://ollama.com/install.sh | sh
 ollama pull llama3.2
 ollama pull nomic-embed-text
 ollama pull qwen2.5:14b  # If 12GB+ VRAM
-ollama run llama3.2 --verbose | grep -i cuda  # Verify GPU
+ollama run llama3.2                            # Loads the model
+ollama ps                                      # PROCESSOR column shows the GPU/CPU split
 ```
 
 ### Step 7: Filesystem Strategy

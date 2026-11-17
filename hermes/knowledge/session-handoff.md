@@ -46,10 +46,10 @@ This isn't a diary. It's a machine-readable checkpoint. Just the facts needed to
 
 The session-start skill includes automatic context recovery. Before doing anything else:
 
-1. Read `TASK_HISTORY.md` (last 50 lines)
-2. Query `session_search()` for recent sessions
-3. Query GBrain for pages tagged `active-task`
-4. Reconstruct and present: "Here's what we were doing..."
+1. Pull the peer representation from Honcho (identity, standing decisions, bans)
+2. Query GBrain for the latest handoff page tagged `active-task`
+3. Query `session_search()` for recent sessions
+4. Read `TASK_HISTORY.md` (last 50 lines)
 
 The agent doesn't wait to be asked. Recovery is automatic.
 
@@ -67,10 +67,11 @@ corpusiq-session-handoff skill
 
 Session Start
     ↓
-corpusiq-session-start skill (Step 6: Context Recovery)
-    ├── Reads TASK_HISTORY.md
-    ├── Queries session_search for last sessions
+corpusiq-session-start skill (memory-first context recovery)
+    ├── Loads the Honcho peer representation
     ├── Queries GBrain for active-task tagged pages
+    ├── Queries session_search for last sessions
+    ├── Reads TASK_HISTORY.md
     ├── Reconstructs state
     └── Reports: "Resuming X, Y blocked, Z pending"
 ```
@@ -93,7 +94,7 @@ Two skills power this:
 
 **`corpusiq-session-handoff`** - Runs at session end. Writes structured state. Tags GBrain pages. Appends to TASK_HISTORY.md.
 
-**`corpusiq-session-start`** - Runs at session start. Step 6 recovers context from TASK_HISTORY.md, session_search, and GBrain before any other action.
+**`corpusiq-session-start`** - Runs at session start. Its memory-first context-recovery step pulls the Honcho representation, the latest GBrain handoff page, `session_search` history and TASK_HISTORY.md before any other action.
 
 ## Why This Works
 
