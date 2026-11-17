@@ -47,6 +47,11 @@ CorpusIQ never creates campaigns, changes budgets, or modifies ads.
 - **Campaign analytics return zero** - Check the date range. LinkedIn Ads reporting may lag by 24-48 hours.
 - **Auth fails** - Reset the LinkedIn Ads connector in your dashboard and reconnect with the correct LinkedIn account.
 
+## See also
+
+- [Connect LinkedIn Ads to ChatGPT](../connect-linkedin-ads-to-chatgpt.md) - campaign spend, creatives and clicks inside a ChatGPT thread.
+- [Connect LinkedIn Ads to Perplexity](../connect-linkedin-ads-to-perplexity.md) - campaign spend, creatives and clicks inside a Perplexity thread.
+
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
