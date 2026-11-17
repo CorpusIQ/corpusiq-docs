@@ -15,7 +15,21 @@ import sys
 import time
 
 import requests
-import yaml
+
+try:
+    import yaml
+except ModuleNotFoundError:
+    # The interpreter first on PATH in agent/cron shells has no PyYAML, so this
+    # script died at import with a traceback that looked like a deploy failure
+    # while the mirror simply stayed stale (v0.23.2 tick, 2026-11-16). Re-exec
+    # once with an interpreter that can import yaml instead of failing loudly in
+    # a way nobody reads.
+    for _cand in ("/home/hermes/hermes-agent-venv/bin/python3", "/usr/bin/python3"):
+        if os.path.isfile(_cand) and os.path.realpath(_cand) != os.path.realpath(sys.executable):
+            if subprocess.run([_cand, "-c", "import yaml"],
+                              capture_output=True).returncode == 0:
+                os.execv(_cand, [_cand, os.path.abspath(__file__)] + sys.argv[1:])
+    raise
 
 
 def _ensure_mkdocs_on_path():
