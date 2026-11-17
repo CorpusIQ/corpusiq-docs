@@ -1526,7 +1526,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/changelog/v0.23.1</loc>
-         <lastmod>2026-11-10</lastmod>
+         <lastmod>2026-11-16</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/changelog/v0.23.2</loc>
@@ -1710,7 +1710,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/contributors</loc>
-         <lastmod>2026-11-16</lastmod>
+         <lastmod>2026-11-17</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/data</loc>
@@ -1722,7 +1722,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/ecosystem</loc>
-         <lastmod>2026-11-16</lastmod>
+         <lastmod>2026-11-17</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/ecosystem/august-2026</loc>
@@ -1938,7 +1938,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external</loc>
-         <lastmod>2026-11-16</lastmod>
+         <lastmod>2026-11-17</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/1clickreport-mcp</loc>
@@ -7310,7 +7310,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps</loc>
-         <lastmod>2026-11-16</lastmod>
+         <lastmod>2026-11-17</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-aug26-2026-afternoon</loc>
@@ -9089,6 +9089,10 @@
          <lastmod>2026-11-02</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/anycap-setup</loc>
+         <lastmod>2026-11-17</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/anysearch-skill-setup</loc>
          <lastmod>2026-11-14</lastmod>
     </url>
@@ -9239,6 +9243,10 @@
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/auth0-agent-skills-setup</loc>
          <lastmod>2026-11-01</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/auto-claude-code-research-in-sleep-setup</loc>
+         <lastmod>2026-11-17</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/autolora-setup</loc>
@@ -9661,6 +9669,10 @@
          <lastmod>2026-11-07</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/claude-red-setup</loc>
+         <lastmod>2026-11-17</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/claude-scholar-setup</loc>
          <lastmod>2026-11-06</lastmod>
     </url>
@@ -9675,6 +9687,10 @@
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/claude-skills-journalism-setup</loc>
          <lastmod>2026-11-01</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/claude-skills-marketplace-setup</loc>
+         <lastmod>2026-11-17</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/claude-trading-skills-setup</loc>
@@ -9835,6 +9851,10 @@
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/coleam00-skills-setup</loc>
          <lastmod>2026-11-01</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/comfyui-expert-setup</loc>
+         <lastmod>2026-11-17</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/composio-awesome-codex-skills-setup</loc>
@@ -10319,6 +10339,10 @@
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/flutter-ai-rules-setup</loc>
          <lastmod>2026-11-10</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/founder-playbook-setup</loc>
+         <lastmod>2026-11-17</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/founder-skill-setup</loc>
@@ -11061,6 +11085,10 @@
          <lastmod>2026-11-02</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/karpathy-llm-wiki-setup</loc>
+         <lastmod>2026-11-17</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/khazix-skills-setup</loc>
          <lastmod>2026-11-04</lastmod>
     </url>
@@ -11247,6 +11275,10 @@
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/luxor-claude-marketplace-setup</loc>
          <lastmod>2026-11-01</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/lyndonkl-skills-setup</loc>
+         <lastmod>2026-11-17</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/lynx-community-skills-setup</loc>
@@ -11683,6 +11715,10 @@
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/oh-my-hermes-omh-suite-setup</loc>
          <lastmod>2026-11-01</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/oh-my-openagent-setup</loc>
+         <lastmod>2026-11-17</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/oh-story-claudecode-skills-setup</loc>
@@ -13085,6 +13121,10 @@
          <lastmod>2026-11-01</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/video-use-setup</loc>
+         <lastmod>2026-11-17</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/vigiles-setup</loc>
          <lastmod>2026-11-01</lastmod>
     </url>
@@ -13762,7 +13802,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/marketplace</loc>
-         <lastmod>2026-11-16</lastmod>
+         <lastmod>2026-11-17</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/marketplace/new-aug10-2026</loc>
@@ -14247,6 +14287,10 @@
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/marketplace/new-nov16-2026-morning-skills</loc>
          <lastmod>2026-11-16</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/skills/marketplace/new-nov17-2026-morning-skills</loc>
+         <lastmod>2026-11-17</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/marketplace/new-nov2-2026-evening-skills</loc>

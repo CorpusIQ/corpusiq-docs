@@ -13788,7 +13788,7 @@
 </tr>
 <tr>
 <td>RAM</td>
-<td>4GB or 8GB</td>
+<td>4GB, 8GB or 16GB</td>
 </tr>
 <tr>
 <td>Storage</td>
@@ -13803,7 +13803,7 @@
 <h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li><strong>No GPU acceleration</strong> for local LLMs - use <a href="https://www.corpusiq.io/docs/hermes/setup/cloud-vps">API-based cloud models</a> or very small quantized models</li>
-<li><strong>8GB RAM max</strong> - can't run large models locally</li>
+<li><strong>RAM ceiling</strong> - even the 16GB board is far short of what a 7B+ model needs, so keep inference on cloud APIs or 1-2B quantized models locally</li>
 <li><strong>ARM64 architecture</strong> - some packages may need workarounds</li>
 </ul>
 <h2 id="step-by-step-installation">Step-by-Step Installation<a class="headerlink" href="#step-by-step-installation" title="Anchor link to this section">&para;</a></h2>
@@ -13817,8 +13817,8 @@ sudo<span class="w"> </span>apt<span class="w"> </span>update<span class="w"> </
 </code></pre></div>
 <h3 id="step-2-install-dependencies">Step 2: Install Dependencies<a class="headerlink" href="#step-2-install-dependencies" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> </span>-y<span class="w"> </span>python3<span class="w"> </span>python3-pip<span class="w"> </span>python3-venv<span class="w"> </span>git<span class="w"> </span>curl
-<span class="c1"># Node 24 is the current LTS line (Node 20 reached end-of-life in April 2026)</span>
-curl<span class="w"> </span>-fsSL<span class="w"> </span>https://deb.nodesource.com/setup_24.x<span class="w"> </span><span class="p">|</span><span class="w"> </span>sudo<span class="w"> </span>-E<span class="w"> </span>bash<span class="w"> </span>-
+<span class="c1"># Node 26 is the current LTS line (LTS since October 2026); Node 24 stays in maintenance until April 2028</span>
+curl<span class="w"> </span>-fsSL<span class="w"> </span>https://deb.nodesource.com/setup_26.x<span class="w"> </span><span class="p">|</span><span class="w"> </span>sudo<span class="w"> </span>-E<span class="w"> </span>bash<span class="w"> </span>-
 sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> </span>-y<span class="w"> </span>nodejs
 </code></pre></div>
 <h3 id="step-3-install-hermes-agent">Step 3: Install Hermes Agent<a class="headerlink" href="#step-3-install-hermes-agent" title="Anchor link to this section">&para;</a></h3>
@@ -13832,7 +13832,7 @@ hermes<span class="w"> </span>profile<span class="w"> </span>use<span class="w">
 <h3 id="step-4-model-strategy">Step 4: Model Strategy<a class="headerlink" href="#step-4-model-strategy" title="Anchor link to this section">&para;</a></h3>
 <p><strong>Primary: Cloud Models (Recommended)</strong></p>
 <div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>config<span class="w"> </span><span class="nb">set</span><span class="w"> </span>OPENROUTER_API_KEY<span class="w"> </span><span class="s2">&quot;your-key&quot;</span>
-<span class="c1"># qwen3-235b-a22b-2507 is the current 235B variant on OpenRouter</span>
+<span class="c1"># any listed OpenRouter model id works; qwen3-235b-a22b-2507 is a cheap general-purpose pick</span>
 hermes<span class="w"> </span>config<span class="w"> </span><span class="nb">set</span><span class="w"> </span>model.default<span class="w"> </span>openrouter/qwen/qwen3-235b-a22b-2507
 </code></pre></div>
 <p><strong>Optional: Tiny Local Models</strong></p>

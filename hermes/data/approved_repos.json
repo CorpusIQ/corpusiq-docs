@@ -7856,5 +7856,51 @@
     "discovered_at": "2026-11-16T11:31:12.956577+00:00",
     "status": "approved",
     "approved_at": "2026-11-16T11:33:35.229299+00:00"
+  },
+  {
+    "name": "tommy0103/obelisk",
+    "url": "https://github.com/tommy0103/obelisk",
+    "description": "Every past session, subagent, and workflow -- queryable by your agent, browsable by you",
+    "stars": 950,
+    "forks": 61,
+    "language": "JavaScript",
+    "topics": [
+      "agent",
+      "agent-sessions",
+      "ai-agent",
+      "ai-agent-tools",
+      "claude-code",
+      "cli",
+      "codex",
+      "coding-agent-memory",
+      "deepseek-harness",
+      "developer-tools",
+      "hermes-agent",
+      "infrastructure",
+      "kimi-code",
+      "kiro",
+      "memory",
+      "pi-agent",
+      "query",
+      "queryable-data",
+      "session-tracker",
+      "zcode"
+    ],
+    "updated_at": "2026-11-17T07:36:41Z",
+    "category": "forks",
+    "score": 75,
+    "tier": "AUTO_APPROVE",
+    "score_reasons": [
+      "hermes_topic",
+      "agent_ecosystem",
+      "moderate_stars_100+",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-11-17T11:31:40.734415+00:00",
+    "status": "approved",
+    "approved_at": "2026-11-17T11:33:51.642056+00:00"
   }
 ]

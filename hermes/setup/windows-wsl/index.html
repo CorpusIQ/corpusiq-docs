@@ -13791,20 +13791,22 @@
 </code></pre></div>
 <p>Apply: <code>wsl --shutdown</code> in PowerShell, then reopen WSL.</p>
 <h3 id="step-3-gpu-passthrough-nvidia">Step 3: GPU Passthrough (NVIDIA)<a class="headerlink" href="#step-3-gpu-passthrough-nvidia" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="c"># In PowerShell - install NVIDIA WSL2 driver</span>
-<span class="n">winget</span> <span class="n">install</span> <span class="p">-</span><span class="n">-id</span><span class="p">=</span><span class="n">Nvidia</span><span class="p">.</span><span class="n">CUDA</span> <span class="n">-e</span>
+<p>Install the latest NVIDIA Windows display driver for your GPU - that single install maps CUDA into WSL:</p>
+<div class="highlight"><pre><span></span><code><span class="c"># Download the GeForce / RTX production driver for your GPU from https://www.nvidia.com/drivers/</span>
+<span class="c"># Not the CUDA toolkit, and no Linux driver is involved</span>
 </code></pre></div>
-<p>Inside WSL:</p>
-<div class="highlight"><pre><span></span><code>nvidia-smi<span class="w">  </span><span class="c1"># Should show your GPU</span>
-sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> </span>nvidia-utils-550<span class="w">  </span><span class="c1"># If not found</span>
+<p>Inside WSL, confirm the mapping instead of installing a driver:</p>
+<div class="highlight"><pre><span></span><code>nvidia-smi<span class="w">   </span><span class="c1"># Should show your GPU (WSL exposes a reduced feature set)</span>
 </code></pre></div>
+<p>Do <strong>not</strong> install a Linux NVIDIA driver inside WSL. <code>nvidia-utils-*</code>, <code>cuda-drivers</code> and <code>nvidia-open</code> overwrite the driver mapped in from Windows and break CUDA; install only the CUDA Toolkit packages if you need to compile.</p>
 <h3 id="step-4-install-dependencies">Step 4: Install Dependencies<a class="headerlink" href="#step-4-install-dependencies" title="Anchor link to this section">&para;</a></h3>
 <p>The Hermes installer provisions its own pinned Python 3.14, Node.js, ripgrep and FFmpeg, so you only need the base utilities:</p>
 <div class="highlight"><pre><span></span><code>sudo<span class="w"> </span>apt<span class="w"> </span>update
 sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> </span>-y<span class="w"> </span>git<span class="w"> </span>curl<span class="w"> </span>tar<span class="w"> </span>ffmpeg
 </code></pre></div>
 <p>Install Node.js separately only if your own tooling needs a system-wide copy:</p>
-<div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-fsSL<span class="w"> </span>https://deb.nodesource.com/setup_24.x<span class="w"> </span><span class="p">|</span><span class="w"> </span>sudo<span class="w"> </span>-E<span class="w"> </span>bash<span class="w"> </span>-
+<div class="highlight"><pre><span></span><code><span class="c1"># Node 26 is the current LTS line (LTS since October 2026)</span>
+curl<span class="w"> </span>-fsSL<span class="w"> </span>https://deb.nodesource.com/setup_26.x<span class="w"> </span><span class="p">|</span><span class="w"> </span>sudo<span class="w"> </span>-E<span class="w"> </span>bash<span class="w"> </span>-
 sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> </span>-y<span class="w"> </span>nodejs
 </code></pre></div>
 <h3 id="step-5-install-hermes-agent">Step 5: Install Hermes Agent<a class="headerlink" href="#step-5-install-hermes-agent" title="Anchor link to this section">&para;</a></h3>
@@ -13823,7 +13825,8 @@ hermes<span class="w"> </span>model<span class="w">                             
 ollama<span class="w"> </span>pull<span class="w"> </span>llama3.2
 ollama<span class="w"> </span>pull<span class="w"> </span>nomic-embed-text
 ollama<span class="w"> </span>pull<span class="w"> </span>qwen2.5:14b<span class="w">  </span><span class="c1"># If 12GB+ VRAM</span>
-ollama<span class="w"> </span>run<span class="w"> </span>llama3.2<span class="w"> </span>--verbose<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-i<span class="w"> </span>cuda<span class="w">  </span><span class="c1"># Verify GPU</span>
+ollama<span class="w"> </span>run<span class="w"> </span>llama3.2<span class="w">                            </span><span class="c1"># Loads the model</span>
+ollama<span class="w"> </span>ps<span class="w">                                      </span><span class="c1"># PROCESSOR column shows the GPU/CPU split</span>
 </code></pre></div>
 <h3 id="step-7-filesystem-strategy">Step 7: Filesystem Strategy<a class="headerlink" href="#step-7-filesystem-strategy" title="Anchor link to this section">&para;</a></h3>
 <table>

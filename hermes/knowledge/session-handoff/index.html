@@ -13366,10 +13366,10 @@
 <h3 id="recover-on-startup">Recover on Startup<a class="headerlink" href="#recover-on-startup" title="Anchor link to this section">&para;</a></h3>
 <p>The session-start skill includes automatic context recovery. Before doing anything else:</p>
 <ol>
-<li>Read <code>TASK_HISTORY.md</code> (last 50 lines)</li>
+<li>Pull the peer representation from Honcho (identity, standing decisions, bans)</li>
+<li>Query GBrain for the latest handoff page tagged <code>active-task</code></li>
 <li>Query <code>session_search()</code> for recent sessions</li>
-<li>Query GBrain for pages tagged <code>active-task</code></li>
-<li>Reconstruct and present: "Here's what we were doing..."</li>
+<li>Read <code>TASK_HISTORY.md</code> (last 50 lines)</li>
 </ol>
 <p>The agent doesn't wait to be asked. Recovery is automatic.</p>
 <h2 id="architecture">Architecture<a class="headerlink" href="#architecture" title="Anchor link to this section">&para;</a></h2>
@@ -13384,10 +13384,11 @@ corpusiq-session-handoff skill
 
 Session Start
     ↓
-corpusiq-session-start skill (Step 6: Context Recovery)
-    ├── Reads TASK_HISTORY.md
-    ├── Queries session_search for last sessions
+corpusiq-session-start skill (memory-first context recovery)
+    ├── Loads the Honcho peer representation
     ├── Queries GBrain for active-task tagged pages
+    ├── Queries session_search for last sessions
+    ├── Reads TASK_HISTORY.md
     ├── Reconstructs state
     └── Reports: &quot;Resuming X, Y blocked, Z pending&quot;
 </code></pre></div>
@@ -13426,7 +13427,7 @@ corpusiq-session-start skill (Step 6: Context Recovery)
 <h2 id="implementation">Implementation<a class="headerlink" href="#implementation" title="Anchor link to this section">&para;</a></h2>
 <p>Two skills power this:</p>
 <p><strong><code>corpusiq-session-handoff</code></strong> - Runs at session end. Writes structured state. Tags GBrain pages. Appends to TASK_HISTORY.md.</p>
-<p><strong><code>corpusiq-session-start</code></strong> - Runs at session start. Step 6 recovers context from TASK_HISTORY.md, session_search, and GBrain before any other action.</p>
+<p><strong><code>corpusiq-session-start</code></strong> - Runs at session start. Its memory-first context-recovery step pulls the Honcho representation, the latest GBrain handoff page, <code>session_search</code> history and TASK_HISTORY.md before any other action.</p>
 <h2 id="why-this-works">Why This Works<a class="headerlink" href="#why-this-works" title="Anchor link to this section">&para;</a></h2>
 <p>Most "memory" solutions try to preserve everything. They fail because:
 - Context windows fill up
