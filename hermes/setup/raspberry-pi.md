@@ -24,14 +24,14 @@ The Raspberry Pi 5 is the most cost-effective always-on Hermes Agent platform. A
 | Cost | $50-80 (board only) |
 | Power draw | ~5W idle, ~10W under load |
 | Annual electricity | ~$5-10 (24/7 at $0.12/kWh) |
-| RAM | 4GB or 8GB |
+| RAM | 4GB, 8GB or 16GB |
 | Storage | microSD or NVMe (via HAT) |
 | Noise | Silent (no fan needed for light loads) |
 
 ## Limitations
 
 - **No GPU acceleration** for local LLMs - use [API-based cloud models](cloud-vps.md) or very small quantized models
-- **8GB RAM max** - can't run large models locally
+- **RAM ceiling** - even the 16GB board is far short of what a 7B+ model needs, so keep inference on cloud APIs or 1-2B quantized models locally
 - **ARM64 architecture** - some packages may need workarounds
 
 ## Step-by-Step Installation
@@ -51,8 +51,8 @@ sudo apt update && sudo apt upgrade -y
 
 ```bash
 sudo apt install -y python3 python3-pip python3-venv git curl
-# Node 24 is the current LTS line (Node 20 reached end-of-life in April 2026)
-curl -fsSL https://deb.nodesource.com/setup_24.x | sudo -E bash -
+# Node 26 is the current LTS line (LTS since October 2026); Node 24 stays in maintenance until April 2028
+curl -fsSL https://deb.nodesource.com/setup_26.x | sudo -E bash -
 sudo apt install -y nodejs
 ```
 
@@ -73,7 +73,7 @@ hermes profile use pi-agent
 
 ```bash
 hermes config set OPENROUTER_API_KEY "your-key"
-# qwen3-235b-a22b-2507 is the current 235B variant on OpenRouter
+# any listed OpenRouter model id works; qwen3-235b-a22b-2507 is a cheap general-purpose pick
 hermes config set model.default openrouter/qwen/qwen3-235b-a22b-2507
 ```
 

@@ -3,7 +3,7 @@ title: "Hermes Agent v0.23.1 Patch Release"
 description: "Hermes Agent v0.23.1 patch release - release notes, highlights, and security fixes"
 canonical: "https://www.corpusiq.io/docs/hermes/changelog/v0.23.1/"
 robots: "index,follow"
-last_updated: "2026-11-10"
+last_updated: "2026-11-16"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---
