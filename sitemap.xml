@@ -2857,6 +2857,10 @@
          <lastmod>2026-11-01</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/app2email-mcp</loc>
+         <lastmod>2026-11-17</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/appambit-mcp</loc>
          <lastmod>2026-11-01</lastmod>
     </url>
@@ -3187,6 +3191,10 @@
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/caldav-mcp</loc>
          <lastmod>2026-11-01</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/calderflow-mcp</loc>
+         <lastmod>2026-11-17</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/campaignstack-mcp</loc>
@@ -6245,6 +6253,10 @@
          <lastmod>2026-11-01</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/shopsavvy-mcp</loc>
+         <lastmod>2026-11-17</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/shopsynch-mcp</loc>
          <lastmod>2026-11-01</lastmod>
     </url>
@@ -6419,6 +6431,10 @@
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/sparklaunch-mcp</loc>
          <lastmod>2026-11-01</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/spendcanary-mcp</loc>
+         <lastmod>2026-11-17</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/spendquery-mcp</loc>
@@ -6773,6 +6789,10 @@
          <lastmod>2026-11-01</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/trenz-mcp</loc>
+         <lastmod>2026-11-17</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/treza-mcp</loc>
          <lastmod>2026-11-01</lastmod>
     </url>
@@ -7027,6 +7047,10 @@
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/viralhunt-mcp</loc>
          <lastmod>2026-11-01</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/vizbl-mcp</loc>
+         <lastmod>2026-11-17</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/vocaneo-mcp</loc>
@@ -7699,6 +7723,10 @@
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-november16-2026-night</loc>
          <lastmod>2026-11-16</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-november17-2026-night</loc>
+         <lastmod>2026-11-17</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-november2-2026-evening</loc>
