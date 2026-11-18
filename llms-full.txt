@@ -8390,6 +8390,308 @@ Because every read is account-scoped. Naming the account is how you can tell whi
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
 
 ---
+# How to Connect Azure Cosmos DB to ChatGPT with CorpusIQ MCP
+URL: https://www.corpusiq.io/docs/connect-cosmosdb-to-chatgpt
+
+
+# How to Connect Azure Cosmos DB to ChatGPT with CorpusIQ MCP
+
+Cosmos DB is usually where the high-volume records live: event logs, telemetry, user activity, IoT readings. It is written to constantly and read almost never, because reading it means writing queries.
+
+Connecting Cosmos DB through CorpusIQ MCP puts a read-only query path behind a plain-English question. You ask how many events of a type arrived last week, and the connector runs the query against your container and reports back.
+
+CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
+
+### Why Connect Azure Cosmos DB to ChatGPT?
+
+- **Container visibility.** "List the containers in my Cosmos database" without opening the portal.
+- **Field discovery.** Sample-based field shapes and sample values, so you can see what is queryable before writing anything.
+- **Distinct counts.** "How many distinct event types did we see, grouped by day?" as a sentence.
+- **Ad-hoc SELECT.** Arbitrary read queries against the container you configured.
+- **Health checks.** "Is my Cosmos connection healthy?" answered from the connector itself.
+
+### How It Works
+
+1. **Connect Azure Cosmos DB to CorpusIQ.** Enter the endpoint, database and container, then choose key or AAD authentication.
+2. **Connect CorpusIQ to ChatGPT** as an MCP server, using the endpoint from your CorpusIQ account settings.
+3. **CorpusIQ translates** the question into read-only queries against your event and telemetry data and assembles the result.
+4. **ChatGPT answers** from that result and names the objects each figure came from.
+
+### Before you connect
+
+- An Azure Cosmos DB account using the SQL API
+- The endpoint URL, database name and container name
+- Either the primary key, or an AAD identity holding the Cosmos DB Data Reader role
+- About 3 minutes
+
+### Setup Steps
+
+**In CorpusIQ**
+
+1. In CorpusIQ, open **Dashboard** then **Connectors** and find **Azure Cosmos DB**.
+2. Click **Configure**.
+3. Enter your endpoint, for example `https://yourdb.documents.azure.com:443/`, plus the database name and container name.
+4. Choose the auth method: **Key** pastes the primary key from the Azure portal, **AAD** takes the user principal and tenant ID.
+5. Click Save. The connector turns from gray to green once the first query succeeds.
+
+**In ChatGPT**
+
+6. Install **CorpusIQ** from the ChatGPT app store, or add the CorpusIQ MCP server under **Settings**, **Connectors**.
+7. Approve the CorpusIQ authorization when prompted, once.
+8. Start a new conversation and ask a question that needs your data.
+
+If the connector does not appear, work through the [Quick Start guide](quick-start.md) before changing anything else.
+
+### Example ChatGPT Questions
+
+**Discovery**
+
+- "List the containers in my Cosmos database."
+- "What fields does my events container have?"
+- "Show me sample values for the event_type field."
+
+**Volume and shape**
+
+- "How many distinct event types did we see, grouped by day?"
+- "How many documents arrived in the last 24 hours?"
+- "Run this query against Cosmos: SELECT TOP 10 c.event_type, c.timestamp FROM c WHERE c.user_id = 'abc'"
+
+**Operational**
+
+- "Is my Cosmos connection healthy?"
+- "Which containers are getting the most writes this week?"
+
+### Security
+
+- **Read-only container access.** The connector exposes reads: connection status, container listing, sample field insight, distinct-value counts and SELECT queries.
+- **No document writes.** It never inserts, updates, or deletes documents.
+- **Two auth paths.** A primary key works, or an AAD identity scoped to the Cosmos DB Built-in Data Reader role. The AAD path keeps a long-lived key out of the picture.
+- **Revocable at any time.** Rotate the key in the Azure portal, or remove the role assignment, and the connection stops working.
+- **Scoped direct-MCP retention.** CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
+
+### Comparison: the native interface vs Azure Cosmos DB through ChatGPT
+
+| Question | The native interface | CorpusIQ MCP with ChatGPT |
+|---|---|---|
+| Input | A SQL query and knowledge of the document shape | A question in plain language |
+| Output | Raw documents | An answer with the query and the shape named |
+| Discovery | Data Explorer, container by container | Fields and sample values asked for directly |
+| Write path | Full SDK or portal access | None exposed to the assistant |
+
+### FAQ: Common Questions
+
+<details>
+<summary><strong>Which Cosmos API does this support?</strong></summary>
+
+The SQL API. Accounts built on the MongoDB, Cassandra, Gremlin or Table APIs are a different query surface and are not what this connector targets.
+</details>
+
+<details>
+<summary><strong>Key auth or AAD - which should I use?</strong></summary>
+
+AAD if your tenant already manages access centrally: the service account needs the Cosmos DB Built-in Data Reader role on the database, which is a data-plane role, not just an RBAC assignment on the account. Key auth is faster to set up and easier to rotate.
+</details>
+
+<details>
+<summary><strong>401 Unauthorized. What is wrong?</strong></summary>
+
+The key is wrong or has been rotated. Fetch the current primary key from the Azure portal under the account's Keys blade and re-enter it.
+</details>
+
+<details>
+<summary><strong>AAD authentication keeps failing. Why?</strong></summary>
+
+The identity needs the Cosmos DB Built-in Data Reader role on the database itself. An RBAC role on the account is not the same permission and will not open the data plane.
+</details>
+
+<details>
+<summary><strong>Cross-partition errors on some queries. What do I do?</strong></summary>
+
+Some queries have to fan out across partitions. Toggle `cross_partition` in the connection settings for a partitioned container.
+</details>
+
+<details>
+<summary><strong>Can the assistant write or delete documents?</strong></summary>
+
+No. The connector runs reads and SELECT queries. Inserts, updates, deletes and container changes stay in your application, where they are tested and reviewed.
+</details>
+
+---
+
+**Next steps:** [Connect Azure Cosmos DB to ChatGPT now](https://www.corpusiq.io/docs/connectors/cosmosdb)
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+
+## See also
+
+- [Connect Azure Cosmos DB to Claude](connect-cosmosdb-to-claude.md) - containers, events and telemetry in one thread.
+
+- [Azure Cosmos DB connector reference](connectors/cosmosdb.md) - connection requirements, visible objects and troubleshooting.
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# How to Connect Azure Cosmos DB to Claude with CorpusIQ MCP
+URL: https://www.corpusiq.io/docs/connect-cosmosdb-to-claude
+
+
+# How to Connect Azure Cosmos DB to Claude with CorpusIQ MCP
+
+Cosmos DB is usually where the high-volume records live: event logs, telemetry, user activity, IoT readings. It is written to constantly and read almost never, because reading it means writing queries.
+
+Connecting Cosmos DB through CorpusIQ MCP puts a read-only query path behind a plain-English question. You ask how many events of a type arrived last week, and the connector runs the query against your container and reports back.
+
+CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
+
+### Why Connect Azure Cosmos DB to Claude?
+
+- **Container visibility.** "List the containers in my Cosmos database" without opening the portal.
+- **Field discovery.** Sample-based field shapes and sample values, so you can see what is queryable before writing anything.
+- **Distinct counts.** "How many distinct event types did we see, grouped by day?" as a sentence.
+- **Ad-hoc SELECT.** Arbitrary read queries against the container you configured.
+- **Health checks.** "Is my Cosmos connection healthy?" answered from the connector itself.
+
+### How It Works
+
+1. **Connect Azure Cosmos DB to CorpusIQ.** Enter the endpoint, database and container, then choose key or AAD authentication.
+2. **Connect CorpusIQ to Claude** as an MCP server, using the endpoint from your CorpusIQ account settings.
+3. **CorpusIQ translates** the question into read-only queries against your event and telemetry data and assembles the result.
+4. **Claude answers** from that result and names the objects each figure came from.
+
+### Before you connect
+
+- An Azure Cosmos DB account using the SQL API
+- The endpoint URL, database name and container name
+- Either the primary key, or an AAD identity holding the Cosmos DB Data Reader role
+- About 3 minutes
+
+### Setup Steps
+
+**In CorpusIQ**
+
+1. In CorpusIQ, open **Dashboard** then **Connectors** and find **Azure Cosmos DB**.
+2. Click **Configure**.
+3. Enter your endpoint, for example `https://yourdb.documents.azure.com:443/`, plus the database name and container name.
+4. Choose the auth method: **Key** pastes the primary key from the Azure portal, **AAD** takes the user principal and tenant ID.
+5. Click Save. The connector turns from gray to green once the first query succeeds.
+
+**In Claude Desktop**
+
+6. Open **Settings**, **Developer**, **Edit Config**. This opens `claude_desktop_config.json`.
+7. Add the CorpusIQ entry:
+
+```json
+{
+  "mcpServers": {
+    "corpusiq": {
+      "command": "npx",
+      "args": [
+        "-y", "mcp-remote",
+        "https://mcp2.corpusiq.io/mcp"
+      ]
+    }
+  }
+}
+```
+
+8. Save the file and quit Claude Desktop completely, not just the window.
+9. Reopen Claude and complete the device login when prompted. The tools indicator appears next to the message box.
+
+If the tools indicator does not appear, work through [Claude can't see CorpusIQ](troubleshooting/claude-cant-see-corpusiq.md) before changing anything else.
+
+### Example Claude Questions
+
+**Discovery**
+
+- "List the containers in my Cosmos database."
+- "What fields does my events container have?"
+- "Show me sample values for the event_type field."
+
+**Volume and shape**
+
+- "How many distinct event types did we see, grouped by day?"
+- "How many documents arrived in the last 24 hours?"
+- "Run this query against Cosmos: SELECT TOP 10 c.event_type, c.timestamp FROM c WHERE c.user_id = 'abc'"
+
+**Operational**
+
+- "Is my Cosmos connection healthy?"
+- "Which containers are getting the most writes this week?"
+
+### Security
+
+- **Read-only container access.** The connector exposes reads: connection status, container listing, sample field insight, distinct-value counts and SELECT queries.
+- **No document writes.** It never inserts, updates, or deletes documents.
+- **Two auth paths.** A primary key works, or an AAD identity scoped to the Cosmos DB Built-in Data Reader role. The AAD path keeps a long-lived key out of the picture.
+- **Revocable at any time.** Rotate the key in the Azure portal, or remove the role assignment, and the connection stops working.
+- **Scoped direct-MCP retention.** CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
+
+### Comparison: the native interface vs Azure Cosmos DB through Claude
+
+| Question | The native interface | CorpusIQ MCP with Claude |
+|---|---|---|
+| Input | A SQL query and knowledge of the document shape | A question in plain language |
+| Output | Raw documents | An answer with the query and the shape named |
+| Discovery | Data Explorer, container by container | Fields and sample values asked for directly |
+| Write path | Full SDK or portal access | None exposed to the assistant |
+
+### FAQ: Common Questions
+
+<details>
+<summary><strong>Which Cosmos API does this support?</strong></summary>
+
+The SQL API. Accounts built on the MongoDB, Cassandra, Gremlin or Table APIs are a different query surface and are not what this connector targets.
+</details>
+
+<details>
+<summary><strong>Key auth or AAD - which should I use?</strong></summary>
+
+AAD if your tenant already manages access centrally: the service account needs the Cosmos DB Built-in Data Reader role on the database, which is a data-plane role, not just an RBAC assignment on the account. Key auth is faster to set up and easier to rotate.
+</details>
+
+<details>
+<summary><strong>401 Unauthorized. What is wrong?</strong></summary>
+
+The key is wrong or has been rotated. Fetch the current primary key from the Azure portal under the account's Keys blade and re-enter it.
+</details>
+
+<details>
+<summary><strong>AAD authentication keeps failing. Why?</strong></summary>
+
+The identity needs the Cosmos DB Built-in Data Reader role on the database itself. An RBAC role on the account is not the same permission and will not open the data plane.
+</details>
+
+<details>
+<summary><strong>Cross-partition errors on some queries. What do I do?</strong></summary>
+
+Some queries have to fan out across partitions. Toggle `cross_partition` in the connection settings for a partitioned container.
+</details>
+
+<details>
+<summary><strong>Can the assistant write or delete documents?</strong></summary>
+
+No. The connector runs reads and SELECT queries. Inserts, updates, deletes and container changes stay in your application, where they are tested and reviewed.
+</details>
+
+---
+
+**Next steps:** [Connect Azure Cosmos DB to Claude now](https://www.corpusiq.io/docs/connectors/cosmosdb)
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+
+## See also
+
+- [Connect Azure Cosmos DB to ChatGPT](connect-cosmosdb-to-chatgpt.md) - containers, events and telemetry in one thread.
+
+- [Azure Cosmos DB connector reference](connectors/cosmosdb.md) - connection requirements, visible objects and troubleshooting.
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
 # How to Connect Dropbox to ChatGPT with CorpusIQ MCP
 URL: https://www.corpusiq.io/docs/connect-dropbox-to-chatgpt
 
@@ -12893,6 +13195,308 @@ CorpusIQ does not retain raw customer files or full connector response payloads.
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
 
 ---
+# How to Connect LinkedIn Ads to ChatGPT with CorpusIQ MCP
+URL: https://www.corpusiq.io/docs/connect-linkedin-ads-to-chatgpt
+
+
+# How to Connect LinkedIn Ads to ChatGPT with CorpusIQ MCP
+
+LinkedIn is the paid channel most B2B teams cannot attribute cleanly. Campaign Manager reports impressions, clicks and cost per campaign. It does not tell you which of those leads turned into pipeline, because that record lives in the CRM.
+
+Connecting LinkedIn Ads through CorpusIQ MCP puts campaign performance next to the data that follows it. Ask which campaigns sourced deals that closed, and the answer reads your ad account and your CRM in one pass.
+
+CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
+
+### Why Connect LinkedIn Ads to ChatGPT?
+
+- **Spend and pacing.** "How much did I spend on LinkedIn Ads last month?" answered from the ad account, not a screenshot.
+- **Campaign comparison.** "Which LinkedIn campaigns are driving the most clicks?" read across campaign groups.
+- **Creative performance.** "Which creatives are running in my remarketing campaign?" with statuses attached.
+- **Daily trend.** Impressions, clicks, cost in local currency and conversions, day by day.
+- **Cross-source attribution.** Campaign spend asked alongside CRM pipeline and closed revenue in the same question.
+
+### How It Works
+
+1. **Connect LinkedIn Ads to CorpusIQ.** Click Connect and approve read access for the account you sign in with, then pick the ad accounts.
+2. **Connect CorpusIQ to ChatGPT** as an MCP server, using the endpoint from your CorpusIQ account settings.
+3. **CorpusIQ translates** the question into read-only queries against your campaign and spend data and assembles the result.
+4. **ChatGPT answers** from that result and names the objects each figure came from.
+
+### Before you connect
+
+- A LinkedIn account with access to the ad accounts you want read
+- At least a Viewer role on each ad account - an admin can grant it in Campaign Manager under Account Settings, Manage Access
+- About 2 minutes
+
+### Setup Steps
+
+**In CorpusIQ**
+
+1. In CorpusIQ, open **Dashboard** then **Connectors** and find **LinkedIn Ads**.
+2. Click Connect.
+3. Sign in to LinkedIn when the consent screen appears.
+4. Approve read access and select the ad accounts you want CorpusIQ to see.
+5. You are returned to CorpusIQ, and the connector turns from gray to green.
+
+**In ChatGPT**
+
+6. Install **CorpusIQ** from the ChatGPT app store, or add the CorpusIQ MCP server under **Settings**, **Connectors**.
+7. Approve the CorpusIQ authorization when prompted, once.
+8. Start a new conversation and ask a question that needs your data.
+
+If the connector does not appear, work through the [Quick Start guide](quick-start.md) before changing anything else.
+
+### Example ChatGPT Questions
+
+**Spend and pacing**
+
+- "How much did I spend on LinkedIn Ads last month, by campaign?"
+- "Which campaigns are pacing ahead of their budget?"
+- "Show me daily spend for the last 30 days."
+
+**Performance**
+
+- "Which LinkedIn campaigns are driving the most clicks?"
+- "Show me daily performance for my enterprise product campaign, including cost per conversion."
+- "Which creatives are running in my remarketing campaign?"
+
+**Accounts**
+
+- "List all my LinkedIn ad accounts and their statuses."
+- "Which ad accounts have no active campaigns right now?"
+
+**Cross-source**
+
+- "Which LinkedIn campaigns sourced deals that closed last quarter?" (requires the CRM connector)
+- "Compare LinkedIn Ads spend against closed revenue by month." (requires the CRM or accounting connector)
+
+### Security
+
+- **Read-only ad account access.** The connector reads memberships, campaigns, creatives and daily analytics.
+- **No campaign changes.** It never creates campaigns, changes budgets, or modifies ads.
+- **Role-scoped.** What the connected LinkedIn user can see is what the connector can read. A Viewer role on two accounts means two accounts.
+- **Revocable at any time.** Remove the CorpusIQ access in your LinkedIn account settings and the connection stops working.
+- **Scoped direct-MCP retention.** CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
+
+### Comparison: the native interface vs LinkedIn Ads through ChatGPT
+
+| Question | The native interface | CorpusIQ MCP with ChatGPT |
+|---|---|---|
+| Input | Campaign Manager filters, one report at a time | A question across campaigns and dates |
+| Output | Platform metrics | An answer joined to pipeline and revenue |
+| Attribution | Manual export, then match in a spreadsheet | Asked directly, CRM read in the same pass |
+| Reporting lag | You check each campaign | Said plainly: platform analytics lag 24 to 48 hours |
+
+### FAQ: Common Questions
+
+<details>
+<summary><strong>What access level does my LinkedIn user need?</strong></summary>
+
+Viewer on each ad account you want readable. An account admin can grant it in Campaign Manager under Account Settings, Manage Access.
+</details>
+
+<details>
+<summary><strong>No ad accounts found. Why?</strong></summary>
+
+The connected LinkedIn user holds no ad account membership. Being an admin of a LinkedIn Page is not the same as holding a role on an ad account.
+</details>
+
+<details>
+<summary><strong>Insufficient permissions on a specific account.</strong></summary>
+
+The role on that ad account is too restrictive for the read it needs. Viewer is the floor, and some accounts are shared with a role that does not cover campaign analytics.
+</details>
+
+<details>
+<summary><strong>Campaign analytics return zero. Is the connector broken?</strong></summary>
+
+Check the date range first. LinkedIn Ads reporting lags by 24 to 48 hours, so today's spend often reads as zero while yesterday's is present.
+</details>
+
+<details>
+<summary><strong>Authentication fails after working for a while.</strong></summary>
+
+Reset the LinkedIn Ads connector in your CorpusIQ dashboard and reconnect with the account that holds the ad account roles.
+</details>
+
+<details>
+<summary><strong>Can the assistant change budgets or pause campaigns?</strong></summary>
+
+No. The connection reads ad account data. Budgets, pauses and creative changes stay in Campaign Manager, where a person makes them.
+</details>
+
+---
+
+**Next steps:** [Connect LinkedIn Ads to ChatGPT now](https://www.corpusiq.io/docs/connectors/linkedin-ads)
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+
+## See also
+
+- [Connect LinkedIn Ads to Claude](connectors/connect-linkedin-ads-to-claude.md) - campaign spend, creatives and clicks in one thread.
+- [Connect LinkedIn Ads to Perplexity](connect-linkedin-ads-to-perplexity.md) - campaign spend, creatives and clicks in one thread.
+
+- [LinkedIn Ads connector reference](connectors/linkedin-ads.md) - connection requirements, visible objects and troubleshooting.
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# How to Connect LinkedIn Ads to Perplexity with CorpusIQ MCP
+URL: https://www.corpusiq.io/docs/connect-linkedin-ads-to-perplexity
+
+
+# How to Connect LinkedIn Ads to Perplexity with CorpusIQ MCP
+
+LinkedIn is the paid channel most B2B teams cannot attribute cleanly. Campaign Manager reports impressions, clicks and cost per campaign. It does not tell you which of those leads turned into pipeline, because that record lives in the CRM.
+
+Connecting LinkedIn Ads through CorpusIQ MCP puts campaign performance next to the data that follows it. Ask which campaigns sourced deals that closed, and the answer reads your ad account and your CRM in one pass.
+
+Direct MCP retrieval is read-only. It does not retain raw customer files or full connector response payloads; operational logs keep query text, per-user tool-call metadata and bounded outcome summaries for up to 30 days.
+
+### Why Connect LinkedIn Ads to Perplexity?
+
+- **Spend and pacing.** "How much did I spend on LinkedIn Ads last month?" answered from the ad account, not a screenshot.
+- **Campaign comparison.** "Which LinkedIn campaigns are driving the most clicks?" read across campaign groups.
+- **Creative performance.** "Which creatives are running in my remarketing campaign?" with statuses attached.
+- **Daily trend.** Impressions, clicks, cost in local currency and conversions, day by day.
+- **Cross-source attribution.** Campaign spend asked alongside CRM pipeline and closed revenue in the same question.
+
+### How It Works
+
+1. **Connect LinkedIn Ads to CorpusIQ.** Click Connect and approve read access for the account you sign in with, then pick the ad accounts.
+2. **Connect CorpusIQ to Perplexity** as an MCP server, using the endpoint from your CorpusIQ account settings.
+3. **CorpusIQ translates** the question into read-only queries against your campaign and spend data and assembles the result.
+4. **Perplexity answers** from that result and names the objects each figure came from.
+
+### Before you connect
+
+- A LinkedIn account with access to the ad accounts you want read
+- At least a Viewer role on each ad account - an admin can grant it in Campaign Manager under Account Settings, Manage Access
+- About 2 minutes
+
+### Setup Steps
+
+**In CorpusIQ**
+
+1. In CorpusIQ, open **Dashboard** then **Connectors** and find **LinkedIn Ads**.
+2. Click Connect.
+3. Sign in to LinkedIn when the consent screen appears.
+4. Approve read access and select the ad accounts you want CorpusIQ to see.
+5. You are returned to CorpusIQ, and the connector turns from gray to green.
+
+**In Perplexity**
+
+6. Open **Settings** and find the **MCP servers** section.
+7. Add a custom MCP server and paste the endpoint:
+
+```
+https://mcp2.corpusiq.io/mcp
+```
+
+8. Connect and approve the CorpusIQ authorization page once.
+9. Start a new thread and ask a question about your data.
+
+If the server will not stay connected, work through the [Quick Start guide](quick-start.md) before changing anything else.
+
+### Example Perplexity Questions
+
+**Spend and pacing**
+
+- "How much did I spend on LinkedIn Ads last month, by campaign?"
+- "Which campaigns are pacing ahead of their budget?"
+- "Show me daily spend for the last 30 days."
+
+**Performance**
+
+- "Which LinkedIn campaigns are driving the most clicks?"
+- "Show me daily performance for my enterprise product campaign, including cost per conversion."
+- "Which creatives are running in my remarketing campaign?"
+
+**Accounts**
+
+- "List all my LinkedIn ad accounts and their statuses."
+- "Which ad accounts have no active campaigns right now?"
+
+**Cross-source**
+
+- "Which LinkedIn campaigns sourced deals that closed last quarter?" (requires the CRM connector)
+- "Compare LinkedIn Ads spend against closed revenue by month." (requires the CRM or accounting connector)
+
+### Security
+
+- **Read-only ad account access.** The connector reads memberships, campaigns, creatives and daily analytics.
+- **No campaign changes.** It never creates campaigns, changes budgets, or modifies ads.
+- **Role-scoped.** What the connected LinkedIn user can see is what the connector can read. A Viewer role on two accounts means two accounts.
+- **Revocable at any time.** Remove the CorpusIQ access in your LinkedIn account settings and the connection stops working.
+- **Scoped direct-MCP retention.** Direct MCP retrieval is read-only. It does not retain raw customer files or full connector response payloads; operational logs keep query text, per-user tool-call metadata and bounded outcome summaries for up to 30 days.
+
+### Comparison: the native interface vs LinkedIn Ads through Perplexity
+
+| Question | The native interface | CorpusIQ MCP with Perplexity |
+|---|---|---|
+| Input | Campaign Manager filters, one report at a time | A question across campaigns and dates |
+| Output | Platform metrics | An answer joined to pipeline and revenue |
+| Attribution | Manual export, then match in a spreadsheet | Asked directly, CRM read in the same pass |
+| Reporting lag | You check each campaign | Said plainly: platform analytics lag 24 to 48 hours |
+
+### FAQ: Common Questions
+
+<details>
+<summary><strong>What access level does my LinkedIn user need?</strong></summary>
+
+Viewer on each ad account you want readable. An account admin can grant it in Campaign Manager under Account Settings, Manage Access.
+</details>
+
+<details>
+<summary><strong>No ad accounts found. Why?</strong></summary>
+
+The connected LinkedIn user holds no ad account membership. Being an admin of a LinkedIn Page is not the same as holding a role on an ad account.
+</details>
+
+<details>
+<summary><strong>Insufficient permissions on a specific account.</strong></summary>
+
+The role on that ad account is too restrictive for the read it needs. Viewer is the floor, and some accounts are shared with a role that does not cover campaign analytics.
+</details>
+
+<details>
+<summary><strong>Campaign analytics return zero. Is the connector broken?</strong></summary>
+
+Check the date range first. LinkedIn Ads reporting lags by 24 to 48 hours, so today's spend often reads as zero while yesterday's is present.
+</details>
+
+<details>
+<summary><strong>Authentication fails after working for a while.</strong></summary>
+
+Reset the LinkedIn Ads connector in your CorpusIQ dashboard and reconnect with the account that holds the ad account roles.
+</details>
+
+<details>
+<summary><strong>Can the assistant change budgets or pause campaigns?</strong></summary>
+
+No. The connection reads ad account data. Budgets, pauses and creative changes stay in Campaign Manager, where a person makes them.
+</details>
+
+---
+
+**Next steps:** [Connect LinkedIn Ads to Perplexity now](https://www.corpusiq.io/docs/connectors/linkedin-ads)
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+
+## See also
+
+- [Connect LinkedIn Ads to Claude](connectors/connect-linkedin-ads-to-claude.md) - campaign spend, creatives and clicks in one thread.
+- [Connect LinkedIn Ads to ChatGPT](connect-linkedin-ads-to-chatgpt.md) - campaign spend, creatives and clicks in one thread.
+
+- [LinkedIn Ads connector reference](connectors/linkedin-ads.md) - connection requirements, visible objects and troubleshooting.
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
 # How to Connect Mailchimp to ChatGPT with CorpusIQ MCP
 URL: https://www.corpusiq.io/docs/connect-mailchimp-to-chatgpt
 
@@ -13855,6 +14459,310 @@ Every question triggers a fresh read against the live API. There is no nightly s
 - [MCP vs API Integrations](mcp-vs-api-integrations.md) - why the access model differs
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+
+---
+# How to Connect Microsoft SQL Server to ChatGPT with CorpusIQ MCP
+URL: https://www.corpusiq.io/docs/connect-mssql-to-chatgpt
+
+
+# How to Connect Microsoft SQL Server to ChatGPT with CorpusIQ MCP
+
+SQL Server is where the unglamorous records live: orders, invoices, stock moves, line-of-business tables that an ERP writes and nobody reads without a query window. The data is current and the access is narrow - a handful of people hold the credentials.
+
+Connecting SQL Server through CorpusIQ MCP turns a query request into a question. You ask, the connector runs a SELECT against the database you authorised, and the answer names the tables it read.
+
+CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
+
+### Why Connect Microsoft SQL Server to ChatGPT?
+
+- **Counts without a ticket.** "How many customers did we add this quarter?" instead of a request to whoever holds the login.
+- **Operational totals.** "Show me last month's total sales from the Orders table." Totals, not a CSV.
+- **Schema answers.** "Describe the schema of the Invoices table" reads back real columns and types.
+- **Cross-source questions.** A database total checked against the same figure in QuickBooks or Stripe in one pass.
+- **Read-only by construction.** The connector builds SELECT statements. No INSERT, UPDATE, DELETE, or DDL.
+
+### How It Works
+
+1. **Connect Microsoft SQL Server to CorpusIQ.** Enter the host, port, database name and the credentials of a read-only SQL login in the dashboard.
+2. **Connect CorpusIQ to ChatGPT** as an MCP server, using the endpoint from your CorpusIQ account settings.
+3. **CorpusIQ translates** the question into read-only queries against your operational record and assembles the result.
+4. **ChatGPT answers** from that result and names the objects each figure came from.
+
+### Before you connect
+
+- Server hostname and port (1433 unless your instance moved it)
+- Database name
+- A SQL login and password - a read-only login is strongly recommended
+- Network reachability: if the server sits on a private network, allowlist the outbound address shown in your dashboard
+
+### Setup Steps
+
+**In CorpusIQ**
+
+1. Open your CorpusIQ dashboard and go to **Connectors**.
+2. Find **Microsoft SQL Server (MSSQL)** and click Connect. This is a direct configuration form, not an OAuth flow.
+3. Enter the host, port, database name, username and password.
+4. Optionally toggle encryption and certificate trust so they match your server's setup.
+5. Save. The connector turns from gray to green once the first connection succeeds.
+
+**In ChatGPT**
+
+6. Install **CorpusIQ** from the ChatGPT app store, or add the CorpusIQ MCP server under **Settings**, **Connectors**.
+7. Approve the CorpusIQ authorization when prompted, once.
+8. Start a new conversation and ask a question that needs your data.
+
+If the connector does not appear, work through the [Quick Start guide](quick-start.md) before changing anything else.
+
+### Example ChatGPT Questions
+
+**Inventory and structure**
+
+- "List the tables in the warehouse database."
+- "Describe the schema of the Invoices table, including column types."
+- "Which tables look transactional rather than reference data?"
+
+**Revenue and customers**
+
+- "Show me last month's total sales from the Orders table."
+- "How many customers did we add this quarter?"
+- "Which customers ordered more than 10,000 in the last 90 days?"
+
+**Cross-source**
+
+- "Does the Orders table total for last month match the QuickBooks revenue figure?" (requires the QuickBooks connector)
+- "Which customers in the CRM have no rows in the Orders table?" (requires the CRM connector)
+
+### Security
+
+- **Read-only login.** Create a SQL login that holds SELECT on the schemas you want exposed, and nothing else. That grant is the boundary.
+- **SELECT only.** The connector builds SELECT statements. It does not insert, update, delete, or run schema changes.
+- **Network position.** A private instance stays private until its firewall allows the connection, so an allowlist sits in front of the credential.
+- **Revocable at any time.** Disable the SQL login or remove the connection in CorpusIQ and access stops.
+- **Scoped direct-MCP retention.** CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
+
+### Comparison: the native interface vs Microsoft SQL Server through ChatGPT
+
+| Question | The native interface | CorpusIQ MCP with ChatGPT |
+|---|---|---|
+| Input | A query window and knowledge of the schema | A question in plain language |
+| Output | Rows you read | A synthesised answer naming the tables used |
+| Access | Whoever holds the login | The read-only login you scoped |
+| Write path | Whatever the login allows | None exposed to the assistant |
+| Cross-source | Copy the result into another tool | Asked alongside finance and CRM data |
+
+### FAQ: Common Questions
+
+<details>
+<summary><strong>Does this work with Azure SQL as well as SQL Server?</strong></summary>
+
+Yes. Azure SQL is the same engine reached over the network, so the same host, port, database and credential fields apply. Add the outbound address to the server's firewall rules.
+</details>
+
+<details>
+<summary><strong>Do I have to use a read-only login?</strong></summary>
+
+The connector only ever builds SELECT statements, but a read-only login means a mistake upstream cannot become a write. Create the login with SELECT on the schemas you want answerable and leave it there.
+</details>
+
+<details>
+<summary><strong>Login failed. What should I check?</strong></summary>
+
+SQL Authentication has to be enabled on the server - Windows Authentication alone is not enough for this connection type. Then confirm the username, password and database name.
+</details>
+
+<details>
+<summary><strong>Cannot open server. Is the password wrong?</strong></summary>
+
+Usually not. That error is the network: the server's firewall is refusing the connection. Allowlist the outbound address shown in your CorpusIQ dashboard.
+</details>
+
+<details>
+<summary><strong>Encryption error on save. What now?</strong></summary>
+
+A self-signed certificate fails the default trust check. Toggle "Trust server certificate" to match your server's setup, or install a certificate the server can validate.
+</details>
+
+<details>
+<summary><strong>Which tables can the assistant see?</strong></summary>
+
+Exactly the tables your SQL login can read. If a table is missing from answers, the login is missing the grant - that is the intended control point.
+</details>
+
+---
+
+**Next steps:** [Connect Microsoft SQL Server to ChatGPT now](https://www.corpusiq.io/docs/connectors/mssql)
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+
+## See also
+
+- [Connect Microsoft SQL Server to Claude](connect-mssql-to-claude.md) - tables, schema and operational totals in one thread.
+
+- [Microsoft SQL Server connector reference](connectors/mssql.md) - connection requirements, visible objects and troubleshooting.
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# How to Connect Microsoft SQL Server to Claude with CorpusIQ MCP
+URL: https://www.corpusiq.io/docs/connect-mssql-to-claude
+
+
+# How to Connect Microsoft SQL Server to Claude with CorpusIQ MCP
+
+SQL Server is where the unglamorous records live: orders, invoices, stock moves, line-of-business tables that an ERP writes and nobody reads without a query window. The data is current and the access is narrow - a handful of people hold the credentials.
+
+Connecting SQL Server through CorpusIQ MCP turns a query request into a question. You ask, the connector runs a SELECT against the database you authorised, and the answer names the tables it read.
+
+CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
+
+### Why Connect Microsoft SQL Server to Claude?
+
+- **Counts without a ticket.** "How many customers did we add this quarter?" instead of a request to whoever holds the login.
+- **Operational totals.** "Show me last month's total sales from the Orders table." Totals, not a CSV.
+- **Schema answers.** "Describe the schema of the Invoices table" reads back real columns and types.
+- **Cross-source questions.** A database total checked against the same figure in QuickBooks or Stripe in one pass.
+- **Read-only by construction.** The connector builds SELECT statements. No INSERT, UPDATE, DELETE, or DDL.
+
+### How It Works
+
+1. **Connect Microsoft SQL Server to CorpusIQ.** Enter the host, port, database name and the credentials of a read-only SQL login in the dashboard.
+2. **Connect CorpusIQ to Claude** as an MCP server, using the endpoint from your CorpusIQ account settings.
+3. **CorpusIQ translates** the question into read-only queries against your operational record and assembles the result.
+4. **Claude answers** from that result and names the objects each figure came from.
+
+### Before you connect
+
+- Server hostname and port (1433 unless your instance moved it)
+- Database name
+- A SQL login and password - a read-only login is strongly recommended
+- Network reachability: if the server sits on a private network, allowlist the outbound address shown in your dashboard
+
+### Setup Steps
+
+**In CorpusIQ**
+
+1. Open your CorpusIQ dashboard and go to **Connectors**.
+2. Find **Microsoft SQL Server (MSSQL)** and click Connect. This is a direct configuration form, not an OAuth flow.
+3. Enter the host, port, database name, username and password.
+4. Optionally toggle encryption and certificate trust so they match your server's setup.
+5. Save. The connector turns from gray to green once the first connection succeeds.
+
+**In Claude Desktop**
+
+6. Open **Settings**, **Developer**, **Edit Config**. This opens `claude_desktop_config.json`.
+7. Add the CorpusIQ entry:
+
+```json
+{
+  "mcpServers": {
+    "corpusiq": {
+      "command": "npx",
+      "args": [
+        "-y", "mcp-remote",
+        "https://mcp2.corpusiq.io/mcp"
+      ]
+    }
+  }
+}
+```
+
+8. Save the file and quit Claude Desktop completely, not just the window.
+9. Reopen Claude and complete the device login when prompted. The tools indicator appears next to the message box.
+
+If the tools indicator does not appear, work through [Claude can't see CorpusIQ](troubleshooting/claude-cant-see-corpusiq.md) before changing anything else.
+
+### Example Claude Questions
+
+**Inventory and structure**
+
+- "List the tables in the warehouse database."
+- "Describe the schema of the Invoices table, including column types."
+- "Which tables look transactional rather than reference data?"
+
+**Revenue and customers**
+
+- "Show me last month's total sales from the Orders table."
+- "How many customers did we add this quarter?"
+- "Which customers ordered more than 10,000 in the last 90 days?"
+
+**Cross-source**
+
+- "Does the Orders table total for last month match the QuickBooks revenue figure?" (requires the QuickBooks connector)
+- "Which customers in the CRM have no rows in the Orders table?" (requires the CRM connector)
+
+### Security
+
+- **Read-only login.** Create a SQL login that holds SELECT on the schemas you want exposed, and nothing else. That grant is the boundary.
+- **SELECT only.** The connector builds SELECT statements. It does not insert, update, delete, or run schema changes.
+- **Network position.** A private instance stays private until its firewall allows the connection, so an allowlist sits in front of the credential.
+- **Revocable at any time.** Disable the SQL login or remove the connection in CorpusIQ and access stops.
+- **Scoped direct-MCP retention.** CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
+
+### Comparison: the native interface vs Microsoft SQL Server through Claude
+
+| Question | The native interface | CorpusIQ MCP with Claude |
+|---|---|---|
+| Input | A query window and knowledge of the schema | A question in plain language |
+| Output | Rows you read | A synthesised answer naming the tables used |
+| Access | Whoever holds the login | The read-only login you scoped |
+| Write path | Whatever the login allows | None exposed to the assistant |
+| Cross-source | Copy the result into another tool | Asked alongside finance and CRM data |
+
+### FAQ: Common Questions
+
+<details>
+<summary><strong>Does this work with Azure SQL as well as SQL Server?</strong></summary>
+
+Yes. Azure SQL is the same engine reached over the network, so the same host, port, database and credential fields apply. Add the outbound address to the server's firewall rules.
+</details>
+
+<details>
+<summary><strong>Do I have to use a read-only login?</strong></summary>
+
+The connector only ever builds SELECT statements, but a read-only login means a mistake upstream cannot become a write. Create the login with SELECT on the schemas you want answerable and leave it there.
+</details>
+
+<details>
+<summary><strong>Login failed. What should I check?</strong></summary>
+
+SQL Authentication has to be enabled on the server - Windows Authentication alone is not enough for this connection type. Then confirm the username, password and database name.
+</details>
+
+<details>
+<summary><strong>Cannot open server. Is the password wrong?</strong></summary>
+
+Usually not. That error is the network: the server's firewall is refusing the connection. Allowlist the outbound address shown in your CorpusIQ dashboard.
+</details>
+
+<details>
+<summary><strong>Encryption error on save. What now?</strong></summary>
+
+A self-signed certificate fails the default trust check. Toggle "Trust server certificate" to match your server's setup, or install a certificate the server can validate.
+</details>
+
+<details>
+<summary><strong>Which tables can the assistant see?</strong></summary>
+
+Exactly the tables your SQL login can read. If a table is missing from answers, the login is missing the grant - that is the intended control point.
+</details>
+
+---
+
+**Next steps:** [Connect Microsoft SQL Server to Claude now](https://www.corpusiq.io/docs/connectors/mssql)
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+
+## See also
+
+- [Connect Microsoft SQL Server to ChatGPT](connect-mssql-to-chatgpt.md) - tables, schema and operational totals in one thread.
+
+- [Microsoft SQL Server connector reference](connectors/mssql.md) - connection requirements, visible objects and troubleshooting.
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
 
 ---
 # How to Connect NetSuite to ChatGPT with CorpusIQ MCP
@@ -34646,6 +35554,11 @@ CorpusIQ never inserts, updates, or deletes documents.
 - **AAD auth fails** - The principal must hold the Cosmos DB Built-in Data Reader role (not just RBAC on the account).
 - **Cross-partition errors** - Some queries need `cross_partition=true`. Toggle it in the connection settings if your container is partitioned.
 
+## See also
+
+- [Connect Azure Cosmos DB to ChatGPT](../connect-cosmosdb-to-chatgpt.md) - containers, events and telemetry inside a ChatGPT thread.
+- [Connect Azure Cosmos DB to Claude](../connect-cosmosdb-to-claude.md) - containers, events and telemetry inside a Claude thread.
+
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
@@ -35898,6 +36811,11 @@ CorpusIQ never creates campaigns, changes budgets, or modifies ads.
 - **Campaign analytics return zero** - Check the date range. LinkedIn Ads reporting may lag by 24-48 hours.
 - **Auth fails** - Reset the LinkedIn Ads connector in your dashboard and reconnect with the correct LinkedIn account.
 
+## See also
+
+- [Connect LinkedIn Ads to ChatGPT](../connect-linkedin-ads-to-chatgpt.md) - campaign spend, creatives and clicks inside a ChatGPT thread.
+- [Connect LinkedIn Ads to Perplexity](../connect-linkedin-ads-to-perplexity.md) - campaign spend, creatives and clicks inside a Perplexity thread.
+
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
@@ -36125,6 +37043,11 @@ CorpusIQ runs SELECT queries only. No INSERT, UPDATE, DELETE, or DDL.
 - "Login failed" - check that SQL Authentication is enabled on the server (not just Windows Auth) and the credentials are correct.
 - "Cannot open server" - firewall is blocking CorpusIQ. Allowlist the outbound IP from your dashboard.
 - "Encryption error" - toggle "Trust server certificate" if your server uses a self-signed cert.
+
+## See also
+
+- [Connect Microsoft SQL Server to ChatGPT](../connect-mssql-to-chatgpt.md) - tables, schema and operational totals inside a ChatGPT thread.
+- [Connect Microsoft SQL Server to Claude](../connect-mssql-to-claude.md) - tables, schema and operational totals inside a Claude thread.
 
 ---
 
