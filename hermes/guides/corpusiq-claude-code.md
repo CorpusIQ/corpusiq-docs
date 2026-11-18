@@ -3,7 +3,7 @@ title: "Use CorpusIQ with Claude Code - Ask Business Questions"
 description: Connect CorpusIQ to Claude Code via MCP. Ask revenue, orders, and margin questions against live Shopify, Stripe, and QuickBooks data. Source-cited answers in your terminal.
 canonical: "https://www.corpusiq.io/docs/hermes/guides/corpusiq-claude-code/"
 robots: "index,follow"
-last_updated: "2026-11-02"
+last_updated: "2026-11-18"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---
@@ -42,6 +42,17 @@ claude mcp add --transport http corpusiq https://mcp2.corpusiq.io/mcp \
 The `type` field matters: Claude Code reads an entry that has a `url` but no `type` as a stdio server and skips it. Use `http` (or its alias `streamable-http`).
 
 Get your JWT from the CorpusIQ dashboard at [corpusiq.io/dashboard](https://corpusiq.io).
+
+Before you plug the token in, confirm the endpoint is live and speaking the current protocol (revision `2026-07-28`, `server/discover`):
+
+```bash
+curl -sS -X POST https://mcp2.corpusiq.io/mcp \
+  -H 'Content-Type: application/json' \
+  -H 'Accept: application/json, text/event-stream' \
+  -d '{"jsonrpc":"2.0","id":1,"method":"server/discover","params":{"_meta":{"io.modelcontextprotocol/protocolVersion":"2026-07-28","io.modelcontextprotocol/clientInfo":{"name":"probe","version":"0.1"},"io.modelcontextprotocol/clientCapabilities":{}}}}'
+```
+
+An unauthenticated call answers with a JSON-RPC `-32001 Authentication required` error naming the `Authorization: Bearer` header. That error is the proof you want: the endpoint is up and speaking current MCP, and the tool list is gated behind your token.
 
 ## Connect Your Tools
 

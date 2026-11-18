@@ -1,7 +1,7 @@
 ---
 title: "CorpusIQ in the ChatGPT App Store"
 description: "CorpusIQ is an official public app in the ChatGPT app store."
-last_updated: "2026-11-04"
+last_updated: "2026-11-18"
 ---
 
 # CorpusIQ in the ChatGPT App Store
@@ -31,7 +31,7 @@ The consistent-answer promise is the point: the same number in ChatGPT, Claude, 
 
 ## Usage in promotion
 
-- Mention the ChatGPT store listing in social content (listing documented at corpusiq.io/llms.txt; re-checked Nov 4, 2026)
+- Mention the ChatGPT store listing in social content (listing documented at corpusiq.io/llms.txt, which still carries the same plugin link; re-checked Nov 18, 2026)
 - Affiliate and outreach emails can say "available in the ChatGPT app store, and inside Claude through our MCP connector". Never claim a Claude directory listing or a one-click Claude install - Anthropic's public directory API returns no CorpusIQ entry.
 - Docs links should use the direct plugin link above
 

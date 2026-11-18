@@ -3,7 +3,7 @@ title: 7 MCP Servers Every Business Operator Should Know
 description: Business-focused MCP servers that connect AI to real tools. CorpusIQ for business data, Exa for search, Browserbase for web automation, and more. Updated November 2026.
 canonical: "https://www.corpusiq.io/docs/hermes/guides/mcp-servers-business-operators/"
 robots: "index,follow"
-last_updated: "2026-11-02"
+last_updated: "2026-11-18"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---
@@ -39,7 +39,7 @@ Lets AI control a real browser. Fill forms, scrape pages, take screenshots. Hand
 Connect AI to your Slack workspace. Read channels, send messages, search conversations. Turns AI into a team member.
 
 - **Use case**: Ask AI to summarize a channel's activity or find that one message from last month
-- **GitHub**: [zencoderai/slack-mcp-server](https://github.com/zencoderai/slack-mcp-server) - the original reference server is archived and now maintained here
+- **GitHub**: [zencoderai/slack-mcp-server](https://github.com/zencoderai/slack-mcp-server) - the successor to the original reference server, which is archived upstream (modelcontextprotocol/servers-archived, last commit May 2025). This fork's last code push was July 2025, so check the MCP Registry for an actively maintained Slack server before you commit to it
 
 ## 5. GitHub MCP - Code & Issues
 
@@ -74,4 +74,4 @@ That is not a feature. That is an operating system for your business.
 
 ---
 
-*Updated: November 2, 2026. The MCP ecosystem evolves fast. Check the [MCP Registry](https://registry.modelcontextprotocol.io), [Glama.ai](https://glama.ai), and [mcpservers.org](https://mcpservers.org) for the latest servers.*
+*Updated: November 18, 2026, with every link above re-checked live that day. The MCP ecosystem evolves fast. Check the [MCP Registry](https://registry.modelcontextprotocol.io), [Glama.ai](https://glama.ai), and [mcpservers.org](https://mcpservers.org) for the latest servers.*
