@@ -10735,6 +10735,7 @@ CorpusIQ does not retain raw customer files or full connector response payloads.
 
 ## Related Pages
 
+- [Connect Google Docs to Perplexity](connect-google-docs-to-perplexity.md) - the same questions asked from Perplexity
 - [Connect Google Docs to Claude](connect-google-docs-to-claude.md) - the same documents, set up for Claude Desktop
 - [Google Workspace connector reference](connectors/google_workspace.md) - the single Google connection and its read-only guarantees
 - [Connect Google Drive to ChatGPT](connect-google-drive-to-chatgpt.md) - files, storage and search
@@ -10923,6 +10924,158 @@ A search box returns files. Claude reads them, compares them, and answers the qu
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# How to Connect Google Docs to Perplexity with CorpusIQ MCP
+URL: https://www.corpusiq.io/docs/connect-google-docs-to-perplexity
+
+
+# How to Connect Google Docs to Perplexity with CorpusIQ MCP
+
+A Google Doc holds an answer that someone wrote down months ago and nobody can find again. Search matches a phrase. It does not tell you which of the four versions is current, which clause was dropped after legal review, or whether the number in the deck matches the number in the memo.
+
+Perplexity is strong on the public record and blind to your own files. Connecting Google Docs through CorpusIQ MCP puts your documents in the same thread: Perplexity answers from the live file, read-only, and names the document it read.
+
+### Why Connect Google Docs to Perplexity?
+
+- **Policy questions.** "What does our data retention policy say about customer PII, and which clause covers deletion on request?"
+- **Clause-level reading.** "Compare the liability clause in the current MSA with the redline from last quarter and list what changed."
+- **Version drift.** "Which of the onboarding docs still describe the old pricing tiers?"
+- **Cross-document agreement.** "Does the board deck's ARR figure match the number in the finance memo?"
+- **Coverage checks.** "List every document in the shared legal folder that was not updated this year."
+- **Read-only by capability.** The retrieval tools documented on this page are read-only, and the Google connection is authorised with Google's explicit `.readonly` scopes.
+
+### How It Works
+
+1. **Connect Google Workspace to CorpusIQ.** One sign-in covers Gmail, Calendar, Drive, Sheets, Analytics, Ads and Search Console. Google Docs content is read through the Drive retrieval tools in that same connection, which list and search files and read document contents.
+2. **Add CorpusIQ to Perplexity** as a custom remote MCP server, using the endpoint from your CorpusIQ account settings.
+3. **Ask a document question.** CorpusIQ resolves the file, reads its content and returns the passages that bear on the question.
+4. **Perplexity answers** with the document named in the reply, next to the outside context it already provides.
+
+Direct MCP retrieval is read-only. It does not retain raw customer files or full connector response payloads; operational logs keep query text, per-user tool-call metadata and bounded outcome summaries for up to 30 days.
+
+### Setup Steps
+
+**In CorpusIQ**
+
+1. Log in and open **Connectors**.
+2. Select **Google Workspace**. This one connection covers Gmail, Calendar, Drive, Sheets, Google Analytics, Google Ads and Search Console behind a single sign-in.
+3. Sign in to Google and approve the read-only scopes. Google asks you to tick each scope on a separate checkbox.
+4. The connector turns green, and the Drive tools that read Docs content become available.
+
+**In Perplexity**
+
+5. Open **Settings** and find the **MCP servers** section.
+6. Add a custom MCP server and paste the endpoint:
+
+```
+https://mcp2.corpusiq.io/mcp
+```
+
+7. Connect and approve the CorpusIQ authorization page once. Then start a new thread and name a document or a folder.
+
+Which documents are reachable is decided by which Google account you authorise. Nothing outside that account's Drive is read.
+
+### Example Perplexity Questions
+
+**Policies and contracts**
+
+- "What does our data retention policy say about customer PII?"
+- "Which clause in the MSA covers deletion on request, and what does it oblige us to do?"
+- "Summarise the security addendum, then tell me which framework clauses it leaves unaddressed."
+
+**Versions and changes**
+
+- "Compare the liability clause in the current MSA with last quarter's redline."
+- "Which documents in the legal folder changed in the last 30 days, and what changed in each?"
+- "List every doc that still quotes the old pricing."
+
+**Agreement across documents**
+
+- "Does the ARR figure in the board deck match the one in the finance memo?"
+- "Which onboarding doc contradicts the current process, and where does it diverge?"
+- "Do the roadmap doc and the sprint board describe the same next release?"
+
+**Cross-source**
+
+- "Which contracts named in the CRM have a document in Drive, and which are missing?" (requires a CRM connector)
+- "Do the numbers in this memo reconcile with the same period in QuickBooks?" (requires a finance connector)
+- "Compare the hiring plan in this doc with the headcount figures in the HR sheet." (requires Google Sheets)
+
+### Security
+
+- **Read-only retrieval tools.** The tools documented on this page read file content. They do not edit, comment on, share or move a document.
+- **Google `.readonly` scopes.** Drive sign-in is granted with Google's explicit read-only scope, and the consent screen lists every scope it asks for.
+- **No stored credentials on your side.** CorpusIQ holds the encrypted Google grant; you can revoke it from your Google account at any time, and revocation takes effect on the next call.
+- **Scoped direct-MCP retention.** Raw customer files and full connector payloads are not retained. Operational logs keep query text, tool-call metadata and bounded outcome summaries for up to 30 days.
+- **TLS in transit** between Google, CorpusIQ and Perplexity.
+
+### Comparison: Google Docs search and Drive search
+
+| Aspect | Google Docs search and Drive search | CorpusIQ MCP with Perplexity |
+|---|---|---|
+| Input | A phrase or a file name | A question across the documents you own |
+| Scope | Titles, snippets, one document at a time | Full document content across many files |
+| Versions | Open each file history by hand | Asked across the current version and its predecessors |
+| Outside context | Open a second tab | Same thread, same answer |
+| Cross-system | Copy content out by hand | Asked across connectors |
+| Write access | Yes, by your users | None through the retrieval tools |
+
+Search finds the document. An answer that spans five of them is a different job.
+
+### FAQ: Common Questions
+
+<details>
+<summary><strong>Can Perplexity edit or comment on a Google Doc?</strong></summary>
+
+No. The retrieval tools documented on this page read file content, and the connection is authorised with Google's read-only scope. Documents, comments and sharing settings are untouched.
+</details>
+
+<details>
+<summary><strong>Is Google Docs a separate connector from Google Drive?</strong></summary>
+
+No. One Google Workspace connection covers Drive, and the Drive retrieval tools list and search files and read document contents. That is the path a Docs question takes.
+</details>
+
+<details>
+<summary><strong>Which file types can it read?</strong></summary>
+
+Native Google Docs, plus PDFs and text files in the same Drive, through the same Drive content tools.
+</details>
+
+<details>
+<summary><strong>Does it read the version history?</strong></summary>
+
+It reads the current content of a document. Comparing a current version with an earlier one works when both copies are reachable, for example a redline saved beside the original.
+</details>
+
+<details>
+<summary><strong>How current is the data?</strong></summary>
+
+Live. Each question reads the file as it stands, so an edit made a minute ago appears in the next answer.
+</details>
+
+<details>
+<summary><strong>Does this work only in Perplexity?</strong></summary>
+
+No. Google Workspace is exposed to ChatGPT, Claude and Perplexity through the same endpoint on the same subscription.
+</details>
+
+### See Also
+
+- [Connect Google Drive to Perplexity](connect-google-drive-to-perplexity.md) - the folder and file questions, from the same connection
+- [Connect Google Docs to Claude](connect-google-docs-to-claude.md) - the same document questions, asked in Claude
+- [Google Workspace connector](connectors/google_workspace.md) - every Google source behind one sign-in
+
+---
+
+**Next steps:** [Add CorpusIQ to Perplexity now](https://www.corpusiq.io/connectors/perplexity)
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.CorpusIQ.io).*
 
 ---
 # How to Connect Google Drive to ChatGPT with CorpusIQ MCP
@@ -12922,6 +13075,160 @@ Every question is answered against the instance at the moment you ask. There is 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
 
 ---
+# How to Connect Jira to Perplexity with CorpusIQ MCP
+URL: https://www.corpusiq.io/docs/connect-jira-to-perplexity
+
+
+# How to Connect Jira to Perplexity with CorpusIQ MCP
+
+Jira answers one question well: what is in this board right now. It answers the harder questions badly. How much did we finish this sprint compared with the last five. Which issue has been sitting in review longest. Why the release slipped.
+
+Getting those answers means building a filter, choosing fields, and reading a chart. Or writing JQL if you happen to know it.
+
+Connecting Jira through CorpusIQ MCP replaces the filter builder with a question. Perplexity reads your live instance, read-only, and names the project, the sprint and the issues it used.
+
+### Why Connect Jira to Perplexity?
+
+- **Sprint status without a dashboard.** "What is still open in the current sprint, and who owns each item?"
+- **Velocity over time.** "How many story points did we complete in each of the last five sprints?"
+- **Aging work.** "Which issues have been in review for more than five days?"
+- **Release readiness.** "Which issues targeted at the next release are still unresolved, and what is the highest priority among them?"
+- **Workload distribution.** "Who has the most open issues this sprint?"
+- **Read-only by capability.** The retrieval tools documented on this page are read-only, and the access granted is read access: an OAuth consent on Jira Cloud or a read-scoped personal access token on Data Center.
+
+### How It Works
+
+1. **Connect Jira to CorpusIQ.** Authorise read-only access to your instance, either through OAuth for Jira Cloud or a personal access token for Jira Data Center.
+2. **Add CorpusIQ to Perplexity** as a custom remote MCP server, using the endpoint from your CorpusIQ account settings.
+3. **CorpusIQ translates** your question into Jira searches, handles pagination and field mapping, and retrieves the matching issues, sprints and projects.
+4. **Perplexity answers** from that retrieved content, with the issues it used attached to the answer.
+
+Direct MCP retrieval is read-only. It does not retain raw customer files or full connector response payloads; operational logs keep query text, per-user tool-call metadata and bounded outcome summaries for up to 30 days.
+
+### Setup Steps
+
+**In CorpusIQ**
+
+1. Log in and open **Connectors**.
+2. Select **Jira**.
+3. Authorize read-only access. On Jira Cloud this is an OAuth consent screen. On Data Center it is a personal access token bound to the account you want read.
+4. The connector turns green and the issue and sprint tools become available.
+
+**In Perplexity**
+
+5. Open **Settings** and find the **MCP servers** section.
+6. Add a custom MCP server and paste the endpoint:
+
+```
+https://mcp2.corpusiq.io/mcp
+```
+
+7. Connect and approve the CorpusIQ authorization page once. Then start a new thread and ask about a board, a sprint or a release.
+
+A Jira token reads what its account can read. On Data Center, the account you issue the token for is the boundary; on Cloud, the consent screen lists the projects the authorising user can already open.
+
+### Example Perplexity Questions
+
+**Sprint and board**
+
+- "What is still open in the current sprint, and who owns each item?"
+- "Which issues moved to Done this week, grouped by assignee?"
+- "What is in the ready-for-qa column right now?"
+
+**Delivery health**
+
+- "How many story points did we complete in each of the last five sprints?"
+- "Which issues have been in review for more than five days?"
+- "What is our average cycle time this quarter against last quarter?"
+
+**Release and scope**
+
+- "Which issues targeted at the next release are unresolved?"
+- "What was added to this release after the scope freeze?"
+- "Which epics have no issue in progress?"
+
+**Cross-source**
+
+- "Do the epics closed in Jira match the projects marked done in Notion?" (requires the Notion connector)
+- "Which Jira incidents have a matching thread in Slack?" (requires the Slack connector)
+- "Compare the sprint commitment with the hours logged in the sheet." (requires Google Sheets)
+
+### Security
+
+- **Read-only retrieval tools.** The tools documented on this page search and read issues, sprints and projects. They do not create, transition, assign or comment on an issue.
+- **Scoped credentials.** Cloud access is an OAuth consent for the authorising user; Data Center access is a personal access token you can revoke on its own.
+- **No stored credentials on your side.** CorpusIQ holds the encrypted token, and revocation takes effect on the next call.
+- **Scoped direct-MCP retention.** Raw customer files and full connector payloads are not retained. Operational logs keep query text, tool-call metadata and bounded outcome summaries for up to 30 days.
+- **TLS in transit** between Jira, CorpusIQ and Perplexity.
+
+### Comparison: Jira filters, dashboards and JQL
+
+| Aspect | Jira filters, dashboards and JQL | CorpusIQ MCP with Perplexity |
+|---|---|---|
+| Input | A filter builder, or a JQL query | A question in plain language |
+| Skill needed | Know the fields and the operators | None |
+| Across time | Build a report per sprint | Asked across the last five sprints |
+| Outside context | Open a second tab | Same thread, same answer |
+| Cross-system | Export to a sheet | Asked across connectors |
+| Write access | Yes, by your users | None through the retrieval tools |
+
+A board shows the current state. The question is usually about the trend.
+
+### FAQ: Common Questions
+
+<details>
+<summary><strong>Do I need to know JQL?</strong></summary>
+
+No. You ask in plain language and CorpusIQ builds the searches. JQL is not part of the path.
+</details>
+
+<details>
+<summary><strong>Can Perplexity change an issue?</strong></summary>
+
+No. The retrieval tools documented on this page read issues, sprints and projects. No create, transition or comment path exists on them.
+</details>
+
+<details>
+<summary><strong>Does it work with Jira Data Center?</strong></summary>
+
+Yes. Cloud connects through an OAuth consent screen, and Data Center through a personal access token.
+</details>
+
+<details>
+<summary><strong>Which projects can it see?</strong></summary>
+
+The projects the authorising account can already open. Nothing wider is reachable.
+</details>
+
+<details>
+<summary><strong>How current is the data?</strong></summary>
+
+Live. Each question reads Jira as it stands, so an issue moved a minute ago shows in the next answer.
+</details>
+
+<details>
+<summary><strong>Does this work only in Perplexity?</strong></summary>
+
+No. Jira is exposed to ChatGPT, Claude and Perplexity through the same endpoint on the same subscription.
+</details>
+
+### See Also
+
+- [Connect Jira to ChatGPT](connect-jira-to-chatgpt.md) - the same sprint and velocity questions, asked from ChatGPT
+- [Connect Jira to Claude](connect-jira-to-claude.md) - the same questions with the Claude Desktop config block
+- [Connect Monday.com to Perplexity](connect-monday-com-to-perplexity.md) - work management boards read the same way
+
+---
+
+**Next steps:** [Add CorpusIQ to Perplexity now](https://www.corpusiq.io/connectors/perplexity)
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.CorpusIQ.io).*
+
+---
 # How to Connect Klaviyo to ChatGPT with CorpusIQ MCP
 URL: https://www.corpusiq.io/docs/connect-klaviyo-to-chatgpt
 
@@ -14459,6 +14766,160 @@ Every question triggers a fresh read against the live API. There is no nightly s
 - [MCP vs API Integrations](mcp-vs-api-integrations.md) - why the access model differs
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+
+---
+# How to Connect Monday.com to Perplexity with CorpusIQ MCP
+URL: https://www.corpusiq.io/docs/connect-monday-com-to-perplexity
+
+
+# How to Connect Monday.com to Perplexity with CorpusIQ MCP
+
+A Monday board is a good place to run work and a poor place to read it. The status column shows today. It does not show which item has sat in the same group for three weeks, which owner is carrying six of the nine open items, or which board contradicts the roadmap.
+
+Answering those means clicking through groups, filtering, and remembering which board holds which work.
+
+Connecting Monday.com through CorpusIQ MCP turns the board into a question. Perplexity reads the live boards, read-only, and names the board and the item it used.
+
+### Why Connect Monday.com to Perplexity?
+
+- **Blocked work.** "Which items across every board are marked Blocked right now, and who owns each?"
+- **Ownership load.** "Who has the most open items this week, and in which boards?"
+- **Slipping dates.** "List every item with a due date in the past that is not marked Done."
+- **Board summaries.** "Summarise the Q1 roadmap board by group and status."
+- **Cross-board agreement.** "Do the items marked Done in the product board match the epics closed in Jira?"
+- **Read-only by capability.** The retrieval tools documented on this page are read-only, and the connection is an OAuth grant to an account that carries View access.
+
+### How It Works
+
+1. **Connect Monday.com to CorpusIQ** with an OAuth grant to the account whose boards you want read.
+2. **Add CorpusIQ to Perplexity** as a custom remote MCP server, using the endpoint from your CorpusIQ account settings.
+3. **CorpusIQ reads** the workspaces and boards that account can open: columns, groups, items and their column values.
+4. **Perplexity answers** from those rows, with the board named in the reply.
+
+Direct MCP retrieval is read-only. It does not retain raw customer files or full connector response payloads; operational logs keep query text, per-user tool-call metadata and bounded outcome summaries for up to 30 days.
+
+### Setup Steps
+
+**In CorpusIQ**
+
+1. Open your dashboard and go to **Connectors**.
+2. Select **Monday.com** and click **Connect**.
+3. Log into Monday.com if you are not already signed in, then approve the consent screen.
+4. You return to CorpusIQ and the row turns from gray to green.
+
+**In Perplexity**
+
+5. Open **Settings** and find the **MCP servers** section.
+6. Add a custom MCP server and paste the endpoint:
+
+```
+https://mcp2.corpusiq.io/mcp
+```
+
+7. Connect and approve the CorpusIQ authorization page once. Then start a new thread and name a board or an owner.
+
+A board appears only when the connected Monday account has at least View access to it. That per-board right is the access boundary, not a setting inside CorpusIQ.
+
+### Example Perplexity Questions
+
+**Blockers and risk**
+
+- "Which items are marked Blocked across every board, with owners?"
+- "What has been sitting in Waiting for client for more than a week?"
+- "Which items are past their due date and still open?"
+
+**People and load**
+
+- "Who has the most open items this week, and in which boards?"
+- "Show me everything assigned to one owner for the next seven days."
+- "Which boards have items with no owner?"
+
+**Planning**
+
+- "Summarise the roadmap board by group and status."
+- "What is scheduled to start next month and has no owner yet?"
+- "Which groups have more than half their items done?"
+
+**Cross-source**
+
+- "Do the items marked Done in the product board match the epics closed in Jira?" (requires the Jira connector)
+- "Which accounts mentioned on this board are also in the CRM, and does the status agree?" (requires a CRM connector)
+- "Compare this quarter's deliverables on the board with the revenue in the sheet." (requires Google Sheets)
+
+### Security
+
+- **Read-only retrieval tools.** The tools documented on this page read workspaces, boards, groups, items and column values. They do not change a status, assign an item, add a row or edit a board.
+- **Per-board rights.** A board is reachable only when the connected account can open it, so the visible set follows Monday's own permissions.
+- **No stored credentials on your side.** CorpusIQ holds the encrypted OAuth grant; you can revoke the Monday app at any time, and revocation takes effect on the next call.
+- **Scoped direct-MCP retention.** Raw customer files and full connector payloads are not retained. Operational logs keep query text, tool-call metadata and bounded outcome summaries for up to 30 days.
+- **TLS in transit** between Monday.com, CorpusIQ and Perplexity.
+
+### Comparison: Monday boards, filters and dashboards
+
+| Aspect | Monday boards, filters and dashboards | CorpusIQ MCP with Perplexity |
+|---|---|---|
+| Input | A board view, a filter or a widget | A question across every board |
+| Scope | One board at a time | All boards the account can open |
+| Trends | Build a chart per board | Asked across boards and dates |
+| Outside context | Open a second tab | Same thread, same answer |
+| Cross-system | Export to a sheet | Asked across connectors |
+| Write access | Yes, by your users | None through the retrieval tools |
+
+A dashboard shows the board you configured. The question is usually about the ones you did not.
+
+### FAQ: Common Questions
+
+<details>
+<summary><strong>Can Perplexity change a status or assign an item?</strong></summary>
+
+No. The retrieval tools documented on this page read boards, groups, items and column values. Statuses, owners and board structure are untouched.
+</details>
+
+<details>
+<summary><strong>A board is missing from the answers. Why?</strong></summary>
+
+Confirm the connected Monday user has at least View access on that board. Access is enforced by Monday, not by a CorpusIQ setting.
+</details>
+
+<details>
+<summary><strong>A large board returns nothing?</strong></summary>
+
+Narrow the question to a specific group or status. A board with tens of thousands of rows answers better one group at a time.
+</details>
+
+<details>
+<summary><strong>Does it read column values, or only item names?</strong></summary>
+
+Column values too: status, owners, dates and the other column types the board carries.
+</details>
+
+<details>
+<summary><strong>How current is the data?</strong></summary>
+
+Live. Each question reads the boards as they stand, so an item moved a minute ago appears in the next answer.
+</details>
+
+<details>
+<summary><strong>Does this work only in Perplexity?</strong></summary>
+
+No. Monday.com is exposed to ChatGPT, Claude and Perplexity through the same endpoint on the same subscription.
+</details>
+
+### See Also
+
+- [Connect Monday.com to ChatGPT](connect-monday-com-to-chatgpt.md) - the same board questions, asked from ChatGPT
+- [Connect Monday.com to Claude](connect-monday-com-to-claude.md) - the same questions with the Claude Desktop config block
+- [Monday.com connector](connectors/monday.md) - what the connection can see and how to connect it
+
+---
+
+**Next steps:** [Add CorpusIQ to Perplexity now](https://www.corpusiq.io/connectors/perplexity)
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.CorpusIQ.io).*
 
 ---
 # How to Connect Microsoft SQL Server to ChatGPT with CorpusIQ MCP
@@ -17042,6 +17503,7 @@ CorpusIQ does not retain raw customer files or full connector response payloads.
 
 ## Related Pages
 
+- [Connect PostHog to Perplexity](connect-posthog-to-perplexity.md) - the same questions asked from Perplexity
 - [Connect PostHog to Claude](connect-posthog-to-claude.md) - the same project, set up for Claude Desktop
 - [PostHog connector reference](connectors/posthog.md) - visible data, prompts and the read-only boundary
 - [Connect Google Analytics to ChatGPT](connect-google-analytics-to-chatgpt.md) - traffic alongside product usage
@@ -17235,6 +17697,164 @@ Because the useful questions are rarely about product data alone. "Which heavy u
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# How to Connect PostHog to Perplexity with CorpusIQ MCP
+URL: https://www.corpusiq.io/docs/connect-posthog-to-perplexity
+
+
+# How to Connect PostHog to Perplexity with CorpusIQ MCP
+
+Product analytics answers a question you already know how to ask inside the tool. The question you actually have is messier: why did signup conversion drop after the release, which step loses the most people, and is that the same step that lost them last month.
+
+Getting there means building an insight, choosing a breakdown, and remembering which event name the team settled on.
+
+Connecting PostHog through CorpusIQ MCP puts the project behind a question. Perplexity reads live events, funnels and person records, read-only, and names what it used.
+
+### Why Connect PostHog to Perplexity?
+
+- **Funnel performance.** "How many users completed the onboarding funnel this week, and which step lost the most?"
+- **Retention.** "What percentage of users who signed up last week are still active today?"
+- **Event health.** "Which events are firing most frequently in the last 24 hours?"
+- **Segments.** "Show the top ten users by event count this month."
+- **Custom analysis.** Run a SQL-style HogQL query when a question needs one.
+- **Read-only by capability.** The retrieval tools documented on this page are read-only, and the credential is a personal API key you scope and can revoke.
+
+### How It Works
+
+1. **Connect PostHog to CorpusIQ** with a personal API key and the project ID it should read.
+2. **Add CorpusIQ to Perplexity** as a custom remote MCP server, using the endpoint from your CorpusIQ account settings.
+3. **CorpusIQ queries** events, event definitions, person records and funnel data for that project.
+4. **Perplexity answers** from the returned rows, with the project and the events named.
+
+Direct MCP retrieval is read-only. It does not retain raw customer files or full connector response payloads; operational logs keep query text, per-user tool-call metadata and bounded outcome summaries for up to 30 days.
+
+### Setup Steps
+
+**In PostHog**
+
+1. Open **Settings**, then **Personal API Keys**, and create a key for CorpusIQ.
+2. Copy the key and note the **Project ID** of the project you want read.
+
+**In CorpusIQ**
+
+3. Open your dashboard and go to **Connectors**.
+4. Select **PostHog**, paste the personal API key and the project ID.
+5. The connector turns green and the analytics tools become available.
+
+**In Perplexity**
+
+6. Open **Settings** and find the **MCP servers** section.
+7. Add a custom MCP server and paste the endpoint:
+
+```
+https://mcp2.corpusiq.io/mcp
+```
+
+8. Connect and approve the CorpusIQ authorization page once. Then start a new thread and ask about a funnel, an event or a cohort.
+
+The key decides the reach. A personal API key carries the scopes it was issued with, and the project ID decides which project's data is read.
+
+### Example Perplexity Questions
+
+**Funnels and conversion**
+
+- "How many users completed the onboarding funnel this week, and which step lost the most?"
+- "What is the conversion rate from signup to first data connector connected?"
+- "Which funnel step has the widest drop for mobile users?"
+
+**Retention and cohorts**
+
+- "What percentage of users who signed up last week are still active today?"
+- "Compare week four retention for the last two monthly cohorts."
+- "Which acquisition source retains best after 30 days?"
+
+**Events and adoption**
+
+- "Which events are firing most frequently in the last 24 hours?"
+- "Which features are used by fewer than five percent of active users?"
+- "Show the top ten users by event count this month."
+
+**Cross-source**
+
+- "Do the paying accounts in PostHog match the active subscriptions in Stripe?" (requires the Stripe connector)
+- "Which customers raised a support thread and then stopped using the product?" (requires a support or mailbox connector)
+- "Compare trial signups in PostHog with the sessions reported in Analytics." (requires the Google Analytics connector)
+
+### Security
+
+- **Read-only retrieval tools.** The tools documented on this page read events, person records, funnel data and run HogQL queries. They do not capture events, edit definitions or change project settings.
+- **Your own key, your own scope.** The personal API key is issued in PostHog, carries the scopes you grant it, and can be revoked there at any time.
+- **Project-scoped.** A connection reads the single project whose ID you supply.
+- **Scoped direct-MCP retention.** Raw customer files and full connector payloads are not retained. Operational logs keep query text, tool-call metadata and bounded outcome summaries for up to 30 days.
+- **TLS in transit** between PostHog, CorpusIQ and Perplexity.
+
+### Comparison: PostHog insights and dashboards
+
+| Aspect | PostHog insights and dashboards | CorpusIQ MCP with Perplexity |
+|---|---|---|
+| Input | An insight builder and a chosen breakdown | A question, with the breakdown implied |
+| Scope | The events and properties you pick | The events, people and funnels that fit |
+| Follow-ups | Rebuild the insight | Ask the next question in the same thread |
+| Outside context | Open a second tab | Same thread, same answer |
+| Cross-system | Export to a sheet | Asked across connectors |
+| Write access | Yes, by your users | None through the retrieval tools |
+
+A dashboard shows what you thought to chart. The question is the one you did not.
+
+### FAQ: Common Questions
+
+<details>
+<summary><strong>Can Perplexity change anything in PostHog?</strong></summary>
+
+No. The retrieval tools documented on this page read events, person records and funnels. Nothing is captured, edited or deleted.
+</details>
+
+<details>
+<summary><strong>Which credential does it need?</strong></summary>
+
+A PostHog personal API key plus the project ID. The key is created under Settings, then Personal API Keys.
+</details>
+
+<details>
+<summary><strong>Does it see session recordings or feature flags?</strong></summary>
+
+No. The connector covers events and event definitions, person records, funnel conversion data and custom HogQL queries. Session recordings and feature flags are outside it.
+</details>
+
+<details>
+<summary><strong>Can it run a HogQL query?</strong></summary>
+
+Yes, when a question needs one. Simple questions are answered without you writing any query.
+</details>
+
+<details>
+<summary><strong>How current is the data?</strong></summary>
+
+Live. Each question reads the project as it stands, subject to PostHog's own ingestion delay for very recent events.
+</details>
+
+<details>
+<summary><strong>Does this work only in Perplexity?</strong></summary>
+
+No. PostHog is exposed to ChatGPT, Claude and Perplexity through the same endpoint on the same subscription.
+</details>
+
+### See Also
+
+- [Connect PostHog to ChatGPT](connect-posthog-to-chatgpt.md) - the same funnel and event questions, asked from ChatGPT
+- [Connect PostHog to Claude](connect-posthog-to-claude.md) - the same questions with the Claude Desktop config block
+- [PostHog connector](connectors/posthog.md) - everything the connection can see, and what it cannot
+
+---
+
+**Next steps:** [Add CorpusIQ to Perplexity now](https://www.corpusiq.io/connectors/perplexity)
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.CorpusIQ.io).*
 
 ---
 # How to Connect QuickBooks to ChatGPT with CorpusIQ MCP
@@ -18843,6 +19463,160 @@ A: Documents with sensitivity labels are accessible, and label metadata is prese
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# How to Connect SharePoint to Perplexity with CorpusIQ MCP
+URL: https://www.corpusiq.io/docs/connect-sharepoint-to-perplexity
+
+
+# How to Connect SharePoint to Perplexity with CorpusIQ MCP
+
+SharePoint holds the documents a company runs on: policies, board decks, statements of work, close packs, security questionnaires. Finding one is a folder drill or a search box that matches file names and snippets, not meaning.
+
+The harder question is never where the file is. It is what the file says, and whether it still agrees with the one written six months later.
+
+Connecting SharePoint through CorpusIQ MCP puts the library behind a question. Perplexity reads the documents the connection can open, read-only, and names what it read.
+
+### Why Connect SharePoint to Perplexity?
+
+- **Policy questions.** "What does our data retention policy say about customer PII, and which clause covers deletion on request?"
+- **Deck and memo recall.** "Find the Q3 close presentation and summarise the variance commentary."
+- **Version drift.** "Which security questionnaire answers no longer match the current policy?"
+- **Coverage checks.** "Which sites have an incident response plan, and which do not?"
+- **Cross-system context.** "Do the figures in this close pack reconcile with the same period in the accounting system?"
+- **Read-only by capability.** The retrieval tools documented on this page are read-only, and the Microsoft grant carries `Sites.Read.All` and `Files.Read.All`.
+
+### How It Works
+
+1. **Connect SharePoint to CorpusIQ** with a Microsoft OAuth grant for your tenant. The consent screen names the two permissions it requests, `Sites.Read.All` and `Files.Read.All`, before you approve anything.
+2. **Add CorpusIQ to Perplexity** as a custom remote MCP server, using the endpoint from your CorpusIQ account settings.
+3. **CorpusIQ reads** the sites and documents the grant reaches, and returns the passages that answer the question.
+4. **Perplexity answers** with the document named, next to the outside context it already provides.
+
+Direct MCP retrieval is read-only. It does not retain raw customer files or full connector response payloads; operational logs keep query text, per-user tool-call metadata and bounded outcome summaries for up to 30 days.
+
+### Setup Steps
+
+**In CorpusIQ**
+
+1. Navigate to **Connectors**.
+2. Select **SharePoint**, under the Microsoft 365 integrations.
+3. Click **Connect SharePoint** and authorise through Microsoft OAuth.
+4. Review the permissions it requests: `Sites.Read.All` and `Files.Read.All`, both read-only, covering SharePoint sites and files.
+
+**In Perplexity**
+
+5. Open **Settings** and find the **MCP servers** section.
+6. Add a custom MCP server and paste the endpoint:
+
+```
+https://mcp2.corpusiq.io/mcp
+```
+
+7. Connect and approve the CorpusIQ authorization page once. Then start a new thread and name a site, a document or a policy.
+
+Organisations running Conditional Access policies can route the grant through a Microsoft Entra ID administrative consent workflow, so the tenant's own policy decides what is approved before anything is read.
+
+### Example Perplexity Questions
+
+**Policies and compliance**
+
+- "What does our data retention policy say about customer PII?"
+- "Which policy documents were not reviewed in the last twelve months?"
+- "Summarise the incident response plan and list the steps with named owners."
+
+**Finance and board material**
+
+- "Find the Q3 close presentation and summarise the variance commentary."
+- "Which board pack figures differ from the previous quarter, and by how much?"
+- "List the documents in the finance site updated since the last close."
+
+**Sales and legal**
+
+- "Find the current MSA template and list the clauses a customer most often redlines."
+- "Which statements of work expire this quarter?"
+- "What does the security questionnaire say about subprocessors?"
+
+**Cross-source**
+
+- "Do the figures in this close pack reconcile with the same period in QuickBooks?" (requires a finance connector)
+- "Which contracts in the CRM have a matching document in SharePoint?" (requires a CRM connector)
+- "Compare the headcount plan document with the people data in the sheet." (requires Google Sheets)
+
+### Security
+
+- **Read-only permissions.** The connection requests `Sites.Read.All` and `Files.Read.All`, both read-only, and the retrieval tools documented on this page only read.
+- **Tenant consent.** Conditional Access organisations can require Microsoft Entra ID administrative consent before the grant becomes active.
+- **No stored credentials on your side.** CorpusIQ holds the encrypted Microsoft grant; a tenant administrator can revoke it in Entra ID, and revocation takes effect on the next call.
+- **Scoped direct-MCP retention.** Raw customer files and full connector payloads are not retained. Operational logs keep query text, tool-call metadata and bounded outcome summaries for up to 30 days.
+- **TLS in transit** between Microsoft 365, CorpusIQ and Perplexity.
+
+### Comparison: SharePoint search and folder navigation
+
+| Aspect | SharePoint search and folder navigation | CorpusIQ MCP with Perplexity |
+|---|---|---|
+| Input | A file name, a phrase, or a folder path | A question about the content |
+| Scope | One site or library at a time | Every site the grant reaches |
+| Reading | Open each document yourself | Passages returned across documents |
+| Outside context | Open a second tab | Same thread, same answer |
+| Cross-system | Copy content out by hand | Asked across connectors |
+| Write access | Yes, by your users | None through the retrieval tools |
+
+Search returns files. The answer needs the parts of them that matter.
+
+### FAQ: Common Questions
+
+<details>
+<summary><strong>Can Perplexity edit or upload a SharePoint document?</strong></summary>
+
+No. The grant carries `Sites.Read.All` and `Files.Read.All`, and the retrieval tools documented on this page only read. Libraries, permissions and versions are untouched.
+</details>
+
+<details>
+<summary><strong>Which sites can it reach?</strong></summary>
+
+The ones the Microsoft grant covers. A tenant administrator approves or restricts that scope, and Conditional Access organisations can require explicit admin consent first.
+</details>
+
+<details>
+<summary><strong>Does it read inside PDFs and Office files?</strong></summary>
+
+Yes. Document content is read, not just file names and metadata.
+</details>
+
+<details>
+<summary><strong>Does it respect SharePoint permissions per user?</strong></summary>
+
+The connection reads with the grant it was given, which is a tenant or account-level authorisation. Review the permissions on the consent screen before approving.
+</details>
+
+<details>
+<summary><strong>How current is the data?</strong></summary>
+
+Live. Each question reads the current version of the document, so an edit made a minute ago appears in the next answer.
+</details>
+
+<details>
+<summary><strong>Does this work only in Perplexity?</strong></summary>
+
+No. SharePoint is exposed to ChatGPT, Claude and Perplexity through the same endpoint on the same subscription.
+</details>
+
+### See Also
+
+- [Connect SharePoint to ChatGPT](connect-sharepoint-to-chatgpt.md) - the same document questions, asked from ChatGPT
+- [Connect SharePoint to Claude](connect-sharepoint-to-claude.md) - the same questions with the Claude Desktop config block
+- [Connect Google Drive to Perplexity](connect-google-drive-to-perplexity.md) - the same reading pattern on a drive-based library
+
+---
+
+**Next steps:** [Add CorpusIQ to Perplexity now](https://www.corpusiq.io/connectors/perplexity)
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.CorpusIQ.io).*
 
 ---
 # How to Connect Shopify to ChatGPT with CorpusIQ MCP
@@ -29417,6 +30191,12 @@ A: Same endpoint, different client. This guide is for using Perplexity as the MC
 - **[Connect Outlook to Perplexity](connect-outlook-to-perplexity.md)** - commitments, unanswered threads and renewal terms from the mailbox
 - **[Connect Meta Ads to Perplexity](connect-meta-ads-to-perplexity.md)** - campaign, placement and creative performance beside category benchmarks
 
+- **[Connect Google Docs to Perplexity](connect-google-docs-to-perplexity.md)** - what a policy, contract or memo actually says, cited to the document
+- **[Connect Jira to Perplexity](connect-jira-to-perplexity.md)** - sprints, blockers and velocity in plain English, with no JQL
+- **[Connect Monday.com to Perplexity](connect-monday-com-to-perplexity.md)** - which projects are blocked and what is slipping, read from live boards
+- **[Connect SharePoint to Perplexity](connect-sharepoint-to-perplexity.md)** - policies, board decks and close packs read from your site libraries
+- **[Connect PostHog to Perplexity](connect-posthog-to-perplexity.md)** - funnels, retention and event questions answered from your own project
+
 ## Internal Links
 
 - **[Gemini Integration](gemini-integration.md)** - the same connection, described for Gemini
@@ -36280,6 +37060,7 @@ CorpusIQ never sends mail, creates events, edits files, or shares anything.
 <!-- DOC-GAP: No internal SETUP doc exists. Setup steps inferred from registry + vendor public docs. Verify before publish. -->
 ## See also
 
+- [Connect Google Docs to Perplexity](../connect-google-docs-to-perplexity.md) - the Perplexity setup, the questions worth asking and the read-only model.
 - [Connect Google Sheets to ChatGPT](../connect-google-sheets-to-chatgpt.md) - sheet data behind a plain-English question.
 - [Connect Google Calendar to ChatGPT](../connect-google-calendar-to-chatgpt.md) - meeting load and commitments as questions.
 - [Connect Google Drive to ChatGPT](../connect-google-drive-to-chatgpt.md) - clause-level answers from the documents themselves.
@@ -36952,6 +37733,7 @@ Read-only. CorpusIQ never changes statuses, assigns items, or edits boards.
 
 ## See also
 
+- [Connect Monday.com to Perplexity](../connect-monday-com-to-perplexity.md) - the Perplexity setup, the questions worth asking and the read-only model.
 - [Connect Monday.com to ChatGPT](../connect-monday-com-to-chatgpt.md) - the ChatGPT setup, the questions worth asking and the read-only model.
 - [Connect Monday.com to Claude](../connect-monday-com-to-claude.md) - the same setup in Claude, with the verified config block.
 
@@ -37423,6 +38205,7 @@ What percentage of users who signed up last week are still active today?
 
 ## See also
 
+- [Connect PostHog to Perplexity](../connect-posthog-to-perplexity.md) - the Perplexity setup, the questions worth asking and the read-only model.
 - [Connect PostHog to Claude](../connect-posthog-to-claude.md) - the Claude Desktop setup, the questions worth asking and the read-only boundary.
 - [Connect PostHog to ChatGPT](../connect-posthog-to-chatgpt.md) - the ChatGPT setup, the questions worth asking and the read-only boundary.
 

@@ -114,6 +114,12 @@ A: Same endpoint, different client. This guide is for using Perplexity as the MC
 - **[Connect Outlook to Perplexity](connect-outlook-to-perplexity.md)** - commitments, unanswered threads and renewal terms from the mailbox
 - **[Connect Meta Ads to Perplexity](connect-meta-ads-to-perplexity.md)** - campaign, placement and creative performance beside category benchmarks
 
+- **[Connect Google Docs to Perplexity](connect-google-docs-to-perplexity.md)** - what a policy, contract or memo actually says, cited to the document
+- **[Connect Jira to Perplexity](connect-jira-to-perplexity.md)** - sprints, blockers and velocity in plain English, with no JQL
+- **[Connect Monday.com to Perplexity](connect-monday-com-to-perplexity.md)** - which projects are blocked and what is slipping, read from live boards
+- **[Connect SharePoint to Perplexity](connect-sharepoint-to-perplexity.md)** - policies, board decks and close packs read from your site libraries
+- **[Connect PostHog to Perplexity](connect-posthog-to-perplexity.md)** - funnels, retention and event questions answered from your own project
+
 ## Internal Links
 
 - **[Gemini Integration](gemini-integration.md)** - the same connection, described for Gemini
