@@ -26,9 +26,10 @@ Since protocol revision `2026-07-28` there is no `initialize` handshake. Every r
 curl -s -X POST https://mcp.example.com/mcp \
   -H 'Content-Type: application/json' \
   -H 'Accept: application/json, text/event-stream' \
-  -H 'MCP-Protocol-Version: 2026-07-28' \
   -d '{"jsonrpc":"2.0","id":1,"method":"server/discover","params":{"_meta":{"io.modelcontextprotocol/protocolVersion":"2026-07-28","io.modelcontextprotocol/clientInfo":{"name":"probe","version":"0.1"},"io.modelcontextprotocol/clientCapabilities":{}}}}'
 ```
+
+Protocol metadata travels in the message body. The Streamable HTTP binding may mirror selected body fields into HTTP headers so intermediaries can route requests, but the body is the source of truth - a header alone is not how a 2026-07-28 server learns your version.
 
 Then call `tools/list` against the same endpoint. What you are looking for is not the number of tools. It is the verb in each tool name.
 
@@ -113,7 +114,7 @@ If you cannot answer the first question, you do not yet know what you are connec
 
 A server is a dependency. Dependencies get abandoned, and an abandoned server with a live token is a standing risk. Look for a version number in `serverInfo`, a changelog or release history, an issue tracker with recent activity, and documentation that names the vendor's own domain.
 
-The weakest signal is a directory listing. Directories are self-serve, they list servers that have never answered a request, and a card on a marketplace page is not evidence that the endpoint runs. The strongest signal is a successful `initialize` against the live endpoint today.
+The weakest signal is a directory listing. Directories are self-serve, they list servers that have never answered a request, and a card on a marketplace page is not evidence that the endpoint runs. The strongest signal is a successful `server/discover` against the live endpoint today - an `initialize` has been retired since the 2026-07-28 revision, so a server that only answers `initialize` is running older protocol code.
 
 ## Red flags that end the review
 

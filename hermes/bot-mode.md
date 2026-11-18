@@ -1,7 +1,7 @@
 ---
 title: "Hermes Bot Mode (Desktop Plugin)"
 description: "Bot Mode turns your Hermes agent profiles into a roster of named bots."
-last_updated: "2026-11-04"
+last_updated: "2026-11-18"
 ---
 
 # Hermes Bot Mode (Desktop Plugin)
@@ -17,11 +17,13 @@ Bot Mode turns your Hermes agent profiles into a roster of named bots. Each bot 
 
 - **Bots tab** - left-side roster, one row per agent profile with avatar, latest message preview, timestamp. Click to enter its chat. The roster searches as you type, and right-click gives "open recent session".
 - **Active now** - activity filter over the roster: the owner of the focused live turn, bots that wrote in the last 90 seconds, and bots with a recent worker heartbeat. A connected gateway alone does not mean a bot is working.
-- **New Agent** - create a bot in seconds: name, title, description. Advanced mode opens the full profile config: clone an existing profile, pin a provider/model, write a custom SOUL.md, skip bundled skills.
-- **Groups** - organize the roster into labeled sections. Group chats (2-6 bots) are shared rooms where bots coordinate: @mentions pull bots in, @user escalates to a human with a "needs you" badge, hard caps (10 messages per send, 3 rounds) stop runaway loops.
-- **Bot-to-bot messaging** - every bot has a persistent Bot Chat. Bots message each other with attribution, and their SOUL.md teaches them the protocol.
-- **Routines** - recurring tasks per bot, backed by standard Hermes cron. Runs land in the bot's own chat history.
-- **Avatars** - geometric faces, uploaded images, AI-generated portraits, or pixel pets that bounce while the bot works.
+- **New Agent** - create a bot in seconds: name, title, description. Advanced mode opens the full profile config: clone an existing profile, pin a provider/model, write a custom SOUL.md, skip bundled skills, and tick the per-skill, per-toolset and per-MCP-server capabilities it needs. Static API keys are copied from the main profile by default; single-use OAuth logins are not, so the bot signs itself in with `hermes -p <name> auth add <provider>`. With more than one connection registered, a **Create on** picker creates the profile on that machine's backend without switching gateways.
+- **Sections** - user-made folders (Clients, Team, whatever fits) as a second axis on the roster: drag a bot onto a section to file it, rename or reorder from the heading menu, and membership follows the bot to every desktop connected to that backend. Deleting a section never deletes bots - they return to Unassigned.
+- **Group chats** (2-6 bots) - shared rooms where bots coordinate: up to three serial rounds of member turns, @mentions pull bots in, @user escalates to a human with a "needs you" badge, and hard caps (10 messages per send, 3 rounds) stop runaway loops.
+- **Bot-to-bot messaging** - every bot has a persistent Bot Chat. Bots message each other with attribution, and their SOUL.md teaches them the protocol. Typing `/new` inside a Bot Chat reroutes to `/compact`, so the standing conversation never forks into a scratch session.
+- **Routines** - recurring tasks per bot, backed by standard Hermes cron and namespaced `[bot:<name>] <routine>`. Runs land in the bot's own chat history.
+- **Avatars** - blob faces by default (a deterministic soft-body face drawn from the bot's name, with Randomize and Lock face), geometric faces (7 shapes × 10 colors), uploaded images, AI-generated portraits when an image backend is configured, or a pixel pet from the petdex gallery (`hermes pets`) that bounces while the bot works.
+- **Hide a bot** - right-click a roster row to take a bot you do not use out of the roster and the Active-now strip. Hiding is display-only: @mentions still resolve, group memberships are untouched, and its routines keep running.
 
 ## How it works
 
