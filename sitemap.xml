@@ -3857,6 +3857,10 @@
          <lastmod>2026-11-17</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/effectsize-mcp</loc>
+         <lastmod>2026-11-18</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/elasticsearch-mcp</loc>
          <lastmod>2026-11-01</lastmod>
     </url>
@@ -4255,6 +4259,10 @@
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/glc-promptguard-mcp</loc>
          <lastmod>2026-11-01</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/global-shopaholics-mcp</loc>
+         <lastmod>2026-11-18</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/gloom-mcp</loc>
@@ -6881,6 +6889,10 @@
          <lastmod>2026-11-01</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/truemargin-mcp</loc>
+         <lastmod>2026-11-18</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/trustscan-mcp</loc>
          <lastmod>2026-11-01</lastmod>
     </url>
@@ -7807,6 +7819,10 @@
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-november17-2026-night</loc>
          <lastmod>2026-11-17</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-november18-2026-midday</loc>
+         <lastmod>2026-11-18</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-november18-2026-night</loc>
