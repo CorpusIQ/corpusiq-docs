@@ -23272,5 +23272,68 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-11-17T11:33:51.642097+00:00"
+  },
+  {
+    "repo": "integrityauthority/office-agent-skills",
+    "score": 54,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-18T11:33:49.366022+00:00"
+  },
+  {
+    "repo": "shan8851/hermes-console",
+    "score": 42,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-18T11:33:49.366036+00:00"
+  },
+  {
+    "repo": "da1loks/HermesT3Bridge",
+    "score": 54,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-18T11:33:49.366039+00:00"
+  },
+  {
+    "repo": "clockwork-dev/hermes-jobsuche",
+    "score": 56,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-18T11:33:49.366041+00:00"
+  },
+  {
+    "repo": "helfgottje-0118/forge-2.0",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-18T11:33:49.366043+00:00"
+  },
+  {
+    "repo": "fmartinezgodoy/plugins",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-18T11:33:49.366045+00:00"
+  },
+  {
+    "repo": "KosmGit/hermes-officecraft",
+    "score": 51,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-18T11:33:49.366046+00:00"
+  },
+  {
+    "repo": "pureliberty/gbrain",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-18T11:33:49.366048+00:00"
+  },
+  {
+    "repo": "Aaron-von-Awesome/hermes-on-lxc",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-18T11:33:49.366050+00:00"
   }
 ]

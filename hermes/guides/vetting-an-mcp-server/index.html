@@ -13685,9 +13685,9 @@
 <div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-s<span class="w"> </span>-X<span class="w"> </span>POST<span class="w"> </span>https://mcp.example.com/mcp<span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>-H<span class="w"> </span><span class="s1">&#39;Content-Type: application/json&#39;</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>-H<span class="w"> </span><span class="s1">&#39;Accept: application/json, text/event-stream&#39;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-H<span class="w"> </span><span class="s1">&#39;MCP-Protocol-Version: 2026-07-28&#39;</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>-d<span class="w"> </span><span class="s1">&#39;{&quot;jsonrpc&quot;:&quot;2.0&quot;,&quot;id&quot;:1,&quot;method&quot;:&quot;server/discover&quot;,&quot;params&quot;:{&quot;_meta&quot;:{&quot;io.modelcontextprotocol/protocolVersion&quot;:&quot;2026-07-28&quot;,&quot;io.modelcontextprotocol/clientInfo&quot;:{&quot;name&quot;:&quot;probe&quot;,&quot;version&quot;:&quot;0.1&quot;},&quot;io.modelcontextprotocol/clientCapabilities&quot;:{}}}}&#39;</span>
 </code></pre></div>
+<p>Protocol metadata travels in the message body. The Streamable HTTP binding may mirror selected body fields into HTTP headers so intermediaries can route requests, but the body is the source of truth - a header alone is not how a 2026-07-28 server learns your version.</p>
 <p>Then call <code>tools/list</code> against the same endpoint. What you are looking for is not the number of tools. It is the verb in each tool name.</p>
 <p>If the endpoint rejects that request with a <code>400</code> that is not a modern JSON-RPC error, or answers with <code>Unsupported protocol version</code> and a list of dates, it speaks a legacy revision (<code>2025-11-25</code> or earlier). Retry with the <code>initialize</code> handshake on a version it lists, then call <code>tools/list</code>. Either path gets you the list; the difference only tells you how old the server's protocol code is.</p>
 <table>
@@ -13785,7 +13785,7 @@
 <p>If you cannot answer the first question, you do not yet know what you are connecting. Start with the narrowest scope the vendor offers and widen only after the first workflow proves useful.</p>
 <h2 id="step-6-check-the-maintenance-trail">Step 6: Check the maintenance trail<a class="headerlink" href="#step-6-check-the-maintenance-trail" title="Anchor link to this section">&para;</a></h2>
 <p>A server is a dependency. Dependencies get abandoned, and an abandoned server with a live token is a standing risk. Look for a version number in <code>serverInfo</code>, a changelog or release history, an issue tracker with recent activity, and documentation that names the vendor's own domain.</p>
-<p>The weakest signal is a directory listing. Directories are self-serve, they list servers that have never answered a request, and a card on a marketplace page is not evidence that the endpoint runs. The strongest signal is a successful <code>initialize</code> against the live endpoint today.</p>
+<p>The weakest signal is a directory listing. Directories are self-serve, they list servers that have never answered a request, and a card on a marketplace page is not evidence that the endpoint runs. The strongest signal is a successful <code>server/discover</code> against the live endpoint today - an <code>initialize</code> has been retired since the 2026-07-28 revision, so a server that only answers <code>initialize</code> is running older protocol code.</p>
 <h2 id="red-flags-that-end-the-review">Red flags that end the review<a class="headerlink" href="#red-flags-that-end-the-review" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li>Tools that execute arbitrary commands, shell strings, or URLs, presented as a convenience</li>
