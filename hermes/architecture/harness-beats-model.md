@@ -1,7 +1,7 @@
 ---
 title: "The Harness Beats the Model - Why AI Infrastructure"
 description: "The biggest insight in AI right now is not about models. It is about the harness around them. Why structure, tooling, and evaluation beat model choice in agent systems."
-last_updated: 2026-11-01
+last_updated: 2026-11-17
 canonical: "https://www.corpusiq.io/docs/hermes/architecture/harness-beats-model/"
 robots: "index,follow"
 tags: ["hermes agent", "ai agent", "nous research"]
@@ -22,17 +22,17 @@ But here is what the research shows: the harness matters more.
 
 ## The Evidence
 
-HuggingFace published "Don't Train the Model, Evolve the Harness" in August 2026. They took a frozen open model that scored 0% on Harvey's Legal Agent Benchmark. They rewrote only the harness. The scaffold. The code around the model.
+HuggingFace published "Don't Train the Model, Evolve the Harness" in July 2026. They took a frozen open model (DeepSeek-V4-Pro) that scored 0% on Harvey's Legal Agent Benchmark. They rewrote only the harness. The scaffold. The code around the model.
 
-The result: 5.0% whole-task success. 80.1% criterion pass rate. The frozen open model landed between Sonnet 4.6 and Opus 4.6 on the headline metric. Zero model weights changed.
+The result: whole-task success went from 0% to 5.0% and criterion pass rate from 63.4% to 80.1% on a held-out test set the loop never saw. The frozen open model landed between Sonnet 4.6 and Opus 4.6 on the headline metric. Zero model weights changed.
 
 This is called the mismanaged geniuses hypothesis: capable models held back by brittle, hand-built scaffolds. A weak score often measures the harness, not the model.
 
-The Meta-Harness loop automated this process. A Claude proposer reads run history, copies the current best harness, adds one mechanism, and an outer loop keeps it only if it clears a noise margin. The harness self-improves while the model stays frozen.
+The Meta-Harness loop (Lee et al., 2026) automated this process. A Claude proposer (Opus 4.8) reads run history, copies the current best harness, adds one mechanism, and an outer loop keeps it only if it clears a noise margin on a 24-task dev set. The harness self-improves while the model stays frozen.
 
-Another study found that Claude Opus 4.5 went from 52.1% to 57.8% on Terminal-Bench just by changing the harness. Same model. Different scaffold. Six point improvement.
+Another study found that Claude Opus 4.5 went from 52.1% to 57.8% on Terminal-Bench 2.0 just by changing the harness. Same model. Different scaffold. A 65x gap in input tokens between the two runs (256.9M versus 3.9M).
 
-A TikTok creator showed one harness taking Opus 5 from 30% to 95% on ARC-AGI-3. The model did not change. The code around it did.
+AWS engineers took Claude Opus 5 from 30% on ARC-AGI-3 to 99.95% by wrapping it in an open-source agent harness, the Strands SDK. The model did not change. The code around it did.
 
 ## Why This Matters for Business AI
 
@@ -48,7 +48,7 @@ Harness engineering is now a recognized discipline. The awesome-harness-engineer
 
 MCP (Model Context Protocol) is a harness standard. It defines how tools are described, discovered, and invoked. The July 2026 stateless MCP spec made harnesses simpler and more scalable.
 
-Amazon Bedrock AgentCore adopted stateless MCP. Google published scaling guidance. Simon Willison called it the update that recaptured his interest in MCP.
+Amazon Bedrock AgentCore adopted stateless MCP, and the managed registry that shipped with it now runs as AWS Agent Registry. Google published scaling guidance for stateless MCP servers on serverless platforms. Simon Willison wrote that stateless MCP had recaptured his interest.
 
 The direction is clear: the model is not the moat. The harness is.
 
