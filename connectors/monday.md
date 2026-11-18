@@ -43,6 +43,7 @@ Read-only. CorpusIQ never changes statuses, assigns items, or edits boards.
 
 ## See also
 
+- [Connect Monday.com to Perplexity](../connect-monday-com-to-perplexity.md) - the Perplexity setup, the questions worth asking and the read-only model.
 - [Connect Monday.com to ChatGPT](../connect-monday-com-to-chatgpt.md) - the ChatGPT setup, the questions worth asking and the read-only model.
 - [Connect Monday.com to Claude](../connect-monday-com-to-claude.md) - the same setup in Claude, with the verified config block.
 

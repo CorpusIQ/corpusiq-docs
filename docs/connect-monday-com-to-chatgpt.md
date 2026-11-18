@@ -161,6 +161,7 @@ Setup takes under 5 minutes. No API keys to manage. No GraphQL to write.
 
 ## Related Pages
 
+- [Connect Monday.com to Perplexity](connect-monday-com-to-perplexity.md) - the same questions asked from Perplexity
 - [Connect Monday.com to Claude](connect-monday-com-to-claude.md) - the same connector in Claude
 - [Connect Asana to ChatGPT](connect-asana-to-chatgpt.md) - alternative work management in ChatGPT
 - [Connect Jira to ChatGPT](connect-jira-to-chatgpt.md) - software development tracking in ChatGPT

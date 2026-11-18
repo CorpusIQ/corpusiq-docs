@@ -60,6 +60,7 @@ CorpusIQ never sends mail, creates events, edits files, or shares anything.
 <!-- DOC-GAP: No internal SETUP doc exists. Setup steps inferred from registry + vendor public docs. Verify before publish. -->
 ## See also
 
+- [Connect Google Docs to Perplexity](../connect-google-docs-to-perplexity.md) - the Perplexity setup, the questions worth asking and the read-only model.
 - [Connect Google Sheets to ChatGPT](../connect-google-sheets-to-chatgpt.md) - sheet data behind a plain-English question.
 - [Connect Google Calendar to ChatGPT](../connect-google-calendar-to-chatgpt.md) - meeting load and commitments as questions.
 - [Connect Google Drive to ChatGPT](../connect-google-drive-to-chatgpt.md) - clause-level answers from the documents themselves.

@@ -88,6 +88,7 @@ CorpusIQ does not retain raw customer files or full connector response payloads.
 
 ## Related Pages
 
+- [Connect PostHog to Perplexity](connect-posthog-to-perplexity.md) - the same questions asked from Perplexity
 - [Connect PostHog to Claude](connect-posthog-to-claude.md) - the same project, set up for Claude Desktop
 - [PostHog connector reference](connectors/posthog.md) - visible data, prompts and the read-only boundary
 - [Connect Google Analytics to ChatGPT](connect-google-analytics-to-chatgpt.md) - traffic alongside product usage
