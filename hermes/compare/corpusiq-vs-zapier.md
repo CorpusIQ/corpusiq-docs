@@ -1,7 +1,7 @@
 ---
 title: "CorpusIQ vs Zapier: AI Business Data vs Workflow"
 description: "Setup and usage guide for CorpusIQ vs Zapier: AI Business Data vs Workflow Automation. Part of the Hermes resource directory."
-last_updated: 2026-11-01
+last_updated: 2026-11-17
 canonical: "https://www.corpusiq.io/docs/hermes/compare/corpusiq-vs-zapier/"
 robots: "index,follow"
 tags: ["hermes agent", "ai agent", "nous research"]
@@ -55,8 +55,8 @@ A business could use Zapier to automate order processing and CorpusIQ to answer 
 | AI integration | ChatGPT, Claude, Perplexity | Limited AI features |
 | Metric consistency | Canonical definitions across tools | Per-workflow logic |
 | Source citations | Every answer traced to origin | Not applicable |
-| Pricing | From $29.95/month | From $19.99/month |
-| Free trial | 30 days, no credit card | 14 days |
+| Pricing | From $29.95/month | From $19.99/month billed annually, $29.99 monthly |
+| Free trial | 30 days, no credit card | 14-day Professional trial, no credit card |
 
 ## The Bottom Line
 
