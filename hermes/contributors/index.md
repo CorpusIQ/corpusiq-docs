@@ -24,7 +24,7 @@ The **Hermes Ecosystem Directory** is the most comprehensive collection of Herme
 
 | Metric | Value |
 |--------|-------|
-| **Repos indexed** | 458 |
+| **Repos indexed** | 459 |
 | **Community contributors credited** | 2 |
 | **Review time** | <48 hours |
 | **Categories** | 18 |
@@ -58,7 +58,7 @@ Check the [Pending Review Queue](https://github.com/CorpusIQ/corpusiq-docs/issue
 
 | Contributor | Submissions | Approved | Role |
 |-------------|------------|----------|------|
-| [@CorpusIQ](https://github.com/CorpusIQ) | 3284 | 217 | Maintainer |
+| [@CorpusIQ](https://github.com/CorpusIQ) | 3284 | 218 | Maintainer |
 | [@BlueSkyID666](https://github.com/BlueSkyID666) | 1 | 1 | Contributor |
 | [@louis030195](https://github.com/louis030195) | 1 | 1 | Contributor |
 | [@royan-agent](https://github.com/royan-agent) | 1 | 1 | Contributor |

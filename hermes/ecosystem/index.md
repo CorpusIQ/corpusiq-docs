@@ -4603,7 +4603,7 @@ Community wiki with deployment patterns and configuration recipes. Crowd-sourced
 | Categories | 18 |
 | Official Nous Research repos | 6 |
 | Community awesome lists | 31 |
-| UI/Dashboard projects | 26 |
+| UI/Dashboard projects | 27 |
 | Memory systems | 36 |
 | MCP integrations | 51 |
 | Skill collections & plugins | 107 |
@@ -4676,7 +4676,7 @@ This directory is maintained by [CorpusIQ](https://corpusiq.io). New resources a
 - Skills and plugins
 - Language-specific resources
 
-> **📊 Ecosystem Stats:** 458 repos · 18 categories · 1M+ community stars · 107 skill collections · 51 MCP integrations · 27 domain applications
+> **📊 Ecosystem Stats:** 459 repos · 18 categories · 1M+ community stars · 107 skill collections · 51 MCP integrations · 27 domain applications
 
 ---
 
