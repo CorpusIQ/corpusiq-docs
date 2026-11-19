@@ -1,15 +1,87 @@
 {
-  "run_time": "2026-11-18T11:33:49.455360+00:00",
-  "new_approved": [],
+  "run_time": "2026-11-19T04:04:02.889939+00:00",
+  "new_approved": [
+    {
+      "name": "777genius/universal-agent-plugins",
+      "url": "https://github.com/777genius/universal-agent-plugins",
+      "description": "Multi-agent CLI to install, update, repair & remove Agent Plugins 1.0 and Agent Skills (1,500+ plugins) across Codex CLI, ChatGPT, Claude Code, Cursor, Gemini CLI, GitHub Copilot CLI, Qoder, Pi, OpenCode, Kiro, Cline, Kimi Code, Windsurf/Devin, Grok Build, Hermes Agent & Google Antigravity. SDK: hooks, detection, install & management.",
+      "stars": 18,
+      "forks": 5,
+      "language": "Go",
+      "topics": [
+        "agent-plugins",
+        "agent-plugins-1-0",
+        "agentplugins",
+        "ai-agents",
+        "claude-code",
+        "cline",
+        "codex",
+        "copilot",
+        "cursor",
+        "gemini-cli",
+        "kiro",
+        "mcp",
+        "multi-agent",
+        "opencode",
+        "plugin-installer",
+        "plugin-manager",
+        "skills",
+        "universal-agent-plugins",
+        "vscode",
+        "windsurf"
+      ],
+      "updated_at": "2026-11-18T16:05:03Z",
+      "category": "skills",
+      "score": 75,
+      "tier": "AUTO_APPROVE",
+      "score_reasons": [
+        "direct_hermes_reference",
+        "agent_ecosystem",
+        "some_stars_10+",
+        "detailed_description",
+        "active_week",
+        "has_homepage"
+      ],
+      "near_duplicates": [
+        "farion1231/cc-switch",
+        "nexu-io/open-design",
+        "colbymchenry/codegraph",
+        "iOfficeAI/AionUi",
+        "jnMetaCode/superpowers-zh",
+        "codejunkie99/agentic-stack",
+        "jnMetaCode/shellward",
+        "ZeroPointRepo/awesome-hermes-skills",
+        "hugocarreira/agentrc",
+        "tale-project/tale",
+        "CodeAbra/iai-personal-memory-engine",
+        "AVIDS2/memorix",
+        "agent-of-empires/agent-of-empires",
+        "spacering-net/codeg",
+        "liaohch3/claude-tap",
+        "MemTensor/memmy-agent",
+        "kenryu42/cc-safety-net",
+        "jazzyalex/agent-sessions",
+        "VasiHemanth/tokentelemetry",
+        "cavi-ai/mlx-agent",
+        "rexleimo/aios",
+        "homarr-labs/dashboard-icons",
+        "sno-ai/sno-station",
+        "EternalNight996/memory-eternal"
+      ],
+      "discovered_at": "2026-11-19T04:01:48.948157+00:00",
+      "status": "approved",
+      "approved_at": "2026-11-19T04:04:02.800382+00:00"
+    }
+  ],
   "integration": {
     "published_file": "hermes/ecosystem/index.md",
     "note": "Add every approved repo to hermes/ecosystem/index.md - it is the page users see at /hermes/ecosystem/. The old ecosystem.md twin is gone (collision closed Nov 3 2026); there is no mirror to keep."
   },
   "stats": {
-    "total_found": 9,
-    "auto_approved": 0,
-    "pending_review": 9,
-    "total_approved": 216,
+    "total_found": 15,
+    "auto_approved": 1,
+    "pending_review": 14,
+    "total_approved": 217,
     "total_pending": 3275
   }
 }
