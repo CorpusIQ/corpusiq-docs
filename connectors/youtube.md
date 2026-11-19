@@ -49,6 +49,7 @@ Read-only. CorpusIQ never uploads, edits videos, replies to comments, or changes
 ## See also
 
 - [Connect YouTube to ChatGPT](../connect-youtube-to-chatgpt.md) - the ChatGPT setup, the channel questions worth asking and the read-only boundary.
+- [Connect YouTube to Perplexity](../connect-youtube-to-perplexity.md) - the same channel questions, asked in Perplexity.
 
 ---
 

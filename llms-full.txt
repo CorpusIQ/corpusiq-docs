@@ -7394,6 +7394,7 @@ You need Seller Central access with permission to authorize an integration, and 
 ## Internal Links
 
 - [Connect Amazon Seller to Claude](connect-amazon-seller-to-claude.md)
+- [Connect Amazon Seller to Perplexity](connect-amazon-seller-to-perplexity.md)
 - [Browse all CorpusIQ connectors](connectors.md)
 - [MCP for Ecommerce: multi-channel order intelligence](mcp-for-ecommerce.md)
 - [Connect Shopify to ChatGPT](connect-shopify-to-chatgpt.md)
@@ -7563,6 +7564,158 @@ No, it complements it. Amazon data describes the marketplace; accounting describ
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# How to Connect Amazon Seller Central to Perplexity with CorpusIQ MCP
+URL: https://www.corpusiq.io/docs/connect-amazon-seller-to-perplexity
+
+
+# How to Connect Amazon Seller Central to Perplexity with CorpusIQ MCP
+
+Marketplace revenue arrives in pieces: orders in one report, fulfilment inventory in another, fees and settlements in a third, and a payout number at the end that nobody reconciles against the books. **Connecting Amazon Seller to Perplexity through CorpusIQ MCP** makes the marketplace answerable in a sentence, across marketplaces, instead of one report at a time.
+
+Perplexity is strong on the public record and blind to your Seller Central account. Authorising the connector once is what turns "how is Amazon doing" into a question with numbers behind it, next to your own store and your accounting.
+
+### Why Connect Amazon Seller to Perplexity?
+
+- **Volume by marketplace.** "How many units did we sell this month, by marketplace?"
+- **Stockout risk.** "Which products are at risk of a stockout based on recent sales velocity?"
+- **Order state.** "Which orders from the last 24 hours have not shipped yet?"
+- **Settlement expectations.** "What settlement amount is expected from the current payout period, and which fee events drive it?"
+- **Marketplace mix.** "Which marketplace is growing fastest, and which is declining?"
+- **Read-only by capability.** The retrieval tools documented on this page return orders, inventory and financial events to the assistant. They never create a listing, change a price or refund an order.
+
+### How It Works
+
+1. **Connect Amazon Seller to CorpusIQ.** Sign in to Seller Central as an account with app-authorisation rights and follow the Amazon SP-API authorisation flow.
+2. **Add CorpusIQ to Perplexity** as a custom remote MCP server, using the endpoint from your CorpusIQ account settings.
+3. **Ask a marketplace question.** CorpusIQ resolves the date range, the marketplace and the objects the question needs, then returns the numbers with the period attached.
+4. **Perplexity answers** with the marketplace and period named in the reply, beside the outside context it already provides.
+
+Direct MCP retrieval is read-only. It does not retain raw customer files or full connector response payloads; operational logs keep query text, per-user tool-call metadata and bounded outcome summaries for up to 30 days.
+
+### Setup Steps
+
+**In CorpusIQ**
+
+1. Log in and open **Connectors**.
+2. Select **Amazon Seller** and click Connect.
+3. Sign in to Seller Central when prompted and follow the standard Amazon SP-API authorisation flow. Use the primary account, not a sub-user without app-authorisation rights.
+4. Approve the access the consent screen lists and wait for the connector to turn green.
+
+**In Perplexity**
+
+5. Open **Settings** and find the **MCP servers** section.
+6. Add a custom MCP server and paste the endpoint:
+
+```
+https://mcp2.corpusiq.io/mcp
+```
+
+Then ask something the marketplace can answer, for example how many orders came in last week. The date range and the marketplace region decide what comes back, so name both when the answer matters.
+
+### Example Perplexity Questions
+
+**Sales and orders**
+
+- "How many units did we sell this month, by marketplace?"
+- "What was average order value on Amazon last quarter?"
+- "Which orders from the last 24 hours have not shipped yet?"
+
+**Inventory and fulfilment**
+
+- "Which products are at risk of a stockout based on recent sales velocity?"
+- "What is my FBA inventory position right now, and which SKUs are below two weeks of cover?"
+- "Which SKUs sold nothing in 60 days but still hold inventory?"
+
+**Money**
+
+- "What settlement amount is expected from the current payout period?"
+- "Which fee events made up last month's payout?"
+- "Which marketplace contributed the most revenue after fees?"
+
+**Cross-source**
+
+- "Compare Amazon revenue with Shopify for the same period." (requires a store connector)
+- "Reconcile this month's Amazon payouts against the deposits in QuickBooks." (requires a finance connector)
+- "How does Amazon ad-attributed sales compare with what the orders show?" (requires an ads connector)
+
+### Security
+
+- **Retrieval tools only.** The tools documented on this page read orders, fulfilment inventory, sales metrics, financial events and marketplace participations.
+- **The marketplace is not modified.** No listing is created, no inventory is edited, no order is refunded and no price is changed through these tools.
+- **Amazon authorisation stays yours.** CorpusIQ holds the encrypted grant; revoking it in Seller Central ends the connection's reach.
+- **Scoped direct-MCP retention.** Raw customer files and full connector payloads are not retained. Operational logs keep query text, tool-call metadata and bounded outcome summaries for up to 30 days.
+- **TLS in transit** between Amazon, CorpusIQ and Perplexity.
+
+### Comparison: Seller Central reports and a marketplace question
+
+| Aspect | Seller Central reports | CorpusIQ MCP with Perplexity |
+|---|---|---|
+| Input | A report type, a date range, one marketplace | A question across marketplaces |
+| Shape | Rows to pivot | An answer with the period attached |
+| Inventory | Separate fulfilment report | Same answer as the sales question |
+| Settlement | Fee events in their own view | Payout expectation beside the orders behind it |
+| Cross-system | Export and join by hand | Asked across connectors |
+| Write access | Yes, by your users in Seller Central | None through the retrieval tools |
+
+A report answers the question you had yesterday. A question in the thread answers the one you have now.
+
+### FAQ: Common Questions
+
+<details>
+<summary><strong>Can Perplexity change listings or prices?</strong></summary>
+
+No. The retrieval tools documented on this page read orders, inventory and financial events. Listing, pricing, fulfilment and refund actions stay in Seller Central.
+</details>
+
+<details>
+<summary><strong>Why are no orders coming back?</strong></summary>
+
+Check the date range first. Amazon exposes orders from the marketplace region tied to the account, so a range outside that region or outside the account's marketplaces returns nothing.
+</details>
+
+<details>
+<summary><strong>Why is inventory empty?</strong></summary>
+
+If you do not use FBA, inventory is empty by design. Track sell-through from orders instead.
+</details>
+
+<details>
+<summary><strong>Does it cover every marketplace?</strong></summary>
+
+The connector reads the marketplaces the account participates in, and multi-marketplace questions are answerable. Which ones appear is decided by your Seller Central account.
+</details>
+
+<details>
+<summary><strong>How current is the data?</strong></summary>
+
+Read live from the Amazon API at question time. Amazon's own reporting layers can lag settlement figures, so the most recent payout period may still be moving.
+</details>
+
+<details>
+<summary><strong>Does this work in ChatGPT or Claude too?</strong></summary>
+
+Yes. Amazon Seller is exposed to ChatGPT, Claude and Perplexity through the same endpoint on the same subscription.
+</details>
+
+### See Also
+
+- [Connect Amazon Seller to ChatGPT](connect-amazon-seller-to-chatgpt.md) - the same marketplace questions, asked in ChatGPT
+- [Amazon Seller connector reference](connectors/amazon_seller.md) - what is visible, and the boundary
+- [Connect Shopify to Perplexity](connect-shopify-to-perplexity.md) - your own store beside the marketplace
+- [Connect QuickBooks to Perplexity](connect-quickbooks-to-perplexity.md) - reconcile the payouts
+- [Browse all CorpusIQ connectors](connectors.md) - the full list
+
+---
+
+**Next steps:** [Add CorpusIQ to Perplexity now](https://www.corpusiq.io/connectors/perplexity)
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.CorpusIQ.io).*
 
 ---
 # How to Connect Asana to ChatGPT with CorpusIQ MCP
@@ -7882,6 +8035,158 @@ Yes. Each connector authorizes independently, so a question can compare delivery
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
 
 ---
+# How to Connect Asana to Perplexity with CorpusIQ MCP
+URL: https://www.corpusiq.io/docs/connect-asana-to-perplexity
+
+
+# How to Connect Asana to Perplexity with CorpusIQ MCP
+
+Asana knows the state of the work and shows it one project at a time. The question that matters is rarely about one project: who is carrying too much this week, what is overdue across everything, which milestone is about to slip. Building that view means a portfolio report, a filter and a spreadsheet, every time. **Connecting Asana to Perplexity through CorpusIQ MCP** turns it into a question.
+
+Perplexity is strong on the public record and blind to your workspaces. Once Asana is connected, Perplexity reads projects, tasks, sections, assignees, custom fields, dependencies and milestones through CorpusIQ, and answers with the task or project named.
+
+### Why Connect Asana to Perplexity?
+
+- **Workload.** "Who has the most open tasks this week, and is anything assigned that has no due date?"
+- **Overdue work.** "Show me all overdue tasks across my projects, with the assignee and the section each sits in."
+- **Blocked work.** "Which tasks are blocked and what is blocking them?"
+- **Milestones.** "Which milestones are due this month, and which have already slipped?"
+- **Custom fields.** "Show me every task where Story Points is above 8 that is still open."
+- **Read-only by capability.** The retrieval tools documented on this page return project and task data to the assistant. They never create a task, reassign work or change a due date.
+
+### How It Works
+
+1. **Connect Asana to CorpusIQ.** Approve the consent screen for the workspace you want visible. The connection covers projects, tasks, sections and the metadata around them.
+2. **Add CorpusIQ to Perplexity** as a custom remote MCP server, using the endpoint from your CorpusIQ account settings.
+3. **Ask a work question.** CorpusIQ searches tasks and projects across the workspace, follows pagination and expands the fields the question needs.
+4. **Perplexity answers** with the task, project and section named, so the number can be checked in Asana itself.
+
+Direct MCP retrieval is read-only. It does not retain raw customer files or full connector response payloads; operational logs keep query text, per-user tool-call metadata and bounded outcome summaries for up to 30 days.
+
+### Setup Steps
+
+**In CorpusIQ**
+
+1. Log in and open **Connectors**.
+2. Select **Asana** and click Connect.
+3. Sign in to Asana and choose the workspace to authorise.
+4. Approve the consent screen and wait for the connector to turn green.
+
+**In Perplexity**
+
+5. Open **Settings** and find the **MCP servers** section.
+6. Add a custom MCP server and paste the endpoint:
+
+```
+https://mcp2.corpusiq.io/mcp
+```
+
+Then ask something the workspace can answer, for example what is due this week. Which workspaces are reachable is decided by the authorisation you approved; nothing outside it is read.
+
+### Example Perplexity Questions
+
+**Workload and priority**
+
+- "Who has the most open tasks this week?"
+- "Which high-priority tasks have no owner and a due date inside seven days?"
+- "Show me tasks assigned to the design team that are also blocking something."
+
+**Status and slippage**
+
+- "Which projects are behind schedule, and by how much?"
+- "What is the completion percentage for each active project?"
+- "Show me every task that was due last week and is still incomplete."
+
+**Structure**
+
+- "Which milestones are coming up this month?"
+- "Which sections hold the most unfinished work?"
+- "List tasks where the custom field Sprint equals the current sprint."
+
+**Cross-source**
+
+- "Show me Asana tasks for the accounts that close this month in the CRM." (requires a CRM connector)
+- "Which overdue Asana tasks belong to clients who emailed this week?" (requires a mail connector)
+- "Compare Asana project completion with what the team reported in Slack." (requires a messaging connector)
+
+### Security
+
+- **Retrieval tools only.** The tools documented on this page read projects, tasks, sections, assignees, custom fields, dependencies, milestones and workspace metadata.
+- **The workspace is not modified.** No task is created, reassigned, rescheduled or completed, and no project setting changes through these tools.
+- **Asana authorisation stays yours.** CorpusIQ holds the encrypted grant; revoking it from Asana ends the connection's reach.
+- **Scoped direct-MCP retention.** Raw customer files and full connector payloads are not retained. Operational logs keep query text, tool-call metadata and bounded outcome summaries for up to 30 days.
+- **TLS in transit** between Asana, CorpusIQ and Perplexity.
+
+### Comparison: Asana reporting and a work question
+
+| Aspect | Asana reporting and portfolios | CorpusIQ MCP with Perplexity |
+|---|---|---|
+| Input | A saved report or a filter you build first | A question asked in the thread |
+| Scope | One project or one portfolio | Every project the workspace carries |
+| Ad-hoc questions | Rebuild the filter each time | Follow-up changes the question, not the setup |
+| Custom fields | Filterable inside a project view | Grouped and compared across projects |
+| Cross-system | Copy the list into another tool | Asked beside CRM, mail or finance |
+| Write access | Yes, by your users in Asana | None through the retrieval tools |
+
+Asana reports answer the question the report was built for. The operating question changes every week.
+
+### FAQ: Common Questions
+
+<details>
+<summary><strong>Can Perplexity create or reassign tasks?</strong></summary>
+
+No. The retrieval tools documented on this page read project and task data. Creating, assigning, rescheduling, commenting and completing happen in Asana.
+</details>
+
+<details>
+<summary><strong>Does it read custom fields?</strong></summary>
+
+Yes. Priority, effort, sprint, client name and any other custom field can be filtered and grouped, which is usually how the real question is phrased.
+</details>
+
+<details>
+<summary><strong>Can it see task dependencies?</strong></summary>
+
+Yes. Dependency information is readable, so blocked work and blocking work can be listed together instead of clicked through one task at a time.
+</details>
+
+<details>
+<summary><strong>Does it cover every workspace?</strong></summary>
+
+It covers the workspaces you authorised at connect time. A second workspace needs its own authorisation.
+</details>
+
+<details>
+<summary><strong>How current is the data?</strong></summary>
+
+Read live at question time. A task edited a moment ago appears in the next answer.
+</details>
+
+<details>
+<summary><strong>Does this work in ChatGPT or Claude too?</strong></summary>
+
+Yes. Asana is exposed to ChatGPT, Claude and Perplexity through the same endpoint on the same subscription.
+</details>
+
+### See Also
+
+- [Connect Asana to ChatGPT](connect-asana-to-chatgpt.md) - the same project questions, asked in ChatGPT
+- [Connect Monday.com to Perplexity](connect-monday-com-to-perplexity.md) - the same questions on the other board
+- [Connect Jira to Perplexity](connect-jira-to-perplexity.md) - the engineering side of the same work
+- [Connect Slack to Perplexity](connect-slack-to-perplexity.md) - what was decided, and where it was said
+- [Browse all CorpusIQ connectors](connectors.md) - the full list
+
+---
+
+**Next steps:** [Add CorpusIQ to Perplexity now](https://www.corpusiq.io/connectors/perplexity)
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.CorpusIQ.io).*
+
+---
 # How to Connect Bing Webmaster Tools to ChatGPT with CorpusIQ MCP
 URL: https://www.corpusiq.io/docs/connect-bing-webmaster-tools-to-chatgpt
 
@@ -7972,6 +8277,7 @@ It is not. Retrieval happens on demand against the live Bing Webmaster API. Corp
 ## Related Pages
 
 - [Connect Bing Webmaster Tools to Claude](connect-bing-webmaster-tools-to-claude.md) - the same index, read from Claude
+- [Connect Bing Webmaster Tools to Perplexity](connect-bing-webmaster-tools-to-perplexity.md) - the same index questions, asked in Perplexity
 - [Connect Google Search Console to ChatGPT](connect-google-search-console-to-chatgpt.md) - the same questions against Google's index
 - [Connect Google Analytics to ChatGPT](connect-google-analytics-to-chatgpt.md) - what the traffic did after it landed
 - [Connect Google Ads to ChatGPT](connect-google-ads-to-chatgpt.md) - paid search beside organic
@@ -8139,6 +8445,158 @@ Every question is answered against the console at the moment you ask. There is n
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# How to Connect Bing Webmaster Tools to Perplexity with CorpusIQ MCP
+URL: https://www.corpusiq.io/docs/connect-bing-webmaster-tools-to-perplexity
+
+
+# How to Connect Bing Webmaster Tools to Perplexity with CorpusIQ MCP
+
+Bing holds a second set of numbers about the same site, and almost nobody reads it. Impressions and clicks sit on one screen, the queries that produced them on another, crawl behaviour on a third, and inbound links somewhere else. **Connecting Bing Webmaster Tools to Perplexity through CorpusIQ MCP** turns those screens into one question, answered with the site and the window attached.
+
+The comparison is the point. A page that ranks on Google and not on Bing usually has a technical cause, not a content one, and the two consoles never put the numbers side by side.
+
+### Why Connect Bing Webmaster Tools to Perplexity?
+
+- **Volume.** "How many impressions and clicks did the site get from Bing last month?"
+- **Query quality.** "Which queries bring impressions with an average position worse than 10?"
+- **Index state.** "Is /pricing in the Bing index, and when was it last crawled?"
+- **Crawl health.** "How many pages did Bing crawl last week, and did any return an error?"
+- **Links.** "Which pages carry the most inbound links?"
+- **Read-only by capability.** The retrieval tools documented on this page return Bing Webmaster data to the assistant. They do not submit sitemaps, change verification or alter crawl settings.
+
+### How It Works
+
+1. **Connect Bing Webmaster Tools to CorpusIQ.** Sign in with the Microsoft account that holds the verified sites. The connector lists every site that account has verified.
+2. **Add CorpusIQ to Perplexity** as a custom remote MCP server, using the endpoint from your CorpusIQ account settings.
+3. **Ask a site question.** CorpusIQ picks the verified site URL the question refers to, then reads traffic, queries, crawl statistics or a single URL as the question requires.
+4. **Perplexity answers** with the site and the date window named, so the figure can be reproduced in the console.
+
+Direct MCP retrieval is read-only. It does not retain raw customer files or full connector response payloads; operational logs keep query text, per-user tool-call metadata and bounded outcome summaries for up to 30 days.
+
+### Setup Steps
+
+**In CorpusIQ**
+
+1. Log in and open **Connectors**.
+2. Select **Bing Webmaster Tools** and click Connect.
+3. Sign in with the Microsoft account that owns the verified sites.
+4. Approve the consent screen and wait for the connector to turn green. Every site verified under that account becomes readable; nothing outside it does.
+
+**In Perplexity**
+
+5. Open **Settings** and find the **MCP servers** section.
+6. Add a custom MCP server and paste the endpoint:
+
+```
+https://mcp2.corpusiq.io/mcp
+```
+
+Then ask something the console can answer, for example how many clicks the site earned from Bing last month. Call the site list first when the account holds several properties, so the question lands on the right one.
+
+### Example Perplexity Questions
+
+**Traffic and queries**
+
+- "How many impressions and clicks did the site get from Bing last month?"
+- "Which queries bring impressions with an average position worse than 10?"
+- "Which query grew the most in impressions over the last quarter?"
+
+**Crawl and index**
+
+- "Is /pricing in the Bing index, and when was it last crawled?"
+- "How many pages did Bing crawl last week, and did any return an error?"
+- "Which status codes did the crawler receive most often this month?"
+
+**Links and authority**
+
+- "Which pages carry the most inbound links?"
+- "Did the inbound link count for the blog change this quarter?"
+- "Which product pages have no inbound links at all?"
+
+**Cross-source**
+
+- "Compare Bing clicks with Google clicks for the same month." (requires Google Search Console)
+- "Which pages rank on Bing and not on the competitors I track?" (requires a rank-tracking connector)
+- "Do the Bing clicks reconcile with the sessions Bing refers in analytics?" (requires Google Analytics)
+
+### Security
+
+- **Retrieval tools only.** The tools documented on this page read the verified site list, daily traffic, queries, crawl statistics and per-URL state.
+- **The account is not modified.** No sitemap is submitted, no verification changes, no crawl setting is edited and nothing is deleted through these tools.
+- **Your Microsoft grant stays yours.** CorpusIQ holds the encrypted grant; revoking it from the Microsoft account ends the connection's reach.
+- **Scoped direct-MCP retention.** Raw customer files and full connector payloads are not retained. Operational logs keep query text, tool-call metadata and bounded outcome summaries for up to 30 days.
+- **TLS in transit** between Bing, CorpusIQ and Perplexity.
+
+### Comparison: Bing Webmaster console and a site question
+
+| Aspect | Bing Webmaster console | CorpusIQ MCP with Perplexity |
+|---|---|---|
+| Input | A screen, a date picker and one dimension | A question across dimensions |
+| Scope | Traffic, then queries, then crawl, then links | Any of them in one answer |
+| Single URL | A separate inspection view | Asked in the same thread |
+| Other index | Open Google Search Console beside it | Both indexes in one question |
+| Export | CSV, then a spreadsheet | The answer, with the window attached |
+| Write access | Yes, by your users in the console | None through the retrieval tools |
+
+One index rarely tells the whole story. A page that is healthy on Bing and invisible on Google, or the reverse, is a technical finding, and it needs both numbers in the same place.
+
+### FAQ: Common Questions
+
+<details>
+<summary><strong>Which sites can I connect?</strong></summary>
+
+Every site the authorised Microsoft account has verified in Bing Webmaster Tools. A site that is not verified under that account does not appear.
+</details>
+
+<details>
+<summary><strong>Can Perplexity submit a sitemap or change a setting?</strong></summary>
+
+No. The retrieval tools documented on this page read data. Sitemap submission, verification and crawl settings stay in the console.
+</details>
+
+<details>
+<summary><strong>Does it read one page or the whole site?</strong></summary>
+
+Both. Site-level reads cover traffic, queries, crawl history and link counts, and the per-URL read covers one page: clicks, impressions, indexed status and last-crawled date.
+</details>
+
+<details>
+<summary><strong>What is in the traffic data?</strong></summary>
+
+A daily series of impressions and clicks for the verified site, plus totals for the requested window, with queries reported separately along with average positions.
+</details>
+
+<details>
+<summary><strong>Why does the crawl data matter more than traffic?</strong></summary>
+
+A page dropping out of the index shows up in the crawl read before it shows up in traffic, which is the difference between noticing it this week and noticing it next month.
+</details>
+
+<details>
+<summary><strong>Does this work in ChatGPT or Claude too?</strong></summary>
+
+Yes. Bing Webmaster Tools is exposed to ChatGPT, Claude and Perplexity through the same endpoint on the same subscription.
+</details>
+
+### See Also
+
+- [Connect Bing Webmaster Tools to ChatGPT](connect-bing-webmaster-tools-to-chatgpt.md) - the same index questions, asked in ChatGPT
+- [Connect Google Search Console to Perplexity](connect-google-search-console-to-perplexity.md) - the other index, in the same thread
+- [Connect Google Analytics to Perplexity](connect-google-analytics-to-perplexity.md) - what the clicks did after they landed
+- [Connect Semrush to Perplexity](connect-semrush-to-perplexity.md) - the competitive side of the same queries
+- [Browse all CorpusIQ connectors](connectors.md) - the full list
+
+---
+
+**Next steps:** [Add CorpusIQ to Perplexity now](https://www.corpusiq.io/connectors/perplexity)
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.CorpusIQ.io).*
 
 ---
 # How to Connect CallRail to ChatGPT with CorpusIQ MCP
@@ -21449,6 +21907,7 @@ CorpusIQ does not retain raw customer files or full connector response payloads.
 ## Related Pages
 
 - [Connect YouTube to Claude](connect-youtube-to-claude.md) - the same channel questions, asked from Claude
+- [Connect YouTube to Perplexity](connect-youtube-to-perplexity.md) - the same channel questions, asked in Perplexity
 - [YouTube connector reference](connectors/youtube.md) - what is visible, and the read-only boundary
 - [Connect Google Analytics to ChatGPT](connect-google-analytics-to-chatgpt.md) - the site side of the same funnel
 - [Connect Shopify to ChatGPT](connect-shopify-to-chatgpt.md) - put the store next to the channel
@@ -21618,6 +22077,159 @@ Every question is answered against the channel at the moment you ask. There is n
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# How to Connect YouTube to Perplexity with CorpusIQ MCP
+URL: https://www.corpusiq.io/docs/connect-youtube-to-perplexity
+
+
+# How to Connect YouTube to Perplexity with CorpusIQ MCP
+
+A channel is a business record with no ledger. YouTube Studio answers one tab at a time: views here, watch time there, comments in a third place, and nothing that connects an upload to the traffic it sent to the store. **Connecting YouTube to Perplexity through CorpusIQ MCP** puts the channel in the same thread as the rest of the business, so the question you actually have gets answered instead of navigated.
+
+Perplexity is strong on the public record and blind to your own channel. The connection changes that: Perplexity reads channel totals, per-video analytics, viewer geography, transcripts and comments through CorpusIQ, and names the video it read.
+
+### Why Connect YouTube to Perplexity?
+
+- **Which videos earned attention.** "What are my top videos this quarter by watch time, and what did the top three have in common?"
+- **Where the audience is.** "Where are most of my viewers coming from, and did that shift after the last three uploads?"
+- **Traffic that converts.** "Which upload drove the most referred traffic to the store last month?" (requires an analytics or store connector)
+- **What viewers ask.** "What are people asking in the comments on the launch video, grouped by the question behind the question?"
+- **Content without watching it.** "Summarise the transcript of my latest upload, then list the claims that need a source."
+- **Read-only by capability.** The retrieval tools documented on this page return channel and video data to the assistant. They never upload, edit or delete a video, and never change a channel setting.
+
+### How It Works
+
+1. **Connect YouTube to CorpusIQ.** Sign in with the Google account that owns or manages the channel, then pick the channel to expose. Brand Account channels work the same way.
+2. **Add CorpusIQ to Perplexity** as a custom remote MCP server, using the endpoint from your CorpusIQ account settings.
+3. **Ask a channel question.** CorpusIQ calls the YouTube tools that fit the question, whether that is analytics, a transcript or the comments on a public video.
+4. **Perplexity answers** with the channel, the video and the metric named in the reply, next to the outside context it already provides.
+
+Direct MCP retrieval is read-only. It does not retain raw customer files or full connector response payloads; operational logs keep query text, per-user tool-call metadata and bounded outcome summaries for up to 30 days.
+
+### Setup Steps
+
+**In CorpusIQ**
+
+1. Log in and open **Connectors**.
+2. Select **YouTube** and sign in with the Google account that manages the channel.
+3. Pick the channel if the account manages more than one. With Brand Accounts this step decides which channel is visible.
+4. Approve the consent screen and wait for the connector to turn green. If Google Workspace is already connected, YouTube may already be authorised under that same Google connection.
+
+**In Perplexity**
+
+5. Open **Settings** and find the **MCP servers** section.
+6. Add a custom MCP server and paste the endpoint:
+
+```
+https://mcp2.corpusiq.io/mcp
+```
+
+Then start a new thread and ask something the channel can answer, for example which video earned the most watch time last month. Which channel is reachable is decided by the channel you picked at connect time; nothing outside it is read.
+
+### Example Perplexity Questions
+
+**Channel performance**
+
+- "What are my top videos this quarter by watch time?"
+- "Which upload has the highest average view duration, and how does it compare with my channel average?"
+- "How did subscriber count move in the last 90 days, and which uploads came before the jumps?"
+
+**Audience**
+
+- "Where are most of my viewers coming from geographically?"
+- "Did the geography of my audience change after the last three uploads?"
+- "Which language or market is growing fastest for the channel?"
+
+**Comments and content**
+
+- "Summarise what viewers ask in the comments on the launch video."
+- "Which questions repeat across my last ten uploads?"
+- "Pull the transcript of my latest upload and list every claim that needs a citation."
+
+**Cross-source**
+
+- "Which upload drove the most referred traffic to the store last month?" (requires Google Analytics or a store connector)
+- "Compare YouTube-attributed sessions with paid social for the same period." (requires an ads connector)
+- "Which products mentioned in the comments match SKUs in the catalog?" (requires a commerce connector)
+
+### Security
+
+- **Read tools only.** The retrieval tools documented on this page read channel totals, uploaded videos, per-video analytics, viewer geography, transcripts, comments on public videos and general YouTube search results.
+- **Nothing on the channel changes.** No upload, edit, delete, comment reply or channel setting change is available through these tools.
+- **Your Google grant stays yours.** CorpusIQ holds the encrypted grant; you can revoke it from your Google account at any time.
+- **Scoped direct-MCP retention.** Raw customer files and full connector payloads are not retained. Operational logs keep query text, tool-call metadata and bounded outcome summaries for up to 30 days.
+- **TLS in transit** between YouTube, CorpusIQ and Perplexity.
+
+### Comparison: YouTube Studio and a channel question
+
+| Aspect | YouTube Studio | CorpusIQ MCP with Perplexity |
+|---|---|---|
+| Input | A tab, a date range and a metric | A question in the thread you are already working in |
+| Scope | One report at a time | Channel, video, transcript and comments in one answer |
+| Comments | Opened and read by hand | Summarised, with the video named |
+| Outside context | Open a second tab | Same thread, same answer |
+| Cross-system | Export and join by hand | Asked across connectors |
+| Write access | Yes, by your users in Studio | None through the retrieval tools |
+
+Studio reports on the channel. The question is usually whether the channel is earning attention that turns into revenue, and that answer lives in two systems.
+
+### FAQ: Common Questions
+
+<details>
+<summary><strong>Can Perplexity upload or edit a video?</strong></summary>
+
+No. The retrieval tools documented on this page read channel and video data. Uploads, edits, deletions, comment replies and channel settings are outside the connection.
+</details>
+
+<details>
+<summary><strong>Does it work with a Brand Account?</strong></summary>
+
+Yes. Personal channels and Brand Account channels both connect. When one Google account manages several channels, the connection asks which channel to read.
+</details>
+
+<details>
+<summary><strong>Do I need a separate connection for YouTube?</strong></summary>
+
+Not always. If Google Workspace is already connected, YouTube may already be authorised under that same Google connection. Otherwise YouTube connects on its own with the same Google sign-in.
+</details>
+
+<details>
+<summary><strong>Does it read the comments on other people's videos?</strong></summary>
+
+It reads comments on public videos, which includes the videos that matter to your own market. Replying and moderating happen in YouTube, not here.
+</details>
+
+<details>
+<summary><strong>How current is the analytics?</strong></summary>
+
+Channel and video totals are read live from the YouTube API. YouTube's own analytics can lag the view count, so a very recent upload may show partial figures for a few hours.
+</details>
+
+<details>
+<summary><strong>Does this work in ChatGPT or Claude too?</strong></summary>
+
+Yes. YouTube is exposed to ChatGPT, Claude and Perplexity through the same endpoint on the same subscription.
+</details>
+
+### See Also
+
+- [Connect YouTube to ChatGPT](connect-youtube-to-chatgpt.md) - the same channel questions, asked in ChatGPT
+- [YouTube connector reference](connectors/youtube.md) - what is visible, and the boundary
+- [Connect Google Analytics to Perplexity](connect-google-analytics-to-perplexity.md) - the site side of the same funnel
+- [Connect TikTok to Perplexity](connect-tiktok-to-perplexity.md) - the other short-form surface
+- [Connect Meta Ads to Perplexity](connect-meta-ads-to-perplexity.md) - paid attention beside organic
+- [Browse all CorpusIQ connectors](connectors.md) - the full list
+
+---
+
+**Next steps:** [Add CorpusIQ to Perplexity now](https://www.corpusiq.io/connectors/perplexity)
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.CorpusIQ.io).*
 
 ---
 # CorpusIQ Connectors - 40+ Business Tools, One MCP Endpoint
@@ -30190,12 +30802,17 @@ A: Same endpoint, different client. This guide is for using Perplexity as the MC
 - **[Connect Notion to Perplexity](connect-notion-to-perplexity.md)** - your own policies, processes and trackers read from live pages
 - **[Connect Outlook to Perplexity](connect-outlook-to-perplexity.md)** - commitments, unanswered threads and renewal terms from the mailbox
 - **[Connect Meta Ads to Perplexity](connect-meta-ads-to-perplexity.md)** - campaign, placement and creative performance beside category benchmarks
+- **[Connect LinkedIn Ads to Perplexity](connect-linkedin-ads-to-perplexity.md)** - campaign cost, engagement and lead quality from the professional feed
 
 - **[Connect Google Docs to Perplexity](connect-google-docs-to-perplexity.md)** - what a policy, contract or memo actually says, cited to the document
 - **[Connect Jira to Perplexity](connect-jira-to-perplexity.md)** - sprints, blockers and velocity in plain English, with no JQL
 - **[Connect Monday.com to Perplexity](connect-monday-com-to-perplexity.md)** - which projects are blocked and what is slipping, read from live boards
 - **[Connect SharePoint to Perplexity](connect-sharepoint-to-perplexity.md)** - policies, board decks and close packs read from your site libraries
 - **[Connect PostHog to Perplexity](connect-posthog-to-perplexity.md)** - funnels, retention and event questions answered from your own project
+- **[Connect YouTube to Perplexity](connect-youtube-to-perplexity.md)** - watch time, viewer geography and what the comments ask
+- **[Connect Amazon Seller to Perplexity](connect-amazon-seller-to-perplexity.md)** - orders, FBA inventory and payouts across marketplaces
+- **[Connect Asana to Perplexity](connect-asana-to-perplexity.md)** - what is overdue, who is overloaded and which milestone slipped
+- **[Connect Bing Webmaster Tools to Perplexity](connect-bing-webmaster-tools-to-perplexity.md)** - the second index's queries, crawl errors and inbound links
 
 ## Internal Links
 
@@ -34970,6 +35587,11 @@ CorpusIQ never creates listings, edits inventory, or refunds orders.
 - **No orders returned** - Confirm the date range. Amazon SP-API only exposes orders from the marketplace region tied to your account.
 - **Inventory empty** - If you don't use FBA, inventory will be empty by design. Use orders to track sell-through instead.
 
+## See also
+
+- [Connect Amazon Seller to ChatGPT](../connect-amazon-seller-to-chatgpt.md) - the ChatGPT setup and the marketplace questions worth asking.
+- [Connect Amazon Seller to Perplexity](../connect-amazon-seller-to-perplexity.md) - the same questions, asked in Perplexity.
+
 <!-- DOC-GAP: No internal SETUP doc exists. Setup steps inferred from registry + vendor public docs. Verify before publish. -->
 ---
 
@@ -38958,6 +39580,7 @@ Read-only. CorpusIQ never uploads, edits videos, replies to comments, or changes
 ## See also
 
 - [Connect YouTube to ChatGPT](../connect-youtube-to-chatgpt.md) - the ChatGPT setup, the channel questions worth asking and the read-only boundary.
+- [Connect YouTube to Perplexity](../connect-youtube-to-perplexity.md) - the same channel questions, asked in Perplexity.
 
 ---
 
