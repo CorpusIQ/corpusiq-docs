@@ -1,18 +1,18 @@
 ---
 title: "Hermes Ecosystem - Complete Resource Directory"
-description: "The definitive directory of Hermes Agent resources - 457+ repos, docs, community tools, SDKs, integrations, benchmarks, and research"
+description: "The definitive directory of Hermes Agent resources - 458+ repos, docs, community tools, SDKs, integrations, benchmarks, and research"
 canonical: "https://www.corpusiq.io/docs/hermes/ecosystem/"
 robots: "index,follow"
-last_updated: "2026-11-18"
+last_updated: "2026-11-19"
 tags: ["hermes ecosystem", "agent ecosystem", "community"]
 
 ---
 
 # Hermes Ecosystem - Complete Resource Directory
 
-The most comprehensive directory of Hermes Agent resources in existence. 457+ repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research - all organized and cross-referenced.
+The most comprehensive directory of Hermes Agent resources in existence. 458+ repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research - all organized and cross-referenced.
 
-> **Last updated:** November 18, 2026 · **Repos indexed:** 457+ · **Categories:** 18
+> **Last updated:** November 19, 2026 · **Repos indexed:** 458+ · **Categories:** 18
 >
 > 👉 **[Submit a repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)** · Missing something? [Open a PR →](https://github.com/CorpusIQ/corpusiq-docs)
 
@@ -28,7 +28,7 @@ The most comprehensive directory of Hermes Agent resources in existence. 457+ re
 | [UI & Dashboards](#ui-dashboards) | 26 | [↓](#ui-dashboards) |
 | [Memory & Knowledge](#memory-knowledge) | 36 | [↓](#memory-knowledge) |
 | [MCP & Integrations](#mcp-integrations) | 51 | [↓](#mcp-integrations) |
-| [Skills & Plugins](#skills-plugins) | 106 | [↓](#skills-plugins) |
+| [Skills & Plugins](#skills-plugins) | 107 | [↓](#skills-plugins) |
 | [Tools & Utilities](#tools-utilities) | 62 | [↓](#tools-utilities) |
 | [Detection & Media Forensics](#detection-media-forensics) | 1 | [↓](#detection-media-forensics) |
 | [Orchestration, Multi-Agent & Swarms](#orchestration-multi-agent-swarms) | 36 | [↓](#orchestration-multi-agent-swarms) |
@@ -466,7 +466,7 @@ GitHub's official community-contributed instructions, agents, skills, and config
 ### CorpusIQ/corpusiq-docs/hermes ← YOU ARE HERE
 ⭐ **[Star this repo →](https://github.com/CorpusIQ/corpusiq-docs)**
 
-The most comprehensive Hermes production resource: 1,700+ pages, 457+ repos indexed, 1,137+ skills cataloged, 40+ MCP connectors, production-cron reference architecture, memory stack deep-dives, deployment patterns. Everything the official docs don't cover.
+The most comprehensive Hermes production resource: 1,700+ pages, 458+ repos indexed, 1,137+ skills cataloged, 40+ MCP connectors, production-cron reference architecture, memory stack deep-dives, deployment patterns. Everything the official docs don't cover.
 
 **Related:** [Architecture →](/hermes/architecture) · [Knowledge →](/hermes/knowledge) · [Crons →](/hermes/governance/scheduling) · [MCP →](/hermes/mcp)
 
@@ -2625,6 +2625,15 @@ Robinhood portfolio advisor skill for Hermes Agent, OpenClaw, Claude Code, Codex
 
 ---
 
+### 777genius/universal-agent-plugins
+⭐ **18** · `Go` · [https://github.com/777genius/universal-agent-plugins](https://github.com/777genius/universal-agent-plugins)
+
+Multi-agent CLI that installs, updates, repairs and removes Agent Plugins 1.0 and Agent Skills across Codex CLI, ChatGPT, Claude Code, Cursor, Gemini CLI, GitHub Copilot CLI, Qoder, Pi, OpenCode, Kiro, Cline, Kimi Code, Windsurf/Devin, Grok Build, Hermes Agent and Google Antigravity. Ships an SDK for plugin detection, hooks, install and management over a catalog of 1,500+ plugins, so a single command wires the same skill set into every agent runtime a team uses.
+
+**Topics:** `agent-plugins`, `plugin-manager`, `plugin-installer`, `claude-code`, `codex`, `mcp`, `skills`, `multi-agent`, `ai-agents`
+
+---
+
 ### LYAKAKOY/Hermes-Codex-Plugin
 ⭐ **15** · `Python` · [https://github.com/LYAKAKOY/Hermes-Codex-Plugin](https://github.com/LYAKAKOY/Hermes-Codex-Plugin)
 
@@ -4581,14 +4590,14 @@ Community wiki with deployment patterns and configuration recipes. Crowd-sourced
 
 | Metric | Value |
 |--------|-------|
-| Total repos indexed | 457 |
+| Total repos indexed | 458 |
 | Categories | 18 |
 | Official Nous Research repos | 6 |
 | Community awesome lists | 31 |
 | UI/Dashboard projects | 26 |
 | Memory systems | 36 |
 | MCP integrations | 51 |
-| Skill collections & plugins | 106 |
+| Skill collections & plugins | 107 |
 | Tools & utilities | 62 |
 | Research/benchmark projects | 12 |
 | Deployment & infra projects | 21 |
@@ -4658,7 +4667,7 @@ This directory is maintained by [CorpusIQ](https://corpusiq.io). New resources a
 - Skills and plugins
 - Language-specific resources
 
-> **📊 Ecosystem Stats:** 457 repos · 18 categories · 1M+ community stars · 106 skill collections · 51 MCP integrations · 27 domain applications
+> **📊 Ecosystem Stats:** 458 repos · 18 categories · 1M+ community stars · 107 skill collections · 51 MCP integrations · 27 domain applications
 
 ---
 
@@ -4666,7 +4675,7 @@ This directory is maintained by [CorpusIQ](https://corpusiq.io). New resources a
 
 ### What is the Hermes Ecosystem Directory?
 
-The **Hermes Ecosystem Directory** is the most comprehensive collection of Hermes Agent resources in existence - **457+ repositories** organized across 18 categories including core tools, UIs, memory systems, MCP integrations, skills, deployment, research, and domain applications. It's the definitive map of the Hermes universe.
+The **Hermes Ecosystem Directory** is the most comprehensive collection of Hermes Agent resources in existence - **458+ repositories** organized across 18 categories including core tools, UIs, memory systems, MCP integrations, skills, deployment, research, and domain applications. It's the definitive map of the Hermes universe.
 
 ### How do I find tools and resources for Hermes Agent?
 
