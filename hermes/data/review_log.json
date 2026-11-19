@@ -23398,5 +23398,14 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-11-19T11:33:47.807052+00:00"
+  },
+  {
+    "repo": "ateymoori/pomelu",
+    "action": "approved_manual_promotion",
+    "score": 72,
+    "tier": "AUTO_APPROVE",
+    "reason": "Community submission #416. Scorer AUTO_APPROVE (72): direct Hermes reference, active. Verified live: Apache-2.0, non-fork, 14 stars, App Store and Google Play listings return 200, connects to a self-hosted Hermes gateway 0.21.5+, companion plugin repo pomelu-hermes-plugin.",
+    "issue": 416,
+    "timestamp": "2026-11-19T17:02:36.306765+00:00"
   }
 ]
