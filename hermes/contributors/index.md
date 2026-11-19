@@ -24,7 +24,7 @@ The **Hermes Ecosystem Directory** is the most comprehensive collection of Herme
 
 | Metric | Value |
 |--------|-------|
-| **Repos indexed** | 457 |
+| **Repos indexed** | 458 |
 | **Community contributors credited** | 2 |
 | **Review time** | <48 hours |
 | **Categories** | 18 |
