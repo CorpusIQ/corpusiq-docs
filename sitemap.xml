@@ -6741,6 +6741,10 @@
          <lastmod>2026-11-01</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/tagli-mcp</loc>
+         <lastmod>2026-11-19</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/tailexi-mcp</loc>
          <lastmod>2026-11-01</lastmod>
     </url>
@@ -7875,6 +7879,10 @@
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-november18-2026-night</loc>
          <lastmod>2026-11-18</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-november19-2026-midday-supplement</loc>
+         <lastmod>2026-11-19</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-november19-2026-midday</loc>
