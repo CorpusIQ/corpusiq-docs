@@ -3,7 +3,7 @@ title: "Growth Operations Skills - CorpusIQ Docs"
 description: Growth operations skills for Hermes Agent - affiliate programs, worldwide promotion, organic discovery, and automated outreach. Part of the Hermes Skills Library.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/growth-operations/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-18"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---
@@ -14,13 +14,13 @@ Skills for automated growth operations with Hermes Agent. These skills handle di
 
 ## Available Skills
 
-| Skill | Description | Installs |
+| Skill | Description | Source |
 |---|---|---|
 | [Worldwide Affiliate Mass Publishing](/hermes/skills/growth-operations/worldwide-affiliate-mass-publishing) | Mass-publish affiliate program pages in 100+ languages via Rentry.co API | Community |
-| [SEO Content Generation](https://skills.sh) | Auto-generate SEO-optimized blog posts and landing pages from product data | Marketplace |
-| [Directory Submission Engine](https://skills.sh) | Submit to 200+ startup and AI directories with domain authority tracking | Marketplace |
-| [Social Cross-Poster](https://skills.sh) | One-click cross-posting to X, Reddit, LinkedIn, and Discord | Marketplace |
-| [Cold Outreach Automation](https://skills.sh) | B2B email outreach with personalization, tracking, and follow-up sequences | Marketplace |
+| [seo-audit](https://skills.sh/coreyhaines31/marketingskills/seo-audit) | Audit or diagnose a site's SEO: traffic drops, pages that will not rank, canonical and redirect setup | coreyhaines31/marketingskills |
+| [directory-submissions](https://skills.sh/coreyhaines31/marketingskills/directory-submissions) | Choose and submit to startup, SaaS, AI, MCP, and review directories | coreyhaines31/marketingskills |
+| [social](https://skills.sh/coreyhaines31/marketingskills/social) | Organic social content for LinkedIn, X, Instagram, TikTok, and Facebook | coreyhaines31/marketingskills |
+| [cold-email-outreach](https://skills.sh/hyperfx-ai/marketing-skills/cold-email-outreach) | B2B cold-email outreach: prospect enrichment, per-prospect signals, drafting | hyperfx-ai/marketing-skills |
 
 ## Integration Patterns
 
