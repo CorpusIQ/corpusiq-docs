@@ -177,6 +177,10 @@
          <lastmod>2026-11-07</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/connect-amazon-seller-to-perplexity</loc>
+         <lastmod>2026-11-19</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/connect-asana-to-chatgpt</loc>
          <lastmod>2026-11-07</lastmod>
     </url>
@@ -185,12 +189,20 @@
          <lastmod>2026-11-07</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/connect-asana-to-perplexity</loc>
+         <lastmod>2026-11-19</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/connect-bing-webmaster-tools-to-chatgpt</loc>
          <lastmod>2026-11-03</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connect-bing-webmaster-tools-to-claude</loc>
          <lastmod>2026-11-07</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/connect-bing-webmaster-tools-to-perplexity</loc>
+         <lastmod>2026-11-19</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connect-callrail-to-chatgpt</loc>
@@ -567,6 +579,10 @@
     <url>
          <loc>https://www.corpusiq.io/docs/connect-youtube-to-claude</loc>
          <lastmod>2026-11-07</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/connect-youtube-to-perplexity</loc>
+         <lastmod>2026-11-19</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/corpusiq-vs-airbyte</loc>
