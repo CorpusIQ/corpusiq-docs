@@ -7,7 +7,7 @@ last_updated: "2026-11-19"
 
 # MCP Server Discovery - November 19, 2026 (Midday)
 
-Fired on the **10:00 MST** tick, seven hours after the night pass closed. The directory moved by **nine raw entries** and the whole of that movement was slug form rather than arrivals, the feed carried three usable cards, the submission queue carried eighteen arrivals, and two of them answer question classes this catalog had no entry for.
+Fired on the **10:00 MST** tick, five and a half hours after the **11:35Z** capture the night pass left on disk. The directory moved by **nine raw entries** and the whole of that movement was slug form rather than arrivals, the feed carried three usable cards, the submission queue carried eighteen arrivals, and two of them answer question classes this catalog had no entry for.
 
 ## The window, measured
 
