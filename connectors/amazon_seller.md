@@ -42,6 +42,11 @@ CorpusIQ never creates listings, edits inventory, or refunds orders.
 - **No orders returned** - Confirm the date range. Amazon SP-API only exposes orders from the marketplace region tied to your account.
 - **Inventory empty** - If you don't use FBA, inventory will be empty by design. Use orders to track sell-through instead.
 
+## See also
+
+- [Connect Amazon Seller to ChatGPT](../connect-amazon-seller-to-chatgpt.md) - the ChatGPT setup and the marketplace questions worth asking.
+- [Connect Amazon Seller to Perplexity](../connect-amazon-seller-to-perplexity.md) - the same questions, asked in Perplexity.
+
 <!-- DOC-GAP: No internal SETUP doc exists. Setup steps inferred from registry + vendor public docs. Verify before publish. -->
 ---
 

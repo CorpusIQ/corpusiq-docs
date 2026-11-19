@@ -113,12 +113,17 @@ A: Same endpoint, different client. This guide is for using Perplexity as the MC
 - **[Connect Notion to Perplexity](connect-notion-to-perplexity.md)** - your own policies, processes and trackers read from live pages
 - **[Connect Outlook to Perplexity](connect-outlook-to-perplexity.md)** - commitments, unanswered threads and renewal terms from the mailbox
 - **[Connect Meta Ads to Perplexity](connect-meta-ads-to-perplexity.md)** - campaign, placement and creative performance beside category benchmarks
+- **[Connect LinkedIn Ads to Perplexity](connect-linkedin-ads-to-perplexity.md)** - campaign cost, engagement and lead quality from the professional feed
 
 - **[Connect Google Docs to Perplexity](connect-google-docs-to-perplexity.md)** - what a policy, contract or memo actually says, cited to the document
 - **[Connect Jira to Perplexity](connect-jira-to-perplexity.md)** - sprints, blockers and velocity in plain English, with no JQL
 - **[Connect Monday.com to Perplexity](connect-monday-com-to-perplexity.md)** - which projects are blocked and what is slipping, read from live boards
 - **[Connect SharePoint to Perplexity](connect-sharepoint-to-perplexity.md)** - policies, board decks and close packs read from your site libraries
 - **[Connect PostHog to Perplexity](connect-posthog-to-perplexity.md)** - funnels, retention and event questions answered from your own project
+- **[Connect YouTube to Perplexity](connect-youtube-to-perplexity.md)** - watch time, viewer geography and what the comments ask
+- **[Connect Amazon Seller to Perplexity](connect-amazon-seller-to-perplexity.md)** - orders, FBA inventory and payouts across marketplaces
+- **[Connect Asana to Perplexity](connect-asana-to-perplexity.md)** - what is overdue, who is overloaded and which milestone slipped
+- **[Connect Bing Webmaster Tools to Perplexity](connect-bing-webmaster-tools-to-perplexity.md)** - the second index's queries, crawl errors and inbound links
 
 ## Internal Links
 
