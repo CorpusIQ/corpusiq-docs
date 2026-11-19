@@ -23335,5 +23335,68 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-11-18T11:33:49.366050+00:00"
+  },
+  {
+    "repo": "xvantz/hermes-agent-local",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-19T11:33:47.807023+00:00"
+  },
+  {
+    "repo": "xvantz/hermes-agent",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-19T11:33:47.807037+00:00"
+  },
+  {
+    "repo": "blackopsrepl/hermes-solverforge-workbench",
+    "score": 59,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-19T11:33:47.807040+00:00"
+  },
+  {
+    "repo": "DinethPerera-IT/Homelab-hermes",
+    "score": 56,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-19T11:33:47.807042+00:00"
+  },
+  {
+    "repo": "meowsigma/hermes-botsesh",
+    "score": 62,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-19T11:33:47.807044+00:00"
+  },
+  {
+    "repo": "juustesout/learning-plugin-for-Hermes",
+    "score": 62,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-19T11:33:47.807046+00:00"
+  },
+  {
+    "repo": "blackopsrepl/hermes-agent",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-19T11:33:47.807048+00:00"
+  },
+  {
+    "repo": "priyankarpal/hermes-agent-token-usages",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-19T11:33:47.807050+00:00"
+  },
+  {
+    "repo": "omarjson/hermes-agent-contribution",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-19T11:33:47.807052+00:00"
   }
 ]
