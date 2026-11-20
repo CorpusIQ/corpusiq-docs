@@ -23526,5 +23526,117 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-11-20T05:03:27.586061+00:00"
+  },
+  {
+    "repo": "BuboTheWise/Toolbox",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-20T11:33:59.172489+00:00"
+  },
+  {
+    "repo": "cyberpz/hermes-skills-sterling",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-20T11:33:59.172502+00:00"
+  },
+  {
+    "repo": "xmzzzw/asbot-hermes-plugin",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-20T11:33:59.172505+00:00"
+  },
+  {
+    "repo": "kaishi00/hermes-conduit-desktop",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-20T11:33:59.172508+00:00"
+  },
+  {
+    "repo": "bmcszk/hermes-pi-delegation",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-20T11:33:59.172509+00:00"
+  },
+  {
+    "repo": "openlia/openlia",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-20T11:33:59.172511+00:00"
+  },
+  {
+    "repo": "TukuCorp/tstack",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-20T11:33:59.172513+00:00"
+  },
+  {
+    "repo": "bitsandtea/postking-mcp",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-20T11:33:59.172515+00:00"
+  },
+  {
+    "repo": "Weaxs/dsh-knot",
+    "score": 53,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-20T11:33:59.172517+00:00"
+  },
+  {
+    "repo": "Shinemind-ops/hermes-skill-pin",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-20T11:33:59.172519+00:00"
+  },
+  {
+    "repo": "konovalM/pyweb-2026-lab2",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-20T11:33:59.172521+00:00"
+  },
+  {
+    "repo": "nanocodexyz/nanocode",
+    "score": 67,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-20T11:33:59.172522+00:00"
+  },
+  {
+    "repo": "sovergarden-dev/viet-hoa-skills",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-20T11:33:59.172524+00:00"
+  },
+  {
+    "repo": "alahmad077/gbrain",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-20T11:33:59.172526+00:00"
+  },
+  {
+    "repo": "GaganaMD/benchmark_hermes-fabric-public",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-20T11:33:59.172528+00:00"
+  },
+  {
+    "repo": "contactaurawealth-lab/hermes-mobile",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-20T11:33:59.172530+00:00"
   }
 ]

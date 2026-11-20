@@ -1,15 +1,15 @@
 {
-  "run_time": "2026-11-20T05:03:27.680894+00:00",
+  "run_time": "2026-11-20T11:33:59.262729+00:00",
   "new_approved": [],
   "integration": {
     "published_file": "hermes/ecosystem/index.md",
     "note": "Add every approved repo to hermes/ecosystem/index.md - it is the page users see at /hermes/ecosystem/. The old ecosystem.md twin is gone (collision closed Nov 3 2026); there is no mirror to keep."
   },
   "stats": {
-    "total_found": 17,
+    "total_found": 16,
     "auto_approved": 0,
-    "pending_review": 17,
+    "pending_review": 16,
     "total_approved": 219,
-    "total_pending": 3301
+    "total_pending": 3317
   }
 }
