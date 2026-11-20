@@ -55,7 +55,7 @@ November 16, 2026
 
 ---
 
-*← [v0.23.1 - Patch Release](/hermes/changelog/v0.23.1) | [Changelog Home](/hermes/changelog) →*
+*← [v0.23.1 - Patch Release](/hermes/changelog/v0.23.1) | [v0.23.3 - Patch Release](/hermes/changelog/v0.23.3) →*
 
 *↑ [Changelog Home](/hermes/changelog)*
 
