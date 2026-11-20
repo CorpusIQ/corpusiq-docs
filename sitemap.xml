@@ -170,7 +170,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connect-amazon-seller-to-chatgpt</loc>
-         <lastmod>2026-11-03</lastmod>
+         <lastmod>2026-11-19</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connect-amazon-seller-to-claude</loc>
@@ -182,7 +182,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connect-asana-to-chatgpt</loc>
-         <lastmod>2026-11-07</lastmod>
+         <lastmod>2026-11-19</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connect-asana-to-claude</loc>
@@ -194,7 +194,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connect-bing-webmaster-tools-to-chatgpt</loc>
-         <lastmod>2026-11-03</lastmod>
+         <lastmod>2026-11-19</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connect-bing-webmaster-tools-to-claude</loc>
@@ -574,7 +574,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connect-youtube-to-chatgpt</loc>
-         <lastmod>2026-11-03</lastmod>
+         <lastmod>2026-11-19</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connect-youtube-to-claude</loc>
@@ -822,7 +822,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/perplexity-integration</loc>
-         <lastmod>2026-11-18</lastmod>
+         <lastmod>2026-11-19</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/quick-start</loc>
@@ -974,7 +974,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connectors/amazon_seller</loc>
-         <lastmod>2026-11-01</lastmod>
+         <lastmod>2026-11-19</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connectors/axonaut</loc>
@@ -1198,7 +1198,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connectors/youtube</loc>
-         <lastmod>2026-11-07</lastmod>
+         <lastmod>2026-11-19</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/examples</loc>
@@ -1422,7 +1422,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/changelog</loc>
-         <lastmod>2026-11-17</lastmod>
+         <lastmod>2026-11-19</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/changelog/v0.10.0</loc>
@@ -1590,7 +1590,11 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/changelog/v0.23.2</loc>
-         <lastmod>2026-11-17</lastmod>
+         <lastmod>2026-11-19</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/changelog/v0.23.3</loc>
+         <lastmod>2026-11-19</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/changelog/v0.3.0</loc>
