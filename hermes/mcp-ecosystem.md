@@ -4,7 +4,7 @@ description: "Where to find CorpusIQ across the MCP ecosystem. Listed on Glama, 
 
 canonical: "https://www.corpusiq.io/docs/hermes/mcp-ecosystem/"
 robots: "index,follow"
-last_updated: "2026-11-18"
+last_updated: "2026-11-19"
 tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---

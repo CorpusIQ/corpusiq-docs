@@ -8,7 +8,7 @@ added: 2026-08-26
 source: "mcp.so GitHub issue #3778"
 relevance: ★★★
 tags: [brazil, regulatory, legislation, compliance, government-data, due-diligence, sanctions, remote-mcp]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # Nomos MCP

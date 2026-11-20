@@ -8,7 +8,7 @@ added: 2026-10-04
 source: mcpservers.org
 relevance: ★★★
 tags: [finance, wealth-management, family-office, documents, cited-answers, trusts, remote-mcp, oauth]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # X1 Wealth MCP

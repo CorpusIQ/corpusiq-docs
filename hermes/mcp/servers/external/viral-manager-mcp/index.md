@@ -8,7 +8,7 @@ added: 2026-09-04
 source: mcpservers.org
 relevance: ★★★
 tags: [creator-economy, viral-posts, content-ops, social-intelligence, influencer-marketing, oauth, remote-mcp]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # Viral Manager MCP

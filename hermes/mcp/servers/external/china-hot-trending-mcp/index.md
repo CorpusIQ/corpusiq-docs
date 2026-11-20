@@ -8,7 +8,7 @@ added: 2026-09-02
 source: "mcp.so GitHub issue #3905"
 relevance: ★★
 tags: [trending, china, social-listening, weibo, douyin, content-research]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # China Hot Trending MCP - Real-Time Social Trend Boards

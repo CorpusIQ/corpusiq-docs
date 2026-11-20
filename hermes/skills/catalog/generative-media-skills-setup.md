@@ -4,7 +4,7 @@ description: "calesthio/generative-media-skills - 153 research-backed media prod
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/generative-media-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "media production", "video generation", "image generation", "text to speech", "elevenlabs", "hyperframes", "heygen", "ugc video"]
 ---
 

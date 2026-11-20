@@ -4,7 +4,7 @@ description: "Install and configure 6 new agent skills from halt-catch-fire - Re
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/halt-catch-fire-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

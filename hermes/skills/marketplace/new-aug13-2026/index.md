@@ -4,7 +4,7 @@ description: "skills.sh sweep - 8 new publisher clusters, 101 skills, 253K+ inst
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-aug13-2026/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill marketplace", "skills.sh"]
 sweep_id: aug-13-2026
 new_publishers: 8

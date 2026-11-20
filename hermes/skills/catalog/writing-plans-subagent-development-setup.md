@@ -4,7 +4,7 @@ description: "Complete setup guide for the writing-plans and subagent-driven-dev
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/writing-plans-subagent-development-setup/"
 robots: "index,follow"
-last_updated: "2026-11-07"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

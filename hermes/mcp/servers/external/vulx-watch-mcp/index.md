@@ -8,7 +8,7 @@ added: 2026-08-31
 source: "chatmcp/mcpso issue #3863 (Aug 31, 2026)"
 relevance: ★★★
 tags: [mcp-server, security, review, github, ai-apps, oauth]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # VulX Watch MCP

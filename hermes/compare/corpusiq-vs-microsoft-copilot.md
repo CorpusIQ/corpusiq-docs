@@ -1,19 +1,23 @@
 ---
 title: "CorpusIQ vs Microsoft Copilot: What Each One Does"
 description: "Microsoft Copilot works inside Microsoft 365. CorpusIQ gives AI assistants live access to business data across 40+ tools, including non-Microsoft systems."
-last_updated: "2026-11-01"
+last_updated: "2026-11-20"
 ---
 
 # CorpusIQ vs Microsoft Copilot: What Each One Does
 
-Microsoft Copilot works inside the Microsoft 365 stack. CorpusIQ is the layer that gives AI assistants live access to your business data across 40+ tools, including non-Microsoft systems. The two do different jobs. Microsoft 365 Copilot now reaches outside systems through MCP using federated connectors that an admin sets up in the Microsoft 365 admin center, or through Copilot Studio. CorpusIQ is a remote MCP server, so the technical path exists. What we do not have yet is a CorpusIQ connector listed in Microsoft's connector gallery, which is a partner submission Microsoft reviews and approves.
+Microsoft Copilot works inside the Microsoft 365 stack. CorpusIQ is the layer that gives AI assistants live access to your business data across 40+ tools, including non-Microsoft systems. The two do different jobs.
+
+Microsoft 365 Copilot now reaches outside systems through MCP using federated connectors that an admin sets up in the Microsoft 365 admin center, or through Copilot Studio. Microsoft documents two ways into that connector list: connectors Microsoft publishes or partners submit for approval in the Connectors Gallery, and admin-published federated connectors, where an admin publishes a connector from a template curated by Microsoft and third-party partners using that product's own MCP endpoint and OAuth setup.
+
+CorpusIQ is a remote MCP server, so the technical path exists on both routes. What we do not have yet is a CorpusIQ connector listed in Microsoft's Connectors Gallery, or a CorpusIQ template in the admin-published catalog, so there is no one-click install today.
 
 ## Quick comparison
 
 | Capability | Microsoft Copilot | CorpusIQ |
 |---|---|---|
 | Primary job | AI assistance inside Microsoft 365 apps | Cross-source business answers in ChatGPT, Claude, Perplexity |
-| Data access | Its own index of your Microsoft 365 content | 40+ business connectors across accounting, analytics, CRM, and ads |
+| Data access | Index of your Microsoft 365 content, plus federated MCP connectors an admin enables | 40+ business connectors across accounting, analytics, CRM, and ads |
 | AI surface | Copilot inside Word, Excel, and Teams | Any MCP-capable assistant you already use |
 | Answer format | Native reports | Source-cited plain-English answers |
 | Data stored | Your records | Live retrieval, scoped retention, no raw customer files or full payloads |
@@ -38,7 +42,7 @@ No. Microsoft Copilot stays your system of record for its job. CorpusIQ answers 
 
 ### Can I use Microsoft Copilot data in ChatGPT today?
 
-Not through a gallery connector today. Copilot now reaches external tools over MCP through federated connectors an admin enables in the Microsoft 365 admin center, but CorpusIQ is not yet listed in Microsoft's connector gallery, so there is no one-click path. In the meantime you can ask ChatGPT a business question against the connectors you do have, such as Shopify, QuickBooks, Stripe, GA4, and Google Ads, and get an answer with citations.
+Not through a gallery connector today. Copilot now reaches external tools over MCP through federated connectors an admin enables in the Microsoft 365 admin center, and through admin-published connectors built from templates Microsoft curates with third-party partners. CorpusIQ is a remote MCP server, but it is not yet in Microsoft's Connectors Gallery or the admin-published template catalog, so there is no one-click path. In the meantime you can ask ChatGPT a business question against the connectors you do have, such as Shopify, QuickBooks, Stripe, GA4, and Google Ads, and get an answer with citations.
 
 ### Is my data safe?
 

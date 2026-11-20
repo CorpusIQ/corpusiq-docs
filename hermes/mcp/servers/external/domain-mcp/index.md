@@ -8,7 +8,7 @@ added: 2026-08-23
 source: "mcp.so GitHub issue #3703"
 relevance: ★★★
 tags: [domains, dns, dynadot, whois, registrars, transfers, stdio-mcp, npm]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # Domain MCP

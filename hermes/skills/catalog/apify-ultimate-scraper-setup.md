@@ -4,7 +4,7 @@ description: "AI-powered web scraper covering Instagram, Facebook, TikTok, YouTu
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/apify-ultimate-scraper-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

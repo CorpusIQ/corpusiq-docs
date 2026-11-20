@@ -5,7 +5,7 @@ description: "CorpusIQ connectors do not retain raw customer files or full conne
 canonical: "/hermes/security/read-only-and-security/"
 robots: "index, follow"
 tags: [security, read-only, privacy, no-storage, oauth, governance, ai-agent]
-last_updated: "2026-11-02"
+last_updated: "2026-11-19"
 ---
 
 # Security, Read-Only Access, and What CorpusIQ Never Does

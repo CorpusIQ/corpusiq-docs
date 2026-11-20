@@ -4,7 +4,7 @@ description: "Run Hermes Agent on your gaming PC with NVIDIA CUDA acceleration. 
 
 category: setup
 tags: [gaming-pc, hermes-agent, setup-guide, nvidia, cuda, ollama, gpu-acceleration, local-models]
-last_updated: "2026-11-16"
+last_updated: "2026-11-19"
 canonical: "https://www.corpusiq.io/docs/hermes/setup/gaming-pc/"
 robots: "index,follow"
 

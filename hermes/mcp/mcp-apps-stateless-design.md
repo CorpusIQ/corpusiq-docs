@@ -5,7 +5,7 @@ description: "Practical pattern for building stateless MCP Apps that render corr
 canonical: "/hermes/mcp/mcp-apps-stateless-design/"
 robots: "index, follow"
 tags: [mcp, apps, stateless, design, pattern, chatgpt, claude, ui]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # MCP Apps Stateless Design Pattern

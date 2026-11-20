@@ -4,7 +4,7 @@ description: "4 newly discovered skills and tools - async multi-agent message bu
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-june19-2026/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---

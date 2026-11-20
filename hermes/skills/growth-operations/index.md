@@ -4,7 +4,7 @@ description: "Growth operations skills for Hermes Agent - affiliate programs, wo
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/growth-operations/"
 robots: "index,follow"
-last_updated: "2026-11-18"
+last_updated: "2026-11-19"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---

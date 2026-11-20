@@ -4,7 +4,7 @@ description: "OpenAI's official skills catalog for Codex CLI - PDF generation, C
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/openai-codex-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

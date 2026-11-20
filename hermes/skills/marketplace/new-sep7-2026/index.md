@@ -4,7 +4,7 @@ description: "skills.sh evening sweep: designed-by-ai/skills design-mobile-apps 
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-sep7-2026/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "skill marketplace", "skills.sh", "new skills", "design", "marketing"]
 sweep_id: "2026-09-07-evening"
 new_publishers: 2

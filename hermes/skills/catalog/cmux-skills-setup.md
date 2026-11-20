@@ -4,7 +4,7 @@ description: "manaflow-ai/cmux - 22 skills at 76.3K installs for the cmux macOS 
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/cmux-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "terminal", "multiplexer"]
 ---
 

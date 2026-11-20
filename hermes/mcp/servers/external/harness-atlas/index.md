@@ -8,7 +8,7 @@ added: 2026-08-25
 source: "mcp.so GitHub issue #3736"
 relevance: ★★★
 tags: [mcp-server, sourcing, wire-harness, manufacturing, supply-chain, cross-reference, procurement]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # Harness Atlas MCP

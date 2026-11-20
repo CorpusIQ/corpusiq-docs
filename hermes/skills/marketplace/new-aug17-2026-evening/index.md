@@ -4,7 +4,7 @@ description: "skills.sh evening sweep: Nx AI Agents Config (44.7K, 10), M. Colli
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-aug17-2026-evening/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "skill marketplace", "skills.sh", "new skills"]
 sweep_id: "2026-08-17-evening"
 new_publishers: 3

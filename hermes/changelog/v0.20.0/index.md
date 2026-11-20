@@ -4,7 +4,7 @@ description: "Hermes Agent v0.20.0 (v2026.8.3) - The Herald Release. Streaming c
 
 canonical: "https://www.corpusiq.io/docs/hermes/changelog/v0.20.0/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---

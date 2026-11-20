@@ -4,7 +4,7 @@ description: "imbad0202/academic-research-skills - 4 skills at 26.4K installs: a
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/academic-research-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "research", "academic", "deep research"]
 ---
 

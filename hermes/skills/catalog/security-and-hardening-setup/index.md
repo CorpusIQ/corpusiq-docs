@@ -4,7 +4,7 @@ description: "Install and use addyosmani/agent-skills security-and-hardening. 12
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/security-and-hardening-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

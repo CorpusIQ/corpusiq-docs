@@ -4,7 +4,7 @@ description: "20 engineering skills from Google Chrome's Addy Osmani covering CI
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/addyosmani-agent-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

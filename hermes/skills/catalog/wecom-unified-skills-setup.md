@@ -4,7 +4,7 @@ description: "wecomteam/wecom-unified - 1 skill, 4.4K installs: the official int
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/wecom-unified-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "wecom", "wechat work", "routing", "enterprise"]
 ---
 

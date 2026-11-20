@@ -8,7 +8,7 @@ added: 2026-09-14
 source: "mcpservers.org /all page 1 (Sep 14 evening crawl) + vendor docs at foliyo.io"
 relevance: ★★
 tags: [reports, proposals, client-portals, publishing, agencies, html, oauth, hosting, share-links, remote-mcp]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # Foliyo MCP

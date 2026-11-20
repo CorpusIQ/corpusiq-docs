@@ -8,7 +8,7 @@ added: 2026-09-07
 source: "chatmcp/mcpso issue #3941"
 relevance: ★★
 tags: [content-extraction, social-media, transcription, ocr, remote-mcp, research]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # LinkDigest MCP - Social Post to LLM-Readable Text

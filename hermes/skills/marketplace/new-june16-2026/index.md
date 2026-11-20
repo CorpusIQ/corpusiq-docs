@@ -4,7 +4,7 @@ description: "Skills.sh sweep discovered youtube-content (160 installs) - a nati
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-june16-2026/"
 robots: "index,follow"
-last_updated: "2026-11-07"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---

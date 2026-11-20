@@ -8,7 +8,7 @@ added: 2026-09-01
 source: "chatmcp/mcpso issue #3868 (Sep 1, 2026)"
 relevance: ★★★
 tags: [mcp-server, seo, geo, ai-visibility, keyword-tracking, google-search-console, quebec, french-canadian]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # Gridar MCP

@@ -4,7 +4,7 @@ description: "rknall/claude-skills - 10 skills, 8.5K installs: SVG Logo Designer
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/rknall-claude-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "svg", "logo design", "gitlab", "docker", "backend review"]
 ---
 

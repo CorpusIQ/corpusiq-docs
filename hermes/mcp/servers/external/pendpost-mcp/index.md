@@ -8,7 +8,7 @@ added: 2026-09-07
 source: "chatmcp/mcpso issue #3982"
 relevance: ★★★
 tags: [social-media, scheduling, approval-gate, local-first, stdio, publishing]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # PendPost MCP - Local-First Social Publishing with Approval Gates

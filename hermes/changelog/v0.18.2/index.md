@@ -4,7 +4,7 @@ description: "Same-day patch on v0.18.1. Unpins the WhatsApp Baileys bridge depe
 
 canonical: "https://www.corpusiq.io/docs/hermes/changelog/v0.18.2/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---

@@ -4,7 +4,7 @@ description: "Install warpdotdev/common-skills (411.2K combined installs) - 25 s
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/warpdotdev-common-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

@@ -2,7 +2,7 @@
 title: "MCP Server Discovery - October 26, 2026 (Morning Sweep)"
 description: "The listing moved after a frozen Sunday, and the work that mattered sat in the feed and the submission window: an AEO audit that answered without a key."
 
-last_updated: 2026-11-01
+last_updated: 2026-11-19
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october26-2026-morning/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

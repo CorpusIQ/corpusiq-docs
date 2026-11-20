@@ -8,7 +8,7 @@ added: 2026-09-07
 source: "chatmcp/mcpso issue #3966"
 relevance: ★★
 tags: [carddav, contacts, address-book, groups, stdio, productivity, local]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # carddav-mcp - Address Book Operations over CardDAV for Agents

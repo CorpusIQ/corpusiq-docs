@@ -8,7 +8,7 @@ added: 2026-09-07
 source: mcp.so feed
 relevance: ★★
 tags: [human-in-the-loop, approvals, verification, notarisation, spot-pricing, judgment, remote-mcp]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # Countersignatory MCP - Verified Human Judgment Markets

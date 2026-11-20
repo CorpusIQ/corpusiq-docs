@@ -4,7 +4,7 @@ description: "vercel/eve - 4 first-party skills from Vercel's open Eve agent fra
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/vercel-eve-agent-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "vercel", "eve", "agents", "backend"]
 ---
 

@@ -2,7 +2,7 @@
 title: "MCP Server Discovery - October 18, 2026 (Night Sweep)"
 description: "Night sweep cataloguing purchasing cost-drift analysis for supplier price files, keyless data protection deadlines for DSARs and breaches, pre-dial screening."
 
-last_updated: 2026-11-01
+last_updated: 2026-11-19
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october18-2026-night/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

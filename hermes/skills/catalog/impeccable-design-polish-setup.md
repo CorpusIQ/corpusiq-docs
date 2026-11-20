@@ -4,7 +4,7 @@ description: "Install and use nexu-io/open-design@impeccable-design-polish (2K+ 
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/impeccable-design-polish-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "design polish", "anti-ai-slop"]
 ---
 

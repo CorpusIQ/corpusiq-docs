@@ -4,7 +4,7 @@ description: "Install, configure, and use the ClawPilot ecosystem (clawpilot, cl
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/clawpilot-ecosystem-setup/"
 robots: "index,follow"
-last_updated: "2026-11-07"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

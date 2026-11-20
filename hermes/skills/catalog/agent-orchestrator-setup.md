@@ -4,7 +4,7 @@ description: "Skills from coreyhaines31/marketingskills at skills.sh - autonomou
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/agent-orchestrator-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "orchestration", "multi-agent", "automation"]
 ---
 

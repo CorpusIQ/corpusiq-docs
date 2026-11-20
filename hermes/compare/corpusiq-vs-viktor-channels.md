@@ -3,7 +3,7 @@ title: "CorpusIQ vs Viktor Channels: Slack and Teams Only"
 description: "Viktor lives only inside Slack and Microsoft Teams. CorpusIQ works in ChatGPT, Claude, Perplexity, Slack, Teams, and any MCP client."
 
 tags: [compare, channels, viktor, chatgpt, claude]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # CorpusIQ vs Viktor Channels

@@ -4,7 +4,7 @@ description: "Install and configure safari-web-agent for real Safari browser aut
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/safari-web-agent-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

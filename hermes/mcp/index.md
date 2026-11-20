@@ -4,7 +4,7 @@ description: "Complete Hermes Agent MCP integration guide. Connect 40+ business 
 
 category: mcp
 tags: [hermes-agent, mcp, model-context-protocol, integration, corpusiq, crm, analytics, email, database, cross-source]
-last_updated: 2026-11-07
+last_updated: 2026-11-19
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/"
 robots: "index,follow"
 

@@ -4,7 +4,7 @@ description: "Midday sweep over chatmcp/mcpso issues #4033-#4035 plus mcpservers
 
 category: mcp
 tags: [mcp-servers, daily-scan, september-2026]
-last_updated: 2026-11-01
+last_updated: 2026-11-19
 ---
 
 # MCP Server Discovery - September 10, 2026 (Midday Sweep)

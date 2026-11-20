@@ -4,7 +4,7 @@ description: "15 newly discovered Hermes Agent repos - Hermes Bible (169-page co
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-june20-22-2026/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---

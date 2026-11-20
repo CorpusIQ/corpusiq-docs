@@ -4,7 +4,7 @@ description: "Run Hermes Agent from the official nousresearch/hermes-agent Docke
 
 category: setup
 tags: [docker, hermes-agent, setup-guide, container, docker-compose, reproducible, cicd, deployment]
-last_updated: 2026-11-16
+last_updated: 2026-11-19
 canonical: "https://www.corpusiq.io/docs/hermes/setup/docker/"
 robots: "index,follow"
 

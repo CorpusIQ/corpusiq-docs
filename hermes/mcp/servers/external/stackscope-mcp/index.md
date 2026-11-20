@@ -8,7 +8,7 @@ added: 2026-09-01
 source: "mcpservers.org /all page 1 - stackscope-dev-docs-mcp listing (Sep 1, 2026 morning sweep)"
 relevance: ★★★
 tags: [mcp-server, technographics, sales-intelligence, lead-generation, tech-stack, competitive-intelligence, adopters]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # StackScope MCP

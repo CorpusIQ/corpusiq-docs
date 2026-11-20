@@ -4,7 +4,7 @@ description: "Full-featured Telegram CLI for reading, searching, sending message
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/skillhq-telegram-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

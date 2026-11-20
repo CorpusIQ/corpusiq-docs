@@ -4,7 +4,7 @@ description: "apidojo-io/social-media-skills - 3 Agent Skills for scraping X (Tw
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/apidojo-social-media-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "social media", "scraping", "data extraction", "apify", "twitter", "instagram", "tiktok"]
 ---
 

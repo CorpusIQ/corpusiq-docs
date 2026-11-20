@@ -8,7 +8,7 @@ added: 2026-09-05
 source: mcpservers.org
 relevance: ★★★
 tags: [meta-ads, facebook-ads, advertising, instagram, insights, ad-library, oauth, streamable-http, remote-mcp]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # Ryze Meta Ads MCP

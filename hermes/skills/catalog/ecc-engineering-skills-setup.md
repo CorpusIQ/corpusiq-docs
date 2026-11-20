@@ -4,7 +4,7 @@ description: "affaan-m/ecc - 292 skills, 466.2K total installs. Enterprise engin
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/ecc-engineering-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "engineering standards", "code quality", "security review"]
 ---
 

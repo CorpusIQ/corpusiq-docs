@@ -4,7 +4,7 @@ description: "rampstackco/claude-skills - 103 skills, 15.7K installs: a complete
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/rampstack-claude-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "marketing", "seo", "cro", "email marketing", "growth"]
 ---
 

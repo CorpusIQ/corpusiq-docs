@@ -4,7 +4,7 @@ description: "38 newly catalogued skills - Agenthood's full AI engineering team 
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-june26-2026-afternoon/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---

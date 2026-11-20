@@ -4,7 +4,7 @@ description: "Install flowkit-labs/skills reddit-automation (5.4K installs) - he
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/flowkit-reddit-automation-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

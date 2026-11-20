@@ -4,7 +4,7 @@ description: "twostraws/swift-testing-agent-skill - swift-testing-pro (7.5K inst
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/swift-testing-pro-skill-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "swift", "testing", "xctest"]
 ---
 

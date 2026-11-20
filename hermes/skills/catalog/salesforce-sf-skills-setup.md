@@ -4,7 +4,7 @@ description: "forcedotcom/sf-skills - Salesforce's official curated agent skills
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/salesforce-sf-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "salesforce", "crm", "apex", "agentforce", "lwc"]
 ---
 

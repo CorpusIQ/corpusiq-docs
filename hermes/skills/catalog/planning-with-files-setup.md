@@ -4,7 +4,7 @@ description: "othmanadi/planning-with-files - 7 skills, 90.5K combined installs.
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/planning-with-files-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "methodology"]
 ---
 

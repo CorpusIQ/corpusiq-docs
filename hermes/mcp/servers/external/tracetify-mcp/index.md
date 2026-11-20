@@ -8,7 +8,7 @@ added: 2026-09-03
 source: mcp.so
 relevance: ★★★
 tags: [seo, geo, growth, search-console, backlinks, ai-visibility, self-hosted]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # Tracetify MCP

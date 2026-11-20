@@ -8,7 +8,7 @@ added: 2026-11-04
 source: "mcpservers.org /all newest page slug aethelgard-systems/lookfirst read through the r.jina.ai reader, plus a locally driven session: installed from github.com/Aethelgard-Systems/lookfirst into a venv, version 0.2.1, and the offline demo run end to end twice (one denial, one approval) with verify-log OK at 20 signed entries and TAMPERED detected after an entry was rewritten"
 relevance: ★★★
 tags: [agent-governance, human-approval, audit-log, hash-chain, read-back-verification, data-masking, mcp-proxy, apache-2.0]
-last_updated: "2026-11-04"
+last_updated: "2026-11-19"
 ---
 
 # lookfirst MCP

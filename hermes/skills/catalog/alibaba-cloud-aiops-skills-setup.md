@@ -4,7 +4,7 @@ description: "aliyun/alibabacloud-aiops-skills - 270 first-party Alibaba Cloud A
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/alibaba-cloud-aiops-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "alibaba cloud", "cloud", "devops", "aiops"]
 ---
 

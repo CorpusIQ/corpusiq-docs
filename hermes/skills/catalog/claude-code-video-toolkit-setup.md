@@ -4,7 +4,7 @@ description: "digitalsamba/claude-code-video-toolkit - 13 skills, 14.5K installs
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/claude-code-video-toolkit-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "video", "ffmpeg", "remotion"]
 ---
 

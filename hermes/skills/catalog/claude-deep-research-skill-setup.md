@@ -4,7 +4,7 @@ description: "199-biotechnologies/claude-deep-research-skill - 9.4K installs: st
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/claude-deep-research-skill-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "research", "citations"]
 ---
 

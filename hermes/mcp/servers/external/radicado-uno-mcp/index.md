@@ -8,7 +8,7 @@ added: 2026-09-14
 source: "mcp.so feed (radicado-uno) + vendor page radicadouno.co/precios"
 relevance: ★★
 tags: [kyb, compliance, colombia, company-data, due-diligence, procurement, ofac, remote-mcp]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # Radicado Uno MCP

@@ -8,7 +8,7 @@ added: 2026-09-02
 source: mcpservers.org
 relevance: ★★★
 tags: [seo, aeo, search-console, analytics, publishing, audits, remote-mcp]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # Prognosite MCP

@@ -8,7 +8,7 @@ added: 2026-10-04
 source: mcpservers.org
 relevance: ★★★
 tags: [hr, hiring, recruiting, resume-screening, interviews, references, remote-mcp, oauth]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # PhoneScreen MCP

@@ -4,7 +4,7 @@ description: "Skills.sh sweep September 15, 2026: AccessLint/skills (WCAG 2.2 au
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-sep15-2026/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skills.sh", "marketplace", "sweep"]
 ---
 

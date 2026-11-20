@@ -4,7 +4,7 @@ description: "software-mansion/argent - 20 skills, 154.0K installs: Android emul
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/argent-mobile-agent-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "react-native", "mobile development", "emulator", "simulator", "qa"]
 ---
 

@@ -8,7 +8,7 @@ added: 2026-11-15
 source: "the mcp.so submission queue entry #7374 filed 2026-11-15T04:44Z, and a driven session against https://chartant.net/mcp on 2026-11-15 in which initialize answered 200 as ChartAnt 0.4.0, tools/list returned 51 schemas and nine tools were called"
 relevance: ★★★
 tags: [charts, data-visualization, maps, dashboards, reporting, powerpoint, excel, keyless, remote-mcp]
-last_updated: "2026-11-15"
+last_updated: "2026-11-19"
 ---
 
 # ChartAnt MCP

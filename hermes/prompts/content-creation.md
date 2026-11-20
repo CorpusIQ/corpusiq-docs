@@ -4,7 +4,7 @@ description: "Hermes Agent content creation prompts for blog posts, social media
 
 category: prompts
 tags: [hermes-agent, prompts, content-creation, blog-posts, social-media, email-marketing, seo, video-scripts]
-last_updated: 2026-11-07
+last_updated: 2026-11-19
 canonical: "https://www.corpusiq.io/docs/hermes/prompts/content-creation/"
 robots: "index,follow"
 

@@ -4,7 +4,7 @@ description: "2dmurali/review-loop-skill - 24.6K installs, #1 on the skills.sh h
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/review-loop-skill-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "code review", "workflow"]
 ---
 

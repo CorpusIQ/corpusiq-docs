@@ -4,7 +4,7 @@ description: "Install and use vercel-labs/skills@find-skills (2.5M installs) to 
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/find-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

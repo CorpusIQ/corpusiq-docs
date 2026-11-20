@@ -8,7 +8,7 @@ added: 2026-08-29
 source: mcpservers.org /all
 relevance: ★★
 tags: [mcp-server, e-signature, documents, compliance, spain, business-ops, remote-mcp]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # TuFirma MCP

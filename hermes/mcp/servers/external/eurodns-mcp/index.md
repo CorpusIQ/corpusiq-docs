@@ -8,7 +8,7 @@ added: 2026-09-04
 source: mcpservers.org
 relevance: ★★★
 tags: [domains, dns, ssl-certificates, registrar, infrastructure, dns-management, stdio, streamable-http]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # EuroDNS MCP

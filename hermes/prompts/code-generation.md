@@ -4,7 +4,7 @@ description: "Curated Hermes Agent code generation prompts for writing, refactor
 
 category: prompts
 tags: [hermes-agent, prompts, code-generation, debugging, refactoring, python, javascript, sql, ai-coding]
-last_updated: 2026-11-07
+last_updated: 2026-11-19
 canonical: "https://www.corpusiq.io/docs/hermes/prompts/code-generation/"
 robots: "index,follow"
 

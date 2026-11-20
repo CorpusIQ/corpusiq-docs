@@ -4,7 +4,7 @@ description: "shubhamsaboo/awesome-llm-apps - 26 skills, 79.7K total installs fr
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/awesome-llm-apps-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "role skills", "research", "content creation"]
 ---
 

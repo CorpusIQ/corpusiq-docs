@@ -4,7 +4,7 @@ description: "witt3rd/oh-my-hermes - 9 Hermes-native multi-agent orchestration s
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/oh-my-hermes-omh-suite-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "multi-agent", "orchestration"]
 ---
 

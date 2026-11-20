@@ -8,7 +8,7 @@ added: 2026-08-26
 source: "mcp.so GitHub issue #3759"
 relevance: ★★
 tags: [ugc, creators, influencer-marketing, dach, germany, content, marketing, remote-mcp]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # UGC VZ MCP

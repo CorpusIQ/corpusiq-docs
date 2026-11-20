@@ -4,7 +4,7 @@ description: "mohitmishra786/low-level-dev-skills - 41.5K installs across 142 sk
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/low-level-dev-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "systems", "c", "cpp", "rust", "linux", "debugging", "ebpf"]
 ---
 

@@ -4,7 +4,7 @@ description: "Evening sweep - 28 new Hermes repos discovered including ContextFo
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-june24-2026-evening/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---

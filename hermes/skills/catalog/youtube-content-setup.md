@@ -4,7 +4,7 @@ description: "Extract transcripts from YouTube videos and transform them into su
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/youtube-content-setup/"
 robots: "index,follow"
-last_updated: "2026-11-07"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

@@ -4,7 +4,7 @@ description: "trailofbits/skills-curated - 31 skills, 2.4K installs: security re
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/trailofbits-skills-curated-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "security", "reverse engineering", "fuzzing", "threat modeling"]
 ---
 

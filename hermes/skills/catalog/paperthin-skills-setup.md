@@ -4,7 +4,7 @@ description: "lilmgenius/paperthin - 36 skills, 22.1K combined installs. Low-lev
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/paperthin-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "context discipline"]
 ---
 

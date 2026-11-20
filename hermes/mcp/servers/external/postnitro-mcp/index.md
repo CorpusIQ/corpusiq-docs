@@ -8,7 +8,7 @@ added: 2026-09-07
 source: mcp.so feed
 relevance: ★★★
 tags: [social-media, carousels, scheduling, brand-kits, ai-image-generation, linkedin, instagram, tiktok, remote-mcp]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # PostNitro MCP - AI Carousels and Social Publishing for Agents

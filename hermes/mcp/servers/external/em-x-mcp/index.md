@@ -8,7 +8,7 @@ added: 2026-08-12
 source: mcp.so
 relevance: ★★★
 tags: [productivity, consulting, presentations, powerpoint, decks, strategy, executive, remote-mcp]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # EM+x MCP

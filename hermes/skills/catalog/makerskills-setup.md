@@ -4,7 +4,7 @@ description: "coreyhaines31/makerskills - 23-skill suite for the personal operat
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/makerskills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "second brain", "knowledge management", "business operations"]
 ---
 

@@ -4,7 +4,7 @@ description: "Stable tagged release rolling up ~660 PRs merged since v0.18.0. Bu
 
 canonical: "https://www.corpusiq.io/docs/hermes/changelog/v0.18.1/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---

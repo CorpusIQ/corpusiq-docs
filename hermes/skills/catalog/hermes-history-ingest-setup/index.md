@@ -4,7 +4,7 @@ description: "Mine Hermes agent session history into Obsidian wiki. Extract insi
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-history-ingest-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

@@ -8,7 +8,7 @@ added: 2026-08-21
 source: mcpservers.org
 relevance: ★★★
 tags: [social-media, scheduling, publishing, analytics, content-planning, instagram, tiktok, remote-mcp]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # Maeve Social MCP

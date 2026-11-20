@@ -8,7 +8,7 @@ added: 2026-08-15
 source: mcp.so
 relevance: ★★
 tags: [finance, congress, stock-act, insider-trading, market-intelligence, due-diligence, x402, self-hosted]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # GovTrade MCP

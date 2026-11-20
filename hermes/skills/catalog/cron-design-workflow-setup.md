@@ -4,7 +4,7 @@ description: "Install and configure the Cron Design Workflow skill from lovenps8
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/cron-design-workflow-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

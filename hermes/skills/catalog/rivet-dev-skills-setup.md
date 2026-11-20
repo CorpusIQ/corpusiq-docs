@@ -4,7 +4,7 @@ description: "rivet-dev/skills - 22 skills, 65.3K installs: sandbox-agent, Rivet
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/rivet-dev-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "realtime", "backend", "multiplayer", "actors", "agent infrastructure"]
 ---
 

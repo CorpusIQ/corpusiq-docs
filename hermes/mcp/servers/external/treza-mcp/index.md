@@ -8,7 +8,7 @@ added: 2026-09-07
 source: mcpservers.org
 relevance: ★★
 tags: [video-production, youtube, tiktok, instagram, content-automation, scheduling, publishing, remote-mcp]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # Treza MCP - AI Video Pipelines to Social Channels

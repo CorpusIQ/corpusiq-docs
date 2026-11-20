@@ -4,7 +4,7 @@ description: "Full-stack audit pass that MUST run before shipping any fix on a c
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/engineering/consultant-connector-audit/"
 robots: "index,follow"
-last_updated: "2026-11-07"
+last_updated: "2026-11-19"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---

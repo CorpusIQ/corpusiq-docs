@@ -4,7 +4,7 @@ description: "Comprehensive AI-powered research that gathers sources, analyzes t
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/tavily-research-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

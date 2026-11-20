@@ -4,7 +4,7 @@ description: "nutlope/hallmark - 48.6K installs, 27.6K stars: Hassan El Mghari's
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hallmark-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "design", "frontend", "anti-ai-slop", "ui"]
 ---
 

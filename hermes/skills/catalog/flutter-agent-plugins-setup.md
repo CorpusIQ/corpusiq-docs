@@ -4,7 +4,7 @@ description: "flutter/agent-plugins - the official Flutter team skills: 86 skill
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/flutter-agent-plugins-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "flutter", "dart", "mobile development"]
 ---
 

@@ -4,7 +4,7 @@ description: "Install and configure hermespet-macos-ai-companion, a desktop pet/
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermespet-macos-ai-companion-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

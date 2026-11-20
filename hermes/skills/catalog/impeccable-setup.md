@@ -4,7 +4,7 @@ description: "Install, configure, and use pbakaus/impeccable - an AI writing qua
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/impeccable-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

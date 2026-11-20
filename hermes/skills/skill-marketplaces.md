@@ -4,7 +4,7 @@ description: "Navigate Hermes Agent skill marketplaces for discovering and publi
 
 category: skills
 tags: [hermes-agent, skills, marketplace, publishing, quality-tiers, community, discovery, curation]
-last_updated: "2026-11-07"
+last_updated: "2026-11-19"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/skill-marketplaces/"
 robots: "index,follow"
 

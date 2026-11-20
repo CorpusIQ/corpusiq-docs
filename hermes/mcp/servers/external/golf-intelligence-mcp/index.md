@@ -8,7 +8,7 @@ added: 2026-08-27
 source: "mcp.so GitHub issue #3787"
 relevance: ★★
 tags: [golf, sports-data, geo-data, course-mapping, data-api, remote-mcp]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # Golf Intelligence MCP

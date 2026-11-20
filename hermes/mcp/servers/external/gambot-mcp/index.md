@@ -8,7 +8,7 @@ added: 2026-09-14
 source: "mcp.so feed (gambot) + repo github.com/gambot-ai/gambot-mcp README + npm gambot-mcp"
 relevance: ★★★
 tags: [whatsapp, messaging, crm, campaigns, leads, sales, marketing, stdio]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # Gambot MCP

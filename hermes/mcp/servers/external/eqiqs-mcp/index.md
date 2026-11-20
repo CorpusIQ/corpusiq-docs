@@ -8,7 +8,7 @@ added: 2026-09-28
 source: "mcp.so server page (eqiqs.com)"
 relevance: ★★★
 tags: [hr, team-building, coaching, compatibility, meeting-prep, remote-mcp]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # EQIQs MCP

@@ -8,7 +8,7 @@ added: 2026-09-02
 source: "mcpservers.org /all JSON-LD (Sep 2, 2026 morning sweep)"
 relevance: ★★
 tags: [mcp-server, agencies, directory, ai-implementation, marketplace, vendor-discovery]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # Ashton & Forge Agency Directory MCP

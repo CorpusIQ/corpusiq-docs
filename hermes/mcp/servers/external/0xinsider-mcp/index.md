@@ -8,7 +8,7 @@ added: 2026-09-12
 source: "mcpservers.org /all page 1 (night crawl) + developer resources at 0xinsider.com/developers.json + OpenAPI at 0xinsider.com/api/v1/openapi.json"
 relevance: ★★★
 tags: [polymarket, prediction-markets, trading, analytics, crypto, finance, remote-mcp, streamable-http]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # 0xinsider MCP

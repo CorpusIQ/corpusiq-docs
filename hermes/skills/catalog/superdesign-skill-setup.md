@@ -4,7 +4,7 @@ description: "superdesigndev/superdesign-skill - superdesign (8.0K installs): fi
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/superdesign-skill-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "design", "canvas", "ui design"]
 ---
 

@@ -4,7 +4,7 @@ description: "PlanetScale's official database agent skills - MySQL, Postgres, Vi
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/planetscale-database-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

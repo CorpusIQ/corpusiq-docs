@@ -4,7 +4,7 @@ description: "mastra-ai/skills - 5 skills, 32.6K installs: official Mastra refer
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/mastra-ai-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "mastra", "typescript", "ai agents", "workflows"]
 ---
 

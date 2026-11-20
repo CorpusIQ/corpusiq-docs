@@ -4,7 +4,7 @@ description: "Install and use browser-act/skills@browser-act (99K installs) for 
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/browser-act-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

@@ -4,7 +4,7 @@ description: "Install and configure plan, the official Hermes Agent skill for pl
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/plan-mode-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

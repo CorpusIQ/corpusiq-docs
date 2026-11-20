@@ -4,7 +4,7 @@ description: "Night sweep over chatmcp/mcpso issues #3999-#4031, mcp.so homepage
 
 category: mcp
 tags: [mcp-servers, daily-scan, september-2026]
-last_updated: 2026-11-01
+last_updated: 2026-11-19
 ---
 
 # MCP Server Discovery - September 10, 2026 (Night Sweep)

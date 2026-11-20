@@ -4,7 +4,7 @@ description: "Install the rorkai/app-store-connect-cli-skills cluster (53.5K ins
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/app-store-connect-cli-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

@@ -4,7 +4,7 @@ description: "Install and configure 17 new OpenClaw/ClawPilot agent skills - Lin
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-ecosystem-june26-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

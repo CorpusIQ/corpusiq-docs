@@ -4,7 +4,7 @@ description: "Complete setup guide for wiki-history-ingest - unified agent histo
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/wiki-history-ingest-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

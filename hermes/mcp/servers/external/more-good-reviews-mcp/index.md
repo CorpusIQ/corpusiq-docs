@@ -8,7 +8,7 @@ added: 2026-08-25
 source: mcpservers.org /all listing
 relevance: ★★
 tags: [mcp-server, reviews, reputation, google-reviews, customers, feedback]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # More Good Reviews MCP

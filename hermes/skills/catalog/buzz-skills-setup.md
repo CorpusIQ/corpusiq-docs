@@ -4,7 +4,7 @@ description: "tonbistudio/buzz-skills - 3 skills, 250 GitHub stars: connect a He
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/buzz-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "buzz", "nostr", "messaging gateway", "self-hosting", "media delivery"]
 ---
 

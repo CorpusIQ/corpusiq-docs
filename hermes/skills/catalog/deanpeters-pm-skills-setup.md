@@ -4,7 +4,7 @@ description: "Structured product management skills with 8.8K+ combined installs.
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/deanpeters-pm-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

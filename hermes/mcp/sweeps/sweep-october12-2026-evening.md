@@ -2,7 +2,7 @@
 title: "MCP Server Discovery - October 12, 2026 (Evening Sweep)"
 description: "Evening sweep cataloguing international tax and wage reference data, US product recalls, GB operator licences, a compliance framework graph, QuickBooks."
 
-last_updated: 2026-11-01
+last_updated: 2026-11-19
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october12-2026-evening/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

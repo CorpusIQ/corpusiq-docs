@@ -8,7 +8,7 @@ added: 2026-09-07
 source: mcpservers.org
 relevance: ★★
 tags: [forms, lead-capture, gdpr, dsgvo, webhooks, email-delivery, captcha, remote-mcp]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # Formdall MCP - GDPR Form Backend for Agents

@@ -8,7 +8,7 @@ added: 2026-08-19
 source: "mcp.so GitHub issue #3649"
 relevance: ★★
 tags: [intelligence, compliance, sanctions-screening, prediction-markets, macro-data, x402, remote-mcp, hosted]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # SYNTHORA MCP

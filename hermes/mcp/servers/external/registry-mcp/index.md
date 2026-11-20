@@ -8,7 +8,7 @@ added: 2026-09-04
 source: "mcp.so GitHub issue #3927"
 relevance: ★★★
 tags: [company-registry, business-verification, vat, norway, brreg, company-lookup, remote-mcp, keyless]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # registry-mcp

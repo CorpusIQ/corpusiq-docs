@@ -4,7 +4,7 @@ description: "Deploy Hermes Agent on Huawei Cloud Flexus L-series servers using 
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/huawei-hermes-deployment-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

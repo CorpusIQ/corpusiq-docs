@@ -8,7 +8,7 @@ added: 2026-08-21
 source: "mcpservers.org homepage (Aug 21 overnight sweep)"
 relevance: ★★
 tags: [document-sharing, reporting, client-deliverables, analytics, publishing, remote-mcp, versions, password-protection]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # LiveSend MCP

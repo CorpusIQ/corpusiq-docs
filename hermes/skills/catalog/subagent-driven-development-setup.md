@@ -4,7 +4,7 @@ description: "Install and configure subagent-driven-development, the official He
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/subagent-driven-development-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

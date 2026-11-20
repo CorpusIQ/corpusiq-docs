@@ -4,7 +4,7 @@ description: "pexoai/pexo-skills - 24 skills, 62.5K total installs. pexo-agent (
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/pexo-video-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "video generation", "text to video", "seedance", "veo"]
 ---
 

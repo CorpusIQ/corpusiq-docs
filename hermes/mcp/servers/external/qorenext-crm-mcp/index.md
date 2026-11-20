@@ -8,7 +8,7 @@ added: 2026-08-27
 source: "chatmcp/mcpso issue #3797 + github.com/QoreNext/qorenext-crm-mcp"
 relevance: ★★★
 tags: [crm, entity-intelligence, address-verification, hierarchy, deduplication, data-quality, remote-mcp]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # QoreNext CRM MCP

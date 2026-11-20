@@ -4,7 +4,7 @@ description: "skills.sh midday sweep: Argent Mobile Agent Skills (154.0K), Oh St
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-aug15-2026-midday/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 sweep_id: "2026-08-15-midday"
 new_publishers: 15
 new_skills: 273

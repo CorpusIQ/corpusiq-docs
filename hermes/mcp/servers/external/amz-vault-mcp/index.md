@@ -8,7 +8,7 @@ added: 2026-09-06
 source: mcpservers.org
 relevance: ★★★
 tags: [amazon-seller, amazon-ads, ppc, profitability, inventory, brand-analytics, e-commerce, remote-mcp]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # AMZ Vault MCP - Amazon Seller Central and Ads for Agents

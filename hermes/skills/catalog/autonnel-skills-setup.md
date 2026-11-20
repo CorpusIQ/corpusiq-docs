@@ -4,7 +4,7 @@ description: "autonnel/autonnel-skills - 6 skills, 147.5K combined installs: lan
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/autonnel-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "conversion optimization", "sales funnel", "landing page", "server-side tracking", "upsell"]
 ---
 

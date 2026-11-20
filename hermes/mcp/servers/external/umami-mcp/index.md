@@ -8,7 +8,7 @@ added: 2026-09-15
 source: "mcpservers.org /all page 3 + vendor page at mcpservers.org/servers/umami-mcp"
 relevance: ★★★
 tags: [web-analytics, pageviews, funnels, retention, attribution, core-web-vitals, umami, read-only, api-key, remote-mcp]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # Umami MCP

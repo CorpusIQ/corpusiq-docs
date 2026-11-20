@@ -8,7 +8,7 @@ added: 2026-08-30
 source: "mcp.so feed (listed Jul 9, 2026; first evaluated Aug 30)"
 relevance: ★★
 tags: [mcp-server, analytics, bi, snowflake, bigquery, postgres, dashboards, governance]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # Contextflo MCP

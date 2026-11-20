@@ -4,7 +4,7 @@ description: "Run Hermes Agent on Raspberry Pi 5 for under $80 hardware and $5/m
 
 category: setup
 tags: [raspberry-pi, hermes-agent, setup-guide, low-cost, always-on, arm64, cron-automation, budget-ai]
-last_updated: "2026-11-17"
+last_updated: "2026-11-19"
 canonical: "https://www.corpusiq.io/docs/hermes/setup/raspberry-pi/"
 robots: "index,follow"
 

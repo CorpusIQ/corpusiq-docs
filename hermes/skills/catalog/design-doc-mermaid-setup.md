@@ -4,7 +4,7 @@ description: "spillwavesolutions/design-doc-mermaid - design-doc-mermaid (34.2K 
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/design-doc-mermaid-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "mermaid", "diagrams", "documentation"]
 ---
 

@@ -8,7 +8,7 @@ added: 2026-08-20
 source: mcpservers.org
 relevance: ★★
 tags: [construction, b2b-opportunities, ohio, project-intelligence, lead-generation, subcontracting, public-beta, remote-mcp]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # Opportunity Atlas MCP

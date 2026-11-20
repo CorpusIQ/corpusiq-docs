@@ -8,7 +8,7 @@ added: 2026-10-08
 source: "mcp.so feed (October 8, 2026 night sweep)"
 relevance: ★★★
 tags: [international-trade, export-import, customs, lead-generation, compliance, sanctions, logistics, sales]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # EximAgent MCP

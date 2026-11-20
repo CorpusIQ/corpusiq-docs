@@ -8,7 +8,7 @@ added: 2026-08-21
 source: mcp.so
 relevance: ★★
 tags: [linkedin, content, ghostwriting, voice, scheduling, analytics, marketing, remote-mcp]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # LinkedIn Ghostwriter MCP

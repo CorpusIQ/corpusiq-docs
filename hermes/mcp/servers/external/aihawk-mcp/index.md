@@ -4,7 +4,7 @@ description: "AIHawk MCP server: an open-source anti-detect browser and web brow
 
 category: "MCP Servers"
 tags: ["aihawk", "stealth browser", "anti-detect", "web automation", "mcp server", "browser agent"]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/aihawk-mcp"
 robots: "index,follow"
 ---

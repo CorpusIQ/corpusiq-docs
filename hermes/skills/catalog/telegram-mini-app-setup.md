@@ -4,7 +4,7 @@ description: "sickn33/agentic-awesome-skills - telegram-mini-app skill, 1.5K ins
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/telegram-mini-app-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "telegram", "mini-app", "ton", "web-app", "bot"]
 ---
 

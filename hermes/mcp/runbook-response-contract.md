@@ -3,7 +3,7 @@ title: "runbook.v1 Response Contract: Enforce the Output Format"
 description: "How to make AI assistants deliver answers in a required visual format: versioned templates, required elements, fail-closed enforcement."
 
 tags: [mcp, runbook, output, format, visual, governance, enterprise]
-last_updated: "2026-11-14"
+last_updated: "2026-11-19"
 ---
 
 # Enforce the Output Format of AI Answers

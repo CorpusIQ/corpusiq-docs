@@ -4,7 +4,7 @@ description: "6 newly discovered Hermes skill repos - 36-skill ECC pack, NVIDIA 
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-june19-2026-update/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---

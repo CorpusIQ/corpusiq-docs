@@ -4,7 +4,7 @@ description: "Local-first, security-first control center for OpenClaw agents. Vi
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-control-center-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

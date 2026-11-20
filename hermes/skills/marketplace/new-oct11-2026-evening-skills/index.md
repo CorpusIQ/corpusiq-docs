@@ -4,7 +4,7 @@ description: "Skills.sh sweep (Oct 11 evening): 892 skills checked; 1 new publis
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-oct11-2026-evening-skills/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skills.sh", "sweep", "marketplace", "hermes agent"]
 ---
 

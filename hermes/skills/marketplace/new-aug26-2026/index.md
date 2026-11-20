@@ -4,7 +4,7 @@ description: "skills.sh 15-query tiered sweep (605 unique skills): Generative Me
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-aug26-2026/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "skill marketplace", "skills.sh", "new skills"]
 sweep_id: "2026-08-26"
 new_publishers: 1

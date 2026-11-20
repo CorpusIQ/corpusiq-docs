@@ -4,7 +4,7 @@ description: "Technology profiling for AI agents - discover what websites are bu
 
 category: mcp
 tags: [mcp, builtwith, technology-profiling, competitive-research, lead-gen, tech-stack, hermes-agent]
-last_updated: 2026-11-01
+last_updated: 2026-11-19
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/builtwith-mcp/"
 robots: "index,follow"
 

@@ -4,7 +4,7 @@ description: "anthropics/claude-for-legal - 118 skills, 54.4K installs: Anthropi
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/claude-for-legal-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "legal", "contract review", "anthropic", "claude"]
 ---
 

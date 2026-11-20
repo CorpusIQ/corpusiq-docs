@@ -8,7 +8,7 @@ added: 2026-09-02
 source: "mcpservers.org /all JSON-LD (Sep 2, 2026 morning sweep)"
 relevance: ★★★
 tags: [mcp-server, seo, google-search-console, keywords, backlinks, ai-visibility, rank-tracking]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # SEOmatic MCP

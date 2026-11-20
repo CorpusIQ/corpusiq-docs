@@ -2,7 +2,7 @@
 title: "AI Data Integration: Connect Business Tools to AI Assistants"
 description: "How CorpusIQ approaches AI data integration for business tools: read-only connectors, source-cited answers, and one consistent answer across ChatGPT, Claude."
 
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # AI Data Integration: Connect Business Tools to AI Assistants

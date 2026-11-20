@@ -8,7 +8,7 @@ added: 2026-09-02
 source: mcp.so
 relevance: ★★★
 tags: [social-media, publishing, scheduling, linkedin, twitter, bluesky, remote-mcp]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # PostMCP MCP

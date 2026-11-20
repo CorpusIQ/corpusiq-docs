@@ -4,7 +4,7 @@ description: "Microsoft's official Azure AI Foundry agent skills with 478K+ comb
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/microsoft-azure-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

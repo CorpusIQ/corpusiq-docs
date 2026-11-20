@@ -4,7 +4,7 @@ description: "Hermes Agent v0.21.4 (v2026.9.21) - Patch release rolling up 1,812
 
 canonical: "https://www.corpusiq.io/docs/hermes/changelog/v0.21.4/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---

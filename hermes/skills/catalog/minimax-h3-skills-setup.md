@@ -4,7 +4,7 @@ description: "Setup guide for the MiniMax H3 skill bundle from the official Mini
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/minimax-h3-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "video generation", "skill setup"]
 ---
 

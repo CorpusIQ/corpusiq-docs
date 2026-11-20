@@ -4,7 +4,7 @@ description: "Generate professional dark-themed technical architecture diagrams 
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/architecture-diagram-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

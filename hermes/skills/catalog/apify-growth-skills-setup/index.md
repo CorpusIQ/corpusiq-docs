@@ -4,7 +4,7 @@ description: "Production-grade growth automation skills from Apify. Lead generat
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/apify-growth-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

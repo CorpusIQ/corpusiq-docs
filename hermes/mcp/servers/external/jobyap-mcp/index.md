@@ -8,7 +8,7 @@ added: 2026-08-14
 source: mcp.so
 relevance: ★★
 tags: [jobs, job-search, hiring, recruiting, salaries, job-board, talent, remote-mcp]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # JobYap MCP

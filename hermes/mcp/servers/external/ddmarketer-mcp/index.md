@@ -8,7 +8,7 @@ added: 2026-09-04
 source: "mcp.so GitHub issue #3932"
 relevance: ★★★
 tags: [saas-opportunities, market-research, product-gaps, customer-complaints, product-validation, remote-mcp, streamable-http]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # ddmarketer MCP

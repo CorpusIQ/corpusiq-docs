@@ -4,7 +4,7 @@ description: "Automated skill quality validation for Hermes agents. Scan install
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-skill-vetter-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

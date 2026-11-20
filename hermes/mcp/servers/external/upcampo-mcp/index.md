@@ -8,7 +8,7 @@ added: 2026-09-12
 source: "mcpservers.org /all page 1 (night crawl) + vendor docs at upcampo.com.br"
 relevance: ★★★
 tags: [agriculture, farm-management, field-operations, inventory, oauth, remote-mcp, streamable-http]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # upCampo MCP

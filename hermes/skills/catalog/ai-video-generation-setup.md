@@ -4,7 +4,7 @@ description: "Install and use 101-skills/skills@ai-video-generation (196K instal
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/ai-video-generation-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

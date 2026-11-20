@@ -4,7 +4,7 @@ description: "skills.sh three-board sweep (all-time + trending + hot, full slug 
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-aug24-2026/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "skill marketplace", "skills.sh", "new skills"]
 sweep_id: "2026-08-24"
 new_publishers: 4

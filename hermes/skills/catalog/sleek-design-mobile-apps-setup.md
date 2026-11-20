@@ -4,7 +4,7 @@ description: "designed-by-ai/skills (sleekdotdesign/agent-skills) - design-mobil
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/sleek-design-mobile-apps-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "mobile design", "design", "sleek"]
 ---
 

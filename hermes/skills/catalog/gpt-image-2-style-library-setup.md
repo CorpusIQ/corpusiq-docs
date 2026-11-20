@@ -4,7 +4,7 @@ description: "freestylefly/awesome-gpt-image-2 - gpt-image-2-style-library skill
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/gpt-image-2-style-library-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "image generation", "gpt-image-2", "prompt engineering", "style library"]
 ---
 

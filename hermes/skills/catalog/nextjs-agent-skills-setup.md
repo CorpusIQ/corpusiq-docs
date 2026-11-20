@@ -4,7 +4,7 @@ description: "vercel/next.js - 5 first-party Agent Skills in the Next.js monorep
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/nextjs-agent-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "nextjs", "vercel", "web development", "react"]
 ---
 

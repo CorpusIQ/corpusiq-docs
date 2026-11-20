@@ -8,7 +8,7 @@ added: 2026-09-03
 source: "mcpservers.org /all listing (www-twlawbot-com-mcp)"
 relevance: ★★★
 tags: [legal-research, taiwan, judgments, statutes, compliance]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # TaiLexi AI MCP - Taiwan Legal Research for Agents

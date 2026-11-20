@@ -8,7 +8,7 @@ added: 2026-08-26
 source: mcp.so feed
 relevance: ★★★
 tags: [mcp-server, social-media, scheduling, analytics, instagram, linkedin, tiktok, remote-mcp]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # SocialRobot MCP

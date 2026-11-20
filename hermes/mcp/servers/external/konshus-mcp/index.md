@@ -8,7 +8,7 @@ added: 2026-11-05
 source: "The mcp.so card konshus at 2026-11-05T17:29:38.960Z (Memory and Knowledge, verified and featured, submitted by Daniel Urmann); the official MCP registry record ai.konshus/memory at 1.0.0 published 2026-11-05T17:35:03Z with a streamable-http remote at https://konshus.ai/api/mcp; HTTP reads on konshus.ai/mcp (200, the 11-tool table, scope groups and self-reported usage), konshus.ai/pricing (200, the five-tier ladder and the free Ember tier), konshus.ai/llms.txt (200, the source list and the product ladder), konshus.ai/.well-known/oauth-authorization-server and /.well-known/oauth-protected-resource (200, the OAuth metadata); and two keyless JSON-RPC calls against the endpoint returning HTTP 401"
 relevance: ★★
 tags: [personal-memory, memory-portability, provenance, oauth, scoped-tokens, chatgpt, claude, gemini, consumer, read-write]
-last_updated: "2026-11-05"
+last_updated: "2026-11-19"
 ---
 
 # Konshus MCP

@@ -8,7 +8,7 @@ added: 2026-09-06
 source: mcpservers.org
 relevance: ★★
 tags: [wordpress, elementor, woocommerce, cms, page-builder, plugins, self-hosted]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # WPPilot MCP - WordPress, Elementor and WooCommerce for Agents

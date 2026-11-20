@@ -4,7 +4,7 @@ description: "Anthropic's official Claude Code skills - build, extend, and custo
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/claude-code-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

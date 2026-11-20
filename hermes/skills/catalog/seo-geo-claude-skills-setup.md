@@ -4,7 +4,7 @@ description: "aaron-he-zhu/seo-geo-claude-skills - 20 skills, 126.6K installs. B
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/seo-geo-claude-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "seo", "geo", "generative engine optimization", "content"]
 ---
 

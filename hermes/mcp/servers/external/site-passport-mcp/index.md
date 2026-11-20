@@ -8,7 +8,7 @@ added: 2026-09-09
 source: mcpservers.org
 relevance: ★★
 tags: [aeo, llms-txt, geo, ai-readiness, seo, schema-org, webmcp, remote-mcp]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # Site Passport MCP

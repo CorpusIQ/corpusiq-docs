@@ -8,7 +8,7 @@ added: 2026-10-19
 source: "mcpservers.org /all page 1 (mrpkk/drift)"
 relevance: ★★
 tags: [agent-governance, mandates, ap2, payments, spend-limits, deny-by-default, approvals, audit-trail, remote-mcp]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # drift MCP

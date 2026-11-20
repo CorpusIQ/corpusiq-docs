@@ -4,7 +4,7 @@ description: "asimons81/hermes-field-kit - 16 skills (13 stable + 3 experimental
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-field-kit-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "hermes operations", "stack doctor", "token audit", "gateway diagnosis", "skill audit", "x automation"]
 ---
 

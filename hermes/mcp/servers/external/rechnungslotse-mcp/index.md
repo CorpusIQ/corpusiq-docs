@@ -8,7 +8,7 @@ added: 2026-09-07
 source: mcpservers.org
 relevance: ★★★
 tags: [e-invoicing, xrechnung, zugferd, en16931, german-tax, invoicing, vat, remote-mcp]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # Rechnungslotse MCP - German E-Invoicing for Agents

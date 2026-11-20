@@ -8,7 +8,7 @@ added: 2026-08-19
 source: "mcp.so GitHub issue #3643"
 relevance: ★★
 tags: [blog, publishing, content, series, analytics, comments, newsletter, remote-mcp, npm]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # Misar.Blog MCP

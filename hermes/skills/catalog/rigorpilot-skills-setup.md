@@ -4,7 +4,7 @@ description: "Install llllllllama/rigorpilot-skills (2.6M combined installs) - 1
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/rigorpilot-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

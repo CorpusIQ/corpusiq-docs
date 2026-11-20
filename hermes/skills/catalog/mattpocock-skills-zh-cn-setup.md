@@ -4,7 +4,7 @@ description: "vinvcn/mattpocock-skills-zh-cn - 54 skills, 138.8K combined instal
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/mattpocock-skills-zh-cn-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "localization"]
 ---
 

@@ -4,7 +4,7 @@ description: "Security-first pre-install vetting for OpenClaw skills. Structured
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/skill-vetter-setup/"
 robots: "index,follow"
-last_updated: "2026-11-03"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

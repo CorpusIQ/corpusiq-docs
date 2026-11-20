@@ -4,7 +4,7 @@ description: "Evening skills.sh sweep - 7 new publisher clusters, 198 skills, 31
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-aug12-2026-evening/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill marketplace", "skills.sh"]
 sweep_id: aug-12-2026-evening
 new_publishers: 7

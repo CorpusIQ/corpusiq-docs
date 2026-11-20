@@ -8,7 +8,7 @@ added: 2026-09-12
 source: "mcpservers.org /all page 1 (night crawl) + vendor docs at stayingapi.com/docs/mcp"
 relevance: ★★★
 tags: [travel, hotels, accommodation, ota, pricing, oauth, remote-mcp, streamable-http]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # StayingAPI MCP

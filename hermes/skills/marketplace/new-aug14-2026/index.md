@@ -4,7 +4,7 @@ description: "skills.sh sweep - 2 new publisher clusters with setup guides: Chro
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-aug14-2026/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill marketplace", "skills.sh"]
 sweep_id: aug-14-2026
 new_publishers: 2

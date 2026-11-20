@@ -2,7 +2,7 @@
 title: "MCP Server Discovery - October 23, 2026 (Evening Sweep)"
 description: "The evening delta catalogues the first marketplace take-rate surface in the catalog: thirteen tools that turn a price and a unit cost into itemised fees."
 
-last_updated: 2026-11-01
+last_updated: 2026-11-19
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october23-2026-evening/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

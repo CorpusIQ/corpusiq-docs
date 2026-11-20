@@ -8,7 +8,7 @@ added: 2026-08-26
 source: "mcp.so GitHub issue #3766"
 relevance: ★★
 tags: [pdf, forms, documents, productivity, e-signature, document-automation, remote-mcp]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # iFillPDF MCP

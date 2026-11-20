@@ -4,7 +4,7 @@ description: "nextlevelbuilder/ui-ux-pro-max-skill - 19 skills, 611.4K combined 
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/ui-ux-pro-max-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "design"]
 ---
 

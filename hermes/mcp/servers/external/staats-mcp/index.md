@@ -8,7 +8,7 @@ added: 2026-09-02
 source: mcp.so
 relevance: ★★
 tags: [analytics, cookieless, web-analytics, funnels, privacy, remote-mcp]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # Staats MCP

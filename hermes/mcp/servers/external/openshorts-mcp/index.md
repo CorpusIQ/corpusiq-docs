@@ -8,7 +8,7 @@ added: 2026-09-04
 source: mcpservers.org
 relevance: ★★★
 tags: [video-clipping, shorts, tiktok, youtube-shorts, content-repurposing, oauth, streamable-http, remote-mcp]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # OpenShorts MCP

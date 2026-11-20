@@ -8,7 +8,7 @@ added: 2026-08-29
 source: "mcp.so GitHub issue #3811"
 relevance: ★★★
 tags: [mcp-server, marketing, seo, linkedin, google-ads, outbound, content, remote-mcp]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # YG3 MCP

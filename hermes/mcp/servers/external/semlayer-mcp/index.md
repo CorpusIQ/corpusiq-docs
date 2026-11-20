@@ -8,7 +8,7 @@ added: 2026-11-06
 source: "The mcpservers.org twelve-sitemap addition semlayer-dev/semlayer in the 03:00 MST canonical refresh (19,728 server URLs against 19,513); the official MCP registry record dev.semlayer/mcp 0.7.0b2 at https://semlayer.dev with a stdio PyPI package `semlayer` run through uvx; the repository README at github.com/semlayer-dev/semlayer (12,309 bytes, licence FSL-1.1-ALv2) and docs/mcp.md (27,652 bytes); the PyPI metadata for semlayer 0.7.0b2; and a locally driven session - a six-table DuckDB fixture inferred with `--no-llm`, then served over stdio MCP with twenty-one tools listed and six called"
 relevance: ★★★★
 tags: [data, semantic-layer, metrics, warehouse, duckdb, postgres, snowflake, bigquery, mcp, stdio, sql-linting, provenance, claude, cursor]
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 ---
 
 # semlayer MCP

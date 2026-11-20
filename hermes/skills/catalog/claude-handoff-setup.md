@@ -4,7 +4,7 @@ description: "Hand the current conversation off to a fresh background agent that
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/claude-handoff-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

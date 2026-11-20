@@ -8,7 +8,7 @@ added: 2026-09-06
 source: mcpservers.org
 relevance: ★★
 tags: [passwords, secrets, bitwarden, vaultwarden, security, claude, self-hosted]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # Vaultwarden MCP - Self-Hosted Password Vault Access
