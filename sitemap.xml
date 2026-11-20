@@ -213,12 +213,20 @@
          <lastmod>2026-11-07</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/connect-callrail-to-perplexity</loc>
+         <lastmod>2026-11-20</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/connect-cosmosdb-to-chatgpt</loc>
          <lastmod>2026-11-17</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connect-cosmosdb-to-claude</loc>
          <lastmod>2026-11-17</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/connect-cosmosdb-to-perplexity</loc>
+         <lastmod>2026-11-20</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connect-dropbox-to-chatgpt</loc>
@@ -403,6 +411,10 @@
     <url>
          <loc>https://www.corpusiq.io/docs/connect-mssql-to-claude</loc>
          <lastmod>2026-11-17</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/connect-mssql-to-perplexity</loc>
+         <lastmod>2026-11-20</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connect-netsuite-to-chatgpt</loc>
@@ -8850,7 +8862,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/security/read-only-and-security</loc>
-         <lastmod>2026-11-19</lastmod>
+         <lastmod>2026-11-20</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/seo</loc>
