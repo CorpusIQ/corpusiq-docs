@@ -92,12 +92,26 @@ def write(p, s):
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--apply", action="store_true")
+    ap.add_argument("--check", action="store_true",
+                    help="exit 1 when index.md is over --limit (CI gate)")
+    ap.add_argument("--limit", type=int, default=900 * 1024)
     ap.add_argument("--keep", type=int, default=3)
     ap.add_argument("--repo", default=".")
     a = ap.parse_args()
 
     index_path = os.path.join(a.repo, REL)
     text = read(index_path)
+    if a.check:
+        size = len(text.encode("utf-8"))
+        if size > a.limit:
+            print("FAIL: %s is %.0f KB, over the %d KB cap. Run:\n"
+                  "  python3 scripts/split_sweep_log.py --apply\n"
+                  "and commit the moved sections with the changelog page."
+                  % (REL, size / 1024, a.limit // 1024))
+            return 1
+        print("OK: %s is %.0f KB, under the %d KB cap"
+              % (REL, size / 1024, a.limit // 1024))
+        return 0
     res = split(text, a.keep)
     if res is None:
         print("index already within %d sweep sections (%.1f KB) - nothing to move"
