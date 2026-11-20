@@ -23407,5 +23407,124 @@
     "reason": "Community submission #416. Scorer AUTO_APPROVE (72): direct Hermes reference, active. Verified live: Apache-2.0, non-fork, 14 stars, App Store and Google Play listings return 200, connects to a self-hosted Hermes gateway 0.21.5+, companion plugin repo pomelu-hermes-plugin.",
     "issue": 416,
     "timestamp": "2026-11-19T17:02:36.306765+00:00"
+  },
+  {
+    "repo": "cybercoretech/cybercore-agent-skills",
+    "score": 42,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-20T05:03:27.586019+00:00"
+  },
+  {
+    "repo": "pzmmy/hermes-paw",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-20T05:03:27.586033+00:00"
+  },
+  {
+    "repo": "sean2010zhang-star/work-os",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-20T05:03:27.586036+00:00"
+  },
+  {
+    "repo": "a-simeshin/hermes-dark-factory",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-20T05:03:27.586038+00:00"
+  },
+  {
+    "repo": "ShazebA/hermes-nightshift",
+    "score": 59,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-20T05:03:27.586040+00:00"
+  },
+  {
+    "repo": "anpicasso/hermes-google-workspace",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-20T05:03:27.586042+00:00"
+  },
+  {
+    "repo": "ra901625072-boop/Hermes-Agent",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-20T05:03:27.586044+00:00"
+  },
+  {
+    "repo": "riceharvest/ctxprune",
+    "score": 58,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-20T05:03:27.586045+00:00"
+  },
+  {
+    "repo": "indaiatech/home-finops",
+    "score": 60,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-20T05:03:27.586047+00:00"
+  },
+  {
+    "repo": "saminkhan1/context-compression",
+    "score": 58,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-20T05:03:27.586049+00:00"
+  },
+  {
+    "repo": "InsForge/instabox-integrations",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-20T05:03:27.586050+00:00"
+  },
+  {
+    "repo": "tsella/hermes-sim-guard",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-20T05:03:27.586052+00:00"
+  },
+  {
+    "repo": "vzhuh-cloud/agent-plugins",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-20T05:03:27.586054+00:00"
+  },
+  {
+    "repo": "vorchun18-svg/team-room-for-hermes",
+    "score": 42,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-20T05:03:27.586056+00:00"
+  },
+  {
+    "repo": "labyrinth-analytics/loreconvo",
+    "score": 42,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-20T05:03:27.586057+00:00"
+  },
+  {
+    "repo": "Lxy521031/agent-purge",
+    "score": 38,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-20T05:03:27.586059+00:00"
+  },
+  {
+    "repo": "BlueSkyXN/Hermes-all-in-one-HFS",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-20T05:03:27.586061+00:00"
   }
 ]
