@@ -235,14 +235,19 @@ PUBLISHED_HEADINGS = {
 def published_block(row):
     """Entry block in the published index's own shape (heading, then star line)."""
     stars = int(row.get("stars") or 0)
-    lang = row.get("language") or "TypeScript"
+    # A repo with no detected language (docs/awesome lists) must NOT be stamped
+    # with a language: the old `or "TypeScript"` default published a false claim
+    # on every language-less entry (first caught on kawsarlog/awesome-hermes-agent,
+    # Nov 19 2026).
+    lang = (row.get("language") or "").strip()
+    lang_seg = "`" + lang + "` · " if lang else ""
     slug = re.sub(r"^https?://", "", row["url"]).rstrip("/")
     desc = (row.get("description") or "").replace("\n", " ").strip()
     topics = row.get("topics") or []
     caps = ", ".join(topics[:8]) if topics else desc[:120]
     return (
         f"### {row['name']}\n"
-        f"⭐ **{stars:,}** · `{lang}` · [{slug}]({row['url']})\n\n"
+        f"⭐ **{stars:,}** · {lang_seg}[{slug}]({row['url']})\n\n"
         f"{desc}\n\n"
         f"**Key capabilities:** {caps}\n"
         + (f"**Related:** [MCP Ecosystem →](/hermes/mcp-ecosystem)\n" if "mcp" in (row.get("category") or "").lower() else "")

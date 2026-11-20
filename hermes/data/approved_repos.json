@@ -984,9 +984,9 @@
     "name": "unifapi-agent/agents",
     "url": "https://github.com/unifapi-agent/agents",
     "description": "Open-source marketing agents for Claude, ChatGPT, Codex, OpenClaw & Hermes. One plugin: SEO audits, GEO / AI-visibility, local SEO, KOL pricing, social listening & competitive intelligence from read-only public data over MCP.",
-    "stars": 491,
+    "stars": 621,
     "forks": 102,
-    "language": null,
+    "language": "JavaScript",
     "topics": [
       "ai-visibility",
       "answer-engine-optimization",
@@ -8013,5 +8013,55 @@
     "approved_at": "2026-11-19T17:02:36.273998+00:00",
     "promotion_note": "Community submission #416. Scorer AUTO_APPROVE (72): direct Hermes reference, active. Verified live: Apache-2.0, non-fork, 14 stars, App Store and Google Play listings return 200, connects to a self-hosted Hermes gateway 0.21.5+, companion plugin repo pomelu-hermes-plugin.",
     "promoted_from": "AUTO_APPROVE score 72"
+  },
+  {
+    "name": "kawsarlog/awesome-hermes-agent",
+    "url": "https://github.com/kawsarlog/awesome-hermes-agent",
+    "description": "Beginner-friendly awesome list and guides for Hermes Agent by Nous Research. Install, skills, memory, MCP, cron, workflows, security, and curated ecosystem links. Independent community guide, not official.",
+    "stars": 45,
+    "forks": 9,
+    "language": null,
+    "topics": [
+      "agentskills",
+      "ai-agents",
+      "ai-assistant",
+      "awesome",
+      "awesome-list",
+      "beginner-guide",
+      "cron",
+      "devtools",
+      "discord-bot",
+      "hermes-agent",
+      "llm-agents",
+      "mcp",
+      "memory",
+      "nous-research",
+      "open-source",
+      "self-hosted",
+      "skills",
+      "telegram-bot"
+    ],
+    "updated_at": "2026-11-04T12:49:12Z",
+    "category": "Community & Awesome Lists",
+    "score": 75,
+    "tier": "AUTO_APPROVE",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "agent_ecosystem",
+      "some_stars_10+",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "aliaihub/awesome-hermes-usecases",
+      "ChuckSRQ/awesome-hermes-skills",
+      "ZeroPointRepo/awesome-hermes-skills"
+    ],
+    "discovered_at": "2026-11-20T04:07:08.780135+00:00",
+    "status": "approved",
+    "approved_at": "2026-11-20T04:07:08.780143+00:00"
   }
 ]
