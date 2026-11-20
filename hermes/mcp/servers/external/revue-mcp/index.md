@@ -119,7 +119,7 @@ The prose calls it an identifier and a note; the schema calls it `name` and `tex
 - **`Browser: opened a new tab` is not evidence a tab opened.** On this host there is no `DISPLAY` and no browser, and the tool still printed that line. Treat it as an intent line, not a success receipt; the URL on the line above is the reliable part.
 - **Requires git and a 2024-or-later browser.** The vendor states Chrome or Edge **123**, Firefox **121**, Safari **17.5**, and that the Windows build is experimental.
 - **No file is written into the repository** except optionally `.git/revue/notes.json`, and the vendor states changes to files only happen when a branch is checked out from the UI.
-- **The repo is young.** Created **2026-11-03**, **0** stars, first public release **v0.3.0** on **2026-11-18**. The tool contract is complete and the refusals are disciplined, but this is a three-week-old project and the guide should be read with that date attached.
+- **The repo is young.** Created **2026-11-03**, **0** stars, and **three** releases in two weeks: **v0.1.0** on **2026-11-06**, **v0.2.0** on **11-07**, **v0.3.0** on **11-18**. The tool contract is complete and the refusals are disciplined, but this is a three-week-old project and the guide should be read with that date attached.
 
 ## Install, verified
 

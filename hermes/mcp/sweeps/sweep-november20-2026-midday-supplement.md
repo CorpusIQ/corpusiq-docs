@@ -70,7 +70,7 @@ The catalog had no owner for the review step itself: the git-adjacent entries ac
 
 Three refusals were recorded as measurements rather than smoothed over: a missing path and a `../../etc/passwd` traversal both refused with the repository boundary and the relative-path convention in one line, and two wrong argument names (this pass's own vocabulary, `identifier` and `note`) refused with the accepted set named, so the retry succeeded first time.
 
-Two limits are worth carrying: the binary must live on the machine the agent runs on because the server binds `127.0.0.1` with no hosted endpoint, and the `Browser: opened a new tab` line is printed even on a host with no display and no browser, so it is an intent line and not a success receipt. The project is three weeks old, created **2026-11-03** with **0** stars and a first release on **2026-11-18**; the guide carries that date rather than presenting the tool as established.
+Two limits are worth carrying: the binary must live on the machine the agent runs on because the server binds `127.0.0.1` with no hosted endpoint, and the `Browser: opened a new tab` line is printed even on a host with no display and no browser, so it is an intent line and not a success receipt. The project is three weeks old, created **2026-11-03** with **0** stars, and the release history is short: **v0.1.0** on **2026-11-06**, **v0.2.0** on **11-07** and **v0.3.0** on **11-18**; the guide carries those dates rather than presenting the tool as established.
 
 ## Held or carried, and why
 
