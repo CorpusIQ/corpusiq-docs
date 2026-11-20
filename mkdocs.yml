@@ -24,6 +24,7 @@ extra_javascript:
 # and 404. See hooks/absolute_asset_urls.py for the full explanation.
 hooks:
 - hooks/absolute_asset_urls.py
+- hooks/search_index_exclude_internal.py
 - hooks/canonical_no_trailing_slash.py
 - hooks/claim_truth_gate.py
 - hooks/duplicate_entries_gate.py
