@@ -85,7 +85,7 @@ When a new release is detected, a changelog page is generated, committed to `Cor
 
 ### What is the latest Hermes Agent version?
 
-v0.23.3, published November 20, 2026. See the release notes for the full changes.
+v0.23.3, published November 19, 2026. See the release notes for the full changes.
 
 ### How often is the Hermes changelog updated?
 
@@ -105,7 +105,7 @@ Run `hermes update` from the terminal, or install fresh with the official instal
       "name": "What is the latest Hermes Agent version?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "v0.23.3, published November 20, 2026. See the release notes for the full changes."
+        "text": "v0.23.3, published November 19, 2026. See the release notes for the full changes."
       }
     },
     {
