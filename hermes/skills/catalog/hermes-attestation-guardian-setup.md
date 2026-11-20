@@ -4,7 +4,7 @@ description: "Install and configure hermes-attestation-guardian, a security atte
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-attestation-guardian-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

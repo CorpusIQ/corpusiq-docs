@@ -4,7 +4,7 @@ description: "Install and configure inference.sh agent skills - 85 skills for AI
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/inference-sh-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-07"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

@@ -8,7 +8,7 @@ added: 2026-08-16
 source: mcp.so
 relevance: ★★
 tags: [acquisitions, marketplace, mrr, valuation, mobile-apps, saas, verified-revenue, remote-mcp]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # MobileMRR MCP

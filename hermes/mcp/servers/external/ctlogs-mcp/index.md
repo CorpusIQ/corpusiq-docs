@@ -8,7 +8,7 @@ added: 2026-09-04
 source: mcpservers.org
 relevance: ★★★
 tags: [certificate-transparency, subdomains, security, brand-protection, reconnaissance, oauth, remote-mcp]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # CTlogs.io MCP

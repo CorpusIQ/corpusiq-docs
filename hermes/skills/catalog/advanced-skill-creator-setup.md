@@ -4,7 +4,7 @@ description: "Skills from coreyhaines31/marketingskills at skills.sh - advanced-
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/advanced-skill-creator-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "skill creation", "automation", "skill-development"]
 ---
 

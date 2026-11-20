@@ -8,7 +8,7 @@ added: 2026-08-31
 source: "chatmcp/mcpso issue #3859 (Aug 31, 2026)"
 relevance: ★★★
 tags: [mcp-server, b2b, trade, sourcing, manufacturers, sanctions, hs-codes]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # Gemalli B2B Trade MCP

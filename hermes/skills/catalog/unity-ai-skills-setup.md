@@ -4,7 +4,7 @@ description: "Unity-Technologies/skills - 29 first-party Agent Skills for Unity 
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/unity-ai-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "unity", "game development", "csharp", "3d"]
 ---
 

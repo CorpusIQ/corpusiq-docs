@@ -4,7 +4,7 @@ description: "Setup guide for antigravity-manager, the Agent Skills skill for An
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/antigravity-manager-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

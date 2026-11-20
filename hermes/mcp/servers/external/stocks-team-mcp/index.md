@@ -8,7 +8,7 @@ added: 2026-09-12
 source: "mcpservers.org /all page 1 (night crawl) + vendor site stocks.team + OpenAPI at stocks.team/api/openapi.json"
 relevance: ★★★
 tags: [sec, edgar, financial-data, filings, investing, research, rest-api, mcp-adapter]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # stocks.team MCP

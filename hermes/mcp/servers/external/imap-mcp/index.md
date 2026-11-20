@@ -8,7 +8,7 @@ added: 2026-08-30
 source: "mcp.so GitHub issue #3843"
 relevance: ★★
 tags: [mcp-server, email, imap, inbox, triage, security, stdio, npm]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # imap-mcp

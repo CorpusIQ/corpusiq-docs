@@ -8,7 +8,7 @@ added: 2026-09-04
 source: mcpservers.org
 relevance: ★★★
 tags: [helpdesk, customer-support, ticketing, syncfusion, support-ops, oauth, streamable-http, remote-mcp]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # BoldDesk MCP

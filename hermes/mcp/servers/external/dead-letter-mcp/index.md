@@ -8,7 +8,7 @@ added: 2026-11-11
 source: "the mcp.so feed card for /servers/dead-letter read 2026-11-11T10:00Z, the GitHub repository BigCactusLabs/dead-letter, the official registry record io.github.BigCactusLabs/dead-letter at 0.4.10, the LICENSE file on main, the PyPI metadata for 0.4.10, and a local install measured on this host: initialize, tools/list, resources/list and prompts/list over stdio plus four CLI conversions of a crafted .eml"
 relevance: ★★★
 tags: [email, archive, markdown, eml, mbox, gmail-takeout, rag, digital-preservation, mcp, stdio, python]
-last_updated: "2026-11-11"
+last_updated: "2026-11-19"
 ---
 
 # dead-letter MCP

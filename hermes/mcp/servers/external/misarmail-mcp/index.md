@@ -8,7 +8,7 @@ added: 2026-08-19
 source: "mcp.so GitHub issue #3644"
 relevance: ★★
 tags: [email, transactional-email, campaigns, automations, ab-testing, deliverability, remote-mcp, npm]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # MisarMail MCP

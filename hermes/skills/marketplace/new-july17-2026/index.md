@@ -4,7 +4,7 @@ description: "5 new skills discovered via skills.sh batch sweep. find-skills (2.
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-july17-2026/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---

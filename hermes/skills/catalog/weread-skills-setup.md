@@ -4,7 +4,7 @@ description: "tencent/wechatreading - official Tencent skill for WeChat Reading 
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/weread-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "reading", "tencent", "productivity", "china"]
 ---
 

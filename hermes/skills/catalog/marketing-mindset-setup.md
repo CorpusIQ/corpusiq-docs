@@ -4,7 +4,7 @@ description: "axelfreeman/marketing-mindset - marketing-mindset skill, 28.8K ins
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/marketing-mindset-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "marketing", "growth", "b2b", "positioning"]
 ---
 

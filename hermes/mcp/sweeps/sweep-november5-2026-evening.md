@@ -2,7 +2,7 @@
 title: "MCP Server Discovery - November 5, 2026 (Evening Sweep)"
 description: "Evening pass where the canonical stood still for a second time in one day, the mcp.so feed carried ten new cards in nine hours, and two servers."
 
-last_updated: 2026-11-05
+last_updated: 2026-11-19
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-november5-2026-evening"
 tags: ["mcp server", "model context protocol", "hermes mcp", "sweep"]
 ---

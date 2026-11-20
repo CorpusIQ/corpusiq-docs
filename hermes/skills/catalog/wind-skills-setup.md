@@ -4,7 +4,7 @@ description: "wind-alice/alicemarket - 71 skills indexed, 174K+ combined install
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/wind-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "finance"]
 ---
 

@@ -4,7 +4,7 @@ description: "mvanhorn/printing-press-library - pp-mercury skill, 124 installs: 
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/pp-mercury-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "banking", "fintech", "mercury", "payments", "cli"]
 ---
 

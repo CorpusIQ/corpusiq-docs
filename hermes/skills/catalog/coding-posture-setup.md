@@ -4,7 +4,7 @@ description: "Install and configure coding-posture, a single SKILL.md that gives
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/coding-posture-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

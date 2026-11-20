@@ -8,7 +8,7 @@ added: 2026-08-20
 source: mcpservers.org
 relevance: ★★★
 tags: [payments, pay-by-bank, uk-payments, payment-links, qr-payments, ecommerce-checkout, fintech, remote-mcp]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # Atoa MCP

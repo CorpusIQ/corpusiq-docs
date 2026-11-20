@@ -4,7 +4,7 @@ description: "blacktwist/social-media-skills - 14 Agent Skills for social media 
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/blacktwist-social-media-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "social media", "content strategy", "linkedin", "twitter"]
 ---
 

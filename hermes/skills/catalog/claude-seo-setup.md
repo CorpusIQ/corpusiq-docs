@@ -4,7 +4,7 @@ description: "AgriciDaniel/claude-seo - 31 Agent Skills covering technical SEO, 
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/claude-seo-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "seo", "geo", "content strategy", "technical seo"]
 ---
 

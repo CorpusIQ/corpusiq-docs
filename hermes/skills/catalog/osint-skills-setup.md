@@ -4,7 +4,7 @@ description: "useosint/osint-skills - 57 skills, 285.8K combined installs. Photo
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/osint-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "osint"]
 ---
 

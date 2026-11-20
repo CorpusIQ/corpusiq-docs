@@ -4,7 +4,7 @@ description: "openclaw/agent-skills - 8 skills, ~2.0K installs: the OpenClaw org
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-agent-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "openclaw", "code review", "agent handoff", "session viewer"]
 ---
 

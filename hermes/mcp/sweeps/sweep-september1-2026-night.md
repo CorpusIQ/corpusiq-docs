@@ -4,7 +4,7 @@ description: "Night cron sweep over chatmcp/mcpso issues #3877-#3885 plus mcp.so
 
 category: mcp
 tags: [mcp-servers, daily-scan, night-sweep, september-2026]
-last_updated: 2026-11-01
+last_updated: 2026-11-19
 ---
 
 # MCP Server Discovery - September 1, 2026 (Night Sweep)

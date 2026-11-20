@@ -8,7 +8,7 @@ added: 2026-09-04
 source: "mcp.so GitHub issue #3936"
 relevance: ★★
 tags: [e-invoicing, factur-x, en-16931, french-compliance, invoicing, accounting, stdio, local-first]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # gofact MCP

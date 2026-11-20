@@ -4,7 +4,7 @@ description: "Production-ready Claude Skills collection with 28 skills for lead 
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/composiohq-awesome-claude-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

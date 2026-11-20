@@ -2,7 +2,7 @@
 title: "MCP Server Discovery - November 5, 2026 (Late Morning Sweep)"
 description: "An hour after the midday pass the sitemap was identical to the byte and the answer sat in the second read: the plain mcp.so fetch was thirty-one minutes."
 
-last_updated: 2026-11-05
+last_updated: 2026-11-19
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-november5-2026-late-morning"
 tags: ["mcp server", "model context protocol", "hermes mcp", "sweep"]
 ---

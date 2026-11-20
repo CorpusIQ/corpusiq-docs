@@ -4,7 +4,7 @@ description: "Install the pika-labs/pika-plugins cluster (20.1K installs, 22 ski
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/pika-plugins-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

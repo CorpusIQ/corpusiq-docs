@@ -4,7 +4,7 @@ description: "Complete Hermes Agent skill development guide. SKILL.md anatomy, t
 
 category: best-practices
 tags: [hermes-agent, skill-development, skills, reusable-workflows, testing, triggers, error-handling, publishing]
-last_updated: 2026-11-07
+last_updated: 2026-11-19
 canonical: "https://www.corpusiq.io/docs/hermes/best-practices/skill-development/"
 robots: "index,follow"
 

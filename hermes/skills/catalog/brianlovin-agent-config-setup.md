@@ -4,7 +4,7 @@ description: "brianlovin/agent-config - 19 skills, 33.6K installs: code simplifi
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/brianlovin-agent-config-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "design engineering", "code quality", "deslop"]
 ---
 

@@ -4,7 +4,7 @@ description: "Evening skills.sh sweep found a major gap in Matt Pocock coverage:
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-sep9-2026-mattpocock/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "skill marketplace", "skills.sh", "new skills", "matt pocock", "design polish"]
 sweep_id: "2026-09-09-evening-mattpocock"
 new_publishers: 1

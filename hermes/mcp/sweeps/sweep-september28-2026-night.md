@@ -4,7 +4,7 @@ description: "Night sweep over the mcp.so homepage (New arrivals, Featured serve
 
 category: mcp
 tags: [mcp-servers, daily-scan, september-2026]
-last_updated: 2026-11-01
+last_updated: 2026-11-19
 ---
 
 # MCP Server Discovery - September 28, 2026 (Night Sweep)

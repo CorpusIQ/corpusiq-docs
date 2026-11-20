@@ -8,7 +8,7 @@ added: 2026-09-15
 source: "mcpservers.org /all page 2 + vendor docs at cite42.dev/docs"
 relevance: ★★★
 tags: [ai-visibility, geo, citations, brand-monitoring, competitor-tracking, keyword-research, trends, trackers, api-key, self-hosted]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # Cite42 MCP

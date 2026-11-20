@@ -8,7 +8,7 @@ added: 2026-08-14
 source: mcpservers.org
 relevance: ★★★
 tags: [ad-creative, video-generation, image-generation, ad-research, campaign-management, marketing-automation, content, remote-mcp]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # Hermoso AI MCP

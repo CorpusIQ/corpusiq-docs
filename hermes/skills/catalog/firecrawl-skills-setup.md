@@ -4,7 +4,7 @@ description: "Firecrawl's official skills ecosystem - firecrawl/cli (14 skills, 
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/firecrawl-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "web scraping", "firecrawl", "research", "seo"]
 ---
 

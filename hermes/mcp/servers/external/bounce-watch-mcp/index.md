@@ -8,7 +8,7 @@ added: 2026-08-17
 source: mcp.so
 relevance: ★★★
 tags: [sales-intelligence, buying-signals, company-data, funding, prospecting, market-intelligence, oauth, remote-mcp]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # Bounce Watch MCP

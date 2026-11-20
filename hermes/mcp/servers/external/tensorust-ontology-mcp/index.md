@@ -8,7 +8,7 @@ added: 2026-11-15
 source: "the mcp.so submission queue entry #7408 filed 2026-11-16T00:19:47Z, and a driven session on 2026-11-15 in which 26 tools/call requests were run against 25 distinct tools on the keyless free tier"
 relevance: ★★★
 tags: [ownership, public-records, due-diligence, private-credit, federal-awards, road-act, property, keyless, remote, mcp]
-last_updated: "2026-11-15"
+last_updated: "2026-11-19"
 ---
 
 # Tensorust Ontology MCP

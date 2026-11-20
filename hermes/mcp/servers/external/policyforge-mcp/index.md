@@ -8,7 +8,7 @@ added: 2026-08-29
 source: mcpservers.org /all page 1
 relevance: ★★
 tags: [mcp-server, legal-policies, privacy-policy, terms-of-service, hipaa-baa, compliance, gdpr, remote-mcp]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # PolicyForge MCP

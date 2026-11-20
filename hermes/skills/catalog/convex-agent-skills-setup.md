@@ -4,7 +4,7 @@ description: "get-convex/agent-skills - 46 skills, 756.9K combined installs. Qui
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/convex-agent-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "backend"]
 ---
 

@@ -4,7 +4,7 @@ description: "github/gh-stack - 9.6K installs, 1.4K stars: the official GitHub C
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/gh-stack-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "github", "git", "pull requests", "cli", "stacked prs", "code review"]
 ---
 

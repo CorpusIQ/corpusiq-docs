@@ -4,7 +4,7 @@ description: "AI-powered Google Analytics 4 access - pull reports, monitor realt
 
 category: mcp
 tags: [mcp, google-analytics, ga4, analytics, reporting, web-analytics, marketing, hermes-agent]
-last_updated: 2026-11-01
+last_updated: 2026-11-19
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/google-analytics-mcp/"
 robots: "index,follow"
 

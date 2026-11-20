@@ -4,7 +4,7 @@ description: "charlie947/social-media-skills - the complete 17-skill content sys
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/charlie-hills-social-media-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "social media", "content system", "linkedin", "brand voice"]
 ---
 

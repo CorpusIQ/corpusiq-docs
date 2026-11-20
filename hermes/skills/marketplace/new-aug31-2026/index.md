@@ -4,7 +4,7 @@ description: "skills.sh 46-query API sweep (4,743 unique skills) plus hot-leader
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-aug31-2026/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "skill marketplace", "skills.sh", "new skills"]
 sweep_id: "2026-08-31"
 new_publishers: 8

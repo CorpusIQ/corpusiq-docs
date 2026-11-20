@@ -4,7 +4,7 @@ description: "feature-sliced/skills - feature-sliced-design (16.6K installs): th
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/feature-sliced-design-skill-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "frontend architecture", "feature-sliced", "fsd"]
 ---
 

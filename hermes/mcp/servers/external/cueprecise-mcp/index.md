@@ -8,7 +8,7 @@ added: 2026-09-07
 source: "chatmcp/mcpso issue #3980"
 relevance: ★★
 tags: [youtube, transcription, video-analysis, research, stdio, local, evidence]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # CuePrecise MCP - Evidence-Linked YouTube Video Analysis

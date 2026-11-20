@@ -4,7 +4,7 @@ description: "jackwener/opencli - 14 skills at 97.8K installs: opencli-usage, op
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/opencli-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "cli", "browser automation"]
 ---
 

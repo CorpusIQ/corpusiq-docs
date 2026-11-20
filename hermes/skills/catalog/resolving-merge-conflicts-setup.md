@@ -4,7 +4,7 @@ description: "Install and use mattpocock/skills@resolving-merge-conflicts (457K+
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/resolving-merge-conflicts-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "git", "merge conflicts"]
 ---
 

@@ -4,7 +4,7 @@ description: "Open-source marketing operations control center for AI agent teams
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-marketing-dashboard-setup/"
 robots: "index,follow"
-last_updated: "2026-11-03"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

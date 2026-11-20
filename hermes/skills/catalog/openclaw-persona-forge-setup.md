@@ -4,7 +4,7 @@ description: "Forge complete lobster soul personas for OpenClaw AI agents. Ident
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-persona-forge-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

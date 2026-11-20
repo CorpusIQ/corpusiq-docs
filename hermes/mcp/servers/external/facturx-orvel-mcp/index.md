@@ -8,7 +8,7 @@ added: 2026-09-04
 source: mcpservers.org
 relevance: ★★★
 tags: [e-invoicing, factur-x, en-16931, ubl, french-compliance, streamable-http, remote-mcp]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # Factur-X by Orvel MCP

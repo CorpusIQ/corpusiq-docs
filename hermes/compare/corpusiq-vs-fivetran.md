@@ -4,7 +4,7 @@ description: "Fivetran is a managed data integration platform that automates pip
 
 canonical: "https://www.corpusiq.io/docs/hermes/compare/corpusiq-vs-fivetran/"
 robots: "index,follow"
-last_updated: "2026-11-14"
+last_updated: "2026-11-19"
 tags: ["fivetran alternative", "elt tools", "data integration", "ai business tools"]
 ---
 

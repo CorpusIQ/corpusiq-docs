@@ -8,7 +8,7 @@ added: 2026-09-07
 source: "chatmcp/mcpso issue #3963"
 relevance: ★★
 tags: [seo, geo, ai-crawlers, audits, stdio, local, robots-txt, schema]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # RankCLI MCP - Local SEO and GEO Audits for AI Agents

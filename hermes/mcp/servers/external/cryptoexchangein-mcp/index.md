@@ -8,7 +8,7 @@ added: 2026-11-15
 source: "the mcp.so submission queue entry #7386 filed 2026-11-15T09:13Z, and a driven session against https://cryptoexchangein.com/mcp on 2026-11-15 in which initialize answered 200 as cryptoexchangein 1.0.0, tools/list returned 6 schemas and 32 cost rows across four modes were checked against their own arithmetic"
 relevance: ★★
 tags: [crypto, exchange-fees, trading-cost, regulation, kyc, tax, keyless, remote-mcp]
-last_updated: "2026-11-15"
+last_updated: "2026-11-19"
 ---
 
 # CryptoExchangeIn MCP

@@ -8,7 +8,7 @@ added: 2026-08-14
 source: mcp.so
 relevance: ★★
 tags: [cdn, content-delivery, cache-purging, video-cdn, cloud-storage, bandwidth-metrics, infrastructure, self-hosted]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # BlazingCDN MCP

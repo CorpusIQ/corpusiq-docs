@@ -4,7 +4,7 @@ description: "Query Solana on-chain data with USD pricing via CoinGecko. 8 comma
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/solana-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

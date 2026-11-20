@@ -4,7 +4,7 @@ description: "Skills.sh sweep September 12, 2026: aradotso org renamed to reason
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-sep12-2026/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skills.sh", "marketplace", "sweep", "publisher rename"]
 sweep_id: "2026-09-12-morning"
 new_publishers: 0

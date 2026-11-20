@@ -8,7 +8,7 @@ added: 2026-08-23
 source: "mcpservers.org homepage + live endpoint probe"
 relevance: ★★★
 tags: [local-services, booking, marketplace, availability, smb, remote-mcp, keyless]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # Kirah Local Services MCP

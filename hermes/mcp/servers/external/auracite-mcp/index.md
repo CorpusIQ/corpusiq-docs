@@ -8,7 +8,7 @@ added: 2026-09-07
 source: "chatmcp/mcpso issue #3972"
 relevance: ★★★
 tags: [geo, ai-visibility, brand-mentions, share-of-voice, oauth, remote-mcp, search-console]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # AuraCite MCP - AI Visibility and GEO Data for Agents

@@ -4,7 +4,7 @@ description: "Connect Shopify, Stripe, QuickBooks, GA4, and Meta Ads to ChatGPT,
 
 canonical: "https://www.corpusiq.io/docs/hermes/seo/connect-business-tools-to-ai/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---

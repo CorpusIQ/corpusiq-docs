@@ -8,7 +8,7 @@ added: 2026-09-04
 source: mcp.so feed
 relevance: ★★★
 tags: [executive-compensation, governance, say-on-pay, proxy-research, investor-research, remote-mcp, keyless]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # Velarion MCP

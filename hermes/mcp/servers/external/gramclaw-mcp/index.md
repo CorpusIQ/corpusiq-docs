@@ -8,7 +8,7 @@ added: 2026-09-10
 source: mcpservers.org /all via r.jina.ai
 relevance: ★★★
 tags: [telegram, outreach, campaigns, broadcast, crm, communication, remote-mcp]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # GramClaw MCP

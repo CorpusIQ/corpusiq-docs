@@ -4,7 +4,7 @@ description: "11 newly discovered Hermes Agent skills from skills.sh marketplace
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-july30-2026/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---

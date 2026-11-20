@@ -4,7 +4,7 @@ description: "Second June 19 sweep - 15 new repos including workspace memory man
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-june19-2026-batch2/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---

@@ -4,7 +4,7 @@ description: "wecomteam/wecom-cli - 28 skills, 153.4K installs: official WeChat 
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/wecom-cli-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "wecom", "wechat work", "enterprise", "productivity"]
 ---
 

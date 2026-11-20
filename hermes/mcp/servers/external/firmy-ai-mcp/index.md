@@ -8,7 +8,7 @@ added: 2026-11-03
 source: "the mcpservers.org /all newest page at position 5 of 30 as firmy.ai, and a driven keyless session on https://firmy.ai/mcp on 2026-11-03: initialize HTTP 200 as firmy.ai 1.0.0, tools/list returning 8 tools, and live calls to get_account, search_companies, get_company (twice, one rejected on a bad section name), and rank_companies on revenue, margin and Altman"
 relevance: ★★★
 tags: [company-registry, poland, krs, financial-statements, sanctions, tenders, vat, due-diligence, keyless, remote-mcp]
-last_updated: "2026-11-03"
+last_updated: "2026-11-19"
 ---
 
 # firmy.ai MCP

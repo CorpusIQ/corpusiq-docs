@@ -4,7 +4,7 @@ description: "Morning cron sweep over chatmcp/mcpso issues #3886-#3891 plus mcps
 
 category: mcp
 tags: [mcp-servers, daily-scan, morning-sweep, september-2026]
-last_updated: 2026-11-01
+last_updated: 2026-11-19
 ---
 
 # MCP Server Discovery - September 2, 2026 (Morning Sweep)

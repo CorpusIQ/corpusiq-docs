@@ -4,7 +4,7 @@ description: "Install, configure, and use GBrain operational skills for Hermes A
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/gbrain-agent-operations-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

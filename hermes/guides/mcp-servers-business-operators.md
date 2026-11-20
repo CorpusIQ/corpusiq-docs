@@ -4,7 +4,7 @@ description: "Business-focused MCP servers that connect AI to real tools. Corpus
 
 canonical: "https://www.corpusiq.io/docs/hermes/guides/mcp-servers-business-operators/"
 robots: "index,follow"
-last_updated: "2026-11-18"
+last_updated: "2026-11-19"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---

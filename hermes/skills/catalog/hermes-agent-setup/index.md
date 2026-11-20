@@ -4,7 +4,7 @@ description: "Official Nous Research Hermes Agent skill. CLI invocation, subagen
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-agent-setup/"
 robots: "index,follow"
-last_updated: "2026-11-08"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

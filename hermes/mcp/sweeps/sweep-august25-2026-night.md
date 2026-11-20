@@ -4,7 +4,7 @@ date: 2026-08-25
 tags: [mcp-sweep, discovery, catalog]
 description: "chatmcp/mcpso issues #3750-#3757 (Aug 25 18:03 - Aug 26 01:34 UTC), mcp.so homepage + feed, mcpservers.org /all pages 1-3 + homepage; 3 catalogued."
 
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # MCP Discovery Sweep - August 25, 2026 (Night)

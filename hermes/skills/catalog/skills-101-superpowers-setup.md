@@ -4,7 +4,7 @@ description: "Install skills-101/superpowers (488.4K combined installs) - 86 ski
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/skills-101-superpowers-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

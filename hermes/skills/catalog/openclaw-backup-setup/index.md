@@ -4,7 +4,7 @@ description: "Encrypted backup and restore for OpenClaw workspace files using AE
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-backup-setup/"
 robots: "index,follow"
-last_updated: "2026-11-03"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

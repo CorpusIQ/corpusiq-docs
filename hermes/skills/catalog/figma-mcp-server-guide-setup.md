@@ -4,7 +4,7 @@ description: "Figma's official MCP server guide skills - implement designs, use 
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/figma-mcp-server-guide-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

@@ -4,7 +4,7 @@ description: "Install and configure the complete idea-to-build pipeline for Herm
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/idea-workflow-suite-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

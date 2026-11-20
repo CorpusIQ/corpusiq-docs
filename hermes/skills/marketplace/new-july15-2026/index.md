@@ -4,7 +4,7 @@ description: "6 new Hermes/OpenClaw ecosystem skills discovered via skills.sh AP
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-july15-2026/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---

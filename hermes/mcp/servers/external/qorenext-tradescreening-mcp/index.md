@@ -8,7 +8,7 @@ added: 2026-08-27
 source: "chatmcp/mcpso issue #3798 + github.com/QoreNext/qorenext-tradescreening-mcp"
 relevance: ★★★
 tags: [sanctions, ofac, restricted-parties, trade-compliance, due-diligence, screening, remote-mcp]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # QoreNext Trade Screening MCP

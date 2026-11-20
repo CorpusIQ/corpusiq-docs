@@ -4,7 +4,7 @@ description: "6 ML/AI skills from HuggingFace covering datasets API, papers rese
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/huggingface-agent-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

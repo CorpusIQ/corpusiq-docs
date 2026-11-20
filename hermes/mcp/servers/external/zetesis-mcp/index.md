@@ -8,7 +8,7 @@ added: 2026-09-01
 source: "chatmcp/mcpso issue #3879 (Sep 1, 2026 night sweep)"
 relevance: ★★
 tags: [mcp-server, due-diligence, research, biomedical, clinical-trials, fda, scientific-review, remote-mcp, keyless]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # Zetesis MCP

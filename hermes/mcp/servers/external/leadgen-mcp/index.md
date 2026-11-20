@@ -8,7 +8,7 @@ added: 2026-08-20
 source: "mcp.so GitHub issue #3654"
 relevance: ★★
 tags: [romania, onrc, business-registry, lead-generation, contact-extraction, whois, dns-audit, remote-mcp, sales-intelligence]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # Leadgen MCP

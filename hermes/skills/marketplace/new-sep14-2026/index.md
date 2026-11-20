@@ -4,7 +4,7 @@ description: "Skills.sh sweep September 14, 2026: MiniMax H3 official skill bund
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-sep14-2026/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skills.sh", "marketplace", "sweep"]
 ---
 

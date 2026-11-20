@@ -4,7 +4,7 @@ description: "Install and configure Ruflo (65K+ GitHub stars), the leading agent
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/ruflo-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

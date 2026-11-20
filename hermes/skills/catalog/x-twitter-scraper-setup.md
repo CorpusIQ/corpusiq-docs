@@ -4,7 +4,7 @@ description: "Install and configure the x-twitter-scraper skill from sickn33/ant
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/x-twitter-scraper-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

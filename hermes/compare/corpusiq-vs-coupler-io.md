@@ -3,7 +3,7 @@ title: "CorpusIQ vs Coupler.io: What Each One Does"
 description: "Coupler.io moves data between apps on a schedule. CorpusIQ is the layer that gives AI assistants live access to that same data in ChatGPT, Claude."
 
 tags: [compare, corpusiq, mcp]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # CorpusIQ vs Coupler.io: What Each One Does

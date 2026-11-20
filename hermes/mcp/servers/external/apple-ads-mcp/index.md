@@ -8,7 +8,7 @@ added: 2026-08-29
 source: mcpservers.org /all page 3
 relevance: ★★
 tags: [mcp-server, apple-ads, app-store, campaign-management, aso, search-ads, advertising, local-tools]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # Apple Ads MCP

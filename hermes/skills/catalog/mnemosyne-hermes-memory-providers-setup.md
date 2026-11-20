@@ -4,7 +4,7 @@ description: "Install and configure hermes-memory-providers from mnemosyne-oss/m
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/mnemosyne-hermes-memory-providers-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

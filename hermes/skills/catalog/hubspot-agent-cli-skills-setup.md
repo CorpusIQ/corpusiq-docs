@@ -4,7 +4,7 @@ description: "hubspot/agent-cli-skills - 17.8K installs across 15 skills, offici
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hubspot-agent-cli-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "hubspot", "crm", "sales ops", "ticketing"]
 ---
 

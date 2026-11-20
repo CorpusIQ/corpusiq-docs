@@ -4,7 +4,7 @@ description: "agentix-cloud/skills - agentix-ceo (52.0K installs): orchestrate a
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/agentix-ceo-skill-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "orchestration", "multi-agent"]
 ---
 

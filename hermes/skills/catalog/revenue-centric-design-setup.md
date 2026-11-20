@@ -4,7 +4,7 @@ description: "heliocosta-dev/revenue-centric-design - revenue-centric-design ski
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/revenue-centric-design-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "saas", "cro", "conversion", "pricing", "retention", "behavioral-science", "product-design"]
 ---
 

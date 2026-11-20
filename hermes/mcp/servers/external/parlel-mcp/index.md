@@ -8,7 +8,7 @@ added: 2026-09-10
 source: mcpservers.org
 relevance: ★★
 tags: [recruiting, company-search, people-search, jobs, b2b, remote-mcp, keyless]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # Parlel MCP

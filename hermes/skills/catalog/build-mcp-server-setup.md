@@ -4,7 +4,7 @@ description: "Install and configure build-mcp-server, Anthropic's official guide
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/build-mcp-server-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

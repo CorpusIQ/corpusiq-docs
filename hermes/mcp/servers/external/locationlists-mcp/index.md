@@ -8,7 +8,7 @@ added: 2026-09-11
 source: mcpservers.org /all
 relevance: ★★★
 tags: [lead-lists, business-locations, datasets, b2b-sales, keyless, remote-mcp]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # LocationLists MCP

@@ -8,7 +8,7 @@ added: 2026-08-16
 source: mcpservers.org
 relevance: ★★
 tags: [bank-statements, bookkeeping, accounting, pdf, data-extraction, finance]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # MainBook MCP

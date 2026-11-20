@@ -4,7 +4,7 @@ description: "zenstory-ai/oh-story-claudecode (formerly worldwonderer) - 13 skil
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/oh-story-claudecode-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "writing", "long-form content", "browser automation", "cdp"]
 ---
 

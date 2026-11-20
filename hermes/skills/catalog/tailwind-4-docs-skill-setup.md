@@ -4,7 +4,7 @@ description: "lombiq/tailwind-agent-skills - tailwind-4-docs (10.1K installs): n
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/tailwind-4-docs-skill-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "tailwind", "css", "documentation"]
 ---
 

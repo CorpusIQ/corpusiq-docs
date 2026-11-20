@@ -4,7 +4,7 @@ description: "Complete Hermes Agent setup guide for any hardware platform. Quick
 
 category: setup
 tags: [hermes-agent, installation, setup-guide, getting-started, hardware, ollama, openrouter]
-last_updated: 2026-11-15
+last_updated: 2026-11-19
 canonical: "https://www.corpusiq.io/docs/hermes/setup/"
 robots: "index,follow"
 

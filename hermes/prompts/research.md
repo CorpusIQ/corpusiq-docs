@@ -4,7 +4,7 @@ description: "Hermes Agent research prompts for competitive analysis, market siz
 
 category: prompts
 tags: [hermes-agent, prompts, research, competitive-analysis, market-sizing, technology-evaluation, trend-reports]
-last_updated: 2026-11-07
+last_updated: 2026-11-19
 canonical: "https://www.corpusiq.io/docs/hermes/prompts/research/"
 robots: "index,follow"
 

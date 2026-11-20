@@ -4,7 +4,7 @@ description: "Set up browser-use (97K+ GitHub stars) for AI vision-driven browse
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/browser-use-automation-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

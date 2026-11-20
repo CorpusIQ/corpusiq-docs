@@ -4,7 +4,7 @@ description: "jane-o-o-o-o/agent-pulse-skill - agent-pulse (32.4K installs): CLI
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/agent-pulse-skill-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "monitoring", "cli", "observability"]
 ---
 

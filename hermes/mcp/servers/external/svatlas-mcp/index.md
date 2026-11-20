@@ -8,7 +8,7 @@ added: 2026-10-08
 source: "chatmcp/mcpso issue #4934 (October 8, 2026 night sweep)"
 relevance: ★★★
 tags: [startups, sales, prospecting, lead-generation, investors, founders, research]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # SV Atlas MCP

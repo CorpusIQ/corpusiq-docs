@@ -8,7 +8,7 @@ added: 2026-08-12
 source: mcpservers.org
 relevance: ★★★
 tags: [seo, geo, aeo, ai-search, visibility, citations, schema, llms-txt, remote-mcp]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # CiteRank MCP

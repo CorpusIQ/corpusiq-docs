@@ -4,7 +4,7 @@ description: "momentic-ai/skills - 5 skills, 118.9K combined installs. Agent-dri
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/momentic-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "qa"]
 ---
 

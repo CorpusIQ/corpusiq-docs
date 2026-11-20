@@ -8,7 +8,7 @@ added: 2026-08-21
 source: mcp.so
 relevance: ★★★
 tags: [sec, edgar, filings, insider-trading, 13f, x402, finance, research, remote-mcp]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # Signal Nodus SEC Filings MCP

@@ -8,7 +8,7 @@ added: 2026-09-01
 source: "chatmcp/mcpso issue #3873 (Sep 1, 2026)"
 relevance: ★★★
 tags: [mcp-server, document-processing, pdf, rag, conversion, docling, local-first]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # Docling MCP

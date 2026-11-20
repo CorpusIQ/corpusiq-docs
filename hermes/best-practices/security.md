@@ -4,7 +4,7 @@ description: "Hermes Agent security best practices. Token and credential managem
 
 category: best-practices
 tags: [hermes-agent, security, credentials, approval-gates, audit-logging, least-privilege, token-management, secrets]
-last_updated: 2026-11-16
+last_updated: 2026-11-19
 canonical: "https://www.corpusiq.io/docs/hermes/best-practices/security/"
 robots: "index,follow"
 

@@ -4,7 +4,7 @@ description: "wyattowalsh/agents - 85 skills, 2.1K installs: the skills.sh found
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/wyattowalsh-agents-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "orchestration", "skill governance", "agent teams"]
 ---
 

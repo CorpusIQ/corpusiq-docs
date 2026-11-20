@@ -8,7 +8,7 @@ added: 2026-08-26
 source: "mcp.so GitHub issue #3785"
 relevance: ★★★
 tags: [isp, billing, network-operations, mikrotik, mpesa, revenue, remote-mcp, api-key]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # Centipid ISP Billing MCP

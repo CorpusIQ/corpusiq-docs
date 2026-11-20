@@ -4,7 +4,7 @@ description: "Install and configure the StepFun API skills from fengjunlu618/ste
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/stepfun-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

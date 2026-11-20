@@ -4,7 +4,7 @@ description: "mvanhorn/last30days-skill - 1 core skill, 32.7K installs: find pro
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/last30days-skill-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "research", "discovery", "last30days"]
 ---
 

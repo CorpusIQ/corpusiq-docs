@@ -8,7 +8,7 @@ added: 2026-08-17
 source: mcp.so
 relevance: ★★
 tags: [korean-market, market-data, sk-hynix, etf-leverage, vix, semiconductors, finance, remote-mcp]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # Cliometry MCP

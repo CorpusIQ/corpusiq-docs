@@ -4,7 +4,7 @@ description: "Access 94 plugins, 203 agents, 175 skills, and 109 commands from t
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/wshobson-agents-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

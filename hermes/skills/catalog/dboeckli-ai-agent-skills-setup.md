@@ -4,7 +4,7 @@ description: "Setup guide for dboeckli/ai-agent-skills - 5 AI-agnostic agent ski
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/dboeckli-ai-agent-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "skill authoring", "claude code", "cron"]
 ---
 

@@ -4,7 +4,7 @@ description: "kylezantos/design-motion-principles - design-motion-principles (7.
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/design-motion-principles-skill-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "motion design", "animation", "interaction design"]
 ---
 

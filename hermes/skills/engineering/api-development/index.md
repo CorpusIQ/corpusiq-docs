@@ -4,7 +4,7 @@ description: "Pattern for operating a FastAPI backend on Cloud Run as the single
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/engineering/api-development/"
 robots: "index,follow"
-last_updated: "2026-11-07"
+last_updated: "2026-11-19"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---

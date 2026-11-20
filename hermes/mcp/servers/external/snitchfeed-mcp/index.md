@@ -8,7 +8,7 @@ added: 2026-08-17
 source: mcpservers.org
 relevance: ★★★
 tags: [social-listening, keyword-monitoring, lead-generation, linkedin, reddit, sales-intelligence, marketing-research, remote-mcp]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # SnitchFeed MCP

@@ -4,7 +4,7 @@ description: "Complete guide to creating custom Hermes Agent skills. SKILL.md an
 
 category: skills
 tags: [hermes-agent, skills, custom-skills, skill-development, triggers, testing, publishing, reusable-workflows]
-last_updated: "2026-11-07"
+last_updated: "2026-11-19"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/creating-skills/"
 robots: "index,follow"
 

@@ -4,7 +4,7 @@ description: "Setup guide for reason-machines/devtools-skills, the ara.so auto-g
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/reason-machines-devtools-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "developer tools", "skill setup"]
 ---
 

@@ -8,7 +8,7 @@ added: 2026-09-12
 source: mcp.so feed (landlens-one)
 relevance: ★★
 tags: [real-estate, property-due-diligence, land-records, india, legal-verification, remote-mcp]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # LandLens One MCP

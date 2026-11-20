@@ -8,7 +8,7 @@ added: 2026-09-11
 source: mcp.so feed
 relevance: ★★
 tags: [fact-checking, verification, receipts, hallucination-prevention, compliance, stdio-mcp]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # VerifyAPI MCP

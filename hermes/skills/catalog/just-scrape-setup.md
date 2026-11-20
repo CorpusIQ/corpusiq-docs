@@ -4,7 +4,7 @@ description: "Universal web scraping CLI with 244.9K+ installs. Search, scrape, 
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/just-scrape-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

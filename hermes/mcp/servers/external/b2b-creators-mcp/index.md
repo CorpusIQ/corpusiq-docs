@@ -8,7 +8,7 @@ added: 2026-09-12
 source: "mcp.so feed (b2b-creators) + vendor site b2b-creators.com"
 relevance: ★★★
 tags: [linkedin, content, social-media, sales, gtm, remote-mcp]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # B2B Creators MCP

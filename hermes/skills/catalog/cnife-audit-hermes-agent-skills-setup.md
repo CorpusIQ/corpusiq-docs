@@ -4,7 +4,7 @@ description: "Install and use audit-hermes-agent-skills from cnife/skills - audi
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/cnife-audit-hermes-agent-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

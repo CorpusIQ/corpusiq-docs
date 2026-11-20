@@ -4,7 +4,7 @@ description: "basicmachines-co/basic-memory - 9.7K installs across 38 skills, 3.
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/basic-memory-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "memory", "knowledge graph", "agent memory", "basic memory"]
 ---
 

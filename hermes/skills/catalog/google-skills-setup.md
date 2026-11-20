@@ -4,7 +4,7 @@ description: "Google's official agent skills collection - Cloud recipes, GKE, Ge
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/google-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

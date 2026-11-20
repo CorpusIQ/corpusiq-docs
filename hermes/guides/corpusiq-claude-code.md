@@ -4,7 +4,7 @@ description: "Connect CorpusIQ to Claude Code via MCP. Ask revenue, orders, and 
 
 canonical: "https://www.corpusiq.io/docs/hermes/guides/corpusiq-claude-code/"
 robots: "index,follow"
-last_updated: "2026-11-18"
+last_updated: "2026-11-19"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---

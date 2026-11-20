@@ -4,7 +4,7 @@ description: "Install and configure the native-mcp skill from nousresearch/herme
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/native-mcp-setup/"
 robots: "index,follow"
-last_updated: "2026-11-07"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

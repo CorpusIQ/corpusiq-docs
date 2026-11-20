@@ -4,7 +4,7 @@ description: "AWS's official agent toolkit - MCP servers, skills, and plugins fo
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/aws-agent-toolkit-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

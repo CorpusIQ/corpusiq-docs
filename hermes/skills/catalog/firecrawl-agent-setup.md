@@ -4,7 +4,7 @@ description: "Autonomous data extraction that navigates complex sites and return
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/firecrawl-agent-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

@@ -4,7 +4,7 @@ description: "Install and configure research-paper-writing, the official Hermes 
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/research-paper-writing-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

@@ -4,7 +4,7 @@ description: "getsentry/skills - 31 skills, 85.3K installs: security review, cod
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/sentry-agent-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "security", "code review", "sentry"]
 ---
 

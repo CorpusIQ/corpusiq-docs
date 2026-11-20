@@ -4,7 +4,7 @@ description: "herdrdev/herdr - 5 skills, 28.1K installs: terminal workspaces, ta
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/herdr-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "terminal", "orchestration", "herdr"]
 ---
 

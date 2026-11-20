@@ -8,7 +8,7 @@ added: 2026-08-19
 source: "mcp.so GitHub issue #3647"
 relevance: ★★
 tags: [media-generation, image, video, audio, 3d, ai-models, stdio, npm, content-creation]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # WaveSpeed MCP

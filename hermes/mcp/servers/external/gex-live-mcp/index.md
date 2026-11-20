@@ -8,7 +8,7 @@ added: 2026-08-22
 source: mcpservers.org
 relevance: ★★
 tags: [options, spx, market-intelligence, gamma, backtesting, trading-data, remote-mcp]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # Gex Live MCP

@@ -8,7 +8,7 @@ added: 2026-08-20
 source: "mcpservers.org (tradebrite-nl-property-context)"
 relevance: ★★
 tags: [netherlands, real-estate, property-data, open-data, bag, energy-label, remote-mcp, keyless]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # Dutch Property Context MCP

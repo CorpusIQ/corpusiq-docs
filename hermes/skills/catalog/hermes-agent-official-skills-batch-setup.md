@@ -4,7 +4,7 @@ description: "9 official bundled skills from nousresearch/hermes-agent (432 comb
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-agent-official-skills-batch-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "nousresearch", "productivity", "research", "bundled"]
 ---
 

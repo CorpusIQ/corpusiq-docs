@@ -8,7 +8,7 @@ added: 2026-11-16
 source: "the mcp.so submission queue entry #7429 filed 2026-11-15T03:29:00Z, and a driven session on 2026-11-16 in which all 8 tools were called over Streamable HTTP, including two registry lookups by INN"
 relevance: ★★
 tags: [public-records, russia, company-verification, egrul, inn, licensing, sanctions-adjacent, keyless, remote, mcp]
-last_updated: "2026-11-16"
+last_updated: "2026-11-19"
 ---
 
 # Reestr Reestrov MCP

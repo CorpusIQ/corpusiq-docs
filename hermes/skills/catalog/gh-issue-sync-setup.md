@@ -4,7 +4,7 @@ description: "mitsuhiko/gh-issue-sync - 1 skill, 2.5K installs, by Armin Ronache
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/gh-issue-sync-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "github", "issue management", "markdown"]
 ---
 

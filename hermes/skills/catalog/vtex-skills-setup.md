@@ -4,7 +4,7 @@ description: "vtex/skills - 51 skills, 32.6K installs: VTEX's official ecommerce
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/vtex-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "ecommerce", "vtex", "faststore", "marketplace"]
 ---
 

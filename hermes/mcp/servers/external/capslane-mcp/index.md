@@ -8,7 +8,7 @@ added: 2026-09-10
 source: mcpservers.org
 relevance: ★★
 tags: [youtube, transcripts, captions, video-research, content, remote-mcp]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # Capslane MCP

@@ -4,7 +4,7 @@ description: "Hermes Agent creative prompts for brainstorming, naming, design br
 
 category: prompts
 tags: [hermes-agent, prompts, creative, brainstorming, naming, design, ideation, creative-strategy]
-last_updated: 2026-11-07
+last_updated: 2026-11-19
 canonical: "https://www.corpusiq.io/docs/hermes/prompts/creative/"
 robots: "index,follow"
 

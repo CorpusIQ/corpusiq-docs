@@ -8,7 +8,7 @@ added: 2026-08-29
 source: mcpservers.org /all
 relevance: ★★
 tags: [mcp-server, app-reviews, sentiment-analysis, product-feedback, app-store, google-play, oauth, remote-mcp]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # Appbot MCP

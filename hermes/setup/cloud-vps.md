@@ -4,7 +4,7 @@ description: "Deploy Hermes Agent on a cloud VPS for always-on AI automation. St
 
 category: setup
 tags: [cloud-vps, hermes-agent, setup-guide, hetzner, digitalocean, openrouter, systemd, 24/7-automation]
-last_updated: 2026-11-16
+last_updated: 2026-11-19
 canonical: "https://www.corpusiq.io/docs/hermes/setup/cloud-vps/"
 robots: "index,follow"
 

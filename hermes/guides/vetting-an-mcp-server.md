@@ -4,7 +4,7 @@ description: "A 10-minute operator checklist for MCP servers: read the tool list
 
 category: guides
 tags: ["mcp server", "security", "oauth", "tool review", "model context protocol"]
-last_updated: "2026-11-18"
+last_updated: "2026-11-19"
 canonical: "https://www.corpusiq.io/docs/hermes/guides/vetting-an-mcp-server/"
 robots: "index,follow"
 ---

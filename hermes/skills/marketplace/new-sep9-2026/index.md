@@ -4,7 +4,7 @@ description: "skills.sh morning sweep: forcedotcom/sf-skills (~500K installs, of
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-sep9-2026/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "skill marketplace", "skills.sh", "new skills", "salesforce", "seo", "social media"]
 sweep_id: "2026-09-09-morning"
 new_publishers: 4

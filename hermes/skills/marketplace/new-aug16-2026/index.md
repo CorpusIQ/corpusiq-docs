@@ -4,7 +4,7 @@ description: "skills.sh sweep: Vercel AI SDK (51.1K, 3), Cursor Plugins (72.0K, 
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-aug16-2026/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "skill marketplace", "skills.sh", "new skills"]
 sweep_id: "2026-08-16"
 new_publishers: 6

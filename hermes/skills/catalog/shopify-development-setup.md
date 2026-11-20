@@ -4,7 +4,7 @@ description: "sickn33/agentic-awesome-skills - shopify-development, 1,812 instal
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/shopify-development-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "shopify", "ecommerce", "development"]
 ---
 

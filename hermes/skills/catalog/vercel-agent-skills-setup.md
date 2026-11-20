@@ -4,7 +4,7 @@ description: "Install and use Vercel's official agent skills collection - 4 skil
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/vercel-agent-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

@@ -4,7 +4,7 @@ description: "Skills.sh sweep (Nov 18 morning): 12 publisher guides for 98,166 c
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-nov18-2026-morning-skills/"
 robots: "index,follow"
-last_updated: "2026-11-18"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skills.sh", "sweep", "marketplace", "hermes agent"]
 ---
 

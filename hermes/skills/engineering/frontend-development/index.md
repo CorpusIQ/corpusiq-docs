@@ -4,7 +4,7 @@ description: "Pattern for a Next.js + Tailwind frontend that serves BOTH a publi
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/engineering/frontend-development/"
 robots: "index,follow"
-last_updated: "2026-11-07"
+last_updated: "2026-11-19"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---

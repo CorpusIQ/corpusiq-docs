@@ -8,7 +8,7 @@ added: 2026-09-06
 source: mcpservers.org
 relevance: ★★★
 tags: [trademark, brand-protection, ip-monitoring, legal, watches, oauth, remote-mcp]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # IP Defender MCP - Trademark Monitoring for AI Agents

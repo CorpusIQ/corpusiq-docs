@@ -4,7 +4,7 @@ description: "Evening leaderboard sweep (95 publisher slugs, 11 zero-hit): InsFo
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-aug31-2026-evening/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "skill marketplace", "skills.sh", "new skills"]
 sweep_id: "2026-08-31-evening"
 new_publishers: 10

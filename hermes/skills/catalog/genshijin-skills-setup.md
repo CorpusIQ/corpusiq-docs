@@ -4,7 +4,7 @@ description: "interfacex-co-jp/genshijin - 7 skills, 19.2K installs: a Japanese 
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/genshijin-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "japanese", "concise replies", "git workflow", "genshijin"]
 ---
 

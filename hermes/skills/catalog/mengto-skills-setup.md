@@ -4,7 +4,7 @@ description: "mengto/skills - 76.2K installs across 155 skills, 5.6K stars: Desi
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/mengto-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "design", "frontend", "motion", "gsap", "threejs", "anti-ai-slop"]
 ---
 

@@ -8,7 +8,7 @@ added: 2026-08-14
 source: mcpservers.org
 relevance: ★★★
 tags: [marketing-intelligence, ad-libraries, social-listening, audience-insights, brand-monitoring, competitive-intel, marketing, remote-mcp]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # Waldo MCP

@@ -8,7 +8,7 @@ added: 2026-08-28
 source: "mcp.so GitHub issue #3805"
 relevance: ★★★
 tags: [mcp-server, procurement, government, texas, apify, contracting, remote-mcp]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # TX ESBD Procurement MCP

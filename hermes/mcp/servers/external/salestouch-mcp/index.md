@@ -8,7 +8,7 @@ added: 2026-08-24
 source: mcpservers.org /all page 1
 relevance: ★★★
 tags: [linkedin, sales, prospecting, outreach, gtm, oauth, remote-mcp]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # SalesTouch MCP

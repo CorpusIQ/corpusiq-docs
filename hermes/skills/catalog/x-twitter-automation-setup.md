@@ -4,7 +4,7 @@ description: "Design safe X/Twitter automation workflows for tweet search, reply
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/x-twitter-automation-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

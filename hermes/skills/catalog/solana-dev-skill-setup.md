@@ -4,7 +4,7 @@ description: "solana-foundation/solana-dev-skill - 58.4K installs. The Solana Fo
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/solana-dev-skill-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "blockchain"]
 ---
 

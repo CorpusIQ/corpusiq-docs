@@ -4,7 +4,7 @@ description: "skills.sh morning sweep: apidojo-io/social-media-skills (8.0K inst
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-sep10-2026/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "skill marketplace", "skills.sh", "new skills", "social media", "scraping"]
 sweep_id: "2026-09-10-morning"
 new_publishers: 1

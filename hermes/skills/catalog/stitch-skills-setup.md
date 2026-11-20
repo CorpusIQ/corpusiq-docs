@@ -4,7 +4,7 @@ description: "Transform designs into production React/Shadcn code with Google's 
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/stitch-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

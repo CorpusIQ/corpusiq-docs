@@ -4,7 +4,7 @@ date: 2026-08-23
 tags: [mcp-sweep, discovery, catalog]
 description: "chatmcp/mcpso issues #3712-#3718 (Aug 23 16:42-02:00 UTC), mcp.so feed, mcpservers.org /all pages 1-3 (~90 slugs), Octura live endpoint probe; 11 catalogued."
 
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # MCP Discovery Sweep - August 23, 2026 (Night)

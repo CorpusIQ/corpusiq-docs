@@ -4,7 +4,7 @@ description: "6 newly catalogued skills - the official Hermes Agent hyperframes 
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-june18-2026-update2/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---

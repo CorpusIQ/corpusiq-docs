@@ -4,7 +4,7 @@ description: "Evening sweep over the mcp.so feed, mcpservers.org /all pages 1-2 
 
 category: mcp
 tags: [mcp-servers, daily-scan, september-2026]
-last_updated: 2026-11-01
+last_updated: 2026-11-19
 ---
 
 # MCP Server Discovery - September 11, 2026 (Evening Sweep)

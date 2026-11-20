@@ -8,7 +8,7 @@ added: 2026-08-24
 source: mcp.so feed listing
 relevance: ★★
 tags: [video, editing, rendering, templates, remote-mcp, content-production]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # Shotstack MCP

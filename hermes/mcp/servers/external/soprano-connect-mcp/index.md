@@ -8,7 +8,7 @@ added: 2026-09-09
 source: mcpservers.org
 relevance: ★★★
 tags: [sms, whatsapp, rcs, messaging, communication, cpaas, self-hosted]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # Soprano Connect MCP

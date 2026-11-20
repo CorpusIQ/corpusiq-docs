@@ -4,7 +4,7 @@ description: "Access Reddit's full data archive via reddapi.dev. Semantic search
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/reddit-research-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

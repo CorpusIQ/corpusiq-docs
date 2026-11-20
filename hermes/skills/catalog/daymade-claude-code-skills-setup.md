@@ -4,7 +4,7 @@ description: "daymade/claude-code-skills - 58.4K installs across 106 skills, 1.4
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/daymade-claude-code-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "research", "productivity", "qa", "docs", "x twitter"]
 ---
 

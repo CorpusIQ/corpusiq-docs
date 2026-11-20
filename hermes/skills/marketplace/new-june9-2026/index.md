@@ -4,7 +4,7 @@ description: "30+ newly discovered skills.sh marketplace skills relevant to Herm
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-june9-2026/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---

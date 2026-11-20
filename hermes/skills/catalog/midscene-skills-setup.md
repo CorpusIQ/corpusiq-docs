@@ -4,7 +4,7 @@ description: "Configure Midscene (14K+ GitHub stars) for vision-driven UI automa
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/midscene-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

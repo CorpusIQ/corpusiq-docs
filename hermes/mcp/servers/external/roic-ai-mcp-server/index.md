@@ -10,7 +10,7 @@ relevance: ★★★
 tags: [finance, stocks, market-data, earnings-calls, fundamentals, fintech, remote-mcp]
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/roic-ai-mcp-server/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # ROIC.ai MCP Server

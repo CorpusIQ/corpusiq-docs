@@ -8,7 +8,7 @@ added: 2026-09-02
 source: mcp.so
 relevance: ★★★
 tags: [real-estate, property-valuation, uk, land-registry, auctions, geospatial, remote-mcp]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # MarketCode MCP

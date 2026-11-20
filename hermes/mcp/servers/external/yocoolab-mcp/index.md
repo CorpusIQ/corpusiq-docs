@@ -8,7 +8,7 @@ added: 2026-09-07
 source: mcp.so feed
 relevance: ★★★
 tags: [visual-feedback, design-collaboration, github-pr, feedback-workflow, product-teams, jira, linear, self-hosted]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # Yocoolab MCP - Visual Feedback to PR Workflow for Agents

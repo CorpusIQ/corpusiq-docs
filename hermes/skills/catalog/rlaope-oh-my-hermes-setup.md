@@ -4,7 +4,7 @@ description: "Setup guide for rlaope/oh-my-hermes - 130+ Hermes Agent workflow p
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/rlaope-oh-my-hermes-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "workflow", "agent orchestration", "memory"]
 ---
 

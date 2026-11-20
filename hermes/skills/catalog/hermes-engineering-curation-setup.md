@@ -4,7 +4,7 @@ description: "Install and use Fahrnetic's professionally-curated Hermes Agent en
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-engineering-curation-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

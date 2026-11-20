@@ -8,7 +8,7 @@ added: 2026-11-16
 source: "the mcp.so submission queue entry #7395 filed 2026-11-15T14:33:00Z, and a driven session on 2026-11-16 in which initialize, tools/list and the free list_models tool were run and three separate paid tools were measured to their payment challenge"
 relevance: ★★★
 tags: [gateway, x402, pay-per-call, pricing, sanctions-screening, sec-filings, email-verification, keyless, remote, mcp]
-last_updated: "2026-11-16"
+last_updated: "2026-11-19"
 ---
 
 # TollNode MCP

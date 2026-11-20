@@ -4,7 +4,7 @@ description: "Official Nous Research guide for writing high-quality SKILL.md fil
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-agent-skill-authoring-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

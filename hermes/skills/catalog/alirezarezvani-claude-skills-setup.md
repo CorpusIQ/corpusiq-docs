@@ -4,7 +4,7 @@ description: "Massive collection of 341+ skills across engineering (37 advanced)
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/alirezarezvani-claude-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

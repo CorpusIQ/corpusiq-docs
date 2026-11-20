@@ -8,7 +8,7 @@ added: 2026-09-11
 source: mcpservers.org /all via r.jina.ai
 relevance: ★★
 tags: [text-to-sql, schema-selection, access-control, database, postgresql, security, self-hosted]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # schemagate MCP

@@ -4,7 +4,7 @@ description: "Skills from clawhub at skills.sh - mcp-client for Hermes MCP clien
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/mcp-client-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "MCP", "client", "protocol", "mcp-client"]
 ---
 

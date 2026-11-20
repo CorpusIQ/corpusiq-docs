@@ -4,7 +4,7 @@ description: "Automate social posting and comment monitoring with Playwright whe
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/playwright-social-media-automation-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

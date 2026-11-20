@@ -4,7 +4,7 @@ description: "New Hermes-ecosystem discoveries from September 2026: OpenCompany 
 
 canonical: "https://www.corpusiq.io/docs/hermes/ecosystem/september-2026/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes ecosystem", "agent ecosystem", "september 2026"]
 ---
 

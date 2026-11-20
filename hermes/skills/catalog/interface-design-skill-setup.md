@@ -4,7 +4,7 @@ description: "dammyjay93/interface-design - interface-design (23.6K installs): i
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/interface-design-skill-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "ui design", "dashboards", "design system"]
 ---
 

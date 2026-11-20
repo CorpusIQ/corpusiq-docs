@@ -8,7 +8,7 @@ added: 2026-09-10
 source: mcp.so feed
 relevance: ★★★
 tags: [linkedin, sales-navigator, outreach, prospecting, social-selling, remote-mcp, oauth]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # Reach MCP

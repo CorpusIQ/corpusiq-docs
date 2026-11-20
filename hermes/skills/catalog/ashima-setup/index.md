@@ -4,7 +4,7 @@ description: "Install and configure doucoo/ashima - a 4-skill meta-routing packa
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/ashima-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

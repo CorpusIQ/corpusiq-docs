@@ -2,7 +2,7 @@
 title: "MCP Server Discovery - November 1, 2026 (Midday)"
 description: "A stale directory snapshot hides the arrivals, and the find is a WordPress fleet where every agent change waits for a person, leaves a receipt and can."
 
-last_updated: 2026-11-01
+last_updated: 2026-11-19
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-november1-2026-midday/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

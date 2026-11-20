@@ -4,7 +4,7 @@ description: "Hermes Agent v0.21.3 (v2026.9.14) - Patch release for remote Deskt
 
 canonical: "https://www.corpusiq.io/docs/hermes/changelog/v0.21.3/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---

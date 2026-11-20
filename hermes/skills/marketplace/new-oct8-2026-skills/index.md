@@ -4,7 +4,7 @@ description: "Skills.sh sweep (Oct 8 morning): 440 skills in the standard window
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-oct8-2026-skills/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skills.sh", "sweep", "marketplace", "hermes agent"]
 ---
 

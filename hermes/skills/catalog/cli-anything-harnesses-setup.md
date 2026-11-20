@@ -4,7 +4,7 @@ description: "Install and configure 9 CLI-Anything harness skills for Hermes Age
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/cli-anything-harnesses-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

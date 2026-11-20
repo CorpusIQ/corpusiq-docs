@@ -8,7 +8,7 @@ added: 2026-09-07
 source: mcp.so feed
 relevance: ★★★
 tags: [sales-intelligence, gtm, sec-filings, trigger-events, prospecting, icp, watchlist, remote-mcp]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # Fundz Agent API MCP - SEC-Filing-Linked Sales Triggers

@@ -4,7 +4,7 @@ description: "mvanhorn/printing-press-library - the CLI Printing Press catalog: 
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/printing-press-library-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "cli", "developer tools"]
 ---
 

@@ -4,7 +4,7 @@ description: "Production-grade cron design for Hermes Agent scheduled automation
 
 category: best-practices
 tags: [hermes-agent, cron-design, scheduled-automation, idempotency, error-handling, monitoring, rate-limiting]
-last_updated: 2026-11-16
+last_updated: 2026-11-19
 canonical: "https://www.corpusiq.io/docs/hermes/best-practices/cron-design/"
 robots: "index,follow"
 

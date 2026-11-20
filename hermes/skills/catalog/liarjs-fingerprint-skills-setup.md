@@ -4,7 +4,7 @@ description: "liarjsdev/liarjs-skills - 4 skills at 51.9K installs: fingerprint-
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/liarjs-fingerprint-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "playwright", "fingerprinting", "anti-bot"]
 ---
 

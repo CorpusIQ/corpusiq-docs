@@ -4,7 +4,7 @@ description: "cline/skills - the official Cline org's 43 Agent Skills: frontend-
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/cline-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "cline", "coding agent", "frontend", "cloud"]
 ---
 

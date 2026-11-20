@@ -8,7 +8,7 @@ added: 2026-09-01
 source: "mcp.so homepage recentServers (Sep 1, 2026 night sweep)"
 relevance: ★★
 tags: [mcp-server, tiktok, growth, content-marketing, social-media, human-in-the-loop, oauth, remote-mcp]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # Layers Growth MCP

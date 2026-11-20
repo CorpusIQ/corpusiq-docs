@@ -4,7 +4,7 @@ description: "Pattern for a canonical-layer metric subsystem - store KPI definit
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/engineering/metric-spec-registry/"
 robots: "index,follow"
-last_updated: "2026-11-07"
+last_updated: "2026-11-19"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---

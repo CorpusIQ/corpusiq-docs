@@ -4,7 +4,7 @@ description: "cloudai-x/threejs-skills - 10 skills, 80.0K installs: Three.js fun
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/threejs-agent-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "threejs", "webgl", "3d"]
 ---
 

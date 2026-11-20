@@ -4,7 +4,7 @@ description: "conorbronsdon/avoid-ai-writing - 1 skill, 1.6K installs, 3.0K GitH
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/avoid-ai-writing-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "writing", "content quality", "ai-detection"]
 ---
 

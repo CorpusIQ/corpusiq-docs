@@ -4,7 +4,7 @@ description: "22 new Hermes skill repos discovered on June 24, 2026 including As
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-june24-2026/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---

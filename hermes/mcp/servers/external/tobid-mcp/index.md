@@ -8,7 +8,7 @@ added: 2026-09-03
 source: mcpservers.org
 relevance: ★★
 tags: [procurement, government-tenders, taiwan, bid-intelligence, public-contracts, remote-mcp, keyless]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # ToBid MCP

@@ -8,7 +8,7 @@ added: 2026-09-07
 source: mcpservers.org /all
 relevance: ★★★
 tags: [prospecting, lead-generation, company-research, business-search, remote-mcp]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # Crawdar MCP - Qualified Prospect Research for Agents

@@ -4,7 +4,7 @@ description: "skills.sh tiered sweep: 9 new official nousresearch/hermes-agent b
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-sep1-2026/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "skill marketplace", "skills.sh", "new skills", "nousresearch"]
 sweep_id: "2026-09-01-pm"
 new_publishers: 0

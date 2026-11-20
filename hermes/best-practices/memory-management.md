@@ -4,7 +4,7 @@ description: "Hermes Agent memory management: built-in MEMORY.md, one external m
 
 category: best-practices
 tags: [hermes-agent, memory-management, honcho, gbrain, memory-provider, context-optimization, persistent-memory, session-search]
-last_updated: 2026-11-07
+last_updated: 2026-11-19
 canonical: "https://www.corpusiq.io/docs/hermes/best-practices/memory-management/"
 robots: "index,follow"
 

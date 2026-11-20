@@ -8,7 +8,7 @@ added: 2026-08-18
 source: "mcpservers.org (neuhausre-com-austin-mls-mcp)"
 relevance: ★★
 tags: [real-estate, mls, austin, listings, comps, market-stats, remote-mcp, no-auth]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # Austin MLS MCP

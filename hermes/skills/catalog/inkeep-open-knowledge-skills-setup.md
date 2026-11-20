@@ -4,7 +4,7 @@ description: "inkeep/open-knowledge-skills - 33 skills, 17.1K combined installs.
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/inkeep-open-knowledge-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "knowledge management"]
 ---
 

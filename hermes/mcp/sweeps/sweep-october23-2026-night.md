@@ -2,7 +2,7 @@
 title: "MCP Server Discovery - October 23, 2026 (Night Sweep)"
 description: "Night delta cataloguing one server and recording a directory error: Nexscope brings twelve marketplaces and 55 Amazon Ads tools behind one OAuth endpoint."
 
-last_updated: 2026-11-01
+last_updated: 2026-11-19
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october23-2026-night/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

@@ -4,7 +4,7 @@ description: "Skills.sh sweep: 64 new publisher setup guides (GSAP 443K, Jeff Al
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-sep29-2026-skills/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "skill marketplace", "skills.sh"]
 ---
 

@@ -4,7 +4,7 @@ description: "3 newly discovered Hermes Agent skills - CLI-Anything Hermes orche
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-june25-2026-update/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---

@@ -4,7 +4,7 @@ description: "atlasomnia/hermes-custom-pack - 60+ installable skills, plugins, a
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/atlasomnia-hermes-custom-pack-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "hermes configuration", "hermes plugins", "mnemosyne", "skill audit", "pre-push gates"]
 ---
 

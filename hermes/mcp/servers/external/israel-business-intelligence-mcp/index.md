@@ -8,7 +8,7 @@ added: 2026-08-29
 source: "chatmcp/mcpso issue #3826"
 relevance: ★★
 tags: [mcp-server, company-data, supplier-verification, due-diligence, israeli-registry, business-intelligence, x402, remote-mcp]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # Israel Business Intelligence MCP

@@ -8,7 +8,7 @@ added: 2026-09-15
 source: "chatmcp/mcpso issue #4156 (submitted Sep 15) + vendor docs at conthunt.app and conthunt.app/mcp"
 relevance: ★★★
 tags: [tiktok, instagram, youtube-shorts, linkedin, viral-content, content-research, trend-hunting, oauth, remote-mcp]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # ContHunt MCP

@@ -4,7 +4,7 @@ description: "skills.sh sweep: Brian Lovin Agent Config (33.6K, 19), last30days 
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-aug17-2026/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "skill marketplace", "skills.sh", "new skills"]
 sweep_id: "2026-08-17"
 new_publishers: 6

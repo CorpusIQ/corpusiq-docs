@@ -8,7 +8,7 @@ added: 2026-11-16
 source: "the mcp.so submission queue entry #7487 filed 2026-11-17T01:13:45Z, and a driven session on 2026-11-17 in which all four tools were called over Streamable HTTP, nine tools/call requests in total"
 relevance: ★★★
 tags: [sql, athena, public-records, patents, open-data, keyless, remote, mcp]
-last_updated: "2026-11-16"
+last_updated: "2026-11-19"
 ---
 
 # NYSgpt Data Library

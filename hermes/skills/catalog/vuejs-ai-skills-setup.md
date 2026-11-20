@@ -4,7 +4,7 @@ description: "vuejs-ai/skills - 11 skills, 129.2K installs: vue-best-practices (
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/vuejs-ai-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "vue", "pinia", "vue-router", "frontend"]
 ---
 

@@ -4,7 +4,7 @@ description: "When and how to read/write Honcho - the catalog memory-provider pl
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/engineering/honcho-memory-usage/"
 robots: "index,follow"
-last_updated: "2026-11-07"
+last_updated: "2026-11-19"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---

@@ -8,7 +8,7 @@ added: 2026-11-15
 source: "the mcp.so submission queue entry #7414 filed 2026-11-15T02:02:26Z, and a driven session on 2026-11-15 in which all six tools were called over Streamable HTTP, 21 tools/call requests in total"
 relevance: ★★★
 tags: [healthcare, medical-costs, price-transparency, china, hospitals, medical-tourism, keyless, remote, mcp]
-last_updated: "2026-11-15"
+last_updated: "2026-11-19"
 ---
 
 # ChinaMedVisit MCP

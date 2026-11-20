@@ -9,7 +9,7 @@ finds: 5
 guides: 4
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-august13-2026-evening/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["mcp server", "model context protocol", "hermes mcp", "ad analytics", "healthcare", "agent governance", "prompt injection"]
 
 ---

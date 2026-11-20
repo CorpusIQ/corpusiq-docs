@@ -4,7 +4,7 @@ description: "Midday sweep over the mcp.so feed (fresh blocks past the morning c
 
 category: mcp
 tags: [mcp-servers, daily-scan, september-2026]
-last_updated: 2026-11-01
+last_updated: 2026-11-19
 ---
 
 # MCP Server Discovery - September 15, 2026 (Midday Sweep)

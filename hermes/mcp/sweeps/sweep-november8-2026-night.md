@@ -2,7 +2,7 @@
 title: "MCP Server Discovery - November 8, 2026 (Night)"
 description: "A canonical that came back set-identical to 20,000 server URLs, one new mcp.so card, twelve queue arrivals, and one server catalogued because it is a check."
 
-last_updated: 2026-11-08
+last_updated: 2026-11-19
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-november8-2026-night"
 tags: ["mcp server", "model context protocol", "hermes mcp", "sweep"]
 ---

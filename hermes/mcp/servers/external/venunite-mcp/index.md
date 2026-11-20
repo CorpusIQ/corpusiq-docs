@@ -8,7 +8,7 @@ added: 2026-09-09
 source: mcp.so
 relevance: ★★
 tags: [events, local-marketing, venue-data, entertainment, location-data, remote-mcp]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # VenuNite Events MCP

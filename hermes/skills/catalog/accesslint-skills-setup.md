@@ -4,7 +4,7 @@ description: "Setup guide for AccessLint/skills - the official agent skill set f
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/accesslint-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "accessibility", "a11y", "wcag"]
 ---
 

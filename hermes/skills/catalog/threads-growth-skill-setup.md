@@ -4,7 +4,7 @@ description: "Install, configure, and use the threads-growth-skill from reason-m
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/threads-growth-skill-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

@@ -4,7 +4,7 @@ description: "skills.sh evening sweep: Sentry Agent Skills (85.3K, 31), Three.js
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-aug15-2026-evening/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "skill marketplace", "skills.sh", "new skills"]
 sweep_id: "2026-08-15-evening"
 new_publishers: 11

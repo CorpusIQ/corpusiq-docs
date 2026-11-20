@@ -4,7 +4,7 @@ description: "8 newly discovered skills from aradotso/hermes-skills - QQ bot, Me
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-june18-2026-final-sweep/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---

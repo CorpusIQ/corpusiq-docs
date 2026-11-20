@@ -4,7 +4,7 @@ description: "Install and use ClawFu's 175 expert marketing methodologies for AI
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/clawfu-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

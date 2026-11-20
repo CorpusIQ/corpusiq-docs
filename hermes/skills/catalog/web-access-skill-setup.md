@@ -4,7 +4,7 @@ description: "eze-is/web-access - 1 skill, 15.7K installs: unified web access fo
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/web-access-skill-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "web scraping", "browser automation", "web-access"]
 ---
 

@@ -4,7 +4,7 @@ description: "Install and configure Letta Code's 24-skill agent harness for Herm
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/letta-ai-agent-harness-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

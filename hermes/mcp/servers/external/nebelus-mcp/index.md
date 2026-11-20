@@ -8,7 +8,7 @@ added: 2026-09-14
 source: "mcp.so feed (Sep 14 evening, submitted 1h before sweep) + vendor docs at nebelus.ai"
 relevance: ★★
 tags: [regulated-industries, governance, guardrails, grounding, audit, data-residency, eu, ksa, agent-building, oauth, remote-mcp]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # Nebelus MCP

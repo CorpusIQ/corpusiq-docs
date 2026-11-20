@@ -4,7 +4,7 @@ description: "dart-lang/skills - 144.0K installs across 30 skills, official Dart
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/dart-lang-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "dart", "flutter", "testing", "static analysis", "ffi"]
 ---
 

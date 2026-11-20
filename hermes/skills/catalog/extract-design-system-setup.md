@@ -4,7 +4,7 @@ description: "Install arvindrk/extract-design-system (127.3K installs) - extract
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/extract-design-system-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

@@ -13,7 +13,7 @@ tags:
   - growth-analyst-agent
   - funnel-analysis
   - verified-figures
-last_updated: 2026-11-13
+last_updated: 2026-11-19
 canonical: "https://www.corpusiq.io/docs/hermes/agent-pack/growth-analyst/"
 robots: "index,follow"
 ---

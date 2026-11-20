@@ -8,7 +8,7 @@ tags:
   - role-agents
   - connector-grounded
   - verified-figures
-last_updated: 2026-11-14
+last_updated: 2026-11-19
 canonical: "https://www.corpusiq.io/docs/hermes/agent-pack/"
 robots: "index,follow"
 ---

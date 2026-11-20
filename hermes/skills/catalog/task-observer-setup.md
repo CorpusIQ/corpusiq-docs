@@ -4,7 +4,7 @@ description: "rebelytics/one-skill-to-rule-them-all - task-observer, 5.4K instal
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/task-observer-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 tags: ["hermes skill", "agent skill", "skill setup", "meta-skill", "skill improvement", "skill governance"]
 ---
 

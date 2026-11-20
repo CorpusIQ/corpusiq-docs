@@ -8,7 +8,7 @@ added: 2026-09-09
 source: mcpservers.org
 relevance: ★★★
 tags: [social-media, trending, scheduling, tiktok, instagram, marketing, content-research, remote-mcp]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 
 # ViralHunt MCP
