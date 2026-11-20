@@ -1,6 +1,7 @@
 ---
 title: "AI for Sales Reporting - CorpusIQ Docs"
-description: Transform sales reporting with AI. Query Salesforce, HubSpot, Close CRM in natural language. Instant pipeline analysis, rep performance, and forecasting. Read-only MCP integration.
+description: "Transform sales reporting with AI. Query Salesforce, HubSpot, Close CRM in natural language. Instant pipeline analysis, rep performance, and forecasting."
+
 url: /docs/ai-for-sales-reporting
 h1: 'AI for Sales Reporting: Pipeline Intelligence in Real Time'
 category: Business Use Cases

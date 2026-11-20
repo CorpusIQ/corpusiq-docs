@@ -1,6 +1,7 @@
 ---
 title: ToHuman MCP - AI Text Humanization for Content Teams
-description: Official hosted MCP server for the ToHuman humanizer - one humanize tool with four intensity levels (minimal, subtle, medium, heavy), called over a free API key. No storage, no copy-paste.
+description: "Official hosted MCP server for the ToHuman humanizer - one humanize tool with four intensity levels (minimal, subtle, medium, heavy), called over a free API."
+
 category: Content
 stars: n/a (new listing)
 added: 2026-09-09

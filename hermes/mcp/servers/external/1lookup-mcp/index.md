@@ -1,6 +1,7 @@
 ---
 title: "1Lookup MCP - Phone, Email and IP Verification"
-description: "Hosted data verification MCP: validate phone numbers with line type, carrier, and DNC status, verify email deliverability with disposable and role-based flags, and look up IPs with proxy, VPN, and Tor detection. OAuth 2.1, no API keys, credit-based."
+description: "Hosted data verification MCP: validate phone numbers with line type, carrier, and DNC status, verify email deliverability with disposable and role-based."
+
 category: Compliance
 stars: n/a (hosted)
 added: 2026-08-25

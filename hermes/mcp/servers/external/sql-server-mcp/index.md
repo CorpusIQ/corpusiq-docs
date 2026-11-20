@@ -1,6 +1,7 @@
 ---
 title: "SQL Server MCP - Multi-Instance DBA Console"
-description: "Self-hosted MCP server for DBAs and consultants running dozens of SQL Server instances. Grouped connections live in one config file with hot reload, every response names the server that answered, and beyond queries the agent reads execution plans, index layouts and stored-procedure source."
+description: "Self-hosted MCP server for DBAs and consultants running dozens of SQL Server instances. Grouped connections live in one config file with hot reload, every."
+
 category: Database & Data Engineering
 stars: n/a (new listing)
 added: 2026-09-11

@@ -1,6 +1,7 @@
 ---
 title: Adrio MCP - Ad Research and Creative Angles
-description: Remote MCP that lets an assistant search saved ads and swipe files, manage angles and audiences, and run Spark briefs for paid creative testing from inside a chat.
+description: "Remote MCP that lets an assistant search saved ads and swipe files, manage angles and audiences, and run Spark briefs for paid creative testing."
+
 category: Marketing
 stars: n/a (new listing)
 added: 2026-10-04

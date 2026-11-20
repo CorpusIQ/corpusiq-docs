@@ -1,6 +1,7 @@
 ---
 title: Polymarket - Prediction Market Integration Setup
-description: Install and configure polymarket from nousresearch/hermes-agent. Real-world prediction market data for event forecasting, sentiment analysis, and probabilistic reasoning - 273 installs.
+description: "Install and configure polymarket from nousresearch/hermes-agent. Real-world prediction market data for event forecasting, sentiment analysis."
+
 category: hermes-skills
 publisher: nousresearch
 installs: 273

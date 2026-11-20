@@ -1,6 +1,7 @@
 ---
 title: "MCP Sweep - August 13, 2026 (Morning)"
-description: "Morning sweep. Social publishing landscape exploded to 13+ MCP tools. PostHell (15 networks), LLMScout (45+ SEO tools), Mission Control (agent fleet orchestration), OutreachMagic, TimeToPost GEO platform"
+description: "Morning sweep. Social publishing landscape exploded to 13+ MCP tools. PostHell (15 networks), LLMScout (45+ SEO tools), Mission Control (agent fleet."
+
 date: 2026-08-13T08:00:00-07:00
 sources: [github.com, skills.sh, mcpservers.org, pulsemcp.com]
 status: complete

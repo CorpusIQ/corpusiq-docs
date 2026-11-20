@@ -1,6 +1,7 @@
 ---
 title: "Get Ads MCP - 388 Ad Platform Tools for AI Agents"
-description: "Hosted remote MCP server connecting Google Ads, Meta Ads, TikTok Ads, Pinterest Ads, Snapchat Ads, Search Console and GA4 (plus Microsoft Advertising and Reddit Ads) to an AI assistant over one MCP URL. 388 implemented tools with free read-only access, organization-scoped accounts, and write tools that preview the change and apply nothing without confirm: true."
+description: "Hosted remote MCP server connecting Google Ads, Meta Ads, TikTok Ads, Pinterest Ads, Snapchat Ads, Search Console and GA4 (plus Microsoft Advertising."
+
 category: Marketing
 stars: n/a (new listing)
 added: 2026-09-15

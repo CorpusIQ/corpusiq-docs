@@ -1,6 +1,7 @@
 ---
 title: YouSpot MCP
-description: Personal CRM and prospecting layer for AI agents. 64 live-verified MCP tools read and write one person's contacts, companies, notes and files plus connected Gmail, Google Calendar, HubSpot, LinkedIn, Slack, Obsidian and X, with an attention engine that surfaces dormant relationships and follow-ups. OAuth 2.1.
+description: "Personal CRM and prospecting layer for AI agents. 64 live-verified MCP tools read and write one person's contacts, companies, notes and files plus connected."
+
 category: Business Operations
 stars: n/a (no public repo)
 added: 2026-09-05

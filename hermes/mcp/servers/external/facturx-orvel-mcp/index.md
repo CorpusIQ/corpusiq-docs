@@ -1,6 +1,7 @@
 ---
 title: Factur-X by Orvel MCP - Hosted French E-Invoicing for Agents
-description: Hosted e-invoicing MCP server that generates, validates and extracts Factur-X / EN 16931 e-invoices (PDF/A-3, CII, UBL 2.1 with French fr-ctc rules) from any MCP client. EU-hosted with a free tier of 50 documents per month, no card required, and a keyless initialize so agents can inspect the server before choosing a plan.
+description: "Hosted e-invoicing MCP server that generates, validates and extracts Factur-X / EN 16931 e-invoices (PDF/A-3, CII, UBL 2.1 with French fr-ctc rules)."
+
 category: Finance / Accounting
 stars: n/a (hosted service)
 added: 2026-09-04

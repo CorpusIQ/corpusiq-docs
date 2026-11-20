@@ -1,6 +1,7 @@
 ---
 title: "APITube News MCP - CorpusIQ Docs"
-description: News intelligence over MCP - search articles from 500,000+ sources in 60+ languages, filtered by sentiment, entities, topics and source quality. Hosted JSON-RPC endpoint with ready-made monitoring prompts.
+description: "News intelligence over MCP - search articles from 500,000+ sources in 60+ languages, filtered by sentiment, entities, topics and source quality."
+
 category: Content & Media
 stars: n/a (new listing)
 added: 2026-08-16

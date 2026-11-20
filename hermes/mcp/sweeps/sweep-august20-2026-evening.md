@@ -2,7 +2,8 @@
 title: "MCP Discovery Sweep - August 20, 2026 (Evening)"
 date: 2026-08-20
 tags: [mcp-sweep, discovery, catalog]
-description: "chatmcp/mcpso GitHub issues filed Aug 20 10:44 through 16:42 UTC plus mcpservers.org /all JSON-LD page 1 and both directory homepages; 7 catalogued with guides, 4 catalog entries, 15+ skipped"
+description: "chatmcp/mcpso GitHub issues filed Aug 20 10:44 through 16:42 UTC plus mcpservers.org /all JSON-LD page 1 and both directory homepages; 7 catalogued."
+
 last_updated: "2026-11-01"
 ---
 

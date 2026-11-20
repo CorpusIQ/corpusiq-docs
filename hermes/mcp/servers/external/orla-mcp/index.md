@@ -1,6 +1,7 @@
 ---
 title: "Orla MCP - Finance Back Office and Agent Payments"
-description: "Hosted MCP server over Orla: read accounts, transactions, budgets and reports and record reversible bookings from chat, plus a separate agent door whose payments wait for a human signature."
+description: "Hosted MCP server over Orla: read accounts, transactions, budgets and reports and record reversible bookings from chat, plus a separate agent door whose."
+
 category: Finance
 stars: n/a (new listing)
 added: 2026-10-08

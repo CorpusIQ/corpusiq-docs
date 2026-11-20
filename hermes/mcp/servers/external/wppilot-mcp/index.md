@@ -1,6 +1,7 @@
 ---
 title: WPPilot MCP - WordPress, Elementor and WooCommerce
-description: WordPress MCP server as a free plugin. 133 typed abilities cover content, media, menus, plugins and settings, plus 16 free Elementor editing abilities, with WooCommerce MCP in Pro. Capability-governed, draft-first publishing and an audited change ledger.
+description: "WordPress MCP server as a free plugin. 133 typed abilities cover content, media, menus, plugins and settings, plus 16 free Elementor editing abilities."
+
 category: Business Operations
 stars: n/a (new listing)
 added: 2026-09-06

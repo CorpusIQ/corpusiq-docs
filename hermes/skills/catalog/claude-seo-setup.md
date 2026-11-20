@@ -1,6 +1,7 @@
 ---
 title: Claude SEO - 31-Skill Universal SEO Suite Setup
-description: "AgriciDaniel/claude-seo - 31 Agent Skills covering technical SEO, E-E-A-T content, schema, GEO/AEO, backlinks, local, ecommerce, and international SEO with 25 sub-skills and 18 sub-agents. 160K+ skills.sh installs, 16.6K-star repo."
+description: "AgriciDaniel/claude-seo - 31 Agent Skills covering technical SEO, E-E-A-T content, schema, GEO/AEO, backlinks, local, ecommerce, and international SEO."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/claude-seo-setup/"
 robots: "index,follow"
 last_updated: "2026-11-01"

@@ -1,7 +1,8 @@
 ---
 title: "CorpusIQ Growth Analyst Agent"
 name: "CorpusIQ Growth Analyst"
-description: "Reads the acquisition funnel from connected systems and reports where it leaks, with a sourced number at every step. If a connector is down, it says so and stops."
+description: "Reads the acquisition funnel from connected systems and reports where it leaks, with a sourced number at every step."
+
 tools: "CorpusIQ MCP tools (ask_corpusiq, ga4_connector, search_console_connector, google_ads_connector, meta_ads_connector, linkedin_ads_connector, posthog_connector, klaviyo_connector, mailchimp_connector, stripe_connector)"
 color: "#0A2540"
 emoji: "📈"

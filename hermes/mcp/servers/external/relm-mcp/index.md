@@ -1,6 +1,7 @@
 ---
 title: "Relm MCP - API-First CRM for AI Agents"
-description: "Official MCP server from Relm: 41 typed tools over contacts, companies, deals, pipelines, automations, sequences, templates and webhooks with OAuth 2.1 or bearer keys, sandboxed test mode, and errors that tell agents what to fix."
+description: "Official MCP server from Relm: 41 typed tools over contacts, companies, deals, pipelines, automations, sequences, templates and webhooks with OAuth 2.1."
+
 category: Sales
 stars: "n/a (no public repo)"
 added: 2026-08-30

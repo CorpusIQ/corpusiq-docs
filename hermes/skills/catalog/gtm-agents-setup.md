@@ -1,6 +1,7 @@
 ---
 title: "GTM Agents - Go-to-Market & Sales Methodology"
-description: Cold outreach, scriptwriting, procurement playbooks, technical bid libraries, SEO writing, and fraud detection. 1.4K+ combined installs across 6 GTM-focused skills.
+description: "Cold outreach, scriptwriting, procurement playbooks, technical bid libraries, SEO writing, and fraud detection."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/gtm-agents-setup/"
 robots: "index,follow"
 last_updated: "2026-11-01"

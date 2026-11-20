@@ -1,6 +1,7 @@
 ---
 title: "StayingAPI MCP - Cross-OTA Accommodation Data for Agents"
-description: "StayingAPI Hotel and Accommodation MCP gives AI agents first-class tools over accommodation data across Airbnb, Booking.com, Vrbo and Google Hotels in one unified schema. Seven read-only tools cover stay search, day-by-day availability, listing details, real price quotes, cross-OTA price comparison, normalized reviews and async job polling. OAuth 2.1 PKCE with Dynamic Client Registration."
+description: "StayingAPI Hotel and Accommodation MCP gives AI agents first-class tools over accommodation data across Airbnb, Booking.com, Vrbo and Google Hotels in one."
+
 category: Data & Analytics
 stars: n/a (new listing)
 added: 2026-09-12

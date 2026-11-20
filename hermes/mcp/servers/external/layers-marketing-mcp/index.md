@@ -1,6 +1,7 @@
 ---
 title: "Layers Growth MCP - TikTok Growth Loop for Agents"
-description: "Hosted MCP that runs a TikTok growth loop from a repository: a standing map of competitor accounts, an evidence-ranked queue of content tests, an editable plan for the next test, delivery to a TikTok draft inbox and recorded results. Every charge is quoted before it happens; posting, spending and billing changes wait for a human click."
+description: "Hosted MCP that runs a TikTok growth loop from a repository: a standing map of competitor accounts, an evidence-ranked queue of content tests, an editable."
+
 category: Marketing
 stars: "n/a (new listing, layers/mcp)"
 added: 2026-09-01

@@ -1,6 +1,7 @@
 ---
 title: Encited MCP - SEO and AI Visibility for Agents
-description: Hosted MCP for Google Search Console mining, technical SEO audits and AI answer-engine visibility. Agents surface CTR gaps, decaying pages and cannibalization, pull the fan-out queries behind ChatGPT and Perplexity answers, and turn citation gaps into page-by-page content plans. OAuth sign-in, free tier to start.
+description: "Hosted MCP for Google Search Console mining, technical SEO audits and AI answer-engine visibility."
+
 category: SEO
 stars: n/a (new listing)
 added: 2026-09-06

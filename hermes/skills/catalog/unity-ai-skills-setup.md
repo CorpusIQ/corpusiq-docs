@@ -1,6 +1,7 @@
 ---
 title: Unity AI Skills - Official 29-Skill Game Dev Suite
-description: "Unity-Technologies/skills - 29 first-party Agent Skills for Unity workflows: project bootstrap, package management, builds, UI, graphics, multiplayer, monetization. 56.8K skills.sh installs. Setup guide for Hermes agents."
+description: "Unity-Technologies/skills - 29 first-party Agent Skills for Unity workflows: project bootstrap, package management, builds, UI, graphics, multiplayer."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/unity-ai-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-11-01"

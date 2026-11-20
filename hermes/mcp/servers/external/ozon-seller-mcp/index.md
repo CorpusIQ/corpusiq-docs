@@ -1,6 +1,7 @@
 ---
 title: "Ozon Seller MCP"
-description: "MCP server for Ozon marketplace operations - 151 tools over the Ozon Seller API and Performance API covering prices, promotions, advertising, orders, returns, reviews and finance across multiple seller accounts. MIT, Python, stdio or SSE transport."
+description: "MCP server for Ozon marketplace operations - 151 tools over the Ozon Seller API and Performance API covering prices, promotions, advertising, orders."
+
 category: "Commerce & E-Commerce"
 stars: 2
 added: 2026-08-23

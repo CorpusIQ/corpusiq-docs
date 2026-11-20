@@ -1,6 +1,7 @@
 ---
 title: "smtp-mcp - Guardrailed Outbound Email over SMTP for Agents"
-description: "smtp-mcp is the outbound half of the ni-c email suite: an MCP client can send, reply to and forward mail from one configured address over plain SMTP submission, gated by a required recipient allowlist, a default-off send switch and per-message human approval through MCP elicitation. TypeScript stdio server, MIT."
+description: "smtp-mcp is the outbound half of the ni-c email suite: an MCP client can send, reply to and forward mail from one configured address over plain SMTP."
+
 category: Communication & Email
 stars: 0
 added: 2026-09-07

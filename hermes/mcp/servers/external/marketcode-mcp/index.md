@@ -1,6 +1,7 @@
 ---
 title: MarketCode MCP - UK Property Intelligence for Agents
-description: Value any UK address, read market liquidity and price levels, source land and off-market stock, and screen auction distress through one hosted property-data endpoint.
+description: "Value any UK address, read market liquidity and price levels, source land and off-market stock, and screen auction distress through one hosted property-data."
+
 category: Real Estate
 stars: n/a (new listing)
 added: 2026-09-02

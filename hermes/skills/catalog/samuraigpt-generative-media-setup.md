@@ -1,6 +1,7 @@
 ---
 title: "Generative Media Skills - AI Video, Logo & Design"
-description: Six generative media skills for brand-aware video creation, logo design, UI generation, cinema direction, and social media video production. 10K+ combined installs. Uses Seedance 2.0 for video.
+description: "Six generative media skills for brand-aware video creation, logo design, UI generation, cinema direction, and social media video production."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/samuraigpt-generative-media-setup/"
 robots: "index,follow"
 last_updated: "2026-11-01"

@@ -1,6 +1,7 @@
 ---
 title: "SignalEDI MCP - X12 EDI Workflows for Agents"
-description: "Developer MCP server from SignalEDI that connects AI assistants to X12 EDI integration work: public docs discovery, synthetic fixtures, parse and validate 850/810/856/837P transactions, and profile-gated sandbox or production connections with least-privilege scopes and QuickBooks adapters."
+description: "Developer MCP server from SignalEDI that connects AI assistants to X12 EDI integration work: public docs discovery, synthetic fixtures, parse and validate."
+
 category: ERP
 stars: n/a (new listing)
 added: 2026-09-11

@@ -1,6 +1,7 @@
 ---
 title: "Strac MCP DLP - Sensitive Data Redaction for AI Agents"
-description: Detect and redact PII, PHI, PCI and secrets - SSNs, cards, passports, API keys and cloud credentials - in text and local files before they reach the model, using the Strac DLP API classification engine inside any MCP client
+description: "Detect and redact PII, PHI, PCI and secrets - SSNs, cards, passports, API keys and cloud credentials - in text and local files before they reach the model."
+
 category: Security
 stars: n/a (new listing)
 added: 2026-09-03

@@ -1,6 +1,7 @@
 ---
 title: "0xinsider MCP - Polymarket Trader Analytics for Agents"
-description: "0xinsider is Polymarket analytics for sports and esports in real time, exposed to agents over a Streamable HTTP MCP endpoint with Bearer auth and an npm stdio client. The 57-operation OpenAPI surface covers market intel and candles, trader profiles and PnL, leaderboards, large positions, whale trades, sharp and smart money flows, insider-radar flags and durable event replay."
+description: "0xinsider is Polymarket analytics for sports and esports in real time, exposed to agents over a Streamable HTTP MCP endpoint with Bearer auth and an npm."
+
 category: Finance
 stars: n/a (new listing)
 added: 2026-09-12

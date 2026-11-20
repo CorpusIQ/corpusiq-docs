@@ -1,6 +1,7 @@
 ---
 title: CampaignStack MCP - Safe LinkedIn and Email Outreach
-description: Run LinkedIn and email outreach from Claude with daily action budgets, per-account proxies, ICP scoring and a human approval queue before anything sends - 90+ tools over one endpoint.
+description: "Run LinkedIn and email outreach from Claude with daily action budgets, per-account proxies, ICP scoring and a human approval queue before anything sends."
+
 category: Sales & Outreach
 stars: n/a (new listing)
 added: 2026-09-02

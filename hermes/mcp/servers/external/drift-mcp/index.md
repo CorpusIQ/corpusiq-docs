@@ -1,6 +1,7 @@
 ---
 title: "drift MCP - Pre-Action Mandate Enforcement for AI Agents"
-description: "Apache-2.0 MCP server that re-checks every agent action against a signed payment mandate before it happens: six rules in fixed order, deny-by-default, tamper-evident chain fingerprint."
+description: "Apache-2.0 MCP server that re-checks every agent action against a signed payment mandate before it happens: six rules in fixed order, deny-by-default."
+
 category: Compliance
 stars: 0
 added: 2026-10-19

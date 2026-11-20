@@ -1,6 +1,7 @@
 ---
 title: TuFirma MCP - Spanish Electronic Signatures
-description: "Official remote MCP server from TuFirma: 24 tools over the public API let AI assistants consult documents and templates, create signature flows, upload PDFs and sign, send or cancel documents with scoped API-key auth."
+description: "Official remote MCP server from TuFirma: 24 tools over the public API let AI assistants consult documents and templates, create signature flows, upload PDFs."
+
 category: Business Operations
 stars: "n/a (no public repo)"
 added: 2026-08-29

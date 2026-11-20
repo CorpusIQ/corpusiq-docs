@@ -1,6 +1,7 @@
 ---
 title: "aiworker-data MCP - x402 Pay-Per-Call Market Data for Agents"
-description: "aiworker-data is a deterministic-first remote MCP server paid per call in USDC over x402 v2, no account or API key. 20 live-probed tools cover DeFi yields and protocol snapshots, Base token safety cards and wallet checks, Polymarket odds, resolution checks, backtests and screeners, crypto news search, Hacker News social mentions, claim checking and sourced briefs, priced $0.005 to $1 per call."
+description: "aiworker-data is a deterministic-first remote MCP server paid per call in USDC over x402 v2, no account or API key."
+
 category: Data & Analytics
 stars: n/a (new listing)
 added: 2026-09-12

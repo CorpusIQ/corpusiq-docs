@@ -1,6 +1,7 @@
 ---
 title: "Epovest MCP: AI Visibility Measurement for Businesses"
-description: "Official hosted MCP server for Epovest - measure how AI assistants answer your market's questions, which sources they cite, and the levers that shape those answers. Canon management, tracker results, response archives, surface checklists, source atlas and corroborations. OAuth 2.1 PKCE or API key."
+description: "Official hosted MCP server for Epovest - measure how AI assistants answer your market's questions, which sources they cite, and the levers that shape."
+
 category: SEO
 stars: n/a (hosted; repo 0 stars)
 added: 2026-08-23

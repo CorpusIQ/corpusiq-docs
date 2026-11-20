@@ -1,6 +1,7 @@
 ---
 title: "Fillo MCP - Headless Form Infrastructure for AI Agents"
-description: "Official MCP server for Fillo headless form infrastructure: provision workspaces, build and publish forms, and read responses, with forms rendering natively via React and DOM SDKs instead of iframes, MIT licensed"
+description: "Official MCP server for Fillo headless form infrastructure: provision workspaces, build and publish forms, and read responses, with forms rendering natively."
+
 category: Operations
 stars: n/a (new listing)
 added: 2026-08-18

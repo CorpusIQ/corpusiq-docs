@@ -1,6 +1,7 @@
 ---
 title: Hermes Dojo - Self-Improvement System Setup Guide
-description: Install and configure the Hermes Dojo self-improvement system that monitors agent performance, finds weak skills, fixes them via self-evolution, and reports results.
+description: "Install and configure the Hermes Dojo self-improvement system that monitors agent performance, finds weak skills, fixes them via self-evolution, and reports."
+
 publisher: yonkoo11/hermes-dojo
 stars: 138
 installs: 27

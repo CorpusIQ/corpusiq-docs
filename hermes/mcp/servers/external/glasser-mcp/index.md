@@ -1,6 +1,7 @@
 ---
 title: "Glasser MCP - Pay-Per-Use Data APIs for AI Agents"
-description: "Glasser gives AI agents one hosted MCP endpoint in front of paid data APIs: company and person enrichment, email verification, SEO research and web search, run from a shared Workspace balance with OAuth or key auth. Seven static tools cover search, price inspection, runs and balance."
+description: "Glasser gives AI agents one hosted MCP endpoint in front of paid data APIs: company and person enrichment, email verification, SEO research and web search."
+
 category: Data & Analytics
 stars: n/a (new listing)
 added: 2026-09-15

@@ -1,6 +1,7 @@
 ---
 title: "MCP Sweep - August 13, 2026 (Midday)"
-description: "Midday sweep. 8 new servers catalogued, 7 guides. Approval gates became the default architecture (BusyMail, Shipstar, OnePostly, DialNexa); voice AI gained a full-platform MCP (DialNexa); EU procurement surfaced (TED Tender Monitor)"
+description: "Midday sweep. 8 new servers catalogued, 7 guides. Approval gates became the default architecture (BusyMail, Shipstar, OnePostly, DialNexa); voice AI gained."
+
 date: 2026-08-13T11:00:00-07:00
 sources: [mcpservers.org, mcp.so, github.com]
 status: complete

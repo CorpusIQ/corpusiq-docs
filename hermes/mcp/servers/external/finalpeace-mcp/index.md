@@ -1,6 +1,7 @@
 ---
 title: "FinalPeace MCP - US Estate Document Requirements for Agents"
-description: "MCP server for FinalPeace, an end-of-life planning platform: look up statute-cited document execution requirements for all 50 US states, get a 27-step after-a-loss checklist ordered by urgency, and run an estate-planning gap assessment. Anonymous free tier, OAuth 2.1 member tier."
+description: "MCP server for FinalPeace, an end-of-life planning platform: look up statute-cited document execution requirements for all 50 US states, get a 27-step."
+
 category: IP/Legal
 stars: n/a (new listing)
 added: 2026-08-22

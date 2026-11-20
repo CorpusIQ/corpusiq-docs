@@ -1,6 +1,7 @@
 ---
 title: "AI for Executive Reporting - CorpusIQ Docs"
-description: Transform executive reporting with AI. Generate board-ready reports from live data across all business systems. Instant business health summaries, financial analysis, and performance metrics.
+description: "Transform executive reporting with AI. Generate board-ready reports from live data across all business systems."
+
 url: /docs/ai-for-executive-reporting
 h1: 'AI for Executive Reporting: Instant Board-Ready Intelligence'
 category: Business Use Cases

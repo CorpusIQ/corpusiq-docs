@@ -1,6 +1,7 @@
 ---
 title: "stocks.team MCP - Point-in-Time SEC Filing Facts for Agents"
-description: "stocks.team exposes point-in-time SEC filing facts to AI agents through a native MCP adapter and REST API with cryptographic provenance. 47 documented operations cover filings, financial metrics and statements, market valuations, insider trades, institutional holdings, executive compensation, segment reporting and material events, each answer carrying the exact SEC source locator."
+description: "stocks.team exposes point-in-time SEC filing facts to AI agents through a native MCP adapter and REST API with cryptographic provenance."
+
 category: Finance
 stars: n/a (new listing)
 added: 2026-09-12

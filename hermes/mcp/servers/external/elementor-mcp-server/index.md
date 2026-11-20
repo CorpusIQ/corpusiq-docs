@@ -1,6 +1,7 @@
 ---
 title: Elementor MCP Server - WordPress Website Automation
-description: Open-source Elementor MCP Server for WordPress (GPL). Connect Claude, ChatGPT, Codex or Cursor to build, edit, inspect and automate Elementor sites with 41 free Elementor Core abilities plus typed WordPress content, media, settings and administration workflows with capability checks and confirmations.
+description: "Open-source Elementor MCP Server for WordPress (GPL). Connect Claude, ChatGPT, Codex or Cursor to build, edit, inspect and automate Elementor sites."
+
 category: Business Operations
 stars: n/a (new listing)
 added: 2026-09-06

@@ -1,6 +1,7 @@
 ---
 title: New Skills Discovered - June 28, 2026
-description: 17 new skills discovered across the OpenClaw, GBrain, and Hermes ecosystems - email integration, security hardening, stock analysis tools, auto-updaters, and more.
+description: "17 new skills discovered across the OpenClaw, GBrain, and Hermes ecosystems - email integration, security hardening, stock analysis tools, auto-updaters."
+
 last_updated: 2026-11-01
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-june28-2026-update/"
 robots: "index,follow"

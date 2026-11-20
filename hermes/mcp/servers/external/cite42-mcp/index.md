@@ -1,6 +1,7 @@
 ---
 title: "Cite42 MCP - AI Search Visibility Tracking for AI Agents"
-description: "MCP server with 26 tools for tracking brand rankings, AI citations and competitor presence across ChatGPT, Claude, Perplexity, Gemini and Google AI Overviews. Covers AI search, rankings, competitor compare, citations, sentiment, SEO keywords, search trends, Reddit and YouTube trends, plus scheduled trackers and stored run history. npx stdio client, API key auth, $1 free start."
+description: "MCP server with 26 tools for tracking brand rankings, AI citations and competitor presence across ChatGPT, Claude, Perplexity, Gemini and Google AI."
+
 category: SEO
 stars: n/a (new listing)
 added: 2026-09-15

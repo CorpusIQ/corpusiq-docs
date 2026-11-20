@@ -1,6 +1,7 @@
 ---
 title: Modelglass MCP - Live AI Model Pricing and Routing
-description: Hosted MCP server over live AI model pricing and capability data - ask about model costs, compare providers and get routing recommendations for image, language, video and audio models from inside Claude Code or VS Code.
+description: "Hosted MCP server over live AI model pricing and capability data - ask about model costs, compare providers and get routing recommendations for image."
+
 category: AI Operations
 stars: n/a (new listing)
 added: 2026-09-09

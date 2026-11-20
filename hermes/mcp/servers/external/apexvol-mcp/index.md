@@ -1,6 +1,7 @@
 ---
 title: "ApexVol MCP - CorpusIQ Docs"
-description: Options analytics over MCP - options chains, IV rank, Greeks, GEX, expected moves and screeners, 56 endpoints on one Pro API token, self-hosted client or remote connector.
+description: "Options analytics over MCP - options chains, IV rank, Greeks, GEX, expected moves and screeners, 56 endpoints on one Pro API token, self-hosted client."
+
 category: Finance
 stars: n/a (new listing)
 added: 2026-08-15

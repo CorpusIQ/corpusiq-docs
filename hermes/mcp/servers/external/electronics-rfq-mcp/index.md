@@ -1,6 +1,7 @@
 ---
 title: "Electronics RFQ Agent MCP: RFQ-to-Quote ERP Automation"
-description: "Python CLI and MCP server that reads electronics RFQ documents in PDF, Excel or Word, looks up every line item against an ERP catalog, and outputs a draft quote with a fill-rate audit. Connects to SAP, Epicor, Oracle and Microsoft Dynamics through MCP; tools include quote_rfq, audit_quote, check_inventory, get_part and get_price. MIT licensed."
+description: "Python CLI and MCP server that reads electronics RFQ documents in PDF, Excel or Word, looks up every line item against an ERP catalog, and outputs a draft."
+
 category: ERP
 stars: n/a (new listing)
 added: 2026-08-24

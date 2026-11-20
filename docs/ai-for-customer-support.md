@@ -1,6 +1,7 @@
 ---
 title: "AI for Customer Support - CorpusIQ Docs"
-description: Transform customer support with AI. Query tickets, CRM, billing, and product data in natural language. Faster resolution, proactive support, and cross-source customer intelligence.
+description: "Transform customer support with AI. Query tickets, CRM, billing, and product data in natural language."
+
 url: /docs/ai-for-customer-support
 h1: 'AI for Customer Support: Smarter, Faster Customer Intelligence'
 category: Business Use Cases

@@ -1,6 +1,7 @@
 ---
 title: Agent Bridge - Agent Interoperability Setup
-description: "Skills from coreyhaines31/marketingskills at skills.sh - agent-bridge for agent interoperability and handoff between different agent systems. 689 github skills related."
+description: "Skills from coreyhaines31/marketingskills at skills.sh - agent-bridge for agent interoperability and handoff between different agent systems."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/agent-bridge-setup/"
 robots: "index,follow"
 last_updated: "2026-11-01"

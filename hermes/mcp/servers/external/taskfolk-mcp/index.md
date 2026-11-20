@@ -1,6 +1,7 @@
 ---
 title: "Taskfolk MCP - Project Management for Teams and AI Agents"
-description: "First-party remote MCP server from Taskfolk exposing the same roughly 180-operation workspace surface as its REST API (issues, projects, sprints, comments, agents) to AI agents, with scoped API keys, webhooks, and per-call usage and audit views"
+description: "First-party remote MCP server from Taskfolk exposing the same roughly 180-operation workspace surface as its REST API (issues, projects, sprints, comments."
+
 category: Productivity
 stars: n/a (new listing)
 added: 2026-08-20

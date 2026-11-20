@@ -1,6 +1,7 @@
 ---
 title: Loop Maker - Agent Loop Scaffolding Setup Guide
-description: Install and configure EricTechPro/loop-maker - cross-harness agent skill that interviews you and scaffolds a self-running autonomous loop with verifier, state file, and human gate
+description: "Install and configure EricTechPro/loop-maker - cross-harness agent skill that interviews you and scaffolds a self-running autonomous loop with verifier."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/loop-maker-setup/"
 robots: "index,follow"
 last_updated: "2026-11-01"

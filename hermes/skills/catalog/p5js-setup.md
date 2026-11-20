@@ -1,6 +1,7 @@
 ---
 title: p5js - Creative Coding & Generative Art Setup
-description: Install and configure p5js from nousresearch/hermes-agent. Creative coding library skill for generative art, interactive visuals, and algorithmic design - 321 installs.
+description: "Install and configure p5js from nousresearch/hermes-agent. Creative coding library skill for generative art, interactive visuals, and algorithmic design."
+
 category: hermes-skills
 publisher: nousresearch
 installs: 321

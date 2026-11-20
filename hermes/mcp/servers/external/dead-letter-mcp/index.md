@@ -1,6 +1,7 @@
 ---
 title: "dead-letter MCP - Email Archives an Agent Can Actually Read"
-description: "Converts exported .eml and .mbox mail, Gmail Takeout included, into Markdown with YAML front matter: five stdio tools measured end to end, an honest conversion sample, and a noncommercial licence that decides the use case before the install does"
+description: "Converts exported .eml and .mbox mail, Gmail Takeout included, into Markdown with YAML front matter: five stdio tools measured end to end, an honest."
+
 category: "Communication"
 stars: "8 (GitHub, 2026-11-11)"
 added: 2026-11-11

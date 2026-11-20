@@ -1,6 +1,7 @@
 ---
 title: Helixar MCP - Supply-Chain Security Scanning for MCP Servers
-description: Agentic-AI security tools exposed as an MCP server. Scan any MCP server against 26 Sentinel detection rules before installing it, validate HDP delegation chains against the IETF draft, and run ReleaseGuard artifact checks. Public no-auth endpoint with two remote tools confirmed by live probe plus a third stdio-only tool.
+description: "Agentic-AI security tools exposed as an MCP server. Scan any MCP server against 26 Sentinel detection rules before installing it, validate HDP delegation."
+
 category: Security
 stars: n/a (new listing)
 added: 2026-09-04

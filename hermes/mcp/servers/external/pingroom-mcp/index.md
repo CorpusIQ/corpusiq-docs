@@ -1,6 +1,7 @@
 ---
 title: PingRoom MCP - Human Decisions and Notifications for Agents
-description: "Hosted MCP server that lets agents reach humans: mobile pings with locations and attachments, tappable questions, approval requests, handoffs and lock-screen live progress. 41 tools confirmed by live probe, OAuth 2.1 with PKCE and dynamic client registration, long-polling inbound channels, and an active official MCP registry entry."
+description: "Hosted MCP server that lets agents reach humans: mobile pings with locations and attachments, tappable questions, approval requests, handoffs and lock-screen."
+
 category: Productivity
 stars: n/a (hosted; client repo)
 added: 2026-09-04

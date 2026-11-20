@@ -1,6 +1,7 @@
 ---
 title: Airside Labs Aviation Tools MCP - Provenance-Backed Aviation
-description: Hosted MCP server with 22 tools that resolve airports, airlines, aircraft types, registrations and flight designators to canonical entities with confidence, alternates, validity dates and per-field provenance, plus airport facts cited to public documents and a 6,700-case aviation AI use-case atlas screened against the EASA AI framework.
+description: "Hosted MCP server with 22 tools that resolve airports, airlines, aircraft types, registrations and flight designators to canonical entities with confidence."
+
 category: Location Data
 stars: n/a (new listing)
 added: 2026-09-10

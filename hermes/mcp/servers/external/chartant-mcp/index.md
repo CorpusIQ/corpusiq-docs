@@ -1,6 +1,7 @@
 ---
 title: "ChartAnt MCP - Charts and Maps as Image Links"
-description: "A keyless MCP server that turns data into 45 chart types, country and county maps and multi-panel dashboards, returning a PNG link plus editable PowerPoint and Excel files."
+description: "A keyless MCP server that turns data into 45 chart types, country and county maps and multi-panel dashboards, returning a PNG link plus editable PowerPoint."
+
 category: "Analytics / Data Visualization"
 stars: "0 (hosted, closed source; 51 tools, keyless, 9 of them driven)"
 added: 2026-11-15

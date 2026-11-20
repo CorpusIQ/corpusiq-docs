@@ -1,6 +1,7 @@
 ---
 title: Superdesign Skill - Canvas Design & Inspiration Setup
-description: "superdesigndev/superdesign-skill - superdesign (8.0K installs): find design inspirations and generate/iterate design drafts on an infinite canvas via the Superdesign CLI; repo analysis, live-site extraction, and graphic asset modes. Socket Warn, Snyk Fail."
+description: "superdesigndev/superdesign-skill - superdesign (8.0K installs): find design inspirations and generate/iterate design drafts on an infinite canvas."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/superdesign-skill-setup/"
 robots: "index,follow"
 last_updated: "2026-11-01"

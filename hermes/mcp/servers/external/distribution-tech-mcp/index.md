@@ -1,6 +1,7 @@
 ---
 title: "distribution.tech MCP - Book X Creator Posts From the Chat"
-description: "A creator distribution marketplace exposed as tools: find the X creators your buyers follow, price a post before you commit, sign a plan inside a spending mandate, and get proof for every placement. Guest tier needs no key."
+description: "A creator distribution marketplace exposed as tools: find the X creators your buyers follow, price a post before you commit, sign a plan inside a spending."
+
 category: Marketing and Growth
 stars: n/a (marketplace, per-placement pricing)
 added: 2026-10-31

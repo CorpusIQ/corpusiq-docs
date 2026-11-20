@@ -1,6 +1,7 @@
 ---
 title: "NoClick MCP - Workflow Automation for AI Assistants"
-description: "Hosted MCP server that lets an AI assistant build, edit, run, and debug NoClick workflows through 47 tools - workflows, checkpoints, node configuration, executions, credentials, and skills - plus a visual builder that turns 150+ apps into a hosted MCP server."
+description: "Hosted MCP server that lets an AI assistant build, edit, run, and debug NoClick workflows through 47 tools - workflows, checkpoints, node configuration."
+
 category: Productivity
 stars: n/a (new listing, github.com/noclickapp/noclick)
 added: 2026-08-29

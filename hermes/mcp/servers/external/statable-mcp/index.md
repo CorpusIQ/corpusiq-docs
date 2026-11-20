@@ -1,6 +1,7 @@
 ---
 title: "Statable MCP - Cookieless Web Analytics for Agents"
-description: "Remote MCP server for Statable, privacy-first cookieless web analytics hosted in the EU. 25 tools cover visitors, pages, traffic sources, UTM breakdowns, countries, goals, funnels and live traffic over OAuth, so an assistant answers site-analytics questions without a dashboard. Endpoint mcp.statable.com/mcp; stdio via npx @statable/mcp with an API key."
+description: "Remote MCP server for Statable, privacy-first cookieless web analytics hosted in the EU. 25 tools cover visitors, pages, traffic sources, UTM breakdowns."
+
 category: Data & Analytics
 stars: n/a (new listing)
 added: 2026-09-14

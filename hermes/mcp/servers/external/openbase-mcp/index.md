@@ -1,6 +1,7 @@
 ---
 title: OpenBase MCP - French Company Data for Agents
-description: Query 20.5 million French companies - identity, financials, directors, legal notices, public contracts and court rulings - through a free keyless 14-tool MCP endpoint.
+description: "Query 20.5 million French companies - identity, financials, directors, legal notices, public contracts and court rulings - through a free keyless 14-tool MCP."
+
 category: Business Operations
 stars: n/a (new listing)
 added: 2026-09-02

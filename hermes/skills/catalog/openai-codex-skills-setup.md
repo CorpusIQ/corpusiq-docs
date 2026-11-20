@@ -1,6 +1,7 @@
 ---
 title: OpenAI Codex Skills - Official Skills Catalog
-description: OpenAI's official skills catalog for Codex CLI - PDF generation, CI/CD fixes, security auditing, Playwright testing, and Figma design implementation. 38K+ combined installs.
+description: "OpenAI's official skills catalog for Codex CLI - PDF generation, CI/CD fixes, security auditing, Playwright testing, and Figma design implementation."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/openai-codex-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-11-01"

@@ -1,6 +1,7 @@
 ---
 title: "Rus.sh MCP - Short Links, QR Codes and Click Analytics"
-description: "Create, find, pause and track short links and QR codes from Claude, ChatGPT or Cursor over OAuth 2.1, with per-connector permission approval and no permanent delete."
+description: "Create, find, pause and track short links and QR codes from Claude, ChatGPT or Cursor over OAuth 2.1, with per-connector permission approval and no permanent."
+
 category: Marketing / Link Management
 stars: n/a (works on every plan including Free)
 added: 2026-10-26

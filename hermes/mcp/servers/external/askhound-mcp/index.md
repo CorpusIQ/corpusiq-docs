@@ -1,6 +1,7 @@
 ---
 title: "AskHound MCP - Find People Asking for What You Sell"
-description: "Demand discovery over MCP: search Hacker News, Stack Exchange, Bluesky and GitHub for people describing the problem you solve, score intent, track packs over time and mark each conversation replied, skipped or seen."
+description: "Demand discovery over MCP: search Hacker News, Stack Exchange, Bluesky and GitHub for people describing the problem you solve, score intent, track packs."
+
 category: "Marketing / Demand Discovery"
 stars: n/a (new listing)
 added: 2026-10-18

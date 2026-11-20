@@ -1,6 +1,7 @@
 ---
 title: "FormLM MCP - AI Form and Assessment Building for Agents"
-description: "Official CLI and MCP server for the FormLM platform. Agents build smart forms, scoring quizzes and evaluation reports from natural language with six layered tools (generate, snapshot, skill, exec) and six SKILL.md domain resources. npm package, MIT, stdio."
+description: "Official CLI and MCP server for the FormLM platform. Agents build smart forms, scoring quizzes and evaluation reports from natural language with six layered."
+
 category: "Productivity"
 stars: 1 (new repo)
 added: 2026-09-12

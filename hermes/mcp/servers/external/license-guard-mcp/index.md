@@ -1,6 +1,7 @@
 ---
 title: LicenseGuard MCP - License Compliance Verdicts
-description: "MCP server that evaluates open-source dependency licenses against how you ship your software: SaaS, on-prem, or internal - with clause-cited verdicts, manifest and lockfile audits, and a hosted no-auth endpoint"
+description: "MCP server that evaluates open-source dependency licenses against how you ship your software: SaaS, on-prem, or internal - with clause-cited verdicts."
+
 category: Compliance & Regulatory
 stars: n/a (new listing)
 added: 2026-08-20

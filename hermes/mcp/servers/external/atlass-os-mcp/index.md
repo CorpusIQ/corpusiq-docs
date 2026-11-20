@@ -1,6 +1,7 @@
 ---
 title: "ATLASS OS MCP - CorpusIQ Docs"
-description: Field-service business platform with a native MCP surface - CRM, scheduling, double-entry books, GST, payroll, payables, and inventory as 58 scoped, audited agent tools
+description: "Field-service business platform with a native MCP surface - CRM, scheduling, double-entry books, GST, payroll, payables, and inventory as 58 scoped, audited."
+
 category: ERP
 stars: n/a (no public repo)
 added: 2026-08-12

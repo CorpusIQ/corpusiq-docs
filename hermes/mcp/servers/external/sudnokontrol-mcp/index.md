@@ -1,6 +1,7 @@
 ---
 title: "SudnoKontrol MCP: Ukrainian Vessel Registry Search"
-description: "Keyless read-only MCP server over the Ukrainian national vessel registries: search vessels by registration number, name, or owner, pull full registry records, and query aggregate statistics. Every result links to an official registry excerpt with QR verification."
+description: "Keyless read-only MCP server over the Ukrainian national vessel registries: search vessels by registration number, name, or owner, pull full registry."
+
 category: Compliance & Regulatory
 stars: n/a (new listing)
 added: 2026-08-24

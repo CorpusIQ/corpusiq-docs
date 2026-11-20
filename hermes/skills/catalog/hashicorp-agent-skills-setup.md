@@ -1,6 +1,7 @@
 ---
 title: "HashiCorp Agent Skills - Terraform & Packer"
-description: HashiCorp's official agent skills collection - Terraform and Packer workflows for infrastructure-as-code. 3.2K+ installs with agent-native infrastructure provisioning patterns.
+description: "HashiCorp's official agent skills collection - Terraform and Packer workflows for infrastructure-as-code."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hashicorp-agent-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-11-01"

@@ -1,6 +1,7 @@
 ---
 title: "Apidojo Agent Skills - 100-Skill Social & Market Data"
-description: "apidojo-io/apidojo-skills - 100 Agent Skills for social scraping and market research via Apify actors: 24 data primitives + 76 intent workflows for creator discovery, brand monitoring, and lead gen. 21K skills.sh installs. Setup guide for Hermes agents."
+description: "apidojo-io/apidojo-skills - 100 Agent Skills for social scraping and market research via Apify actors: 24 data primitives + 76 intent workflows for creator."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/apidojo-agent-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-11-01"

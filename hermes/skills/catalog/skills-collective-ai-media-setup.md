@@ -1,6 +1,7 @@
 ---
 title: "Skills Collective AI Media - Image & Video Generation"
-description: AI image generation, image-to-video conversion, and video editing. 100K+ combined installs across 2 new skills from skills-collective (plus ai-video-generation already catalogued).
+description: "AI image generation, image-to-video conversion, and video editing. 100K+ combined installs across 2 new skills from skills-collective (plus."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/skills-collective-ai-media-setup/"
 robots: "index,follow"
 last_updated: "2026-11-01"

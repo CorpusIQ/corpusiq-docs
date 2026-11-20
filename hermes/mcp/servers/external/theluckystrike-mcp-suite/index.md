@@ -1,6 +1,7 @@
 ---
 title: TheLuckyStrike Ops Suite - Invoicing, Time Tracking
-description: "Local-first business ops for freelancers: numbered PDF invoices, billable time tracking, spreadsheet editing and price watching, four MIT stdio servers, no SaaS."
+description: "Local-first business ops for freelancers: numbered PDF invoices, billable time tracking, spreadsheet editing and price watching, four MIT stdio servers, no."
+
 category: Productivity
 stars: n/a (new listing)
 added: 2026-09-03

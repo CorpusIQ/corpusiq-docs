@@ -1,6 +1,7 @@
 ---
 title: "MCP Server Discovery - November 15, 2026 (Night)"
-description: "A directory that moved by one duplicate URL and thirteen queue submissions, where the two ships are a drawing server and a fee calculator and both are decided by arithmetic."
+description: "A directory that moved by one duplicate URL and thirteen queue submissions, where the two ships are a drawing server and a fee calculator."
+
 category: "MCP Ecosystem"
 last_updated: "2026-11-15"
 ---

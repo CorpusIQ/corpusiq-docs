@@ -1,6 +1,7 @@
 ---
 title: Checkout Page MCP - Stripe Payments, Subscriptions
-description: "Hosted remote MCP server for the Checkout Page platform: 40 tools that let an AI assistant create checkout pages, events and tickets, bookings, lead-capture forms, customers, payments, subscriptions, invoices, coupons, tax rates and webhooks. Payments run on the merchant's own Stripe account, and OAuth sign-in means there are no API keys to copy."
+description: "Hosted remote MCP server for the Checkout Page platform: 40 tools that let an AI assistant create checkout pages, events and tickets, bookings, lead-capture."
+
 category: Commerce & E-Commerce
 stars: n/a (new listing)
 added: 2026-09-15

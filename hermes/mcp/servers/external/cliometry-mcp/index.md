@@ -1,6 +1,7 @@
 ---
 title: "Cliometry MCP - CorpusIQ Docs"
-description: Measured Korean market data over MCP - SK Hynix ADR premium, realized leverage multiples, VIX regime and semiconductor relative rotation, pre-computed daily with no API key.
+description: "Measured Korean market data over MCP - SK Hynix ADR premium, realized leverage multiples, VIX regime and semiconductor relative rotation, pre-computed daily."
+
 category: Finance
 stars: n/a (new listing)
 added: 2026-08-17

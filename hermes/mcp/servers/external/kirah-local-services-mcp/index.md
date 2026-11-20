@@ -1,6 +1,7 @@
 ---
 title: "Kirah Local Services MCP: Local Business Discovery"
-description: "Keyless MCP gateway to the Kirah local services marketplace: search businesses, list services with pricing, duration and intake fields, check real-time availability, and create, reschedule or cancel bookings. 10 tools live-probed on kirah-agent-gateway v2.16, read-only discovery with guest-checkout booking."
+description: "Keyless MCP gateway to the Kirah local services marketplace: search businesses, list services with pricing, duration and intake fields, check real-time."
+
 category: Business Operations
 stars: n/a (new listing)
 added: 2026-08-23

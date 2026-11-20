@@ -1,6 +1,7 @@
 ---
 title: "HiBot MCP - ANSWER-Framework AI Visibility Audits"
-description: "Measure how ChatGPT, Perplexity, Google, Claude and Grok surface and recommend your brand with HiBot's ANSWER framework, exposed as seven read-only public MCP tools."
+description: "Measure how ChatGPT, Perplexity, Google, Claude and Grok surface and recommend your brand with HiBot's ANSWER framework, exposed as seven read-only public."
+
 category: SEO
 stars: n/a (new listing)
 added: 2026-09-03

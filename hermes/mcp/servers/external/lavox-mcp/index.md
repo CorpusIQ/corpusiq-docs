@@ -1,6 +1,7 @@
 ---
 title: "Lavox MCP: Local-First Meeting Memory for AI Agents"
-description: "Local-first macOS meeting recorder and dictation app whose on-device Whisper transcriptions and typed assertion index become a queryable memory any AI can read over MCP. Decisions carry the chosen option, rejected alternatives and stated reasoning, each anchored to a verbatim transcript quote; corrections supersede rather than delete. MIT licensed, new Aug 2026."
+description: "Local-first macOS meeting recorder and dictation app whose on-device Whisper transcriptions and typed assertion index become a queryable memory any AI can."
+
 category: Productivity
 stars: n/a (new listing)
 added: 2026-08-24

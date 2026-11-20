@@ -1,6 +1,7 @@
 ---
 title: "VetAgent MCP - Pre-Trade Token Risk Intelligence for Agents"
-description: "VetAgent MCP is a free, keyless pre-trade safety check for AI agents: before an agent buys, holds or recommends a crypto token it gets one actionable verdict (low, medium, high, unknown) plus the signals behind it - sell simulation, taxes, liquidity depth, pair age, impersonation and owner powers read from contract bytecode. Ethereum, BSC, Base, Solana."
+description: "VetAgent MCP is a free, keyless pre-trade safety check for AI agents: before an agent buys, holds or recommends a crypto token it gets one actionable verdict."
+
 category: Finance
 stars: 0
 added: 2026-09-07

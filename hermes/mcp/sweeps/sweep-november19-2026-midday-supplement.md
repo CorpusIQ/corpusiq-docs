@@ -1,6 +1,7 @@
 ---
 title: "MCP Server Discovery - November 19, 2026 (Midday Supplement)"
-description: "Both directory surfaces flat to the entry in the hour, two feed cards filed inside it, and one supplier that issues a signed, expiring quote to an anonymous agent."
+description: "Both directory surfaces flat to the entry in the hour, two feed cards filed inside it, and one supplier that issues a signed, expiring quote to an anonymous."
+
 category: "MCP Ecosystem"
 last_updated: "2026-11-19"
 ---

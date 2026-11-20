@@ -1,6 +1,7 @@
 ---
 title: "PCL Domain Expert Skills - 104 Persona Skill Pack Setup"
-description: "personamanagmentlayer/pcl - 104 skills, 36.2K installs: a persona-management-layer pack of domain-expert skills covering finance, telecom, trading, banking, and 100 more specialist personas for agents."
+description: "personamanagmentlayer/pcl - 104 skills, 36.2K installs: a persona-management-layer pack of domain-expert skills covering finance, telecom, trading, banking."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/pcl-domain-expert-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-11-01"

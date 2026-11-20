@@ -1,6 +1,7 @@
 ---
 title: Bynn MCP - KYC and Document Fraud Detection for Agents
-description: Hosted MCP for identity verification, document fraud detection and content moderation. 143 tools over the Bynn API cover KYC session creation, forensic analysis of bank statements and invoices, age verification with liveness, face search against employee collections, AI-image detection and fraud reasoning agents. OAuth sign-in or bearer token.
+description: "Hosted MCP for identity verification, document fraud detection and content moderation. 143 tools over the Bynn API cover KYC session creation, forensic."
+
 category: Compliance
 stars: n/a (new listing)
 added: 2026-09-06

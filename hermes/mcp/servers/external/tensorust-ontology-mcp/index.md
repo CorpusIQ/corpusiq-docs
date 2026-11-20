@@ -1,6 +1,7 @@
 ---
 title: "Tensorust Ontology MCP - Who Owns a US Company"
-description: "A keyless 41-tool ontology that answers who controls a US organization and which federal rule applies, with a dated table and a named source behind every answer."
+description: "A keyless 41-tool ontology that answers who controls a US organization and which federal rule applies, with a dated table and a named source behind every."
+
 category: "Ownership / Public Records"
 stars: "0 (remote Streamable HTTP, keyless free tier with 25-row samples; 41 tools, 25 driven)"
 added: 2026-11-15

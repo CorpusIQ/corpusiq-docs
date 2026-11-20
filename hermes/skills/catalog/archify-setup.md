@@ -1,6 +1,7 @@
 ---
 title: "Archify - Interactive Architecture Diagram Skill Setup"
-description: "tt-a1i/archify - 1 skill, 32.5K installs, 39.2K GitHub stars. Generates self-contained interactive HTML architecture, workflow, sequence, dataflow, and lifecycle diagrams from typed JSON specs."
+description: "tt-a1i/archify - 1 skill, 32.5K installs, 39.2K GitHub stars. Generates self-contained interactive HTML architecture, workflow, sequence, dataflow."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/archify-setup/"
 robots: "index,follow"
 last_updated: "2026-11-01"

@@ -1,6 +1,7 @@
 ---
 title: "New Skills - August 24, 2026"
-description: "skills.sh three-board sweep (all-time + trending + hot, full slug extraction): Autonnel Conversion Suite (147.5K installs, 6 skills), GPT-Image-2 Style Library (14.7K⭐, 1.5K), gh-issue-sync by mitsuhiko (2.5K), System Atlas (94) - 4 new publisher clusters, 9 skills, 4 setup guides."
+description: "skills.sh three-board sweep (all-time + trending + hot, full slug extraction): Autonnel Conversion Suite (147.5K installs, 6 skills), GPT-Image-2 Style."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-aug24-2026/"
 robots: "index,follow"
 last_updated: "2026-11-01"

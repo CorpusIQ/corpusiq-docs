@@ -1,6 +1,7 @@
 ---
 title: Vaultwarden MCP - Self-Hosted Password Vault Access
-description: Connects Claude or any MCP client to a self-hosted Vaultwarden or Bitwarden password vault through the official Bitwarden CLI. 15 tools search logins, generate passwords and prepare edits that only save when you confirm. Secrets never enter the conversation unless explicitly approved.
+description: "Connects Claude or any MCP client to a self-hosted Vaultwarden or Bitwarden password vault through the official Bitwarden CLI."
+
 category: Security
 stars: n/a (new listing)
 added: 2026-09-06

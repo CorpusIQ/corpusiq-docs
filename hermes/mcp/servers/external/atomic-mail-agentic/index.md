@@ -1,6 +1,7 @@
 ---
 title: "Atomic Mail MCP - Programmable Inbox for AI Agents"
-description: "Programmable email inbox platform for AI agents: JMAP-based stdio MCP server with hands-free proof-of-work signup, custom-domain sending behind a human dashboard control plane, and a 255-star MIT repo; agents read, send and react to email autonomously."
+description: "Programmable email inbox platform for AI agents: JMAP-based stdio MCP server with hands-free proof-of-work signup, custom-domain sending behind a human."
+
 category: Communication & Email
 stars: "255 (Atomic-Mail/atomic-mail-agentic)"
 added: 2026-08-31

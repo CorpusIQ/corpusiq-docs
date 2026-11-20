@@ -1,6 +1,7 @@
 ---
 title: "AI for Marketing Analytics - CorpusIQ Docs"
-description: Transform marketing analytics with AI. Query Google Ads, Facebook Ads, GA4, Klaviyo, and more in natural language. Instant ROAS, attribution, and campaign performance analysis.
+description: "Transform marketing analytics with AI. Query Google Ads, Facebook Ads, GA4, Klaviyo, and more in natural language."
+
 url: /docs/ai-for-marketing-analytics
 h1: 'AI for Marketing Analytics: Campaign Intelligence in Real Time'
 category: Business Use Cases

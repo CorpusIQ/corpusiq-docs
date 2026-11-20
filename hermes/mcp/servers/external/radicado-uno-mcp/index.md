@@ -1,6 +1,7 @@
 ---
 title: Radicado Uno MCP - Colombian Company Due Diligence
-description: "Read-only MCP server exposing verified Colombian company data by tax ID (NIT): public procurement from SECOP II since 2000, the RUES business registry, NIIF financial statements, and sanctions with OFAC and UN lists. Six tools return every fact linked to its official source document and capture date. Bearer key at mcp.radicadouno.co/mcp; Business plan with 7-day trial."
+description: "Read-only MCP server exposing verified Colombian company data by tax ID (NIT): public procurement from SECOP II since 2000, the RUES business registry, NIIF."
+
 category: Compliance
 stars: n/a (new listing)
 added: 2026-09-14

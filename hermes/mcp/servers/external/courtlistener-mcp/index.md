@@ -1,6 +1,7 @@
 ---
 title: CourtListener MCP - US Legal Research for Agents
-description: Self-hosted MCP server over the CourtListener legal database API v4, GovInfo US statutes and Regulations.gov federal rulemaking - search opinions, dockets, courts, judges, oral arguments and regulations with citation parsing and verification.
+description: "Self-hosted MCP server over the CourtListener legal database API v4, GovInfo US statutes and Regulations.gov federal rulemaking - search opinions, dockets."
+
 category: IP/Legal
 stars: n/a (new listing)
 added: 2026-09-09

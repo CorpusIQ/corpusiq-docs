@@ -1,6 +1,7 @@
 ---
 title: "ohmyho.st MCP - Hosting, Postgres and Email for Agents"
-description: "ohmyho.st is an all-in-one Vercel, Supabase and Resend alternative your coding agent operates: deploy a GitHub app, run managed Postgres, send email and manage domains from one MCP server."
+description: "ohmyho.st is an all-in-one Vercel, Supabase and Resend alternative your coding agent operates: deploy a GitHub app, run managed Postgres, send email."
+
 category: "DevOps"
 stars: n/a (new listing)
 added: 2026-09-28

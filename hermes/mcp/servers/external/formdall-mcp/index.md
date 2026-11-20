@@ -1,6 +1,7 @@
 ---
 title: Formdall MCP - GDPR Form Backend for Agents
-description: "German GDPR-by-design form backend for AI agents. The assistant creates forms, sets the field schema, wires email or webhook notifications, and gets back the finished embed snippet - no backend code, no cookies, encrypted storage with retention-based deletion, and a self-hosted proof-of-work captcha. Ten OAuth tools, 120 requests per minute, free to start."
+description: "German GDPR-by-design form backend for AI agents. The assistant creates forms, sets the field schema, wires email or webhook notifications, and gets back."
+
 category: Business Operations
 stars: n/a (hosted platform)
 added: 2026-09-07

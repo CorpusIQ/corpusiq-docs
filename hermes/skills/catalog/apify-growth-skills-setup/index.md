@@ -1,6 +1,7 @@
 ---
 title: Apify Growth Skills - Lead Gen and Brand Monitoring
-description: Production-grade growth automation skills from Apify. Lead generation (2.8K), brand reputation monitoring (2.5K), and ultimate scraper (13.4K). 30,000+ pre-built Actors.
+description: "Production-grade growth automation skills from Apify. Lead generation (2.8K), brand reputation monitoring (2.5K), and ultimate scraper (13.4K)."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/apify-growth-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-11-01"

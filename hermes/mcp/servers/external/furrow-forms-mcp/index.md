@@ -1,6 +1,7 @@
 ---
 title: Furrow Forms MCP - Agent-Operable Form Backend with Lead
-description: "Hosted form backend whose entire product is operable through MCP: 26 tools covering account registration, form and client CRUD, submission reading, webhooks and Stripe checkout link generation. Streamable HTTP with token or OAuth auth, plus an npm stdio bridge. MIT, official registry record."
+description: "Hosted form backend whose entire product is operable through MCP: 26 tools covering account registration, form and client CRUD, submission reading, webhooks."
+
 category: Marketing
 stars: 1
 added: 2026-09-03

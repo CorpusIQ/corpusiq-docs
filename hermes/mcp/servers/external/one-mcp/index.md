@@ -1,6 +1,7 @@
 ---
 title: One MCP - Hosted Server for Gmail, Slack, Stripe, Shopify
-description: "Hosted MCP server connecting AI agents to the apps teams already use - Gmail, Slack, Stripe, Shopify, HubSpot, Notion, Linear, Salesforce, QuickBooks and more - through one OAuth sign-in with no API keys to manage. Actions are discovered on demand with their real API documentation."
+description: "Hosted MCP server connecting AI agents to the apps teams already use - Gmail, Slack, Stripe, Shopify, HubSpot, Notion, Linear, Salesforce, QuickBooks."
+
 category: Integration & Automation
 stars: n/a (new listing)
 added: 2026-08-21

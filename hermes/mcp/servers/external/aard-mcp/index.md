@@ -1,6 +1,7 @@
 ---
 title: "Aard MCP - Macroeconomic Data from 170+ Official Publishers"
-description: "Remote MCP server connecting macroeconomic and other official data from 170+ publishers including the World Bank, IMF, BIS, ECB, Eurostat and national statistical offices. A large graph of the metadata universe plus an ontology of the underlying concepts powers discovery and analysis; every datapoint keeps full provenance. Supporting skills help agents reason over and communicate economic data."
+description: "Remote MCP server connecting macroeconomic and other official data from 170+ publishers including the World Bank, IMF, BIS, ECB, Eurostat and national."
+
 category: Finance
 stars: n/a (new listing)
 added: 2026-09-15

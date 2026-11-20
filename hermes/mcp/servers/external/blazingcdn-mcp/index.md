@@ -1,6 +1,7 @@
 ---
 title: "BlazingCDN MCP - CorpusIQ Docs"
-description: CDN operations for AI agents. Purge cache, query bandwidth metrics, manage domains, Cloud Storage and Video CDN across the BlazingCDN Anycast network from Claude, Cursor or Windsurf.
+description: "CDN operations for AI agents. Purge cache, query bandwidth metrics, manage domains, Cloud Storage and Video CDN across the BlazingCDN Anycast network."
+
 category: DevOps
 stars: n/a (new listing)
 added: 2026-08-14

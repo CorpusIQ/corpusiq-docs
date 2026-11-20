@@ -1,6 +1,7 @@
 ---
 title: "Chrome DevTools MCP Skills"
-description: "chromedevtools/chrome-devtools-mcp - the official Google Chrome DevTools skills: chrome-devtools (5,934 installs) for MCP-driven browser debugging and automation, chrome-devtools-cli (2,572 installs) for terminal browser scripting. Works with any MCP-capable agent including Hermes."
+description: "chromedevtools/chrome-devtools-mcp - the official Google Chrome DevTools skills: chrome-devtools (5,934 installs) for MCP-driven browser debugging."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/chrome-devtools-mcp-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-11-01"

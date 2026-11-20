@@ -1,6 +1,7 @@
 ---
 title: "Jitsu MCP - Manage Customer Data Pipelines from AI Agents"
-description: "Official MCP server from Jitsu, the open-source Segment alternative with 5k+ GitHub stars. Agents manage the CDP workspace directly: list, create, update and delete destinations, streams, services, functions and connections, plus query live events. OAuth 2.1 or personal API key."
+description: "Official MCP server from Jitsu, the open-source Segment alternative with 5k+ GitHub stars."
+
 category: Data & Analytics
 stars: 5043
 added: 2026-08-25

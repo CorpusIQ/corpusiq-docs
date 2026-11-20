@@ -1,6 +1,7 @@
 ---
 title: "Contexter MCP - Shared Project Context Across AI Assistants"
-description: "Hosted MCP server that gives a project one shared context across ChatGPT, Claude, Telegram, and any MCP client. Save results, share contexts with people who use their own AI, and deliver artifacts to Telegram groups through 26 OAuth-scoped tools."
+description: "Hosted MCP server that gives a project one shared context across ChatGPT, Claude, Telegram, and any MCP client."
+
 category: Productivity
 stars: n/a (new listing, github.com/maaakso/contexter-mcp)
 added: 2026-08-29

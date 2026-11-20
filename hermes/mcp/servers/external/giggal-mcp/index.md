@@ -1,6 +1,7 @@
 ---
 title: "Giggal.ai MCP - Email Verification with Catch-All Detection"
-description: "Remote MCP server for Giggal.ai email verification: deep mailbox existence checks that verify catch-all, accept-all, and SEG-protected addresses from inside any MCP client, with credit and history lookup"
+description: "Remote MCP server for Giggal.ai email verification: deep mailbox existence checks that verify catch-all, accept-all, and SEG-protected addresses."
+
 category: Marketing
 stars: n/a (new listing)
 added: 2026-08-20

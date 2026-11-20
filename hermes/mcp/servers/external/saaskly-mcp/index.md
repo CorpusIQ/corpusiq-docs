@@ -1,6 +1,7 @@
 ---
 title: "Saaskly MCP - Evidence-Based B2B Software Comparison"
-description: "Official hosted MCP server for Saaskly, an independent UK/EU B2B IT and telecom comparison site (VoIP, transactional email, cloud management, SEO/GEO/AEO, social media). Endpoint saaskly.com/mcp, live-verified, stateless JSON-RPC."
+description: "Official hosted MCP server for Saaskly, an independent UK/EU B2B IT and telecom comparison site (VoIP, transactional email, cloud management, SEO/GEO/AEO."
+
 category: Productivity
 stars: "n/a (official hosted service)"
 added: 2026-08-31

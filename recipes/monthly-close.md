@@ -1,6 +1,7 @@
 ---
 title: "Monthly Close - CorpusIQ Docs"
-description: "Automate the monthly close walkthrough. This recipe reconciles Shopify sales, QuickBooks books, Stripe payouts, and bank data into a single cited close package in minutes."
+description: "Automate the monthly close walkthrough. This recipe reconciles Shopify sales, QuickBooks books, Stripe payouts, and bank data into a single cited close."
+
 last_updated: "2026-11-01"
 ---
 # Recipe: Monthly Close in Minutes Instead of Days

@@ -1,6 +1,7 @@
 ---
 title: Google Search Console MCP (ni-c) - Property Setup and Search
-description: "Open-source stdio MCP server that sets up and operates Google Search Console: property creation and verification, sitemap submission, URL index checks, and Performance report queries across three Google APIs."
+description: "Open-source stdio MCP server that sets up and operates Google Search Console: property creation and verification, sitemap submission, URL index checks."
+
 category: Marketing
 stars: n/a (new listing, ni-c/google-search-console-mcp)
 added: 2026-08-29

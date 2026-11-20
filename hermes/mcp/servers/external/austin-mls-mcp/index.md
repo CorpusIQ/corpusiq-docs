@@ -1,6 +1,7 @@
 ---
 title: Austin MLS MCP - Live Austin Real Estate Listings
-description: "Free remote MCP server with live Austin-area MLS listings: active listing search by neighborhood, price, beds and schools, closed-sale comps, and market stats including median price, inventory, and days-on-market by ZIP or school district"
+description: "Free remote MCP server with live Austin-area MLS listings: active listing search by neighborhood, price, beds and schools, closed-sale comps, and market."
+
 category: Real Estate Data
 stars: n/a (new listing)
 added: 2026-08-18

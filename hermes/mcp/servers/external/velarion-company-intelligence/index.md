@@ -1,6 +1,7 @@
 ---
 title: Velarion MCP - Executive Compensation and Governance
-description: "Hosted MCP server with 12 tools for executive compensation research and governance intelligence: CEO and NEO pay, Say-on-Pay risk prediction, disclosed peer benchmarking, pay-ratio and director-comp data, plus Governance Alpha Cards. Keyless catalog surface with free-plan tools confirmed by live probe, paid tools listed in a SKU catalog."
+description: "Hosted MCP server with 12 tools for executive compensation research and governance intelligence: CEO and NEO pay, Say-on-Pay risk prediction, disclosed peer."
+
 category: Finance
 stars: n/a (no public repo)
 added: 2026-09-04

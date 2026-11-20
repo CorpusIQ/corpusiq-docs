@@ -1,6 +1,7 @@
 ---
 title: Jupyter Live Kernel - Interactive Python REPL Setup Guide
-description: Install and configure jupyter-live-kernel, the official Hermes Agent skill for stateful Python via a live Jupyter kernel. 80 installs, perfect for data science and iterative exploration.
+description: "Install and configure jupyter-live-kernel, the official Hermes Agent skill for stateful Python via a live Jupyter kernel."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/jupyter-live-kernel-setup/"
 robots: "index,follow"
 last_updated: "2026-11-01"

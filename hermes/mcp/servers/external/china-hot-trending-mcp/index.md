@@ -1,6 +1,7 @@
 ---
 title: "China Hot Trending MCP - Real-Time Social Trend Boards"
-description: "Free keyless hosted MCP server for real-time hot-search and trending boards from eight major Chinese platforms: Weibo, Zhihu, Bilibili, Baidu, Toutiao, Douyin, Tieba and Juejin, in a single tool call. Two tools, live-probed (server v1.29.0). Useful for content teams and market intelligence monitoring Chinese social discourse."
+description: "Free keyless hosted MCP server for real-time hot-search and trending boards from eight major Chinese platforms: Weibo, Zhihu, Bilibili, Baidu, Toutiao."
+
 category: Content & Research
 stars: 0
 added: 2026-09-02

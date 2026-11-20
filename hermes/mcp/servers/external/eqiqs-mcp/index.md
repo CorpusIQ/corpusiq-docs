@@ -1,6 +1,7 @@
 ---
 title: "EQIQs MCP - Team Working-Style Insights for Agents"
-description: "EQIQs brings working-style and compatibility insights from 21 frameworks (DISC, Big Five, MBTI-style) into your assistant: team reads up to 12 people, 1:1 prep, meeting tips and coaching narratives."
+description: "EQIQs brings working-style and compatibility insights from 21 frameworks (DISC, Big Five, MBTI-style) into your assistant: team reads up to 12 people, 1:1."
+
 category: "Productivity"
 stars: n/a (new listing)
 added: 2026-09-28

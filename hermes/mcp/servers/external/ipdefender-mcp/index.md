@@ -1,6 +1,7 @@
 ---
 title: IP Defender MCP - Trademark Monitoring for AI Agents
-description: Trademark monitoring MCP from IP Defender. Watches new trademark filings across 40+ countries and flags applications that resemble your brand, with agents creating and pausing watches, choosing countries and reviewing alerts through OAuth 2 at www.ipdefender.eu/mcp.
+description: "Trademark monitoring MCP from IP Defender. Watches new trademark filings across 40+ countries and flags applications that resemble your brand, with agents."
+
 category: IP/Legal
 stars: n/a (no public repo)
 added: 2026-09-06

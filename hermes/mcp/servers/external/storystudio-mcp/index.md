@@ -1,6 +1,7 @@
 ---
 title: "StoryStudio MCP - AI Film and Media Studio in Your Agent"
-description: "StoryStudio is a remote MCP studio for AI image, video, voice and music generation: write the story, lock a cast, generate shots with Nano Banana 2, GPT-Image 2, FLUX, Veo 3.1 Fast, Seedance 2.5, Kling, MiniMax or Wan, assemble on a timeline and export MP4. OAuth with a free 5-credit plan."
+description: "StoryStudio is a remote MCP studio for AI image, video, voice and music generation: write the story, lock a cast, generate shots with Nano Banana 2."
+
 category: Content
 stars: n/a (new listing)
 added: 2026-09-15

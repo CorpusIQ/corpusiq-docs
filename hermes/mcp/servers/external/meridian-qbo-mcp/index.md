@@ -1,6 +1,7 @@
 ---
 title: "QuickBooks Connector by Meridian MCP - Hosted QBO for Agents"
-description: "Free hosted MCP server from Pilot.com's Meridian that connects AI agents to QuickBooks Online: read and write transactions including journal entries, connect multiple QuickBooks clients without configuration changes, and run bookkeeping workflows end to end. Endpoint live and OAuth-gated; sign in with Intuit."
+description: "Free hosted MCP server from Pilot.com's Meridian that connects AI agents to QuickBooks Online: read and write transactions including journal entries, connect."
+
 category: Finance
 stars: "n/a (hosted service)"
 added: 2026-09-01

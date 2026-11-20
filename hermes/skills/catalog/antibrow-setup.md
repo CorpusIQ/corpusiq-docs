@@ -1,6 +1,7 @@
 ---
 title: "Anti-Detect Browser - Undetectable Playwright Browsers"
-description: Launch Chromium instances with real-device fingerprints via standard Playwright APIs. 29.9K+ installs. Anti-detect browser profiles with MCP server mode for AI agent automation, web scraping, and multi-account management.
+description: "Launch Chromium instances with real-device fingerprints via standard Playwright APIs. 29.9K+ installs."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/antibrow-setup/"
 robots: "index,follow"
 last_updated: "2026-11-01"

@@ -1,6 +1,7 @@
 ---
 title: "TomTicket MCP - Helpdesk Operations from Any MCP Client"
-description: "MCP server for the TomTicket helpdesk API: list tickets, reply as an operator with work time, comment, transfer, start/close status and finish tickets, plus customers, organizations, chats, departments and the knowledge base. Local stdio install with a bearer token."
+description: "MCP server for the TomTicket helpdesk API: list tickets, reply as an operator with work time, comment, transfer, start/close status and finish tickets."
+
 category: Customer Support
 stars: n/a (new listing)
 added: 2026-08-21

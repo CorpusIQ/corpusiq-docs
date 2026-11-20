@@ -1,6 +1,7 @@
 ---
 title: "StackScope MCP - Technographic Sales Intelligence for Agents"
-description: "Technographics for the new web: what technologies new websites launch with, adopter tracking for your product or competitors, and contact export across 10 MCP tools with OAuth sign-in at mcp.stackscope.dev. Operated by DATAFREAK LTD."
+description: "Technographics for the new web: what technologies new websites launch with, adopter tracking for your product or competitors, and contact export."
+
 category: Lead Generation & Web Scraping
 stars: "n/a (hosted service)"
 added: 2026-09-01

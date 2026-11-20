@@ -1,6 +1,7 @@
 ---
 title: "EM+x MCP - CorpusIQ Docs"
-description: Board-ready consulting deliverables from chat - steerco readouts, executive briefs, market scans, and QBR decks built by an agentic consulting team on your own templates
+description: "Board-ready consulting deliverables from chat - steerco readouts, executive briefs, market scans, and QBR decks built by an agentic consulting team."
+
 category: Productivity
 stars: n/a (new listing)
 added: 2026-08-12

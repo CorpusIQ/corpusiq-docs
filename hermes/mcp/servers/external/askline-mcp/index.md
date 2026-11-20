@@ -1,6 +1,7 @@
 ---
 title: "Askline MCP - AI Search Visibility and Brand Monitoring"
-description: "Hosted MCP server that shows what ChatGPT says about a brand and the SEO that feeds it: 22 tools for keyword research, SERP and competitor analysis, backlinks, AI citations, AI share of voice, and Search Console data."
+description: "Hosted MCP server that shows what ChatGPT says about a brand and the SEO that feeds it: 22 tools for keyword research, SERP and competitor analysis."
+
 category: SEO
 stars: n/a (hosted product)
 added: 2026-08-28

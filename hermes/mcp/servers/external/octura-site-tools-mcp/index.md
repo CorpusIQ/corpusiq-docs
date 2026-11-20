@@ -1,6 +1,7 @@
 ---
 title: "Octura Site Tools MCP: Deterministic ERP and Tax Calculators"
-description: "Hosted keyless MCP server with 30 deterministic ERP calculators - Odoo implementation, migration, upgrade, ROI and TCO costs, US, Canada and EU sales tax, Canadian payroll source deductions, inventory maths, and ERP selection scoring. Live-probed com.octurasolutions/site-tools v1.0.0."
+description: "Hosted keyless MCP server with 30 deterministic ERP calculators - Odoo implementation, migration, upgrade, ROI and TCO costs, US, Canada and EU sales tax."
+
 category: ERP
 stars: n/a (hosted; repo 0 stars)
 added: 2026-08-23

@@ -1,6 +1,7 @@
 ---
 title: "Umami MCP - Official Website Analytics for AI Agents"
-description: "Official MCP server for Umami analytics: 23 read-only tools that answer questions about website traffic, pages, referrers, channels, events, goals, funnels, journeys, retention, attribution, revenue and Core Web Vitals. Connects to Umami Cloud or any self-hosted instance; every tool goes through the public API with the same user and team permissions as the web app."
+description: "Official MCP server for Umami analytics: 23 read-only tools that answer questions about website traffic, pages, referrers, channels, events, goals, funnels."
+
 category: Data & Analytics
 stars: n/a (official npm package @umami/mcp; the Umami repo carries 25K+ GitHub stars)
 added: 2026-09-15

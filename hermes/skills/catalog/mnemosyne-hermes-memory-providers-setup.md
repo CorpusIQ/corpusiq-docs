@@ -1,6 +1,7 @@
 ---
 title: "Mnemosyne Hermes Memory Providers - Local-First Agent"
-description: Install and configure hermes-memory-providers from mnemosyne-oss/mnemosyne (2.3K stars) - replaces MEMORY.md/USER.md with SQLite vector + FTS5 hybrid search, 20 memory tools, and lifecycle hooks. 100% local.
+description: "Install and configure hermes-memory-providers from mnemosyne-oss/mnemosyne (2.3K stars) - replaces MEMORY.md/USER.md with SQLite vector + FTS5 hybrid search."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/mnemosyne-hermes-memory-providers-setup/"
 robots: "index,follow"
 last_updated: "2026-11-01"

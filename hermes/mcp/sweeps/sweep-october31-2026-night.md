@@ -1,6 +1,7 @@
 ---
 title: "MCP Server Discovery - October 31, 2026 (Night)"
-description: "Four hours on: a WCAG scanner measured on our own homepage, a creator marketplace that quotes coverage without a key, and a labour-market exchange that reproduced its own published figure."
+description: "Four hours on: a WCAG scanner measured on our own homepage, a creator marketplace that quotes coverage without a key, and a labour-market exchange."
+
 last_updated: 2026-11-01
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october31-2026-night/"
 robots: "index,follow"

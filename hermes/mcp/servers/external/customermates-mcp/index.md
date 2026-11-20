@@ -1,6 +1,7 @@
 ---
 title: "Customermates MCP - Open-Source CRM for Agents"
-description: "Read and write a Customermates CRM from Claude, ChatGPT or Cursor over one MCP endpoint, with per-workspace URLs, a 40-tool surface and an AGPL core you can self-host."
+description: "Read and write a Customermates CRM from Claude, ChatGPT or Cursor over one MCP endpoint, with per-workspace URLs, a 40-tool surface and an AGPL core you can."
+
 category: CRM / Open Source
 stars: n/a (open source AGPL-3.0 core, hosted or self-hosted)
 added: 2026-10-26

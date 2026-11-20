@@ -1,6 +1,7 @@
 ---
 title: AMZ Vault MCP - Amazon Seller Central and Ads for Agents
-description: Hosted MCP for Amazon Seller Central and Amazon Ads. 100+ read and staged-write tools cover P&L, settlement waterfalls, inventory health, brand analytics, keyword intelligence and PPC at every grain, with every change reviewed as a diff before anything reaches Amazon. OAuth 2.1, 14-day free trial.
+description: "Hosted MCP for Amazon Seller Central and Amazon Ads. 100+ read and staged-write tools cover P&L, settlement waterfalls, inventory health, brand analytics."
+
 category: Commerce & E-Commerce
 stars: n/a (new listing)
 added: 2026-09-06

@@ -1,6 +1,7 @@
 ---
 title: Capawesome Skills - Capacitor and Ionic Ecosystem Suite
-description: "capawesome-team/skills - 37 skills, 11.4K installs: the Capacitor ecosystem team's suite covering plugin installation, app development, Ionic frameworks, upgrades, and Capawesome Cloud."
+description: "capawesome-team/skills - 37 skills, 11.4K installs: the Capacitor ecosystem team's suite covering plugin installation, app development, Ionic frameworks."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/capawesome-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-11-01"

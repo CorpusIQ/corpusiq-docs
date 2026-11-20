@@ -1,6 +1,7 @@
 ---
 title: SG Arrival Card (SGAC) Automation Setup Guide
-description: Install and configure Freakingnolife/sg-arrival-card-skill - automated Singapore Arrival Card submission via browser, covering all three residency pathways with CAPTCHA handling and Angular SPA quirks
+description: "Install and configure Freakingnolife/sg-arrival-card-skill - automated Singapore Arrival Card submission via browser, covering all three residency pathways."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/sg-arrival-card-setup/"
 robots: "index,follow"
 last_updated: "2026-11-01"

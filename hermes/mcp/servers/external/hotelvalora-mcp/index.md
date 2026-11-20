@@ -1,6 +1,7 @@
 ---
 title: "HotelVALORA MCP - Hotel Valuations With a Verifiable Receipt"
-description: "Institutional hotel valuation as nine read-only tools: NOI and cap rate, five-year USALI P&L, levered IRR and MOIC, comp sets, market ADR and RevPAR, and what-if scenarios, with every full analysis carrying a public hash a reader can check."
+description: "Institutional hotel valuation as nine read-only tools: NOI and cap rate, five-year USALI P&L, levered IRR and MOIC, comp sets, market ADR and RevPAR."
+
 category: Finance / Real Estate
 stars: n/a (commercial, MCP included from Premium)
 added: 2026-10-25

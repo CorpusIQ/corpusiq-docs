@@ -1,6 +1,7 @@
 ---
 title: "New Skills - November 18, 2026 Morning"
-description: "Skills.sh sweep (Nov 18 morning): 12 publisher guides for 98,166 combined installs across 651 indexed listings, led by Beagle, Han and the REA reverse-engineering suite"
+description: "Skills.sh sweep (Nov 18 morning): 12 publisher guides for 98,166 combined installs across 651 indexed listings, led by Beagle, Han and the REA."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-nov18-2026-morning-skills/"
 robots: "index,follow"
 last_updated: "2026-11-18"

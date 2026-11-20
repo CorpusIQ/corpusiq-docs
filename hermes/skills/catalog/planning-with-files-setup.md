@@ -1,6 +1,7 @@
 ---
 title: "Planning With Files - Agent Planning Methodology Setup"
-description: "othmanadi/planning-with-files - 7 skills, 90.5K combined installs. File-based planning methodology: task plan, findings, and decisions files that keep agents on track across long sessions."
+description: "othmanadi/planning-with-files - 7 skills, 90.5K combined installs. File-based planning methodology: task plan, findings, and decisions files that keep agents."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/planning-with-files-setup/"
 robots: "index,follow"
 last_updated: "2026-11-01"

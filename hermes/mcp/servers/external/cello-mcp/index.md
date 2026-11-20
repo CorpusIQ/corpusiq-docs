@@ -1,6 +1,7 @@
 ---
 title: "Cello MCP - CorpusIQ Docs"
-description: Build and scale referral, partner, and affiliate programs from any MCP-compatible AI agent - live metrics, top referrer identification, churn alerts, and actionable recommendations
+description: "Build and scale referral, partner, and affiliate programs from any MCP-compatible AI agent - live metrics, top referrer identification, churn alerts."
+
 category: Marketing / Growth
 stars: featured
 added: 2026-08-11

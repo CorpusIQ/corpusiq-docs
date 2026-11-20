@@ -1,6 +1,7 @@
 ---
 title: "Truth Bear GAUGE: Verifiable Government Data for AI Agents"
-description: "Official government screening signals (SEC, FDA, USGS, NOAA) with cryptographic proof: every record carries a record hash and signed citation verifiable offline. Free find_signal coverage checks and verify_citation; paid records fetched pay-per-call over x402 in USDC on Base. Live-probed v1.0.0, no API key."
+description: "Official government screening signals (SEC, FDA, USGS, NOAA) with cryptographic proof: every record carries a record hash and signed citation verifiable."
+
 category: Compliance
 stars: 0
 added: 2026-08-23

@@ -1,6 +1,7 @@
 ---
 title: "Hilead MCP - Signal-Based B2B Prospecting for Agents"
-description: "Remote MCP server for Hilead, a signal-based B2B prospecting platform. An assistant discovers fresh leads from buying signals - funding rounds, key hires, hiring activity, expansion and technology changes - browses audiences, campaigns and companies, and reads reports and reply threads. Launch, send and enrichment stay out of the agent's reach by design. OAuth 2.1 at api.app.hilead.co/mcp, from $49/month."
+description: "Remote MCP server for Hilead, a signal-based B2B prospecting platform. An assistant discovers fresh leads from buying signals - funding rounds, key hires."
+
 category: Sales & Outreach
 stars: n/a (new listing)
 added: 2026-09-14

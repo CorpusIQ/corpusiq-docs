@@ -1,6 +1,7 @@
 ---
 title: "TanStack Skills - React Server State & Router Suite Setup"
-description: "tanstack-skills/tanstack-skills - 14 skills, 36.6K combined installs. Community (unofficial) agent skills for the TanStack ecosystem: Query, Table, Router, Form, Start, Virtual, Store, and the new TanStack DB/AI tools."
+description: "tanstack-skills/tanstack-skills - 14 skills, 36.6K combined installs. Community (unofficial) agent skills for the TanStack ecosystem: Query, Table, Router."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/tanstack-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-11-01"

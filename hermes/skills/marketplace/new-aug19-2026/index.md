@@ -1,6 +1,7 @@
 ---
 title: "New Skills - August 19, 2026"
-description: "skills.sh sweep: openclaw/agent-skills - the official OpenClaw org's canonical agent workflow suite (8 skills, ~2.0K installs, autoreview 1,388) - 1 publisher cluster, 8 skills, 1 setup guide."
+description: "skills.sh sweep: openclaw/agent-skills - the official OpenClaw org's canonical agent workflow suite (8 skills, ~2.0K installs, autoreview 1,388) - 1."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-aug19-2026/"
 robots: "index,follow"
 last_updated: "2026-11-01"

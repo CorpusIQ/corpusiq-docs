@@ -1,6 +1,7 @@
 ---
 title: "PairBook MCP - Portfolio Risk and Correlation Analysis"
-description: "Local stdio MCP server over the PairBook correlation and ETF-overlap engine: whole-portfolio risk analysis with Euler risk contributions and issuer-sourced overlap warnings, plus pair correlation, beta, and volatility for 4,700+ US stocks and ETFs. Free, no key."
+description: "Local stdio MCP server over the PairBook correlation and ETF-overlap engine: whole-portfolio risk analysis with Euler risk contributions and issuer-sourced."
+
 category: Finance
 stars: n/a (new listing, github.com/vj88-coder/pairbook-mcp)
 added: 2026-08-29

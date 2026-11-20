@@ -1,6 +1,7 @@
 ---
 title: "Draxlr MCP - SQL Dashboards and Queries for Agents"
-description: "Remote MCP server that connects AI assistants to your SQL databases through Draxlr. Agents inspect schemas, run read-only SQL, work with saved queries and dashboards, and export results."
+description: "Remote MCP server that connects AI assistants to your SQL databases through Draxlr. Agents inspect schemas, run read-only SQL, work with saved queries."
+
 category: Data & Analytics
 stars: n/a (new listing)
 added: 2026-09-11

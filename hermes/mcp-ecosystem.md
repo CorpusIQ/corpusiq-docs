@@ -1,6 +1,7 @@
 ---
 title: CorpusIQ in the MCP Ecosystem - Directories and Rankings
-description: Where to find CorpusIQ across the MCP ecosystem. Listed on Glama, ranked on MCP Toplist, submitted to mcpservers.org. Cross-source AI business intelligence with 40+ read-only connectors.
+description: "Where to find CorpusIQ across the MCP ecosystem. Listed on Glama, ranked on MCP Toplist, submitted to mcpservers.org."
+
 canonical: "https://www.corpusiq.io/docs/hermes/mcp-ecosystem/"
 robots: "index,follow"
 last_updated: "2026-11-18"

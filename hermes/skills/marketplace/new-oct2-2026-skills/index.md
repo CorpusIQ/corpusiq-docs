@@ -1,6 +1,7 @@
 ---
 title: "New Skills - October 2, 2026"
-description: "Skills.sh sweep for October 2, 2026: 732 unique skills collected, 20 NEW, 3 new publisher guides (01coder Agent Skills, Steipete Agent Scripts, Callicrate Skills)."
+description: "Skills.sh sweep for October 2, 2026: 732 unique skills collected, 20 NEW, 3 new publisher guides (01coder Agent Skills, Steipete Agent Scripts, Callicrate."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-oct2-2026-skills/"
 robots: "index,follow"
 last_updated: "2026-11-01"

@@ -1,6 +1,7 @@
 ---
 title: "CorpusIQ vs Viktor Security: Per-Person vs Shared Access"
-description: "Viktor shares all integrations at the workspace level with Private Mode coming soon. CorpusIQ ships per-user scoping and read-only OAuth today. Compare the security models."
+description: "Viktor shares all integrations at the workspace level with Private Mode coming soon. CorpusIQ ships per-user scoping and read-only OAuth today."
+
 tags: [compare, security, viktor, rbac, ai employee]
 last_updated: "2026-11-12"
 ---

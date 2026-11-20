@@ -1,6 +1,7 @@
 ---
 title: PurrPlan MCP - Agent-Driven Social Scheduling and Inbox
-description: Official remote MCP server for PurrPlan, the social media scheduler agents can drive. 18 tools with granular scopes cover planning, publishing, inbox and analytics across 12+ networks including LinkedIn, X, Instagram, TikTok and YouTube. Confirmation-gated outbound replies, audit logging, and per-scope tokens with rate limits.
+description: "Official remote MCP server for PurrPlan, the social media scheduler agents can drive. 18 tools with granular scopes cover planning, publishing, inbox."
+
 category: Social Media Management
 stars: n/a (official vendor)
 added: 2026-09-04

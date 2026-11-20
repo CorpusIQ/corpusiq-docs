@@ -1,6 +1,7 @@
 ---
 title: "ship.page MCP - Deploy HTML Pages from Any Agent"
-description: "Zero-config remote MCP server that turns HTML into a live, unguessable URL in one call: deploy single pages, multi-file sites and CI reports, claim drops to an account, list and delete. Free anonymous tier, Pro at $4 per month."
+description: "Zero-config remote MCP server that turns HTML into a live, unguessable URL in one call: deploy single pages, multi-file sites and CI reports, claim drops."
+
 category: Content & Publishing
 stars: n/a (new listing)
 added: 2026-08-22

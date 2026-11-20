@@ -1,6 +1,7 @@
 ---
 title: "Contextflo MCP - Governed Team Data Queries for Agents"
-description: "Governed context layer from Contextflo: connect BigQuery, Snowflake, Postgres, Redshift, Databricks or ClickHouse (or upload a CSV) and let the whole team ask questions of live data and build auto-refreshing dashboards in chat, with table-level access control. Endpoint mcp.contextflo.com/mcp, live-verified."
+description: "Governed context layer from Contextflo: connect BigQuery, Snowflake, Postgres, Redshift, Databricks or ClickHouse (or upload a CSV) and let the whole team."
+
 category: Data & Analytics
 stars: "n/a (hosted, no public MCP repo; org github.com/contextflo)"
 added: 2026-08-30

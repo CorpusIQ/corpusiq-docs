@@ -1,6 +1,7 @@
 ---
 name: gws-gmail
-description: Read, search, and send Gmail from the terminal. Full Gmail API access for AI agents to manage email workflows, search inboxes, and send messages programmatically. 34.9K installs.
+description: "Read, search, and send Gmail from the terminal. Full Gmail API access for AI agents to manage email workflows, search inboxes, and send messages."
+
 triggers:
   - "check my email"
   - "search gmail"

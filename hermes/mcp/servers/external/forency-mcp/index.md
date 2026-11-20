@@ -1,6 +1,7 @@
 ---
 title: "Forency MCP - Website Technology Stack Detection for Agents"
-description: "MCP server that lets an AI assistant investigate any website's technology stack: CMS, ecommerce platform, JavaScript frameworks, analytics, CRM, marketing automation, payments, chat widgets, CDN, and hosting, available as a hosted endpoint or a local stdio package with API key auth and a free tier of 100 scans per month."
+description: "MCP server that lets an AI assistant investigate any website's technology stack: CMS, ecommerce platform, JavaScript frameworks, analytics, CRM, marketing."
+
 category: Lead Generation & Web Scraping
 stars: n/a (new listing, github.com/cheevahagadog/forency-mcp)
 added: 2026-08-28

@@ -1,6 +1,7 @@
 ---
 title: "BidSkim MCP - UK Tenders and Procurement Intelligence"
-description: "Hosted remote MCP over UK public procurement: 8 read-only tools search live tenders, expiring contract renewals with incumbent suppliers, and buyer/supplier profiles across Find a Tender, Contracts Finder, Public Contracts Scotland and Sell2Wales, entity-resolved to one record per opportunity. OAuth 2.1 or an x-api-key header."
+description: "Hosted remote MCP over UK public procurement: 8 read-only tools search live tenders, expiring contract renewals with incumbent suppliers, and buyer/supplier."
+
 category: Compliance
 stars: n/a (hosted; docs-only repo)
 added: 2026-08-27

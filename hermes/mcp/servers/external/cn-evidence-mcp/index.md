@@ -1,6 +1,7 @@
 ---
 title: "CN Evidence MCP - China Supplier Due Diligence for Agents"
-description: "Remote MCP server for Chinese supplier verification. Agents resolve company names to exact legal entities for free, then buy identity, government procurement and regulatory evidence at x402 micro-prices in USDC on Base. Every record carries source provenance and explicit coverage limits."
+description: "Remote MCP server for Chinese supplier verification. Agents resolve company names to exact legal entities for free, then buy identity, government procurement."
+
 category: Compliance
 stars: n/a (no public repo)
 added: 2026-09-11

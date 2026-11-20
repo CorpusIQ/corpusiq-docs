@@ -1,6 +1,7 @@
 ---
 title: BoldDesk MCP - Helpdesk Ticket Operations for AI Agents
-description: Hosted MCP server from BoldDesk by Syncfusion that brings customer support operations into AI workflows. Agents create, update and reply to support tickets, retrieve message history, search contacts, groups and agents, and drive approval workflows through the MCP standard.
+description: "Hosted MCP server from BoldDesk by Syncfusion that brings customer support operations into AI workflows."
+
 category: Business Operations
 stars: n/a (new listing)
 added: 2026-09-04

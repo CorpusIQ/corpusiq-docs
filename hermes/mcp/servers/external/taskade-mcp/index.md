@@ -1,6 +1,7 @@
 ---
 title: "Taskade MCP - Official AI Workspace Connector"
-description: "Official Taskade MCP server with 62 tools over workspaces, projects, tasks, AI agents, agent chat, webhooks, knowledge bases, templates, media and sharing. Hosted with OAuth 2.0 PKCE at taskade.com/mcp or run locally with npx from npm."
+description: "Official Taskade MCP server with 62 tools over workspaces, projects, tasks, AI agents, agent chat, webhooks, knowledge bases, templates, media and sharing."
+
 category: Productivity
 stars: n/a (new listing)
 added: 2026-09-11

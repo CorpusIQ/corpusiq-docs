@@ -1,6 +1,7 @@
 ---
 title: Centipid ISP Billing MCP - Subscriber and Network Operations
-description: "Query a Centipid ISP billing workspace from any MCP client: revenue and payment reports, subscriber status and expirations, MikroTik router sessions and diagnostics, plus voucher stock. 23 tools, 20 read-only."
+description: "Query a Centipid ISP billing workspace from any MCP client: revenue and payment reports, subscriber status and expirations, MikroTik router sessions."
+
 category: Finance
 stars: n/a (hosted, no public repo)
 added: 2026-08-26

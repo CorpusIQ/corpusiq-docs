@@ -1,6 +1,7 @@
 ---
 title: Profitelligence MCP - Financial Intelligence
-description: "Hosted remote MCP server for financial intelligence built on first-party SEC data: insider trades, 13F holdings, 8-K summaries, OHLC prices, and FRED indicators via seven read-only tools"
+description: "Hosted remote MCP server for financial intelligence built on first-party SEC data: insider trades, 13F holdings, 8-K summaries, OHLC prices, and FRED."
+
 category: Financial Data
 stars: n/a (new listing)
 added: 2026-08-18

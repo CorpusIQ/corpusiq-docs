@@ -1,6 +1,7 @@
 ---
 title: "ErzyCall MCP - Real Phone Calls and WhatsApp for Agents"
-description: "Hosted MCP that gives agents and apps real phone calling: place and receive calls with confirmation-before-dial, manage contacts, cases and assistants, send WhatsApp messages, and report on usage over OAuth 2.1. No API key needed."
+description: "Hosted MCP that gives agents and apps real phone calling: place and receive calls with confirmation-before-dial, manage contacts, cases and assistants, send."
+
 category: Communication & Email
 stars: "n/a (hosted service)"
 added: 2026-09-01

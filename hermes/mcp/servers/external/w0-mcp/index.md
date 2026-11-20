@@ -1,6 +1,7 @@
 ---
 title: w0 MCP Server - Brand AI Recommendation Rate Lookup
-description: Keyless MCP lookup of a brand's AI Recommendation Rate and Recommendation Inclusion Rate - how often AI engines pick the brand as the number-one answer to buyer-intent questions.
+description: "Keyless MCP lookup of a brand's AI Recommendation Rate and Recommendation Inclusion Rate - how often AI engines pick the brand as the number-one answer."
+
 category: SEO
 stars: n/a (new listing)
 added: 2026-08-26

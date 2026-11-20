@@ -1,6 +1,7 @@
 ---
 title: "Extend MCP - Document Intelligence with OCR and PDF Forms"
-description: "Turn documents into structured data from chat: OCR to markdown, field extraction, document classification, bundle splitting and PDF form filling across PDFs, images, Office files and emails."
+description: "Turn documents into structured data from chat: OCR to markdown, field extraction, document classification, bundle splitting and PDF form filling across PDFs."
+
 category: Productivity
 stars: n/a (new listing)
 added: 2026-09-03

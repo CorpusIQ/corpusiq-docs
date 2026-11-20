@@ -1,6 +1,7 @@
 ---
 title: "moysklad-mcp-ru - MoySklad ERP Access for AI Agents"
-description: "moysklad-mcp-ru gives Claude Code, Cursor, Codex and Cowork direct access to a MoySklad account over the JSON API 1.2: 32 tools cover stock, products, orders, counterparties, profit, turnover and money reports plus document creation behind a two-gate write model. Eight generic meta-tools reach the full 892-method catalogue. Installed via uvx, MIT licensed, Russian-language ERP."
+description: "moysklad-mcp-ru gives Claude Code, Cursor, Codex and Cowork direct access to a MoySklad account over the JSON API 1.2: 32 tools cover stock, products."
+
 category: ERP
 stars: 2 (GitHub)
 added: 2026-09-12

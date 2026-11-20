@@ -1,6 +1,7 @@
 ---
 title: "Rapidly MCP - Idea Validation, Lean Canvas and Pretotyping"
-description: "Hosted Rapidly MCP server that takes a business idea through a Lean Canvas, a riskiest-assumption hypothesis with a researched pass mark, and three to five Pretotyping experiments with a build prompt for the smallest test worth running. 21 tools for idea generation, evidence interpretation and portfolio scoring over bearer-token or OAuth HTTP."
+description: "Hosted Rapidly MCP server that takes a business idea through a Lean Canvas, a riskiest-assumption hypothesis with a researched pass mark, and three to five."
+
 category: Productivity
 stars: 1
 added: 2026-08-25

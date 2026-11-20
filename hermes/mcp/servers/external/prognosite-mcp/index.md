@@ -1,6 +1,7 @@
 ---
 title: Prognosite MCP - SEO and AEO Intelligence for Publishers
-description: SEO and AEO intelligence platform with roughly 150 callable tools that read Search Console, Bing Webmaster Tools and Google Analytics and return diagnoses and actions instead of keyword walls.
+description: "SEO and AEO intelligence platform with roughly 150 callable tools that read Search Console, Bing Webmaster Tools and Google Analytics and return diagnoses."
+
 category: SEO
 stars: n/a (new listing)
 added: 2026-09-02

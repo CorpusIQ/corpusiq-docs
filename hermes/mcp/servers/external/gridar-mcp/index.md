@@ -1,6 +1,7 @@
 ---
 title: "Gridar MCP - Quebec SEO Toolkit and AI Visibility for Agents"
-description: "Hosted SEO toolkit MCP focused on Quebec and google.ca: technical audits, keyword tracking, Search Console data, AI-search visibility and topic clusters across 69 tools over OAuth 2.1, endpoint mcp.gridar.app/mcp 401-verified live Sep 1, 2026."
+description: "Hosted SEO toolkit MCP focused on Quebec and google.ca: technical audits, keyword tracking, Search Console data, AI-search visibility and topic clusters."
+
 category: SEO
 stars: "0 (new listing, TokDar2410621/blog-dashboard)"
 added: 2026-09-01

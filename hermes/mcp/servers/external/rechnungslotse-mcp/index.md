@@ -1,6 +1,7 @@
 ---
 title: Rechnungslotse MCP - German E-Invoicing for Agents
-description: "Hosted German electronic invoicing server with 18 tools. Seven run keyless: validate XRechnung and ZUGFeRD against EN 16931 and the full KoSIT rule set with plain-language fixes, read invoices into structured data, explain rejection rule IDs, and check the German e-invoicing mandate, § 14 UStG fields, Leitweg-ID check digits and small-business thresholds. Eleven OAuth account tools create invoices, capture work logs, record payments and prepare VAT returns."
+description: "Hosted German electronic invoicing server with 18 tools. Seven run keyless: validate XRechnung and ZUGFeRD against EN 16931 and the full KoSIT rule set."
+
 category: Finance & Accounting
 stars: n/a (hosted server)
 added: 2026-09-07

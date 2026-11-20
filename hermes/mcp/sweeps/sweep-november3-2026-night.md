@@ -1,6 +1,7 @@
 ---
 title: "MCP Server Discovery - November 3, 2026 (Night)"
-description: "Night sweep of mcp.so and mcpservers.org: a 260-entry counter jump on the newest page, an AI supply-chain BOM and a free Polish registry earning guides, 30 arrivals dispositioned."
+description: "Night sweep of mcp.so and mcpservers.org: a 260-entry counter jump on the newest page, an AI supply-chain BOM and a free Polish registry earning guides, 30."
+
 last_updated: 2026-11-03
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-november3-2026-night"
 tags: ["mcp server", "model context protocol", "hermes mcp", "sweep"]

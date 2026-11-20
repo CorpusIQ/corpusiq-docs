@@ -1,6 +1,7 @@
 ---
 title: "Three.js Agent Skills - 3D & WebGL Suite Setup"
-description: "cloudai-x/threejs-skills - 10 skills, 80.0K installs: Three.js fundamentals, animation, shaders, geometry, lighting, materials, and postprocessing for agent-driven 3D web work."
+description: "cloudai-x/threejs-skills - 10 skills, 80.0K installs: Three.js fundamentals, animation, shaders, geometry, lighting, materials, and postprocessing."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/threejs-agent-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-11-01"

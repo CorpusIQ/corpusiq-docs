@@ -1,6 +1,7 @@
 ---
 title: "New Skills - CorpusIQ Docs"
-description: 4 newly discovered skills and tools - async multi-agent message bus, Windows-native setup package, polymarket trading bot, and video translation. Plus Graphify adds Hermes platform support.
+description: "4 newly discovered skills and tools - async multi-agent message bus, Windows-native setup package, polymarket trading bot, and video translation."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-june19-2026/"
 robots: "index,follow"
 last_updated: "2026-11-01"

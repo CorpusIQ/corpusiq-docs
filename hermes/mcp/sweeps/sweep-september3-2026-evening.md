@@ -1,6 +1,7 @@
 ---
 title: "Sweep Report - September 3, 2026 - CorpusIQ Docs"
-description: "Evening MCP catalog sweep: chatmcp/mcpso issues #3910-#3917, mcp.so feed, and mcpservers.org /all, cataloging 7 new servers with guides (SellerMate, Neonjelly, Klarix Intelligence Engine, Raposa Aval, Strac DLP, ToBid and more); catalog now 514 servers / 400 guides."
+description: "Evening MCP catalog sweep: chatmcp/mcpso issues #3910-#3917, mcp.so feed, and mcpservers.org /all, cataloging 7 new servers with guides (SellerMate."
+
 date: 2026-09-03T19:00:00-07:00
 sources: [chatmcp/mcpso, mcp.so, mcpservers.org]
 status: complete

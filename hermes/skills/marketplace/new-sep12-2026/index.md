@@ -1,6 +1,7 @@
 ---
 title: September 12, 2026 Skills.sh Sweep - Aradotso Publisher
-description: "Skills.sh sweep September 12, 2026: aradotso org renamed to reason-machines (7 repos, GitHub 301/200 verified) - 25 catalog setup guides updated in place with new Source links, install commands, and skills.sh references."
+description: "Skills.sh sweep September 12, 2026: aradotso org renamed to reason-machines (7 repos, GitHub 301/200 verified) - 25 catalog setup guides updated in place."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-sep12-2026/"
 robots: "index,follow"
 last_updated: "2026-11-01"

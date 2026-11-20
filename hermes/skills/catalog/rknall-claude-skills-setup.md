@@ -1,6 +1,7 @@
 ---
 title: RKnall Claude Skills - SVG Logo & GitLab Stack Setup
-description: "rknall/claude-skills - 10 skills, 8.5K installs: SVG Logo Designer (6.2K), Python backend architecture review, web design builder, Docker validator, and a GitLab stack generator/validator/secrets-manager series."
+description: "rknall/claude-skills - 10 skills, 8.5K installs: SVG Logo Designer (6.2K), Python backend architecture review, web design builder, Docker validator."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/rknall-claude-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-11-01"

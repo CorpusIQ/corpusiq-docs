@@ -1,6 +1,7 @@
 ---
 title: Momentic Skills - AI QA Testing Suite Setup Guide
-description: "momentic-ai/skills - 5 skills, 118.9K combined installs. Agent-driven end-to-end testing: test authoring, result classification, mobile testing, and spec-driven QA with Momentic."
+description: "momentic-ai/skills - 5 skills, 118.9K combined installs. Agent-driven end-to-end testing: test authoring, result classification, mobile testing."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/momentic-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-11-01"

@@ -1,6 +1,7 @@
 ---
 title: "OpenClaw Persona Forge - Lobster Soul Character"
-description: Forge complete lobster soul personas for OpenClaw AI agents. Identity, soul description, boundary rules, names, and avatar prompts. 800万+ combinations via gacha engine. 3.8K+ installs.
+description: "Forge complete lobster soul personas for OpenClaw AI agents. Identity, soul description, boundary rules, names, and avatar prompts."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-persona-forge-setup/"
 robots: "index,follow"
 last_updated: "2026-11-01"

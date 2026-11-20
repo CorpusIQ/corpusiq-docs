@@ -1,6 +1,7 @@
 ---
 title: "TAGLI MCP - A Signed, Expiring Merch Quote for an Agent"
-description: "A branded-merchandise supplier that hands any anonymous agent a locked quote with a three-day expiry, a server signature and a public PDF, priced all-inclusive in ILS."
+description: "A branded-merchandise supplier that hands any anonymous agent a locked quote with a three-day expiry, a server signature and a public PDF, priced."
+
 category: "Commerce / B2B Procurement"
 stars: "n/a (hosted vendor endpoint; no public repository)"
 added: 2026-11-19

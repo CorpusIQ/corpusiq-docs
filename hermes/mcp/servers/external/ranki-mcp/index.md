@@ -1,6 +1,7 @@
 ---
 title: "Ranki MCP - Free SEO and AEO Audits for AI Agents"
-description: "Open-source SEO and AEO MCP: 22 tools for on-page audits, Core Web Vitals, image optimization, sitemap llms.txt and robots generation plus AI-citation visibility, hosted at mcp.ranki.io with npm stdio fallbacks. MIT, free tier."
+description: "Open-source SEO and AEO MCP: 22 tools for on-page audits, Core Web Vitals, image optimization, sitemap llms.txt and robots generation plus AI-citation."
+
 category: SEO
 stars: "0 (new listing, 1fancy/seo-aeo-audit-mcp-ranki)"
 added: 2026-09-01

@@ -1,6 +1,7 @@
 ---
 title: "Memory Management Best Practices for Hermes Agent"
-description: "Hermes Agent memory management: built-in MEMORY.md, one external memory provider (Honcho or others), GBrain-style indexes, session search, compaction strategies, anti-patterns."
+description: "Hermes Agent memory management: built-in MEMORY.md, one external memory provider (Honcho or others), GBrain-style indexes, session search, compaction."
+
 category: best-practices
 tags: [hermes-agent, memory-management, honcho, gbrain, memory-provider, context-optimization, persistent-memory, session-search]
 last_updated: 2026-11-07

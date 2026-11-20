@@ -1,6 +1,7 @@
 ---
 title: "Sweep Report - September 4, 2026 (Evening) - CorpusIQ Docs"
-description: "Evening MCP catalog sweep: chatmcp/mcpso issues #3918-#3937 plus mcp.so feed and mcpservers.org /all pages 1-3, cataloging 13 new servers with guides (gofact, Factur-X by Orvel, ddmarketer, registry-mcp, Ozon, Wildberries, EuroDNS, PurrPlan, PingRoom, CTlogs.io, Helixar, Velarion, VeriRoute); catalog now 539 servers / 425 guides."
+description: "Evening MCP catalog sweep: chatmcp/mcpso issues #3918-#3937 plus mcp.so feed and mcpservers.org /all pages 1-3, cataloging 13 new servers with guides."
+
 date: 2026-09-04T19:02:00-07:00
 sources: [chatmcp/mcpso, mcp.so, mcpservers.org]
 status: complete

@@ -1,6 +1,7 @@
 ---
 title: Vercel Agent Skills - Full Setup Guide for Hermes Agents
-description: Install and use Vercel's official agent skills collection - 4 skills for optimization, React best practices, web design, and writing guidelines. 29K+ GitHub stars.
+description: "Install and use Vercel's official agent skills collection - 4 skills for optimization, React best practices, web design, and writing guidelines."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/vercel-agent-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-11-01"

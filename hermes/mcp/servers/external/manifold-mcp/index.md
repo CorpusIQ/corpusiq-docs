@@ -1,6 +1,7 @@
 ---
 title: "Manifold MCP - Hosted Marketing Data for Agents"
-description: "One hosted endpoint for keyword research, SERPs, backlinks, site audits, AI answer visibility, social and ad-library data plus B2B lead enrichment, billed per call."
+description: "One hosted endpoint for keyword research, SERPs, backlinks, site audits, AI answer visibility, social and ad-library data plus B2B lead enrichment, billed."
+
 category: Marketing
 stars: n/a (hosted platform, manifoldmcp.com)
 added: 2026-09-30

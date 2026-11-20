@@ -1,6 +1,7 @@
 ---
 title: Google Measurement MCP - GA4, Search Console and Tag Manager
-description: The Google measurement stack for AI agents. One MCP server exposes GA4, Search Console and Tag Manager with 15 read tools always on and 9 write tools that stay invisible until explicitly enabled. Publish requires human confirmation and destructive operations do not exist in the codebase. Early v0.1.0.
+description: "The Google measurement stack for AI agents. One MCP server exposes GA4, Search Console and Tag Manager with 15 read tools always on and 9 write tools."
+
 category: Data & Analytics
 stars: n/a (new listing)
 added: 2026-09-06

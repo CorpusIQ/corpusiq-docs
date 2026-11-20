@@ -1,6 +1,7 @@
 ---
 title: AWS Agent Toolkit - Official AWS Skills for Hermes Agents
-description: AWS's official agent toolkit - MCP servers, skills, and plugins for building on AWS. 4.3K+ combined installs across 19 core skills covering IAM, CDK, serverless, containers, databases, and AI/ML.
+description: "AWS's official agent toolkit - MCP servers, skills, and plugins for building on AWS. 4.3K+ combined installs across 19 core skills covering IAM, CDK."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/aws-agent-toolkit-setup/"
 robots: "index,follow"
 last_updated: "2026-11-01"

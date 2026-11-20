@@ -1,6 +1,7 @@
 ---
 title: "New Skills - August 19, 2026 (Evening)"
-description: "skills.sh evening sweep: Hermes Field Kit (asimons81, 122⭐, 16 skills), AtlasOmnia Hermes Custom Pack (48⭐, 60+ skills), Buzz Skills (tonbistudio, 250⭐, Hermes on Nostr) - 3 new publisher clusters, 79+ skills, 3 setup guides."
+description: "skills.sh evening sweep: Hermes Field Kit (asimons81, 122⭐, 16 skills), AtlasOmnia Hermes Custom Pack (48⭐, 60+ skills), Buzz Skills (tonbistudio, 250⭐."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-aug19-2026-evening/"
 robots: "index,follow"
 last_updated: "2026-11-01"

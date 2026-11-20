@@ -1,6 +1,7 @@
 ---
 title: "Lazynext Accessibility Checker MCP - WCAG Audits From Chat"
-description: "Scan any public page for WCAG 2.1 and 2.2 violations from an MCP client: a rendered-browser audit returns a 0 to 100 score, rule-level findings with a fix each, a section 508 clause map and a shareable report URL."
+description: "Scan any public page for WCAG 2.1 and 2.2 violations from an MCP client: a rendered-browser audit returns a 0 to 100 score, rule-level findings with a fix."
+
 category: Business Operations
 stars: n/a (free tier, 3 rendered scans a day)
 added: 2026-10-31

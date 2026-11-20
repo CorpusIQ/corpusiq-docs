@@ -1,6 +1,7 @@
 ---
 title: Sqemo MCP - Database Schema Design and ERD Governance
-description: MCP server for governed database design - introspect live databases, generate ERDs, name-check columns, detect schema drift, diff models and export SQL or DBML. Local .erd.json files work with no account. MIT.
+description: "MCP server for governed database design - introspect live databases, generate ERDs, name-check columns, detect schema drift, diff models and export SQL."
+
 category: Database & Data Engineering
 stars: n/a (new listing)
 added: 2026-09-09

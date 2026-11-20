@@ -1,6 +1,7 @@
 ---
 title: Agentix CEO Skill - AI Worker Team Orchestration Setup
-description: "agentix-cloud/skills - agentix-ceo (52.0K installs): orchestrate a team of AI workers with roles, tasks, and ephemeral Modal agents in supervised or autopilot mode, via SaaS or self-hosted."
+description: "agentix-cloud/skills - agentix-ceo (52.0K installs): orchestrate a team of AI workers with roles, tasks, and ephemeral Modal agents in supervised."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/agentix-ceo-skill-setup/"
 robots: "index,follow"
 last_updated: "2026-11-01"

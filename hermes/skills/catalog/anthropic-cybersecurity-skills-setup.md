@@ -1,6 +1,7 @@
 ---
 title: Anthropic Cybersecurity Skills Setup Guide
-description: Install and configure mukul975/Anthropic-Cybersecurity-Skills - 750+ MITRE-mapped security skills for AI agents including threat detection, incident response, and vulnerability assessment.
+description: "Install and configure mukul975/Anthropic-Cybersecurity-Skills - 750+ MITRE-mapped security skills for AI agents including threat detection, incident."
+
 category: security
 publisher: mukul975
 skills_count: 750+

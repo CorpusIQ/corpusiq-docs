@@ -1,6 +1,7 @@
 ---
 title: "TEOS WARN Act Layoff Intelligence MCP"
-description: "Hosted MCP server for US WARN Act mass-layoff intelligence - 5,964 normalized layoff and plant-closing notices covering 545,647 workers across CA, TX, NY, IL and NC, refreshed every 12 hours from primary state sources with provenance back to the originating filing. For layoff tracking, corporate distress and alternative-data signals, employment-law research, and recruiting or outplacement lead generation."
+description: "Hosted MCP server for US WARN Act mass-layoff intelligence - 5,964 normalized layoff and plant-closing notices covering 545,647 workers across CA, TX, NY, IL."
+
 category: Compliance
 stars: n/a (hosted, no public repo)
 added: 2026-08-23

@@ -1,6 +1,7 @@
 ---
 title: Modem MCP - Customer Feedback Intelligence for AI Agents
-description: Modem connects AI assistants to customer feedback across Slack, support tickets, email, calls and issue trackers. Fourteen tools search feedback with natural language, run the Modem Agent against connected tools, and write topics, companies and people back to the workspace.
+description: "Modem connects AI assistants to customer feedback across Slack, support tickets, email, calls and issue trackers."
+
 category: Business Operations
 stars: n/a (new listing)
 added: 2026-09-04

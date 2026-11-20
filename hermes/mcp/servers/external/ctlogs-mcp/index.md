@@ -1,6 +1,7 @@
 ---
 title: CTlogs.io MCP - Certificate Transparency Search for Agents
-description: Hosted MCP server that puts the Certificate Transparency record inside an AI assistant. Five read-only tools search subdomains, certificate history and hostname keywords across public CT logs for security, brand protection and infrastructure work. OAuth browser sign-in with no key to copy, operated by Lyalpha GmbH.
+description: "Hosted MCP server that puts the Certificate Transparency record inside an AI assistant. Five read-only tools search subdomains, certificate history."
+
 category: Security
 stars: n/a (new listing)
 added: 2026-09-04

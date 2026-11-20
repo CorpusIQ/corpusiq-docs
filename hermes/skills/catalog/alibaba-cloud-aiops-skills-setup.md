@@ -1,6 +1,7 @@
 ---
 title: Alibaba Cloud AIOps Skills - 270-Skill Cloud Operations
-description: "aliyun/alibabacloud-aiops-skills - 270 first-party Alibaba Cloud Agent Skills: ECS, SLS, DMS, RDS, DataWorks, OSS, Flink, Hologres, security, and cost operations. 30.8K skills.sh installs. Setup guide for Hermes agents."
+description: "aliyun/alibabacloud-aiops-skills - 270 first-party Alibaba Cloud Agent Skills: ECS, SLS, DMS, RDS, DataWorks, OSS, Flink, Hologres, security, and cost."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/alibaba-cloud-aiops-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-11-01"

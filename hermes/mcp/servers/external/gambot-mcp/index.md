@@ -1,6 +1,7 @@
 ---
 title: "Gambot MCP - WhatsApp Business Messaging and CRM for Agents"
-description: "MCP server for the Gambot WhatsApp Business API, an official Meta-approved WhatsApp Business Solution Provider. 77 documented tools send messages and templates, run campaigns from Excel mail-merge or CRM-filter audiences, and manage contacts, leads, cases, tasks, quotes, invoices, orders, forms and signatures. stdio via npx gambot-mcp with a Gambot token; MIT repo."
+description: "MCP server for the Gambot WhatsApp Business API, an official Meta-approved WhatsApp Business Solution Provider."
+
 category: Communication & Email
 stars: n/a (new listing)
 added: 2026-09-14

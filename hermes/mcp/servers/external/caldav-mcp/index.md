@@ -1,6 +1,7 @@
 ---
 title: "caldav-mcp - Calendar Operations over CalDAV for Agents"
-description: "caldav-mcp reads and writes calendars over CalDAV from an MCP client: events, tasks and journal entries on Radicale, Baikal, Nextcloud, SOGo, Fastmail, iCloud and any standards-compliant server. 22 tools with read-only mode, client-side recurring-event expansion, calendar fencing and If-Match guarded writes. TypeScript stdio, MIT."
+description: "caldav-mcp reads and writes calendars over CalDAV from an MCP client: events, tasks and journal entries on Radicale, Baikal, Nextcloud, SOGo, Fastmail."
+
 category: Productivity
 stars: 0
 added: 2026-09-07

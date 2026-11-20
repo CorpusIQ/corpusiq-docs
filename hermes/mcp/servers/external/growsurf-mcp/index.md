@@ -1,6 +1,7 @@
 ---
 title: "GrowSurf MCP - Referral and Affiliate Program Operations"
-description: "Official GrowSurf MCP server that lets an AI assistant create referral and affiliate programs, configure rewards, install tracking, manage participants, and read analytics through safe REST API wrappers. npm package plus a hosted remote connector at mcp.growsurf.com."
+description: "Official GrowSurf MCP server that lets an AI assistant create referral and affiliate programs, configure rewards, install tracking, manage participants."
+
 category: Marketing
 stars: n/a (new listing, github.com/GrowSurf/growsurf-mcp)
 added: 2026-08-29

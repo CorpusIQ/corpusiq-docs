@@ -1,6 +1,7 @@
 ---
 title: Twitter GTM Find Skill Setup Guide
-description: End-to-end pipeline for scraping X/Twitter for GTM and DevRel tech startup jobs - via Apify, TweetClaw (OpenClaw), or Hermes Tweet (Hermes Agent). From varnan-tech/opendirectory (564⭐).
+description: "End-to-end pipeline for scraping X/Twitter for GTM and DevRel tech startup jobs - via Apify, TweetClaw (OpenClaw), or Hermes Tweet (Hermes Agent)."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/twitter-gtm-find-skill-setup/"
 robots: "index,follow"
 last_updated: "2026-11-01"

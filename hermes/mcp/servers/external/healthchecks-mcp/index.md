@@ -1,6 +1,7 @@
 ---
 title: healthchecks-mcp - Cron Job Health and Failure Forensics
-description: "Open-source stdio MCP server for Healthchecks: see which cron jobs and scheduled tasks are down, read the failing job's output, and create or adjust checks against the hosted or self-hosted service."
+description: "Open-source stdio MCP server for Healthchecks: see which cron jobs and scheduled tasks are down, read the failing job's output, and create or adjust checks."
+
 category: Business Operations
 stars: n/a (new listing, ni-c/healthchecks-mcp)
 added: 2026-08-29

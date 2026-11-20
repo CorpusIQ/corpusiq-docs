@@ -1,6 +1,7 @@
 ---
 title: "Sweep Report - September 5, 2026 (Morning) - CorpusIQ Docs"
-description: "Morning MCP catalog sweep: mcpservers.org /all pages 1-3 plus the mcp.so feed, cataloging 4 new servers with guides (Ryze Meta Ads, Abyssale, Elium, PostBazooka); catalog now 543 servers / 429 guides."
+description: "Morning MCP catalog sweep: mcpservers.org /all pages 1-3 plus the mcp.so feed, cataloging 4 new servers with guides (Ryze Meta Ads, Abyssale, Elium."
+
 date: 2026-09-05T03:10:00-07:00
 sources: [mcpservers.org, mcp.so]
 status: complete

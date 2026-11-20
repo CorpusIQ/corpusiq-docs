@@ -1,6 +1,7 @@
 ---
 title: "Real Wave GHL MCP: Native GoHighLevel Workflow Building"
-description: "Hosted MCP server that lets AI agents build native GoHighLevel workflows - trigger, texts, waits and branches created directly in the GHL builder - plus agent building, testing and launch from chat. OAuth sign-in, works with Claude, ChatGPT, Cursor, VS Code, Claude Code and Codex."
+description: "Hosted MCP server that lets AI agents build native GoHighLevel workflows - trigger, texts, waits and branches created directly in the GHL builder."
+
 category: Marketing
 stars: n/a (hosted, no public repo)
 added: 2026-08-23

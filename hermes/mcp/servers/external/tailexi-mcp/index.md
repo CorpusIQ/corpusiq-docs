@@ -1,6 +1,7 @@
 ---
 title: "TaiLexi AI MCP - Taiwan Legal Research for Agents"
-description: "Taiwan legal research MCP server that searches court judgments, indictments, statutes, administrative interpretations and constitutional rulings in plain language. A proprietary index of 20M+ documents with official source links, per-result summaries and citation counts. Token-authenticated hosted endpoint."
+description: "Taiwan legal research MCP server that searches court judgments, indictments, statutes, administrative interpretations and constitutional rulings in plain."
+
 category: IP/Legal
 stars: "n/a (hosted service, no public repo)"
 added: 2026-09-03

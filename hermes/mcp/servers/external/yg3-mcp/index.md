@@ -1,6 +1,7 @@
 ---
 title: "YG3 MCP - Marketing Operations for Autonomous Agents"
-description: "Remote MCP server that puts content, SEO, outbound, LinkedIn, and Google Ads operations under agent control with 197 tools. Agents provision a sandbox workspace with one unauthenticated POST and get a bearer token back; humans connect with OAuth."
+description: "Remote MCP server that puts content, SEO, outbound, LinkedIn, and Google Ads operations under agent control with 197 tools."
+
 category: Marketing
 stars: n/a (new listing, github.com/YG3-ai/yg3-mcp)
 added: 2026-08-29

@@ -1,6 +1,7 @@
 ---
 title: AdPlug LinkedIn Ads MCP - B2B Campaign Control for Agents
-description: Hosted LinkedIn Ads connector for B2B demand-gen teams. Full read and guarded write across campaigns, campaign groups, creatives, saved audiences, lead forms and conversions, with multi-account support, audience-size estimation before targeting commits, 5,000-event conversion batches hashed server-side, and a preview step before every mutation. OAuth 2.1.
+description: "Hosted LinkedIn Ads connector for B2B demand-gen teams. Full read and guarded write across campaigns, campaign groups, creatives, saved audiences, lead forms."
+
 category: Marketing
 stars: n/a (new listing)
 added: 2026-09-06

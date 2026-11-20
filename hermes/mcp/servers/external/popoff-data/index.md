@@ -1,6 +1,7 @@
 ---
 title: "PopOff Data MCP - Reality-TV Social Analytics for AI Agents"
-description: "Hosted PopOff Data MCP server for reality-TV social analytics: Instagram and TikTok follower time series at roughly 30-minute resolution, cast follow/unfollow graphs, engagement rates, trend detections, and citation-ready season CSV exports across shows like Love Island, The Traitors, and Real Housewives. API-key remote HTTP, 12 tools."
+description: "Hosted PopOff Data MCP server for reality-TV social analytics: Instagram and TikTok follower time series at roughly 30-minute resolution, cast."
+
 category: Data & Analytics
 stars: n/a (new listing)
 added: 2026-08-25

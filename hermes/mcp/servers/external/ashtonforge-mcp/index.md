@@ -1,6 +1,7 @@
 ---
 title: "Ashton & Forge Directory MCP - Vetted AI Implementation"
-description: "Keyless read-only MCP directory of vetted AI implementation agencies from the Ashton & Forge marketplace. Three tools summarize the service clusters and industries covered, filter agency listings by service, industry, client size, engagement stage and budget, and hand off the matching-brief link. Free, no account."
+description: "Keyless read-only MCP directory of vetted AI implementation agencies from the Ashton & Forge marketplace."
+
 category: Business Operations
 stars: "n/a (hosted service, no repo)"
 added: 2026-09-02

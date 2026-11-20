@@ -1,6 +1,7 @@
 ---
 title: Oh-My-Hermes Workflow - Agent Orchestration Framework
-description: Install and configure the Oh-My-Hermes workflow framework that provides opinionated patterns for Hermes agent task orchestration, session management, and tool chaining.
+description: "Install and configure the Oh-My-Hermes workflow framework that provides opinionated patterns for Hermes agent task orchestration, session management."
+
 publisher: reason-machines/hermes-skills
 installs: 182
 quality_tier: 🔵 Community

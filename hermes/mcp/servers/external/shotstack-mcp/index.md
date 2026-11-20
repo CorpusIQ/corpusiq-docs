@@ -1,6 +1,7 @@
 ---
 title: "Shotstack MCP: Video Editing API for AI Agents"
-description: "Official hosted MCP endpoint from Shotstack that gives AI assistants direct access to the video editing API, producing video from conversation instead of hand-written Edit JSON. Tools cover rendering video and images, rendering from saved templates with merge values, template management, render status and Studio editor links at mcp.shotstack.io. API key auth."
+description: "Official hosted MCP endpoint from Shotstack that gives AI assistants direct access to the video editing API, producing video from conversation instead."
+
 category: Content
 stars: n/a (new listing)
 added: 2026-08-24

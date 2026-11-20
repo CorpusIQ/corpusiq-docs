@@ -1,6 +1,7 @@
 ---
 title: "TollNode MCP - 155 Paid Calls and Their Published Prices"
-description: "A metered gateway that lists a price for every one of 155 tools, then asks for that exact price in USDC base units before it answers, so a workflow can be costed before it is run."
+description: "A metered gateway that lists a price for every one of 155 tools, then asks for that exact price in USDC base units before it answers, so a workflow can."
+
 category: "AI Gateway / Metered Data"
 stars: "0 (remote Streamable HTTP; 156 tools listed, 155 of them priced, 1 free catalogue tool; three paid tools measured to their x402 challenge)"
 added: 2026-11-16

@@ -1,6 +1,7 @@
 ---
 title: "HasData MCP - Marketplace and Web Data Gateway for Agents"
-description: "Hosted web-data gateway from HasData: one MCP endpoint exposes 57 connector APIs over real estate (Zillow, Redfin), hospitality (Airbnb, Booking), hiring (Indeed, Glassdoor), local business (Yelp, YellowPages), e-commerce (Shopify, Amazon, Walmart), social (YouTube, TikTok, Instagram, Facebook) and search data (Google SERP, Maps, Trends, Flights, Scholar). API key auth at mcp.hasdata.com/mcp, credit-priced."
+description: "Hosted web-data gateway from HasData: one MCP endpoint exposes 57 connector APIs over real estate (Zillow, Redfin), hospitality (Airbnb, Booking), hiring."
+
 category: Data & Analytics / Market Intelligence
 stars: "n/a (hosted, no public repo)"
 added: 2026-08-30

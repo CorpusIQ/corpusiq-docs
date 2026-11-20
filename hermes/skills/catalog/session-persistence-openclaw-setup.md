@@ -1,6 +1,7 @@
 ---
 title: "Session Persistence (OpenClaw) - SQLite message"
-description: Import session transcripts into SQLite with FTS5 full-text search - agent never loses messages across compaction or rollover. 28+ installs from archieindian/openclaw-superpowers.
+description: "Import session transcripts into SQLite with FTS5 full-text search - agent never loses messages across compaction or rollover."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/session-persistence-openclaw-setup/"
 robots: "index,follow"
 last_updated: "2026-11-01"

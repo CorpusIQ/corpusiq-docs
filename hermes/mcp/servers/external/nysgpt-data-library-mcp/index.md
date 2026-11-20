@@ -1,6 +1,7 @@
 ---
 title: "NYSgpt Data Library MCP - SQL Over Public Records"
-description: "A keyless MCP server that runs Athena SQL over United States public-record corpora, with the row counts, the refusals and two defects measured rather than assumed."
+description: "A keyless MCP server that runs Athena SQL over United States public-record corpora, with the row counts, the refusals and two defects measured rather."
+
 category: "Data / Public Records"
 stars: "0 (remote Streamable HTTP, keyless to a daily limit; four tools, all four driven)"
 added: 2026-11-16

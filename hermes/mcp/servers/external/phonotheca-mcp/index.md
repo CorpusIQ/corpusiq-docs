@@ -1,6 +1,7 @@
 ---
 title: "Phonotheca MCP: Interview Transcript Search for Agents"
-description: "Remote read-only MCP server for Phonotheca, the archive for recorded interviews. Full-text search across projects and interviews with speaker-labelled, timestamped transcript passages that return with their citation attached. Streamable HTTP at phonotheca.com/api/mcp with revocable bearer tokens; a free account is enough to start. License not declared."
+description: "Remote read-only MCP server for Phonotheca, the archive for recorded interviews. Full-text search across projects and interviews with speaker-labelled."
+
 category: Content & Research
 stars: n/a (new listing)
 added: 2026-08-24

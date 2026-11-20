@@ -1,6 +1,7 @@
 ---
 title: "MobileMRR MCP - CorpusIQ Docs"
-description: Search mobile app acquisition opportunities with provider-verified revenue data, side-by-side listing comparisons, and live valuation estimates from any MCP client.
+description: "Search mobile app acquisition opportunities with provider-verified revenue data, side-by-side listing comparisons, and live valuation estimates from any MCP."
+
 category: Finance
 stars: n/a (new listing)
 added: 2026-08-16

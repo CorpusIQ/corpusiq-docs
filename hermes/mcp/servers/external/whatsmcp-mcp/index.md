@@ -1,6 +1,7 @@
 ---
 title: "WhatsMCP MCP - Real WhatsApp Numbers for AI Agents"
-description: "Hosted remote MCP server that puts an AI agent on a real WhatsApp number: link a number, mint a workspace-scoped key, and agents send and read messages over JSON-RPC. OAuth or API key auth, per-number message/contact/call pages, inbound webhooks, and plan-capped usage. Verified and featured on mcp.so."
+description: "Hosted remote MCP server that puts an AI agent on a real WhatsApp number: link a number, mint a workspace-scoped key, and agents send and read messages."
+
 category: Communication & Email
 stars: n/a (new listing)
 added: 2026-09-15

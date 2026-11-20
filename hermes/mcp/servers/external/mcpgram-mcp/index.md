@@ -1,6 +1,7 @@
 ---
 title: "MCPGRAM MCP - OAuth Connectivity Gateway for AI Agents"
-description: "MCPGRAM MCP server connects Slack, GitHub, Google, Salesforce and 30+ business apps to any AI agent through one OAuth 2.1 gateway with per-workspace consent, token isolation, and a single Streamable HTTP endpoint"
+description: "MCPGRAM MCP server connects Slack, GitHub, Google, Salesforce and 30+ business apps to any AI agent through one OAuth 2.1 gateway with per-workspace consent."
+
 category: Connectivity
 stars: n/a (new listing)
 added: 2026-08-19

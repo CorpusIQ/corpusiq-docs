@@ -1,6 +1,7 @@
 ---
 title: DCA Method MCP - Dollar-Cost Averaging Backtests
-description: Free keyless MCP server at dcamethod.com/api/mcp that backtests dollar-cost averaging into 160+ cryptos, 600+ US stocks and ETFs and 15 commodities on 15+ years of historical data - live tools/list probe-verified.
+description: "Free keyless MCP server at dcamethod.com/api/mcp that backtests dollar-cost averaging into 160+ cryptos, 600+ US stocks and ETFs and 15 commodities on 15+."
+
 category: Finance
 stars: n/a (new listing)
 added: 2026-09-09

@@ -1,6 +1,7 @@
 ---
 title: "Domain MCP: Dynadot Domain, DNS and Transfer Management"
-description: "stdio MCP server (npm) that groups 108 Dynadot API actions into 10 composite tools for domain portfolio management: registration, renewals, DNS records, nameservers, WHOIS contacts, transfers, folders and aftermarket auctions. MIT licensed, Zod-validated, requires a Dynadot API key."
+description: "stdio MCP server (npm) that groups 108 Dynadot API actions into 10 composite tools for domain portfolio management: registration, renewals, DNS records."
+
 category: Productivity
 stars: 12
 added: 2026-08-23

@@ -1,6 +1,7 @@
 ---
 title: Ryze Google Ads MCP - Hosted Ads Reporting for Agents
-description: Hosted Google Ads MCP server from Ryze AI. Connects Claude, ChatGPT and Cursor to Google Ads with one OAuth login. Fourteen tools cover GAQL reporting, Keyword Planner research, recommendations and approval-gated campaign changes with no developer token required.
+description: "Hosted Google Ads MCP server from Ryze AI. Connects Claude, ChatGPT and Cursor to Google Ads with one OAuth login."
+
 category: Marketing
 stars: n/a (new listing)
 added: 2026-09-04

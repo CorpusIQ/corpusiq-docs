@@ -1,6 +1,7 @@
 ---
 title: "Ambassly MCP - Affiliate Program Operations for Agents"
-description: "Ambassly MCP is the hosted MCP server for Ambassly's affiliate program platform: company-scoped tools list programs, report commission totals by currency, review and approve or reject pending commissions, create affiliate invitations and prepare payout batches; affiliate-scoped tools show creator stats, links and referral-link creation."
+description: "Ambassly MCP is the hosted MCP server for Ambassly's affiliate program platform: company-scoped tools list programs, report commission totals by currency."
+
 category: Marketing
 stars: 0
 added: 2026-09-07

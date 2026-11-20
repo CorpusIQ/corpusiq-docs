@@ -1,6 +1,7 @@
 ---
 title: TrueClicks MCP - PPC Audit Intelligence for Agents
-description: "Hosted read-only connector to the TrueClicks PPC audit platform for Google, Microsoft and Meta Ads. Agents pull audit results and TrueClicks scores across every connected account, rank issues by wasted spend and severity, surface triggered performance alerts with the campaign-level numbers behind them, and check budget pacing against efficiency targets, all scoped to the signed-in user's accounts over OAuth."
+description: "Hosted read-only connector to the TrueClicks PPC audit platform for Google, Microsoft and Meta Ads."
+
 category: Marketing
 stars: n/a (hosted connector)
 added: 2026-09-07

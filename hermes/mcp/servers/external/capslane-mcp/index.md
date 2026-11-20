@@ -1,6 +1,7 @@
 ---
 title: Capslane MCP - Timestamped YouTube Transcripts for Agents
-description: "Hosted MCP server and npm package for the Capslane YouTube transcript API: native captions with millisecond timestamps, automatic generation when captions are missing, job-based status polling, and workspace-based usage limits."
+description: "Hosted MCP server and npm package for the Capslane YouTube transcript API: native captions with millisecond timestamps, automatic generation when captions."
+
 category: Content & Research
 stars: 1
 added: 2026-09-10

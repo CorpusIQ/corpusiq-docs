@@ -1,6 +1,7 @@
 ---
 title: "Stratyfix MCP - CorpusIQ Docs"
-description: Sales intelligence connector for MCP agents - 10 read-only tools over live pipeline, forecasts, pace-to-target, and coaching data, with per-user OAuth permissions
+description: "Sales intelligence connector for MCP agents - 10 read-only tools over live pipeline, forecasts, pace-to-target, and coaching data, with per-user OAuth."
+
 category: Sales
 stars: n/a (commercial)
 added: 2026-08-12

@@ -1,6 +1,7 @@
 ---
 title: "Pixelesq MCP - Website Management and SEO for Agents"
-description: "Official remote MCP server for Pixelesq website projects. Agents create and edit pages section by section, write entries into collections, set SEO metadata and JSON-LD, read Google Search Console and site analytics, manage redirects, forms, images and theme - with every edit landing in a draft until the agent publishes. 62 tools, OAuth 2.1 PKCE."
+description: "Official remote MCP server for Pixelesq website projects. Agents create and edit pages section by section, write entries into collections, set SEO metadata."
+
 category: Business Operations
 stars: n/a (new listing)
 added: 2026-09-12

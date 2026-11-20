@@ -1,6 +1,7 @@
 ---
 title: InstantClips MCP - E-Commerce Short-Form Video Ads
-description: Turn e-commerce products into short-form vertical video ads for TikTok, Instagram Reels and Stories. Import a product from its page URL or photos, draft on-brand creative direction per brand, and render videos through a hosted OAuth MCP endpoint.
+description: "Turn e-commerce products into short-form vertical video ads for TikTok, Instagram Reels and Stories."
+
 category: Marketing
 stars: n/a (new listing)
 added: 2026-09-08

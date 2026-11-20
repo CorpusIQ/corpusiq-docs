@@ -1,6 +1,7 @@
 ---
 title: "Google Flights MCP: Real-Time Fare Search with Price"
-description: "Hosted ad-free MCP server for real-time Google Flights fares: one-way and round-trip search over date ranges and destination lists, with Google's historical price range on every result so the agent can say whether a fare is actually good. Bring your own RapidAPI key; free tier and a free ad-supported endpoint exist."
+description: "Hosted ad-free MCP server for real-time Google Flights fares: one-way and round-trip search over date ranges and destination lists, with Google's historical."
+
 category: Content & Research
 stars: n/a (new listing)
 added: 2026-08-24

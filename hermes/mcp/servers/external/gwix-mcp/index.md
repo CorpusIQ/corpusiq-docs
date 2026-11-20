@@ -1,6 +1,7 @@
 ---
 title: "GWIX MCP - Pay, Hiring and Workforce Data With Provenance"
-description: "A labour-market data exchange as tools: median and percentile pay, job-ad volume, hiring demand, talent supply and turnover across countries, every figure carrying its source and release, with a keyless sample server to test first."
+description: "A labour-market data exchange as tools: median and percentile pay, job-ad volume, hiring demand, talent supply and turnover across countries, every figure."
+
 category: Business Operations
 stars: n/a (credit-based, $250 free)
 added: 2026-10-31

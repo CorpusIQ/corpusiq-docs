@@ -1,6 +1,7 @@
 ---
 title: LinkedIn Ghostwriter MCP - Draft Posts in Your Voice
-description: "ContentIn's MCP server writes LinkedIn posts in your own voice from a VoiceDNA model trained on your real posts: ideas, drafts, scheduling, publishing via LinkedIn's official API, and post analytics - 8 tools over Streamable HTTP with an X-MCP-Key header."
+description: "ContentIn's MCP server writes LinkedIn posts in your own voice from a VoiceDNA model trained on your real posts: ideas, drafts, scheduling, publishing."
+
 category: Content & Marketing
 stars: n/a (new listing)
 added: 2026-08-21

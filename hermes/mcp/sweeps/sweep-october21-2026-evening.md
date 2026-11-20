@@ -1,6 +1,7 @@
 ---
 title: "MCP Server Discovery - October 21, 2026 (Evening Sweep)"
-description: "Evening delta cataloguing two servers with guides: LinkedIn and X publishing behind a separate approval tool, and a keyless playbook corpus that grades its own evidence."
+description: "Evening delta cataloguing two servers with guides: LinkedIn and X publishing behind a separate approval tool, and a keyless playbook corpus that grades."
+
 last_updated: 2026-11-01
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october21-2026-evening/"
 robots: "index,follow"

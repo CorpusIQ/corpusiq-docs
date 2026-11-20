@@ -1,6 +1,7 @@
 ---
 title: Genviral MCP - Social Media Creation and Publishing
-description: "Official hosted MCP server from Genviral: 16 tools across four OAuth scopes that let AI assistants generate images, videos and slideshows, write captions, and schedule or publish posts across 10 social platforms."
+description: "Official hosted MCP server from Genviral: 16 tools across four OAuth scopes that let AI assistants generate images, videos and slideshows, write captions."
+
 category: Marketing
 stars: "n/a (no public repo)"
 added: 2026-08-29

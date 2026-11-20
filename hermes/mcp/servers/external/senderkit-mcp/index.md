@@ -1,6 +1,7 @@
 ---
 title: "SenderKit MCP - Transactional Messaging from Your Assistant"
-description: "Official SenderKit MCP server for transactional and marketing messaging: send templated or raw emails, SMS, push, and web-push, manage templates, inspect delivery, and handle inbound addresses and domains. 18 tools, hosted endpoint or local stdio."
+description: "Official SenderKit MCP server for transactional and marketing messaging: send templated or raw emails, SMS, push, and web-push, manage templates, inspect."
+
 category: Communication & Email
 stars: n/a (hosted)
 added: 2026-08-25

@@ -1,6 +1,7 @@
 ---
 title: "Trooth Network MCP - Witnessed Company Trust Records"
-description: "Remote read-only, no-auth MCP server checking a company's witnessed trust record: identity, security, privacy and AI practices with source-labeled provenance, plus a live outside-in read of a domain's public security surface. Endpoint api.trooth.co/public/mcp, live-verified."
+description: "Remote read-only, no-auth MCP server checking a company's witnessed trust record: identity, security, privacy and AI practices with source-labeled."
+
 category: Security
 stars: "n/a (hosted, no public repo)"
 added: 2026-08-31

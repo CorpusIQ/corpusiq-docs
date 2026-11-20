@@ -1,6 +1,7 @@
 ---
 title: Huashu Design Skill - HTML-First Agent Design Setup
-description: "alchaincyf/huashu-design - huashu-design (42.9K installs, 23K GitHub stars): HTML-first prototyping, animations, slide decks, and design direction with five design philosophies and specialist role embodiment."
+description: "alchaincyf/huashu-design - huashu-design (42.9K installs, 23K GitHub stars): HTML-first prototyping, animations, slide decks, and design direction with five."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/huashu-design-setup/"
 robots: "index,follow"
 last_updated: "2026-11-01"

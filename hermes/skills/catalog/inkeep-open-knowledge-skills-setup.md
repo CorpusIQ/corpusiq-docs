@@ -1,6 +1,7 @@
 ---
 title: Inkeep Open Knowledge Skills - Agent Knowledge Base
-description: "inkeep/open-knowledge-skills - 33 skills, 17.1K combined installs. Inkeep's OpenKnowledge framework: a markdown-CRDT live multi-writer knowledge base plus agent skills for entity vaults, notes consolidation, specs, ADRs, postmortems, and personal CRM."
+description: "inkeep/open-knowledge-skills - 33 skills, 17.1K combined installs. Inkeep's OpenKnowledge framework: a markdown-CRDT live multi-writer knowledge base."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/inkeep-open-knowledge-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-11-01"

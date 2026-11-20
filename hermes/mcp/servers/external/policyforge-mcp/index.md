@@ -1,6 +1,7 @@
 ---
 title: PolicyForge MCP - Legal Policies from Your Codebase
-description: "Hosted MCP server that generates, audits, and version-tracks legal policies - privacy, terms, cookies, EULAs, disclaimers, HIPAA BAAs - from your codebase through OAuth, API key, or local npx."
+description: "Hosted MCP server that generates, audits, and version-tracks legal policies - privacy, terms, cookies, EULAs, disclaimers, HIPAA BAAs - from your codebase."
+
 category: Compliance
 stars: n/a (new listing, policyforge/mcp; license not declared)
 added: 2026-08-29

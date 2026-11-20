@@ -1,6 +1,7 @@
 ---
 title: Nova Amazon MCP - Seller Central Profit Analytics for Agents
-description: Hosted Amazon MCP connecting Seller Central, Vendor Central and Amazon Ads to Claude, ChatGPT, Gemini and Cursor. 15 tools answer net profit per SKU with your own COGS, VAT and FBM shipping costs reconciled across 40+ Amazon fee types, plus PPC, inventory, listing health and Best Seller Rank queries over 477 data points.
+description: "Hosted Amazon MCP connecting Seller Central, Vendor Central and Amazon Ads to Claude, ChatGPT, Gemini and Cursor."
+
 category: Commerce & E-Commerce
 stars: n/a (new listing)
 added: 2026-09-10

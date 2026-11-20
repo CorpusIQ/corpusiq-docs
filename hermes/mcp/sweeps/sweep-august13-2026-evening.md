@@ -1,6 +1,7 @@
 ---
 title: "MCP Sweep - August 13, 2026 (Evening)"
-description: "Evening sweep. 5 new servers catalogued, 4 guides. Platform MCPs expose read-only analytics warehouses with grant scoping (Alison Evo); data-minimization becomes a feature (easydocforms); verify-before-act rails keep thickening (AgenticRail, glc PromptGuard)"
+description: "Evening sweep. 5 new servers catalogued, 4 guides. Platform MCPs expose read-only analytics warehouses with grant scoping (Alison Evo); data-minimization."
+
 date: 2026-08-13T18:30:00-07:00
 sources: [mcpservers.org, mcp.so]
 status: complete

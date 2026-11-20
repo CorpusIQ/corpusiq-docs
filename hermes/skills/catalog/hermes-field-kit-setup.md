@@ -1,6 +1,7 @@
 ---
 title: Hermes Field Kit - Field-Tested Hermes Operations Skill
-description: "asimons81/hermes-field-kit - 16 skills (13 stable + 3 experimental), 122 GitHub stars: a curated, versioned, field-tested operations kit for Hermes Agent covering stack health, gateway diagnosis, profile audits, token/cost auditing, skill audits, environment migration, and evidence-disciplined reporting."
+description: "asimons81/hermes-field-kit - 16 skills (13 stable + 3 experimental), 122 GitHub stars: a curated, versioned, field-tested operations kit for Hermes Agent."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-field-kit-setup/"
 robots: "index,follow"
 last_updated: "2026-11-01"

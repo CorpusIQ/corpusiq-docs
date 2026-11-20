@@ -1,6 +1,7 @@
 ---
 title: Math via Code - Hermes Agent Skill Setup Guide
-description: Install and configure tommulkins/hermes-skill-math-via-code - enforce all multi-step arithmetic through code execution to eliminate LLM math errors in financial analysis and data modeling
+description: "Install and configure tommulkins/hermes-skill-math-via-code - enforce all multi-step arithmetic through code execution to eliminate LLM math errors."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/math-via-code-setup/"
 robots: "index,follow"
 last_updated: "2026-11-01"

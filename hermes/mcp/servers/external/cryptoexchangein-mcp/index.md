@@ -1,6 +1,7 @@
 ---
 title: "CryptoExchangeIn MCP - True Trading Cost and Country Rules"
-description: "A keyless MCP server that prices the all-in cost of a crypto trade across eight exchanges by mode, and pairs it with a per-country regulatory matrix for licensing, KYC, tax and bank rails."
+description: "A keyless MCP server that prices the all-in cost of a crypto trade across eight exchanges by mode, and pairs it with a per-country regulatory matrix."
+
 category: "Finance / Trading Costs"
 stars: "0 (hosted, closed source; 6 tools, keyless, 5 of them driven)"
 added: 2026-11-15

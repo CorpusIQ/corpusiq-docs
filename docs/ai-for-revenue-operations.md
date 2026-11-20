@@ -1,6 +1,7 @@
 ---
 title: AI for Revenue Operations | CorpusIQ MCP Platform for RevOps
-description: Transform Revenue Operations with AI. Connect CRM, marketing, billing, and analytics for unified revenue intelligence. Cross-source analysis, real-time metrics, read-only MCP integration.
+description: "Transform Revenue Operations with AI. Connect CRM, marketing, billing, and analytics for unified revenue intelligence."
+
 url: /docs/ai-for-revenue-operations
 h1: 'AI for Revenue Operations: Unify Your Revenue Data'
 category: Business Use Cases

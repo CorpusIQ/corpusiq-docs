@@ -1,6 +1,7 @@
 ---
 title: "Packy Tracking MCP - Parcel Tracking and Courier Webhooks"
-description: "Official hosted MCP server for the Packy Tracking API: create and manage parcel trackers, list and auto-detect couriers, and wire delivery-status webhooks through 10 tools at mcp.parceltracking.app. OAuth 2.1 or API-key auth, credit-based pricing on tracking creation, and public health endpoints for liveness checks."
+description: "Official hosted MCP server for the Packy Tracking API: create and manage parcel trackers, list and auto-detect couriers, and wire delivery-status webhooks."
+
 category: Commerce & E-Commerce
 stars: n/a (new listing, github.com/packy-tracking/packy-tracking-mcp)
 added: 2026-08-29

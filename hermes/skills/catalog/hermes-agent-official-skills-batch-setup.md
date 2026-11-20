@@ -1,6 +1,7 @@
 ---
 title: Hermes Agent Official Skills - Bundled Batch Setup Guide
-description: "9 official bundled skills from nousresearch/hermes-agent (432 combined installs, first seen Aug 7-13 2026): competitor-news-monitor, document-to-action-items, github-issue-to-pr, blocked-page-recovery, email-inbox-triage, weekly-review-planning, meeting-action-items, product-price-monitor, sdlc-review - install paths, capabilities, and CorpusIQ use cases."
+description: "9 official bundled skills from nousresearch/hermes-agent (432 combined installs, first seen Aug 7-13 2026): competitor-news-monitor."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-agent-official-skills-batch-setup/"
 robots: "index,follow"
 last_updated: "2026-11-01"

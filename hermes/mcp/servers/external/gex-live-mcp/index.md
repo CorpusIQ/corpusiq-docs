@@ -1,6 +1,7 @@
 ---
 title: "Gex Live MCP - SPX Dealer Positioning for AI Agents"
-description: "Measurement-only MCP server for SPX dealer positioning from the 0DTE options tape: zero-gamma flip, call and put walls, hold band for 1000+ finished sessions, plus a backtesting Lab with plain-language idea compilation. Three free tools, no key required."
+description: "Measurement-only MCP server for SPX dealer positioning from the 0DTE options tape: zero-gamma flip, call and put walls, hold band for 1000+ finished."
+
 category: Finance
 stars: n/a (new listing)
 added: 2026-08-22

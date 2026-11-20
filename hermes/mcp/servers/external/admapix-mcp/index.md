@@ -1,6 +1,7 @@
 ---
 title: "AdMapix MCP - Competitor Ad Creative Intelligence"
-description: "Local stdio MCP server over the AdMapix ad-intelligence API: search competitor ad creatives by keyword, advertiser, category or ad copy, filtered by format, country and date range, returning raw structured records with media URLs and metrics"
+description: "Local stdio MCP server over the AdMapix ad-intelligence API: search competitor ad creatives by keyword, advertiser, category or ad copy, filtered by format."
+
 category: Marketing
 stars: n/a (new listing)
 added: 2026-08-20

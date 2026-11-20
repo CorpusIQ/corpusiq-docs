@@ -1,6 +1,7 @@
 ---
 title: Composio - Awesome Claude Skills (28-Skill Suite
-description: Production-ready Claude Skills collection with 28 skills for lead research, invoice management, content creation, YouTube downloading, developer analytics, and more. 70.9K GitHub stars, 16.1K+ combined installs on skills.sh.
+description: "Production-ready Claude Skills collection with 28 skills for lead research, invoice management, content creation, YouTube downloading, developer analytics."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/composiohq-awesome-claude-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-11-01"

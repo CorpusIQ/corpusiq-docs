@@ -1,6 +1,7 @@
 ---
 title: "Connectors Explained - CorpusIQ Docs"
-description: "A connector is a one-way, read-only link between CorpusIQ and your business tools. This page explains how connectors work, what scopes mean, and why direct queries run without a raw-file/full-payload warehouse; scoped operational logs may still apply."
+description: "A connector is a one-way, read-only link between CorpusIQ and your business tools. This page explains how connectors work, what scopes mean, and why direct."
+
 last_updated: "2026-11-07"
 ---
 # Connectors, explained

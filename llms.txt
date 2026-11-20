@@ -41,11 +41,11 @@
 
 ## Developer Guides
 - [MCP Apps: interactive answers instead of walls of text](https://www.corpusiq.io/docs/mcp-apps): MCP Apps render an interactive HTML interface inside the AI chat. How the extension works, its sandbox security model, client support, and what to verify
-- [CorpusIQ MCP architecture](https://www.corpusiq.io/docs/how-it-works/mcp-architecture): For developers: how CorpusIQ exposes 40+ business connectors through Model Context Protocol, how tools are named and scoped, and how the architecture keeps answers auditable.
+- [CorpusIQ MCP architecture](https://www.corpusiq.io/docs/how-it-works/mcp-architecture): For developers: how CorpusIQ exposes 40+ business connectors through Model Context Protocol, how tools are named and scoped, and how the architecture keeps.
 - [MCP authentication and connection failure classes](https://www.corpusiq.io/docs/how-it-works/mcp-auth-failure-classes): A field guide to the eight connection and OAuth failures that break MCP servers in production: symptoms, how to tell them apart, and the fix pattern for each.
-- [Connectors, explained](https://www.corpusiq.io/docs/how-it-works/connectors-explained): A connector is a one-way, read-only link between CorpusIQ and your business tools. This page explains how connectors work, what scopes mean, and why direct
-- [The skills engine, explained](https://www.corpusiq.io/docs/how-it-works/skills-explained): Skills are what make CorpusIQ answers good. This page explains how the skills router picks the right capability for your question and keeps answers consistent across assistants.
-- [Metric Specs](https://www.corpusiq.io/docs/how-it-works/metric-specs): A metric spec is a small, user-declared recipe for one business number. Define ROAS once, and every assistant returns the same definition with the same cited source.
+- [Connectors, explained](https://www.corpusiq.io/docs/how-it-works/connectors-explained): A connector is a one-way, read-only link between CorpusIQ and your business tools. This page explains how connectors work, what scopes mean, and why direct.
+- [The skills engine, explained](https://www.corpusiq.io/docs/how-it-works/skills-explained): Skills are what make CorpusIQ answers good. This page explains how the skills router picks the right capability for your question and keeps answers.
+- [Metric Specs](https://www.corpusiq.io/docs/how-it-works/metric-specs): A metric spec is a small, user-declared recipe for one business number. Define ROAS once, and every assistant returns the same definition with the same cited.
 - [Rate limits & quotas](https://www.corpusiq.io/docs/how-it-works/rate-limits-and-quotas): Every connector has constraints. This page maps them so you know what to expect in production and how to optimize queries..
 - [Privacy and security](https://www.corpusiq.io/docs/how-it-works/privacy-and-security): The short version: CorpusIQ reads your business data when you ask, returns cited answers, and retains no raw customer files.
 
@@ -54,7 +54,7 @@
 - [Adzviser Alternatives: How It Compares](https://www.corpusiq.io/docs/connectors/adzviser-alternative): Adzviser alternatives compared on coverage: marketing channels only, or finance, commerce, and CRM in one assistant. Includes when Adzviser wins.
 - [Ahrefs](https://www.corpusiq.io/docs/connectors/ahrefs): Ahrefs is one of the most trusted platforms for backlink analysis and domain authority scoring. Connecting it lets CorpusIQ pull domain ratings, organ.
 - [The Best MCP Server for Business Data (2026)](https://www.corpusiq.io/docs/connectors/ai-mcp-server-for-business-data): Your AI is smart but blind to your actual data. See how an MCP server for business data connects Claude, ChatGPT, and Perplexity to live systems.
-- [Airtable](https://www.corpusiq.io/docs/connectors/airtable): Airtable holds operating data that never makes it into your BI tools. Connect it read-only and ask questions across Airtable and your other systems with cited answers.
+- [Airtable](https://www.corpusiq.io/docs/connectors/airtable): Airtable holds operating data that never makes it into your BI tools. Connect it read-only and ask questions across Airtable and your other systems.
 - [Amazon Seller](https://www.corpusiq.io/docs/connectors/amazon_seller): If you sell on Amazon, your real revenue picture is split across Shopify (your own store) and Seller Central (the marketplace). Connecting Amazon Sell.
 - [Axonaut](https://www.corpusiq.io/docs/connectors/axonaut): Query Axonaut from ChatGPT, Claude or Perplexity. Companies, quotations, invoices, expenses and CRM pipeline answered in plain English, read-only
 - [Calendly](https://www.corpusiq.io/docs/connectors/calendly): Your calendar tells one story; your booking link tells another. Calendly knows which prospects actually booked, who showed up, who canceled, and what.
@@ -86,7 +86,7 @@
 - [GunBroker](https://www.corpusiq.io/docs/connectors/gunbroker): GunBroker is the primary marketplace for firearms sellers, and its data - active listings, watchers, sold revenue, fraud claims - lives nowhere else..
 - [HubSpot](https://www.corpusiq.io/docs/connectors/hubspot): HubSpot is where your sales pipeline, customer relationships, and deal history live.
 - [IMAP Email](https://www.corpusiq.io/docs/connectors/imap): Not every mailbox is Gmail or Outlook. If you run email on Fastmail, ProtonMail Bridge, your own domain, or a hosted IMAP provider, this connector let.
-- [IndexNow](https://www.corpusiq.io/docs/connectors/indexnow): Automatically notify Bing, Yandex, Seznam, and other engines when you publish content. The IndexNow connector keeps search engines in sync with your site changes.
+- [IndexNow](https://www.corpusiq.io/docs/connectors/indexnow): Automatically notify Bing, Yandex, Seznam, and other engines when you publish content. The IndexNow connector keeps search engines in sync with your site.
 - [Instagram](https://www.corpusiq.io/docs/connectors/instagram): Query Instagram posts, reels, reach, engagement, and follower trends in plain English, next to every other channel you measure.
 - [Klaviyo](https://www.corpusiq.io/docs/connectors/klaviyo): For ecommerce brands, Klaviyo is where email and SMS revenue actually gets attributed. Connecting it lets CorpusIQ pull campaign performance, flow rev.
 - [LinkedIn Ads](https://www.corpusiq.io/docs/connectors/linkedin-ads): LinkedIn Ads is the primary paid-acquisition channel for B2B. Connecting it lets CorpusIQ pull campaign performance, creative analytics, and account-l.
@@ -229,9 +229,9 @@
 - [How to Connect YouTube to Perplexity with CorpusIQ MCP](https://www.corpusiq.io/docs/connect-youtube-to-perplexity): Connect YouTube to Perplexity through CorpusIQ MCP. Ask which videos earned watch time, where viewers came from and what the comments ask, read-only.
 
 ## Troubleshooting
-- [Troubleshooting](https://www.corpusiq.io/docs/troubleshooting): Eight common CorpusIQ problems and fixes: connection errors, stale numbers, missing data, auth failures, expired trials, and assistants that miss your connectors.
+- [Troubleshooting](https://www.corpusiq.io/docs/troubleshooting): Eight common CorpusIQ problems and fixes: connection errors, stale numbers, missing data, auth failures, expired trials, and assistants that miss.
 - [ChatGPT can't see CorpusIQ](https://www.corpusiq.io/docs/troubleshooting/chatgpt-cant-see-corpusiq): You installed the CorpusIQ app in ChatGPT or wired the MCP connector but ChatGPT cannot see your CorpusIQ data.
-- [Claude can't see CorpusIQ](https://www.corpusiq.io/docs/troubleshooting/claude-cant-see-corpusiq): You added CorpusIQ to Claude Desktop but Claude says it cannot see your data. Here is the fix path: connector status, MCP config, permissions, and the most common misconfigurations.
+- [Claude can't see CorpusIQ](https://www.corpusiq.io/docs/troubleshooting/claude-cant-see-corpusiq): You added CorpusIQ to Claude Desktop but Claude says it cannot see your data. Here is the fix path: connector status, MCP config, permissions, and the most.
 - [Connector authentication failed](https://www.corpusiq.io/docs/troubleshooting/connector-auth-failed): You clicked Connect, the OAuth flow started, and then it failed. Here is how to diagnose and fix connector authentication errors in CorpusIQ step by step.
 - [Connector is green but answers come back empty](https://www.corpusiq.io/docs/troubleshooting/connector-shows-no-data): Your connector shows connected but returns no data. This guide walks through sync state, scopes, permission levels, and the checks that find the real cause.
 - [Error codes & troubleshooting reference](https://www.corpusiq.io/docs/troubleshooting/error-codes-reference): When something goes wrong, CorpusIQ or a vendor returns an error code or message. This page maps those errors to causes and fixes..

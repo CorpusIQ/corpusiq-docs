@@ -1,6 +1,7 @@
 ---
 title: "GreenCalculus MCP: Audit-Traced Carbon Accounting"
-description: "Hosted MCP server for sourced greenhouse-gas emission factors and audit-traced carbon calculations - lookup, search and resolve factors, then calculate activity, electricity, embodied, PCAF financed, freight, spend and business-travel emissions. Every value returns its source cell and pinned data version."
+description: "Hosted MCP server for sourced greenhouse-gas emission factors and audit-traced carbon calculations - lookup, search and resolve factors, then calculate."
+
 category: Compliance
 stars: 0
 added: 2026-08-23

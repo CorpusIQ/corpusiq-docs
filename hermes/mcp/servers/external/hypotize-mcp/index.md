@@ -1,6 +1,7 @@
 ---
 title: "Hypotize MCP - Growth Experiment Memory for Agents"
-description: "Growth-experiment memory over MCP: your agent reads the backlog of what the team already tested, writes hypothesis-first ideas, scores them with ICE, PIE or RICE and records measured outcomes."
+description: "Growth-experiment memory over MCP: your agent reads the backlog of what the team already tested, writes hypothesis-first ideas, scores them with ICE, PIE."
+
 category: "Growth / Product Operations"
 stars: n/a (new listing)
 added: 2026-10-16

@@ -1,6 +1,7 @@
 ---
 title: "CorpusIQ Agent Pack - Two Role Agents for AI Coding Tools"
-description: "Two drop-in role agent files for Claude Code, Cursor, Codex, OpenCode and other AI coding tools. Each answers from connected business systems, with a source on every figure"
+description: "Two drop-in role agent files for Claude Code, Cursor, Codex, OpenCode and other AI coding tools."
+
 category: Agents
 tags:
   - corpusiq-agent-pack

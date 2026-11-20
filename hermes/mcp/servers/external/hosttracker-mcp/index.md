@@ -1,6 +1,7 @@
 ---
 title: "HostTracker MCP - Uptime Monitoring from 300+ Locations"
-description: "Official HostTracker MCP server for uptime monitoring: run synchronous HTTP, ping, port, DNS, and whois checks from 300+ locations across 158 cities, list what is down, manage monitors, incidents, and status pages from any AI assistant."
+description: "Official HostTracker MCP server for uptime monitoring: run synchronous HTTP, ping, port, DNS, and whois checks from 300+ locations across 158 cities, list."
+
 category: DevOps
 stars: 1
 added: 2026-08-25

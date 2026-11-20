@@ -1,6 +1,7 @@
 ---
 title: JsonCut MCP - Video and Image Authoring for Agents
-description: Give an external agent focused access to JsonCut editable projects, media, templates, visual review and rendering. Bounded edits, upload tickets, review frames and pinned renders through a hosted endpoint with an X-API-Key header.
+description: "Give an external agent focused access to JsonCut editable projects, media, templates, visual review and rendering."
+
 category: Content
 stars: n/a (new listing)
 added: 2026-09-08

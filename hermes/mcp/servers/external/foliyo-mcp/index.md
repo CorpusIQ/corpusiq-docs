@@ -1,6 +1,7 @@
 ---
 title: "Foliyo MCP - Branded Client Reports and Proposals for Agents"
-description: "Hosted MCP server that lets an agent create, brand, publish and track client-ready reports, proposals and research pages. Reusable client brands, stable share links, PIN and email gates, and access controls; pages are responsive static HTML that can be updated from another authorized client without changing the link. OAuth sign-in per client at foliyo.io/mcp."
+description: "Hosted MCP server that lets an agent create, brand, publish and track client-ready reports, proposals and research pages."
+
 category: Productivity
 stars: n/a (new listing)
 added: 2026-09-14

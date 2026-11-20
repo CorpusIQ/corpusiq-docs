@@ -1,6 +1,7 @@
 ---
 title: "AIsa MCP - One Key for 950+ Data APIs for AI Agents"
-description: "Hosted remote MCP server that fronts 950+ data APIs across SEO and AI visibility, finance, social, web search, sales and agent mail behind one OAuth key and five tools. search finds an operation from a plain-language task, get_details returns its contract and price, and use runs it with a max_price_usd spend cap. Category endpoints preload 32-84 tools per domain."
+description: "Hosted remote MCP server that fronts 950+ data APIs across SEO and AI visibility, finance, social, web search, sales and agent mail behind one OAuth key."
+
 category: Data & Analytics
 stars: n/a (new listing)
 added: 2026-09-15

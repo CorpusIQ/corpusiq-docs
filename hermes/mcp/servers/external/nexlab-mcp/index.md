@@ -1,6 +1,7 @@
 ---
 title: Nexlab MCP - Cited Data Intelligence Across 23 Servers
-description: A cited-data suite of 23 MCP servers and 200 tools behind one endpoint and one key. Corporate ownership and due-diligence trails, court records, EU policy watch, trade tariffs, vulnerability intelligence and more, with every answer naming its sources. Free tier of 50 calls per month per server.
+description: "A cited-data suite of 23 MCP servers and 200 tools behind one endpoint and one key. Corporate ownership and due-diligence trails, court records, EU policy."
+
 category: Data & Analytics
 stars: n/a (no public repo)
 added: 2026-09-06

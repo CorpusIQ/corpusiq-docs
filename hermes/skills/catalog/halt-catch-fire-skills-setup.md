@@ -1,6 +1,7 @@
 ---
 title: Halt-Catch-Fire Agent Skills - Setup Guide
-description: Install and configure 6 new agent skills from halt-catch-fire - Remotion video rendering, AI avatar video, Twitter automation, AI video/image generation, and browser automation. 500K+ combined installs.
+description: "Install and configure 6 new agent skills from halt-catch-fire - Remotion video rendering, AI avatar video, Twitter automation, AI video/image generation."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/halt-catch-fire-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-11-01"

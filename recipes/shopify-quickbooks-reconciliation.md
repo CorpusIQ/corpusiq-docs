@@ -1,6 +1,7 @@
 ---
 title: "Shopify-QuickBooks Daily Reconciliation - CorpusIQ Docs"
-description: "Daily reconciliation recipe: confirm every Shopify sale has a matching QuickBooks invoice or payment entry with one cross-source query, and flag discrepancies by order."
+description: "Daily reconciliation recipe: confirm every Shopify sale has a matching QuickBooks invoice or payment entry with one cross-source query, and flag."
+
 last_updated: "2026-11-07"
 ---
 

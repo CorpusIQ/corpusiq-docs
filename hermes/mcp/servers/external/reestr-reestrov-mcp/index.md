@@ -1,6 +1,7 @@
 ---
 title: "Reestr Reestrov MCP - 570 Russian Registries and One INN"
-description: "A keyless catalogue of 570 Russian state registries, keyed by INN, where the law and the article come back before the record does and an invalid tax number is refused instead of searched."
+description: "A keyless catalogue of 570 Russian state registries, keyed by INN, where the law and the article come back before the record does and an invalid tax number."
+
 category: "Public Records / Russia"
 stars: "0 (remote Streamable HTTP, keyless with 30 requests a day and 10 rows per source; 8 tools, all 8 called, 6 returning substantive payloads)"
 added: 2026-11-16

@@ -1,6 +1,7 @@
 ---
 title: "MCP Server Discovery - November 16, 2026 (Night)"
-description: "A window in which the index grew by 215 raw entries and zero keys, the retained canonical was found 215 keys short of a complete extraction, and the two ships were decided by a published price list and by a tax-number checksum."
+description: "A window in which the index grew by 215 raw entries and zero keys, the retained canonical was found 215 keys short of a complete extraction, and the two."
+
 category: "MCP Ecosystem"
 last_updated: "2026-11-16"
 ---

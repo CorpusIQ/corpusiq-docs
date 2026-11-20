@@ -1,6 +1,7 @@
 ---
 title: OpenShorts MCP - Video Clipping and Publishing for AI Agents
-description: "OpenShorts turns long videos into 9:16 shorts through MCP. AI moment detection, face-tracked reframing, word-level subtitles and direct publishing to TikTok, Instagram Reels and YouTube Shorts. Eight tools cover the pipeline."
+description: "OpenShorts turns long videos into 9:16 shorts through MCP. AI moment detection, face-tracked reframing, word-level subtitles and direct publishing to TikTok."
+
 category: Content
 stars: n/a (new listing)
 added: 2026-09-04

@@ -1,6 +1,7 @@
 ---
 title: "Screenpipe MCP - CorpusIQ Docs"
-description: "Local-first workflow memory for AI agents - screenpipe records screen, audio, app and meeting context locally and exposes it to Claude, Codex and Cursor through a searchable MCP server"
+description: "Local-first workflow memory for AI agents - screenpipe records screen, audio, app and meeting context locally and exposes it to Claude, Codex and Cursor."
+
 category: Productivity
 stars: 21061
 added: 2026-08-18

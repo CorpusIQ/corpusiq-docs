@@ -1,6 +1,7 @@
 ---
 title: Hermes Memory Stack - Memory OS Setup Guide
-description: Install and configure Chukwuemeka001/hermes-memory-stack - a modular memory OS layer for Hermes Agent with semantic retrieval, auto-extraction, temporal versioning, and state.db remediation
+description: "Install and configure Chukwuemeka001/hermes-memory-stack - a modular memory OS layer for Hermes Agent with semantic retrieval, auto-extraction, temporal."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-memory-stack-setup/"
 robots: "index,follow"
 last_updated: "2026-11-01"

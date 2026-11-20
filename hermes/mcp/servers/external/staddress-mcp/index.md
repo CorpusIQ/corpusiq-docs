@@ -1,6 +1,7 @@
 ---
 title: "Staddress AI MCP - Japanese Address Normalization"
-description: "Normalize and parse Japanese addresses from any MCP client: structured components, latitude and longitude, confidence scores and address codes, with batch parsing up to 100 addresses and API usage checks. API key required."
+description: "Normalize and parse Japanese addresses from any MCP client: structured components, latitude and longitude, confidence scores and address codes, with batch."
+
 category: Data & Analytics
 stars: n/a (new listing)
 added: 2026-08-22

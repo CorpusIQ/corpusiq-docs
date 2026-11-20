@@ -1,6 +1,7 @@
 ---
 title: "Gemina MCP - Document Extraction and Tagging for Agents"
-description: "Hosted document intelligence from Gemina: extract, tag, search and aggregate invoices, receipts, contracts, forms and your own custom templates with 13 tools. OAuth 2.1 sign-in or API key, free FileTag tier, data residency in the EU, US, Israel or Asia. Endpoint api.gemina.co/api/v1/mcp/."
+description: "Hosted document intelligence from Gemina: extract, tag, search and aggregate invoices, receipts, contracts, forms and your own custom templates."
+
 category: Document Intelligence
 stars: "n/a (hosted, no public repo)"
 added: 2026-08-30

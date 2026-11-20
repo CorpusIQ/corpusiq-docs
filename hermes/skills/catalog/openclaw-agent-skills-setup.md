@@ -1,6 +1,7 @@
 ---
 title: OpenClaw Agent Skills - Official OpenClaw Org Skill Suite
-description: "openclaw/agent-skills - 8 skills, ~2.0K installs: the OpenClaw org's canonical agent workflow suite covering structured code review (autoreview), PR/issue transcript provenance, session inspection, prompt handoff, and black-box behavior validation."
+description: "openclaw/agent-skills - 8 skills, ~2.0K installs: the OpenClaw org's canonical agent workflow suite covering structured code review (autoreview), PR/issue."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-agent-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-11-01"

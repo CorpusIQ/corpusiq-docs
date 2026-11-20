@@ -1,6 +1,7 @@
 ---
 title: "BeeL MCP - Spanish VeriFactu E-Invoicing Compliance"
-description: "Official BeeL MCP server for Spanish electronic invoicing with VeriFactu (AEAT) compliance: issue F1/F2 invoices and R1-R5 correctives, manage companies and customers, validate NIFs, and register fiscal documents from any AI agent. OAuth remote or stdio."
+description: "Official BeeL MCP server for Spanish electronic invoicing with VeriFactu (AEAT) compliance: issue F1/F2 invoices and R1-R5 correctives, manage companies."
+
 category: Compliance
 stars: 0
 added: 2026-08-25

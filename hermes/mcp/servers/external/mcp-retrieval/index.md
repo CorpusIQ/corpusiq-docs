@@ -1,6 +1,7 @@
 ---
 title: "mcp-retrieval - CorpusIQ Docs"
-description: Keyless web retrieval for agents - parallel web search, image search and page-to-Markdown scraping in a self-hosted Go server with browser-grade TLS fingerprints.
+description: "Keyless web retrieval for agents - parallel web search, image search and page-to-Markdown scraping in a self-hosted Go server with browser-grade TLS."
+
 category: Content
 stars: n/a (new listing)
 added: 2026-08-17

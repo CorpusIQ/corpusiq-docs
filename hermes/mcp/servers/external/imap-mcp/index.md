@@ -1,6 +1,7 @@
 ---
 title: "imap-mcp - Read-Only IMAP Mailbox Operations for Agents"
-description: "IMAP mailbox access for agents with a deliberate no-send design: list folders, search and read messages with BODY.PEEK so unread state is preserved, track seen state, save attachments and store draft replies in your own Drafts folder. Messages arrive nonce-fenced with SPF/DKIM/DMARC verdicts and prompt-injection-shape flags. stdio via npx @ni-c/imap-mcp, MIT."
+description: "IMAP mailbox access for agents with a deliberate no-send design: list folders, search and read messages with BODY.PEEK so unread state is preserved, track."
+
 category: Communication & Email
 stars: "n/a (new listing, ni-c/imap-mcp)"
 added: 2026-08-30
