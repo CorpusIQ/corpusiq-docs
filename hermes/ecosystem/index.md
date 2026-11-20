@@ -4685,7 +4685,7 @@ This directory is maintained by [CorpusIQ](https://corpusiq.io). New resources a
 - Skills and plugins
 - Language-specific resources
 
-> **📊 Ecosystem Stats:** 459 repos · 18 categories · 1M+ community stars · 107 skill collections · 51 MCP integrations · 27 domain applications
+> **📊 Ecosystem Stats:** 460 repos · 18 categories · 1M+ community stars · 107 skill collections · 51 MCP integrations · 27 domain applications
 
 ---
 
