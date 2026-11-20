@@ -155,7 +155,37 @@
     }
   </script>
   
-  <script async src="https://news.google.com/swg/js/v1/publisher.js"></script>
+  <script>
+    (function () {
+      var SRC = 'https://news.google.com/swg/js/v1/publisher.js', done = false;
+      function load() {
+        if (done) return;
+        done = true;
+        var s = document.createElement('script');
+        s.async = true;
+        s.src = SRC;
+        document.head.appendChild(s);
+      }
+      ['pointerdown', 'keydown', 'touchstart', 'scroll'].forEach(function (e) {
+        window.addEventListener(e, load, {once: true, passive: true});
+      });
+      if ('requestIdleCallback' in window) {
+        requestIdleCallback(load, {timeout: 5000});
+      } else {
+        setTimeout(load, 5000);
+      }
+      document.addEventListener('DOMContentLoaded', function () {
+        var badge = document.querySelector('[google-add-preferred-source-btn]');
+        if (badge && 'IntersectionObserver' in window) {
+          new IntersectionObserver(function (entries) {
+            for (var i = 0; i < entries.length; i++) {
+              if (entries[i].isIntersecting) { load(); return; }
+            }
+          }, {rootMargin: '300px'}).observe(badge);
+        }
+      });
+    })();
+  </script>
 
   
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Article", "TechArticle"], "headline": "Connect PostHog to Perplexity", "url": "https://www.corpusiq.io/docs/connect-posthog-to-perplexity", "image": "https://www.corpusiq.io/og?title=Connect%20PostHog%20to%20Perplexity&category=Docs", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.corpusiq.io/docs/connect-posthog-to-perplexity"}, "datePublished": "2026-11-18", "dateModified": "2026-11-18", "author": {"@id": "https://www.corpusiq.io#organization"}, "publisher": {"@id": "https://www.corpusiq.io#organization"}, "isPartOf": {"@id": "https://www.corpusiq.io#website"}, "inLanguage": "en-US", "description": "Connect PostHog to Perplexity through CorpusIQ MCP. Ask funnel, retention and event questions in plain English, with cited answers from your project."}</script>

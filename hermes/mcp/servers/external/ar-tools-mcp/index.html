@@ -151,7 +151,37 @@
     }
   </script>
   
-  <script async src="https://news.google.com/swg/js/v1/publisher.js"></script>
+  <script>
+    (function () {
+      var SRC = 'https://news.google.com/swg/js/v1/publisher.js', done = false;
+      function load() {
+        if (done) return;
+        done = true;
+        var s = document.createElement('script');
+        s.async = true;
+        s.src = SRC;
+        document.head.appendChild(s);
+      }
+      ['pointerdown', 'keydown', 'touchstart', 'scroll'].forEach(function (e) {
+        window.addEventListener(e, load, {once: true, passive: true});
+      });
+      if ('requestIdleCallback' in window) {
+        requestIdleCallback(load, {timeout: 5000});
+      } else {
+        setTimeout(load, 5000);
+      }
+      document.addEventListener('DOMContentLoaded', function () {
+        var badge = document.querySelector('[google-add-preferred-source-btn]');
+        if (badge && 'IntersectionObserver' in window) {
+          new IntersectionObserver(function (entries) {
+            for (var i = 0; i < entries.length; i++) {
+              if (entries[i].isIntersecting) { load(); return; }
+            }
+          }, {rootMargin: '300px'}).observe(badge);
+        }
+      });
+    })();
+  </script>
 
   
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Article", "TechArticle"], "headline": "AR Tools MCP - CUIT, CBU and Payroll for Argentina", "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/ar-tools-mcp", "image": "https://www.corpusiq.io/og?title=AR%20Tools%20MCP%20-%20CUIT%2C%20CBU%20and%20Payroll%20for%20Argentina&category=Docs", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/ar-tools-mcp"}, "datePublished": "2026-11-18", "dateModified": "2026-11-18", "author": {"@id": "https://www.corpusiq.io#organization"}, "publisher": {"@id": "https://www.corpusiq.io#organization"}, "isPartOf": {"@id": "https://www.corpusiq.io#website"}, "inLanguage": "en-US", "description": "Argentine identity and payroll tools for agents: CUIT and CBU validation, phone normalisation, gross to net, aguinaldo and monotributo.", "articleSection": "Hermes"}</script>

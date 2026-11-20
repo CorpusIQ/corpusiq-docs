@@ -151,7 +151,37 @@
     }
   </script>
   
-  <script async src="https://news.google.com/swg/js/v1/publisher.js"></script>
+  <script>
+    (function () {
+      var SRC = 'https://news.google.com/swg/js/v1/publisher.js', done = false;
+      function load() {
+        if (done) return;
+        done = true;
+        var s = document.createElement('script');
+        s.async = true;
+        s.src = SRC;
+        document.head.appendChild(s);
+      }
+      ['pointerdown', 'keydown', 'touchstart', 'scroll'].forEach(function (e) {
+        window.addEventListener(e, load, {once: true, passive: true});
+      });
+      if ('requestIdleCallback' in window) {
+        requestIdleCallback(load, {timeout: 5000});
+      } else {
+        setTimeout(load, 5000);
+      }
+      document.addEventListener('DOMContentLoaded', function () {
+        var badge = document.querySelector('[google-add-preferred-source-btn]');
+        if (badge && 'IntersectionObserver' in window) {
+          new IntersectionObserver(function (entries) {
+            for (var i = 0; i < entries.length; i++) {
+              if (entries[i].isIntersecting) { load(); return; }
+            }
+          }, {rootMargin: '300px'}).observe(badge);
+        }
+      });
+    })();
+  </script>
 
   
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Article", "TechArticle"], "headline": "MCP Discovery Sweep - August 25, 2026 (Night)", "url": "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-august25-2026-night", "image": "https://www.corpusiq.io/og?title=MCP%20Discovery%20Sweep%20-%20August%2025%2C%202026%20%28Night%29&category=Docs", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-august25-2026-night"}, "datePublished": "2026-11-01", "dateModified": "2026-11-01", "author": {"@id": "https://www.corpusiq.io#organization"}, "publisher": {"@id": "https://www.corpusiq.io#organization"}, "isPartOf": {"@id": "https://www.corpusiq.io#website"}, "inLanguage": "en-US", "description": "chatmcp/mcpso issues #3750-#3757 (Aug 25 18:03 - Aug 26 01:34 UTC), mcp.so homepage + feed, mcpservers.org /all pages 1-3 + homepage; 3 catalogued.", "articleSection": "Hermes"}</script>

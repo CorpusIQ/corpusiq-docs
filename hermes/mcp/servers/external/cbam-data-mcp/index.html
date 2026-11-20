@@ -151,7 +151,37 @@
     }
   </script>
   
-  <script async src="https://news.google.com/swg/js/v1/publisher.js"></script>
+  <script>
+    (function () {
+      var SRC = 'https://news.google.com/swg/js/v1/publisher.js', done = false;
+      function load() {
+        if (done) return;
+        done = true;
+        var s = document.createElement('script');
+        s.async = true;
+        s.src = SRC;
+        document.head.appendChild(s);
+      }
+      ['pointerdown', 'keydown', 'touchstart', 'scroll'].forEach(function (e) {
+        window.addEventListener(e, load, {once: true, passive: true});
+      });
+      if ('requestIdleCallback' in window) {
+        requestIdleCallback(load, {timeout: 5000});
+      } else {
+        setTimeout(load, 5000);
+      }
+      document.addEventListener('DOMContentLoaded', function () {
+        var badge = document.querySelector('[google-add-preferred-source-btn]');
+        if (badge && 'IntersectionObserver' in window) {
+          new IntersectionObserver(function (entries) {
+            for (var i = 0; i < entries.length; i++) {
+              if (entries[i].isIntersecting) { load(); return; }
+            }
+          }, {rootMargin: '300px'}).observe(badge);
+        }
+      });
+    })();
+  </script>
 
   
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Article", "TechArticle"], "headline": "CBAM Data MCP - EU Carbon Border Cost per Import Line", "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/cbam-data-mcp", "image": "https://www.corpusiq.io/og?title=CBAM%20Data%20MCP%20-%20EU%20Carbon%20Border%20Cost%20per%20Import%20Line&category=Docs", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/cbam-data-mcp"}, "datePublished": "2026-11-09", "dateModified": "2026-11-09", "author": {"@id": "https://www.corpusiq.io#organization"}, "publisher": {"@id": "https://www.corpusiq.io#organization"}, "isPartOf": {"@id": "https://www.corpusiq.io#website"}, "inLanguage": "en-US", "description": "Price the EU carbon border adjustment for one import line: a CN code, origin, tonnage and year become certificates and euros.", "articleSection": "Hermes"}</script>

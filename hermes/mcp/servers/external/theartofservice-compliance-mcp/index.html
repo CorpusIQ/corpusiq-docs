@@ -151,7 +151,37 @@
     }
   </script>
   
-  <script async src="https://news.google.com/swg/js/v1/publisher.js"></script>
+  <script>
+    (function () {
+      var SRC = 'https://news.google.com/swg/js/v1/publisher.js', done = false;
+      function load() {
+        if (done) return;
+        done = true;
+        var s = document.createElement('script');
+        s.async = true;
+        s.src = SRC;
+        document.head.appendChild(s);
+      }
+      ['pointerdown', 'keydown', 'touchstart', 'scroll'].forEach(function (e) {
+        window.addEventListener(e, load, {once: true, passive: true});
+      });
+      if ('requestIdleCallback' in window) {
+        requestIdleCallback(load, {timeout: 5000});
+      } else {
+        setTimeout(load, 5000);
+      }
+      document.addEventListener('DOMContentLoaded', function () {
+        var badge = document.querySelector('[google-add-preferred-source-btn]');
+        if (badge && 'IntersectionObserver' in window) {
+          new IntersectionObserver(function (entries) {
+            for (var i = 0; i < entries.length; i++) {
+              if (entries[i].isIntersecting) { load(); return; }
+            }
+          }, {rootMargin: '300px'}).observe(badge);
+        }
+      });
+    })();
+  </script>
 
   
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Article", "TechArticle"], "headline": "The Art of Service MCP - Compliance Framework Crosswalks", "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/theartofservice-compliance-mcp", "image": "https://www.corpusiq.io/og?title=The%20Art%20of%20Service%20MCP%20-%20Compliance%20Framework%20Crosswalks&category=Docs", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/theartofservice-compliance-mcp"}, "datePublished": "2026-11-01", "dateModified": "2026-11-01", "author": {"@id": "https://www.corpusiq.io#organization"}, "publisher": {"@id": "https://www.corpusiq.io#organization"}, "isPartOf": {"@id": "https://www.corpusiq.io#website"}, "inLanguage": "en-US", "description": "Query a compliance knowledge graph of 960+ frameworks, 46,000+ controls and 315,000+ cross-framework mappings, then find a course that covers them.", "articleSection": "Hermes"}</script>
