@@ -16,7 +16,7 @@ Skills for integrating Hermes Agent with Google Workspace. These skills enable a
 
 | Skill | Installs | Description |
 |-------|----------|-------------|
-| [gws-gmail](/hermes/skills/catalog/google-workspace/gws-gmail) | 34.9K | Read, search, and send Gmail from the terminal. Full Gmail API access for AI agents to manage email workflows, search inboxes, and send messages programmatically. |
+| [gws-gmail](/hermes/skills/catalog/google-workspace/gws-gmail) | 34.9K | Read, search, and send Gmail from the terminal. Full Gmail API access for AI agents to manage email workflows, search inboxes, and send messages. |
 | [gws-drive](/hermes/skills/catalog/google-workspace/gws-drive) | 33.4K | List, search, and read Google Drive files. Full Drive API access for AI agents to manage documents, spreadsheets, and PDFs. |
 | [gws-docs](/hermes/skills/catalog/google-workspace/gws-docs) | 33.3K | Create and edit Google Docs. Full Docs API for AI agents to generate and modify documents programmatically. |
 | [gws-calendar](/hermes/skills/catalog/google-workspace/gws-calendar) | 32K | Schedule, list, and manage Google Calendar. Full Calendar API for AI agents to create events, check availability, and manage schedules. |

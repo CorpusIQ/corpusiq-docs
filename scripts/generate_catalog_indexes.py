@@ -48,16 +48,42 @@ def frontmatter(path: Path) -> dict:
     return fm
 
 
-def installs(desc: str) -> str:
-    m = re.search(r"([\d.]+)\s*([KMkm])?\s*installs", desc or "")
-    if not m:
-        return ""
-    num, suffix = float(m.group(1)), (m.group(2) or "").upper()
+def _fmt_count(value: str, suffix: str = "") -> str:
+    num, suffix = float(value), (suffix or "").upper()
     if suffix == "K":
         return f"{num:,.1f}K".replace(".0K", "K")
     if suffix == "M":
         return f"{num:,.1f}M".replace(".0M", "M")
     return f"{int(num):,}"
+
+
+def installs(desc: str, fm_value: str = "") -> str:
+    """Install count for a roster row.
+
+    Two shapes exist in the catalog and BOTH are legitimate: the count written
+    into the description prose ("... 34.9K installs."), and the count as its own
+    frontmatter field (`installs: 34900`). Reading only the prose dropped every
+    frontmatter-only count and sorted those rows to the bottom of the table with
+    a blank cell -- gws-gmail lost its 34.9K that way on 2026-11-19.
+
+    Precedence: the explicit frontmatter field wins, because it is structured
+    data; the prose is the fallback for pages that never had the field.
+    """
+    raw = (fm_value or "").strip().strip('"')
+    if raw:
+        if raw.isdigit():
+            n = int(raw)
+            if n >= 1000:
+                return _fmt_count(str(n / 1000.0), "K")
+            return f"{n:,}"
+        # Non-numeric tallies ("New (June 2026)", "1/day trending") are shown
+        # verbatim: they are the only install information that exists.
+        return raw
+
+    m = re.search(r"([\d.]+)\s*([KMkm])?\s*installs", desc or "")
+    if not m:
+        return ""
+    return _fmt_count(m.group(1), m.group(2) or "")
 
 
 def clean(desc: str) -> str:
@@ -110,7 +136,8 @@ def build_table(cat: str, skills: list[Path]) -> str:
     rows = []
     for s in skills:
         fm = frontmatter(s)
-        rows.append((fm.get("name") or s.stem, installs(fm.get("description", "")),
+        rows.append((fm.get("name") or s.stem, installs(fm.get("description", ""),
+                                                      fm.get("installs", "")),
                      clean(fm.get("description", "")), s.stem))
     rows.sort(key=sort_key)
     out = list(TABLE_HEADER)
