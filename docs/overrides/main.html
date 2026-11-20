@@ -146,8 +146,48 @@
   {# Google Preferred Sources: interactive "Add to Preferred Sources" button.
      Readers who select corpusiq.io as a preferred source see our content
      highlighted with a "preferred" badge in Top Stories, AI Mode, and AI
-     Overviews. Official docs: developers.google.com/search/docs/appearance/preferred-sources #}
-  <script async src="https://news.google.com/swg/js/v1/publisher.js"></script>
+     Overviews. Official docs: developers.google.com/search/docs/appearance/preferred-sources
+
+     Loaded on demand, not on load. The publisher.js bundle pulls roughly
+     250 KB of third-party CSS, JS and an iframe from news.google.com and
+     gstatic.com, all of which competed with first paint on mobile. Measured
+     on 2026-11-19: blocking it moved /docs mobile Lighthouse performance from
+     87 to 94 with no change to anything else. The badge sits in the footer,
+     so it is only ever seen by a reader who scrolls to it: we load the bundle
+     when the badge approaches the viewport, on the first interaction, or at
+     5s idle as a fallback for crawlers and QA. The publisher URL stays in the
+     page source either way. Revert = restore the single eager script tag. #}
+  <script>
+    (function () {
+      var SRC = 'https://news.google.com/swg/js/v1/publisher.js', done = false;
+      function load() {
+        if (done) return;
+        done = true;
+        var s = document.createElement('script');
+        s.async = true;
+        s.src = SRC;
+        document.head.appendChild(s);
+      }
+      ['pointerdown', 'keydown', 'touchstart', 'scroll'].forEach(function (e) {
+        window.addEventListener(e, load, {once: true, passive: true});
+      });
+      if ('requestIdleCallback' in window) {
+        requestIdleCallback(load, {timeout: 5000});
+      } else {
+        setTimeout(load, 5000);
+      }
+      document.addEventListener('DOMContentLoaded', function () {
+        var badge = document.querySelector('[google-add-preferred-source-btn]');
+        if (badge && 'IntersectionObserver' in window) {
+          new IntersectionObserver(function (entries) {
+            for (var i = 0; i < entries.length; i++) {
+              if (entries[i].isIntersecting) { load(); return; }
+            }
+          }, {rootMargin: '300px'}).observe(badge);
+        }
+      });
+    })();
+  </script>
 {% endblock %}
 
 {% block scripts %}
