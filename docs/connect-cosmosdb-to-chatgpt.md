@@ -140,6 +140,8 @@ No. The connector runs reads and SELECT queries. Inserts, updates, deletes and c
 
 - [Connect Azure Cosmos DB to Claude](connect-cosmosdb-to-claude.md) - containers, events and telemetry in one thread.
 
+- [Connect Azure Cosmos DB to Perplexity](connect-cosmosdb-to-perplexity.md) - the same container questions, asked in Perplexity.
+
 - [Azure Cosmos DB connector reference](connectors/cosmosdb.md) - connection requirements, visible objects and troubleshooting.
 
 ---

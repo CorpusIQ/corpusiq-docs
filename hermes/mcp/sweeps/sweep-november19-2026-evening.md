@@ -101,7 +101,7 @@ Measured rather than inherited:
 - mcpservers.org carries `https://mcpservers.org/servers/corpusiq-io` in the fresh twelve-map capture (**15** occurrences including locale forms, beside the fifteen for `/servers/corpusiq/corpusiq-docs`), which is stronger evidence than a detail page that answers **403** by edge policy.
 - mcp.so remains not listed: all four slugs (`corpusiq`, `corpusiq-io`, `corpusiq-mcp`, `io.corpusiq`) answer **404**.
 - Glama answers **200** at `/mcp/connectors/io.corpusiq/multi-source-mcp`.
-- Smithery answers **200** on the record at `registry.smithery.ai/servers/@benoit-p/Cprusiq`.
+- Smithery answers **200** on the `Cprusiq` server record at `registry.smithery.ai/servers/<publisher>/Cprusiq`.
 
 ## Counts
 

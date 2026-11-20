@@ -48,6 +48,7 @@ CorpusIQ runs SELECT queries only. No INSERT, UPDATE, DELETE, or DDL.
 
 - [Connect Microsoft SQL Server to ChatGPT](../connect-mssql-to-chatgpt.md) - tables, schema and operational totals inside a ChatGPT thread.
 - [Connect Microsoft SQL Server to Claude](../connect-mssql-to-claude.md) - tables, schema and operational totals inside a Claude thread.
+- [Connect Microsoft SQL Server to Perplexity](../connect-mssql-to-perplexity.md) - tables, schema and operational totals inside a Perplexity thread.
 
 ---
 

@@ -124,6 +124,9 @@ A: Same endpoint, different client. This guide is for using Perplexity as the MC
 - **[Connect Amazon Seller to Perplexity](connect-amazon-seller-to-perplexity.md)** - orders, FBA inventory and payouts across marketplaces
 - **[Connect Asana to Perplexity](connect-asana-to-perplexity.md)** - what is overdue, who is overloaded and which milestone slipped
 - **[Connect Bing Webmaster Tools to Perplexity](connect-bing-webmaster-tools-to-perplexity.md)** - the second index's queries, crawl errors and inbound links
+- **[Connect CallRail to Perplexity](connect-callrail-to-perplexity.md)** - which sources drove calls, how long they lasted and when they landed
+- **[Connect Azure Cosmos DB to Perplexity](connect-cosmosdb-to-perplexity.md)** - containers, event types and event volume from your own database
+- **[Connect Microsoft SQL Server to Perplexity](connect-mssql-to-perplexity.md)** - orders, invoices and stock levels from your own tables, with no SQL
 
 ## Internal Links
 

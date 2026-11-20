@@ -96,8 +96,8 @@ mcp.so          LISTED    /servers/corpusiq-docs 200 at 858,407 bytes, title
                           product slugs (corpusiq, corpusiq-io, corpusiq-mcp,
                           io.corpusiq) all 404 and are not a listing verdict
 glama.ai        LISTED    /mcp/connectors/io.corpusiq/multi-source-mcp 200
-smithery.ai     LISTED    registry.smithery.ai/servers/@benoit-p/Cprusiq 200,
-                          qualifiedName benoit-p/Cprusiq, displayName CorpusIQ
+smithery.ai     LISTED    registry.smithery.ai/servers/<publisher>/Cprusiq 200,
+                          qualifiedName <publisher>/Cprusiq, displayName CorpusIQ
 Anthropic       NOT LISTED  scripts/anthropic_directory_watch.py: 1,198 pages
                             across 3, listed=False, exit 0 - unchanged
 ```

@@ -258,6 +258,9 @@ nav:
   - Connect Amazon Seller to Perplexity: connect-amazon-seller-to-perplexity.md
   - Connect Asana to Perplexity: connect-asana-to-perplexity.md
   - Connect Bing Webmaster Tools to Perplexity: connect-bing-webmaster-tools-to-perplexity.md
+  - Connect CallRail to Perplexity: connect-callrail-to-perplexity.md
+  - Connect Azure Cosmos DB to Perplexity: connect-cosmosdb-to-perplexity.md
+  - Connect Microsoft SQL Server to Perplexity: connect-mssql-to-perplexity.md
 - Business AI Use Cases:
   - AI for Business Intelligence: ai-for-business-intelligence.md
   - AI for Financial Analysis: ai-for-financial-analysis.md

@@ -52,6 +52,7 @@ CorpusIQ never inserts, updates, or deletes documents.
 
 - [Connect Azure Cosmos DB to ChatGPT](../connect-cosmosdb-to-chatgpt.md) - containers, events and telemetry inside a ChatGPT thread.
 - [Connect Azure Cosmos DB to Claude](../connect-cosmosdb-to-claude.md) - containers, events and telemetry inside a Claude thread.
+- [Connect Azure Cosmos DB to Perplexity](../connect-cosmosdb-to-perplexity.md) - containers, events and telemetry inside a Perplexity thread.
 
 ---
 
