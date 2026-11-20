@@ -141,6 +141,8 @@ Exactly the tables your SQL login can read. If a table is missing from answers, 
 
 - [Connect Microsoft SQL Server to Claude](connect-mssql-to-claude.md) - tables, schema and operational totals in one thread.
 
+- [Connect Microsoft SQL Server to Perplexity](connect-mssql-to-perplexity.md) - the same database questions, asked in Perplexity.
+
 - [Microsoft SQL Server connector reference](connectors/mssql.md) - connection requirements, visible objects and troubleshooting.
 
 ---
