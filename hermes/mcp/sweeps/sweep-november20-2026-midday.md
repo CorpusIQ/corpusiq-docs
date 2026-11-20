@@ -90,14 +90,19 @@ mcpservers.org  LISTED    https://mcpservers.org/servers/corpusiq-io in servers/
                           six rows in the union naming corpusiq across three locale
                           forms for two keys; the docs mirror also sits at
                           /servers/corpusiq/corpusiq-docs, re-stamped 11:37:54Z today
-mcp.so          NOT LISTED  all four slugs 404 (corpusiq, corpusiq-io,
-                            corpusiq-mcp, io.corpusiq) - unchanged
+mcp.so          LISTED    /servers/corpusiq-docs 200 at 858,407 bytes, title
+                          "Corpusiq Docs MCP Server: Tools, Setup & Config",
+                          175 corpusiq mentions on the page; the four guessed
+                          product slugs (corpusiq, corpusiq-io, corpusiq-mcp,
+                          io.corpusiq) all 404 and are not a listing verdict
 glama.ai        LISTED    /mcp/connectors/io.corpusiq/multi-source-mcp 200
 smithery.ai     LISTED    registry.smithery.ai/servers/@benoit-p/Cprusiq 200,
                           qualifiedName benoit-p/Cprusiq, displayName CorpusIQ
 Anthropic       NOT LISTED  scripts/anthropic_directory_watch.py: 1,198 pages
                             across 3, listed=False, exit 0 - unchanged
 ```
+
+**Correction made inside this pass.** The first reading here recorded mcp.so as NOT LISTED on the strength of four 404s against guessed product slugs. That is the wrong test: mcp.so carries this product as a repo-derived page at `/servers/corpusiq-docs`, which answers **200** at **858,407** bytes with the title *Corpusiq Docs MCP Server: Tools, Setup & Config* and **175** corpusiq mentions, and its description is the **docs repository's** blurb (*"Hermes Agent Production Knowledge Repository - 406+ repos, AI Agent Marketplace..."*) rather than the product line. The state is LISTED with an accuracy debt on the platform's copy, which is a different problem from absence and one this catalog cannot fix from here. A guessed slug is never evidence against a confirmed listing; the page is.
 
 The mcpservers.org detail page still answers **403** by edge policy, so the sitemap is the evidence for that listing, as it has been since November 4. The Anthropic review status lives only in the portal at `claude.ai/directory/manage`; the feed check is the only public reading available.
 
