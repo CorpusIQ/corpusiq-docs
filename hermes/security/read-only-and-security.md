@@ -5,7 +5,7 @@ description: "CorpusIQ connectors do not retain raw customer files or full conne
 canonical: "/hermes/security/read-only-and-security/"
 robots: "index, follow"
 tags: [security, read-only, privacy, no-storage, oauth, governance, ai-agent]
-last_updated: "2026-11-19"
+last_updated: "2026-11-20"
 ---
 
 # Security, Read-Only Access, and What CorpusIQ Never Does
@@ -91,6 +91,54 @@ and configuration controls can write scoped platform state. Enabling or
 disabling a connector, or re-authorizing one, changes a setting inside
 your CorpusIQ account. It never changes a record in Shopify, Stripe,
 QuickBooks, or any other connected system.
+
+## What an agent may do: the machine-readable answer
+
+A security reviewer or an agent platform asks a narrower question than policy
+prose can answer: at the tool level, what may this connection do? CorpusIQ
+answers that per tool, in the standard MCP way, inside the tool listing itself.
+
+Measured on 2026-11-20 against the live server (`tools/list` on
+`https://mcp2.corpusiq.io/mcp`):
+
+| Measure | Count |
+|---|---|
+| Tools exposed | 526 |
+| `readOnlyHint: true` | 504 |
+| Not read-only | 22 |
+| Tools without annotations | 0 |
+
+The 22 tools that are not read-only are all configuration controls inside your
+CorpusIQ account. None of them writes to a connected business system. They are:
+
+- Answer governance: `canonical_facts_set`, `canonical_decisions_add`,
+  `canonical_pending_commit`, `canonical_pending_cancel`,
+  `truth_sources_register`, `truth_sources_remove`
+- Metric definitions: `metric_spec_set`, `metric_spec_remove`
+- Connector lifecycle: `enable_connector`, `disable_connector`,
+  `reset_connector_token`
+- Direct database connection setup: `configure_cosmos_connection`,
+  `configure_imap_connection`, `configure_mssql_connection`,
+  `disconnect_cosmos_connection`, `disconnect_imap_connection`,
+  `disconnect_mssql_connection`, `disconnect_gunbroker_connection`
+- Channel settings: `add_my_youtube_brand_channel`,
+  `remove_my_youtube_brand_channel`, `set_my_primary_youtube_channel`
+- Session: `logout_all`
+
+## Where authority is enforced
+
+The OAuth metadata advertises identity scopes only (`openid`, `email`,
+`profile`) and three grant types: `authorization_code`, `refresh_token` and
+`urn:ietf:params:oauth:grant-type:device_code`. Resource authority is not
+expressed as OAuth scopes, because access is not decided at scope granularity.
+It is decided server side for each principal and each tenant, and each access
+token carries the principal, tenant, actor type and policy version it was
+issued under.
+
+That is the honest description: the read and write split is machine-readable at
+the tool level, and the per-user decision is enforced on the server rather than
+by a scope string. A platform that asks users to approve what an agent may do
+can read the split from the tool listing and does not need a separate document.
 
 ## Questions you can ask
 
