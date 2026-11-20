@@ -99436,5 +99436,443 @@
     "near_duplicates": [],
     "discovered_at": "2026-11-20T05:02:56.530930+00:00",
     "status": "pending"
+  },
+  {
+    "name": "BuboTheWise/Toolbox",
+    "url": "https://github.com/BuboTheWise/Toolbox",
+    "description": "Shared development skills for Hermes Agent profiles",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-11-19T23:06:15Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-11-20T11:31:20.680486+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "cyberpz/hermes-skills-sterling",
+    "url": "https://github.com/cyberpz/hermes-skills-sterling",
+    "description": "Hermes Agent skills: Sterling B2B EDI operations + headless map compilation (sanitized, no client data)",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-11-20T11:20:05Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-11-20T11:31:20.683454+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "xmzzzw/asbot-hermes-plugin",
+    "url": "https://github.com/xmzzzw/asbot-hermes-plugin",
+    "description": "AS-BOT plugin for official Hermes Agent: invited screenshot and economic calendar access",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-11-08T15:30:30Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_month"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-11-20T11:31:20.686945+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "kaishi00/hermes-conduit-desktop",
+    "url": "https://github.com/kaishi00/hermes-conduit-desktop",
+    "description": "Conduit for desktop: Windows and Mac client for Hermes Agent",
+    "stars": 5,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-11-19T23:54:54Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-11-20T11:31:20.690976+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "bmcszk/hermes-pi-delegation",
+    "url": "https://github.com/bmcszk/hermes-pi-delegation",
+    "description": "Hermes Agent plugin: pi_launch/pi_manage tools for dispatching and controlling pi subagent workers",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-11-12T16:05:00Z",
+    "category": "core",
+    "score": 44,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_month"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-11-20T11:31:20.693870+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "openlia/openlia",
+    "url": "https://github.com/openlia/openlia",
+    "description": "Autonomous AI Agent Workspace & Operations Platform built on Hermes Agent",
+    "stars": 0,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "updated_at": "2026-11-14T14:46:58Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-11-20T11:31:20.696693+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "TukuCorp/tstack",
+    "url": "https://github.com/TukuCorp/tstack",
+    "description": "My agent setup: skills, agents, hooks and sanitized configs for Claude Code, Codex, Opencode, Hermes and omp",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-11-12T04:31:09Z",
+    "category": "core",
+    "score": 40,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_month"
+    ],
+    "near_duplicates": [
+      "farion1231/cc-switch",
+      "thedotmack/claude-mem",
+      "colbymchenry/codegraph",
+      "iOfficeAI/AionUi",
+      "EverMind-AI/EverOS",
+      "yoloshii/ClawMem",
+      "itechmeat/open-second-brain",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "uzairansaruzi/robinhood-agent-skill",
+      "hugocarreira/agentrc",
+      "tale-project/tale",
+      "AVIDS2/memorix",
+      "ruvnet/metaharness",
+      "Intelligent-Internet/zenith",
+      "Javis603/token-monitor",
+      "liaohch3/claude-tap",
+      "MemTensor/memmy-agent",
+      "kenryu42/cc-safety-net",
+      "cavi-ai/mlx-agent",
+      "Orkas-AI/Orkas",
+      "homarr-labs/dashboard-icons",
+      "sno-ai/sno-station",
+      "EternalNight996/memory-eternal",
+      "777genius/universal-agent-plugins"
+    ],
+    "discovered_at": "2026-11-20T11:31:20.699616+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "bitsandtea/postking-mcp",
+    "url": "https://github.com/bitsandtea/postking-mcp",
+    "description": "Official MCP server for PostKing - connect Claude, Hermes, OpenClaw or any MCP-compatible AI client to your PostKing account to generate social posts, schedule content, repurpose URLs, write blog articles, and manage brands through natural conversation.  ",
+    "stars": 1,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [
+      "social-media-automation"
+    ],
+    "updated_at": "2026-11-11T12:50:48Z",
+    "category": "mcp",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_month",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "1Panel-dev/1Panel",
+      "unmodeled-tyler/vessel-browser",
+      "CYC2002tommy/Deep-Research-Agent",
+      "ksimback/hermes-atlas-mcp",
+      "smfworks/smf-notebooklm-video-pipeline",
+      "kaankacar/stellar-agent-kit",
+      "Bo1202/Aivy-OS",
+      "Sylinko/Everywhere",
+      "CodeAbra/iai-personal-memory-engine",
+      "ruvnet/metaharness",
+      "agentrq/agentrq",
+      "Orkas-AI/Orkas",
+      "codeofaxel/Kiln",
+      "dfrostar/neuralmind"
+    ],
+    "discovered_at": "2026-11-20T11:31:28.785203+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Weaxs/dsh-knot",
+    "url": "https://github.com/Weaxs/dsh-knot",
+    "description": "Connect DeepSeek Harness (dsh) directly with any ACP v1 agent, Hermes, OpenClaw, and remote dsh over SSH, Tailscale, or local transports \u2014 with a built-in Web UI and read-only MCP sharing. No cloud relay.",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [
+      "acp",
+      "agent-client-protocol",
+      "deepseek-harness",
+      "dsh",
+      "dsh-plugin",
+      "hermes",
+      "mcp",
+      "multi-agent",
+      "openclaw",
+      "ssh",
+      "tailscale",
+      "typescript"
+    ],
+    "updated_at": "2026-11-20T08:29:54Z",
+    "category": "mcp",
+    "score": 53,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "KSroido/Kagi-Session2API-MCP",
+      "unmodeled-tyler/vessel-browser",
+      "mlennie/hermes-mcp",
+      "CodeAbra/iai-personal-memory-engine",
+      "ruvnet/metaharness",
+      "Orkas-AI/Orkas",
+      "EternalNight996/memory-eternal",
+      "ZiChuanLan/agent-purge",
+      "hollisorg/iv-studio"
+    ],
+    "discovered_at": "2026-11-20T11:31:28.794558+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Shinemind-ops/hermes-skill-pin",
+    "url": "https://github.com/Shinemind-ops/hermes-skill-pin",
+    "description": "Hermes Agent plugin + CLI: force-inject pinned skill files into every LLM request via llm_request middleware.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-11-20T07:09:03Z",
+    "category": "skills",
+    "score": 49,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-11-20T11:31:36.855376+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "konovalM/pyweb-2026-lab2",
+    "url": "https://github.com/konovalM/pyweb-2026-lab2",
+    "description": "hermes agents",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-11-20T11:31:17Z",
+    "category": "forks",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-11-20T11:31:44.870217+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "nanocodexyz/nanocode",
+    "url": "https://github.com/nanocodexyz/nanocode",
+    "description": "SDK for Frontier Embedded Agents.",
+    "stars": 735,
+    "forks": 103,
+    "language": "C",
+    "topics": [
+      "agent-sdk",
+      "ai",
+      "ai-agent",
+      "ai-agents",
+      "anthropic",
+      "chatgpt",
+      "claude",
+      "claude-code",
+      "code-mode",
+      "codex",
+      "durable-agents",
+      "hermes",
+      "hermes-agent",
+      "llm",
+      "mcp",
+      "openai",
+      "rust",
+      "sdk"
+    ],
+    "updated_at": "2026-11-20T09:25:59Z",
+    "category": "forks",
+    "score": 67,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_topic",
+      "agent_ecosystem",
+      "moderate_stars_100+",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "gakonst/nanocodex"
+    ],
+    "discovered_at": "2026-11-20T11:31:44.873944+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "sovergarden-dev/viet-hoa-skills",
+    "url": "https://github.com/sovergarden-dev/viet-hoa-skills",
+    "description": "Source-Faithful Vietnamese Game Localization Suite for Hermes Agent",
+    "stars": 3,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "game-localization",
+      "hermes-agent",
+      "translation",
+      "vietnamese"
+    ],
+    "updated_at": "2026-11-14T06:11:39Z",
+    "category": "forks",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-11-20T11:31:44.876896+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "alahmad077/gbrain",
+    "url": "https://github.com/alahmad077/gbrain",
+    "description": "Garry's Opinionated OpenClaw/Hermes Agent Brain",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-11-20T11:25:17Z",
+    "category": "forks",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "garrytan/gbrain"
+    ],
+    "discovered_at": "2026-11-20T11:31:44.879769+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "GaganaMD/benchmark_hermes-fabric-public",
+    "url": "https://github.com/GaganaMD/benchmark_hermes-fabric-public",
+    "description": "Benchmarks comparing direct Codex, Fabric-enhanced prompting, and Hermes + Fabric + Codex on coding, reconciliation and due-diligence tasks.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "benchmark",
+      "codex",
+      "evaluation",
+      "fabric",
+      "hermes-agent",
+      "llm-agents"
+    ],
+    "updated_at": "2026-11-20T10:20:47Z",
+    "category": "benchmarks",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week",
+      "niche_specialized"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-11-20T11:32:25.252639+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "contactaurawealth-lab/hermes-mobile",
+    "url": "https://github.com/contactaurawealth-lab/hermes-mobile",
+    "description": "Complete Native Android AI Agent Platform powered by the original NousResearch Hermes Agent engine",
+    "stars": 0,
+    "forks": 0,
+    "language": "Kotlin",
+    "topics": [],
+    "updated_at": "2026-11-20T08:20:41Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "mudrii/hermes-agent-docs",
+      "mrbooboo1987-creator/hermes-grok-trading-system"
+    ],
+    "discovered_at": "2026-11-20T11:33:25.229029+00:00",
+    "status": "pending"
   }
 ]
