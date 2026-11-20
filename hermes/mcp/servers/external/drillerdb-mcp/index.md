@@ -1,6 +1,7 @@
 ---
 title: "DrillerDB MCP - Field Service Data for Drilling Contractors"
-description: "Official remote MCP connector for DrillerDB, the operating system for water-well and drilling contractors: 45 tools (37 read-only) over projects, customers, invoices, work orders, crews, schedules, equipment, compliance and well logs, with OAuth 2.0 PKCE, tenant isolation, audit logging and approval-gated writes."
+description: "Official remote MCP connector for DrillerDB, the operating system for water-well and drilling contractors: 45 tools (37 read-only) over projects, customers."
+
 category: ERP
 stars: 0
 added: 2026-08-27

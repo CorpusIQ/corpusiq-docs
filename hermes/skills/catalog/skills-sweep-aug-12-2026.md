@@ -1,6 +1,7 @@
 ---
 title: Skills.sh Sweep - August 12, 2026
-description: Automated marketplace sweep discovering 7 new/undocumented Hermes Agent skills from the 215-skill nousresearch/hermes-agent catalog. 7 setup guides drafted and pushed.
+description: "Automated marketplace sweep discovering 7 new/undocumented Hermes Agent skills from the 215-skill nousresearch/hermes-agent catalog."
+
 date: 2026-08-12
 sweep_id: aug-12-2026-cron
 total_discovered: 215

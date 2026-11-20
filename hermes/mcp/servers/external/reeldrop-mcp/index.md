@@ -1,6 +1,7 @@
 ---
 title: "ReelDrop MCP - Instagram Reel Scheduling and Analytics"
-description: "Hosted MCP server that operates your own Instagram account: schedule reels from video links or file uploads, read real analytics, and manage comment-to-DM automations. OAuth browser sign-in, no API key. Verified live (anonymous initialize returns 401, OAuth-gated endpoint at mcp.reeldrop.io/mcp)."
+description: "Hosted MCP server that operates your own Instagram account: schedule reels from video links or file uploads, read real analytics, and manage comment-to-DM."
+
 category: Social Media Management
 stars: "n/a (hosted)"
 added: 2026-09-02

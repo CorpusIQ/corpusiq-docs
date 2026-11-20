@@ -1,6 +1,7 @@
 ---
 title: "Edgrapi MCP - SEC EDGAR Structured Data for Agents"
-description: "Hosted MCP server turning raw SEC EDGAR filings into clean JSON: Form 4 insider trades, typed 8-K events, 13F holdings with quarter-over-quarter diffs, 13D/G activist stakes, fundamentals and ratios across nine tools at api.edgrapi.com/mcp."
+description: "Hosted MCP server turning raw SEC EDGAR filings into clean JSON: Form 4 insider trades, typed 8-K events, 13F holdings with quarter-over-quarter diffs, 13D/G."
+
 category: Finance
 stars: "0 (new listing, paperandbeyond23-gif/edgrapi-mcp)"
 added: 2026-08-31

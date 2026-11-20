@@ -1,6 +1,7 @@
 ---
 title: "EximAgent MCP - Export-Import Sales and Trade Data"
-description: "Hosted MCP server for global trade teams: buyer and supplier discovery, customs and bill-of-lading analytics, HS classification, duty and FTA checks, OFAC screening, and confirmed outreach - 81 tools over OAuth."
+description: "Hosted MCP server for global trade teams: buyer and supplier discovery, customs and bill-of-lading analytics, HS classification, duty and FTA checks, OFAC."
+
 category: International Trade
 stars: n/a (new listing)
 added: 2026-10-08

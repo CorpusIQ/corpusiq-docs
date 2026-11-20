@@ -1,6 +1,7 @@
 ---
 title: "FluentEDI MCP: Hosted X12 EDI Processing"
-description: "Keyless hosted MCP server with 17 live-probed tools for X12 EDI document workflows: parse, validate, build and acknowledge 850/856/810/855/997 transactions, plus JSON repair, contract-drift detection, cron and time utilities for retail and supply-chain automation. Free, no signup, stateless."
+description: "Keyless hosted MCP server with 17 live-probed tools for X12 EDI document workflows: parse, validate, build and acknowledge 850/856/810/855/997 transactions."
+
 category: Commerce & E-Commerce
 stars: n/a (new listing)
 added: 2026-08-23

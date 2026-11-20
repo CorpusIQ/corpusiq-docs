@@ -1,6 +1,7 @@
 ---
 title: "Beamtrace MCP - AI Visibility Score Analysis for Agents"
-description: "Beamtrace MCP, built by Elfsight, connects an agent to a brand's AI visibility data: analyze the Beamtrace score, explain what shifted it, see where a competitor is ahead, and pull the concrete fix behind each visibility gap. Five read-oriented tools over a hosted Streamable HTTP endpoint with API-key auth."
+description: "Beamtrace MCP, built by Elfsight, connects an agent to a brand's AI visibility data: analyze the Beamtrace score, explain what shifted it, see where."
+
 category: SEO
 stars: 0
 added: 2026-09-07

@@ -1,6 +1,7 @@
 ---
 title: Worklittle Jobs MCP - Job Search and Market Data
-description: "Search over 4 million job listings with filters for visa status, distance, salary and seniority, browse a company index, and read market overview statistics through 21 live-probed tools at mcp.worklittle.com. Account tools add AI-assisted apply and saved-job tracking."
+description: "Search over 4 million job listings with filters for visa status, distance, salary and seniority, browse a company index, and read market overview statistics."
+
 category: Business Operations
 stars: 0
 added: 2026-08-25

@@ -1,6 +1,7 @@
 ---
 title: "Meng To Skills Setup Guide for Hermes Agents"
-description: "mengto/skills - 76.2K installs across 155 skills, 5.6K stars: Design+Code founder Meng To's frontend, motion, and visual design suite - landing pages, GSAP, Three.js, anti-slop auditing, and design taste."
+description: "mengto/skills - 76.2K installs across 155 skills, 5.6K stars: Design+Code founder Meng To's frontend, motion, and visual design suite - landing pages, GSAP."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/mengto-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-11-01"

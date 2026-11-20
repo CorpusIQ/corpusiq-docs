@@ -1,6 +1,7 @@
 ---
 title: "AXL MCP - Courses, CRM and Checkout in One Surface"
-description: "Run an AXL account from Claude, ChatGPT or Cursor: courses, CRM pipelines, checkout, booking and email automation behind OAuth 2.1, with 21 sensitive operations removed from the agent surface."
+description: "Run an AXL account from Claude, ChatGPT or Cursor: courses, CRM pipelines, checkout, booking and email automation behind OAuth 2.1, with 21 sensitive."
+
 category: Sales & Marketing / All-in-one Platform
 stars: n/a (included with an AXL plan, free plan with no card)
 added: 2026-10-26

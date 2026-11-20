@@ -1,6 +1,7 @@
 ---
 title: Countersignatory MCP - Verified Human Judgment Markets
-description: "A spot market for verified human judgment. Agents quote a task before committing to it - a screened human check, a consensus of several humans, a named professional who signs, or a regulated act such as remote notarisation - and get back an indicative price, a band, urgency and off-hours multipliers, and the implied rate per human minute. Three keyless tools, a published wage floor, and every seeded number's derivation made public."
+description: "A spot market for verified human judgment. Agents quote a task before committing to it - a screened human check, a consensus of several humans, a named."
+
 category: Business Operations
 stars: n/a (new listing)
 added: 2026-09-07

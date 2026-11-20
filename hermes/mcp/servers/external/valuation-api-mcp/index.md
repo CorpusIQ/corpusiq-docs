@@ -1,6 +1,7 @@
 ---
 title: "Valuation API MCP - Deterministic Finance Math for Agents"
-description: "Deterministic finance calculation engine exposed as an MCP server: IRR, NPV, MOIC, DCF, WACC and IRR sensitivity analysis as six typed tools wrapping pure mathematical functions. No LLM generation, no randomness. Live-probed keyless endpoint built and operated by Prospect Capital Labs for investment analysis and due diligence workflows."
+description: "Deterministic finance calculation engine exposed as an MCP server: IRR, NPV, MOIC, DCF, WACC and IRR sensitivity analysis as six typed tools wrapping pure."
+
 category: Finance
 stars: 0
 added: 2026-09-02

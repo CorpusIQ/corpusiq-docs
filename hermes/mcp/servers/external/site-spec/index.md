@@ -1,6 +1,7 @@
 ---
 title: site-spec MCP - Machine-Readable Website Audits
-description: "Local stdio MCP server that audits the invisible layer of a website - robots.txt, llms.txt, canonical and noindex signals, JSON-LD, Open Graph, headers, accessibility, trackers - with 40 deterministic checks and automatic repairs for 17 of them. Apache-2.0, no account, no API key."
+description: "Local stdio MCP server that audits the invisible layer of a website - robots.txt, llms.txt, canonical and noindex signals, JSON-LD, Open Graph, headers."
+
 category: SEO
 stars: n/a (new listing, github.com/ariaxhan/site-spec)
 added: 2026-08-29

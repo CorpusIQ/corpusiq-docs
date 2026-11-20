@@ -1,6 +1,7 @@
 ---
 title: SparkLaunch MCP - Founder Validation and Company Formation
-description: "Official hosted MCP from SparkLaunch for founder operations: project creation with auto-queued idea validation research, brand palette and logo generation, campaign, QR and landing-page creation with signal review, private CRM context, and entitlement-gated incorporation cases. OAuth-gated endpoint, official MCP Registry listed."
+description: "Official hosted MCP from SparkLaunch for founder operations: project creation with auto-queued idea validation research, brand palette and logo generation."
+
 category: Productivity
 stars: "1 (new listing, SparkLaunch-Dev/SparkLaunch-Skills)"
 added: 2026-09-02

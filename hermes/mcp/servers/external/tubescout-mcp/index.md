@@ -1,6 +1,7 @@
 ---
 title: "TubeScout MCP - Keyless YouTube Research for AI Agents"
-description: "Local keyless MCP server that turns YouTube into a research engine: filtered video search, engagement resonance metrics, resilient transcripts (single or batch of 10), channel scans and YouTube autocomplete as search-demand data, plus a context-aware skill pack for idea mining and demand-gap analysis."
+description: "Local keyless MCP server that turns YouTube into a research engine: filtered video search, engagement resonance metrics, resilient transcripts (single."
+
 category: Content & Research
 stars: 0
 added: 2026-08-27

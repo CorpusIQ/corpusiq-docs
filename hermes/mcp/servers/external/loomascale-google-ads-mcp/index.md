@@ -1,6 +1,7 @@
 ---
 title: LoomaScale Google Ads MCP - Google Ads Management
-description: "LoomaScale's Google Ads MCP server puts account management inside any MCP client: 42 tools over the Google Ads API for performance reads, keyword research, campaign and Performance Max creation, and budget or bidding changes."
+description: "LoomaScale's Google Ads MCP server puts account management inside any MCP client: 42 tools over the Google Ads API for performance reads, keyword research."
+
 category: Marketing
 stars: 0
 added: 2026-09-07

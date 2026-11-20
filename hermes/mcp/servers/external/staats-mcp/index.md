@@ -1,6 +1,7 @@
 ---
 title: Staats MCP - Cookieless Web Analytics for Agents
-description: Cookieless web analytics that your agent reads in conversation - traffic, referrers, funnels and deploy-tagged before and after comparisons with proactive anomaly surfacing.
+description: "Cookieless web analytics that your agent reads in conversation - traffic, referrers, funnels and deploy-tagged before and after comparisons with proactive."
+
 category: Data & Analytics
 stars: n/a (new listing)
 added: 2026-09-02

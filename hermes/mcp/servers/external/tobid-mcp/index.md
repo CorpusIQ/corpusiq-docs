@@ -1,6 +1,7 @@
 ---
 title: "ToBid MCP - Taiwan Government Tenders for AI Agents"
-description: Taiwan government procurement search and intelligence over 14M+ tenders - tender search, award history, vendor win-rate reports, agency spending analysis and bid price suggestions with a free keyless remote MCP endpoint
+description: "Taiwan government procurement search and intelligence over 14M+ tenders - tender search, award history, vendor win-rate reports, agency spending analysis."
+
 category: Compliance
 stars: n/a (new listing)
 added: 2026-09-03

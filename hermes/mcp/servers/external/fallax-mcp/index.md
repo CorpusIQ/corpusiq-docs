@@ -1,6 +1,7 @@
 ---
 title: "Fallax MCP - Phishing Simulation Results for Audit Evidence"
-description: "Hosted MCP server for phishing simulation and security awareness results: programme summaries, resilience trends, department breakdowns, campaign detail and the per-person evidence trail ISO 27001 and SOC 2 auditors ask for. Twelve tools, ten read-only, OAuth 2.1 with workspace-scoped URLs."
+description: "Hosted MCP server for phishing simulation and security awareness results: programme summaries, resilience trends, department breakdowns, campaign detail."
+
 category: Security
 stars: "n/a (hosted, closed source)"
 added: 2026-09-02

@@ -1,6 +1,7 @@
 ---
 title: "LinkDigest MCP - Social Post to LLM-Readable Text"
-description: "LinkDigest MCP turns social post URLs into text an agent can actually read: transcript, on-screen text, per-image descriptions, caption and metadata as Markdown or JSON. Works on Xiaohongshu, Douyin, TikTok, YouTube, X and ordinary web pages. Hosted Streamable HTTP endpoint, one digest_url tool with job-id polling for long media."
+description: "LinkDigest MCP turns social post URLs into text an agent can actually read: transcript, on-screen text, per-image descriptions, caption and metadata."
+
 category: Content & Research
 stars: 0
 added: 2026-09-07

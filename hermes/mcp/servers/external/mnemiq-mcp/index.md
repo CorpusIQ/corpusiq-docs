@@ -1,6 +1,7 @@
 ---
 title: mnemiq MCP - Tunable Text-to-SQL for Business Databases
-description: Open-source engine that answers natural-language questions over your own database with every pipeline stage - schema profiling, indexing, query generation, grounding - exposed as a setting you can read, change and measure.
+description: "Open-source engine that answers natural-language questions over your own database with every pipeline stage - schema profiling, indexing, query generation."
+
 category: Data & Analytics
 stars: n/a (new listing)
 added: 2026-09-09

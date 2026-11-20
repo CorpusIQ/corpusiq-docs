@@ -1,6 +1,7 @@
 ---
 title: just-scrape - AI-Powered Web Scraping CLI for Hermes Agents
-description: Universal web scraping CLI with 244.9K+ installs. Search, scrape, extract structured data, crawl, and monitor web pages. Essential for Hermes agents doing web research, content extraction, and competitive monitoring.
+description: "Universal web scraping CLI with 244.9K+ installs. Search, scrape, extract structured data, crawl, and monitor web pages."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/just-scrape-setup/"
 robots: "index,follow"
 last_updated: "2026-11-01"

@@ -1,6 +1,7 @@
 ---
 title: "Yocoolab MCP - Visual Feedback to PR Workflow for Agents"
-description: "Self-hosted stdio MCP server that connects AI coding agents to Yocoolab's visual feedback platform. Agents list and triage design feedback threads pinned on live web pages, pull thread context with screenshots and element source, reply to designers, mark threads addressed and open GitHub PRs that close out feedback."
+description: "Self-hosted stdio MCP server that connects AI coding agents to Yocoolab's visual feedback platform."
+
 category: Productivity
 stars: 1 (GitHub)
 added: 2026-09-07

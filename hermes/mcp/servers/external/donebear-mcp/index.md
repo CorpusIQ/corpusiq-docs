@@ -1,6 +1,7 @@
 ---
 title: "Done Bear MCP - GTD Task Manager for Agents"
-description: "Hosted OAuth 2.1 MCP for the Done Bear task manager: create, edit and complete tasks, projects and checklists, plus comments, attachments, labels, teams and bulk edits across 35 live-verified tools. Local-first GTD workflow with inbox, today, upcoming, anytime and someday views."
+description: "Hosted OAuth 2.1 MCP for the Done Bear task manager: create, edit and complete tasks, projects and checklists, plus comments, attachments, labels, teams."
+
 category: Productivity
 stars: "n/a (hosted service)"
 added: 2026-09-01

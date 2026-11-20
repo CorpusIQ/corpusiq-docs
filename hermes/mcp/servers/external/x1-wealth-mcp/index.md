@@ -1,6 +1,7 @@
 ---
 title: X1 Wealth MCP - Cited Family Office Records
-description: Remote MCP that lets an AI assistant answer questions from a household's trusts, entities, properties, policies and documents, citing the page behind every answer.
+description: "Remote MCP that lets an AI assistant answer questions from a household's trusts, entities, properties, policies and documents, citing the page behind every."
+
 category: Finance
 stars: n/a (new listing)
 added: 2026-10-04

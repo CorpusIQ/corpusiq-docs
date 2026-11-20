@@ -1,6 +1,7 @@
 ---
 title: "LocationLists MCP - US Business Location Datasets for Agents"
-description: "Keyless remote MCP server over 725 ready-to-use CSV datasets of US business locations - dealer networks, licensed contractors, retail and restaurant chains, 14.2 million locations total. Agents search datasets, preview real rows, get line-item quotes, and mint Stripe checkout links for one-time dataset purchases."
+description: "Keyless remote MCP server over 725 ready-to-use CSV datasets of US business locations - dealer networks, licensed contractors, retail and restaurant chains."
+
 category: Business Data
 stars: n/a (new listing)
 added: 2026-09-11

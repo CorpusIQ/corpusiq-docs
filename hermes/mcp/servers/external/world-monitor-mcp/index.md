@@ -1,6 +1,7 @@
 ---
 title: "World Monitor MCP - CorpusIQ Docs"
-description: Live global-intelligence MCP server for AI agents - markets, geopolitical risk, supply chains, sanctions, energy, cyber threats and procurement, all source-grounded with freshness stamps.
+description: "Live global-intelligence MCP server for AI agents - markets, geopolitical risk, supply chains, sanctions, energy, cyber threats and procurement, all."
+
 category: Research
 stars: n/a (new listing)
 added: 2026-08-15

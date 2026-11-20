@@ -1,6 +1,7 @@
 ---
 title: UGC VZ MCP - DACH UGC Creator Discovery for Agents
-description: Free directory of real UGC creators in Germany, Austria and Switzerland for AI agents - search profiles, compare pricing and reach, and trigger gated brand outreach requests.
+description: "Free directory of real UGC creators in Germany, Austria and Switzerland for AI agents - search profiles, compare pricing and reach, and trigger gated brand."
+
 category: Content
 stars: 2 (new listing)
 added: 2026-08-26

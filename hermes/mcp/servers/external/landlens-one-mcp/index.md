@@ -1,6 +1,7 @@
 ---
 title: LandLens One MCP - Tamil Nadu Property Due Diligence
-description: "Remote MCP server from Verified.RealEstate for Indian property due diligence. Agents query Tamil Nadu land records with cited legal answers, run automated verification checks (encumbrance certificates, ownership, zone restrictions), read 25 years of registered transaction prices, calculate development potential, track property changes and manage deal documents. Live API-key/OAuth endpoint at verified.realestate/mcp."
+description: "Remote MCP server from Verified.RealEstate for Indian property due diligence. Agents query Tamil Nadu land records with cited legal answers, run automated."
+
 category: Real Estate Data
 stars: n/a (new listing)
 added: 2026-09-12

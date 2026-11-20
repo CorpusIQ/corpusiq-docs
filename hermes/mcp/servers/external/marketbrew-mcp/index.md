@@ -1,6 +1,7 @@
 ---
 title: "Market Brew MCP - Search Engine Modeling for Agents"
-description: "Read-only hosted MCP server over Market Brew: ranking-model analysis, content alignment, knowledge bases, crawl data and AI-visibility history, over OAuth on an enabled account."
+description: "Read-only hosted MCP server over Market Brew: ranking-model analysis, content alignment, knowledge bases, crawl data and AI-visibility history, over OAuth."
+
 category: SEO
 stars: n/a (new listing)
 added: 2026-10-08

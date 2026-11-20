@@ -1,6 +1,7 @@
 ---
 title: "GramClaw MCP - Telegram Outreach Workflow for Agents"
-description: "Remote Telegram MCP server from GramClaw that turns a Telegram outreach workflow into agent tools: search and read chats, list contacts, send messages from the right connected account, run personalized broadcasts with safe throttling, create multi-step drip campaigns and move chats through a pipeline CRM with analytics."
+description: "Remote Telegram MCP server from GramClaw that turns a Telegram outreach workflow into agent tools: search and read chats, list contacts, send messages."
+
 category: Communication & Email
 stars: n/a (new listing)
 added: 2026-09-10

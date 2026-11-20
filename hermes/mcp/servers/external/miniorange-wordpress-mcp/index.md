@@ -1,6 +1,7 @@
 ---
 title: miniOrange WordPress MCP - Secure WordPress Gateway
-description: Secure MCP gateway for WordPress and WooCommerce from miniOrange - policy enforcement, DLP redaction, human-in-the-loop approvals and immutable audit trails for every AI request
+description: "Secure MCP gateway for WordPress and WooCommerce from miniOrange - policy enforcement, DLP redaction, human-in-the-loop approvals and immutable audit trails."
+
 category: Business Operations
 stars: n/a (new listing)
 added: 2026-09-04

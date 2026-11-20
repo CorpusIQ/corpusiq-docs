@@ -1,6 +1,7 @@
 ---
 title: "Crisphive MCP - Field Service Dispatch and Scheduling"
-description: "Field service dispatch and technician scheduling over MCP with 43 tools generated from the same OpenAPI spec as the REST SDKs. Preview/commit pairs on every mutation, idempotency keys, typed error codes and sub-3-second cascade rescheduling. OAuth 2.1 or API key."
+description: "Field service dispatch and technician scheduling over MCP with 43 tools generated from the same OpenAPI spec as the REST SDKs."
+
 category: Business Operations
 stars: n/a (new listing)
 added: 2026-08-22

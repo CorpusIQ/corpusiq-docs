@@ -1,6 +1,7 @@
 ---
 title: "web-quality-skills - Google-Grade Web Quality Audits"
-description: Install and use addyosmani/web-quality-skills - accessibility, SEO, performance, and comprehensive web quality audits from Google Chrome's engineering lead. WCAG 2.1, Core Web Vitals, structured data validation.
+description: "Install and use addyosmani/web-quality-skills - accessibility, SEO, performance, and comprehensive web quality audits from Google Chrome's engineering lead."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/web-quality-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-11-01"

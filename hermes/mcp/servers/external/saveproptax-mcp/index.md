@@ -1,6 +1,7 @@
 ---
 title: "SavePropTax MCP - California Prop 8 Property Tax Appeals"
-description: "Hosted keyless MCP server for California Proposition 8 property tax appeals: free over-assessment checks against recent comparable sales, county form preparation, and owner-completed filing at a flat $29 fee, with the agent never handling signatures or payments"
+description: "Hosted keyless MCP server for California Proposition 8 property tax appeals: free over-assessment checks against recent comparable sales, county form."
+
 category: Finance
 stars: n/a (new listing)
 added: 2026-08-20

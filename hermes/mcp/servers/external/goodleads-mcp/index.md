@@ -1,6 +1,7 @@
 ---
 title: "GoodLeads MCP - New-Business Leads for Agent Outreach"
-description: "Keyless remote MCP server that turns new-business state filings into priced lead lists. An agent interprets a buyer's own words (industry, state, city), quotes the count and live per-record price, and hands back a hosted Stripe checkout link - the human completes payment, never the agent."
+description: "Keyless remote MCP server that turns new-business state filings into priced lead lists. An agent interprets a buyer's own words (industry, state, city)."
+
 category: Sales & Outreach
 stars: n/a (new listing)
 added: 2026-09-11

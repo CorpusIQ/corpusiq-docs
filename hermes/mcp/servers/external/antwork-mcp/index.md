@@ -1,6 +1,7 @@
 ---
 title: "Antwork MCP - Social Publishing with Learned Brand Voice"
-description: "Hosted MCP server for drafting, scheduling, publishing and analyzing social posts to LinkedIn, X, Instagram, Facebook, Threads, TikTok, Pinterest and YouTube. 35 tools across seven categories, per-platform voice profiles learned from existing content, OAuth 2.1 with PKCE and granular scopes."
+description: "Hosted MCP server for drafting, scheduling, publishing and analyzing social posts to LinkedIn, X, Instagram, Facebook, Threads, TikTok, Pinterest."
+
 category: Social Media Management
 stars: n/a (new listing)
 added: 2026-08-22

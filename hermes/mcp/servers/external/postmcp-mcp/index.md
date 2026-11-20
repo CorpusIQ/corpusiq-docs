@@ -1,6 +1,7 @@
 ---
 title: PostMCP MCP - Social Publishing Pipelines for Agents
-description: Connect social publishing to AI assistants - 15 tools for workspaces, connected accounts, brand kits, pre-flight checks and scheduled posts across LinkedIn, X, Facebook, Instagram, Threads, Bluesky and YouTube Shorts.
+description: "Connect social publishing to AI assistants - 15 tools for workspaces, connected accounts, brand kits, pre-flight checks and scheduled posts across LinkedIn."
+
 category: Marketing
 stars: n/a (new listing)
 added: 2026-09-02

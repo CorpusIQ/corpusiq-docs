@@ -1,6 +1,7 @@
 ---
 title: VarynForge MCP - Agent-Native SEO Research and Briefing
-description: OAuth-gated SEO research MCP that reads an operator's site, anchors to the niche and forges prioritised content plans. Opportunity clusters, per-channel writer-ready briefs, draft linting, distribution tracking and a 30-day market radar across 57 tools at a probe-verified endpoint.
+description: "OAuth-gated SEO research MCP that reads an operator's site, anchors to the niche and forges prioritised content plans."
+
 category: SEO
 stars: n/a (new listing)
 added: 2026-09-08

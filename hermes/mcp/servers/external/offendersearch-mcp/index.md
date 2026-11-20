@@ -1,6 +1,7 @@
 ---
 title: "OffenderSearch MCP: Nationwide Registry Screening"
-description: "Search all 58 US sex-offender registries - every state, DC and the territories - in one tool call with scored, de-duplicated, provenance-tagged records. batch_search for up to 1,000 lookups, registry coverage catalog, 25 free searches, metered pricing from $0.15 per call."
+description: "Search all 58 US sex-offender registries - every state, DC and the territories - in one tool call with scored, de-duplicated, provenance-tagged records."
+
 category: Compliance
 stars: 0
 added: 2026-08-23

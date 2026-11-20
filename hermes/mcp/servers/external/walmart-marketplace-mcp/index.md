@@ -1,6 +1,7 @@
 ---
 title: "Walmart Marketplace MCP"
-description: "MCP server for Walmart Marketplace APIs (US 3P sellers) - 234 operations across 28 bundled OpenAPI specs with spec-driven discovery, automatic OAuth2 token handling, multi-seller credentials, feed upload and report download. Items, orders, inventory, prices, promotions, returns and fulfillment from any MCP client."
+description: "MCP server for Walmart Marketplace APIs (US 3P sellers) - 234 operations across 28 bundled OpenAPI specs with spec-driven discovery, automatic OAuth2 token."
+
 category: "Commerce & E-Commerce"
 stars: 0
 added: 2026-08-23

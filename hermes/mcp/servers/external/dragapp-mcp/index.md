@@ -1,6 +1,7 @@
 ---
 title: Drag MCP - Gmail Shared Inbox Operations for AI Agents
-description: Drag exposes 47 MCP tools across 12 categories so agents can triage, reply and report on a Gmail shared inbox. Threads, boards, cards, contacts, knowledge base, analytics, automations and WhatsApp messaging through a hosted endpoint or an MIT-licensed local server.
+description: "Drag exposes 47 MCP tools across 12 categories so agents can triage, reply and report on a Gmail shared inbox."
+
 category: Communication & Email
 stars: n/a (new listing)
 added: 2026-09-04

@@ -1,6 +1,7 @@
 ---
 title: Hermes Flight Recorder Setup Guide
-description: Set up the Hermes Autonomy Flight Recorder - adversarial eval harness for autonomous agent runs with trace-based scorecards, HTML reports, and training data export.
+description: "Set up the Hermes Autonomy Flight Recorder - adversarial eval harness for autonomous agent runs with trace-based scorecards, HTML reports, and training data."
+
 skill_name: hermes-flight-recorder
 repo: zwright8/hermes-flight-recorder
 compatibility: Hermes Agent

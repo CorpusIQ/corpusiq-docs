@@ -1,6 +1,7 @@
 ---
 title: Ryze Meta Ads MCP - Hosted Facebook Ads for Agents
-description: Hosted Meta Ads MCP server from Ryze AI. Connects Claude, ChatGPT and Cursor to Facebook and Instagram ads with one OAuth sign-in. Twelve tools cover Insights reporting, Graph API reads, lead forms, Ad Library search and approval-gated campaign writes with no developer app required.
+description: "Hosted Meta Ads MCP server from Ryze AI. Connects Claude, ChatGPT and Cursor to Facebook and Instagram ads with one OAuth sign-in."
+
 category: Marketing
 stars: n/a (new listing)
 added: 2026-09-05

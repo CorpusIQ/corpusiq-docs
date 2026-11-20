@@ -1,6 +1,7 @@
 ---
 title: "Mobile Text Alerts MCP - Official SMS Sending for Agents"
-description: "Official remote MCP server from Mobile Text Alerts. Agents send and schedule SMS, manage subscribers and groups, and complete carrier registration from any MCP-compatible assistant - business texting for broadcast messages, reminders and subscriber flows."
+description: "Official remote MCP server from Mobile Text Alerts. Agents send and schedule SMS, manage subscribers and groups, and complete carrier registration."
+
 category: Communication
 stars: n/a (new listing)
 added: 2026-09-11

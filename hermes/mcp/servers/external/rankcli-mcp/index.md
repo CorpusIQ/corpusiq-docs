@@ -1,6 +1,7 @@
 ---
 title: "RankCLI MCP - Local SEO and GEO Audits for AI Agents"
-description: "RankCLI MCP runs free local SEO and GEO checks entirely on the operator's machine: a comprehensive SEO audit plus AI-search-visibility analysis (GPTBot, ClaudeBot, PerplexityBot access and LLM-friendliness), focused single-purpose checks, and generator tools for robots.txt, schema markup and security headers. No signup, no API key."
+description: "RankCLI MCP runs free local SEO and GEO checks entirely on the operator's machine: a comprehensive SEO audit plus AI-search-visibility analysis (GPTBot."
+
 category: SEO
 stars: 0
 added: 2026-09-07

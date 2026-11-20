@@ -1,6 +1,7 @@
 ---
 title: "Business Operations Prompts for Hermes Agent"
-description: Hermes Agent business operations prompts for email communication, meeting management, project planning, and task organization. Replace bracketed text with your team context, tools, and workflow preferences.
+description: "Hermes Agent business operations prompts for email communication, meeting management, project planning, and task organization."
+
 category: prompts
 tags: [hermes-agent, prompts, business-operations, email, meetings, project-planning, task-management, workflow]
 last_updated: 2026-11-07

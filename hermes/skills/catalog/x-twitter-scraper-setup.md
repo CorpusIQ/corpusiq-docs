@@ -1,6 +1,7 @@
 ---
 title: X/Twitter Scraper - Full Setup Guide for Hermes Agents
-description: Install and configure the x-twitter-scraper skill from sickn33/antigravity-awesome-skills. Comprehensive X/Twitter automation - tweet search, follower export, posting, DMs, webhooks, MCP, Hermes Tweet plugin, and TweetClaw. 148 installs.
+description: "Install and configure the x-twitter-scraper skill from sickn33/antigravity-awesome-skills."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/x-twitter-scraper-setup/"
 robots: "index,follow"
 last_updated: "2026-11-01"

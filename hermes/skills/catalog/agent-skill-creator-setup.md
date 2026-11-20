@@ -1,6 +1,7 @@
 ---
 title: Agent Skill Creator - Skill Generation and Templating Setup
-description: "Skills from coreyhaines31/marketingskills at skills.sh - agent-skill-creator for generating custom Hermes skills from descriptions and templates. 689 github skills related."
+description: "Skills from coreyhaines31/marketingskills at skills.sh - agent-skill-creator for generating custom Hermes skills from descriptions and templates."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/agent-skill-creator-setup/"
 robots: "index,follow"
 last_updated: "2026-11-01"

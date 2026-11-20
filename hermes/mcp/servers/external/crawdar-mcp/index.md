@@ -1,6 +1,7 @@
 ---
 title: "Crawdar MCP - Qualified Prospect Research for Agents"
-description: "Crawdar MCP gives an agent qualified prospects instead of raw pages: natural-language and structured business search with criterion-level match explanations, a classified public contact route and supporting sources for every result, plus durable async lead-search jobs with progress, export, retry and cancel. Remote MCP, keyless probe verified."
+description: "Crawdar MCP gives an agent qualified prospects instead of raw pages: natural-language and structured business search with criterion-level match explanations."
+
 category: Lead Generation & Web Scraping
 stars: 0
 added: 2026-09-07

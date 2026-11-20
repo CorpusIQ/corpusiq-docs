@@ -1,6 +1,7 @@
 ---
 title: "Agency AI MCP: Meta and Google Ads Management from Chat"
-description: "Hosted remote MCP server that turns Claude and ChatGPT into a full ad manager for Meta and Google ad accounts. Create, update and pause campaigns, adsets and ads; read pacing, anomalies, performance time series, brand info and budget recommendations through 14 typed tools at s.agencyai.app/mcp. Apache-2.0 licensed, deepest automation on Shopify, works with any store."
+description: "Hosted remote MCP server that turns Claude and ChatGPT into a full ad manager for Meta and Google ad accounts."
+
 category: Marketing
 stars: n/a (new listing)
 added: 2026-08-24

@@ -1,6 +1,7 @@
 ---
 title: "Firecrawl Workflows - Growth & Research Automation"
-description: Install and use firecrawl/firecrawl-workflows (120K combined installs) for automated deep research, lead generation, market research, and SEO auditing from within Hermes agents.
+description: "Install and use firecrawl/firecrawl-workflows (120K combined installs) for automated deep research, lead generation, market research, and SEO auditing."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/firecrawl-workflows-setup/"
 robots: "index,follow"
 last_updated: "2026-11-01"

@@ -1,6 +1,7 @@
 ---
 title: "HubSpot Agent CLI Skills Setup Guide for Hermes Agents"
-description: "hubspot/agent-cli-skills - 17.8K installs across 15 skills, official HubSpot org: CRM operations, ticket resolution, deal management, sales reporting, and data quality skills that drive the hubspot CLI."
+description: "hubspot/agent-cli-skills - 17.8K installs across 15 skills, official HubSpot org: CRM operations, ticket resolution, deal management, sales reporting."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hubspot-agent-cli-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-11-01"

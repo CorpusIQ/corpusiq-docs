@@ -1,6 +1,7 @@
 ---
 title: ZenSched MCP - Field Workforce Scheduling for Agents
-description: Field workforce scheduling over MCP - account creation, verified GPS punches, worker invites, shifts, forms, webhooks and timesheets with no human dashboard required.
+description: "Field workforce scheduling over MCP - account creation, verified GPS punches, worker invites, shifts, forms, webhooks and timesheets with no human dashboard."
+
 category: ERP
 stars: n/a (new listing)
 added: 2026-09-02

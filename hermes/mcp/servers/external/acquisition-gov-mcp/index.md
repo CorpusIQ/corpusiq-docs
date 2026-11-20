@@ -1,6 +1,7 @@
 ---
 title: "Acquisition.gov MCP: FAR Overhaul and Agency Deviations"
-description: "Deterministic read-only MCP access to official Acquisition.gov FAR Overhaul model-part pages, the posted agency-deviation index, official deviation PDFs, and a allowlisted set of RFO guidance resources. Five stdio tools return source text with canonical URLs, retrieval timestamps, SHA-256 content hashes and extraction warnings. uvx install, no credentials, MIT licensed, published by 1102tools-dev."
+description: "Deterministic read-only MCP access to official Acquisition.gov FAR Overhaul model-part pages, the posted agency-deviation index, official deviation PDFs."
+
 category: Compliance
 stars: n/a (new listing)
 added: 2026-08-24

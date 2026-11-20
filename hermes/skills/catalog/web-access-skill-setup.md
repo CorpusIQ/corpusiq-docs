@@ -1,6 +1,7 @@
 ---
 title: "Web Access Skill - Unified Browsing & Scraping Setup"
-description: "eze-is/web-access - 1 skill, 15.7K installs: unified web access for search, scraping, login-required operations, and CDP browser automation through your existing Chrome or Edge. 8.7K GitHub stars; audit findings named in Limitations."
+description: "eze-is/web-access - 1 skill, 15.7K installs: unified web access for search, scraping, login-required operations, and CDP browser automation."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/web-access-skill-setup/"
 robots: "index,follow"
 last_updated: "2026-11-01"

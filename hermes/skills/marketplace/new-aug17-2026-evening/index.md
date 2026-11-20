@@ -1,6 +1,7 @@
 ---
 title: "New Skills - August 17, 2026 (Evening)"
-description: "skills.sh evening sweep: Nx AI Agents Config (44.7K, 10), M. Collina Node Skills (52.4K, 12), Zhaono1 Agent Playbook (50.4K, 24) - 3 publisher clusters, 46 skills, 3 setup guides."
+description: "skills.sh evening sweep: Nx AI Agents Config (44.7K, 10), M. Collina Node Skills (52.4K, 12), Zhaono1 Agent Playbook (50.4K, 24) - 3 publisher clusters, 46."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-aug17-2026-evening/"
 robots: "index,follow"
 last_updated: "2026-11-01"

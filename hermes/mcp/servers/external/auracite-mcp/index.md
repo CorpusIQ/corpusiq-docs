@@ -1,6 +1,7 @@
 ---
 title: "AuraCite MCP - AI Visibility and GEO Data for Agents"
-description: "AuraCite MCP gives agents read-only access to AI-visibility data: how ChatGPT, Gemini, Perplexity and Claude mention, cite and recommend a brand, including share of voice, visibility scores, per-engine breakdowns, AI-crawler access and Google Search Console performance. OAuth 2.1 PKCE with an API-key fallback."
+description: "AuraCite MCP gives agents read-only access to AI-visibility data: how ChatGPT, Gemini, Perplexity and Claude mention, cite and recommend a brand."
+
 category: SEO
 stars: 0
 added: 2026-09-07

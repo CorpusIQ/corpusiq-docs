@@ -1,6 +1,7 @@
 ---
 title: "Atlas Verified MCP: Supply Chain Compliance and Trade"
-description: "Official-registry MCP server for global trade verification - organic certification checks against the USDA Organic Integrity Database, OFAC sanctions screening, FDA import controls, document authentication with 30+ automated checks, and structured trade intelligence from 50+ attributed sources. OAuth 2.0 + PKCE, hosted at api.atlasverified.ai/mcp."
+description: "Official-registry MCP server for global trade verification - organic certification checks against the USDA Organic Integrity Database, OFAC sanctions."
+
 category: Compliance
 stars: n/a (new listing)
 added: 2026-08-23

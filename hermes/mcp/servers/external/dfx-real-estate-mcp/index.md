@@ -1,6 +1,7 @@
 ---
 title: DFX Real Estate Intelligence MCP - US Property, Parcel
-description: "Remote, no-key MCP with 9 tools for US commercial and multifamily real estate: property and parcel lookups, ownership, recorded sales, measured coverage and near-term commercial debt timing. Endpoint live-verified (dfx-real-estate v0.2.0)."
+description: "Remote, no-key MCP with 9 tools for US commercial and multifamily real estate: property and parcel lookups, ownership, recorded sales, measured coverage."
+
 category: Finance
 stars: "n/a (hosted service)"
 added: 2026-08-31

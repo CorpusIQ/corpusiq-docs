@@ -1,6 +1,7 @@
 ---
 title: Ultralayer MCP - Realtime Market Intelligence for Agents
-description: "Realtime financial context for AI agents - market news that separates new information from repeats, developments with impact scores, filing changes, sentiment and alerts."
+description: "Realtime financial context for AI agents - market news that separates new information from repeats, developments with impact scores, filing changes."
+
 category: Finance
 stars: n/a (new listing)
 added: 2026-09-09

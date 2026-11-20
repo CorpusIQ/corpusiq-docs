@@ -1,6 +1,7 @@
 ---
 title: "Solana Dev Skill - Official Blockchain Development"
-description: "solana-foundation/solana-dev-skill - 58.4K installs. The Solana Foundation's official agent skill for building on Solana: program development, tokens, and ecosystem tooling."
+description: "solana-foundation/solana-dev-skill - 58.4K installs. The Solana Foundation's official agent skill for building on Solana: program development, tokens."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/solana-dev-skill-setup/"
 robots: "index,follow"
 last_updated: "2026-11-01"

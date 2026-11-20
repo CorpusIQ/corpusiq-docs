@@ -1,6 +1,7 @@
 ---
 title: "Prism MCP - Contract Deadline Reader for AI Agents"
-description: "Remote MCP server that reads contracts and returns every deadline: the exact date, what happens if it is missed, and the sentence it came from. Dates are computed from the contract's own rules (notice windows, renewal terms), not estimated. Reads residential and commercial leases, mortgages, insurance policies and HOA documents. 8 tools, OAuth or API key, 3 free contracts then $0.50 per contract."
+description: "Remote MCP server that reads contracts and returns every deadline: the exact date, what happens if it is missed, and the sentence it came."
+
 category: IP/Legal
 stars: n/a (new listing)
 added: 2026-09-14

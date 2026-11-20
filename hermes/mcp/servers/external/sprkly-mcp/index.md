@@ -1,6 +1,7 @@
 ---
 title: "Sprkly MCP - Shortform Publishing with Approval Gates"
-description: "Hosted MCP server for publishing shortform content to TikTok, Facebook, Instagram, YouTube and Threads via natural language. Queue-based scheduling with optional human approval, scoped API keys, soft-delete and per-account visibility limits. OAuth or API key."
+description: "Hosted MCP server for publishing shortform content to TikTok, Facebook, Instagram, YouTube and Threads via natural language."
+
 category: Social Media Management
 stars: n/a (new listing)
 added: 2026-08-22

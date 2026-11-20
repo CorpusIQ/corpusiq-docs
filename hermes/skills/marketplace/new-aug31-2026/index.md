@@ -1,6 +1,7 @@
 ---
 title: "New Skills - August 31, 2026"
-description: "skills.sh 46-query API sweep (4,743 unique skills) plus hot-leaderboard finds: Hallmark (48.6K), Dart Language Skills (144.0K), LJG Skills (124.5K), Meng To Skills (76.2K), Daymade Claude Code Skills (58.4K), Low-Level Dev Skills (41.5K), HubSpot Agent CLI Skills (17.8K), Basic Memory Skills (9.7K) - 8 new publisher clusters, 8 setup guides."
+description: "skills.sh 46-query API sweep (4,743 unique skills) plus hot-leaderboard finds: Hallmark (48.6K), Dart Language Skills (144.0K), LJG Skills (124.5K), Meng."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-aug31-2026/"
 robots: "index,follow"
 last_updated: "2026-11-01"

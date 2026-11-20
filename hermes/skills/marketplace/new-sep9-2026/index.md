@@ -1,6 +1,7 @@
 ---
 title: "New Skills - September 9, 2026 (Morning)"
-description: "skills.sh morning sweep: forcedotcom/sf-skills (~500K installs, official Salesforce library), agricidaniel/claude-seo (~160K, 31 SEO skills, July 23 rejection overturned), blacktwist/social-media-skills (21.4K, 14 skills), charlie947/social-media-skills (17.2K, 17 skills) - 4 new publisher clusters, 162+ skills, 4 setup guides."
+description: "skills.sh morning sweep: forcedotcom/sf-skills (~500K installs, official Salesforce library), agricidaniel/claude-seo (~160K, 31 SEO skills, July 23."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-sep9-2026/"
 robots: "index,follow"
 last_updated: "2026-11-01"

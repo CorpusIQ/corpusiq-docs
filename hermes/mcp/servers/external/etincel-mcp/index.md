@@ -1,6 +1,7 @@
 ---
 title: "Etincel MCP - CorpusIQ Docs"
-description: Deterministic AI-writing-tell detector for operators - 20 tools that audit prose for AI patterns, train brand voices from real writing samples, and run as a local CLI, MCP server, or GitHub Action.
+description: "Deterministic AI-writing-tell detector for operators - 20 tools that audit prose for AI patterns, train brand voices from real writing samples, and run."
+
 category: Content
 stars: n/a (new listing)
 added: 2026-08-15

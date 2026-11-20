@@ -1,6 +1,7 @@
 ---
 title: VenuNite Events MCP - US Live Events Data for Agents
-description: Hosted, read-only MCP connector for 400,000+ source-verifiable US live events from independent venues and community calendars in all 50 states - keyless fair-use trial, Builder key for authenticated setup.
+description: "Hosted, read-only MCP connector for 400,000+ source-verifiable US live events from independent venues and community calendars in all 50 states - keyless."
+
 category: Location Data
 stars: n/a (new listing)
 added: 2026-09-09

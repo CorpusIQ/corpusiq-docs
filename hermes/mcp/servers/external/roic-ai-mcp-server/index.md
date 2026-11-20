@@ -1,6 +1,7 @@
 ---
 title: "ROIC.ai MCP Server - CorpusIQ Docs"
-description: Financial data MCP for AI agents - stock prices, income statements, earnings call transcripts, fundamentals, ratios, and valuation multiples for 60,000+ public companies
+description: "Financial data MCP for AI agents - stock prices, income statements, earnings call transcripts, fundamentals, ratios, and valuation multiples for 60,000+."
+
 category: Finance
 stars: n/a (commercial)
 added: 2026-08-12

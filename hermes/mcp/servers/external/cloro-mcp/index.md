@@ -1,6 +1,7 @@
 ---
 title: "cloro MCP - CorpusIQ Docs"
-description: Live AI answer engine access for MCP agents - run prompts through ChatGPT, Gemini, Perplexity, Copilot, Grok, and Google AI Mode with cited sources and geo-targeting
+description: "Live AI answer engine access for MCP agents - run prompts through ChatGPT, Gemini, Perplexity, Copilot, Grok, and Google AI Mode with cited sources."
+
 category: Data & Analytics
 stars: n/a (commercial)
 added: 2026-08-12

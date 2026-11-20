@@ -1,6 +1,7 @@
 ---
 title: tube-bridge MCP - Self-Hosted YouTube Research
-description: "Self-hosted YouTube research MCP server for AI agents: 17 tools for video and channel discovery, transcripts with timestamps, comments, playlists, ephemeral timestamped frames, and private local semantic-search corpora - 14 tools work without a YouTube API key"
+description: "Self-hosted YouTube research MCP server for AI agents: 17 tools for video and channel discovery, transcripts with timestamps, comments, playlists, ephemeral."
+
 category: Content & Research
 stars: n/a (new listing)
 added: 2026-08-20

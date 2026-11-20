@@ -1,6 +1,7 @@
 ---
 title: "Attensira MCP - AI-Search Visibility Data for Agents"
-description: "Attensira MCP connects AI assistants to Attensira workspace data over Streamable HTTP with OAuth 2.1 or a workspace-scoped API key. 33 tools across eight groups cover AI-search visibility analytics, prompt and competitor management, automations, inbox tasks and memory, with answer receipts and citation timelines. Endpoint mcp.attensira.com/mcp."
+description: "Attensira MCP connects AI assistants to Attensira workspace data over Streamable HTTP with OAuth 2.1 or a workspace-scoped API key."
+
 category: SEO
 stars: n/a (new listing)
 added: 2026-09-12

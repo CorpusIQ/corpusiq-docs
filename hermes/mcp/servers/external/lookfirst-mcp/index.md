@@ -1,6 +1,7 @@
 ---
 title: "lookfirst MCP - Human Approval Gate for Agent Writes"
-description: "Local MCP proxy that holds each write until a named human approves the exact arguments, verifies it by read-back, masks account data, and logs a signed hash chain."
+description: "Local MCP proxy that holds each write until a named human approves the exact arguments, verifies it by read-back, masks account data, and logs a signed hash."
+
 category: Security
 stars: 0 (Apache-2.0, github.com/Aethelgard-Systems/lookfirst, pre-1.0)
 added: 2026-11-04

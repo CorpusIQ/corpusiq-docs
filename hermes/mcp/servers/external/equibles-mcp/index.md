@@ -1,6 +1,7 @@
 ---
 title: "Equibles MCP - SEC Filings and Market Data for AI Agents"
-description: "Self-hosted financial data MCP server with 61 tools over primary regulatory sources - SEC filings with semantic search, XBRL fundamentals, 13F holdings, insider trades, and fund data - plus a hosted endpoint."
+description: "Self-hosted financial data MCP server with 61 tools over primary regulatory sources - SEC filings with semantic search, XBRL fundamentals, 13F holdings."
+
 category: Finance
 stars: 202
 added: 2026-08-29

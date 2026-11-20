@@ -1,6 +1,7 @@
 ---
 title: "Factanker MCP - Evidence-Backed Company and Bank Facts"
-description: 1.18B+ evidence-backed facts about US companies, banks, nonprofits and federal spending from SEC EDGAR, FFIEC call reports, IRS 990 and USAspending - keyless remote MCP with citable fact URLs
+description: "1.18B+ evidence-backed facts about US companies, banks, nonprofits and federal spending from SEC EDGAR, FFIEC call reports, IRS 990 and USAspending - keyless."
+
 category: Finance
 stars: n/a (new listing)
 added: 2026-09-04

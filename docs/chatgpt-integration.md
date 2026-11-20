@@ -1,6 +1,7 @@
 ---
 title: "ChatGPT Integration with CorpusIQ - Connect Business Data"
-description: "Connect your business data to ChatGPT in 2 minutes with CorpusIQ. One-click OAuth for 40+ tools: HubSpot, QuickBooks, Stripe, GA4. Ask ChatGPT about revenue, customers, orders, and marketing from live data."
+description: "Connect your business data to ChatGPT in 2 minutes with CorpusIQ. One-click OAuth for 40+ tools: HubSpot, QuickBooks, Stripe, GA4."
+
 category: "Documentation"
 tags: ["chatgpt integration", "connect data to chatgpt", "chatgpt business data", "mcp chatgpt", "ai business intelligence", "chatgpt plugin", "corpusiq chatgpt"]
 last_updated: "2026-11-12"

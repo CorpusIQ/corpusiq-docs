@@ -1,6 +1,7 @@
 ---
 title: "semlayer MCP - A Metric Layer Inferred From the Warehouse"
-description: "It reads your warehouse, works out which columns are measures, which joins fan out and which status code means cancelled, then serves that layer to any agent over MCP - so two assistants stop giving two numbers."
+description: "It reads your warehouse, works out which columns are measures, which joins fan out and which status code means cancelled, then serves that layer to any agent."
+
 category: Data & Analytics
 stars: n/a (Fair Source, free for internal use, no key; ~$0.70 per 100 tables in your own model calls)
 added: 2026-11-06

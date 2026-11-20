@@ -1,6 +1,7 @@
 ---
 title: "App Store Connect MCP - Sales, Reviews and Releases"
-description: "Drive your own App Store Connect account from an agent: sales and proceeds, the analytics funnel, reviews, TestFlight and releases across 76 tools, read-only by default with a human gate on anything public."
+description: "Drive your own App Store Connect account from an agent: sales and proceeds, the analytics funnel, reviews, TestFlight and releases across 76 tools, read-only."
+
 category: App Business / Mobile Analytics
 stars: 1 (MIT, single Go binary, published October 2026)
 added: 2026-10-26

@@ -1,6 +1,7 @@
 ---
 title: iFillPDF MCP - AI PDF Form Detection and Filling
-description: Hosted MCP server that detects fillable fields in any PDF - including scanned and photographed paper forms - fills and signs them, and returns a finished flattened document.
+description: "Hosted MCP server that detects fillable fields in any PDF - including scanned and photographed paper forms - fills and signs them, and returns a finished."
+
 category: Content
 stars: n/a (new listing)
 added: 2026-08-26

@@ -1,6 +1,7 @@
 ---
 title: "Callicrate Skills - AGENTS.md & Documentation Authoring"
-description: "Two focused skills for repository instruction files and project documentation: agents-md and make-documentation, with analyzer/validator scripts and tests. 2.9K installs."
+description: "Two focused skills for repository instruction files and project documentation: agents-md and make-documentation, with analyzer/validator scripts and tests."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/callicrate-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-11-01"

@@ -1,6 +1,7 @@
 ---
 title: Ozon MCP Server - Marketplace Seller Operations for Agents
-description: Self-hosted MCP server for the Ozon Seller and Performance API with 158 tools covering products, prices, promotions, ads, orders (FBS/FBO), returns, reviews, finance and analytics. Multi-store support with Fernet-encrypted tokens, a web dashboard, built-in self-diagnostics, and measured context budgeting to keep tool responses within model windows.
+description: "Self-hosted MCP server for the Ozon Seller and Performance API with 158 tools covering products, prices, promotions, ads, orders (FBS/FBO), returns, reviews."
+
 category: Commerce & E-Commerce
 stars: 4
 added: 2026-09-04

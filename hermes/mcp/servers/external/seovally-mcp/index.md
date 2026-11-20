@@ -1,6 +1,7 @@
 ---
 title: SEOVally MCP - Scoped SEO and AI-Search Audits for Agents
-description: Remote MCP server from SEOVally with 4 scoped tools that run fresh SEO and AI-visibility audits, return prioritized on-page and AI-crawler fixes, benchmark two to five domains from stored reports, and retrieve or triage a portfolio of reports. Bearer-token auth with per-key tool scopes.
+description: "Remote MCP server from SEOVally with 4 scoped tools that run fresh SEO and AI-visibility audits, return prioritized on-page and AI-crawler fixes, benchmark."
+
 category: SEO
 stars: n/a (new listing)
 added: 2026-09-10

@@ -1,6 +1,7 @@
 ---
 title: "MCP Server Discovery - October 19, 2026 (Evening Sweep)"
-description: "Evening delta cataloguing a pre-action mandate gate that re-checks every agent payment against a signed mandate, and finding the README's own install command installs the wrong package."
+description: "Evening delta cataloguing a pre-action mandate gate that re-checks every agent payment against a signed mandate, and finding the README's own install command."
+
 last_updated: 2026-11-01
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october19-2026-evening/"
 robots: "index,follow"

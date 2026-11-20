@@ -1,6 +1,7 @@
 ---
 title: "Social Glass MCP: Cultural Intelligence"
-description: "Remote MCP server that gives brand and research teams evidence-backed cultural intelligence: search Insights, Posts, Creators, and Audiences inside the signed-in user's permitted Social Glass organizations. OAuth on connect, read tools for members, write tools for admins."
+description: "Remote MCP server that gives brand and research teams evidence-backed cultural intelligence: search Insights, Posts, Creators, and Audiences."
+
 category: Content & Research
 stars: n/a (new listing)
 added: 2026-08-24

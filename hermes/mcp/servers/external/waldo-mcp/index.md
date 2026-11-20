@@ -1,6 +1,7 @@
 ---
 title: "Waldo MCP - CorpusIQ Docs"
-description: Live marketing data for AI agents. Ad libraries across Meta, Google, LinkedIn and TikTok, social listening, share of voice, audience insights, and trends with every answer cited.
+description: "Live marketing data for AI agents. Ad libraries across Meta, Google, LinkedIn and TikTok, social listening, share of voice, audience insights, and trends."
+
 category: Marketing
 stars: n/a (new listing)
 added: 2026-08-14

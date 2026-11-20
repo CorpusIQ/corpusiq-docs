@@ -1,6 +1,7 @@
 ---
 title: Wildberries MCP Server - Seller API Operations for Agents
-description: Self-hosted MCP server for the Wildberries Seller API with 197 tools covering product cards, prices, promotions, ads, orders, supplies, reviews, returns, finance and analytics. Multi-store with Fernet-encrypted tokens, a web dashboard, self-diagnostics that ping every WB host, and measured context budgeting documented with real corpus numbers.
+description: "Self-hosted MCP server for the Wildberries Seller API with 197 tools covering product cards, prices, promotions, ads, orders, supplies, reviews, returns."
+
 category: Commerce & E-Commerce
 stars: 3
 added: 2026-09-04

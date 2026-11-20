@@ -1,6 +1,7 @@
 ---
 title: "Sorank MCP - Search Console, PageSpeed and AI Citability"
-description: "Ask your assistant why a page underperforms: Search Console data, PageSpeed and Core Web Vitals, and an AI-citability score in one OAuth-connected, free MCP endpoint."
+description: "Ask your assistant why a page underperforms: Search Console data, PageSpeed and Core Web Vitals, and an AI-citability score in one OAuth-connected, free MCP."
+
 category: SEO
 stars: n/a (no public repo)
 added: 2026-09-03

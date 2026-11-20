@@ -1,6 +1,7 @@
 ---
 title: 7 MCP Servers Every Business Operator Should Know
-description: Business-focused MCP servers that connect AI to real tools. CorpusIQ for business data, Exa for search, Browserbase for web automation, and more. Updated November 2026.
+description: "Business-focused MCP servers that connect AI to real tools. CorpusIQ for business data, Exa for search, Browserbase for web automation, and more."
+
 canonical: "https://www.corpusiq.io/docs/hermes/guides/mcp-servers-business-operators/"
 robots: "index,follow"
 last_updated: "2026-11-18"

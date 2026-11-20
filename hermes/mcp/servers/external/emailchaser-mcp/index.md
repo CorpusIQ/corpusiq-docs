@@ -1,6 +1,7 @@
 ---
 title: Emailchaser MCP - Cold Email Operations for Agents
-description: Official Emailchaser connector that exposes a cold-email workspace as 67 MCP tools - launch campaigns, add leads, watch replies and manage webhooks with scoped, revocable API keys at app.emailchaser.com/api/mcp.
+description: "Official Emailchaser connector that exposes a cold-email workspace as 67 MCP tools - launch campaigns, add leads, watch replies and manage webhooks."
+
 category: Sales & Outreach
 stars: n/a (new listing)
 added: 2026-09-09

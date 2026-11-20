@@ -1,6 +1,7 @@
 ---
 title: Google Analytics 4 MCP Server Integration Guide
-description: AI-powered Google Analytics 4 access - pull reports, monitor realtime traffic, and manage GA4 properties directly from Hermes Agent. Built in Rust for performance.
+description: "AI-powered Google Analytics 4 access - pull reports, monitor realtime traffic, and manage GA4 properties directly from Hermes Agent."
+
 category: mcp
 tags: [mcp, google-analytics, ga4, analytics, reporting, web-analytics, marketing, hermes-agent]
 last_updated: 2026-11-01

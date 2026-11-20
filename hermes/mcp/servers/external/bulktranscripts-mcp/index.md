@@ -1,6 +1,7 @@
 ---
 title: BulkTranscripts MCP - Hosted YouTube Transcripts and Channel
-description: "Hosted remote MCP server for YouTube research: fetch clean transcripts (single or batch), search videos, channels and playlists, list channel or playlist archives, and track new uploads. No signup, 50 free transcript extractions per IP, live-probed 7 tools."
+description: "Hosted remote MCP server for YouTube research: fetch clean transcripts (single or batch), search videos, channels and playlists, list channel or playlist."
+
 category: Content & Research
 stars: n/a (new listing)
 added: 2026-08-23

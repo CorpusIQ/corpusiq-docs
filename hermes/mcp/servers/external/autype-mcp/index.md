@@ -1,6 +1,7 @@
 ---
 title: "Autype MCP - Branded Business Document Production for Agents"
-description: Turn AI output into production-ready branded documents - create and revise reports, proposals, policies and forms from Extended Markdown with reusable styles, then render to PDF, DOCX, ODT or page images over OAuth 2.1 with per-tool scopes
+description: "Turn AI output into production-ready branded documents - create and revise reports, proposals, policies and forms from Extended Markdown with reusable."
+
 category: Productivity
 stars: n/a (new listing)
 added: 2026-09-03

@@ -1,6 +1,7 @@
 ---
 title: "New Skills - August 18, 2026"
-description: "skills.sh sweep: WeCom CLI Skills (153.4K, 28), WeCom Unified (4.4K, 1), Mastra AI Skills (32.6K, 5), Strix Security Skills (9.6K, 8) - 4 publisher clusters, 42 skills, 4 setup guides."
+description: "skills.sh sweep: WeCom CLI Skills (153.4K, 28), WeCom Unified (4.4K, 1), Mastra AI Skills (32.6K, 5), Strix Security Skills (9.6K, 8) - 4 publisher clusters."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-aug18-2026/"
 robots: "index,follow"
 last_updated: "2026-11-01"

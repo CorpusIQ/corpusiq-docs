@@ -1,6 +1,7 @@
 ---
 title: "SnitchFeed MCP - CorpusIQ Docs"
-description: Intent-based keyword monitoring for LinkedIn, X, Reddit, Hacker News and Bluesky - social listening over MCP with OAuth and 33 tools for sales, marketing and product research.
+description: "Intent-based keyword monitoring for LinkedIn, X, Reddit, Hacker News and Bluesky - social listening over MCP with OAuth and 33 tools for sales, marketing."
+
 category: Marketing
 stars: n/a (new listing)
 added: 2026-08-17

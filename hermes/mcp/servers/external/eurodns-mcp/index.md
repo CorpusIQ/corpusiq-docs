@@ -1,6 +1,7 @@
 ---
 title: EuroDNS MCP - Domain, DNS and SSL Registrar Operations
-description: MCP server for the EuroDNS User API covering domains, DNS zones, contacts, subscriptions, SSL certificates, invoices and orders. 82 tools generated from the OpenAPI document plus three safe DNS workflow tools, with guardrails that refuse billing and destructive operations, a hash-chained audit log, and OAuth 2.1 or shared-token auth over stdio or streamable HTTP.
+description: "MCP server for the EuroDNS User API covering domains, DNS zones, contacts, subscriptions, SSL certificates, invoices and orders."
+
 category: DevOps
 stars: 1
 added: 2026-09-04

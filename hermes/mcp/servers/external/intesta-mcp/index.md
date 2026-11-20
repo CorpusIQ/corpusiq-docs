@@ -1,6 +1,7 @@
 ---
 title: "Intesta MCP - Attested Business Fact Passports"
-description: "Keyless remote MCP registry of attested business fact passports with a trust ladder (A0 claimed to A4): 5 tools search entities, read passports and answer questions built only from attested facts, so agents never invent business data. No API key required."
+description: "Keyless remote MCP registry of attested business fact passports with a trust ladder (A0 claimed to A4): 5 tools search entities, read passports and answer."
+
 category: Compliance
 stars: n/a (hosted)
 added: 2026-08-27

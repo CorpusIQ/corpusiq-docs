@@ -1,6 +1,7 @@
 ---
 title: "Basic Memory Skills Setup Guide for Hermes Agents"
-description: "basicmachines-co/basic-memory - 9.7K installs across 38 skills, 3.8K stars: the YC-backed Basic Machines team's agent memory suite - knowledge-graph notes, capture, curate, reflect, defrag, and lifecycle workflows."
+description: "basicmachines-co/basic-memory - 9.7K installs across 38 skills, 3.8K stars: the YC-backed Basic Machines team's agent memory suite - knowledge-graph notes."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/basic-memory-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-11-01"

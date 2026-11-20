@@ -1,6 +1,7 @@
 ---
 title: CherryShot MCP - Product Photography and Video Ads
-description: "Remote MCP server for Cherry Shot: generate campaign-grade product imagery from one photo - on-model shots, lifestyle scenes, marketplace images - and turn them into short video ads, from any MCP client. Six tools over a Bearer API key: credits, models, create and poll a shoot, create and poll a video. Same account, credits and rate limits as the Cherry Shot REST API."
+description: "Remote MCP server for Cherry Shot: generate campaign-grade product imagery from one photo - on-model shots, lifestyle scenes, marketplace images - and turn."
+
 category: Commerce & E-Commerce
 stars: n/a (new listing)
 added: 2026-09-14

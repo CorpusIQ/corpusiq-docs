@@ -1,6 +1,7 @@
 ---
 title: "MCP Server Discovery - October 20, 2026 (Evening Sweep)"
-description: "Evening delta cataloguing seven Copliancy operations servers behind one guide, each endpoint probed live: licenses, leases, incidents, credentials, shifts and maintenance scoped by role and location."
+description: "Evening delta cataloguing seven Copliancy operations servers behind one guide, each endpoint probed live: licenses, leases, incidents, credentials, shifts."
+
 last_updated: 2026-11-01
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october20-2026-evening/"
 robots: "index,follow"

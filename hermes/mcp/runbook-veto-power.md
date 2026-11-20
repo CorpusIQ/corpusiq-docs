@@ -1,6 +1,7 @@
 ---
 title: "Should AI Models Have Veto Power Over Workflows?"
-description: "The debate behind MCP governance: when an enterprise workflow is mandated, should the model be able to skip it? Why fail-closed execution is the answer for finance and compliance."
+description: "The debate behind MCP governance: when an enterprise workflow is mandated, should the model be able to skip it?"
+
 tags: [mcp, governance, runbook, agents, enterprise, debate]
 last_updated: "2026-11-14"
 ---

@@ -1,6 +1,7 @@
 ---
 title: BulkPublish MCP - Multi-Platform Social Publishing
-description: "MCP server for the BulkPublish social publishing API across 11 platforms: create, schedule, retry and approve posts, upload media, manage RSS autoposting, channel sets and labels, and read engagement analytics and quota usage. About 50 README-documented tools via npx @bulkpublish/mcp-server, plus a multi-tenant hosted HTTP transport and MCP Apps UI widgets."
+description: "MCP server for the BulkPublish social publishing API across 11 platforms: create, schedule, retry and approve posts, upload media, manage RSS autoposting."
+
 category: Marketing
 stars: 1
 added: 2026-09-02

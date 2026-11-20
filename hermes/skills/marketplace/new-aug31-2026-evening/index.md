@@ -1,6 +1,7 @@
 ---
 title: "New Skills - August 31, 2026 (Evening)"
-description: "Evening leaderboard sweep (95 publisher slugs, 11 zero-hit): InsForge (144.5K), Matt Pocock Skills zh-CN (138.8K), Owl Listener Designer Skills (124.7K), TanStack Skills (36.6K), Archify (32.5K, 39.2K⭐), QA Skills (25.3K), Paperthin (22.1K), Inkeep Open Knowledge (17.1K), Vigiles (12.3K), Hithink Finance (1.8K) - 10 new publisher clusters, 325 skills, 10 setup guides."
+description: "Evening leaderboard sweep (95 publisher slugs, 11 zero-hit): InsForge (144.5K), Matt Pocock Skills zh-CN (138.8K), Owl Listener Designer Skills (124.7K)."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-aug31-2026-evening/"
 robots: "index,follow"
 last_updated: "2026-11-01"

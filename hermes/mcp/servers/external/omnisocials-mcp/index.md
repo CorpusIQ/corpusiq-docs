@@ -1,6 +1,7 @@
 ---
 title: OmniSocials MCP - Multi-Platform Social Publishing
-description: "Official hosted MCP server from the OmniSocials social media management platform: 42 tools that create, schedule, publish, and analyze posts across 11 platforms including Instagram, LinkedIn, TikTok, X, and YouTube from any MCP client."
+description: "Official hosted MCP server from the OmniSocials social media management platform: 42 tools that create, schedule, publish, and analyze posts."
+
 category: Marketing
 stars: "19 (github.com/OmniSocials/omnisocials-agent-skills)"
 added: 2026-08-28

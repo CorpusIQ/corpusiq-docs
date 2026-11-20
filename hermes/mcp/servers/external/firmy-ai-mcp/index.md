@@ -1,6 +1,7 @@
 ---
 title: "firmy.ai MCP - A Polish Company Dossier Without an Account"
-description: "Free keyless KRS registry access: financial statements, boards, sanctions across EU and MSWiA lists, public tenders, and market-wide revenue rankings for Polish companies."
+description: "Free keyless KRS registry access: financial statements, boards, sanctions across EU and MSWiA lists, public tenders, and market-wide revenue rankings."
+
 category: Finance / Company Data
 stars: ★★★ (keyless, 8 tools listed, 6 called live)
 added: 2026-11-03

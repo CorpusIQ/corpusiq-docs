@@ -1,6 +1,7 @@
 ---
 title: "Zetesis MCP - Scientific Due Diligence on Claims and Pitches"
-description: "Keyless hosted MCP that runs scientific due diligence on any biomedical, clinical or AI/ML claim: routes the claim to its scientific class, searches Europe PMC, ClinicalTrials.gov, openFDA, NIH RePORTER and SEC EDGAR, and returns a graded evaluation with a hard identifier on every source, sealed in a verifiable attestation."
+description: "Keyless hosted MCP that runs scientific due diligence on any biomedical, clinical or AI/ML claim: routes the claim to its scientific class, searches Europe."
+
 category: Research
 stars: "n/a (new listing, reutavidan/zetesis)"
 added: 2026-09-01

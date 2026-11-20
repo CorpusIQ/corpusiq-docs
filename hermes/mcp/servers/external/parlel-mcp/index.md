@@ -1,6 +1,7 @@
 ---
 title: Parlel MCP - Keyless Professional Network Search for Agents
-description: "Free keyless remote MCP server over Parlel's public professional network: searchable people, companies, jobs and published watch agents with structured JSON, salary filters, and cursor pagination. Live-verified with 8 tools."
+description: "Free keyless remote MCP server over Parlel's public professional network: searchable people, companies, jobs and published watch agents with structured JSON."
+
 category: Business Operations
 stars: n/a (new listing)
 added: 2026-09-10

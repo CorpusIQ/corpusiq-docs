@@ -1,6 +1,7 @@
 ---
 title: "CivicDataForge MCP - Government Records Evidence Platform"
-description: "Hosted MCP relay for official US and Norway public records: STR permit registries, LEIE exclusion screening, property violations, restaurant inspections, childcare licensing, EPA ECHO compliance, and Norwegian company evidence. 14 tools live-probed, Apify-token auth."
+description: "Hosted MCP relay for official US and Norway public records: STR permit registries, LEIE exclusion screening, property violations, restaurant inspections."
+
 category: Compliance
 stars: 0
 added: 2026-08-25

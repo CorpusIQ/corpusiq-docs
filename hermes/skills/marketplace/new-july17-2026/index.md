@@ -1,6 +1,7 @@
 ---
 title: New Skills Discovery - July 17, 2026
-description: 5 new skills discovered via skills.sh batch sweep. find-skills (2.5M⭐), skill-creator (317K⭐), remotion-best-practices (430K⭐), browser-act (99K⭐), and firecrawl-workflows (120K⭐ combined) - skill discovery, creation, video production, browser automation, and growth workflows.
+description: "5 new skills discovered via skills.sh batch sweep. find-skills (2.5M⭐), skill-creator (317K⭐), remotion-best-practices (430K⭐), browser-act (99K⭐)."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-july17-2026/"
 robots: "index,follow"
 last_updated: "2026-11-01"

@@ -1,6 +1,7 @@
 ---
 title: "SellerMate MCP - Amazon Ads Operations for AI Agents"
-description: Live Amazon Advertising data and governed campaign actions for AI agents - wasted spend, ACOS, search term performance and true TACoS, with policy guardrails and admin approvals on every write
+description: "Live Amazon Advertising data and governed campaign actions for AI agents - wasted spend, ACOS, search term performance and true TACoS, with policy guardrails."
+
 category: Marketing
 stars: n/a (new listing)
 added: 2026-09-03

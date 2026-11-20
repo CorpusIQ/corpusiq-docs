@@ -1,6 +1,7 @@
 ---
 title: Elium MCP - Enterprise Knowledge Base for Agents
-description: "OAuth-gated MCP connector for Elium knowledge bases. Exposes five read-only tools that run with the permissions of the authenticated user: semantic article search, filtered search, full article reads, space listing and template listing, served per platform at your-subdomain.elium.com."
+description: "OAuth-gated MCP connector for Elium knowledge bases. Exposes five read-only tools that run with the permissions of the authenticated user: semantic article."
+
 category: Productivity
 stars: n/a (new listing)
 added: 2026-09-05

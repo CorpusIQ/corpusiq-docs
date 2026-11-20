@@ -1,6 +1,7 @@
 ---
 title: SoundGTM MCP - Partner Program Management for Agents
-description: AI-native partner relationship management at partnertracker.soundgtm.com/api/mcp - 19 scoped tools for partner pipeline, deals, commissions and outreach with OAuth 2.1 or bearer key auth, free up to 10 partners.
+description: "AI-native partner relationship management at partnertracker.soundgtm.com/api/mcp - 19 scoped tools for partner pipeline, deals, commissions and outreach."
+
 category: Marketing
 stars: n/a (new listing)
 added: 2026-09-09

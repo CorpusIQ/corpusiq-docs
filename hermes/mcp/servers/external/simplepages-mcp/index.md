@@ -1,6 +1,7 @@
 ---
 title: "Simplepages MCP - Landing Pages Built and Measured from Chat"
-description: "Simplepages workspace connector for MCP clients: build and edit landing pages from plain-language prompts, list pages and sites with status, and pull visitors, leads and revenue per page or workspace"
+description: "Simplepages workspace connector for MCP clients: build and edit landing pages from plain-language prompts, list pages and sites with status, and pull."
+
 category: Marketing
 stars: n/a (new listing)
 added: 2026-08-20

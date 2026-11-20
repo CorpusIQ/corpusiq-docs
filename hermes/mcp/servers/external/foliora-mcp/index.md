@@ -1,6 +1,7 @@
 ---
 title: "Foliora MCP - Managed AI Search Preview for Agents"
-description: "Read-only Streamable HTTP MCP from Foliora, a managed AI-search (GEO/AEO) service that improves the public sources a company owns so it can be found on Google and cited by ChatGPT, Gemini, Claude and AI Overviews: 3 tools let an agent explain the product, build a preview link and fetch a snapshot a human started. No API key."
+description: "Read-only Streamable HTTP MCP from Foliora, a managed AI-search (GEO/AEO) service that improves the public sources a company owns so it can be found."
+
 category: SEO
 stars: n/a (hosted; docs-only)
 added: 2026-08-27

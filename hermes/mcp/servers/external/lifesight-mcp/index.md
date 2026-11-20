@@ -1,6 +1,7 @@
 ---
 title: "Lifesight MCP - Unified Marketing Measurement and MMM"
-description: "Connect AI assistants to your marketing mix models, budget data and ad performance for plain-language answers on channel performance, budget reallocation and forecasting."
+description: "Connect AI assistants to your marketing mix models, budget data and ad performance for plain-language answers on channel performance, budget reallocation."
+
 category: Marketing
 stars: n/a (no public repo)
 added: 2026-09-03

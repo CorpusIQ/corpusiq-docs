@@ -1,6 +1,7 @@
 ---
 title: Ultimate Web Scraper MCP - Cloud Scraping for Agents
-description: Cloud scraping platform MCP at mcp.ultimatewebscraper.com - agents extract whole Shopify, WooCommerce, Magento and Salesforce Commerce Cloud catalogs, build contact lists, map sitemaps and run scheduled automations over OAuth with a free tier.
+description: "Cloud scraping platform MCP at mcp.ultimatewebscraper.com - agents extract whole Shopify, WooCommerce, Magento and Salesforce Commerce Cloud catalogs, build."
+
 category: Lead Generation & Web Scraping
 stars: n/a (new listing)
 added: 2026-09-09

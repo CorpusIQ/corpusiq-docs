@@ -1,6 +1,7 @@
 ---
 title: "Dboeckli AI Agent Skills - CLI & Best Practices Setup"
-description: "Setup guide for dboeckli/ai-agent-skills - 5 AI-agnostic agent skills for Claude Code best practices, SKILL.md authoring, project references, and cron planning. ~11K installs."
+description: "Setup guide for dboeckli/ai-agent-skills - 5 AI-agnostic agent skills for Claude Code best practices, SKILL.md authoring, project references, and cron."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/dboeckli-ai-agent-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-11-01"

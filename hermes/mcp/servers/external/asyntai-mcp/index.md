@@ -1,6 +1,7 @@
 ---
 title: "Asyntai MCP - AI Support Agent for Websites"
-description: "Hosted MCP for Asyntai, an AI support agent that answers website visitors from the site's own content. 54 tools to manage the knowledge base, read conversations and leads, take over live chats, edit agent instructions and check plan usage. OAuth 2.1, free with every Asyntai account."
+description: "Hosted MCP for Asyntai, an AI support agent that answers website visitors from the site's own content."
+
 category: Customer Support
 stars: "n/a (new listing, asyntai/mcp-bridge)"
 added: 2026-09-03

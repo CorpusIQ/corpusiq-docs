@@ -1,6 +1,7 @@
 ---
 title: Maeve Social MCP - Social Publishing with Scope-Gated Agent
-description: "Hosted MCP server from Maeve Social for planning, scheduling, media, analytics and social publishing: reading is open, drafting and scheduling need permission, and anything public or permanent must be confirmed by name before it runs."
+description: "Hosted MCP server from Maeve Social for planning, scheduling, media, analytics and social publishing: reading is open, drafting and scheduling need."
+
 category: Social Media Management
 stars: n/a (new listing)
 added: 2026-08-21

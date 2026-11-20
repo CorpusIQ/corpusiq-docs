@@ -1,6 +1,7 @@
 ---
 title: "Neonjelly MCP - Shopify Store Intelligence for Agents"
-description: Ecommerce intelligence over a catalog of 1.37M Shopify stores - store lists with contact and traffic filters, product and price change feeds, competitor stack teardowns and product-idea saturation research, all inside any MCP client
+description: "Ecommerce intelligence over a catalog of 1.37M Shopify stores - store lists with contact and traffic filters, product and price change feeds, competitor."
+
 category: Commerce & E-Commerce
 stars: n/a (new listing)
 added: 2026-09-03

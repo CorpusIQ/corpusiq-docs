@@ -1,6 +1,7 @@
 ---
 title: "WaveSpeed MCP - Media Generation for AI Agents"
-description: "Official WaveSpeed AI MCP server runs any image, video, audio or 3D model from the live platform catalog with schema introspection, local file upload, honest price quotes before spending, and account balance checks from any MCP client"
+description: "Official WaveSpeed AI MCP server runs any image, video, audio or 3D model from the live platform catalog with schema introspection, local file upload, honest."
+
 category: Media Generation
 stars: 30
 added: 2026-08-19

@@ -1,6 +1,7 @@
 ---
 title: "CorpusIQ vs ChatGPT Enterprise: What Each One Does"
-description: "ChatGPT Enterprise brings AI to work with security and admin features. CorpusIQ is the layer that gives ChatGPT live access to your business data with source-cited answers."
+description: "ChatGPT Enterprise brings AI to work with security and admin features. CorpusIQ is the layer that gives ChatGPT live access to your business data."
+
 tags: [compare, corpusiq, mcp]
 last_updated: "2026-11-01"
 ---

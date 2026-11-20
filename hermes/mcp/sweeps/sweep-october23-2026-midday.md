@@ -1,6 +1,7 @@
 ---
 title: "MCP Server Discovery - October 23, 2026 (Midday Sweep)"
-description: "Midday delta cataloguing a six-marketplace seller server and a customer-evidence server: one publishes a catalog everywhere, the other ranks what customers said."
+description: "Midday delta cataloguing a six-marketplace seller server and a customer-evidence server: one publishes a catalog everywhere, the other ranks what customers."
+
 last_updated: 2026-11-01
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october23-2026-midday/"
 robots: "index,follow"

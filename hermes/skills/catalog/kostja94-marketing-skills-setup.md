@@ -1,6 +1,7 @@
 ---
 title: "Kostja94 Marketing Skills"
-description: 7+ marketing-focused skills covering copywriting (3K), programmatic SEO (1.7K), Meta ads (1.7K), Google Search Console (1.3K), TikTok ads (1K), legal pages, and website structure. 7.6K+ combined installs, 760⭐.
+description: "7+ marketing-focused skills covering copywriting (3K), programmatic SEO (1.7K), Meta ads (1.7K), Google Search Console (1.3K), TikTok ads (1K), legal pages."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/kostja94-marketing-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-11-01"

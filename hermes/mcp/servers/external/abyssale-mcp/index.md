@@ -1,6 +1,7 @@
 ---
 title: Abyssale MCP - Ad Creative Production for Agents
-description: Hosted MCP server from Abyssale for programmatic ad creative. Browse workspace designs, projects and fonts, generate banners, videos and print-ready PDFs, and import designs from JSON from Claude, ChatGPT or Cursor with per-client OAuth scopes and a credit system.
+description: "Hosted MCP server from Abyssale for programmatic ad creative. Browse workspace designs, projects and fonts, generate banners, videos and print-ready PDFs."
+
 category: Marketing
 stars: n/a (new listing)
 added: 2026-09-05

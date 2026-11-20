@@ -1,6 +1,7 @@
 ---
 title: "MCP Server Discovery - November 7, 2026 (Midday)"
-description: "Forty sitemap additions six hours after a flat night pass, five fresh mcp.so cards and six queue arrivals, with one commercial property prospecting surface catalogued."
+description: "Forty sitemap additions six hours after a flat night pass, five fresh mcp.so cards and six queue arrivals, with one commercial property prospecting surface."
+
 last_updated: 2026-11-07
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-november7-2026-midday"
 tags: ["mcp server", "model context protocol", "hermes mcp", "sweep"]

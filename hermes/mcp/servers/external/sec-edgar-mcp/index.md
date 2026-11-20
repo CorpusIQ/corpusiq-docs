@@ -1,6 +1,7 @@
 ---
 title: "SEC EDGAR MCP - Full-Text Filing Search for Agents"
-description: "Apify-hosted MCP server exposing SEC EDGAR full-text search as tools: keyword search with every form filter, company lookup and filing document retrieval for agents doing diligence, competitive intelligence and public-company research."
+description: "Apify-hosted MCP server exposing SEC EDGAR full-text search as tools: keyword search with every form filter, company lookup and filing document retrieval."
+
 category: Finance
 stars: "n/a (Apify-hosted actor)"
 added: 2026-08-31

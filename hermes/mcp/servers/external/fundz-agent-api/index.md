@@ -1,6 +1,7 @@
 ---
 title: Fundz Agent API MCP - SEC-Filing-Linked Sales Triggers
-description: "Hosted sales trigger intelligence that gives agents the reason to reach out and the proof behind it. Four tools surface dated funding and SEC 8-K events for companies matching an ideal-customer profile, each evidence item linked to the SEC filing or announcement it came from, with watchlist polling and an explicitly-labelled experimental forecast."
+description: "Hosted sales trigger intelligence that gives agents the reason to reach out, with the proof attached."
+
 category: Sales
 stars: n/a (new listing)
 added: 2026-09-07

@@ -1,6 +1,7 @@
 ---
 title: "Hesper Atlas Evidence MCP - Verifiable Stock-Signal Claims"
-description: "Read-only hosted MCP for independently checking a rules-based stock-signal product: inspect the full historical replay including losing and open periods, static-tail and walk-forward validation, methodology versions, provenance hashes and the forward-publication ledger. Nine evidence tools work with no account; six subscriber tools expose the latest signal layer over OAuth 2.1."
+description: "Read-only hosted MCP for independently checking a rules-based stock-signal product: inspect the full historical replay including losing and open periods."
+
 category: Finance
 stars: "n/a (new listing, SimonMaj/hesper-atlas-agent-plugin)"
 added: 2026-09-01

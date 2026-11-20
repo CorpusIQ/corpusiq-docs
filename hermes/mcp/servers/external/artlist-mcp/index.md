@@ -1,6 +1,7 @@
 ---
 title: Artlist MCP - AI Creative Suite for Agents
-description: Official Artlist MCP server that gives AI agents image, video, music and voice-over generation from the Artlist AI creative suite, over OAuth at mcp.artlist.io - no local install, works with Claude, ChatGPT and VS Code.
+description: "Official Artlist MCP server that gives AI agents image, video, music and voice-over generation from the Artlist AI creative suite, over OAuth."
+
 category: Content
 stars: n/a (new listing)
 added: 2026-09-09

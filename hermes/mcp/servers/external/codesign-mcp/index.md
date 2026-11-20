@@ -1,6 +1,7 @@
 ---
 title: "CoDesign MCP - Editable Design Engine for AI Agents"
-description: "CoDesign gives coding agents a real design engine through IMG.LY's CE.SDK: create, edit and export structured, editable designs, apply brand kits, batch variants across formats, and import PSD, IDML, PowerPoint and PDF as working files. Runs locally over npx stdio."
+description: "CoDesign gives coding agents a real design engine through IMG.LY's CE.SDK: create, edit and export structured, editable designs, apply brand kits, batch."
+
 category: Content
 stars: n/a (new listing)
 added: 2026-09-15

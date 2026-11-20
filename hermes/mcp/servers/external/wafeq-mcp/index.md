@@ -1,6 +1,7 @@
 ---
 title: Wafeq MCP - Accounting Books for Agents
-description: Run Wafeq accounting books from Claude, Cursor or any MCP client - all 251 API endpoints as safety-categorized MCP tools over stdio or Streamable HTTP, MIT licensed.
+description: "Run Wafeq accounting books from Claude, Cursor or any MCP client - all 251 API endpoints as safety-categorized MCP tools over stdio or Streamable HTTP, MIT."
+
 category: Finance
 stars: n/a (new listing)
 added: 2026-09-09

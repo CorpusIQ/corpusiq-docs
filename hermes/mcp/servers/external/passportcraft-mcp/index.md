@@ -1,6 +1,7 @@
 ---
 title: "PassportCraft MCP: EU Digital Product Passports"
-description: "Hosted MCP connector for drafting EU Digital Product Passports (ESPR) - reads your catalogue, drafts passports for textiles, batteries and general goods, attaches documents and flags missing data. OAuth 2.0 sign-in, no API key, works on every plan including the free one."
+description: "Hosted MCP connector for drafting EU Digital Product Passports (ESPR) - reads your catalogue, drafts passports for textiles, batteries and general goods."
+
 category: Compliance
 stars: n/a (hosted, no public repo)
 added: 2026-08-23

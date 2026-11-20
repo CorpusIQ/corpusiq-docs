@@ -1,6 +1,7 @@
 ---
 title: "AdTest.AI MCP - Pre-Spend Ad Creative Scoring"
-description: "Stdio MCP that scores image, video or text ads on 13 dimensions (message clarity, emotional resonance, visual design, brand distinctiveness, platform fit, predicted CTR, compliance) before you spend media budget. One tool, analyze_advert, with an async submit-and-poll flow for video. npm package adtest-mcp, MIT, free account."
+description: "Stdio MCP that scores image, video or text ads on 13 dimensions (message clarity, emotional resonance, visual design, brand distinctiveness, platform fit."
+
 category: Marketing
 stars: "n/a (new listing, menaker/adtest-mcp)"
 added: 2026-09-01

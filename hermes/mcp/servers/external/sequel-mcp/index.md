@@ -1,6 +1,7 @@
 ---
 title: "Sequel MCP - Google Search Console in Natural Language"
-description: "Hosted MCP from Sequel: ask your Google Search Console data questions in plain English and join answers across GA4, Stripe, HubSpot, Ahrefs and 20+ sources; the Sequel CLI provisions a read-only OAuth connection into your agent."
+description: "Hosted MCP from Sequel: ask your Google Search Console data questions in plain English and join answers across GA4, Stripe, HubSpot, Ahrefs and 20+ sources."
+
 category: Marketing
 stars: "n/a (no public repo)"
 added: 2026-08-30

@@ -1,6 +1,7 @@
 ---
 title: Nomos MCP - Brazilian Regulatory and Legislative Search
-description: Read-only MCP search over Brazilian legislative and regulatory data for business operators - bills, official gazettes, central bank and regulator records, every result linking back to the Nomos app for full context.
+description: "Read-only MCP search over Brazilian legislative and regulatory data for business operators - bills, official gazettes, central bank and regulator records."
+
 category: Compliance
 stars: n/a (new listing)
 added: 2026-08-26

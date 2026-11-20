@@ -1,6 +1,7 @@
 ---
 title: "Zenith MCP - Live European Bank Data for Agents"
-description: "Zenith connects business bank accounts through PSD2 open banking and serves normalized transactions, balances, counterparties and expense aggregates to AI assistants over a hosted MCP endpoint. 2,400+ banks across 30 European countries, multi-bank and multi-entity, strictly read-only, OAuth sign-in."
+description: "Zenith connects business bank accounts through PSD2 open banking and serves normalized transactions, balances, counterparties and expense aggregates to AI."
+
 category: Finance
 stars: n/a (new listing)
 added: 2026-09-15

@@ -1,6 +1,7 @@
 ---
 title: "Analytics Legends MCP - SAP Analytics Market Intelligence"
-description: "Hosted read-only MCP server delivering SAP analytics market intelligence with citations: consulting firm directory, day-rate benchmarks by geography and seniority, contract radar, and curated market news for agents that answer SAP questions with records instead of guesses"
+description: "Hosted read-only MCP server delivering SAP analytics market intelligence with citations: consulting firm directory, day-rate benchmarks by geography."
+
 category: Content & Research
 stars: n/a (new listing)
 added: 2026-08-20

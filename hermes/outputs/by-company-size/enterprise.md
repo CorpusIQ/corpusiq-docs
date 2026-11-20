@@ -1,6 +1,7 @@
 ---
 title: "Hermes Agent for Enterprise - CorpusIQ Docs"
-description: "Deploy Hermes Agent automation with profile isolation, regional deployment options, segregation of duties, and audit evidence for customer-managed compliance programs."
+description: "Deploy Hermes Agent automation with profile isolation, regional deployment options, segregation of duties, and audit evidence for customer-managed compliance."
+
 category: "Company Size"
 tags:
   - enterprise

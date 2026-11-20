@@ -1,6 +1,7 @@
 ---
 title: New June 26, 2026 - 43 New Skills Across 4 Ecosystems
-description: 43 newly discovered skills across Matt Pocock's TypeScript toolkit (1.4M+ installs), OpenClaw ecosystem (17 skills), pbakaus/impeccable (2 skills, 90K installs), and CLI-Anything harnesses (9 skills). Massive developer-tooling and agent-infrastructure expansion.
+description: "43 newly discovered skills across Matt Pocock's TypeScript toolkit (1.4M+ installs), OpenClaw ecosystem (17 skills), pbakaus/impeccable (2 skills, 90K."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-june26-2026/"
 robots: "index,follow"
 last_updated: "2026-11-01"

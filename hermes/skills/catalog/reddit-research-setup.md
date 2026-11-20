@@ -1,6 +1,7 @@
 ---
 title: "Reddit Research API - Semantic Search & B2B Lead"
-description: Access Reddit's full data archive via reddapi.dev. Semantic search, trend analysis, and AI-powered B2B lead scoring. 2.8K + 1.3K installs across two skills. Zero Reddit rate limits.
+description: "Access Reddit's full data archive via reddapi.dev. Semantic search, trend analysis, and AI-powered B2B lead scoring. 2.8K + 1.3K installs across two skills."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/reddit-research-setup/"
 robots: "index,follow"
 last_updated: "2026-11-01"

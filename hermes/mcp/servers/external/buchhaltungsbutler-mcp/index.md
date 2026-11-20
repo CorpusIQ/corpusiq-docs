@@ -1,6 +1,7 @@
 ---
 title: Buchhaltungsbutler MCP - German Accounting for AI Agents
-description: MCP server for BuchhaltungsButler, the German accounting SaaS. All 54 API v1 endpoints auto-generated from the official OpenAPI spec as safety-categorized tools (read, write, destructive) with readOnlyHint and destructiveHint annotations, stdio and Streamable HTTP transports, Docker deployment and built-in rate limiting. MIT.
+description: "MCP server for BuchhaltungsButler, the German accounting SaaS. All 54 API v1 endpoints auto-generated from the official OpenAPI spec as safety-categorized."
+
 category: Finance / Accounting
 stars: n/a (new listing)
 added: 2026-09-06

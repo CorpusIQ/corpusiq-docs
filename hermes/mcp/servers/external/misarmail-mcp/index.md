@@ -1,6 +1,7 @@
 ---
 title: MisarMail MCP - Transactional Email and Campaigns
-description: "MisarMail MCP server with 54 tools for email operations: send transactional email, run multi-step campaigns, manage contacts segments and automations, A/B test, warm up domains and audit deliverability from any MCP client"
+description: "MisarMail MCP server with 54 tools for email operations: send transactional email, run multi-step campaigns, manage contacts segments and automations, A/B."
+
 category: Email Marketing
 stars: n/a (new listing)
 added: 2026-08-19

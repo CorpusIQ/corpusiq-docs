@@ -1,6 +1,7 @@
 ---
 title: ScreenVerity MCP - U.S. Exclusion and Debarment Screening
-description: Free MCP server for U.S. exclusion, debarment and licence screening that returns structured results plus an Ed25519-signed receipt naming the exact list snapshots checked, so a clear result stays auditable.
+description: "Free MCP server for U.S. exclusion, debarment and licence screening that returns structured results plus an Ed25519-signed receipt naming the exact list."
+
 category: Compliance
 stars: n/a (new listing)
 added: 2026-08-26

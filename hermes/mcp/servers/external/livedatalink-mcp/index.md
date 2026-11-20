@@ -1,6 +1,7 @@
 ---
 title: "LiveDataLink MCP - Live Public Data for AI Agents"
-description: "Hosted Streamable HTTP MCP with 284 agent-ready tools across 59 public-data domains - stocks, options, crypto, SEC filings, sanctions, courts, healthcare, economic data, CVE, weather, real estate and more - behind one bearer key with a free tier. One endpoint, one bill, no per-vendor contracts."
+description: "Hosted Streamable HTTP MCP with 284 agent-ready tools across 59 public-data domains - stocks, options, crypto, SEC filings, sanctions, courts, healthcare."
+
 category: Data & Analytics
 stars: n/a (hosted)
 added: 2026-08-27

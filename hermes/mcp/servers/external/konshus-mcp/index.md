@@ -1,6 +1,7 @@
 ---
 title: "Konshus MCP - Personal Memory Vault for Every AI Client"
-description: "A member-owned memory vault that ingests ChatGPT, Claude, Gemini and Grok history, distils it into sourced memories, and serves it to any MCP client under per-scope tokens with time-travel recall."
+description: "A member-owned memory vault that ingests ChatGPT, Claude, Gemini and Grok history, distils it into sourced memories, and serves it to any MCP client."
+
 category: Memory and Knowledge
 stars: n/a (hosted, subscription with a free tier)
 added: 2026-11-05

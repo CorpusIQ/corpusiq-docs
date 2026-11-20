@@ -1,6 +1,7 @@
 ---
 title: "schemagate MCP - Identity-Scoped Schema Selection"
-description: "Open-source MCP server and Python library that selects the handful of tables an NL2SQL model actually needs and hides every table the caller is not allowed to read. Identity is applied before the model sees the schema, cutting prompt tokens 65-76 percent with Apache-2.0 licensing."
+description: "Open-source MCP server and Python library that selects the handful of tables an NL2SQL model actually needs and hides every table the caller is not allowed."
+
 category: Database & Data Engineering
 stars: n/a (new listing)
 added: 2026-09-11

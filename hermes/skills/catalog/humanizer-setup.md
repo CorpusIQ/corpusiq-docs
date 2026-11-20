@@ -1,6 +1,7 @@
 ---
 title: Humanizer - Anti-AI-Slop Text Humanizer Setup Guide
-description: Install and configure humanizer, the official Hermes Agent skill that strips AI-isms and adds real voice to text. 87 installs, built by Siqi Chen (@blader), ported by Nous Research.
+description: "Install and configure humanizer, the official Hermes Agent skill that strips AI-isms and adds real voice to text."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/humanizer-setup/"
 robots: "index,follow"
 last_updated: "2026-11-01"

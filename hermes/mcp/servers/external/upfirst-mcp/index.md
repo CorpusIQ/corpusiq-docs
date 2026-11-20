@@ -1,6 +1,7 @@
 ---
 title: "Upfirst MCP - AI Phone Receptionist for Small Businesses"
-description: "First-party MCP server for Upfirst, the AI answering service: configure greetings, knowledge, skills, transfer rules and schedules, and audit call transcripts and missed-call outcomes from any MCP client"
+description: "First-party MCP server for Upfirst, the AI answering service: configure greetings, knowledge, skills, transfer rules and schedules, and audit call."
+
 category: Communication
 stars: n/a (new listing)
 added: 2026-08-20

@@ -34,7 +34,7 @@ CHANGELOG_FRONTMATTER = """---
 title: "External MCP Server Catalog - Sweep Log"
 description: "Every discovery pass behind the CorpusIQ external MCP server catalog: what moved in the directory, what was measured, and what was held"
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/changelog/"
-robots: "index,follow"
+robots: "noindex,follow"
 last_updated: "{stamp}"
 tags: ["mcp server", "model context protocol", "sweep log"]
 ---

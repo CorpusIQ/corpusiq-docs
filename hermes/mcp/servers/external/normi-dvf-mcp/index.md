@@ -1,6 +1,7 @@
 ---
 title: "Normi DVF MCP: French Property Market Data"
-description: "17.4M+ geocoded French property transactions (DVF government open data, 2014 to present) as an MCP server - property search, market stats, comparables, price trends, neighborhood comparison, activity, heatmaps and address history. 8 tools, free tier with 100 credits."
+description: "17.4M+ geocoded French property transactions (DVF government open data, 2014 to present) as an MCP server - property search, market stats, comparables, price."
+
 category: "Real Estate"
 stars: 0
 added: 2026-08-23

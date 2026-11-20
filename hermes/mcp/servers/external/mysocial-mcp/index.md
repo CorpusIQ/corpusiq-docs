@@ -1,6 +1,7 @@
 ---
 title: Mysocial MCP - Your Real Social Media History as Agent
-description: "Hosted social media intelligence MCP that reads your real Instagram, TikTok, YouTube, LinkedIn and Threads history - posts, metrics, transcripts, comments and audience - plus Creator Universe market research, brand and creator tracking, content-gap analysis, idea originality checks and a lead pipeline. OAuth 2.1 PKCE, 50+ tools."
+description: "Hosted social media intelligence MCP that reads your real Instagram, TikTok, YouTube, LinkedIn and Threads history - posts, metrics, transcripts, comments."
+
 category: Social Media Management
 stars: "n/a (hosted service, no public repo)"
 added: 2026-09-02

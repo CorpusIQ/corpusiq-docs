@@ -1,6 +1,7 @@
 ---
 title: "OEDON MCP: Bitcoin On-Chain Intelligence for AI Agents"
-description: "Hosted x402 MCP server for Bitcoin on-chain market data - fee pressure, mempool stats, address analytics, hashrate, difficulty, block tips, mining pool distribution, transaction lookups and whale alerts. Live-probed oedon v0.2.0, anonymous initialize, pay-per-call 0.005 USDC in USDC on Base."
+description: "Hosted x402 MCP server for Bitcoin on-chain market data - fee pressure, mempool stats, address analytics, hashrate, difficulty, block tips, mining pool."
+
 category: Finance
 stars: n/a (new listing)
 added: 2026-08-23

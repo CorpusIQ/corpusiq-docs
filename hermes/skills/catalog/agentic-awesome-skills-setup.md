@@ -1,6 +1,7 @@
 ---
 title: "Agentic Awesome Skills (AAS) - 2,000+ Skill Catalog Setup"
-description: "sickn33/agentic-awesome-skills - 45,000-star community skill catalog (2,025 skills) with 37 newly catalogued engineering playbooks at 100 to 13,215 installs each: Node.js, TypeScript, Next.js, security, testing, architecture, and more. Platform-agnostic SKILL.md playbooks load natively in Hermes Agent."
+description: "sickn33/agentic-awesome-skills - 45,000-star community skill catalog (2,025 skills) with 37 newly catalogued engineering playbooks at 100 to 13,215 installs."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/agentic-awesome-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-11-01"

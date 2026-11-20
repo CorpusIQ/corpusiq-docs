@@ -1,6 +1,7 @@
 ---
 title: "MetricFire MCP - Natural Language Infrastructure Monitoring"
-description: "Official MetricFire MCP server for Hosted Graphite: search metrics by pattern, render Graphite output as JSON, CSV, PNG, or SVG, manage alerts with AND/OR criteria, notification channels, and scheduled mutes - all from an AI assistant."
+description: "Official MetricFire MCP server for Hosted Graphite: search metrics by pattern, render Graphite output as JSON, CSV, PNG, or SVG, manage alerts with AND/OR."
+
 category: DevOps
 stars: n/a (no public repo)
 added: 2026-08-26

@@ -1,6 +1,7 @@
 ---
 title: writing-plans + subagent-driven-development Setup Guide
-description: Complete setup guide for the writing-plans and subagent-driven-development skills from nousresearch/hermes-agent. Plan-based development workflow with delegate_task subagent execution and 2-stage review.
+description: "Complete setup guide for the writing-plans and subagent-driven-development skills from nousresearch/hermes-agent."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/writing-plans-subagent-development-setup/"
 robots: "index,follow"
 last_updated: "2026-11-07"

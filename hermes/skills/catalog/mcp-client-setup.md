@@ -1,6 +1,7 @@
 ---
 title: MCP Client - MCP Client Operations Setup
-description: "Skills from clawhub at skills.sh - mcp-client for Hermes MCP client operations and protocol communication. 412 clawhub skills related to MCP client functionality."
+description: "Skills from clawhub at skills.sh - mcp-client for Hermes MCP client operations and protocol communication."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/mcp-client-setup/"
 robots: "index,follow"
 last_updated: "2026-11-01"

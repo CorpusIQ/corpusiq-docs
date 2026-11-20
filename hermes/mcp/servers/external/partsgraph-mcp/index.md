@@ -1,6 +1,7 @@
 ---
 title: "Partsgraph MCP - Electronic Parts Search and BOM Building"
-description: "Keyless MCP catalog for electronic and mechanical parts: provenance-backed search, part records with datasheet-sourced specs, compatibility checks, and priced BOM building over the Partsgraph demo catalogue. Live endpoint, no auth, 11 tools verified."
+description: "Keyless MCP catalog for electronic and mechanical parts: provenance-backed search, part records with datasheet-sourced specs, compatibility checks."
+
 category: Business Operations
 stars: n/a (hosted)
 added: 2026-08-25

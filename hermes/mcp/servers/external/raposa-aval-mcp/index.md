@@ -1,6 +1,7 @@
 ---
 title: "Raposa Aval MCP - Human Approval Gates with Audit Chains"
-description: Give AI agents a human approval gate for high-stakes actions - refunds, payouts, deploys, deletions - where approved is true only when a named person presses Approve, sealed in a SHA-256 hash-chained audit log you can export and verify
+description: "Give AI agents a human approval gate for high-stakes actions - refunds, payouts, deploys, deletions - where approved is true only when a named person presses."
+
 category: Compliance
 stars: n/a (new listing)
 added: 2026-09-03

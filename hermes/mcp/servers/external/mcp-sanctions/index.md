@@ -1,6 +1,7 @@
 ---
 title: "mcp-sanctions - Watchlist Screening for KYC and AML"
-description: "Sanctions and watchlist screening for persons and organizations across Rosfinmonitoring, OFAC SDN, EU consolidated, UK OFSI and UN Security Council lists. Four tools with neutral match output that always carries list version and check date, designed for KYC and AML workflows in AI assistants. stdio via pipx or uvx."
+description: "Sanctions and watchlist screening for persons and organizations across Rosfinmonitoring, OFAC SDN, EU consolidated, UK OFSI and UN Security Council lists."
+
 category: Compliance
 stars: 0
 added: 2026-09-02

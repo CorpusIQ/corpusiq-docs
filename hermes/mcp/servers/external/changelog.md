@@ -2,7 +2,7 @@
 title: "External MCP Server Catalog - Sweep Log"
 description: "Discovery pass history for the external MCP server catalog: directory movement, measured candidates, and every hold decision"
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/changelog/"
-robots: "index,follow"
+robots: "noindex,follow"
 last_updated: "2026-11-19"
 tags: ["mcp server", "model context protocol", "sweep log"]
 ---

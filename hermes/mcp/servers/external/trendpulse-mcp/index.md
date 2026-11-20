@@ -1,6 +1,7 @@
 ---
 title: "TrendPulse MCP - Google News and Trends Research"
-description: "Community MIT MCP server that combines Google News discovery and article extraction with Google Trends analysis: trending terms by market, interest-over-time, growth windows, related queries and regional breakdowns for keyword, market and content decisions. Sixteen tools, Python, self-hosted."
+description: "Community MIT MCP server that combines Google News discovery and article extraction with Google Trends analysis: trending terms by market."
+
 category: Content
 stars: n/a (new listing)
 added: 2026-09-11

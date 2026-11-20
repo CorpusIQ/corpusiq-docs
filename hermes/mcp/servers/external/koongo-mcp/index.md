@@ -1,6 +1,7 @@
 ---
 title: Koongo MCP - Product Feed and Marketplace Operations
-description: Manage product feeds, marketplace listings and orders across 500+ sales channels in plain language - attribute mapping, category mapping, enrichment and feed export with confirmation gates.
+description: "Manage product feeds, marketplace listings and orders across 500+ sales channels in plain language - attribute mapping, category mapping, enrichment and feed."
+
 category: Commerce & E-Commerce
 stars: n/a (new listing)
 added: 2026-09-02

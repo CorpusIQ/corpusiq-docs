@@ -1,6 +1,7 @@
 ---
 title: "Sweep Report - September 2, 2026 - CorpusIQ Docs"
-description: "Night MCP catalog sweep: chatmcp/mcpso issues #3892-#3906 plus registry and homepage surfaces, cataloging 8 new servers with guides (jp-payroll-mcp, Fruit Stand Fund Returns, Valuation API, Fallax, mcp-sanctions, BulkPublish, China Hot Trending and more); catalog now 493 servers / 379 guides."
+description: "Night MCP catalog sweep: chatmcp/mcpso issues #3892-#3906 plus registry and homepage surfaces, cataloging 8 new servers with guides (jp-payroll-mcp, Fruit."
+
 date: 2026-09-02T19:01:00-07:00
 sources: [chatmcp/mcpso, mcpservers.org, mcp.so]
 status: complete

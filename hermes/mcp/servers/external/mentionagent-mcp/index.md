@@ -1,6 +1,7 @@
 ---
 title: MentionAgent MCP - Publisher Outreach and Backlink
-description: "Remote MCP server that moves link-building outreach into the agent you already use. Agents triage the reply inbox, read placement threads with stored link terms, draft site-specific placement requests, send approved replies, and mark deals won - with every email read by a human before it goes out."
+description: "Remote MCP server that moves link-building outreach into the agent you already use. Agents triage the reply inbox, read placement threads with stored link."
+
 category: Sales & Outreach
 stars: n/a (new listing)
 added: 2026-09-11

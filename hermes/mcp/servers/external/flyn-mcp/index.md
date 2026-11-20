@@ -1,6 +1,7 @@
 ---
 title: "Flyn MCP - Short Links, Click Analytics and QR Codes"
-description: "Remote MCP from Flyn, a URL shortener built for AI assistants: 8 tools create and re-point short links, pull click analytics with country, device and referrer detail, and generate QR codes, with Google Safe Browsing checks and destructive-action confirmations. OAuth on the free plan."
+description: "Remote MCP from Flyn, a URL shortener built for AI assistants: 8 tools create and re-point short links, pull click analytics with country, device."
+
 category: Marketing
 stars: n/a (hosted)
 added: 2026-08-27

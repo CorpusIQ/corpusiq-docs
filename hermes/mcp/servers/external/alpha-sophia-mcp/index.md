@@ -1,6 +1,7 @@
 ---
 title: "Alpha Sophia MCP - US Healthcare Provider and Market Data"
-description: "Official Alpha Sophia MCP server for US healthcare market intelligence: resolve providers, organizations, and sites of care, run filtered searches and counts, and size markets across procedures, diagnoses, affiliations, publications, and clinical trials. OAuth remote HTTP."
+description: "Official Alpha Sophia MCP server for US healthcare market intelligence: resolve providers, organizations, and sites of care, run filtered searches."
+
 category: Data & Analytics
 stars: 0
 added: 2026-08-25

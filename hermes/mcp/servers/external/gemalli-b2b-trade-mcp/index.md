@@ -1,6 +1,7 @@
 ---
 title: "Gemalli B2B Trade MCP - Global Wholesale Sourcing for Agents"
-description: "Hosted remote MCP for global B2B trade: wholesale product search with category/country/MOQ/price filters, verified manufacturer catalog, sanctions screening and HS codes. No auth for the read toolset. Endpoint gemalli.com/api/mcp, live-verified."
+description: "Hosted remote MCP for global B2B trade: wholesale product search with category/country/MOQ/price filters, verified manufacturer catalog, sanctions screening."
+
 category: Commerce
 stars: "n/a (hosted service)"
 added: 2026-08-31

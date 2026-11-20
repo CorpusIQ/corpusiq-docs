@@ -1,6 +1,7 @@
 ---
 title: Transcodely MCP - Video Transcoding and Hosting
-description: "Hosted Transcodely MCP server for agent-native video infrastructure: transcode gs://, s3:// or https:// sources into renditions, host videos with an adaptive ladder, CDN and player link, generate AI captions, and read job status, playable links and EUR usage. OAuth 2.1 PKCE or app-scoped API key."
+description: "Hosted Transcodely MCP server for agent-native video infrastructure: transcode gs://, s3:// or https:// sources into renditions, host videos with an adaptive."
+
 category: Content
 stars: 0
 added: 2026-08-25

@@ -1,6 +1,7 @@
 ---
 title: Ransack MCP - Source-Attributed Search and Research
-description: "Hosted Streamable HTTP MCP for search and research with source-attributed answers: 6 tools cover live search, page fetch, multi-step cited research reports, semantic memory over fetched pages, async task polling and US building-permit lookup. Unreadable pages are reported, not guessed. Bearer API key."
+description: "Hosted Streamable HTTP MCP for search and research with source-attributed answers: 6 tools cover live search, page fetch, multi-step cited research reports."
+
 category: Content & Research
 stars: n/a (docs-only repo; service closed-source)
 added: 2026-08-27

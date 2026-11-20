@@ -1,6 +1,7 @@
 ---
 title: "Jawz MCP - Live Macro Reads and a Disciplined Investing Loop"
-description: "Hosted Streamable HTTP MCP with 22 read-only tools giving AI assistants a live read on the macro economy: regime classification, financial conditions, G4 central-bank balance sheets, growth and inflation indicators, an event calendar and ETF look-through, plus a four-chapter decision framework. No signup for reads."
+description: "Hosted Streamable HTTP MCP with 22 read-only tools giving AI assistants a live read on the macro economy: regime classification, financial conditions, G4."
+
 category: Finance
 stars: n/a (hosted)
 added: 2026-08-27

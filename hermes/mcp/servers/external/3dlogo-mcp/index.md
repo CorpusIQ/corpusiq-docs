@@ -1,6 +1,7 @@
 ---
 title: 3dlogo MCP Server - 3D Logos and Coins from Your AI
-description: Design 3D logos and 3D coins from any MCP client. Public tier lists materials, coin looks, plans and build-studio deep links; OAuth tier creates projects, publishes share pages, and runs AI image-to-3D generation.
+description: "Design 3D logos and 3D coins from any MCP client. Public tier lists materials, coin looks, plans and build-studio deep links; OAuth tier creates projects."
+
 category: Content Creation & Creative
 stars: n/a (new listing)
 added: 2026-08-26

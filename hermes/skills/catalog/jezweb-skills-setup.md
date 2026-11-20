@@ -1,6 +1,7 @@
 ---
 title: "Jezweb Skills - 96-Skill Web Dev & Design Suite Setup"
-description: "Setup guide for jezweb/claude-skills - 96 agent skills across Cloudflare, Tailwind v4, shadcn/ui, TanStack, WordPress, Shopify, SEO and business English. 115K+ combined installs."
+description: "Setup guide for jezweb/claude-skills - 96 agent skills across Cloudflare, Tailwind v4, shadcn/ui, TanStack, WordPress, Shopify, SEO and business English."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/jezweb-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-11-01"

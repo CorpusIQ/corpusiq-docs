@@ -1,6 +1,7 @@
 ---
 title: "IndexNow - CorpusIQ Docs"
-description: "Automatically notify Bing, Yandex, Seznam, and other engines when you publish content. The IndexNow connector keeps search engines in sync with your site changes."
+description: "Automatically notify Bing, Yandex, Seznam, and other engines when you publish content. The IndexNow connector keeps search engines in sync with your site."
+
 last_updated: "2026-11-07"
 ---
 # IndexNow

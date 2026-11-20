@@ -1,6 +1,7 @@
 ---
 title: "Statiko MCP - Telegram Channel Intelligence for Agents"
-description: "Remote MCP server over live public Telegram data: trending stories with momentum, channel profiles and growth metrics, similar-channel cohorts, post history with edits and deletions, and per-post stat evolution. 10 read-only tools, every result citing its statiko.io page. initialize and tools/list are open; tool calls need a Pro or Business account over OAuth 2.1."
+description: "Remote MCP server over live public Telegram data: trending stories with momentum, channel profiles and growth metrics, similar-channel cohorts, post history."
+
 category: Data & Analytics
 stars: n/a (new listing)
 added: 2026-09-14

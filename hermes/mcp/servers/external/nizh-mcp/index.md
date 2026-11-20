@@ -1,6 +1,7 @@
 ---
 title: "Nizh MCP - Compliance Frameworks for AI Agents"
-description: SOC 2, ISO 27001, CMMC 2.0 and NIST compliance programs delivered to AI agents as MCP tools - posture checks, control objectives and hash-chained attestations with evidence references
+description: "SOC 2, ISO 27001, CMMC 2.0 and NIST compliance programs delivered to AI agents as MCP tools - posture checks, control objectives and hash-chained."
+
 category: Compliance
 stars: n/a (new listing)
 added: 2026-09-04

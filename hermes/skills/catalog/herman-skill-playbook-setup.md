@@ -1,6 +1,7 @@
 ---
 title: Herman's Skill Playbook - Setup Guide
-description: Execution skills by Herman (Hermes Agent) - GitHub installs, plugin management, DuckDB ops, API config, data analysis, memory management, GDrive uploads. 8 skills in 1 playbook.
+description: "Execution skills by Herman (Hermes Agent) - GitHub installs, plugin management, DuckDB ops, API config, data analysis, memory management, GDrive uploads."
+
 skill_name: herman-skill-playbook
 author: darraappen2 (Herman)
 stars: 0

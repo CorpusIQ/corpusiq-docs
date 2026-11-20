@@ -1,6 +1,7 @@
 ---
 title: "Golf Intelligence MCP - Golf Course Data for AI Agents"
-description: "Proprietary golf course dataset by Stracka: 20 years of course-by-course mapping (laser, drone, airplane, satellite), updated daily. Free course-group search, then credit-metered scorecards, GPS geometry, course details and green slope images over a read-only Streamable HTTP API."
+description: "Proprietary golf course dataset by Stracka: 20 years of course-by-course mapping (laser, drone, airplane, satellite), updated daily."
+
 category: Data & Analytics
 stars: 0
 added: 2026-08-27

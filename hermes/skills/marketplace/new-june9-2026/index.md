@@ -1,6 +1,7 @@
 ---
 title: New Marketplace Skills - June 9, 2026
-description: 30+ newly discovered skills.sh marketplace skills relevant to Hermes agents. Web scraping, MCP building, testing, Stripe, Shopify, LangGraph extensions, and more.
+description: "30+ newly discovered skills.sh marketplace skills relevant to Hermes agents. Web scraping, MCP building, testing, Stripe, Shopify, LangGraph extensions."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-june9-2026/"
 robots: "index,follow"
 last_updated: "2026-11-01"

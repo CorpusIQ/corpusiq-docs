@@ -1,6 +1,7 @@
 ---
 title: "Insourcia MCP - French Company Intelligence for AI Agents"
-description: "Hosted French company intelligence MCP server: search companies by name or SIREN/SIRET and pull financials, directors, ownership graphs, M&A and insolvency events. OAuth or API-key auth."
+description: "Hosted French company intelligence MCP server: search companies by name or SIREN/SIRET and pull financials, directors, ownership graphs, M&A and insolvency."
+
 category: Business Intelligence
 stars: n/a (hosted, no public repo)
 added: 2026-08-29

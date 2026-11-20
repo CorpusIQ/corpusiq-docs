@@ -1,6 +1,7 @@
 ---
 title: Litescrape MCP - Keyless Google, Bing and Maps Search
-description: "Litescrape's official MCP server wraps the Litescrape API in eight search tools: Google, Bing, DuckDuckGo and Google Maps run with no API key from a free daily allowance, while AI Mode, AI Overview and Shopping need a key that also removes the limits. stdio via npx."
+description: "Litescrape's official MCP server wraps the Litescrape API in eight search tools: Google, Bing, DuckDuckGo and Google Maps run with no API key from a free."
+
 category: Data & Analytics
 stars: n/a (new listing)
 added: 2026-09-15

@@ -1,6 +1,7 @@
 ---
 title: Google Skills - Official Google Agent Skills
-description: Google's official agent skills collection - Cloud recipes, GKE, Gemini APIs, BigQuery, agent platform, and Google Ads/Analytics. 30K+ combined installs across 75+ skills. 15K+ GitHub stars.
+description: "Google's official agent skills collection - Cloud recipes, GKE, Gemini APIs, BigQuery, agent platform, and Google Ads/Analytics."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/google-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-11-01"

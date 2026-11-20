@@ -1,6 +1,7 @@
 ---
 title: lucid.page MCP - Publish Markdown Pages Instantly
-description: "Zero-config remote MCP server that turns Markdown into a beautifully typeset shareable page: publish anonymously without signup, update in place with revisions, list and delete owned docs, and bind pages into multi-chapter bundles. Free."
+description: "Zero-config remote MCP server that turns Markdown into a beautifully typeset shareable page: publish anonymously without signup, update in place."
+
 category: Content & Publishing
 stars: n/a (new listing)
 added: 2026-08-21

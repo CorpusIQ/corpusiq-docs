@@ -1,6 +1,7 @@
 ---
 title: "Convert.Online MCP - File Conversion for AI Assistants"
-description: "Remote MCP server that converts files between 400+ formats - images, video, audio, documents, ebooks, fonts and CAD - from inside the conversation. Five tools: list formats, list options, upload a local file, convert, and check a job. OAuth or API key at mcp.convert.online; also in the official MCP registry as online.convert/file-converter."
+description: "Remote MCP server that converts files between 400+ formats - images, video, audio, documents, ebooks, fonts and CAD - from inside the conversation."
+
 category: Productivity
 stars: n/a (new listing)
 added: 2026-09-14

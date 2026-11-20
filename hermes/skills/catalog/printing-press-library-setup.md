@@ -1,6 +1,7 @@
 ---
 title: printing-press-library - Setup Guide
-description: "mvanhorn/printing-press-library - the CLI Printing Press catalog: 472 agent-native CLIs across 22 categories (banking, travel, sports, media, dev tools) plus a discovery skill that searches and installs them. Rewritten Aug 27, 2026 to match the repo's actual CLI-catalog form."
+description: "mvanhorn/printing-press-library - the CLI Printing Press catalog: 472 agent-native CLIs across 22 categories (banking, travel, sports, media, dev tools)."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/printing-press-library-setup/"
 robots: "index,follow"
 last_updated: "2026-11-01"

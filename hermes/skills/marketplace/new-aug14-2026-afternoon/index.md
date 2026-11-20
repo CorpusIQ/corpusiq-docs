@@ -1,6 +1,7 @@
 ---
 title: "New Skills - August 14, 2026 (Afternoon)"
-description: "skills.sh afternoon sweep - 6 new publisher clusters with setup guides: Firecrawl official skills (1.47M installs, 4 repos), Nexscope E-Commerce (126K, 121 skills), SEO GEO Claude Skills (126K, 20 skills), n8n Skills (58K, 29 skills), Review Loop (24.6K, #1 hot)."
+description: "skills.sh afternoon sweep - 6 new publisher clusters with setup guides: Firecrawl official skills (1.47M installs, 4 repos), Nexscope E-Commerce (126K, 121."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-aug14-2026-afternoon/"
 robots: "index,follow"
 last_updated: "2026-11-01"

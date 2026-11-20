@@ -1,6 +1,7 @@
 ---
 title: "MCP Integration Guide for Hermes Agent"
-description: Complete Hermes Agent MCP integration guide. Connect 40+ business platforms through one CorpusIQ OAuth flow. CRM, email, analytics, advertising, databases, ecommerce, payments. Custom MCP server development and cross-source analysis.
+description: "Complete Hermes Agent MCP integration guide. Connect 40+ business platforms through one CorpusIQ OAuth flow."
+
 category: mcp
 tags: [hermes-agent, mcp, model-context-protocol, integration, corpusiq, crm, analytics, email, database, cross-source]
 last_updated: 2026-11-07

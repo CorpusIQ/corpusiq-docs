@@ -1,6 +1,7 @@
 ---
 title: FinBridge MCP - Korean and US Market Data for Agents
-description: Korean and US stock data for AI agents - DART filings, KRX prices, SEC EDGAR, FRED and 13F, strategy screeners and portfolio backtests over one Streamable HTTP endpoint.
+description: "Korean and US stock data for AI agents - DART filings, KRX prices, SEC EDGAR, FRED and 13F, strategy screeners and portfolio backtests over one Streamable."
+
 category: Finance
 stars: n/a (new listing)
 added: 2026-09-02

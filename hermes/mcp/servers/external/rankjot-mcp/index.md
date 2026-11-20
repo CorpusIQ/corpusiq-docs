@@ -1,6 +1,7 @@
 ---
 title: "RankJot MCP - Real Google Rankings for AI Assistants"
-description: "One-tool MCP server that makes live Google lookups instead of guesses: check_rank(domain, keyword, country) returns the domain's organic position, which page ranks, and the top 10 results in a single call. stdio via uvx rankjot-mcp with a RANKJOT_API_KEY; free accounts include 25 lookups a month. MIT, official MCP registry io.github.epolat/rankjot-mcp."
+description: "One-tool MCP server that makes live Google lookups instead of guesses: check_rank(domain, keyword, country) returns the domain's organic position, which page."
+
 category: SEO
 stars: open source (MIT)
 added: 2026-09-14

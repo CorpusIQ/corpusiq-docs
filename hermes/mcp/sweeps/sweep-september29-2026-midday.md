@@ -1,6 +1,7 @@
 ---
 title: "MCP Server Discovery - September 29, 2026 (Midday Sweep)"
-description: "Midday sweep over the mcp.so /feed (30 server blocks, direct fetch) and mcpservers.org /all pages 1-2 via the r.jina.ai reader proxy, with 4 detail pages fetched. 4 new business-relevant servers catalogued with guides: HeyLead MCP, Omentir MCP, NM Signals MCP and SMAT MCP."
+description: "Midday sweep over the mcp.so /feed (30 server blocks, direct fetch) and mcpservers.org /all pages 1-2 via the r.jina.ai reader proxy, with 4 detail pages."
+
 category: mcp
 tags: [mcp-servers, daily-scan, september-2026]
 last_updated: 2026-11-01

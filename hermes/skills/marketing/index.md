@@ -1,6 +1,7 @@
 ---
 title: "Marketing Skills - CorpusIQ Docs"
-description: 45+ production marketing workflows - SEO audits, CRO, copywriting, ad creative, content strategy, community growth, and cold outreach. Powered by skills.sh marketingskills pack with 1.8M+ installs.
+description: "45+ production marketing workflows - SEO audits, CRO, copywriting, ad creative, content strategy, community growth, and cold outreach."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketing/"
 robots: "index,follow"
 last_updated: "2026-11-07"

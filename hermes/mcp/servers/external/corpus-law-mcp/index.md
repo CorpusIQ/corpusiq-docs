@@ -1,6 +1,7 @@
 ---
 title: Corpus Law MCP - US Legal Search and Business Formation
-description: "Remote MCP server for searching US federal, state, and municipal law with verbatim citations (551,000+ provisions, 18 jurisdictions), plus agent-native LLC and nonprofit formation: per-state intake checklists, NAICS code lookup, and prefilled filing handoffs. Anonymous free tier, 100 searches/month per IP."
+description: "Remote MCP server for searching US federal, state, and municipal law with verbatim citations (551,000+ provisions, 18 jurisdictions), plus agent-native LLC."
+
 category: IP/Legal
 stars: n/a (new listing)
 added: 2026-08-22

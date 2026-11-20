@@ -1,6 +1,7 @@
 ---
 title: "New Skills - August 15, 2026 (Midday Sweep)"
-description: "skills.sh midday sweep: Argent Mobile Agent Skills (154.0K), Oh Story ClaudeCode (146.6K), VueJS AI Skills (129.2K), Rivet Skills (65.3K), plus 11 more clusters - 15 publisher clusters, 273 skills, 15 setup guides."
+description: "skills.sh midday sweep: Argent Mobile Agent Skills (154.0K), Oh Story ClaudeCode (146.6K), VueJS AI Skills (129.2K), Rivet Skills (65.3K), plus 11 more."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-aug15-2026-midday/"
 robots: "index,follow"
 last_updated: "2026-11-01"

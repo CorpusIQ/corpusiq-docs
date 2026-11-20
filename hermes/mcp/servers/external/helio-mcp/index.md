@@ -1,6 +1,7 @@
 ---
 title: "Helio MCP - Governance Proxy for AI Agent Tool Calls"
-description: "Open-source MCP governance proxy that sits between AI agents and their MCP servers. Every tool call passes through Helio, which enforces policy rules, routes risky actions to human approval, caps cumulative spend, and records an audit trail - without changing agent code or MCP servers. Apache-2.0, npm @gethelio/proxy 0.14.0, self-hosted."
+description: "Open-source MCP governance proxy that sits between AI agents and their MCP servers. Every tool call passes through Helio, which enforces policy rules, routes."
+
 category: Security
 stars: 200+ (GitHub, open source)
 added: 2026-09-14

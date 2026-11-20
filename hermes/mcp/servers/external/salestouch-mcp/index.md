@@ -1,6 +1,7 @@
 ---
 title: "SalesTouch MCP: LinkedIn GTM Prospecting for AI Agents"
-description: "AI-native GTM prospecting platform exposing LinkedIn research, qualification, conversation, outreach, follow-up, publishing, durable scheduling, queue and paginated extraction tools through an OAuth-protected remote MCP endpoint at salestouch.io/api/mcp. Version 0.8.0, MIT licensed, Claude plugin marketplace enabled, and LinkedIn credentials are never shared with the AI client."
+description: "AI-native GTM prospecting platform exposing LinkedIn research, qualification, conversation, outreach, follow-up, publishing, durable scheduling, queue."
+
 category: Sales & Outreach
 stars: n/a (new listing)
 added: 2026-08-24

@@ -1,6 +1,7 @@
 ---
 title: marketingskills - Complete Marketing Suite (160K+ installs)
-description: Install and use coreyhaines31/marketingskills - 12 battle-tested marketing skills for SEO, copywriting, content strategy, lead generation, social media, and AI marketing.
+description: "Install and use coreyhaines31/marketingskills - 12 battle-tested marketing skills for SEO, copywriting, content strategy, lead generation, social media."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/marketingskills-setup/"
 robots: "index,follow"
 last_updated: "2026-11-01"

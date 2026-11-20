@@ -1,6 +1,7 @@
 ---
 title: "Buzzmark MCP - Brand-Voice Social Drafts With a Voice Score"
-description: "A ghostwriter server that reads the operator's own website first, writes posts in that voice per network, scores how much each draft sounds like the brand and refuses to publish without a calendar step."
+description: "A ghostwriter server that reads the operator's own website first, writes posts in that voice per network, scores how much each draft sounds like the brand."
+
 category: Marketing / Content Operations
 stars: n/a (commercial, free trial, hosted)
 added: 2026-10-25

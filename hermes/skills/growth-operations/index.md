@@ -1,6 +1,7 @@
 ---
 title: "Growth Operations Skills - CorpusIQ Docs"
-description: Growth operations skills for Hermes Agent - affiliate programs, worldwide promotion, organic discovery, and automated outreach. Part of the Hermes Skills Library.
+description: "Growth operations skills for Hermes Agent - affiliate programs, worldwide promotion, organic discovery, and automated outreach."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/growth-operations/"
 robots: "index,follow"
 last_updated: "2026-11-18"

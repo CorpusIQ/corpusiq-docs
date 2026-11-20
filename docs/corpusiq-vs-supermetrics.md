@@ -1,6 +1,7 @@
 ---
 title: "CorpusIQ vs Supermetrics - CorpusIQ Docs"
-description: "Compare CorpusIQ vs Supermetrics. Supermetrics connects marketing and ad data to AI. CorpusIQ connects accounting, commerce, CRM, and analytics data, read-only, and returns cited answers in the assistant you already use."
+description: "Compare CorpusIQ vs Supermetrics. Supermetrics connects marketing and ad data to AI. CorpusIQ connects accounting, commerce, CRM, and analytics data."
+
 category: "Comparison"
 tags: ["corpusiq vs supermetrics", "supermetrics alternative", "mcp data connector", "ai business intelligence", "marketing analytics"]
 canonical: "https://www.corpusiq.io/docs/corpusiq-vs-supermetrics/"

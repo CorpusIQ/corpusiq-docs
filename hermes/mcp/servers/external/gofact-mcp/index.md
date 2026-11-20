@@ -1,6 +1,7 @@
 ---
 title: gofact MCP - Local French E-Invoicing with Legal Numbering
-description: Local-first French e-invoicing MCP server that turns an HTML invoice into a compliant Factur-X file (PDF/A-3 with embedded EN 16931 CII XML). Runs entirely on the operator's machine as a Go binary with no account or cloud service, holds the legal invoice numbering in a locked transactional registry, and enforces EN 16931 business rules before anything is written.
+description: "Local-first French e-invoicing MCP server that turns an HTML invoice into a compliant Factur-X file (PDF/A-3 with embedded EN 16931 CII XML)."
+
 category: Finance / Accounting
 stars: 5
 added: 2026-09-04

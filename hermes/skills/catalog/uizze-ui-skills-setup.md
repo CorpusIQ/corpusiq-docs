@@ -1,6 +1,7 @@
 ---
 title: "Uizze UI Skills - Anti-UI-Slop Design Quality Setup"
-description: Install the uizze.com UI quality skills (394.7K combined installs) - anti-ui-slop (260.5K), ui-radar (132K), ui-design, and ui-slop-score for detecting and fixing AI-generated interface slop.
+description: "Install the uizze.com UI quality skills (394.7K combined installs) - anti-ui-slop (260.5K), ui-radar (132K), ui-design, and ui-slop-score for detecting."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/uizze-ui-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-11-01"

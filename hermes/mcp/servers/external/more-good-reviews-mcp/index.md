@@ -1,6 +1,7 @@
 ---
 title: "More Good Reviews MCP - Review Management and Reputation Ops"
-description: "Official More Good Reviews MCP server for reputation operations: work with customers, review requests, reviews, ratings, feedback, messages, locations, sources, tags, charges, and share templates in plain language, project-scoped with sign-in auth."
+description: "Official More Good Reviews MCP server for reputation operations: work with customers, review requests, reviews, ratings, feedback, messages, locations."
+
 category: Marketing
 stars: n/a (hosted)
 added: 2026-08-25

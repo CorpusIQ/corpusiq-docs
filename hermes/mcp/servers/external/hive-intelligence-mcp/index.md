@@ -1,6 +1,7 @@
 ---
 title: "Hive Intelligence MCP - Live Crypto Market Data for Agents"
-description: "Live crypto market data MCP: 607 tools over prices, on-chain activity, DeFi, derivatives, NFTs and token-safety checks with provenance receipts on every answer. Keyless trial tier, endpoint mcp.hiveintelligence.xyz/mcp live-probed Sep 1, 2026."
+description: "Live crypto market data MCP: 607 tools over prices, on-chain activity, DeFi, derivatives, NFTs and token-safety checks with provenance receipts on every."
+
 category: Finance
 stars: "18 (hive-intel/hive-sdk)"
 added: 2026-09-01

@@ -1,6 +1,7 @@
 ---
 title: "MCP Server Discovery - November 7, 2026 (Evening)"
-description: "A 102-slug sitemap wave ten hours after the supplement, nineteen bulk-stamped mcp.so cards, nineteen queue arrivals, and four servers catalogued around the same idea: the agent gets evidence, not prose."
+description: "A 102-slug sitemap wave ten hours after the supplement, nineteen bulk-stamped mcp.so cards, nineteen queue arrivals, and four servers catalogued."
+
 last_updated: 2026-11-07
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-november7-2026-evening"
 tags: ["mcp server", "model context protocol", "hermes mcp", "sweep"]

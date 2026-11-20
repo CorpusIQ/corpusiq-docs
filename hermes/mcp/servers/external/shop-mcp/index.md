@@ -1,6 +1,7 @@
 ---
 title: Shop MCP - Read-Only Shopify Catalogue and Stock
-description: One-file stdlib-only MCP server that gives an agent read-only access to a Shopify store's catalogue and stock levels, answering what a store sells and what is about to run out without any write access.
+description: "One-file stdlib-only MCP server that gives an agent read-only access to a Shopify store's catalogue and stock levels, answering what a store sells and what."
+
 category: Commerce & E-Commerce
 stars: 0
 added: 2026-09-10

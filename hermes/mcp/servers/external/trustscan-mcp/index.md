@@ -1,6 +1,7 @@
 ---
 title: TrustScan MCP - Security Scanning
-description: Security scanner for MCP servers and AI skills - detects invisible Unicode prompt-injection, dangerous code patterns, hardcoded secrets and typosquat naming, free remote MCP.
+description: "Security scanner for MCP servers and AI skills - detects invisible Unicode prompt-injection, dangerous code patterns, hardcoded secrets and typosquat naming."
+
 category: Compliance
 stars: n/a (new listing)
 added: 2026-09-09

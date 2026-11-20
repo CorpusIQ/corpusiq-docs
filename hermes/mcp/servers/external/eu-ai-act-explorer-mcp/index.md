@@ -1,6 +1,6 @@
 ---
 title: "EU AI Act Explorer MCP - Articles, Deadlines, Duties"
-description: "A keyless server over the amended EU AI Act: article text, definitions, role obligations and a dated timeline of what is in force and what is not."
+description: "A keyless server over the amended EU AI Act: article text, definitions, role obligations and a dated timeline of what is in force and what."
 category: Compliance / Legal Reference
 stars: n/a (free, keyless)
 added: 2026-10-24

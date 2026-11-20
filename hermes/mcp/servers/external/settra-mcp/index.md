@@ -1,6 +1,7 @@
 ---
 title: Settra MCP - Governed Tabular Data for AI Agents
-description: Self-hosted MCP server that syncs Google Sheets, CSV, Excel and Parquet files into PostgreSQL and exposes durable snapshots through a governed semantic layer, so agents query operational data with approved definitions instead of raw SQL or source credentials.
+description: "Self-hosted MCP server that syncs Google Sheets, CSV, Excel and Parquet files into PostgreSQL and exposes durable snapshots through a governed semantic."
+
 category: Data & Analytics
 stars: n/a (new listing)
 added: 2026-09-06

@@ -1,6 +1,7 @@
 ---
 title: "Coderbuds MCP - Engineering Delivery Metrics for Agents"
-description: "Remote MCP server that gives coding agents facts about how a team ships. Shipping standards, org map, review turnaround, queue blockers and deploy lag, plus 22 tools to act on them, scoped to the authenticated user's teams and limits."
+description: "Remote MCP server that gives coding agents facts about how a team ships. Shipping standards, org map, review turnaround, queue blockers and deploy lag."
+
 category: Developer Tools
 stars: n/a (new listing)
 added: 2026-09-11

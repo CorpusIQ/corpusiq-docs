@@ -1,6 +1,7 @@
 ---
 title: "New Skills - September 1, 2026 (PM)"
-description: "skills.sh tiered sweep: 9 new official nousresearch/hermes-agent bundled skills surfaced by retry after 5 API timeouts - competitor-news-monitor (55), document-to-action-items (50), github-issue-to-pr (50), blocked-page-recovery (49), email-inbox-triage (48), weekly-review-planning (48), meeting-action-items (44), product-price-monitor (44), sdlc-review (44) - 432 combined installs, 1 cluster setup guide."
+description: "skills.sh tiered sweep: 9 new official nousresearch/hermes-agent bundled skills surfaced by retry after 5 API timeouts - competitor-news-monitor (55)."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-sep1-2026/"
 robots: "index,follow"
 last_updated: "2026-11-01"

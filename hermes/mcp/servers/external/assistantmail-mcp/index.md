@@ -1,6 +1,7 @@
 ---
 title: AssistantMail MCP - Managed Mailboxes for AI Agents
-description: Managed mailbox MCP for AI agents, built for OpenClaw and Hermes operators. Agents send and receive email under allowlists, consent, retention rules and spend caps you control. Install with npx, authenticate with an API key, and keep a real inbox without handing agents raw SMTP access.
+description: "Managed mailbox MCP for AI agents, built for OpenClaw and Hermes operators. Agents send and receive email under allowlists, consent, retention rules."
+
 category: Communication & Email
 stars: n/a (new listing)
 added: 2026-09-06

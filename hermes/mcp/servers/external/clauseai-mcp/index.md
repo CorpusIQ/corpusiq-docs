@@ -1,6 +1,7 @@
 ---
 title: "ClauseAI MCP - Startup Legal Document Generation for Agents"
-description: "Keyless remote MCP server that fills attorney-drafted legal templates (NDAs, MSAs, DPAs, privacy policies, offer letters and more) from General Legal's CC0 library. Agents list templates, inspect fields, and generate documents as PDF, ODT or Markdown - no account required."
+description: "Keyless remote MCP server that fills attorney-drafted legal templates (NDAs, MSAs, DPAs, privacy policies, offer letters and more) from General Legal's CC0."
+
 category: Legal
 stars: n/a (new listing)
 added: 2026-09-11

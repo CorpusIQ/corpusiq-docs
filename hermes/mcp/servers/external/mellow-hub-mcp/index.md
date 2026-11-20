@@ -1,6 +1,7 @@
 ---
 title: Mellow Hub MCP - Multi-Network Social Publishing
-description: Hosted MCP server that publishes one post to Instagram, TikTok, YouTube, X, LinkedIn, Threads, Bluesky, Pinterest and Facebook with per-network validation, previews, idempotency keys and scoped autopilot or review keys.
+description: "Hosted MCP server that publishes one post to Instagram, TikTok, YouTube, X, LinkedIn, Threads, Bluesky, Pinterest and Facebook with per-network validation."
+
 category: Social Media Management
 stars: n/a (new listing)
 added: 2026-09-10

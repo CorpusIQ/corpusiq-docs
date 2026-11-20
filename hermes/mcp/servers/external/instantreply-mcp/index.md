@@ -1,6 +1,7 @@
 ---
 title: InstantReply MCP - Instagram, WhatsApp and Messenger Inbox
-description: "Local MCP server that connects an agent to a real Instagram, WhatsApp or Messenger inbox. 29 annotated tools for conversations, contacts, WhatsApp template lifecycle (validate, submit, track), journey delivery and delivery debugging, with 11 prompt commands and scope-mapped API keys. npm package, MIT."
+description: "Local MCP server that connects an agent to a real Instagram, WhatsApp or Messenger inbox. 29 annotated tools for conversations, contacts, WhatsApp template."
+
 category: "Communication"
 stars: 0 (new repo)
 added: 2026-09-12

@@ -1,6 +1,7 @@
 ---
 title: "Hologrow MCP - E-Commerce Data Layer for AI Agents"
-description: "Hologrow is a read-only e-commerce data layer for any AI: it handles platform OAuth, sync, freshness, and schema so agents can query Amazon, storefront, and advertising data with five discovery tools plus installable analysis skills - never writing back to ad accounts or storefronts."
+description: "Hologrow is a read-only e-commerce data layer for any AI: it handles platform OAuth, sync, freshness, and schema so agents can query Amazon, storefront."
+
 category: Commerce
 stars: n/a (new listing)
 added: 2026-08-26

@@ -1,6 +1,6 @@
 ---
 title: "Seomely MCP - CorpusIQ Docs"
-description: "Google index monitoring with history over MCP - which pages are indexed, which dropped out and when, and why the rest are not."
+description: "Google index monitoring with history over MCP - which pages are indexed, which dropped out and when, and why the rest."
 category: SEO
 stars: n/a (new listing)
 added: 2026-08-15

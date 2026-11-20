@@ -1,6 +1,7 @@
 ---
 title: "CuePrecise MCP - Evidence-Linked YouTube Video Analysis"
-description: "CuePrecise MCP analyzes YouTube videos by original speech, captions, speaker labels and selected frames, returning timestamps that link back to the source video. Agents can find passages, compare speakers and locate on-screen scenes, with the evidence bundle stored locally for follow-up questions. Local stdio Python server."
+description: "CuePrecise MCP analyzes YouTube videos by original speech, captions, speaker labels and selected frames, returning timestamps that link back to the source."
+
 category: Content & Research
 stars: 1
 added: 2026-09-07

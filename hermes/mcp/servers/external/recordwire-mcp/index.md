@@ -1,6 +1,7 @@
 ---
 title: "Recordwire MCP - US Business Registry Data for Agents"
-description: "Remote MCP server over official US business registries in seven states. Agents search companies, read one business in full, page its change history, search the change-event feed, and check per-state freshness - with change subscriptions and signed webhooks on the full-coverage plan."
+description: "Remote MCP server over official US business registries in seven states. Agents search companies, read one business in full, page its change history, search."
+
 category: Business Data
 stars: n/a (new listing)
 added: 2026-09-11

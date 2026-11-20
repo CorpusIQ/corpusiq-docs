@@ -1,6 +1,7 @@
 ---
 title: "GovGazette MCP - Federal Contract and Award Intelligence"
-description: "Hosted MCP for US federal procurement: search SAM.gov opportunities, awards and vendors, resolve identifiers, check exclusions, spot recompetes, and rank opportunities against a business profile. 39 tools live-probed, 19 usable without auth, OAuth unlocks saved searches and watches."
+description: "Hosted MCP for US federal procurement: search SAM.gov opportunities, awards and vendors, resolve identifiers, check exclusions, spot recompetes, and rank."
+
 category: Compliance
 stars: n/a (hosted)
 added: 2026-08-25

@@ -1,6 +1,7 @@
 ---
 title: "Sourcey MCP - Startup Credits and Agent Readiness Data"
-description: "Hosted and stdio MCP server with evidence-backed startup credits, cloud credits, SaaS discounts, grants, and Agent Readiness report cards. Keyless catalog reads with a signed change feed."
+description: "Hosted and stdio MCP server with evidence-backed startup credits, cloud credits, SaaS discounts, grants, and Agent Readiness report cards."
+
 category: Business Operations
 stars: n/a (new listing, sourcey/mcp-server)
 added: 2026-08-29

@@ -1,6 +1,7 @@
 ---
 title: Korea Ground-Truth MCP - Official Korean Data for Agents
-description: Official Korean business data for AI agents - NTS business registration checks, DART corporate profiles, MOLIT property prices and statute search through one hosted MCP server with a free API key.
+description: "Official Korean business data for AI agents - NTS business registration checks, DART corporate profiles, MOLIT property prices and statute search through one."
+
 category: Compliance
 stars: n/a (new listing)
 added: 2026-08-26

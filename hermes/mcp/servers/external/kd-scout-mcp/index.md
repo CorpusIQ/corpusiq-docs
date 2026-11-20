@@ -1,6 +1,7 @@
 ---
 title: "KD Scout MCP: Keyword Research Arithmetic"
-description: "Zero-dependency MCP server for keyword research arithmetic - difficulty estimation 0-100, blended opportunity scoring, and structured content briefs with H2 outline, word-count target and schema type. Deterministic mode needs no API keys."
+description: "Zero-dependency MCP server for keyword research arithmetic - difficulty estimation 0-100, blended opportunity scoring, and structured content briefs with H2."
+
 category: SEO
 stars: 0
 added: 2026-08-23

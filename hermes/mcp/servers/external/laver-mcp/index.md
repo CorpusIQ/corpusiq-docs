@@ -1,6 +1,7 @@
 ---
 title: "Laver MCP - Kanban Boards, Sprints and Team Wiki for Agents"
-description: "Official MCP server from Laver (laver.app): 59 typed tools that read and drive kanban boards, tickets, sprints, attachments and the team wiki with versioned writes so an agent and a person can work the same board at once. stdio via npx @laver/mcp, MIT."
+description: "Official MCP server from Laver (laver.app): 59 typed tools that read and drive kanban boards, tickets, sprints, attachments and the team wiki with versioned."
+
 category: Productivity
 stars: "n/a (new listing, Developyn/laver-mcp)"
 added: 2026-08-30

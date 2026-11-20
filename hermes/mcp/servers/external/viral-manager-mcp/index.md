@@ -1,6 +1,7 @@
 ---
 title: Viral Manager MCP - Creator Intelligence for AI Agents
-description: Viral Manager exposes 50 read and write MCP tools so an agent can run part of a creator operation. Find viral posts, read AI breakdowns, create assignments, manage watchlists and pull download links. Published in the official MCP registry for creator agencies.
+description: "Viral Manager exposes 50 read and write MCP tools so an agent can run part of a creator operation."
+
 category: Marketing
 stars: n/a (new listing)
 added: 2026-09-04

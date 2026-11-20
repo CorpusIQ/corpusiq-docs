@@ -1,6 +1,7 @@
 ---
 title: Site Passport MCP - AI-Agent Readiness Checks for Websites
-description: Live-checked AI-agent readiness for WordPress and other sites - llms.txt, AI-crawler robots.txt directives, schema.org markup and WebMCP manifest checks, keyless.
+description: "Live-checked AI-agent readiness for WordPress and other sites - llms.txt, AI-crawler robots.txt directives, schema.org markup and WebMCP manifest checks."
+
 category: SEO
 stars: n/a (new listing)
 added: 2026-09-09

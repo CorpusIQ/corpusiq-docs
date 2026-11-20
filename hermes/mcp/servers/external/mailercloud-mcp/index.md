@@ -1,6 +1,7 @@
 ---
 title: Mailercloud MCP - Email Marketing Operations for Agents
-description: Connect AI assistants to the Mailercloud email marketing platform. Manage campaigns, contacts, lists and templates, run sends, and pull AI-powered campaign analysis and deliverability audits from a hosted Streamable HTTP endpoint.
+description: "Connect AI assistants to the Mailercloud email marketing platform. Manage campaigns, contacts, lists and templates, run sends, and pull AI-powered campaign."
+
 category: Communication & Email
 stars: n/a (new listing)
 added: 2026-09-08

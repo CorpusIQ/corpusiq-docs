@@ -1,6 +1,7 @@
 ---
 title: "Cline Skills - Official Cline 43-Skill Collection Setup"
-description: "cline/skills - the official Cline org's 43 Agent Skills: frontend-design, skill-creator, review-team, data-analyst, vibe-prospecting, cloud databases, and more. 20K skills.sh installs. Setup guide for Hermes agents."
+description: "cline/skills - the official Cline org's 43 Agent Skills: frontend-design, skill-creator, review-team, data-analyst, vibe-prospecting, cloud databases."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/cline-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-11-01"

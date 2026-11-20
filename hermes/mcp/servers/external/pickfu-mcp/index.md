@@ -1,6 +1,7 @@
 ---
 title: "PickFu MCP - Consumer Research Panels an Assistant Can Run"
-description: "Create, price, target, publish and read real human consumer polls from Claude or ChatGPT: A/B concepts, packaging, names and ad creative tested on a paid panel, with a draft that costs nothing until approved."
+description: "Create, price, target, publish and read real human consumer polls from Claude or ChatGPT: A/B concepts, packaging, names and ad creative tested on a paid."
+
 category: Market Research / Consumer Panels
 stars: n/a (pay per survey, account credits)
 added: 2026-10-26

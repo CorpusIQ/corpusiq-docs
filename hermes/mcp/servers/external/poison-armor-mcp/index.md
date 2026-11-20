@@ -1,6 +1,7 @@
 ---
 title: "Poison Armor MCP: Prompt-Injection Firewall for AI Agents"
-description: "Open-source MCP security firewall that intercepts indirect prompt injection, zero-width Unicode steganography, adversarial GCG suffixes, tracking pixels, Markdown XSS, semantic dataset poisoning and Sybil consensus attacks before they reach the LLM. Ships as a local FastMCP server with sanitize_document and scan_dataset_for_anomalies tools plus SKILL.md behavioral directives. MIT licensed."
+description: "Open-source MCP security firewall that intercepts indirect prompt injection, zero-width Unicode steganography, adversarial GCG suffixes, tracking pixels."
+
 category: Security
 stars: n/a (new listing)
 added: 2026-08-24

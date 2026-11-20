@@ -1,6 +1,7 @@
 ---
 title: PhoneScreen MCP - AI Hiring and Screening
-description: Remote MCP that scores resumes, runs AI phone screens in 34 languages, and checks references, reporting every score back to the assistant for the hiring team to decide.
+description: "Remote MCP that scores resumes, runs AI phone screens in 34 languages, and checks references, reporting every score back to the assistant for the hiring team."
+
 category: Business Operations
 stars: n/a (new listing)
 added: 2026-10-04

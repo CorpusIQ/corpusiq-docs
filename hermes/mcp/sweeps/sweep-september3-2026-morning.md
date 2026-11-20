@@ -1,6 +1,7 @@
 ---
 title: "Sweep Report - September 3, 2026 - CorpusIQ Docs"
-description: "Morning MCP catalog sweep: chatmcp/mcpso issues #3907-#3909 plus homepage feeds, cataloging 5 new servers with guides (Buska MCP, Asyntai, AnswerLoops, TaiLexi AI, Furrow Forms); catalog now 498 servers / 384 guides."
+description: "Morning MCP catalog sweep: chatmcp/mcpso issues #3907-#3909 plus homepage feeds, cataloging 5 new servers with guides (Buska MCP, Asyntai, AnswerLoops."
+
 date: 2026-09-03T03:00:00-07:00
 sources: [chatmcp/mcpso, mcp.so, mcpservers.org]
 status: complete

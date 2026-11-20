@@ -1,6 +1,7 @@
 ---
 title: "Atoa MCP - UK Pay by Bank Payments for AI Agents"
-description: "First-party MCP server for Atoa, the FCA-authorised UK payments platform: create and manage Pay by Bank and card payments, customers, refunds, transactions, bank feeds and approvals from any MCP client"
+description: "First-party MCP server for Atoa, the FCA-authorised UK payments platform: create and manage Pay by Bank and card payments, customers, refunds, transactions."
+
 category: Commerce & E-Commerce
 stars: n/a (no public repo)
 added: 2026-08-20

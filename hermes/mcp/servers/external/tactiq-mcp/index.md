@@ -1,6 +1,7 @@
 ---
 title: "Tactiq MCP - Meeting Transcript Intelligence for Agents"
-description: "Hosted meeting intelligence from Tactiq: agents search, read and summarise meeting transcripts and AI summaries from Google Meet, Zoom and Microsoft Teams across your whole meeting history. Endpoint mcp.tactiq.io with Tactiq account sign-in; verified Claude connector; free plan with paid tiers for full transcript access."
+description: "Hosted meeting intelligence from Tactiq: agents search, read and summarise meeting transcripts and AI summaries from Google Meet, Zoom and Microsoft Teams."
+
 category: Productivity
 stars: "n/a (hosted, no public repo)"
 added: 2026-08-30

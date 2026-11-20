@@ -1,6 +1,7 @@
 ---
 title: BuiltWith MCP Server Integration Guide
-description: Technology profiling for AI agents - discover what websites are built with. Find tech stacks, ecommerce platforms, analytics tools, and hosting providers for competitive research.
+description: "Technology profiling for AI agents - discover what websites are built with. Find tech stacks, ecommerce platforms, analytics tools, and hosting providers."
+
 category: mcp
 tags: [mcp, builtwith, technology-profiling, competitive-research, lead-gen, tech-stack, hermes-agent]
 last_updated: 2026-11-01

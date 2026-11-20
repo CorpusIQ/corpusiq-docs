@@ -1,6 +1,7 @@
 ---
 title: New Skills Discovery - July 15, 2026
-description: 6 new Hermes/OpenClaw ecosystem skills discovered via skills.sh API sweep. Memory hygiene, systemd/launchd deployment, security analysis, LLM ops, and customization tools.
+description: "6 new Hermes/OpenClaw ecosystem skills discovered via skills.sh API sweep. Memory hygiene, systemd/launchd deployment, security analysis, LLM ops."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-july15-2026/"
 robots: "index,follow"
 last_updated: "2026-11-01"

@@ -1,6 +1,7 @@
 ---
 title: Fluenta MCP - Idea Validation with Launch Readiness Scores
-description: "Hosted MCP server that scores business ideas on six live market signals - demand, pain, competition, monetisation, timing and distribution - into a Launch Readiness Score (LRS)."
+description: "Hosted MCP server that scores business ideas on six live market signals - demand, pain, competition, monetisation, timing and distribution - into a Launch."
+
 category: Data & Analytics
 stars: n/a (new listing)
 added: 2026-09-08

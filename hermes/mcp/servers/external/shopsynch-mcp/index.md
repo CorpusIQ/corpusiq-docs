@@ -1,6 +1,7 @@
 ---
 title: ShopSynch MCP - E-Commerce Operations for AI Agents
-description: Official MCP connector for the ShopSynch e-commerce platform. Lets merchants run store insights, product workflows, order support, customer context, inventory checks and operational reporting through AI assistants over OAuth 2.1 PKCE with per-merchant consent at api.shopsynch.com/mcp.
+description: "Official MCP connector for the ShopSynch e-commerce platform. Lets merchants run store insights, product workflows, order support, customer context."
+
 category: Commerce & E-Commerce
 stars: n/a (no public repo)
 added: 2026-09-06

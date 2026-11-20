@@ -1,6 +1,7 @@
 ---
 title: your-mail-mcp - Self-Hosted Read-Only IMAP Email
-description: "Self-hosted MCP server that gives AI clients read-only access to IMAP mail (Gmail, iCloud, any provider) through a one-way mbsync mirror indexed by notmuch. Ten read-only tools: search, ids, files, count, show, thread, text, folders, refresh and attachment, with junk and trash excluded by default, prompt-injection markers on all mail text, and OAuth 2.0 with Dynamic Client Registration. Docker image or static Go binaries; no write path to any account."
+description: "Self-hosted MCP server that gives AI clients read-only access to IMAP mail (Gmail, iCloud, any provider) through a one-way mbsync mirror indexed by notmuch."
+
 category: Communication & Email
 stars: n/a (new listing)
 added: 2026-08-21

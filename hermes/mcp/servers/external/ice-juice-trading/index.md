@@ -1,6 +1,7 @@
 ---
 title: Ice Juice Trading MCP - Automated Trading on Your Alpaca
-description: "Hosted MCP server that lets an AI assistant build, backtest, deploy and manage rules-based trading strategies on your own Alpaca brokerage account, on paper or live. OAuth 2.1 or API key, Streamable HTTP at mcp.icejuicetrading.com/mcp, broker connect and billing stay human-only. Free paper trading on every plan."
+description: "Hosted MCP server that lets an AI assistant build, backtest, deploy and manage rules-based trading strategies on your own Alpaca brokerage account, on paper."
+
 category: Finance
 stars: n/a (new listing)
 added: 2026-08-24

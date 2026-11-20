@@ -1,6 +1,7 @@
 ---
 title: Browser-Use - AI-Powered Browser Automation
-description: Set up browser-use (97K+ GitHub stars) for AI vision-driven browser automation. Navigate, fill forms, and extract data from LinkedIn, TikTok, Product Hunt, and Cloudflare-protected sites that block traditional automation.
+description: "Set up browser-use (97K+ GitHub stars) for AI vision-driven browser automation. Navigate, fill forms, and extract data from LinkedIn, TikTok, Product Hunt."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/browser-use-automation-setup/"
 robots: "index,follow"
 last_updated: "2026-11-01"

@@ -1,6 +1,7 @@
 ---
 title: "PlaceRoot MCP - Keyless Spatial Answers from Overture Maps"
-description: "Free keyless MCP server grounding AI agents in open map data: place search, geocoding, neighborhood analysis, street-graph routing, and isochrones via 29 tools, self-hostable under MIT"
+description: "Free keyless MCP server grounding AI agents in open map data: place search, geocoding, neighborhood analysis, street-graph routing, and isochrones via 29."
+
 category: Location Data
 stars: n/a (new listing)
 added: 2026-08-18

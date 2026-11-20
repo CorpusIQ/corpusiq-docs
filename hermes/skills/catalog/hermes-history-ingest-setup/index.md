@@ -1,6 +1,7 @@
 ---
 title: Hermes History Ingest - Setup Guide for Hermes Agents
-description: Mine Hermes agent session history into Obsidian wiki. Extract insights from past conversations, import ~/.hermes memories, and track knowledge evolution. 2.1K+ installs.
+description: "Mine Hermes agent session history into Obsidian wiki. Extract insights from past conversations, import ~/.hermes memories, and track knowledge evolution."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-history-ingest-setup/"
 robots: "index,follow"
 last_updated: "2026-11-01"

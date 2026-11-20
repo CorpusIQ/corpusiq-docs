@@ -1,6 +1,7 @@
 ---
 title: Stitch Skills - Google Design-to-Code Pipeline
-description: Transform designs into production React/Shadcn code with Google's Stitch. 285K+ combined installs across 6 skills. Design MD, React generation, prompt enhancement, and Remotion video - official Google Labs project.
+description: "Transform designs into production React/Shadcn code with Google's Stitch. 285K+ combined installs across 6 skills."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/stitch-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-11-01"

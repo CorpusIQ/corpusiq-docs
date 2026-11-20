@@ -1,6 +1,7 @@
 ---
 title: ddmarketer MCP - Validated SaaS Opportunity Intelligence
-description: Hosted, keyless MCP server that surfaces validated SaaS opportunities mined from real user complaints across eight public sources and scored 0-100 for commercial intent. Four tools cover gap search by keyword, weekly top opportunities, idea validation against the complaint corpus, and full dossiers with source links, MVP scope and suggested pricing.
+description: "Hosted, keyless MCP server that surfaces validated SaaS opportunities mined from real user complaints across eight public sources and scored 0-100."
+
 category: Data & Analytics
 stars: n/a (new listing)
 added: 2026-09-04

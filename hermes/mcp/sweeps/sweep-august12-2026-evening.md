@@ -1,6 +1,7 @@
 ---
 title: "MCP Sweep - August 12, 2026 (Evening)"
-description: "Follow-up to the Aug 12 afternoon sweep (~3 hours later). 4 new business-relevant MCP servers catalogued, 3 integration guides written - consulting-grade deliverable generation, field-service ERP with write-capable MCP, AI-search-visibility tooling, and self-hosted task management."
+description: "Follow-up to the Aug 12 afternoon sweep (~3 hours later). 4 new business-relevant MCP servers catalogued, 3 integration guides written - consulting-grade."
+
 date: 2026-08-12
 sources: [mcpservers.org, mcp.so]
 status: complete

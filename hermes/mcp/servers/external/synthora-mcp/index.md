@@ -1,6 +1,7 @@
 ---
 title: "SYNTHORA MCP - Verified Multi-Source Intelligence Mesh"
-description: "SYNTHORA Intelligence Mesh MCP server exposes 30 verified multi-source intelligence tools - sanctions screening, crypto market data, prediction markets, macro and maritime intel - with pay-per-call x402 USDC settlement on Base"
+description: "SYNTHORA Intelligence Mesh MCP server exposes 30 verified multi-source intelligence tools - sanctions screening, crypto market data, prediction markets."
+
 category: Intelligence & Compliance
 stars: n/a (hosted service)
 added: 2026-08-19

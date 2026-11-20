@@ -1,6 +1,7 @@
 ---
 title: "Xverum MCP - People Search Across 750M Professional Profiles"
-description: "Hosted remote MCP server for people search and enrichment across 750 million professional profiles: natural-language search by role, seniority, skills, industry, and location, full profile pulls with work history and education, and Next Move Signal job-change prediction for sourcing and prospecting"
+description: "Hosted remote MCP server for people search and enrichment across 750 million professional profiles: natural-language search by role, seniority, skills."
+
 category: Sales & Outreach
 stars: n/a (new listing)
 added: 2026-08-20

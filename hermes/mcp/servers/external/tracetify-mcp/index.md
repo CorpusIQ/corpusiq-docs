@@ -1,6 +1,7 @@
 ---
 title: "Tracetify MCP - SEO, GEO and Growth Reports for Agents"
-description: "Trace how any product actually grew: 12-source growth reconstruction, Search Console performance, site audits, backlink and AI-visibility research, served to Claude Code or Cursor through one MCP server."
+description: "Trace how any product actually grew: 12-source growth reconstruction, Search Console performance, site audits, backlink and AI-visibility research, served."
+
 category: SEO
 stars: n/a (new listing)
 added: 2026-09-03

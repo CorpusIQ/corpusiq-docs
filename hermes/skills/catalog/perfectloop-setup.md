@@ -1,6 +1,7 @@
 ---
 title: Perfectloop - Agent Loop Design Framework Setup Guide
-description: Install and configure sebmarion/hermes-agent-skill-perfectloop - a design-layer framework for building safe, testable, gated agent loops with objective verification
+description: "Install and configure sebmarion/hermes-agent-skill-perfectloop - a design-layer framework for building safe, testable, gated agent loops with objective."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/perfectloop-setup/"
 robots: "index,follow"
 last_updated: "2026-11-01"

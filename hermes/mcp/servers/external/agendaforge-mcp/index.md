@@ -1,6 +1,7 @@
 ---
 title: "AgendaForge MCP - Event Operations for AI Agents"
-description: "Official remote MCP for AgendaForge, the AI-native event management platform: 53 tools read and manage events, sessions, speakers, agendas, CFP forms and submissions, sponsors, ticketed attendees and email sends, with every write proposed for a human to approve in-app. OAuth 2.1, nothing to install."
+description: "Official remote MCP for AgendaForge, the AI-native event management platform: 53 tools read and manage events, sessions, speakers, agendas, CFP forms."
+
 category: Productivity
 stars: n/a (hosted)
 added: 2026-08-27

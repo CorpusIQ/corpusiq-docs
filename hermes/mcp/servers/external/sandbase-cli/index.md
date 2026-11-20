@@ -1,6 +1,7 @@
 ---
 title: "SandBase CLI - MCP Bridge to 2,000 Plus AI Models and APIs"
-description: "SandBase CLI is a local MCP bridge connecting 25 AI client targets to a catalog of 2,000 plus AI models and APIs with discovery, inspection, execution and cost tracking tools"
+description: "SandBase CLI is a local MCP bridge connecting 25 AI client targets to a catalog of 2,000 plus AI models and APIs with discovery, inspection, execution."
+
 category: AI Infrastructure
 stars: 17
 added: 2026-08-19

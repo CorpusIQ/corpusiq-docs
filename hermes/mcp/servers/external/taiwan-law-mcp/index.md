@@ -1,6 +1,7 @@
 ---
 title: "Taiwan Law MCP - CorpusIQ Docs"
-description: Taiwan legal research over MCP - statutes, court judgments, constitutional interpretations and legislative history from official government sources, free with no API key.
+description: "Taiwan legal research over MCP - statutes, court judgments, constitutional interpretations and legislative history from official government sources, free."
+
 category: Compliance
 stars: n/a (new listing)
 added: 2026-08-17

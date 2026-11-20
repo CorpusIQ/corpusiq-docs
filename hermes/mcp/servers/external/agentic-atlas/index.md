@@ -1,6 +1,7 @@
 ---
 title: Agentic Atlas MCP - Field-Tested Agent-System Design
-description: "Read-only MCP consultation surface for field-tested agent-system design patterns. Five keyless tools (orient, cards, read, links, navigate) over one versioned Release v1.0.6, served stateless at agentic-atlas.dev/mcp."
+description: "Read-only MCP consultation surface for field-tested agent-system design patterns. Five keyless tools (orient, cards, read, links, navigate) over one."
+
 category: AI Agents
 stars: n/a (new listing)
 added: 2026-08-24

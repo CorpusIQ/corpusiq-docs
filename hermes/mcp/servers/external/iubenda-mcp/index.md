@@ -1,6 +1,7 @@
 ---
 title: "iubenda MCP - Website Legal Compliance for Agents"
-description: "Handle website legal compliance end to end: generate privacy and cookie policies, set up consent banners, draft terms and conditions, and run cookie scans through natural-language chat."
+description: "Handle website legal compliance end to end: generate privacy and cookie policies, set up consent banners, draft terms and conditions, and run cookie scans."
+
 category: Compliance
 stars: n/a (no public repo)
 added: 2026-09-03

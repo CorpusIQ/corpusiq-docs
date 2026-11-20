@@ -1,6 +1,7 @@
 ---
 title: "Dealwize MCP - B2B Deal Intelligence for AI Agents"
-description: B2B deal intelligence for sales teams - deal health analysis, stakeholder and risk surfacing, Mutual Action Plans and Dealboards built from meeting transcripts, served to any MCP client
+description: "B2B deal intelligence for sales teams - deal health analysis, stakeholder and risk surfacing, Mutual Action Plans and Dealboards built from meeting."
+
 category: Sales & Outreach
 stars: n/a (new listing)
 added: 2026-09-04

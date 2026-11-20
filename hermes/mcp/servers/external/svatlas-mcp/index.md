@@ -1,6 +1,7 @@
 ---
 title: "SV Atlas MCP - Find Startups That Will Buy Your Product"
-description: "Hosted MCP server over sourced profiles of accelerator-backed startups: match a product website to its ideal customer, rank likely buyers, and work outreach lists - 19 tools over OAuth with a free tier."
+description: "Hosted MCP server over sourced profiles of accelerator-backed startups: match a product website to its ideal customer, rank likely buyers, and work outreach."
+
 category: Sales Intelligence
 stars: n/a (new listing)
 added: 2026-10-08

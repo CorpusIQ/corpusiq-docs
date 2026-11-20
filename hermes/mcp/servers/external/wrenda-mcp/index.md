@@ -1,6 +1,7 @@
 ---
 title: "Wrenda MCP - Edge AI-Visibility Optimization for Websites"
-description: "Wrenda puts a per-domain MCP server in front of your website at the edge: AI agents call POST /.well-known/mcp to list tools and act on the site. The edge rewrites pages into enriched markdown with schema, FAQs and entity expansion (up to 12x tokens), pre-renders JavaScript-heavy pages for crawlers, and tracks AI citations across ChatGPT, Perplexity, Gemini, AI Overviews, Copilot and Grok with drift alerts."
+description: "Wrenda puts a per-domain MCP server in front of your website at the edge: AI agents call POST /.well-known/mcp to list tools and act on the site."
+
 category: SEO
 stars: n/a (new listing)
 added: 2026-09-15

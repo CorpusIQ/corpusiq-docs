@@ -1,6 +1,7 @@
 ---
 title: "How to Vet an MCP Server Before You Connect"
-description: "A 10-minute operator checklist for MCP servers: read the tool list before authorizing, probe the endpoint, inspect the OAuth discovery document, and decide what the server is allowed to see."
+description: "A 10-minute operator checklist for MCP servers: read the tool list before authorizing, probe the endpoint, inspect the OAuth discovery document, and decide."
+
 category: guides
 tags: ["mcp server", "security", "oauth", "tool review", "model context protocol"]
 last_updated: "2026-11-18"

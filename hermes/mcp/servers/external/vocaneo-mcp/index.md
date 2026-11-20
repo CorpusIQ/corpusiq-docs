@@ -1,6 +1,7 @@
 ---
 title: "Vocaneo MCP - French Jobs, Diplomas, and Training Data"
-description: "Official keyless remote MCP server from Vocaneo, the French career-guidance platform: 13 read-only tools to search jobs, RNCP and RS diplomas, certifications, and 135,000 training programs with skills comparison, career pathways, training centers, and French location resolution, verified live at the Streamable HTTP endpoint with no account required."
+description: "Official keyless remote MCP server from Vocaneo, the French career-guidance platform: 13 read-only tools to search jobs, RNCP and RS diplomas."
+
 category: Business Operations
 stars: n/a (new listing, github.com/CIB-PROD/vocaneo-mcp-connector)
 added: 2026-08-28

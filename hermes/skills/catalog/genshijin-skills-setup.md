@@ -1,6 +1,7 @@
 ---
 title: "Genshijin Skills - Japanese Concise-Reply Framework Setup"
-description: "interfacex-co-jp/genshijin - 7 skills, 19.2K installs: a Japanese concise-reply framework for agents with commit, review, compress, stats, help, and crew workflow commands."
+description: "interfacex-co-jp/genshijin - 7 skills, 19.2K installs: a Japanese concise-reply framework for agents with commit, review, compress, stats, help, and crew."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/genshijin-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-11-01"

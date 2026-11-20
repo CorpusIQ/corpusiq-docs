@@ -1,6 +1,7 @@
 ---
 title: "Legalize MCP - Point-in-Time Legislation with Git Provenance"
-description: "Consolidated legislation as data from the Legalize corpus: list countries, search laws, read a law as of any date, and diff reforms between two dates with git SHAs for citation. Seven read-only tools over Streamable HTTP with OAuth 2.1 sign-in."
+description: "Consolidated legislation as data from the Legalize corpus: list countries, search laws, read a law as of any date, and diff reforms between two dates."
+
 category: IP/Legal
 stars: 0
 added: 2026-08-26

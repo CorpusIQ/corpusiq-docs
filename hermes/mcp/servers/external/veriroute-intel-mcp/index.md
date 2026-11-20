@@ -1,6 +1,7 @@
 ---
 title: VeriRoute Intel MCP - Live Phone Number Intelligence
-description: "Hosted MCP server for live US and Canada phone number intelligence: carrier of record, line type, LRN routing, porting date, CNAM caller-ID name and spam, scam and robocall reputation. Five tools including bulk lookups up to 10,000 numbers, prepaid balance billing with no charge for failed lookups, and free sandbox test keys."
+description: "Hosted MCP server for live US and Canada phone number intelligence: carrier of record, line type, LRN routing, porting date, CNAM caller-ID name and spam."
+
 category: Sales & Outreach
 stars: n/a (new listing)
 added: 2026-09-04

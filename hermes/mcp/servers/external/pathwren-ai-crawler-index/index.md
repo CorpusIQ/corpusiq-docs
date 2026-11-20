@@ -1,6 +1,7 @@
 ---
 title: "AI Crawler Index MCP - Robots.txt Control for AI Bots"
-description: "Keyless hosted MCP that identifies AI crawlers by user-agent or IP and generates the robots.txt that matches your stance: look up any crawler's operator, category and verification method, test IPs against operator-published prefixes remirrored every six hours, and produce ready-to-paste robots.txt blocks for eight stances with reasoning."
+description: "Keyless hosted MCP that identifies AI crawlers by user-agent or IP and generates the robots.txt that matches your stance: look up any crawler's operator."
+
 category: SEO
 stars: "n/a (hosted service)"
 added: 2026-09-01

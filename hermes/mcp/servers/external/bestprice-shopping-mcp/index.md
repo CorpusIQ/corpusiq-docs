@@ -1,6 +1,7 @@
 ---
 title: "BestPrice Shopping MCP - Greek Market Price Comparison"
-description: "Read-only product search, merchant offer comparison, and price history for the Greek market. Search the BestPrice.gr catalog, compare delivered totals to Greek postal codes, and see whether today's price is low or high over 30, 90, or 180 days."
+description: "Read-only product search, merchant offer comparison, and price history for the Greek market."
+
 category: Commerce & E-Commerce
 stars: 0
 added: 2026-08-26

@@ -1,6 +1,7 @@
 ---
 title: "New Skills - October 11, 2026 (Evening)"
-description: "Skills.sh sweep (Oct 11 evening): 892 skills checked; 1 new publisher guide - Wayne Sutton Builder Skills (37.6K combined, Convex app development + project workflow)."
+description: "Skills.sh sweep (Oct 11 evening): 892 skills checked; 1 new publisher guide - Wayne Sutton Builder Skills (37.6K combined, Convex app development + project."
+
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-oct11-2026-evening-skills/"
 robots: "index,follow"
 last_updated: "2026-11-01"

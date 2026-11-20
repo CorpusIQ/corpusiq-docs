@@ -1,6 +1,7 @@
 ---
 title: "den MCP - Korean AEC Standards with Clause References"
-description: "Remote MCP server for Korean construction and building standards: KDS, KCS, KS and building statutes. Every answer carries the source clause number (for example KDS 14 20 22 section 4.3.1) and the server abstains rather than guessing when it has no grounds. Ten tools including k_snippets, answer_why, compare, scenario, site_context and review_plan; Bearer token, free beta, no query logging."
+description: "Remote MCP server for Korean construction and building standards: KDS, KCS, KS and building statutes."
+
 category: Compliance
 stars: n/a (new listing)
 added: 2026-08-21

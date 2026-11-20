@@ -1,6 +1,7 @@
 ---
 title: "ChinaMedVisit MCP - Hospital Prices in China vs US"
-description: "A keyless MCP server that puts a priced range and a currency conversion in front of the model instead of an invented number, and substitutes quietly when the argument is wrong."
+description: "A keyless MCP server that puts a priced range and a currency conversion in front of the model instead of an invented number, and substitutes quietly when."
+
 category: "Healthcare / Cost Data"
 stars: "0 (remote Streamable HTTP, keyless and stateless; six tools, all six driven)"
 added: 2026-11-15

@@ -1,6 +1,7 @@
 ---
 title: Klarix Intelligence Engine MCP - B2B Competitive
-description: Live B2B competitive intelligence for agents - prospect matching over vector-embedded company profiles, 5-axis ICP fit scoring, competitor battlecards, tech stack teardowns and displacement playbooks built from cited public-web evidence
+description: "Live B2B competitive intelligence for agents - prospect matching over vector-embedded company profiles, 5-axis ICP fit scoring, competitor battlecards, tech."
+
 category: Sales & Outreach
 stars: n/a (new listing)
 added: 2026-09-03

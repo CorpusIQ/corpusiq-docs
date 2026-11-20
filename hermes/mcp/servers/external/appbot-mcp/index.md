@@ -1,6 +1,7 @@
 ---
 title: "Appbot MCP - App Review Intelligence for AI Assistants"
-description: "Official beta MCP server from Appbot: connect ChatGPT, Claude, Cursor or OpenCode to your App Store and Google Play reviews, ratings, sentiment, topics and feature requests for natural-language product feedback analysis."
+description: "Official beta MCP server from Appbot: connect ChatGPT, Claude, Cursor or OpenCode to your App Store and Google Play reviews, ratings, sentiment, topics."
+
 category: Data & Analytics
 stars: "n/a (closed source)"
 added: 2026-08-29

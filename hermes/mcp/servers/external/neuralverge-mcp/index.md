@@ -1,6 +1,7 @@
 ---
 title: "NeuralVerge MCP - B2B People and Company Data"
-description: "B2B people and company data for prospecting: LinkedIn profile and employee search, email finding and validation, phone enrichment and Crunchbase profiles over one HTTP endpoint."
+description: "B2B people and company data for prospecting: LinkedIn profile and employee search, email finding and validation, phone enrichment and Crunchbase profiles."
+
 category: Sales & Outreach
 stars: n/a (no public repo)
 added: 2026-09-03

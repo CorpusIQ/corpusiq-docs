@@ -1,6 +1,7 @@
 ---
 title: B2B Creators MCP - LinkedIn Content Across Every Team
-description: "Remote MCP server for LinkedIn content operations at team scale. Plan, route for approval and publish posts across every personal LinkedIn profile a team manages - 5 to 500 people - with per-profile reporting, company page analytics and LinkedIn Ads breakdowns. Streamable HTTP endpoint; first 2 profiles free."
+description: "Remote MCP server for LinkedIn content operations at team scale. Plan, route for approval and publish posts across every personal LinkedIn profile a team."
+
 category: "Social Media Management"
 stars: n/a (new listing)
 added: 2026-09-12
