@@ -3,7 +3,7 @@ title: "Hermes Ecosystem Map - CorpusIQ Docs"
 description: "Visual map of the entire Hermes Agent ecosystem - 459+ repos, 18 categories, all connections visualized"
 canonical: "https://www.corpusiq.io/docs/hermes/ecosystem-map/"
 robots: "index,follow"
-last_updated: "2026-11-17"
+last_updated: "2026-11-19"
 tags: ["hermes ecosystem", "agent ecosystem", "community"]
 
 ---
