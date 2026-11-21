@@ -107,8 +107,8 @@
     "description": "Intelligent model routing for Hermes agents - cost optimization, task classification, and provider fallback chains.",
     "url": "https://www.corpusiq.io/docs/hermes/infrastructure/routing",
     
-    "datePublished": "2026-11-02",
-    "dateModified": "2026-11-02",
+    "datePublished": "2026-11-21",
+    "dateModified": "2026-11-21",
     
     "author": {
       "@type": "Organization",
@@ -132,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-11-02">
+  <meta name="last-updated" content="2026-11-21">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -184,7 +184,7 @@
   </script>
 
   
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Article", "TechArticle"], "headline": "Multi-Model Routing - CorpusIQ Docs", "url": "https://www.corpusiq.io/docs/hermes/infrastructure/routing", "image": "https://www.corpusiq.io/og?title=Multi-Model%20Routing%20-%20CorpusIQ%20Docs&category=Docs", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.corpusiq.io/docs/hermes/infrastructure/routing"}, "datePublished": "2026-11-01", "dateModified": "2026-11-02", "author": {"@id": "https://www.corpusiq.io#organization"}, "publisher": {"@id": "https://www.corpusiq.io#organization"}, "isPartOf": {"@id": "https://www.corpusiq.io#website"}, "inLanguage": "en-US", "description": "Intelligent model routing for Hermes agents - cost optimization, task classification, and provider fallback chains.", "articleSection": "Hermes"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Article", "TechArticle"], "headline": "Multi-Model Routing - CorpusIQ Docs", "url": "https://www.corpusiq.io/docs/hermes/infrastructure/routing", "image": "https://www.corpusiq.io/og?title=Multi-Model%20Routing%20-%20CorpusIQ%20Docs&category=Docs", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.corpusiq.io/docs/hermes/infrastructure/routing"}, "datePublished": "2026-11-01", "dateModified": "2026-11-21", "author": {"@id": "https://www.corpusiq.io#organization"}, "publisher": {"@id": "https://www.corpusiq.io#organization"}, "isPartOf": {"@id": "https://www.corpusiq.io#website"}, "inLanguage": "en-US", "description": "Intelligent model routing for Hermes agents - cost optimization, task classification, and provider fallback chains.", "articleSection": "Hermes"}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Docs", "item": "https://www.corpusiq.io/docs"}, {"@type": "ListItem", "position": 2, "name": "Hermes", "item": "https://www.corpusiq.io/docs/hermes"}, {"@type": "ListItem", "position": 3, "name": "Infrastructure", "item": "https://www.corpusiq.io/docs/hermes/infrastructure"}, {"@type": "ListItem", "position": 4, "name": "Multi-Model Routing - CorpusIQ Docs", "item": "https://www.corpusiq.io/docs/hermes/infrastructure/routing"}]}</script>
 </head>
   
@@ -13916,14 +13916,14 @@
 <tbody>
 <tr>
 <td>Routine execution</td>
-<td>Small local model</td>
-<td>Ollama (local)</td>
+<td>Small local model (Qwen3-8B)</td>
+<td>vLLM on loopback</td>
 <td>Free</td>
 </tr>
 <tr>
 <td>Content generation</td>
 <td>Mid local model</td>
-<td>Local GPU</td>
+<td>Ollama on local GPU</td>
 <td>Free</td>
 </tr>
 <tr>
@@ -13961,7 +13961,7 @@
 <h2 id="what-the-local-tier-needs-to-be-trustworthy">What the local tier needs to be trustworthy<a class="headerlink" href="#what-the-local-tier-needs-to-be-trustworthy" title="Anchor link to this section">&para;</a></h2>
 <p>A local model only saves money if it cannot hold up the request. Four requirements, taken from a running deployment:</p>
 <ol>
-<li><strong>An OpenAI-compatible endpoint on loopback.</strong> One served model behind <code>/v1/chat/completions</code> on <code>127.0.0.1</code> keeps the router code identical for local and hosted models.</li>
+<li><strong>An OpenAI-compatible endpoint on loopback.</strong> One served model behind <code>/v1/chat/completions</code> on <code>127.0.0.1</code> keeps the router code identical for local and hosted models. In this deployment that is Qwen3-8B behind vLLM on <code>127.0.0.1:8100</code>, served with an 8K context window.</li>
 <li><strong>Two deadlines, not one.</strong> A soft deadline (10 seconds here) flags the call as slow while it finishes; a hard deadline (20 seconds) abandons it and records a failure. A single timeout value cannot express both.</li>
 <li><strong>The router owns escalation.</strong> The local model never decides to escalate. A timeout or transport failure returns control to the router, which chooses the next tier.</li>
 <li><strong>A circuit breaker with a long cool-off.</strong> After repeated failures in a short window, the local tier is disabled for the day rather than re-probed on every request.</li>

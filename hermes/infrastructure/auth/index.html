@@ -107,8 +107,8 @@
     "description": "OAuth token lifecycle, API key rotation, and authentication monitoring for autonomous Hermes agents.",
     "url": "https://www.corpusiq.io/docs/hermes/infrastructure/auth",
     
-    "datePublished": "2026-11-02",
-    "dateModified": "2026-11-02",
+    "datePublished": "2026-11-21",
+    "dateModified": "2026-11-21",
     
     "author": {
       "@type": "Organization",
@@ -132,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-11-02">
+  <meta name="last-updated" content="2026-11-21">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -184,7 +184,7 @@
   </script>
 
   
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Article", "TechArticle"], "headline": "Authentication Management - CorpusIQ Docs", "url": "https://www.corpusiq.io/docs/hermes/infrastructure/auth", "image": "https://www.corpusiq.io/og?title=Authentication%20Management%20-%20CorpusIQ%20Docs&category=Docs", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.corpusiq.io/docs/hermes/infrastructure/auth"}, "datePublished": "2026-11-01", "dateModified": "2026-11-02", "author": {"@id": "https://www.corpusiq.io#organization"}, "publisher": {"@id": "https://www.corpusiq.io#organization"}, "isPartOf": {"@id": "https://www.corpusiq.io#website"}, "inLanguage": "en-US", "description": "OAuth token lifecycle, API key rotation, and authentication monitoring for autonomous Hermes agents.", "articleSection": "Hermes"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Article", "TechArticle"], "headline": "Authentication Management - CorpusIQ Docs", "url": "https://www.corpusiq.io/docs/hermes/infrastructure/auth", "image": "https://www.corpusiq.io/og?title=Authentication%20Management%20-%20CorpusIQ%20Docs&category=Docs", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.corpusiq.io/docs/hermes/infrastructure/auth"}, "datePublished": "2026-11-01", "dateModified": "2026-11-21", "author": {"@id": "https://www.corpusiq.io#organization"}, "publisher": {"@id": "https://www.corpusiq.io#organization"}, "isPartOf": {"@id": "https://www.corpusiq.io#website"}, "inLanguage": "en-US", "description": "OAuth token lifecycle, API key rotation, and authentication monitoring for autonomous Hermes agents.", "articleSection": "Hermes"}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Docs", "item": "https://www.corpusiq.io/docs"}, {"@type": "ListItem", "position": 2, "name": "Hermes", "item": "https://www.corpusiq.io/docs/hermes"}, {"@type": "ListItem", "position": 3, "name": "Infrastructure", "item": "https://www.corpusiq.io/docs/hermes/infrastructure"}, {"@type": "ListItem", "position": 4, "name": "Authentication Management - CorpusIQ Docs", "item": "https://www.corpusiq.io/docs/hermes/infrastructure/auth"}]}</script>
 </head>
   
@@ -13952,8 +13952,8 @@
 </tr>
 <tr>
 <td>Business tool MCP</td>
-<td>OAuth 2.0</td>
-<td>Client credentials</td>
+<td>OAuth 2.0 (JWT access + refresh token)</td>
+<td>Token refresh automation</td>
 </tr>
 <tr>
 <td>GitHub</td>
@@ -13964,7 +13964,7 @@
 </table>
 <h2 id="token-lifecycle">Token Lifecycle<a class="headerlink" href="#token-lifecycle" title="Anchor link to this section">&para;</a></h2>
 <p>Provision → Monitor → Refresh → Rotate → Deprecate</p>
-<p>Each token tracked for expiration date (alerted 7 days before), scope validity (verified on each use), and usage patterns (anomaly detection).</p>
+<p>Each token tracked for expiration date (the 30-day MCP refresh credential is flagged when 5 days remain, because renewal needs a human device approval), scope validity (verified on each use), and usage patterns (anomaly detection).</p>
 <h2 id="implementation">Implementation<a class="headerlink" href="#implementation" title="Anchor link to this section">&para;</a></h2>
 <h3 id="storage">Storage<a class="headerlink" href="#storage" title="Anchor link to this section">&para;</a></h3>
 <ul>
@@ -13972,7 +13972,7 @@
 <li><strong>Linux</strong>: Secret files outside the repository (mode 0600) plus environment variables for API keys</li>
 </ul>
 <h3 id="refresh-automation">Refresh Automation<a class="headerlink" href="#refresh-automation" title="Anchor link to this section">&para;</a></h3>
-<p>OAuth tokens auto-refresh before expiry. Failures trigger P1 alerts. API keys monitored for rotation.</p>
+<p>OAuth tokens auto-refresh before expiry. A failed refresh is raised by the auth-health and token-guard crons, which mail an alert rather than letting a job die silently. API keys monitored for rotation.</p>
 <h3 id="security">Security<a class="headerlink" href="#security" title="Anchor link to this section">&para;</a></h3>
 <ul>
 <li>Tokens never logged or included in debug output</li>

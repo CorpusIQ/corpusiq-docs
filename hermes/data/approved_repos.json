@@ -8063,5 +8063,48 @@
     "discovered_at": "2026-11-20T04:07:08.780135+00:00",
     "status": "approved",
     "approved_at": "2026-11-20T04:07:08.780143+00:00"
+  },
+  {
+    "name": "ThinkInAIXYZ/deepchat",
+    "url": "https://github.com/ThinkInAIXYZ/deepchat",
+    "description": "\ud83d\udc2cDeepChat - A smart assistant that connects powerful AI to your personal world",
+    "stars": 6408,
+    "forks": 784,
+    "language": "TypeScript",
+    "topics": [
+      "agent",
+      "agent-skills",
+      "ai",
+      "ai-assistant",
+      "ai-sdk",
+      "chatgpt",
+      "claude",
+      "cross-platform",
+      "deepseek",
+      "electron",
+      "gemini",
+      "harness-design",
+      "hermes-agent",
+      "llm-client",
+      "mcp",
+      "mcp-client",
+      "openai-client",
+      "openclaw"
+    ],
+    "updated_at": "2026-11-21T04:14:06Z",
+    "category": "forks",
+    "score": 75,
+    "tier": "AUTO_APPROVE",
+    "score_reasons": [
+      "hermes_topic",
+      "agent_ecosystem",
+      "high_stars_1000+",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-11-21T11:30:57.390175+00:00",
+    "status": "approved",
+    "approved_at": "2026-11-21T11:33:03.323006+00:00"
   }
 ]

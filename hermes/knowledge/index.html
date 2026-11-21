@@ -111,8 +111,8 @@
     "description": "Hermes Agent memory architecture guide covering the triple stack: Honcho peer memory, GBrain organizational knowledge, memcore-cloud cross-session recall",
     "url": "https://www.corpusiq.io/docs/hermes/knowledge",
     
-    "datePublished": "2026-11-04",
-    "dateModified": "2026-11-04",
+    "datePublished": "2026-11-21",
+    "dateModified": "2026-11-21",
     
     "author": {
       "@type": "Organization",
@@ -136,7 +136,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-11-04">
+  <meta name="last-updated" content="2026-11-21">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -188,7 +188,7 @@
   </script>
 
   
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Article", "TechArticle"], "headline": "Knowledge", "url": "https://www.corpusiq.io/docs/hermes/knowledge", "image": "https://www.corpusiq.io/og?title=Knowledge&category=Docs", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.corpusiq.io/docs/hermes/knowledge"}, "datePublished": "2026-11-01", "dateModified": "2026-11-04", "author": {"@id": "https://www.corpusiq.io#organization"}, "publisher": {"@id": "https://www.corpusiq.io#organization"}, "isPartOf": {"@id": "https://www.corpusiq.io#website"}, "inLanguage": "en-US", "description": "Hermes Agent memory architecture guide covering the triple stack: Honcho peer memory, GBrain organizational knowledge, memcore-cloud cross-session recall", "articleSection": "Hermes"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Article", "TechArticle"], "headline": "Knowledge", "url": "https://www.corpusiq.io/docs/hermes/knowledge", "image": "https://www.corpusiq.io/og?title=Knowledge&category=Docs", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.corpusiq.io/docs/hermes/knowledge"}, "datePublished": "2026-11-01", "dateModified": "2026-11-21", "author": {"@id": "https://www.corpusiq.io#organization"}, "publisher": {"@id": "https://www.corpusiq.io#organization"}, "isPartOf": {"@id": "https://www.corpusiq.io#website"}, "inLanguage": "en-US", "description": "Hermes Agent memory architecture guide covering the triple stack: Honcho peer memory, GBrain organizational knowledge, memcore-cloud cross-session recall", "articleSection": "Hermes"}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Docs", "item": "https://www.corpusiq.io/docs"}, {"@type": "ListItem", "position": 2, "name": "Hermes", "item": "https://www.corpusiq.io/docs/hermes"}, {"@type": "ListItem", "position": 3, "name": "Knowledge", "item": "https://www.corpusiq.io/docs/hermes/knowledge"}]}</script>
 </head>
   
@@ -14201,7 +14201,8 @@ mcp__honcho__schedule_dream - Queue memory consolidation
 <span class="c1"># library - install Garry Tan&#39;s brain from the repo:</span>
 bun<span class="w"> </span>install<span class="w"> </span>-g<span class="w"> </span>github:garrytan/gbrain
 gbrain<span class="w"> </span>init<span class="w"> </span>--pglite<span class="w"> </span>--no-embedding
-<span class="c1"># GBrain indexes your project files into pglite with 768d embeddings</span>
+<span class="c1"># The index holds your project files in pglite; vectors are generated</span>
+<span class="c1"># separately by a 768-dimension embedding model (nomic-embed-text here)</span>
 </code></pre></div>
 <p><strong>What it stores:</strong></p>
 <div class="highlight"><pre><span></span><code>Organization: CorpusIQ
@@ -14212,10 +14213,10 @@ gbrain<span class="w"> </span>init<span class="w"> </span>--pglite<span class="w
 </code></pre></div>
 <p><strong>Query pattern:</strong></p>
 <div class="highlight"><pre><span></span><code><span class="c1"># &quot;What videos did we generate this week?&quot;</span>
-<span class="n">gbrain</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="s2">&quot;video pipeline generated files MP4 week June 2026&quot;</span><span class="p">)</span>
+gbrain<span class="w"> </span>search<span class="w"> </span><span class="s2">&quot;video pipeline generated files MP4 week June 2026&quot;</span>
 
 <span class="c1"># &quot;Where is the email template?&quot;</span>
-<span class="n">gbrain</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="s2">&quot;HTML email template operator time waste campaign&quot;</span><span class="p">)</span>
+gbrain<span class="w"> </span>search<span class="w"> </span><span class="s2">&quot;HTML email template campaign&quot;</span>
 </code></pre></div>
 <p><strong>Dream Cycle (3 AM daily):</strong></p>
 <div class="highlight"><pre><span></span><code>Nightly consolidation:
