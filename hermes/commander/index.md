@@ -1,7 +1,7 @@
 ---
 title: "Commander Common Sense Gate - CorpusIQ Docs"
-description: "Setup and usage guide for Commander Common Sense Gate. Part of the Hermes resource directory. judgment verification layer that inspects every proposed acti."
-last_updated: 2026-11-04
+description: "Setup and usage guide for Commander Common Sense Gate: a judgment layer that inspects every proposed Hermes action before execution."
+last_updated: 2026-11-21
 canonical: "https://www.corpusiq.io/docs/hermes/commander/"
 robots: "index,follow"
 tags: ["hermes agent", "ai agent", "nous research"]
@@ -33,7 +33,7 @@ Commander runs as the master controller. Every task enters through Commander fir
 
 17 hard rules run on every action. Pattern-matched in milliseconds:
 
-<!-- Count source of truth: CommanderReview.HARD_RULES in ~/.hermes/commander/commander_review.py (17 entries, checked 2026-11-04). Never re-derive this number from the bullet list below. -->
+<!-- Count source of truth: CommanderReview.HARD_RULES in ~/.hermes/commander/commander_review.py (17 entries, re-verified 2026-11-21). Never re-derive this number from the bullet list below. -->
 
 - No em dashes in public content
 - No internal analytics data in posts

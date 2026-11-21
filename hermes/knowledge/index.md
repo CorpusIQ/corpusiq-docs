@@ -3,7 +3,7 @@ title: "Memory Architecture Guide for Hermes Agent"
 description: "Hermes Agent memory architecture guide covering the triple stack: Honcho peer memory, GBrain organizational knowledge, memcore-cloud cross-session recall"
 category: knowledge
 tags: [hermes-agent, memory, honcho, gbrain, memcore-cloud, graphrag, persistent-memory, knowledge-management]
-last_updated: 2026-11-04
+last_updated: 2026-11-21
 canonical: "https://www.corpusiq.io/docs/hermes/knowledge/"
 robots: "index,follow"
 
@@ -95,7 +95,8 @@ peer = honcho_get_peer_context(target_peer_id="user")
 # library - install Garry Tan's brain from the repo:
 bun install -g github:garrytan/gbrain
 gbrain init --pglite --no-embedding
-# GBrain indexes your project files into pglite with 768d embeddings
+# The index holds your project files in pglite; vectors are generated
+# separately by a 768-dimension embedding model (nomic-embed-text here)
 ```
 
 **What it stores:**
@@ -110,12 +111,12 @@ Organization: CorpusIQ
 
 **Query pattern:**
 
-```python
+```bash
 # "What videos did we generate this week?"
-gbrain.search("video pipeline generated files MP4 week June 2026")
+gbrain search "video pipeline generated files MP4 week June 2026"
 
 # "Where is the email template?"
-gbrain.search("HTML email template operator time waste campaign")
+gbrain search "HTML email template campaign"
 ```
 
 **Dream Cycle (3 AM daily):**

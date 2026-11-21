@@ -3,7 +3,7 @@ title: "Authentication Management - CorpusIQ Docs"
 description: "OAuth token lifecycle, API key rotation, and authentication monitoring for autonomous Hermes agents."
 canonical: "https://www.corpusiq.io/docs/hermes/infrastructure/auth/"
 robots: "index,follow"
-last_updated: "2026-11-02"
+last_updated: "2026-11-21"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---
@@ -20,14 +20,14 @@ Autonomous agents require persistent, reliable authentication across multiple se
 | YouTube | OAuth 2.0 | Brand account support |
 | Video generation APIs | API Key | Rotation monitoring |
 | Social publishing | API Key | Multi-platform publishing |
-| Business tool MCP | OAuth 2.0 | Client credentials |
+| Business tool MCP | OAuth 2.0 (JWT access + refresh token) | Token refresh automation |
 | GitHub | PAT | File-based storage, 600 perms |
 
 ## Token Lifecycle
 
 Provision → Monitor → Refresh → Rotate → Deprecate
 
-Each token tracked for expiration date (alerted 7 days before), scope validity (verified on each use), and usage patterns (anomaly detection).
+Each token tracked for expiration date (the 30-day MCP refresh credential is flagged when 5 days remain, because renewal needs a human device approval), scope validity (verified on each use), and usage patterns (anomaly detection).
 
 ## Implementation
 
@@ -36,7 +36,7 @@ Each token tracked for expiration date (alerted 7 days before), scope validity (
 - **Linux**: Secret files outside the repository (mode 0600) plus environment variables for API keys
 
 ### Refresh Automation
-OAuth tokens auto-refresh before expiry. Failures trigger P1 alerts. API keys monitored for rotation.
+OAuth tokens auto-refresh before expiry. A failed refresh is raised by the auth-health and token-guard crons, which mail an alert rather than letting a job die silently. API keys monitored for rotation.
 
 ### Security
 - Tokens never logged or included in debug output
