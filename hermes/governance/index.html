@@ -107,8 +107,8 @@
     "description": "Production governance for autonomous agents - system registry, email ops, cron management, monitoring",
     "url": "https://www.corpusiq.io/docs/hermes/governance",
     
-    "datePublished": "2026-11-01",
-    "dateModified": "2026-11-01",
+    "datePublished": "2026-11-20",
+    "dateModified": "2026-11-20",
     
     "author": {
       "@type": "Organization",
@@ -132,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-11-01">
+  <meta name="last-updated" content="2026-11-20">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -184,7 +184,7 @@
   </script>
 
   
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Article", "TechArticle"], "headline": "Agent Governance - CorpusIQ Docs", "url": "https://www.corpusiq.io/docs/hermes/governance", "image": "https://www.corpusiq.io/og?title=Agent%20Governance%20-%20CorpusIQ%20Docs&category=Docs", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.corpusiq.io/docs/hermes/governance"}, "datePublished": "2026-11-01", "dateModified": "2026-11-01", "author": {"@id": "https://www.corpusiq.io#organization"}, "publisher": {"@id": "https://www.corpusiq.io#organization"}, "isPartOf": {"@id": "https://www.corpusiq.io#website"}, "inLanguage": "en-US", "description": "Production governance for autonomous agents - system registry, email ops, cron management, monitoring", "articleSection": "Hermes"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Article", "TechArticle"], "headline": "Agent Governance - CorpusIQ Docs", "url": "https://www.corpusiq.io/docs/hermes/governance", "image": "https://www.corpusiq.io/og?title=Agent%20Governance%20-%20CorpusIQ%20Docs&category=Docs", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.corpusiq.io/docs/hermes/governance"}, "datePublished": "2026-11-01", "dateModified": "2026-11-20", "author": {"@id": "https://www.corpusiq.io#organization"}, "publisher": {"@id": "https://www.corpusiq.io#organization"}, "isPartOf": {"@id": "https://www.corpusiq.io#website"}, "inLanguage": "en-US", "description": "Production governance for autonomous agents - system registry, email ops, cron management, monitoring", "articleSection": "Hermes"}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Docs", "item": "https://www.corpusiq.io/docs"}, {"@type": "ListItem", "position": 2, "name": "Hermes", "item": "https://www.corpusiq.io/docs/hermes"}, {"@type": "ListItem", "position": 3, "name": "Agent Governance - CorpusIQ Docs", "item": "https://www.corpusiq.io/docs/hermes/governance"}]}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "CollectionPage", "url": "https://www.corpusiq.io/docs/hermes/governance", "name": "Agent Governance - CorpusIQ Docs", "mainEntity": {"@type": "ItemList", "numberOfItems": 4, "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Email", "url": "https://www.corpusiq.io/docs/hermes/governance/email"}, {"@type": "ListItem", "position": 2, "name": "Monitoring", "url": "https://www.corpusiq.io/docs/hermes/governance/monitoring"}, {"@type": "ListItem", "position": 3, "name": "Registry", "url": "https://www.corpusiq.io/docs/hermes/governance/registry"}, {"@type": "ListItem", "position": 4, "name": "Scheduling", "url": "https://www.corpusiq.io/docs/hermes/governance/scheduling"}]}}</script>
 </head>
@@ -13828,10 +13828,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#eleven-governance-rules" class="md-nav__link">
+  <a href="#twelve-governance-rules" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Eleven Governance Rules
+        Twelve Governance Rules
       
     </span>
   </a>
@@ -13892,7 +13892,7 @@
 
 
 <h1 id="agent-governance">Agent Governance<a class="headerlink" href="#agent-governance" title="Anchor link to this section">&para;</a></h1>
-<p>Safety rails, monitoring, and operational rules for autonomous agents. Eleven governance rules, session management, and audit trails.</p>
+<p>Safety rails, monitoring, and operational rules for autonomous agents. Twelve governance rules, session management, and audit trails.</p>
 <table>
 <thead>
 <tr>
@@ -13919,7 +13919,7 @@
 </tr>
 </tbody>
 </table>
-<h2 id="eleven-governance-rules">Eleven Governance Rules<a class="headerlink" href="#eleven-governance-rules" title="Anchor link to this section">&para;</a></h2>
+<h2 id="twelve-governance-rules">Twelve Governance Rules<a class="headerlink" href="#twelve-governance-rules" title="Anchor link to this section">&para;</a></h2>
 <ol>
 <li><strong>Constitution first</strong> - load CONSTITUTION.md before any action</li>
 <li><strong>Task history</strong> - check TASK_HISTORY.md before every action</li>
@@ -13932,6 +13932,7 @@
 <li><strong>GitHub repo synchronization</strong> - Every new tool, application, architecture change, memory entry, skill, cron job, or system modification must be pushed to the <code>CorpusIQ/corpusiq-docs</code> repository immediately after the change. No change goes undocumented. The repo is the single source of truth for system state.</li>
 <li><strong>Platform connection failure</strong> - When a platform connection fails (auth error, ban, shadowban, rate limit, token missing): STOP. Do not retry. Do not loop. Log the failure and move on. Crashing by retrying nonstop is worse than being silent on a dead platform. Only retry on explicit user instruction.</li>
 <li><strong>Email sender identity</strong> - From name is permanently locked. One account, one name. Never change the sender name on outbound emails. Changing names from the same account triggers Gmail impersonation detection and account flags.</li>
+<li><strong>Watermark and attribution policy</strong> - Never add AI watermarks, AI-generated labels, signatures, logos or generator badges to output. Never strip C2PA provenance, legally required disclosures, or third-party copyright marks. Every image, video, PDF and document is validated by <code>scripts/watermark_gate.py</code> before publication, and a tool that forces a visible watermark is not used for a deliverable. Applies to every agent, subagent and cron.</li>
 </ol>
 <h2 id="monitoring-stack">Monitoring Stack<a class="headerlink" href="#monitoring-stack" title="Anchor link to this section">&para;</a></h2>
 <h2 id="layer-1-process-agent-alive-cpumemory-bounds-no-zombies-layer-2-operations-crons-firing-emails-flowing-apis-valid-layer-3-quality-outputs-meeting-thresholds-correct-channels"><div class="highlight"><pre><span></span><code>Layer 1: Process - agent alive, CPU/memory bounds, no zombies
