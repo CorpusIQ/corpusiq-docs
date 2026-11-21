@@ -48,6 +48,9 @@ All 40+ CorpusIQ connectors are available through the ChatGPT integration. See t
 - [Connect Ahrefs to ChatGPT](connect-ahrefs-to-chatgpt.md) - domain ratings, keyword and backlink questions inside a ChatGPT thread.
 - [Connect Semrush to ChatGPT](connect-semrush-to-chatgpt.md) - competitor keywords, backlinks and demand sizing inside a ChatGPT thread.
 - [Connect Odoo to ChatGPT](connect-odoo-to-chatgpt.md) - quotations, invoices, stock and pipeline across ERP modules in one ChatGPT thread.
+- [Connect OneDrive to ChatGPT](connect-onedrive-to-chatgpt.md) - contracts, decks and spreadsheets read from your Microsoft file store inside a ChatGPT thread.
+- [Connect Etsy to ChatGPT](connect-etsy-to-chatgpt.md) - listing performance, order trends and review themes inside a ChatGPT thread.
+- [Connect eBay to ChatGPT](connect-ebay-to-chatgpt.md) - GMV, fees, seller standards and funds on hold inside a ChatGPT thread.
 
 ## ChatGPT vs AI Agent Direct Connection
 

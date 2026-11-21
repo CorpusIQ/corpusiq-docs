@@ -45,6 +45,12 @@ CorpusIQ never lists items, edits listings, refunds buyers, or moves funds.
 - **Traffic report empty** - eBay's traffic data has a 24-48 hour lag. Check yesterday's date, not today's.
 - **Standards profile blank** - New sellers don't have a standards profile yet; eBay requires a minimum order volume.
 
+## See also
+
+- [Connect eBay to ChatGPT](../connect-ebay-to-chatgpt.md) - GMV, fees, seller standards and funds on hold inside a ChatGPT thread.
+- [Connect Etsy to ChatGPT](../connect-etsy-to-chatgpt.md) - the handmade marketplace beside the general one.
+- [Connect Amazon Seller to ChatGPT](../connect-amazon-seller-to-chatgpt.md) - the third channel in the same answer.
+
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

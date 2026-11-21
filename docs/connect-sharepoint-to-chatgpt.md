@@ -164,7 +164,7 @@ Setup takes under 5 minutes. No SharePoint admin configuration required.
 
 - [Connect SharePoint to Perplexity](connect-sharepoint-to-perplexity.md) - the same questions asked from Perplexity
 - [Connect Notion to ChatGPT](connect-notion-to-chatgpt.md) - knowledge base in ChatGPT
-- [Connect OneDrive to ChatGPT](https://www.corpusiq.io/docs) - personal file storage (available via CorpusIQ MCP)
+- [Connect OneDrive to ChatGPT](connect-onedrive-to-chatgpt.md) - personal file storage (available via CorpusIQ MCP)
 - [Connect Outlook to ChatGPT](connect-outlook-to-chatgpt.md) - Microsoft email in ChatGPT
 - [Connect Gmail to ChatGPT](connect-gmail-to-chatgpt.md) - Google email in ChatGPT
 - [Connect Slack to ChatGPT](connect-slack-to-chatgpt.md) - team communication in ChatGPT

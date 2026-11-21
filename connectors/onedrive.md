@@ -41,6 +41,12 @@ Read-only. CorpusIQ never edits, deletes, or shares your files.
 - File not found - confirm the file lives in OneDrive (not SharePoint or Teams shared libraries).
 - Permission denied on a specific file - that file was shared with restricted access. Open it in OneDrive to confirm.
 
+## See also
+
+- [Connect OneDrive to ChatGPT](../connect-onedrive-to-chatgpt.md) - contracts, decks and spreadsheets read from your Microsoft file store inside a ChatGPT thread.
+- [Connect SharePoint to ChatGPT](../connect-sharepoint-to-chatgpt.md) - the team document libraries beside the personal store.
+- [Connect Google Drive to ChatGPT](../connect-google-drive-to-chatgpt.md) - the other file store, same questions.
+
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
