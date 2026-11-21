@@ -3,14 +3,14 @@ title: "Agent Governance - CorpusIQ Docs"
 description: Production governance for autonomous agents - system registry, email ops, cron management, monitoring
 canonical: "https://www.corpusiq.io/docs/hermes/governance/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-20"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---
 
 # Agent Governance
 
-Safety rails, monitoring, and operational rules for autonomous agents. Eleven governance rules, session management, and audit trails.
+Safety rails, monitoring, and operational rules for autonomous agents. Twelve governance rules, session management, and audit trails.
 
 | Page | What You'll Learn |
 |------|-------------------|
@@ -19,7 +19,7 @@ Safety rails, monitoring, and operational rules for autonomous agents. Eleven go
 | [Cron Scheduling](/hermes/governance/scheduling) | Job management, scheduling patterns, chain jobs, delivery channels |
 | [System Monitoring](/hermes/governance/monitoring) | Health checks, drift detection, alerting, self-healing crons, audits |
 
-## Eleven Governance Rules
+## Twelve Governance Rules
 
 1. **Constitution first** - load CONSTITUTION.md before any action
 2. **Task history** - check TASK_HISTORY.md before every action
@@ -32,6 +32,7 @@ Safety rails, monitoring, and operational rules for autonomous agents. Eleven go
 9. **GitHub repo synchronization** - Every new tool, application, architecture change, memory entry, skill, cron job, or system modification must be pushed to the `CorpusIQ/corpusiq-docs` repository immediately after the change. No change goes undocumented. The repo is the single source of truth for system state.
 10. **Platform connection failure** - When a platform connection fails (auth error, ban, shadowban, rate limit, token missing): STOP. Do not retry. Do not loop. Log the failure and move on. Crashing by retrying nonstop is worse than being silent on a dead platform. Only retry on explicit user instruction.
 11. **Email sender identity** - From name is permanently locked. One account, one name. Never change the sender name on outbound emails. Changing names from the same account triggers Gmail impersonation detection and account flags.
+12. **Watermark and attribution policy** - Never add AI watermarks, AI-generated labels, signatures, logos or generator badges to output. Never strip C2PA provenance, legally required disclosures, or third-party copyright marks. Every image, video, PDF and document is validated by `scripts/watermark_gate.py` before publication, and a tool that forces a visible watermark is not used for a deliverable. Applies to every agent, subagent and cron.
 
 ## Monitoring Stack
 
