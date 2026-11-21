@@ -3,7 +3,7 @@ title: "Hermes Ecosystem - Complete Resource Directory"
 description: "The definitive directory of Hermes Agent resources - 460+ repos, docs, community tools, SDKs, integrations, benchmarks, and research"
 canonical: "https://www.corpusiq.io/docs/hermes/ecosystem/"
 robots: "index,follow"
-last_updated: "2026-11-20"
+last_updated: "2026-11-21"
 tags: ["hermes ecosystem", "agent ecosystem", "community"]
 
 ---
@@ -12,7 +12,7 @@ tags: ["hermes ecosystem", "agent ecosystem", "community"]
 
 The most comprehensive directory of Hermes Agent resources in existence. 460+ repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research - all organized and cross-referenced.
 
-> **Last updated:** November 20, 2026 · **Repos indexed:** 460+ · **Categories:** 18
+> **Last updated:** November 21, 2026 · **Repos indexed:** 460+ · **Categories:** 18
 >
 > 👉 **[Submit a repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)** · Missing something? [Open a PR →](https://github.com/CorpusIQ/corpusiq-docs)
 
@@ -2820,7 +2820,7 @@ Context-aware agentic LLM gateway and router that optimizes agentic workflows wi
 ---
 
 ### ThinkInAIXYZ/deepchat
-⭐ **6,023** · `TypeScript` · [github.com/ThinkInAIXYZ/deepchat](https://github.com/ThinkInAIXYZ/deepchat)
+⭐ **6,408** · `TypeScript` · [github.com/ThinkInAIXYZ/deepchat](https://github.com/ThinkInAIXYZ/deepchat)
 
 Smart assistant connecting powerful AI models - universal chat interface that bridges multiple AI models into a single, intelligent conversation experience. Supports DeepSeek, Anthropic Claude, OpenAI GPT, Google Gemini, and open-source models with context-aware model switching, conversation history management, and multi-modal capabilities. Designed as a companion interface for Hermes Agent deployments, providing a polished chat experience with smart model selection that routes queries to the best available model.
 

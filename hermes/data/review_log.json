@@ -23638,5 +23638,89 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-11-20T11:33:59.172530+00:00"
+  },
+  {
+    "repo": "Marsel204/Hermes-agent-backup",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-21T11:33:03.323019+00:00"
+  },
+  {
+    "repo": "jedbrnth-eng/no-cap",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-21T11:33:03.323024+00:00"
+  },
+  {
+    "repo": "yunusovabdullox36-hash/shoh-ielts-agent",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-21T11:33:03.323027+00:00"
+  },
+  {
+    "repo": "iranee/fnos-hermes-agent",
+    "score": 67,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-21T11:33:03.323029+00:00"
+  },
+  {
+    "repo": "grundy40wk/contextslice",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-21T11:33:03.323031+00:00"
+  },
+  {
+    "repo": "angga0x3/hermes-render",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-21T11:33:03.323033+00:00"
+  },
+  {
+    "repo": "vicberger-com/hermes-switchyard",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-21T11:33:03.323035+00:00"
+  },
+  {
+    "repo": "hosakb/hermes-skill-review",
+    "score": 37,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-21T11:33:03.323037+00:00"
+  },
+  {
+    "repo": "SerroAI/serro-agent-plugin",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-21T11:33:03.323039+00:00"
+  },
+  {
+    "repo": "ThinkInAIXYZ/deepchat",
+    "score": 75,
+    "tier": "AUTO_APPROVE",
+    "action": "auto_approved",
+    "timestamp": "2026-11-21T11:33:03.323041+00:00"
+  },
+  {
+    "repo": "tk-shockwave/cc-switch",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-21T11:33:03.323043+00:00"
+  },
+  {
+    "repo": "ansonTGN/cc-switch",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-21T11:33:03.323044+00:00"
   }
 ]
