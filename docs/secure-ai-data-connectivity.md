@@ -4,7 +4,7 @@ description: "Connect AI assistants to authorized business data with scoped OAut
 
 category: Security
 tags: [secure AI connectivity, zero-trust AI, business AI security, read-only external-source retrieval, MCP security, encrypted AI access, AI data governance]
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 canonical: https://www.corpusiq.io/docs/secure-ai-data-connectivity
 robots: index,follow
 ---

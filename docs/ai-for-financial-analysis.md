@@ -5,7 +5,7 @@ description: "Transform financial analysis with AI. Query QuickBooks, Stripe, an
 url: /docs/ai-for-financial-analysis
 h1: 'AI for Financial Analysis: Real-Time Finance Intelligence'
 category: Business Use Cases
-last_updated: '2026-11-07'
+last_updated: '2026-11-19'
 author: CorpusIQ
 canonical: https://www.corpusiq.io/docs/ai-for-financial-analysis
 keywords:

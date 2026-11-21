@@ -2,7 +2,7 @@
 title: "Airtable - CorpusIQ Docs"
 description: "Airtable holds operating data that never makes it into your BI tools. Connect it read-only and ask questions across Airtable and your other systems."
 
-last_updated: "2026-11-07"
+last_updated: "2026-11-19"
 ---
 # Airtable
 

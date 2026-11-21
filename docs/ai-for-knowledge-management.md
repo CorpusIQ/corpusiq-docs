@@ -5,7 +5,7 @@ description: "Transform knowledge management with AI. Query wikis, docs, Slack, 
 url: /docs/ai-for-knowledge-management
 h1: 'AI for Knowledge Management: Unlock Your Organization''s Brain'
 category: Business Use Cases
-last_updated: '2026-11-07'
+last_updated: '2026-11-19'
 author: CorpusIQ
 canonical: https://www.corpusiq.io/docs/ai-for-knowledge-management
 keywords:

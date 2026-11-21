@@ -2,7 +2,7 @@
 title: "Recipe: [Title] - CorpusIQ Docs"
 description: "Template for building your own CorpusIQ recipes. Copy the structure, fill in the connectors and prompts, and turn any recurring business question."
 
-last_updated: "2026-11-07"
+last_updated: "2026-11-19"
 ---
 # Recipe: [Title]
 

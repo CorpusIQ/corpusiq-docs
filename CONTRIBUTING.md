@@ -4,7 +4,7 @@ description: "Contribution guide for the CorpusIQ docs repository. How to submit
 
 category: "Documentation"
 tags: ["contribute", "open source", "docs", "community"]
-last_updated: "2026-11-07"
+last_updated: "2026-11-19"
 canonical: "https://www.corpusiq.io/docs/CONTRIBUTING/"
 robots: "index,follow"
 ---

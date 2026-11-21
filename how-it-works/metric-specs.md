@@ -2,7 +2,7 @@
 title: "Metric Specs - CorpusIQ Docs"
 description: "A metric spec is a small, user-declared recipe for one business number. Define ROAS once, and every assistant returns the same definition with the same cited."
 
-last_updated: "2026-11-07"
+last_updated: "2026-11-19"
 ---
 # Metric Specs
 

@@ -2,7 +2,7 @@
 title: CorpusIQ MCP install instructions for agents
 description: "Install the CorpusIQ MCP server in Cline, Claude Code, Cursor, VS Code, Gemini CLI or any remote MCP client."
 
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 # CorpusIQ MCP: install instructions for agents
 

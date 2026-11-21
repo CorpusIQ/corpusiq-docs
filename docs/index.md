@@ -4,7 +4,7 @@ description: "CorpusIQ connects 40+ business tools (QuickBooks, Shopify, Stripe,
 
 category: "Documentation"
 tags: ["corpusiq docs", "mcp documentation", "business data ai", "chatgpt integration", "claude integration", "ai data access", "mcp platform", "consistent business answers", "ai business intelligence"]
-last_updated: "2026-11-07"
+last_updated: "2026-11-19"
 canonical: "https://www.corpusiq.io/docs"
 robots: "index,follow"
 ---

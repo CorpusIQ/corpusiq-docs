@@ -2,7 +2,7 @@
 title: "ChatGPT Can't See CorpusIQ - CorpusIQ Docs"
 description: "You installed the CorpusIQ app in ChatGPT or wired the MCP connector but ChatGPT cannot see your CorpusIQ data."
 
-last_updated: "2026-11-07"
+last_updated: "2026-11-19"
 ---
 # ChatGPT can't see CorpusIQ
 

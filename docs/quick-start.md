@@ -4,7 +4,7 @@ description: "Connect QuickBooks, Shopify, Stripe, or HubSpot to ChatGPT in unde
 
 category: "Documentation"
 tags: ["corpusiq quick start", "connect data to chatgpt", "setup guide", "mcp setup", "oauth connection", "how to connect business data to ai", "first query", "chatgpt integration"]
-last_updated: "2026-11-02"
+last_updated: "2026-11-19"
 canonical: "https://www.corpusiq.io/docs/quick-start"
 robots: "index,follow"
 ---

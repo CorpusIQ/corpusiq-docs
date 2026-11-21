@@ -2,7 +2,7 @@
 title: "Privacy & Security - CorpusIQ Docs"
 description: "The short version: CorpusIQ reads your business data when you ask, returns cited answers, and retains no raw customer files."
 
-last_updated: "2026-11-07"
+last_updated: "2026-11-19"
 ---
 # Privacy and security
 

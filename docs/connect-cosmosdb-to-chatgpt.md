@@ -3,7 +3,7 @@ title: "Connect Azure Cosmos DB to ChatGPT via MCP"
 description: "Connect Azure Cosmos DB to ChatGPT through CorpusIQ MCP. Ask about containers, events and telemetry in plain English, read-only, with the objects named."
 category: ChatGPT Integrations
 tags: ["connect Azure Cosmos DB to ChatGPT", "Azure Cosmos DB ChatGPT integration", "MCP cosmosdb connector", "ask ChatGPT about business data", "CorpusIQ MCP"]
-last_updated: "2026-11-17"
+last_updated: "2026-11-20"
 canonical: "https://www.corpusiq.io/docs/connect-cosmosdb-to-chatgpt"
 robots: "index,follow"
 ---

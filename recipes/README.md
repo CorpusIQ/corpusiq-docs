@@ -2,7 +2,7 @@
 title: "CorpusIQ Recipes - Ready-Made Prompts"
 description: "Ready-made CorpusIQ recipes: monthly close, ROAS analysis, morning briefings, universal business search."
 
-last_updated: "2026-11-07"
+last_updated: "2026-11-19"
 ---
 # Recipes
 

@@ -2,7 +2,7 @@
 title: "Support Triage with HubSpot and Stripe - CorpusIQ Docs"
 description: "Cross-source support triage example: find open HubSpot tickets from customers with past-due Stripe invoices, prioritize by revenue at risk, and answer."
 
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 # Example: Support Triage with HubSpot + Stripe
 

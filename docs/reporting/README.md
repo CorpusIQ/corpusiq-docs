@@ -2,7 +2,7 @@
 title: "Reporting Guide - CorpusIQ Docs"
 description: "Reporting with CorpusIQ: ask revenue, ROAS, cash flow, and operational questions across connected tools and get one source-cited answer every time."
 
-last_updated: "2026-11-07"
+last_updated: "2026-11-19"
 ---
 # Reporting
 

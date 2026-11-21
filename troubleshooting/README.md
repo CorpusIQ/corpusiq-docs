@@ -2,7 +2,7 @@
 title: "Troubleshooting - CorpusIQ Docs"
 description: "Eight common CorpusIQ problems and fixes: connection errors, stale numbers, missing data, auth failures, expired trials, and assistants that miss."
 
-last_updated: "2026-11-02"
+last_updated: "2026-11-19"
 ---
 # Troubleshooting
 

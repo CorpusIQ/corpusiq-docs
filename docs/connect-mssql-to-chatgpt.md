@@ -3,7 +3,7 @@ title: "Connect Microsoft SQL Server to ChatGPT via MCP"
 description: "Connect Microsoft SQL Server to ChatGPT through CorpusIQ MCP. Ask about tables, orders and customers in plain English, read-only, with the objects named."
 category: ChatGPT Integrations
 tags: ["connect Microsoft SQL Server to ChatGPT", "Microsoft SQL Server ChatGPT integration", "MCP mssql connector", "ask ChatGPT about business data", "CorpusIQ MCP"]
-last_updated: "2026-11-17"
+last_updated: "2026-11-20"
 canonical: "https://www.corpusiq.io/docs/connect-mssql-to-chatgpt"
 robots: "index,follow"
 ---

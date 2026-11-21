@@ -2,7 +2,7 @@
 title: "Reading Files & PDFs - CorpusIQ Docs"
 description: "When you connect Google Drive, OneDrive, or Dropbox, CorpusIQ can read files and PDFs. This page explains what is indexed, what is read on demand, and what."
 
-last_updated: "2026-11-01"
+last_updated: "2026-11-19"
 ---
 # Reading files and PDFs
 

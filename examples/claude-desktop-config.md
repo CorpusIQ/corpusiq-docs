@@ -2,7 +2,7 @@
 title: "Claude Desktop Config - CorpusIQ Docs"
 description: "Ready-to-use Claude Desktop configuration for CorpusIQ. Copy the MCP server JSON, point it at your CorpusIQ endpoint, and start asking cross-source business."
 
-last_updated: "2026-11-07"
+last_updated: "2026-11-19"
 ---
 # Example: Add CorpusIQ MCP to Claude Desktop
 

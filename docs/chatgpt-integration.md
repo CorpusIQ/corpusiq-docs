@@ -4,7 +4,7 @@ description: "Connect your business data to ChatGPT in 2 minutes with CorpusIQ. 
 
 category: "Documentation"
 tags: ["chatgpt integration", "connect data to chatgpt", "chatgpt business data", "mcp chatgpt", "ai business intelligence", "chatgpt plugin", "corpusiq chatgpt"]
-last_updated: "2026-11-12"
+last_updated: "2026-11-19"
 canonical: "https://www.corpusiq.io/docs/chatgpt-integration"
 robots: "index,follow"
 ---
