@@ -5780,6 +5780,9 @@ All 40+ CorpusIQ connectors are available through the ChatGPT integration. See t
 - [Connect Ahrefs to ChatGPT](connect-ahrefs-to-chatgpt.md) - domain ratings, keyword and backlink questions inside a ChatGPT thread.
 - [Connect Semrush to ChatGPT](connect-semrush-to-chatgpt.md) - competitor keywords, backlinks and demand sizing inside a ChatGPT thread.
 - [Connect Odoo to ChatGPT](connect-odoo-to-chatgpt.md) - quotations, invoices, stock and pipeline across ERP modules in one ChatGPT thread.
+- [Connect OneDrive to ChatGPT](connect-onedrive-to-chatgpt.md) - contracts, decks and spreadsheets read from your Microsoft file store inside a ChatGPT thread.
+- [Connect Etsy to ChatGPT](connect-etsy-to-chatgpt.md) - listing performance, order trends and review themes inside a ChatGPT thread.
+- [Connect eBay to ChatGPT](connect-ebay-to-chatgpt.md) - GMV, fees, seller standards and funds on hold inside a ChatGPT thread.
 
 ## ChatGPT vs AI Agent Direct Connection
 
@@ -9881,6 +9884,209 @@ CorpusIQ does not retain raw customer files or full connector response payloads.
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# How to Connect eBay to ChatGPT with CorpusIQ MCP
+URL: https://www.corpusiq.io/docs/connect-ebay-to-chatgpt
+
+
+# How to Connect eBay to ChatGPT with CorpusIQ MCP
+
+For an eBay seller, the financial truth sits inside Seller Hub. Orders, transactions, fees, seller standards, listing traffic. Each of those is a separate view with its own date filter, and none of them answers the question you actually asked.
+
+Connecting eBay through CorpusIQ MCP lets you ask across all of it in one ChatGPT thread, read-only, and get an answer that names the listings and the period it came from.
+
+## What Questions Can You Ask?
+
+**Revenue and orders**
+
+- "What is my eBay GMV for the last 30 days?"
+- "How many orders did I fulfil last week, and how many are still open?"
+- "Compare eBay GMV this month with the same month last year."
+
+**Fees and cash**
+
+- "What did eBay charge me in fees last month, broken down by type?"
+- "Show me eBay funds on hold right now."
+- "How much has settled this week, and what is my total balance?"
+
+**Seller health**
+
+- "How are my seller standards trending?"
+- "What is my INAD rate this quarter, and which listings drive it?"
+- "Which listings got the most impressions last week?"
+
+**Cross-source**
+
+- "Compare eBay GMV with Amazon sales for the same period." (requires the Amazon Seller connector)
+- "Do the eBay refunds in the transaction list match what Stripe shows?" (requires the Stripe connector)
+
+## FAQ: Common Questions
+
+<details>
+<summary><strong>Can ChatGPT list items, edit a listing or refund a buyer?</strong></summary>
+
+No. The connection carries read access and the connector exposes retrieval tools only. It does not list items, edit listings, refund buyers or move funds.
+</details>
+
+<details>
+<summary><strong>The funds summary is empty or missing.</strong></summary>
+
+The funds summary needs the `sell.finances` scope, which is requested during the OAuth flow. Disconnect and reconnect so the scope is granted, then ask again.
+</details>
+
+<details>
+<summary><strong>The traffic report is empty for today.</strong></summary>
+
+eBay's traffic data has a 24 to 48 hour lag. Ask about yesterday or earlier rather than today.
+</details>
+
+<details>
+<summary><strong>The seller standards profile is blank.</strong></summary>
+
+New sellers do not have a standards profile yet. eBay requires a minimum order volume before the profile exists, so the answer is blank rather than wrong.
+</details>
+
+<details>
+<summary><strong>Does it work with more than one eBay account?</strong></summary>
+
+Each connection is scoped to the seller account you authorized. Connect the accounts you need separately so each answer stays tied to the store you asked about.
+</details>
+
+<details>
+<summary><strong>What is retained after a query?</strong></summary>
+
+Direct MCP retrieval does not retain raw customer files or full connector response payloads. Operational query logs keep query text and bounded outcome summaries for up to 30 days.
+</details>
+
+## How It Works
+
+1. You connect eBay in the CorpusIQ dashboard and approve the seller scopes on eBay's consent screen.
+2. CorpusIQ exposes orders, financial transactions, seller standards, service metrics, traffic reports and the funds summary as MCP tools.
+3. You add the CorpusIQ MCP server to ChatGPT. See the [Quick Start guide](quick-start.md).
+4. ChatGPT retrieves the figures and answers from them.
+5. The answer names the listings, orders or periods behind it, so the number can be checked in Seller Hub.
+
+## Setup Guide
+
+1. **Sign up** at [corpusiq.io](https://www.corpusiq.io). The 30-day trial needs no credit card.
+2. **Connect eBay.** Dashboard, then Connectors, then eBay, then sign in and approve the seller scopes.
+3. **Connect ChatGPT.** Add the CorpusIQ MCP server per the [Quick Start guide](quick-start.md).
+4. **Verify.** Ask "what is my eBay GMV for the last 30 days". A real figure with matching order count means the connection is live.
+5. **Explore.** Then ask which listings earn impressions and no sales, which is the question Seller Hub leaves you to work out by hand.
+
+## Related Pages
+
+- [eBay connector reference](connectors/ebay.md) - what the connection can see, the seller scopes and the traffic lag
+- [Connect Etsy to ChatGPT](connect-etsy-to-chatgpt.md) - the handmade marketplace beside the general one
+- [Connect Amazon Seller to ChatGPT](connect-amazon-seller-to-chatgpt.md) - the third channel in the same answer
+- [Connect Shopify to ChatGPT](connect-shopify-to-chatgpt.md) - the store you run on your own domain
+- [Connect QuickBooks to ChatGPT](connect-quickbooks-to-chatgpt.md) - put marketplace revenue into the books view
+- [Browse all CorpusIQ connectors](connectors.md) - the full list
+- [How to Connect Business Data to ChatGPT](how-to-connect-business-data-to-chatgpt.md) - the general setup
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+
+---
+# How to Connect Etsy to ChatGPT with CorpusIQ MCP
+URL: https://www.corpusiq.io/docs/connect-etsy-to-chatgpt
+
+
+# How to Connect Etsy to ChatGPT with CorpusIQ MCP
+
+An Etsy shop produces a lot of signal. Views, visits, orders, revenue, reviews. The shop dashboard shows each one on its own screen, for its own period, and forgets it as soon as you close the tab.
+
+Connecting Etsy through CorpusIQ MCP lets you ask across those numbers in plain English inside ChatGPT, read-only, and get an answer that names the listings behind it.
+
+## What Questions Can You Ask?
+
+**Sales and revenue**
+
+- "Which Etsy listings sold best in the last 30 days?"
+- "How did Etsy revenue trend month over month this year?"
+- "What was my average order value last quarter?"
+
+**Listings**
+
+- "Which listings get views but no orders?"
+- "Show me listings that have not sold in 60 days."
+- "What is the price range across my active listings?"
+
+**Customers and reviews**
+
+- "What do my recent reviews complain about most?"
+- "How has review volume changed over the last six months?"
+
+**Cross-source**
+
+- "Compare Etsy orders with Shopify orders for the same period." (requires the Shopify connector)
+- "Which Etsy fees landed in Stripe this month?" (requires the Stripe connector)
+
+## FAQ: Common Questions
+
+<details>
+<summary><strong>Can ChatGPT change prices, edit listings or refund an order?</strong></summary>
+
+No. The connection carries read access and the connector exposes retrieval tools only. It does not edit listings, change prices, refund orders or message buyers.
+</details>
+
+<details>
+<summary><strong>It says no shop was found.</strong></summary>
+
+The Etsy account you authorized does not own a shop. Sign in with the shop owner account and reconnect.
+</details>
+
+<details>
+<summary><strong>My most recent orders are missing.</strong></summary>
+
+Recent orders can take a few hours to appear. If a full day passes with no new orders, disconnect and reconnect the connector.
+</details>
+
+<details>
+<summary><strong>I run more than one shop. How does that work?</strong></summary>
+
+Connect each shop separately, so every answer stays scoped to the store you asked about rather than blending two shops together.
+</details>
+
+<details>
+<summary><strong>Does it read buyer names and addresses?</strong></summary>
+
+Order retrieval returns receipt-level detail for orders placed in the shop, including what Etsy exposes on the receipt. Ask only for the fields you need, and keep buyer personal data out of the question when totals are enough.
+</details>
+
+<details>
+<summary><strong>What is retained after a query?</strong></summary>
+
+Direct MCP retrieval does not retain raw customer files or full connector response payloads. Operational query logs keep query text and bounded outcome summaries for up to 30 days.
+</details>
+
+## How It Works
+
+1. You connect Etsy in the CorpusIQ dashboard and approve the read permissions on Etsy's consent screen.
+2. CorpusIQ exposes shop performance, listings, receipts and review trends as MCP tools.
+3. You add the CorpusIQ MCP server to ChatGPT. See the [Quick Start guide](quick-start.md).
+4. ChatGPT retrieves the figures and answers from them.
+5. The answer names the listings or periods it used, so the number can be checked against the shop dashboard.
+
+## Setup Guide
+
+1. **Sign up** at [corpusiq.io](https://www.corpusiq.io). The 30-day trial needs no credit card.
+2. **Connect Etsy.** Dashboard, then Connectors, then Etsy, then sign in with the shop owner account and approve read access.
+3. **Connect ChatGPT.** Add the CorpusIQ MCP server per the [Quick Start guide](quick-start.md).
+4. **Verify.** Ask "which Etsy listings sold best in the last 30 days". Real listing names mean the connection is live.
+5. **Explore.** Then ask which listings get views and no orders, which is the question the shop dashboard never answers directly.
+
+## Related Pages
+
+- [Etsy connector reference](connectors/etsy.md) - what the connection can see and the shop-scoping rules
+- [Connect eBay to ChatGPT](connect-ebay-to-chatgpt.md) - the marketplace numbers beside the handmade ones
+- [Connect Amazon Seller to ChatGPT](connect-amazon-seller-to-chatgpt.md) - the third channel in the same answer
+- [Connect Shopify to ChatGPT](connect-shopify-to-chatgpt.md) - the store you run on your own domain
+- [Connect Stripe to ChatGPT](connect-stripe-to-chatgpt.md) - payouts and fees against the order totals
+- [Browse all CorpusIQ connectors](connectors.md) - the full list
+- [How to Connect Business Data to ChatGPT](how-to-connect-business-data-to-chatgpt.md) - the general setup
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
 
 ---
 # How to Connect Gmail to ChatGPT with CorpusIQ MCP
@@ -17443,6 +17649,114 @@ CorpusIQ does not retain raw customer files or full connector response payloads.
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# How to Connect OneDrive to ChatGPT with CorpusIQ MCP
+URL: https://www.corpusiq.io/docs/connect-onedrive-to-chatgpt
+
+
+# How to Connect OneDrive to ChatGPT with CorpusIQ MCP
+
+Contracts, spreadsheets, board decks, the prior report you wrote three months ago. It is all in OneDrive, and OneDrive will find a file if you remember the name it was given.
+
+The questions that actually matter are the other kind. What the renewal clause says. Which pricing sheet is current. What changed since the last review.
+
+Connecting OneDrive through CorpusIQ MCP makes those questions answerable inside ChatGPT, read-only, with the file named in the answer.
+
+## What Questions Can You Ask?
+
+**Find and read**
+
+- "Find my OneDrive file about the Q3 board meeting."
+- "Search OneDrive for any contract with Acme Corp and read the payment terms."
+- "What does the latest pricing spreadsheet say?"
+
+**Change over time**
+
+- "Show me files I opened recently."
+- "Which spreadsheets were edited since the first of the month?"
+
+**Account state**
+
+- "How much OneDrive storage am I using?"
+- "Which files have been shared with me?"
+
+**Cross-source**
+
+- "Compare the invoice totals in OneDrive against the bills in QuickBooks." (requires the QuickBooks connector)
+- "Does the renewal date in the vendor contract match the next invoice date in Stripe?" (requires the Stripe connector)
+
+## FAQ: Common Questions
+
+<details>
+<summary><strong>Can ChatGPT edit, delete or share OneDrive files?</strong></summary>
+
+No. The connection carries read access and the connector exposes file listing and file read tools only. You read files inside ChatGPT; anything that changes a file happens in OneDrive, by you.
+</details>
+
+<details>
+<summary><strong>Which file types can it read?</strong></summary>
+
+Word documents, Excel workbooks, PowerPoint decks, PDFs and plain text files. What gets read is the text embedded in the file.
+</details>
+
+<details>
+<summary><strong>It cannot find a file that exists in OneDrive.</strong></summary>
+
+Confirm the file lives in OneDrive rather than a SharePoint site or a Teams shared library. Those are different stores, and this connection reads the personal OneDrive store.
+</details>
+
+<details>
+<summary><strong>Permission denied on one specific file.</strong></summary>
+
+That file was shared with restricted access. Access follows the Microsoft account you authorized, so a file you cannot open yourself stays out of reach too.
+</details>
+
+<details>
+<summary><strong>The consent screen is blocked by my organisation.</strong></summary>
+
+Your Microsoft 365 administrator restricts third-party applications. Ask them to approve CorpusIQ for the tenant, then reconnect.
+</details>
+
+<details>
+<summary><strong>I already connected Outlook. Do I need to connect OneDrive separately?</strong></summary>
+
+Often not. OneDrive can already be authorized under the same Microsoft connection, so check the connector list before running the consent flow again.
+</details>
+
+<details>
+<summary><strong>What is retained after a query?</strong></summary>
+
+Direct MCP retrieval does not retain raw customer files or full connector response payloads. Operational query logs keep query text and bounded outcome summaries for up to 30 days.
+</details>
+
+## How It Works
+
+1. You connect OneDrive in the CorpusIQ dashboard and approve read access on Microsoft's consent screen.
+2. CorpusIQ exposes file listing, folder structure, file reads, storage usage and recent activity as MCP tools.
+3. You add the CorpusIQ MCP server to ChatGPT. See the [Quick Start guide](quick-start.md).
+4. ChatGPT finds the file, reads the text and answers from it.
+5. The answer names the file it came from, so the claim can be checked against the document.
+
+## Setup Guide
+
+1. **Sign up** at [corpusiq.io](https://www.corpusiq.io). The 30-day trial needs no credit card.
+2. **Connect OneDrive.** Dashboard, then Connectors, then OneDrive, then sign in with your Microsoft account and accept the permissions shown.
+3. **Connect ChatGPT.** Add the CorpusIQ MCP server per the [Quick Start guide](quick-start.md).
+4. **Verify.** Ask "how much OneDrive storage am I using". A real storage number means the connection is live.
+5. **Explore.** Then ask what the current pricing sheet actually says, instead of opening three of them.
+
+## Related Pages
+
+- [OneDrive connector reference](connectors/onedrive.md) - what the connection can see and how the Microsoft consent flow works
+- [Connect Google Drive to ChatGPT](connect-google-drive-to-chatgpt.md) - the same questions against the other file store
+- [Connect SharePoint to ChatGPT](connect-sharepoint-to-chatgpt.md) - the team document libraries beside the personal store
+- [Connect Outlook to ChatGPT](connect-outlook-to-chatgpt.md) - the mailbox that usually shares the same Microsoft connection
+- [Connect QuickBooks to ChatGPT](connect-quickbooks-to-chatgpt.md) - put the numbers beside the documents
+- [Browse all CorpusIQ connectors](connectors.md) - the full list
+- [How to Connect Business Data to ChatGPT](how-to-connect-business-data-to-chatgpt.md) - the general setup
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
 
 ---
 # How to Connect Outlook to ChatGPT with CorpusIQ MCP
@@ -37548,6 +37862,12 @@ CorpusIQ never lists items, edits listings, refunds buyers, or moves funds.
 - **Traffic report empty** - eBay's traffic data has a 24-48 hour lag. Check yesterday's date, not today's.
 - **Standards profile blank** - New sellers don't have a standards profile yet; eBay requires a minimum order volume.
 
+## See also
+
+- [Connect eBay to ChatGPT](../connect-ebay-to-chatgpt.md) - GMV, fees, seller standards and funds on hold inside a ChatGPT thread.
+- [Connect Etsy to ChatGPT](../connect-etsy-to-chatgpt.md) - the handmade marketplace beside the general one.
+- [Connect Amazon Seller to ChatGPT](../connect-amazon-seller-to-chatgpt.md) - the third channel in the same answer.
+
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
@@ -37598,6 +37918,12 @@ Read-only. CorpusIQ does not edit listings, change prices, refund orders, or mes
 - No shop found: the Etsy account you authorized does not own a shop. Sign in with the shop owner account and reconnect.
 - New orders not showing: recent orders can take a few hours to appear. If a full day passes with no new orders, disconnect and reconnect the connector.
 - Wrong shop connected: disconnect Etsy in the dashboard, switch accounts on etsy.com, then reconnect.
+
+## See also
+
+- [Connect Etsy to ChatGPT](../connect-etsy-to-chatgpt.md) - listing performance, order trends and review themes inside a ChatGPT thread.
+- [Connect eBay to ChatGPT](../connect-ebay-to-chatgpt.md) - the marketplace numbers beside the handmade ones.
+- [Connect Shopify to ChatGPT](../connect-shopify-to-chatgpt.md) - the store you run on your own domain.
 
 ---
 
@@ -39101,6 +39427,12 @@ Read-only. CorpusIQ never edits, deletes, or shares your files.
 - "Consent required" - your Microsoft 365 admin restricts third-party apps. Ask them to approve CorpusIQ for your tenant.
 - File not found - confirm the file lives in OneDrive (not SharePoint or Teams shared libraries).
 - Permission denied on a specific file - that file was shared with restricted access. Open it in OneDrive to confirm.
+
+## See also
+
+- [Connect OneDrive to ChatGPT](../connect-onedrive-to-chatgpt.md) - contracts, decks and spreadsheets read from your Microsoft file store inside a ChatGPT thread.
+- [Connect SharePoint to ChatGPT](../connect-sharepoint-to-chatgpt.md) - the team document libraries beside the personal store.
+- [Connect Google Drive to ChatGPT](../connect-google-drive-to-chatgpt.md) - the other file store, same questions.
 
 ---
 

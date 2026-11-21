@@ -46,6 +46,12 @@ Read-only. CorpusIQ does not edit listings, change prices, refund orders, or mes
 - New orders not showing: recent orders can take a few hours to appear. If a full day passes with no new orders, disconnect and reconnect the connector.
 - Wrong shop connected: disconnect Etsy in the dashboard, switch accounts on etsy.com, then reconnect.
 
+## See also
+
+- [Connect Etsy to ChatGPT](../connect-etsy-to-chatgpt.md) - listing performance, order trends and review themes inside a ChatGPT thread.
+- [Connect eBay to ChatGPT](../connect-ebay-to-chatgpt.md) - the marketplace numbers beside the handmade ones.
+- [Connect Shopify to ChatGPT](../connect-shopify-to-chatgpt.md) - the store you run on your own domain.
+
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

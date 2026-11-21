@@ -102,7 +102,7 @@ The five surfaces the cron exists for were each measured rather than inherited:
 | mcpservers.org | **LIVE** - `https://mcpservers.org/servers/corpusiq-io` present in `servers/5.xml` of the fresh capture, beside the docs mirror at `servers/corpusiq/corpusiq-docs` |
 | mcp.so | **NOT LISTED**, unchanged - `/server/corpusiq`, `/server/corpusiq-io`, `/server/corpusiq-mcp`, `/server/io.corpusiq` all 404 |
 | glama.ai | **LISTED** - `/mcp/connectors/io.corpusiq/multi-source-mcp` answers 200, title *CorpusIQ - MCP Connector* |
-| smithery.ai | **LISTED** - `registry.smithery.ai/servers/@benoit-p/Cprusiq` answers 200, `qualifiedName` `benoit-p/Cprusiq`, display name CorpusIQ |
+| smithery.ai | **LISTED** - the registry record for the CorpusIQ server answers 200 under the `Cprusiq` qualified name, display name CorpusIQ |
 | Anthropic Connectors Directory | unchanged by the watch script; review status lives only in the portal |
 
 ## What the window taught
