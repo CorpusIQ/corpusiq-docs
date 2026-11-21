@@ -2,7 +2,7 @@
 title: "MCP Server Discovery - November 19, 2026 (Evening)"
 description: "A six-hour window where the directory grew by 285 raw entries and carried all three finds: a loan-limit table, an importer finder, a funding register."
 category: "MCP Ecosystem"
-last_updated: "2026-11-19"
+last_updated: "2026-11-20"
 ---
 
 # MCP Server Discovery - November 19, 2026 (Evening)

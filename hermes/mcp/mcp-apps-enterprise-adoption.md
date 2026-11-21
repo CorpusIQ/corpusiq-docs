@@ -4,15 +4,17 @@ description: "Enterprise platforms adopting MCP Apps: Airia, Willow, WorkOS, and
 canonical: "/hermes/mcp/mcp-apps-enterprise-adoption/"
 robots: "index, follow"
 tags: [mcp, apps, enterprise, adoption, gateways, airia, willow, governance, interactive]
-last_updated: "2026-11-01"
+last_updated: "2026-11-20"
 ---
 
 # MCP Apps Enterprise Adoption: Who Supports It and Why It Matters
 
 MCP Apps launched as the first official MCP extension on January 26, 2026,
-co-developed by Anthropic and OpenAI. Within weeks, enterprise platforms
-began shipping support. This page tracks who adopted it, what the
-enterprise pattern looks like, and why verification becomes the
+shipped by the MCP project on the OpenAI Apps SDK and MCP-UI, with Anthropic
+steering the initiative from proposal to production. ChatGPT, Claude, Goose
+and Visual Studio Code were the first clients with support. Within weeks,
+enterprise platforms began shipping support. This page tracks who adopted it,
+what the enterprise pattern looks like, and why verification becomes the
 differentiator once rendering is commoditized.
 
 ## Enterprise adopters
@@ -20,8 +22,9 @@ differentiator once rendering is commoditized.
 - Airia: announced full MCP Apps support February 12, 2026 as the first
   enterprise AI platform to embed interactive dashboards, forms, and
   visualizations directly into AI-powered conversations
-- Willow: an MCP gateway that brings MCP Apps to enterprises with UI
-  security, auditing, and governance built in
+- Willow: an MCP gateway that documents MCP Apps as an enterprise extension
+  and governs the action, not just the connection - per-agent identity,
+  runtime guardrails and an audit trail tied to a human
 - WorkOS: documents MCP Apps as "the UI layer" of the protocol, the
   standard way tools return interactive experiences
 - CData and others: enterprise MCP roadmaps treat interactive rendering
