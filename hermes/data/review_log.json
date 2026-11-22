@@ -23722,5 +23722,124 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-11-21T11:33:03.323044+00:00"
+  },
+  {
+    "repo": "Tophe-Factory/founder-skill-hermes",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-22T11:33:23.000388+00:00"
+  },
+  {
+    "repo": "13370463558/github-trending-video-skill",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-22T11:33:23.000391+00:00"
+  },
+  {
+    "repo": "yw8837/office-crew",
+    "score": 43,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-22T11:33:23.000393+00:00"
+  },
+  {
+    "repo": "ThreatDefence/agentic-attack-detections",
+    "score": 83,
+    "tier": "AUTO_APPROVE",
+    "action": "auto_approved",
+    "timestamp": "2026-11-22T11:33:23.000395+00:00"
+  },
+  {
+    "repo": "juw12/talos",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-22T11:33:23.000397+00:00"
+  },
+  {
+    "repo": "cdalvaro/hermes-vaultwarden-secret-source",
+    "score": 42,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-22T11:33:23.000399+00:00"
+  },
+  {
+    "repo": "JiaShengg/rhdp-agentic-remediation",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-22T11:33:23.000401+00:00"
+  },
+  {
+    "repo": "yuraz28/hermes-oauth-pages",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-22T11:33:23.000403+00:00"
+  },
+  {
+    "repo": "synthentica/fledly",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-22T11:33:23.000405+00:00"
+  },
+  {
+    "repo": "litas615/hermes-mcp",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-22T11:33:23.000406+00:00"
+  },
+  {
+    "repo": "jai-srinivas/mindhall",
+    "score": 58,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-22T11:33:23.000408+00:00"
+  },
+  {
+    "repo": "Kinprove/genealogy-research-recipes",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-22T11:33:23.000410+00:00"
+  },
+  {
+    "repo": "wilsonwu-ai/obsidian-second-brain",
+    "score": 43,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-22T11:33:23.000412+00:00"
+  },
+  {
+    "repo": "wilsonwu-ai/gbrain",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-22T11:33:23.000414+00:00"
+  },
+  {
+    "repo": "Vsemagush/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-22T11:33:23.000416+00:00"
+  },
+  {
+    "repo": "ITERFORM/Mazemaker",
+    "score": 77,
+    "tier": "AUTO_APPROVE",
+    "action": "auto_approved",
+    "timestamp": "2026-11-22T11:33:23.000418+00:00"
+  },
+  {
+    "repo": "MYaelMendez/hermes-contributions-film",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-22T11:33:23.000420+00:00"
   }
 ]
