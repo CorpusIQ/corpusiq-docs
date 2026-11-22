@@ -16,6 +16,21 @@ Two classes are covered.
    nothing to connect to, and the corpusiq.io FAQ already says the opposite.
    The page argued one thing and the site another, on the same domain.
 
+3. Connector-name claims (Nov 22, 2026): the compare template filled the
+   competitor name into four sentences that only make sense for a tool we
+   actually connect - "Reads Glean AND 40+ other tools", "CorpusIQ connects
+   Glean to those systems", "Connect Glean once", "CorpusIQ reads from it".
+   Seven pages shipped that way (glean, databox, northbeam, tableau, power-bi,
+   make-com, composio). None of those tools has a connector: verified against
+   multi-source-mcp/config/connector_registry.json (57 connector ids), the live
+   https://www.corpusiq.io/connectors list, and corpusiq-frontend
+   src/data/connectors.ts, whose own header forbids a connector page for a
+   connector that is not live on mcp2.
+
+   The Oct 27 Copilot fix hardcoded one name, so the same template kept
+   shipping with other names. The gate is now name-driven: NON_CONNECTORS holds
+   the tools we do not connect, and one verb rule covers all four sentences.
+
 The frontend gates block this class on corpusiq.io; the docs had no equivalent,
 so both claims shipped from the docs side. The gate scans every Markdown page in
 the tree (not just docs/) because the second miss lived under hermes/.
@@ -74,6 +89,55 @@ FORBIDDEN = [
     re.compile(r"\breads?\s+from\s+it\b.*\bcopilot\b", re.I),
 ]
 
+# Tools that have NO CorpusIQ connector. Any sentence saying we read, connect,
+# integrate with or plug into one of these is a claim we cannot show.
+#
+# Keep this list honest: verify a name against config/connector_registry.json in
+# multi-source-mcp (or the live https://www.corpusiq.io/connectors list) before
+# adding it, and remove it the day that connector actually ships.
+NON_CONNECTORS = [
+    "microsoft copilot",
+    "copilot",
+    "glean",
+    "databox",
+    "northbeam",
+    "tableau",
+    "power bi",
+    "make.com",
+    "composio",
+    "airbyte",
+    "fivetran",
+    "supermetrics",
+]
+
+_NAMES = "|".join(re.escape(n) for n in sorted(NON_CONNECTORS, key=len, reverse=True))
+
+FORBIDDEN += [
+    # Claims with CorpusIQ (or "we"/"it") as the subject: reads/connects/
+    # integrates with/plugs into <name>. The subject requirement is what keeps
+    # vendor directory entries ("AI agents connect to Tableau Cloud") passing.
+    re.compile(
+        r"\b(?:corpusiq|\bit|\bwe)\b[^.]{0,60}?"
+        r"\b(?:connects?|reads?|integrates?\s+with|plugs?\s+into|hooks?\s+up\s+to)"
+        r"\s+(?:to\s+|from\s+)?(?:" + _NAMES + r")\b",
+        re.I,
+    ),
+    # The compare-table row form, which carries no subject:
+    # "Reads Glean AND 40+ other tools in one prompt".
+    re.compile(r"\breads?\s+(?:" + _NAMES + r")\s+and\s+40\+", re.I),
+    # "Connect <name> once" install-path phrasing.
+    re.compile(r"\bconnect\s+(?:" + _NAMES + r")\s+once\b", re.I),
+    # "... <name> ... CorpusIQ reads from it ..." in either order on one line.
+    re.compile(
+        r"\b(?:" + _NAMES + r")\b[^\n]{0,200}\bcorpusiq\b[^\n]{0,200}\breads?\s+from\s+it\b",
+        re.I,
+    ),
+    re.compile(
+        r"\bcorpusiq\b[^\n]{0,200}\breads?\s+from\s+it\b[^\n]{0,200}\b(?:" + _NAMES + r")\b",
+        re.I,
+    ),
+]
+
 # A line carrying one of these negations is honest copy, not a claim.
 NEGATIONS = re.compile(
     r"\b(not|isn'?t|aren'?t|never|yet|no longer|neither|missing|absent)\b", re.I
@@ -123,6 +187,16 @@ def selftest():
         "CorpusIQ connects Microsoft Copilot to those systems and exposes all of them to ChatGPT, Claude, and Perplexity.",
         "Yes. Connect Microsoft Copilot once, then ask ChatGPT business questions with live, cited answers.",
         "No. Microsoft Copilot stays your system of record for its job. CorpusIQ reads from it with read-only OAuth.",
+        # Nov 22 regression: same template, names with no connector at all.
+        "| Data access | Its own data | Reads Glean AND 40+ other tools in one prompt |",
+        "CorpusIQ connects Databox to those systems and exposes all of them to ChatGPT, Claude, and Perplexity.",
+        "Yes. Connect Northbeam once, then ask ChatGPT business questions with live, cited answers.",
+        "No. Tableau stays your system of record for its job. CorpusIQ reads from it with read-only OAuth.",
+        "CorpusIQ reads Power BI dashboards through the API.",
+        "CorpusIQ integrates with Make.com scenarios.",
+        "CorpusIQ plugs into Composio.",
+        "It connects to Fivetran destinations.",
+        "CorpusIQ hooks up to Supermetrics.",
     ]
     good = [
         "CorpusIQ is not yet listed in Anthropic's Connector Directory, so setup requires pasting the endpoint.",
@@ -136,6 +210,11 @@ def selftest():
         "Supported agents: **Hermes**, Claude Code, GitHub Copilot CLI, Cursor, Gemini CLI.",
         "npx skills add github/awesome-copilot@gh-cli",
         "| AI surface | Power BI Copilot inside the report builder | Any AI you already use, via MCP |",
+        # Honest connector-absence copy from the Nov 22 repair must keep passing.
+        "There is no Glean connector in CorpusIQ. What does connect: 40+ business tools read-only, each answer carrying the source record behind the number.",
+        "No. Databox stays your system of record for its job. CorpusIQ reads your business systems directly with read-only OAuth.",
+        "| Data access | Its own data | Reads 40+ business tools live in one prompt |",
+        "CorpusIQ does not read Tableau; the databases behind it connect directly.",
     ]
     ok = True
     for t in bad:
