@@ -3,7 +3,7 @@ title: "Hermes Ecosystem - Complete Resource Directory"
 description: "The definitive directory of Hermes Agent resources - 460+ repos, docs, community tools, SDKs, integrations, benchmarks, and research"
 canonical: "https://www.corpusiq.io/docs/hermes/ecosystem/"
 robots: "index,follow"
-last_updated: "2026-11-21"
+last_updated: "2026-11-22"
 tags: ["hermes ecosystem", "agent ecosystem", "community"]
 
 ---
@@ -12,7 +12,7 @@ tags: ["hermes ecosystem", "agent ecosystem", "community"]
 
 The most comprehensive directory of Hermes Agent resources in existence. 460+ repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research - all organized and cross-referenced.
 
-> **Last updated:** November 21, 2026 · **Repos indexed:** 460+ · **Categories:** 18
+> **Last updated:** November 22, 2026 · **Repos indexed:** 460+ · **Categories:** 18
 >
 > 👉 **[Submit a repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)** · Missing something? [Open a PR →](https://github.com/CorpusIQ/corpusiq-docs)
 
@@ -33,7 +33,7 @@ The most comprehensive directory of Hermes Agent resources in existence. 460+ re
 | [Detection & Media Forensics](#detection-media-forensics) | 1 | [↓](#detection-media-forensics) |
 | [Orchestration, Multi-Agent & Swarms](#orchestration-multi-agent-swarms) | 36 | [↓](#orchestration-multi-agent-swarms) |
 | [Deployment & Infrastructure](#deployment-infrastructure) | 21 | [↓](#deployment-infrastructure) |
-| [Security & Governance](#security-governance) | 4 | [↓](#security-governance) |
+| [Security & Governance](#security-governance) | 5 | [↓](#security-governance) |
 | [Research & Benchmarks](#research-benchmarks) | 12 | [↓](#research-benchmarks) |
 | [Content & Media](#content-media) | 6 | [↓](#content-media) |
 | [Platform-Specific](#platform-specific) | 12 | [↓](#platform-specific) |
@@ -1093,8 +1093,8 @@ Local-first 🧠 memory for Hermes Agent that lives in your Obsidian vault and r
 
 ---
 
-### itsXactlY/mazemaker
-⭐ **49** · `Python` · [https://github.com/itsXactlY/mazemaker](https://github.com/itsXactlY/mazemaker)
+### ITERFORM/Mazemaker
+⭐ **54** · `Python` · [https://github.com/ITERFORM/Mazemaker](https://github.com/ITERFORM/Mazemaker)
 
 Semantic memory system with knowledge graph, spreading activation, embedding-based recall, autonomous dream consolidation, and C++ LSTM+kNN pattern learning for any /MCP and the Hermes Agent.
 
@@ -3936,6 +3936,16 @@ An AI coding agent guardrail - a CLI hook that blocks destructive git and filesy
 ⭐ **109** · `Python` · [github.com/jnMetaCode/shellward](https://github.com/jnMetaCode/shellward)
 
 AI Agent Security Middleware - 8-layer defense, DLP data flow, prompt injection protection. Hermes-compatible security layer.
+
+---
+
+### ThreatDefence/agentic-attack-detections
+⭐ **234** · `Python` · [github.com/ThreatDefence/agentic-attack-detections](https://github.com/ThreatDefence/agentic-attack-detections)
+
+Detection rules and IOCs for AI agent attack frameworks - ARTEX, Cairn, PentAGI, HexStrike, CyberStrikeAI, Strix, Hermes Agent, Agent Zero. KQL hunts for Microsoft Sentinel and Defender XDR, plus Sigma, Suricata, Zeek, YARA, Splunk, Elastic and STIX 2.1 exports.
+
+**Maintainer:** ThreatDefence 
+**Topics:** agentic-ai, ai-security, blue-team, detection-engineering, ioc, kql, llm-security, sigma, stix 
 
 ---
 
