@@ -123,4 +123,4 @@ Not re-measured this pass. The five surfaces were read on the **10:00 MST** midd
 - [External MCP Server Catalog](/hermes/mcp/servers/external/)
 - [Asteria MCP](/hermes/mcp/servers/external/asteria-mcp)
 - [WhatsDownNow MCP](/hermes/mcp/servers/external/whatsdownnow-mcp)
-- [MCP Server Discovery - November 21, 2026 (Midday Supplement)](sweep-november21-2026-midday-supplement)
+- [MCP Server Discovery - November 21, 2026 (Midday Supplement)](/hermes/mcp/sweeps/sweep-november21-2026-midday-supplement)
