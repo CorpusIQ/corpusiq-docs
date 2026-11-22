@@ -232,6 +232,59 @@ def deploy_vercel():
         sys.exit(1)
     print("   Vercel deploy OK -> https://docs.corpusiq.io")
 
+def verify_live_assets():
+    """Fail the deploy when a published page loads 200 with dead CSS or JS.
+
+    2026-11-22: the 2 Nov Ahrefs crawl scored the site 31/Fair because 3,097
+    docs pages answered 200 while referencing content-hashed assets that were
+    not in the deployment. Every other deploy check (page count, build status,
+    sitemap) passed, so the deploy was called green and the site was broken.
+    This probes the two asset trees plus a page sample, on the canonical host.
+    """
+    import re as _re
+    from urllib.parse import urljoin
+
+    ua = {"User-Agent": "CorpusIQDeployGate/1.0"}
+    base = "https://www.corpusiq.io/docs"
+    problems = []
+    for path in ("/assets/javascripts/bundle.min.js",
+                 "/assets/stylesheets/main.min.css",
+                 "/assets/stylesheets/palette.min.css"):
+        try:
+            code = requests.get(base + path, headers=ua, timeout=25).status_code
+        except Exception as exc:
+            code = f"ERR {exc}"
+        if code != 200:
+            problems.append(f"{path} -> {code}")
+    pages = ["", "/hermes/guides/mcp-servers-business-operators", "/connectors/stripe"]
+    refs = set()
+    for page in pages:
+        try:
+            html = requests.get(base + page, headers=ua, timeout=30).text
+        except Exception as exc:
+            problems.append(f"page {page or '/'} fetch failed: {exc}")
+            continue
+        if not html.strip():
+            problems.append(f"page {page or '/'} returned no HTML")
+            continue
+        for ref in _re.findall(r"""(?:src|href)=["']([^"']+\.(?:js|css)(?:\?[^"']*)?)["']""", html):
+            if not ref.startswith(("http://", "https://", "//")):
+                refs.add(urljoin(base + page, ref))
+    for ref in sorted(refs):
+        try:
+            code = requests.get(ref, headers=ua, timeout=25).status_code
+        except Exception as exc:
+            code = f"ERR {exc}"
+        if code != 200:
+            problems.append(f"asset {code}: {ref}")
+    if problems:
+        print("   [FAIL] live asset gate:")
+        for p in problems:
+            print(f"      - {p}")
+        sys.exit(1)
+    print(f"   [ok] live asset gate: {len(refs)} asset refs + 3 asset endpoints resolve")
+
+
 def main():
     commit_msg = None
     if "--commit-msg" in sys.argv:
@@ -785,6 +838,9 @@ def main():
         print("   gh-pages backup skipped (worktree unavailable)")
     print("4b. Deploying to Vercel...")
     deploy_vercel()
+    # Publish gate (2026-11-22): a page that answers 200 with dead CSS/JS is
+    # invisible to every other check and takes the whole site down.
+    verify_live_assets()
 
     # 4c. IndexNow submission - changed docs pages since the last deploy (one
     #     batched POST, values pinned per the frontend runbook; key is public
