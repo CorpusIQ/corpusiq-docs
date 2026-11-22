@@ -122,7 +122,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/chatgpt-integration</loc>
-         <lastmod>2026-11-19</lastmod>
+         <lastmod>2026-11-21</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/claude-for-hubspot</loc>
@@ -239,6 +239,14 @@
     <url>
          <loc>https://www.corpusiq.io/docs/connect-dropbox-to-perplexity</loc>
          <lastmod>2026-11-08</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/connect-ebay-to-chatgpt</loc>
+         <lastmod>2026-11-21</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/connect-etsy-to-chatgpt</loc>
+         <lastmod>2026-11-21</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connect-gmail-to-chatgpt</loc>
@@ -453,6 +461,10 @@
          <lastmod>2026-11-08</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/connect-onedrive-to-chatgpt</loc>
+         <lastmod>2026-11-21</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/connect-outlook-to-chatgpt</loc>
          <lastmod>2026-11-15</lastmod>
     </url>
@@ -526,7 +538,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connect-sharepoint-to-chatgpt</loc>
-         <lastmod>2026-11-18</lastmod>
+         <lastmod>2026-11-21</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connect-sharepoint-to-claude</loc>
@@ -1062,11 +1074,11 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connectors/ebay</loc>
-         <lastmod>2026-11-07</lastmod>
+         <lastmod>2026-11-21</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connectors/etsy</loc>
-         <lastmod>2026-11-01</lastmod>
+         <lastmod>2026-11-21</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connectors/facebook</loc>
@@ -1154,7 +1166,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connectors/onedrive</loc>
-         <lastmod>2026-11-07</lastmod>
+         <lastmod>2026-11-21</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connectors/outlook</loc>
@@ -1670,7 +1682,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/compare/corpusiq-vs-chatgpt-plugins</loc>
-         <lastmod>2026-11-01</lastmod>
+         <lastmod>2026-11-21</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/compare/corpusiq-vs-claude-enterprise</loc>
@@ -1746,7 +1758,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/compare/corpusiq-vs-viktor-migration</loc>
-         <lastmod>2026-11-01</lastmod>
+         <lastmod>2026-11-21</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/compare/corpusiq-vs-viktor-pricing</loc>
@@ -3019,6 +3031,10 @@
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/assistantmail-mcp</loc>
          <lastmod>2026-11-19</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/asteria-mcp</loc>
+         <lastmod>2026-11-21</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/astrofabric-mcp</loc>
@@ -7401,6 +7417,10 @@
          <lastmod>2026-11-01</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/whatsdownnow-mcp</loc>
+         <lastmod>2026-11-21</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/whatsmcp-mcp</loc>
          <lastmod>2026-11-19</lastmod>
     </url>
@@ -8055,6 +8075,10 @@
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-november20-2026-night</loc>
          <lastmod>2026-11-20</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-november21-2026-evening</loc>
+         <lastmod>2026-11-21</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-november21-2026-midday-supplement</loc>
