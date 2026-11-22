@@ -258,6 +258,23 @@ Each interface is versioned. Breaking changes require a migration period where b
 - **Data:** Knowledge base encrypted, access logged, retention policies enforced
 - **Execution:** Skills run in sandboxed environments, tool calls validated before dispatch
 
+## Architecture Deep Dives
+
+The essays below take one architectural problem each and work it end to end.
+
+| Essay | What it answers |
+|---|---|
+| [The Source of Truth Problem: Why Your Dashboard Lies](source-of-truth-problem.md) | Shopify, Stripe, QuickBooks and GA4 report different revenue for the same month, and how shared metric definitions fix it |
+| [The AI Consistency Problem No One Is Talking About](ai-consistency-data-access-problem.md) | Why assistants answer the same business question differently, and what a consistency layer changes |
+| [How Business AI Agents Handle Data Access](business-ai-data-access-layers.md) | The infrastructure layer between an AI client and your business systems |
+| [Why AI Should Never Write to Your Business Tools](read-only-oauth-ai-business-tools.md) | Per-source read-only OAuth, scoped tokens, and how QuickBooks, Shopify and Stripe stay safe |
+| [MCP for Business Operators](mcp-for-business-operators.md) | What the Model Context Protocol means for a business owner, in plain terms |
+| [Stateless MCP: What the July 2026 Spec Means](stateless-mcp-july-2026.md) | The spec change and what it changes for business AI deployments |
+| [The Harness Beats the Model](harness-beats-model.md) | Why the scaffolding around a model matters more than the model version |
+| [The Harness Wars](harness-wars-ai-infrastructure.md) | Why AI infrastructure, not model releases, defines the next two years |
+| [The Mismanaged Geniuses Hypothesis](mismanaged-geniuses-hypothesis.md) | A diagnostic for agent failure that starts with context and tooling, not the model |
+| [Why Your AI Cannot Answer Current Revenue](why-ai-cannot-answer-revenue.md) | Why out-of-the-box assistants miss a current-dollar question and how a read-only data layer answers it |
+
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
