@@ -2,7 +2,7 @@
 title: "CorpusIQ vs Viktor Migration: From Slack App to Data Layer"
 description: "Already using Viktor in Slack? CorpusIQ works alongside it as the data layer, or replaces it. Compare the migration path, costs, and what you keep."
 tags: [compare, migration, viktor, ai employee]
-last_updated: "2026-11-01"
+last_updated: "2026-11-21"
 ---
 
 # CorpusIQ vs Viktor Migration
@@ -51,7 +51,7 @@ Or drop Viktor entirely and run CorpusIQ in Slack too. The choice is yours, and 
 | Your data | Stays in your tools | Stays in your tools |
 | Your assistants | Locked to Slack | ChatGPT, Claude, Perplexity, Slack, Teams |
 | Citations | Not the model | Source-cited answers |
-| Pricing | Credits ($50-$50K/mo) | Flat ($29.95-$189.95/mo) |
+| Pricing | Credits from $50/mo, scaling with usage, Enterprise custom | Flat ($29.95-$189.95/mo) |
 | Per-user scope | Coming soon | Shipped |
 
 ## FAQ

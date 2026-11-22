@@ -2,12 +2,12 @@
 title: "CorpusIQ vs ChatGPT Plugins: What Each One Does"
 description: "ChatGPT plugins bundle skills and connected apps inside ChatGPT. CorpusIQ is the layer that gives assistants live access to business data across 40+ tools."
 tags: [compare, corpusiq, mcp]
-last_updated: "2026-11-01"
+last_updated: "2026-11-21"
 ---
 
 # CorpusIQ vs ChatGPT Plugins: What Each One Does
 
-ChatGPT plugins are back, and in 2026 they are the successor to custom GPTs rather than the one-app connectors they were in 2023. A plugin bundles reusable skills (instructions and workflow guidance) with connected apps, so a repeatable way of working travels with the tools it needs. Custom GPTs retire on December 11, 2026, and new GPT creation was cut off for Enterprise workspaces in October 2026.
+ChatGPT plugins are back, and in 2026 they are the successor to custom GPTs rather than the one-app connectors they were in 2023. A plugin bundles reusable skills (instructions and workflow guidance) with connected apps, so a repeatable way of working travels with the tools it needs. Custom GPTs retire on December 11, 2026, with February 28, 2027 for FedRAMP workspaces and workspaces holding a qualifying deferral. New GPT creation ended on October 26, 2026 for affected Enterprise workspaces, FedRAMP excepted.
 
 That makes the comparison sharper than it used to be. A plugin is the packaging. CorpusIQ is the read layer the package reads from, and it is not confined to ChatGPT.
 
