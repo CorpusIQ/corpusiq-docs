@@ -92,7 +92,7 @@ A feed card. Two keyless tools: `search_plans` returned **matched_count 37** for
 | mcpservers.org | **LISTED** | `corpusiq-io` and the docs mirror `corpusiq/corpusiq-docs` both in this pass's own capture |
 | mcp.so | **LISTED** | `/servers/corpusiq-docs` answers **200** at 857,546 bytes |
 | Glama | **LISTED** | `/mcp/connectors/io.corpusiq/multi-source-mcp` answers **200** at 729,087 bytes |
-| Smithery | **NOT LISTED** (delisted) | the listing page (`.../server/@<publisher>/Cprusiq`) answers **404** at 34,959 bytes and the registry API returned **500** twice; the previous pass recorded the loss at row level after Smithery shut its proxy and managed identity on 31 October 2026 and removed self-serve publish. No customer impact: no install path this project publishes depends on it |
+| Smithery | **NOT LISTED** (delisted) | re-measured 2026-11-22 18:05 UTC against the canonical URL: the listing page (`https://smithery.ai/server/corpusiq`, redirecting to `www`) answers **404** at 34,959 bytes and `registry.smithery.ai/servers/corpusiq` answers **404 "Namespace not found"** (the registry search endpoint returned **500** twice). The first pass logged a mistyped path variant; the verdict does not change. The loss was recorded at row level after Smithery shut its proxy and managed identity on 31 October 2026 and removed self-serve publish. No customer impact: no install path this project publishes depends on it |
 | Anthropic Claude connectors | **NOT LISTED** | `scripts/anthropic_directory_watch.py` scanned 1,204 pages across 3, `listed=False`, exit 0 |
 
 ## What this pass says about the directory
