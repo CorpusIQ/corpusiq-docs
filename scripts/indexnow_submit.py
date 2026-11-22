@@ -67,6 +67,31 @@ def submit(urls):
 
 FEEDS = {'llms.txt', 'llms-full.txt'}  # root crawler files, served at /docs/<name>
 
+_LIVE_OK = {}  # url -> bool, so a run probes each URL at most once
+
+
+def live_ok(url):
+    """Is this URL actually served right now?
+
+    Added 2026-11-22: the local `site/` build in a long-lived clone goes stale,
+    so the build-existence check below silently dropped pages that were already
+    live (the Nov 22 night sweep: 4 new pages, published, never announced to
+    IndexNow). The build is a hint, not the truth - production is. Probe it.
+    """
+    if url in _LIVE_OK:
+        return _LIVE_OK[url]
+    ok = False
+    if not os.environ.get('INDEXNOW_NO_LIVE_PROBE'):
+        try:
+            req = urllib.request.Request(url, method='GET',
+                                         headers={'User-Agent': 'CorpusIQ-docs-indexnow/1.0'})
+            with urllib.request.urlopen(req, timeout=20) as r:
+                ok = r.status == 200
+        except Exception:
+            ok = False
+    _LIVE_OK[url] = ok
+    return ok
+
 
 def url_for_md(path):
     p = path
@@ -87,10 +112,15 @@ def url_for_md(path):
     # job files / non-page content
     if cand.startswith(('.', '_')) or '/_' in ('/' + cand):
         return None
-    if not (os.path.exists(os.path.join('site', cand, 'index.html'))
+    if (os.path.exists(os.path.join('site', cand, 'index.html'))
             or os.path.exists(os.path.join('site', cand + '.html'))):
-        return None
-    return f'https://{HOST}/docs/{cand}'
+        return f'https://{HOST}/docs/{cand}'
+    # Not in the local build: it may be stale. Trust production instead of the build.
+    url = f'https://{HOST}/docs/{cand}'
+    if live_ok(url):
+        print(f'indexnow: {cand} missing from local site/ build but live - including')
+        return url
+    return None
 
 
 def main():
