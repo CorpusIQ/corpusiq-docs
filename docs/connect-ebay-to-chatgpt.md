@@ -96,6 +96,7 @@ Direct MCP retrieval does not retain raw customer files or full connector respon
 ## Related Pages
 
 - [eBay connector reference](connectors/ebay.md) - what the connection can see, the seller scopes and the traffic lag
+- [Connect eBay to Perplexity](connect-ebay-to-perplexity.md) - the same GMV and fee questions, asked from Perplexity
 - [Connect Etsy to ChatGPT](connect-etsy-to-chatgpt.md) - the handmade marketplace beside the general one
 - [Connect Amazon Seller to ChatGPT](connect-amazon-seller-to-chatgpt.md) - the third channel in the same answer
 - [Connect Shopify to ChatGPT](connect-shopify-to-chatgpt.md) - the store you run on your own domain

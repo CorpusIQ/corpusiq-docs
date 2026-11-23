@@ -44,6 +44,7 @@ Read-only. CorpusIQ never edits, deletes, or shares your files.
 ## See also
 
 - [Connect OneDrive to ChatGPT](../connect-onedrive-to-chatgpt.md) - contracts, decks and spreadsheets read from your Microsoft file store inside a ChatGPT thread.
+- [Connect OneDrive to Perplexity](../connect-onedrive-to-perplexity.md) - the same document questions inside a Perplexity thread.
 - [Connect SharePoint to ChatGPT](../connect-sharepoint-to-chatgpt.md) - the team document libraries beside the personal store.
 - [Connect Google Drive to ChatGPT](../connect-google-drive-to-chatgpt.md) - the other file store, same questions.
 

@@ -48,6 +48,7 @@ CorpusIQ never lists items, edits listings, refunds buyers, or moves funds.
 ## See also
 
 - [Connect eBay to ChatGPT](../connect-ebay-to-chatgpt.md) - GMV, fees, seller standards and funds on hold inside a ChatGPT thread.
+- [Connect eBay to Perplexity](../connect-ebay-to-perplexity.md) - the same figures inside a Perplexity thread, with the connector-wide next step.
 - [Connect Etsy to ChatGPT](../connect-etsy-to-chatgpt.md) - the handmade marketplace beside the general one.
 - [Connect Amazon Seller to ChatGPT](../connect-amazon-seller-to-chatgpt.md) - the third channel in the same answer.
 

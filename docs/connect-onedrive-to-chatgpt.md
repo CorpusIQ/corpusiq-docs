@@ -102,6 +102,7 @@ Direct MCP retrieval does not retain raw customer files or full connector respon
 ## Related Pages
 
 - [OneDrive connector reference](connectors/onedrive.md) - what the connection can see and how the Microsoft consent flow works
+- [Connect OneDrive to Perplexity](connect-onedrive-to-perplexity.md) - the same document questions, asked from Perplexity
 - [Connect Google Drive to ChatGPT](connect-google-drive-to-chatgpt.md) - the same questions against the other file store
 - [Connect SharePoint to ChatGPT](connect-sharepoint-to-chatgpt.md) - the team document libraries beside the personal store
 - [Connect Outlook to ChatGPT](connect-outlook-to-chatgpt.md) - the mailbox that usually shares the same Microsoft connection
