@@ -16,11 +16,11 @@ Skills for integrating Hermes Agent with Firebase. These skills enable autonomou
 
 | Skill | Installs | Description |
 |-------|----------|-------------|
-| [firebase-app-hosting-basics](/hermes/skills/catalog/firebase/firebase-app-hosting-basics) | 183.0K | Deploy full-stack Next.js and Angular apps with Server-Side Rendering on Firebase App Hosting. |
-| [firebase-firestore](/hermes/skills/catalog/firebase/firebase-firestore) | 149.1K | Set up, query and configure Cloud Firestore: data modeling, security rules, indexes and SDKs. |
-| [firebase-ai-logic-basics](/hermes/skills/catalog/firebase/firebase-ai-logic-basics) | 149.0K | Integrate Firebase AI Logic (formerly Vertex AI for Firebase) and call Gemini models from client apps. |
-| [xcode-project-setup](/hermes/skills/catalog/firebase/xcode-project-setup) | 144.0K | Add Swift Packages and link files to an Xcode project without breaking the .pbxproj. |
-| [firebase-remote-config-basics](/hermes/skills/catalog/firebase/firebase-remote-config-basics) | 134.5K | Manage Remote Config templates, feature flags and SDK loading strategies. |
+| [firebase-app-hosting-basics](/hermes/skills/catalog/firebase/firebase-app-hosting-basics) | 183K | Deploy full-stack Next.js and Angular apps with SSR on Firebase App Hosting. |
+| [firebase-ai-logic-basics](/hermes/skills/catalog/firebase/firebase-ai-logic-basics) | 149K | Integrate Firebase AI Logic, formerly Vertex AI for Firebase, to call Gemini from client apps. |
+| [firebase-firestore](/hermes/skills/catalog/firebase/firebase-firestore) | 149K | Set up, query and configure Cloud Firestore with data modeling, rules and indexes. |
+| [xcode-project-setup](/hermes/skills/catalog/firebase/xcode-project-setup) | 144K | Modify Xcode projects (.pbxproj) to add Swift Packages and link files safely. |
+| [firebase-remote-config-basics](/hermes/skills/catalog/firebase/firebase-remote-config-basics) | 134K | Manage Firebase Remote Config templates, feature flags, loading strategies and SDKs. |
 | [firebase-basics](/hermes/skills/catalog/firebase/firebase-basics) | 77.7K | Firebase platform fundamentals. Core Firebase concepts, project setup, and service integration. |
 | [firebase-auth-basics](/hermes/skills/catalog/firebase/firebase-auth-basics) | 77.1K | Firebase authentication patterns. Email, social, and custom auth flows for Firebase apps. |
 | [firebase-hosting-basics](/hermes/skills/catalog/firebase/firebase-hosting-basics) | 75.3K | Deploy and configure Firebase Hosting. Static site hosting with SSL, CDN, and custom domains. |
