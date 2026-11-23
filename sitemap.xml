@@ -3109,6 +3109,10 @@
          <lastmod>2026-11-19</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/avanciq-mcp</loc>
+         <lastmod>2026-11-23</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/awardcast-mcp</loc>
          <lastmod>2026-11-01</lastmod>
     </url>
@@ -3451,6 +3455,10 @@
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/click-decay-mcp</loc>
          <lastmod>2026-11-12</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/climatch-mcp</loc>
+         <lastmod>2026-11-23</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/cliometry-mcp</loc>
@@ -5377,6 +5385,10 @@
          <lastmod>2026-11-01</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/moa-mcp</loc>
+         <lastmod>2026-11-23</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/mobbin-mcp</loc>
          <lastmod>2026-11-19</lastmod>
     </url>
@@ -6845,6 +6857,10 @@
          <lastmod>2026-11-19</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/strata-trashpan-mcp</loc>
+         <lastmod>2026-11-23</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/stratum-shifts-mcp</loc>
          <lastmod>2026-11-01</lastmod>
     </url>
@@ -7626,7 +7642,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps</loc>
-         <lastmod>2026-11-22</lastmod>
+         <lastmod>2026-11-23</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-aug26-2026-afternoon</loc>
@@ -8147,6 +8163,10 @@
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-november22-2026-night</loc>
          <lastmod>2026-11-22</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-november23-2026-night</loc>
+         <lastmod>2026-11-23</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-november3-2026-evening</loc>
