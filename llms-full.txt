@@ -9978,6 +9978,7 @@ Direct MCP retrieval does not retain raw customer files or full connector respon
 ## Related Pages
 
 - [eBay connector reference](connectors/ebay.md) - what the connection can see, the seller scopes and the traffic lag
+- [Connect eBay to Perplexity](connect-ebay-to-perplexity.md) - the same GMV and fee questions, asked from Perplexity
 - [Connect Etsy to ChatGPT](connect-etsy-to-chatgpt.md) - the handmade marketplace beside the general one
 - [Connect Amazon Seller to ChatGPT](connect-amazon-seller-to-chatgpt.md) - the third channel in the same answer
 - [Connect Shopify to ChatGPT](connect-shopify-to-chatgpt.md) - the store you run on your own domain
@@ -9986,6 +9987,169 @@ Direct MCP retrieval does not retain raw customer files or full connector respon
 - [How to Connect Business Data to ChatGPT](how-to-connect-business-data-to-chatgpt.md) - the general setup
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+
+---
+# How to Connect eBay to Perplexity with CorpusIQ MCP
+URL: https://www.corpusiq.io/docs/connect-ebay-to-perplexity
+
+
+# How to Connect eBay to Perplexity with CorpusIQ MCP
+
+An eBay seller's numbers live in Seller Hub, and Seller Hub is a set of screens. Orders in one, transactions and fees in another, seller standards in a third, listing traffic somewhere else. Each carries its own date filter, and none of them answers the question you opened them for.
+
+The question is usually a comparison. What fees did those orders actually cost me. Is my holdback growing faster than my volume. Which listings earn impressions and no sales.
+
+Connecting eBay through CorpusIQ MCP puts Seller Hub behind a question. Perplexity reads orders, transactions, seller standards, traffic and the funds summary, and names the period and the listings behind the answer.
+
+### Why Connect eBay to Perplexity?
+
+- **Marketplace revenue.** "What is my eBay GMV for the last 30 days, and how does it compare with the same month last year?"
+- **Fees and settlement.** "What did eBay charge me in fees last month, broken down by type, and how much has settled this week?"
+- **Cash position.** "Show me eBay funds on hold right now next to my total balance."
+- **Seller health.** "How are my seller standards trending, and what is my INAD rate this quarter?"
+- **Traffic quality.** "Which listings got the most impressions last week but no sales?"
+- **Read-only by capability.** The retrieval tools documented on this page read orders, transactions, standards, traffic and funds. They do not list items, edit listings, refund buyers or move money.
+
+### How It Works
+
+1. **Connect eBay to CorpusIQ.** Sign in on eBay's own consent screen and approve the seller permissions it requests.
+2. **Add CorpusIQ to Perplexity** as a custom remote MCP server, using the endpoint from your CorpusIQ account settings.
+3. **CorpusIQ queries** orders, financial transactions, the seller standards profile, service metrics, traffic reports and the funds summary for the account you authorised.
+4. **Perplexity answers** from the returned records, with the period and the listings named so the figure can be checked in Seller Hub.
+
+Direct MCP retrieval is read-only. It does not retain raw customer files or full connector response payloads; operational logs keep query text, per-user tool-call metadata and bounded outcome summaries for up to 30 days.
+
+### Setup Steps
+
+**In CorpusIQ**
+
+1. Sign up at [corpusiq.io](https://www.corpusiq.io). The 30-day trial needs no credit card.
+2. Open **Dashboard**, then **Connectors**, and find **eBay**.
+3. Click **Connect** and sign in to eBay when the consent screen appears.
+4. Approve the seller permissions. One of them, `sell.finances`, is what makes the funds summary readable, so approve the full set rather than a subset.
+5. The eBay card turns from gray to green.
+
+**In Perplexity**
+
+6. Open **Settings** and find the **MCP servers** section.
+7. Add a custom MCP server and paste the endpoint:
+
+```
+https://mcp2.corpusiq.io/mcp
+```
+
+8. Connect and approve the CorpusIQ authorisation page once. Then start a new thread and ask for a figure by name.
+
+Running more than one store changes only step 3: connect each seller account separately, because each connection is scoped to the account you authorised, and the answers stay tied to the store you asked about.
+
+### Example Perplexity Questions
+
+**Revenue and orders**
+
+- "What is my eBay GMV for the last 30 days?"
+- "How many orders did I fulfil last week, and how many are still open?"
+- "Compare eBay GMV this month with the same month last year."
+
+**Fees and cash**
+
+- "What did eBay charge me in fees last month, broken down by type?"
+- "Show me eBay funds on hold right now."
+- "How much has settled this week, and what is my total balance?"
+
+**Seller health**
+
+- "How are my seller standards trending?"
+- "What is my INAD rate this quarter, and which listings drive it?"
+- "Which listings got the most impressions last week?"
+
+**Cross-source**
+
+- "Compare eBay GMV with Amazon sales for the same period." (requires the Amazon Seller connector)
+- "Do the eBay refunds in the transaction list match what Stripe shows?" (requires the Stripe connector)
+- "Put eBay fees next to the marketplace fees in QuickBooks for last quarter." (requires the QuickBooks connector)
+
+### Security
+
+- **Read-only retrieval tools.** The tools documented on this page read orders, transactions, seller standards, service metrics, traffic reports and the funds summary. They do not alter a listing, refund a buyer or move money.
+- **Approved on eBay's own screen.** The permissions are granted during the eBay sign-in flow, and the set you approve is visible there before anything is read.
+- **Account-scoped.** A connection reads the single seller account that authorised it.
+- **Revocable.** Disconnecting in CorpusIQ ends the connection, and eBay's own authorised-applications settings list it too.
+- **Scoped direct-MCP retention.** Raw customer files and full connector payloads are not retained. Operational logs keep query text, tool-call metadata and bounded outcome summaries for up to 30 days.
+- **TLS in transit** between eBay, CorpusIQ and Perplexity.
+
+### Comparison: eBay Seller Hub
+
+| Aspect | eBay Seller Hub | CorpusIQ MCP with Perplexity |
+|---|---|---|
+| Input | A report, a date range, a filter | A question |
+| Scope | One screen at a time | Orders, fees, standards, traffic and funds together |
+| Follow-ups | Rebuild the report | Ask the next question in the same thread |
+| Outside context | Open a second tab | Same thread, same answer |
+| Cross-system | Export to a sheet | Asked across connectors |
+| Write access | Yes, by you | None through the retrieval tools |
+
+Seller Hub tells you what each screen holds. It does not tell you whether the fee line is eating the margin.
+
+### FAQ: Common Questions
+
+<details>
+<summary><strong>Can Perplexity change anything on my eBay account?</strong></summary>
+
+No. The retrieval tools documented on this page read orders, transactions, seller standards, service metrics, traffic and the funds summary. Nothing is listed, edited, refunded or moved.
+</details>
+
+<details>
+<summary><strong>The funds summary is empty or missing.</strong></summary>
+
+That summary needs the `sell.finances` permission, which is requested during the eBay sign-in flow. Disconnect and reconnect so the full set is approved, then ask again.
+</details>
+
+<details>
+<summary><strong>The traffic report is empty for today.</strong></summary>
+
+eBay's traffic data runs 24 to 48 hours behind. Ask about yesterday or earlier rather than today.
+</details>
+
+<details>
+<summary><strong>The seller standards profile comes back blank.</strong></summary>
+
+New sellers do not have a standards profile until they pass eBay's minimum order volume. A blank answer there is accurate, not a failed connection.
+</details>
+
+<details>
+<summary><strong>Does it work with more than one eBay account?</strong></summary>
+
+Yes, one connection each. Every connection is scoped to the account that authorised it, so you connect the stores you want and the answer stays attached to the one you asked about.
+</details>
+
+<details>
+<summary><strong>How current is the data?</strong></summary>
+
+Live, read at question time. Orders and transactions are current; the traffic report carries eBay's own lag.
+</details>
+
+<details>
+<summary><strong>Does this work only in Perplexity?</strong></summary>
+
+No. eBay is exposed to ChatGPT, Claude and Perplexity through the same endpoint on the same subscription.
+</details>
+
+### See Also
+
+- [Connect eBay to ChatGPT](connect-ebay-to-chatgpt.md) - the same GMV and fee questions, asked from ChatGPT
+- [eBay connector reference](connectors/ebay.md) - what the connection can see, the permissions it needs and the traffic lag
+- [Connect Amazon Seller to Perplexity](connect-amazon-seller-to-perplexity.md) - the other marketplace in the same answer
+- [Connect Shopify to Perplexity](connect-shopify-to-perplexity.md) - the store you run on your own domain
+
+---
+
+**Next steps:** [Add CorpusIQ to Perplexity now](https://www.corpusiq.io/connectors/perplexity)
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.CorpusIQ.io).*
 
 ---
 # How to Connect Etsy to ChatGPT with CorpusIQ MCP
@@ -17749,6 +17913,7 @@ Direct MCP retrieval does not retain raw customer files or full connector respon
 ## Related Pages
 
 - [OneDrive connector reference](connectors/onedrive.md) - what the connection can see and how the Microsoft consent flow works
+- [Connect OneDrive to Perplexity](connect-onedrive-to-perplexity.md) - the same document questions, asked from Perplexity
 - [Connect Google Drive to ChatGPT](connect-google-drive-to-chatgpt.md) - the same questions against the other file store
 - [Connect SharePoint to ChatGPT](connect-sharepoint-to-chatgpt.md) - the team document libraries beside the personal store
 - [Connect Outlook to ChatGPT](connect-outlook-to-chatgpt.md) - the mailbox that usually shares the same Microsoft connection
@@ -17757,6 +17922,168 @@ Direct MCP retrieval does not retain raw customer files or full connector respon
 - [How to Connect Business Data to ChatGPT](how-to-connect-business-data-to-chatgpt.md) - the general setup
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+
+---
+# How to Connect OneDrive to Perplexity with CorpusIQ MCP
+URL: https://www.corpusiq.io/docs/connect-onedrive-to-perplexity
+
+
+# How to Connect OneDrive to Perplexity with CorpusIQ MCP
+
+OneDrive holds the working documents of a business: contracts, pricing sheets, board decks, the report you wrote three months ago and cannot find by name now. OneDrive will locate a file if you remember what it was called and roughly where it went.
+
+The questions that matter are the other kind. What the renewal clause says. Which pricing sheet is current. What changed between the two versions. Those need the file read, not just found.
+
+Connecting OneDrive through CorpusIQ MCP makes the store answerable inside Perplexity, with the file named in the answer.
+
+### Why Connect OneDrive to Perplexity?
+
+- **Contract recall.** "Find the current MSA with Acme and list the payment terms and the renewal clause."
+- **Version drift.** "Which pricing spreadsheet is the most recent, and what changed from the previous one?"
+- **Deck and memo recall.** "Find the Q3 board deck and summarise the variance commentary."
+- **Change over time.** "Which spreadsheets in OneDrive were edited since the first of the month?"
+- **Account state.** "How much OneDrive storage am I using, and which files were shared with me?"
+- **Read-only by capability.** The retrieval tools documented on this page list and read files. They do not edit, delete, move or share anything.
+
+### How It Works
+
+1. **Connect OneDrive to CorpusIQ.** Sign in with your Microsoft account and accept the permissions the consent screen shows.
+2. **Add CorpusIQ to Perplexity** as a custom remote MCP server, using the endpoint from your CorpusIQ account settings.
+3. **CorpusIQ reads** the file list, the folder structure and the text inside the documents you ask about, in the OneDrive store that account can open.
+4. **Perplexity answers** with the file named, so the claim can be checked against the document itself.
+
+Direct MCP retrieval is read-only. It does not retain raw customer files or full connector response payloads; operational logs keep query text, per-user tool-call metadata and bounded outcome summaries for up to 30 days.
+
+### Setup Steps
+
+**In CorpusIQ**
+
+1. Sign up at [corpusiq.io](https://www.corpusiq.io). The 30-day trial needs no credit card.
+2. Open **Dashboard**, then **Connectors**, and find **OneDrive** under the Microsoft 365 integrations.
+3. Click **Connect**. If Outlook is already connected, check the connector list first: OneDrive is often already covered by that same Microsoft connection.
+4. Sign in with your Microsoft account, review the permissions on the consent screen and click **Accept**.
+5. The OneDrive card turns from gray to green.
+
+**In Perplexity**
+
+6. Open **Settings** and find the **MCP servers** section.
+7. Add a custom MCP server and paste the endpoint:
+
+```
+https://mcp2.corpusiq.io/mcp
+```
+
+8. Connect and approve the CorpusIQ authorisation page once. Then start a new thread and name a document, a folder or a question the file answers.
+
+Organisations that restrict third-party applications route this through a Microsoft Entra ID administrative approval, so the tenant's own policy decides what is authorised before any file is read.
+
+### Example Perplexity Questions
+
+**Find and read**
+
+- "Find my OneDrive file about the Q3 board meeting."
+- "Search OneDrive for any contract with Acme Corp and read the payment terms."
+- "What does the latest pricing spreadsheet say?"
+
+**Change over time**
+
+- "Show me files I opened recently."
+- "Which spreadsheets were edited since the first of the month?"
+- "Compare this quarter's forecast workbook with the previous version and list the changed assumptions."
+
+**Account state**
+
+- "How much OneDrive storage am I using?"
+- "Which files have been shared with me?"
+
+**Cross-source**
+
+- "Compare the invoice totals in OneDrive against the bills in QuickBooks." (requires the QuickBooks connector)
+- "Does the renewal date in the vendor contract match the next invoice date in Stripe?" (requires the Stripe connector)
+- "Do the figures in this board deck reconcile with the same period in the accounting system?" (requires an accounting connector)
+
+### Security
+
+- **Read-only retrieval tools.** The tools documented on this page list files, list folders and read file contents. Nothing is edited, deleted, moved or shared.
+- **Your own permission set.** Access follows the Microsoft account you authorised: a file you cannot open yourself stays out of reach.
+- **One personal store.** The connection reads the OneDrive store of that account, not a SharePoint site or a Teams library.
+- **Revocable.** Disconnecting ends the connection, and Microsoft's own account permissions page lists the application too.
+- **Scoped direct-MCP retention.** Raw customer files and full connector payloads are not retained. Operational logs keep query text, tool-call metadata and bounded outcome summaries for up to 30 days.
+- **TLS in transit** between Microsoft, CorpusIQ and Perplexity.
+
+### Comparison: OneDrive search and Office
+
+| Aspect | OneDrive search and Office | CorpusIQ MCP with Perplexity |
+|---|---|---|
+| Input | A file name, a folder path, a keyword | A question about what a document says |
+| Match | Names and snippets | The passage that answers it |
+| Scope | One store, one file at a time | The store, read against the question |
+| Follow-ups | Open another file | Ask the next question in the same thread |
+| Outside context | Open a second tab | Same thread, same answer |
+| Write access | Yes, by you | None through the retrieval tools |
+
+A search box finds documents. It does not read them for you.
+
+### FAQ: Common Questions
+
+<details>
+<summary><strong>Can Perplexity edit, delete or share my files?</strong></summary>
+
+No. The retrieval tools documented on this page list files and read their contents. Anything that changes a file happens in OneDrive, by you.
+</details>
+
+<details>
+<summary><strong>Which file types can it read?</strong></summary>
+
+Word documents, Excel workbooks, PowerPoint decks, PDFs and plain text files. What is read is the text inside the file.
+</details>
+
+<details>
+<summary><strong>It cannot find a file that exists in OneDrive.</strong></summary>
+
+Confirm the file lives in OneDrive rather than a SharePoint site or a Teams shared library. Those are different stores, and this connection reads the personal OneDrive store.
+</details>
+
+<details>
+<summary><strong>Permission denied on one specific file.</strong></summary>
+
+That file was shared with restricted access. Access follows the Microsoft account you authorised, so a file you cannot open yourself stays out of reach.
+</details>
+
+<details>
+<summary><strong>The consent screen is blocked by my organisation.</strong></summary>
+
+Your Microsoft 365 administrator restricts third-party applications. Ask them to approve CorpusIQ for the tenant, then reconnect.
+</details>
+
+<details>
+<summary><strong>I already connected Outlook. Do I need to connect OneDrive separately?</strong></summary>
+
+Often not. OneDrive can already be authorised under the same Microsoft connection, so check the connector list before running the consent flow again.
+</details>
+
+<details>
+<summary><strong>Does this work only in Perplexity?</strong></summary>
+
+No. OneDrive is exposed to ChatGPT, Claude and Perplexity through the same endpoint on the same subscription.
+</details>
+
+### See Also
+
+- [Connect OneDrive to ChatGPT](connect-onedrive-to-chatgpt.md) - the same document questions, asked from ChatGPT
+- [OneDrive connector reference](connectors/onedrive.md) - what the connection can see and how the Microsoft consent flow works
+- [Connect SharePoint to Perplexity](connect-sharepoint-to-perplexity.md) - the team libraries beside the personal store
+- [Connect Google Drive to Perplexity](connect-google-drive-to-perplexity.md) - the other file store, the same questions
+
+---
+
+**Next steps:** [Add CorpusIQ to Perplexity now](https://www.corpusiq.io/connectors/perplexity)
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.CorpusIQ.io).*
 
 ---
 # How to Connect Outlook to ChatGPT with CorpusIQ MCP
@@ -31610,6 +31937,8 @@ A: Same endpoint, different client. This guide is for using Perplexity as the MC
 - **[Connect CallRail to Perplexity](connect-callrail-to-perplexity.md)** - which sources drove calls, how long they lasted and when they landed
 - **[Connect Azure Cosmos DB to Perplexity](connect-cosmosdb-to-perplexity.md)** - containers, event types and event volume from your own database
 - **[Connect Microsoft SQL Server to Perplexity](connect-mssql-to-perplexity.md)** - orders, invoices and stock levels from your own tables, with no SQL
+- **[Connect eBay to Perplexity](connect-ebay-to-perplexity.md)** - GMV, fees, seller standards and funds on hold from Seller Hub
+- **[Connect OneDrive to Perplexity](connect-onedrive-to-perplexity.md)** - contracts, pricing sheets and decks read from your Microsoft file store
 
 ## Internal Links
 
@@ -37865,6 +38194,7 @@ CorpusIQ never lists items, edits listings, refunds buyers, or moves funds.
 ## See also
 
 - [Connect eBay to ChatGPT](../connect-ebay-to-chatgpt.md) - GMV, fees, seller standards and funds on hold inside a ChatGPT thread.
+- [Connect eBay to Perplexity](../connect-ebay-to-perplexity.md) - the same figures inside a Perplexity thread, with the connector-wide next step.
 - [Connect Etsy to ChatGPT](../connect-etsy-to-chatgpt.md) - the handmade marketplace beside the general one.
 - [Connect Amazon Seller to ChatGPT](../connect-amazon-seller-to-chatgpt.md) - the third channel in the same answer.
 
@@ -39431,6 +39761,7 @@ Read-only. CorpusIQ never edits, deletes, or shares your files.
 ## See also
 
 - [Connect OneDrive to ChatGPT](../connect-onedrive-to-chatgpt.md) - contracts, decks and spreadsheets read from your Microsoft file store inside a ChatGPT thread.
+- [Connect OneDrive to Perplexity](../connect-onedrive-to-perplexity.md) - the same document questions inside a Perplexity thread.
 - [Connect SharePoint to ChatGPT](../connect-sharepoint-to-chatgpt.md) - the team document libraries beside the personal store.
 - [Connect Google Drive to ChatGPT](../connect-google-drive-to-chatgpt.md) - the other file store, same questions.
 
