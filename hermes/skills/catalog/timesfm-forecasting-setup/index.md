@@ -3,18 +3,21 @@ title: TimesFM Forecasting - Full Setup Guide for Hermes Agents
 description: Install and use Google's TimesFM for zero-shot time series forecasting from Hermes agents. Predict revenue, usage, growth - no training required.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/timesfm-forecasting-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-23"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
 # TimesFM Forecasting - Setup Guide
 
-**Source:** [k-dense-ai/scientific-agent-skills](https://github.com/k-dense-ai/scientific-agent-skills) (699 installs)
-**Also available from:** google-research/timesfm (153), eturkes/claude-scientific-skills (23)
+**Source:** [k-dense-ai/scientific-agent-skills](https://github.com/k-dense-ai/scientific-agent-skills) (2,205 installs on skills.sh)
+**Also available from:** google-research/timesfm (198), eturkes/claude-scientific-skills (27)
+**Model version:** TimesFM 3.0 is the current release (`pip install timesfm` resolves to 3.0.x)
 **Category:** Data Science / Forecasting
 
 Google Research's TimesFM is a decoder-only foundation model for time series forecasting. Unlike traditional statistical models (ARIMA, Prophet), TimesFM requires zero training - pass historical data and get predictions immediately. The skill wraps this into a Claude Code / Hermes agent workflow.
+
+**License check before production use:** source code is Apache-2.0 and model weights up to version 2.5 are Apache-2.0, but the TimesFM 3.0 pretrained weights ship under a separate non-commercial license and are restricted to non-commercial, non-production use. Pin a 2.x checkpoint if the forecasts feed a commercial product.
 
 ---
 
@@ -95,7 +98,7 @@ python3 SKILL_DIR/scripts/forecast.py --input data.csv --detect-anomalies
 |---|---|
 | `ModuleNotFoundError: timesfm` | `pip install timesfm` - package not auto-installed |
 | `CUDA not available` | TimesFM runs on CPU. Add `--device cpu` flag for non-GPU environments. |
-| Out-of-memory on large datasets | TimesFM context window is 512 points. Batch longer series or downsample. |
+| Out-of-memory on large datasets | TimesFM 2.5 and 3.0 accept up to 16k context points (2.0 was 2048), so cap the context length you pass to what the machine can hold and downsample longer series. |
 | Prediction looks flat | Input series may lack clear trend/seasonality. Add exogenous features or extend history. |
 
 ---

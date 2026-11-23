@@ -3,7 +3,7 @@ title: "Hermespace - Persistent Agent World Setup"
 description: "Install and configure hermespace (PabloTheThinker/hermespace) for Hermes Agent - a persistent world model with limited working-memory desk, dual decode"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermespace-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-23"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
@@ -11,8 +11,8 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 # Hermespace Setup Guide
 
 **Repo:** [PabloTheThinker/hermespace](https://github.com/PabloTheThinker/hermespace)
-**Version:** v0.20.0
-**Stars:** 46
+**Version:** v0.25.0
+**Stars:** 10
 **License:** MIT
 **Skill:** `npx skills add PabloTheThinker/hermespace --skill hermespace -g -y`
 
@@ -33,7 +33,7 @@ It does **not** replace Hermes tools, skills, memory, gateway, or the agent loop
 ## Prerequisites
 
 - Python 3.10+
-- Hermes Agent v0.20.0+ (v0.20.0+ recommended)
+- Hermes Agent v0.20.0+ (the project's stated production target)
 - Git
 - pip or uv for Python package management
 
@@ -60,6 +60,14 @@ The install script:
 2. Symlinks `hermes_plugin/` → `$HERMES_HOME/plugins/hermespace`
 3. Symlinks `skills/hermespace/` → `$HERMES_HOME/skills/hermespace`
 4. Creates `~/.hermespace/` state directory
+
+### Method 3: Hermes plugin install
+
+The repo is also installable as a Hermes plugin, which symlinks the plugin and skill in one step:
+
+```bash
+hermes plugins install PabloTheThinker/hermespace --enable
+```
 
 ### Verify Installation
 

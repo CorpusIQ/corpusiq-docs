@@ -3,176 +3,148 @@ title: Hermes Ershov Memory Engine Setup
 description: Install and configure Ershov - a staged nightly memory engine for Hermes operators with reviewable proposals, artifact-first workflow, and 4 LLM backends
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-ershov-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-23"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
 # Hermes Ershov Memory Engine Setup
 
-**Plugin:** hermes-ershov
-**Source:** [ersh123/hermes-ershov](https://github.com/ersh123/hermes-ershov)
-**Stars:** 2 ⭐ | **License:** MIT | **Created:** June 19, 2026
-**CI:** ✅ GitHub Actions | **Security:** ✅ CodeQL + OpenSSF Scorecard
+**Plugin:** self-ershov-memory (formerly hermes-ershov)
+**Source:** [ersh123/self-ershov-memory](https://github.com/ersh123/self-ershov-memory)
+**Stars:** 3 ⭐ | **License:** MIT | **Created:** June 19, 2026
+**CI:** ✅ GitHub Actions (Python 3.11-3.13) | **Security:** ✅ CodeQL + OpenSSF Scorecard
 
 ## 1. What It Is
 
-A staged nightly memory engine that turns recent Hermes sessions into **reviewable memory proposals** - no silent live-memory mutation. Think of it as "Git for agent memory": inspect, diff, approve, apply, revert.
+A self-audit memory engine. It reads Hermes dialogue history from `~/.hermes/state.db`, extracts durable operator corrections, snapshots memory files, and updates `USER.md` / `MEMORY.md` only through explicit, reviewable runs. Nothing is silently rewritten.
 
 **Key design principles:**
-- **Artifact-first:** Every proposal is a JSONL file with full diffs before any memory write
-- **Human-in-the-loop:** No automated mutation of live memory - every change goes through review
-- **Auditable:** Local run ledger + `ERSHOV.md` diary tracks every decision
-- **Offline-capable:** Deterministic replays for demos and tests
+- **Grounded:** durable memory comes from dialogue evidence, not fabricated assumptions
+- **Idempotent:** repeat runs skip corrections already known
+- **Safe by default:** `--dry-run` is the default mode; `--execute` is explicit
+- **Auditable:** a snapshot before every write, plus an Error Bank for repeated failures
 
-**How it works (nightly loop):**
+**How it works:**
 
 ```
-Recent Sessions → Analyze → Generate Proposals (JSONL)
-                              ↓
-                    Inspect → Diff → Validate
-                              ↓
-                   Approve → Apply → Verify
-                   Reject  → Archive with reason
-                              ↓
-                   Write to ERSHOV.md diary
+~/.hermes/state.db dialogs
+  -> correction / rule extraction
+  -> Error Bank extraction for fixed compiler/runtime/test failures
+  -> controlled context checkpoint / rebuild sidecar
+  -> topic classification + dedup
+  -> snapshot before write
+  -> USER.md / MEMORY.md / error-bank / context / skill updates
 ```
+
+The project was renamed from `hermes-ershov` to `self-ershov-memory`, and the maintainer removed the legacy staged-memory command surface (`review`, `inspect`, `approve`, `apply`, `revert`) from the public package. What ships now is one CLI with a dry-run / execute loop.
 
 ## 2. Prerequisites
 
 - Hermes Agent installed (plugin system supported)
-- At least one LLM backend configured (DeepSeek, OpenRouter, OpenAI-compatible, or Ollama)
+- Python 3.11, 3.12, or 3.13 - the versions the project's CI gates on
+- DeepSeek reachable as the LLM fallback path (direct `deepseek` is the provider policy)
 - Git (for install)
-- Disk space: ~50KB for plugin + ledger files
+- Disk space: small - the plugin, the `USER.md` / `MEMORY.md` snapshots, and the `~/.hermes/context` store
 
 ## 3. Installation
 
 ### Plugin Install (Recommended)
 
 ```bash
-hermes plugins install ersh123/hermes-ershov --enable
+hermes plugins install ersh123/self-ershov-memory --enable
 ```
 
 ### Local Development Install
 
+Clone into the profile's plugins directory, then register that checkout so updates are tracked:
+
 ```bash
-hermes plugins install file:///path/to/hermes-ershov --enable
+git clone https://github.com/ersh123/self-ershov-memory.git "$HERMES_HOME/plugins/self-ershov-memory"
+hermes plugins adopt self-ershov-memory
 ```
 
 ### Verify Installation
 
 ```bash
-hermes plugins list | grep ershov
-hermes ershov review --help
+hermes plugins list | grep -i ershov
+self-ershov-memory --help
 ```
 
-### Configure LLM Backend
+### Configure the LLM Backend
 
-Ershov supports 4 backends. Configure in `~/.hermes/config.yaml`:
+The provider policy is direct DeepSeek. Set the key in the environment Hermes runs in:
 
-```yaml
-ershov:
-  backend: deepseek           # deepseek | openrouter | openai-compatible | ollama
-  model: deepseek-chat        # Model name for your chosen backend
-  
-  # Backend-specific configs (only one needed):
-  deepseek:
-    api_key_env: DEEPSEEK_API_KEY
-    base_url: "https://api.deepseek.com/v1"
-  
-  openrouter:
-    api_key_env: OPENROUTER_API_KEY
-    base_url: "https://openrouter.ai/api/v1"
-  
-  openai_compatible:
-    api_key_env: OPENAI_API_KEY
-    base_url: "${OPENAI_BASE_URL}"
-  
-  ollama:
-    base_url: "http://localhost:11434"
+```bash
+export DEEPSEEK_API_KEY="your-key"
 ```
 
 ## 4. Capabilities
 
 | Feature | Description |
 |---------|-------------|
-| `review` | Generate memory proposals from recent sessions |
-| `inspect` | View a proposal's full diff |
-| `validate` | Validate proposals against memory constraints |
-| `approve` | Approve a proposal for application |
-| `reject` | Reject with reason, archived for audit |
-| `apply` | Apply an approved proposal to live memory |
-| `revert` | Roll back an applied proposal |
-| `ledger` | View local run history |
-| `diary` | Read/write ERSHOV.md audit trail |
-| `offline` | Run with `--offline` for deterministic replay |
+| Audit pass | Extract corrections from recent dialogues; `--dry-run` shows the delta, `--execute` applies it |
+| Error Bank | File-backed entries keyed `error_bank/<language>/<code>`, so repeat failures consolidate instead of flooding memory |
+| checkpoints | MiMo-style `checkpoint.md` plus budgeted rebuild packets under `~/.hermes/context` |
+| rebuild | Rebuild a session's context packet inside a token budget |
+| fts-index / fts-search | Local Markdown FTS5 index over the context store |
+| Snapshots | Memory files are copied before any write |
+| Validation | Size checks on memory files; no secret values in logs or doctor output |
 
 ## 5. CLI Reference
 
 ```bash
-# Nightly review cycle
-hermes ershov review                    # Generate proposals
-hermes ershov review --list             # List pending proposals
-hermes ershov inspect <proposal-id>     # View full diff
-hermes ershov validate <proposal-id>    # Validate against constraints
-hermes ershov approve <proposal-id>     # Approve for application
-hermes ershov reject <proposal-id> --reason "factually incorrect"
-hermes ershov apply <proposal-id>       # Write to live memory
+# Inspect proposed changes (nothing is written)
+self-ershov-memory --dry-run --quick
 
-# Rollback
-hermes ershov revert <proposal-id>      # Undo an applied proposal
+# Full 30-day pass - still dry-run unless --execute is present
+self-ershov-memory --dry-run --full
 
-# Audit
-hermes ershov ledger                    # View run history
-hermes ershov ledger --since 7d         # Last 7 days
-hermes ershov diary                     # Read ERSHOV.md
+# Apply after review
+self-ershov-memory --execute --full
 
-# Offline mode
-hermes ershov review --offline          # Deterministic replay
+# Controlled context rebuild sidecar
+self-ershov-memory checkpoint --session <session-id>
+self-ershov-memory rebuild --session <session-id> --budget 48000
+
+# Local context index
+self-ershov-memory fts-index
+self-ershov-memory fts-search "checkpoint"
 ```
 
 ## 6. CorpusIQ Use Cases
 
-**For the CorpusIQ growth agent profile:**
+**For the CorpusIQ growth agent profile.** The profile flag is `-p` (`hermes -p <profile> <command>`); `--profile` is not a flag.
 
 ```bash
-# Install for corpusiq profile
-hermes --profile <your-profile> plugins install ersh123/hermes-ershov --enable
+# Install for the corpusiq profile
+hermes -p corpusiq plugins install ersh123/self-ershov-memory --enable
 
-# Run nightly review on CorpusIQ sessions
-hermes --profile <your-profile> ershov review --since 24h
+# Nightly dry-run audit against CorpusIQ sessions
+self-ershov-memory --dry-run --full
 
-# Inspect proposals about growth strategy
-hermes --profile <your-profile> ershov inspect <id>
-
-# Approve high-quality memory proposals
-hermes --profile <your-profile> ershov approve <id>
-hermes --profile <your-profile> ershov apply <id>
+# Apply the reviewed corrections
+self-ershov-memory --execute --full
 ```
 
 **CorpusIQ-specific config:**
 
-```yaml
-# In ~/.hermes/profiles/<your-profile>/config.yaml
-ershov:
-  backend: deepseek
-  model: deepseek-chat
-  deepseek:
-    api_key_env: DEEPSEEK_API_KEY
-    base_url: "https://api.deepseek.com/v1"
+```bash
+# In the environment of the profile's process
+export DEEPSEEK_API_KEY="your-key"
 ```
 
 **Integration with CorpusIQ's existing memory stack:**
-- Ershov complements (doesn't replace) Hermes' built-in `memory` tool
-- Use Ershov for: cross-session pattern detection, cleanup of stale memories, quality audits
+- Ershov complements (doesn't replace) the Hermes `memory` tool and the Sibyl provider
+- Use Ershov for: cross-session correction extraction, cleanup of stale memories, quality audits
 - Keep Hermes `memory` for: session-level facts, user preferences, quick saves
-- Ershov diary serves as a changelog for the memory layer - pairs well with Honcho's peer context
+- Ershov's snapshots act as a changelog for the memory layer - pairs well with Honcho's peer context
 
 **Cron job for nightly review:**
 
 ```bash
-# Add to crontab: run at 3 AM Arizona daily
-0 3 * * * hermes --profile <your-profile> ershov review --since 24h >> ~/.hermes/profiles/<your-profile>/logs/ershov.log 2>&1
+# Add to crontab: run at 3 AM Arizona daily. Dry-run by default; review before adding --execute.
+0 3 * * * self-ershov-memory --dry-run --full >> ~/.hermes/logs/ershov-audit.log 2>&1
 ```
 
 ## 7. Troubleshooting
@@ -180,11 +152,11 @@ ershov:
 | Symptom | Likely Cause | Fix |
 |---------|-------------|-----|
 | `hermes plugins install` fails | Git not installed | `apt-get install git` / `brew install git` |
-| `review` produces 0 proposals | No sessions in window | Check `--since` window; run a session first |
-| LLM backend connection refused | Wrong base URL or API key | Verify env vars; test with `curl $base_url/models` |
-| `apply` fails silently | Proposal conflicts with live memory | Inspect diff first; resolve conflict manually |
-| High token costs | Using expensive model for proposal gen | Switch backend to DeepSeek or Ollama |
-| Offline mode produces different results | Non-deterministic backend configured | Use `--model` override with a deterministic temp |
+| No changes proposed | `--execute` missing, or nothing new in the window | Run `--dry-run --full` and read the delta; widen the window |
+| LLM provider error | DeepSeek key missing or rejected | Check `DEEPSEEK_API_KEY` in the process environment |
+| Memory file rejected | Size validation failed | Trim the file; the previous run's snapshot is still in place |
+| `review` / `apply` commands missing | Staged command surface removed upstream | Use the `--dry-run` / `--execute` loop above |
+| High token costs | Expensive model in the fallback path | Keep direct `deepseek`; use `--quick` for routine passes |
 
 ---
 

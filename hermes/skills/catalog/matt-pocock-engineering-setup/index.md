@@ -3,14 +3,14 @@ title: "Matt Pocock Engineering Skills - Setup Guide"
 description: "Install and configure the 5-skill Matt Pocock engineering suite: architecture review, PRD generation, issue decomposition, repo setup, and adversarial plan"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/matt-pocock-engineering-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-23"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
 # Matt Pocock Engineering Skills - Hermes Setup Guide
 
-**Skill Suite:** Matt Pocock Engineering Skills (5 skills, 1.3M+ combined installs)
+**Skill Suite:** Matt Pocock Engineering Skills (5 skills, 4.3M+ combined installs on skills.sh)
 **Source:** [mattpocock/skills](https://github.com/mattpocock/skills)
 **Category:** Software Engineering, Product Management, Project Management
 
@@ -22,11 +22,13 @@ Matt Pocock's engineering skills turn Hermes agents into production-grade softwa
 
 | Skill | Role | Installs |
 |-------|------|:--------:|
-| **improve-codebase-architecture** | Scan code for improvement opportunities, visual HTML report | 347K |
-| **to-prd** | Convert conversations into structured PRDs | 308K |
-| **to-issues** | Decompose plans into executable issues (tracer-bullet slices) | 296K |
-| **setup-matt-pocock-skills** | One-time repo config: issue tracker, labels, domain docs | 288K |
-| **grilling** | Adversarial plan review - stress-test before building | 71K |
+| **improve-codebase-architecture** | Scan code for improvement opportunities, visual HTML report | 1.30M |
+| **to-prd** | Convert conversations into structured PRDs | 352K |
+| **to-issues** | Decompose plans into executable issues (tracer-bullet slices) | 339K |
+| **setup-matt-pocock-skills** | One-time repo config: issue tracker, labels, domain docs | 1.18M |
+| **grilling** | Adversarial plan review - stress-test before building | 1.15M |
+
+Install counts read from skills.sh on 23 November 2026.
 
 **Typical workflow:** Setup repo → Grill the plan → Generate PRD → Break into issues → Improve architecture as you go.
 
@@ -51,12 +53,17 @@ npx skills add mattpocock/skills@setup-matt-pocock-skills
 
 ### Step 2: Configure your repo
 
-Run the setup skill to configure your project's issue tracker, label vocabulary, and domain document layout:
+Run the setup skill to configure your project's issue tracker, label vocabulary, and domain document layout. Invoke it from your agent session (it is a skill, not a shell workflow):
 
 ```bash
-# From your project directory
-npx skills run setup-matt-pocock-skills
+# Ask your agent, from the project directory:
+# "run setup-matt-pocock-skills"
+
+# Or generate the prompt for the skill without installing it
+npx skills use mattpocock/skills@setup-matt-pocock-skills
 ```
+
+`npx skills` has no `run` subcommand. Its commands are `add`, `use`, `remove`, `list`, `find`, `update`, `init`, `sync`, and `install` (restore from `skills-lock.json`).
 
 This creates:
 - Issue labels: `bug`, `feature`, `tech-debt`, `docs`, `epic`

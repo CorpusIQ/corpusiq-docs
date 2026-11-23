@@ -3,10 +3,10 @@ title: Hermes Windows Native - Setup Guide
 description: Run Hermes Agent + WebUI on Windows without Docker or WSL2. One-click PowerShell launcher, shared venv, pure native workflow.
 category: Platform
 source: markwang2658/hermes-windows-native
-stars: 20
+stars: 34
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-windows-native/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-23"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
@@ -15,7 +15,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 **Install:** `git clone https://github.com/markwang2658/hermes-windows-native.git`
 
-A Windows-native integrated package that bundles Hermes Agent v0.16.0 + Hermes WebUI v0.51.454 with a shared Python virtual environment, PowerShell launchers, and one-click startup. No Docker, no WSL2 - the lightest local footprint on Windows.
+A Windows-native integrated package that bundles Hermes Agent 0.17.0 (source v2026.06.19) + Hermes WebUI v0.51.528 with a shared Python virtual environment, PowerShell launchers, and one-click startup. No Docker, no WSL2 - the lightest local footprint on Windows.
 
 ## Why Use This
 
@@ -31,7 +31,7 @@ A Windows-native integrated package that bundles Hermes Agent v0.16.0 + Hermes W
 
 ### Prerequisites
 - Windows 10/11
-- Python 3.10+ installed
+- Python 3.11+ installed
 - Git installed
 
 ### Step 1: Clone and set up
