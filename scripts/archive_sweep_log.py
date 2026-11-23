@@ -59,6 +59,20 @@ def parse(text):
     return head, out
 
 
+FOOTER_MARK = "\n## Archive"
+
+
+def strip_footer(body):
+    """Drop a previously written archive footer so rewriting is idempotent.
+
+    The footer sits after the last sweep section, so parse() folds it into that
+    section's body. Without this, every run appended another copy of it and the
+    live page carried three of them (2026-11-23).
+    """
+    i = body.find(FOOTER_MARK)
+    return body[:i] if i > 0 else body
+
+
 def bucket(key):
     """'2026-11a' = days 1-15, '2026-11b' = days 16-31."""
     y, m, d = key
@@ -147,12 +161,12 @@ def main():
         merged.sort(key=lambda s: s[0], reverse=True)
         prev_b = allb[i - 1] if i > 0 else ""
         next_b = allb[i + 1] if i + 1 < len(allb) else ""
-        body = front(b, stamp, prev_b, next_b) + "".join(x[2].rstrip() + "\n\n" for x in merged)
+        body = front(b, stamp, prev_b, next_b) + "".join(strip_footer(x[2]).rstrip() + "\n\n" for x in merged)
         for rel in (os.path.join(DIR, "changelog-" + b + ".md"),
                     os.path.join("docs", DIR, "changelog-" + b + ".md")):
             write(rel, body)
         print("  wrote changelog-{}.md ({} sections)".format(b, len(merged)))
-    log = new_head.rstrip() + "\n\n" + "".join(x[2].rstrip() + "\n\n" for x in keep)
+    log = new_head.rstrip() + "\n\n" + "".join(strip_footer(x[2]).rstrip() + "\n\n" for x in keep)
     log += "## Archive\n\nOlder passes by half-month: " + " | ".join(
         "[{}](/hermes/mcp/servers/external/changelog-{})".format(bucket_range(b), b)
         for b in allb) + "\n"

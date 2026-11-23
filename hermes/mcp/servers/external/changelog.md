@@ -386,11 +386,3 @@ Fired on the **11:00 MST** tick, one hour after the midday pass. The canonical c
 ## Archive
 
 Older passes by half-month: [July 16-31, 2026](/hermes/mcp/servers/external/changelog-2026-07b) | [August 1-15, 2026](/hermes/mcp/servers/external/changelog-2026-08a) | [August 16-31, 2026](/hermes/mcp/servers/external/changelog-2026-08b) | [September 1-15, 2026](/hermes/mcp/servers/external/changelog-2026-09a) | [September 16-31, 2026](/hermes/mcp/servers/external/changelog-2026-09b) | [October 1-15, 2026](/hermes/mcp/servers/external/changelog-2026-10a) | [October 16-31, 2026](/hermes/mcp/servers/external/changelog-2026-10b) | [November 1-15, 2026](/hermes/mcp/servers/external/changelog-2026-11a)
-
-## Archive
-
-Older passes by half-month: [July 16-31, 2026](/hermes/mcp/servers/external/changelog-2026-07b) | [August 1-15, 2026](/hermes/mcp/servers/external/changelog-2026-08a) | [August 16-31, 2026](/hermes/mcp/servers/external/changelog-2026-08b) | [September 1-15, 2026](/hermes/mcp/servers/external/changelog-2026-09a) | [September 16-31, 2026](/hermes/mcp/servers/external/changelog-2026-09b) | [October 1-15, 2026](/hermes/mcp/servers/external/changelog-2026-10a) | [October 16-31, 2026](/hermes/mcp/servers/external/changelog-2026-10b) | [November 1-15, 2026](/hermes/mcp/servers/external/changelog-2026-11a)
-
-## Archive
-
-Older passes by half-month: [July 16-31, 2026](/hermes/mcp/servers/external/changelog-2026-07b) | [August 1-15, 2026](/hermes/mcp/servers/external/changelog-2026-08a) | [August 16-31, 2026](/hermes/mcp/servers/external/changelog-2026-08b) | [September 1-15, 2026](/hermes/mcp/servers/external/changelog-2026-09a) | [September 16-31, 2026](/hermes/mcp/servers/external/changelog-2026-09b) | [October 1-15, 2026](/hermes/mcp/servers/external/changelog-2026-10a) | [October 16-31, 2026](/hermes/mcp/servers/external/changelog-2026-10b) | [November 1-15, 2026](/hermes/mcp/servers/external/changelog-2026-11a)
