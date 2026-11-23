@@ -9182,7 +9182,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/addyosmani-agent-skills-setup</loc>
-         <lastmod>2026-11-19</lastmod>
+         <lastmod>2026-11-22</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/adhd-skill-setup</loc>
@@ -9510,7 +9510,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/antibrow-setup</loc>
-         <lastmod>2026-11-19</lastmod>
+         <lastmod>2026-11-22</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/antigravity-lazy-pack-setup</loc>
@@ -10806,7 +10806,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/emilkowalski-skills-setup</loc>
-         <lastmod>2026-11-19</lastmod>
+         <lastmod>2026-11-22</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/encore-skills-setup</loc>
@@ -11650,7 +11650,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/jeffallan-claude-skills-setup</loc>
-         <lastmod>2026-11-01</lastmod>
+         <lastmod>2026-11-22</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/jeo-skills-setup</loc>
@@ -12158,7 +12158,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/microsoft-azure-skills-setup</loc>
-         <lastmod>2026-11-19</lastmod>
+         <lastmod>2026-11-22</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/microsoft-fabric-skills-setup</loc>
@@ -13554,7 +13554,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/stitch-skills-setup</loc>
-         <lastmod>2026-11-19</lastmod>
+         <lastmod>2026-11-22</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/stop-slop-setup</loc>
@@ -13694,7 +13694,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/taste-skill-setup</loc>
-         <lastmod>2026-11-01</lastmod>
+         <lastmod>2026-11-22</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/tauri-skills-setup</loc>
@@ -13970,7 +13970,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/vercel-agent-skills-setup</loc>
-         <lastmod>2026-11-19</lastmod>
+         <lastmod>2026-11-22</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/vercel-ai-skills-setup</loc>
@@ -14306,7 +14306,19 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/firebase</loc>
-         <lastmod>2026-11-01</lastmod>
+         <lastmod>2026-11-22</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/firebase/extension-to-functions-codebase</loc>
+         <lastmod>2026-11-22</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/firebase/firebase-ai-logic-basics</loc>
+         <lastmod>2026-11-22</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/firebase/firebase-app-hosting-basics</loc>
+         <lastmod>2026-11-22</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/firebase/firebase-auth-basics</loc>
@@ -14317,8 +14329,16 @@
          <lastmod>2026-11-07</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/firebase/firebase-firestore</loc>
+         <lastmod>2026-11-22</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/firebase/firebase-hosting-basics</loc>
          <lastmod>2026-11-07</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/firebase/firebase-remote-config-basics</loc>
+         <lastmod>2026-11-22</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/firebase/firebase-security-rules-auditor</loc>
@@ -14327,6 +14347,10 @@
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/firebase/firestore-security-rules-auditor</loc>
          <lastmod>2026-11-07</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/firebase/xcode-project-setup</loc>
+         <lastmod>2026-11-22</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/firecrawl</loc>
