@@ -1330,7 +1330,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/architecture</loc>
-         <lastmod>2026-11-07</lastmod>
+         <lastmod>2026-11-22</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/architecture/ai-consistency-data-access-problem</loc>
@@ -4045,6 +4045,10 @@
          <lastmod>2026-11-21</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/ex-go-mcp</loc>
+         <lastmod>2026-11-22</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/exascale-build-mcp</loc>
          <lastmod>2026-11-01</lastmod>
     </url>
@@ -4887,6 +4891,10 @@
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/kuotia-mcp</loc>
          <lastmod>2026-11-12</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/labelqueue-mcp</loc>
+         <lastmod>2026-11-22</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/landlens-one-mcp</loc>
@@ -7101,6 +7109,10 @@
          <lastmod>2026-11-19</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/trueinterview-mcp</loc>
+         <lastmod>2026-11-22</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/truemargin-mcp</loc>
          <lastmod>2026-11-18</lastmod>
     </url>
@@ -8125,6 +8137,10 @@
          <lastmod>2026-11-21</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-november22-2026-evening</loc>
+         <lastmod>2026-11-22</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-november22-2026-midday</loc>
          <lastmod>2026-11-22</lastmod>
     </url>
@@ -8918,7 +8934,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/prompts</loc>
-         <lastmod>2026-11-19</lastmod>
+         <lastmod>2026-11-22</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/prompts/business-operations</loc>
@@ -9098,7 +9114,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog</loc>
-         <lastmod>2026-11-21</lastmod>
+         <lastmod>2026-11-22</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/01coder-agent-skills-setup</loc>
