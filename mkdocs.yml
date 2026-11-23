@@ -264,6 +264,8 @@ nav:
   - Connect CallRail to Perplexity: connect-callrail-to-perplexity.md
   - Connect Azure Cosmos DB to Perplexity: connect-cosmosdb-to-perplexity.md
   - Connect Microsoft SQL Server to Perplexity: connect-mssql-to-perplexity.md
+  - Connect eBay to Perplexity: connect-ebay-to-perplexity.md
+  - Connect OneDrive to Perplexity: connect-onedrive-to-perplexity.md
 - Business AI Use Cases:
   - AI for Business Intelligence: ai-for-business-intelligence.md
   - AI for Financial Analysis: ai-for-financial-analysis.md

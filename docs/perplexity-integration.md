@@ -127,6 +127,8 @@ A: Same endpoint, different client. This guide is for using Perplexity as the MC
 - **[Connect CallRail to Perplexity](connect-callrail-to-perplexity.md)** - which sources drove calls, how long they lasted and when they landed
 - **[Connect Azure Cosmos DB to Perplexity](connect-cosmosdb-to-perplexity.md)** - containers, event types and event volume from your own database
 - **[Connect Microsoft SQL Server to Perplexity](connect-mssql-to-perplexity.md)** - orders, invoices and stock levels from your own tables, with no SQL
+- **[Connect eBay to Perplexity](connect-ebay-to-perplexity.md)** - GMV, fees, seller standards and funds on hold from Seller Hub
+- **[Connect OneDrive to Perplexity](connect-onedrive-to-perplexity.md)** - contracts, pricing sheets and decks read from your Microsoft file store
 
 ## Internal Links
 

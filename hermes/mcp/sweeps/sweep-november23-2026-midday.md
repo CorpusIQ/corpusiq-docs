@@ -111,7 +111,7 @@ Twenty-three arrivals, each measured or class-named rather than dropped silently
 | mcpservers.org | **listed** | `corpusiq-io` in `servers/5.xml` of this pass's fresh capture, beside our own `/servers/corpusiq/corpusiq-docs` mirror |
 | mcp.so | **not listed** | four slugs 404: `corpusiq`, `corpusiq-io`, `corpusiq-mcp`, `io.corpusiq` |
 | Glama | **listed** | `200` at `/mcp/connectors/io.corpusiq/multi-source-mcp`, title *CorpusIQ - MCP Connector* |
-| Smithery | **listed in the registry API, page route unresolved** | `registry.smithery.ai/servers/benoit-p/Cprusiq` returns the record with `remote: true`, deployment `corpusiq.run.tools` and our MCP Apps resources; the public page 404s for namespaced servers generally - three other namespaced records were tested, one renders and two 404 - so the 404 is a route condition and not a delisting |
+| Smithery | **listed in the registry API, page route unresolved** | the registry API returns the Cprusiq record with `remote: true`, deployment `corpusiq.run.tools` and our MCP Apps resources; the public page 404s for namespaced servers generally - three other namespaced records were tested, one renders and two 404 - so the 404 is a route condition and not a delisting |
 | Anthropic connector directory | **not listed** | `scripts/anthropic_directory_watch.py` exit 0, 1,207 pages scanned, 0 hits |
 
 ## What this window says about the directory

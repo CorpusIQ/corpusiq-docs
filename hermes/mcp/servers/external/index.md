@@ -11,7 +11,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators - curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> > **Last updated:** November 23, 2026 (midday supplement) · The three newest sweep reports are below. The condensed pass-by-pass history, back to the first pass, is in the [catalog sweep log](/hermes/mcp/servers/external/changelog/).
+> > **Last updated:** November 23, 2026 (midday supplement) · The three newest sweep reports are below. The condensed pass-by-pass history, back to the first pass, is in the [catalog sweep log](/hermes/mcp/servers/external/changelog).
 
 ## 🆕 November 23, 2026 - Midday Supplement (1 New, 1 Guide)
 
