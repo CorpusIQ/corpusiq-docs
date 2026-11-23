@@ -1,10 +1,10 @@
 ---
 title: Vercel Agent Skills - Full Setup Guide for Hermes Agents
-description: "Install and use Vercel's official agent skills collection - 4 skills for optimization, React best practices, web design, and writing guidelines."
+description: "Install and use Vercel's official agent skills collection - 5 skills for optimization, React best practices, web design, writing, and token-based CLI."
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/vercel-agent-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-19"
+last_updated: "2026-11-22"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
@@ -15,7 +15,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 **Category:** Development / Quality
 **Language:** JavaScript
 
-Vercel's official collection of skills for AI coding agents. Four skills covering Vercel project optimization, React/Next.js best practices (40+ rules), web design guidelines (100+ rules), and writing guidelines (80+ rules). Follows the Agent Skills format.
+Vercel's official collection of skills for AI coding agents. Five skills covering Vercel project optimization, React/Next.js best practices (40+ rules), web design guidelines (100+ rules), and writing guidelines (80+ rules). Follows the Agent Skills format.
 
 ---
 
@@ -30,6 +30,7 @@ npx skills add vercel-labs/agent-skills --skill vercel-optimize
 npx skills add vercel-labs/agent-skills --skill react-best-practices
 npx skills add vercel-labs/agent-skills --skill web-design-guidelines
 npx skills add vercel-labs/agent-skills --skill writing-guidelines
+npx skills add vercel-labs/agent-skills --skill vercel-cli-with-tokens
 ```
 
 ---
@@ -54,6 +55,7 @@ npx skills add vercel-labs/agent-skills --skill writing-guidelines
 | **react-best-practices** | 40+ React/Next.js rules across 8 categories | Writing new components, code review, bundle optimization |
 | **web-design-guidelines** | 100+ UI rules covering accessibility, performance, UX | "Review my UI", accessibility audits, design reviews |
 | **writing-guidelines** | 80+ writing rules covering voice, structure, typography | "Review my docs", content audits, style checks |
+| **vercel-cli-with-tokens** | Deploy and manage Vercel projects with access-token auth instead of interactive login | CI pipelines, automation hosts, unattended deploys (added Nov 22, 2026 sweep) |
 
 ### react-best-practices Categories
 

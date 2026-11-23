@@ -3,7 +3,7 @@ title: "taste-skill - Setup Guide"
 description: "Install and use leonxlnx/taste-skill - convert screenshots to production code, generate web/mobile UI from text."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/taste-skill-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-22"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
@@ -245,6 +245,24 @@ Install individually:
 ```bash
 npx skills add leonxlnx/taste-skill@design-taste-frontend
 npx skills add leonxlnx/taste-skill@design-taste-frontend-v1
+```
+
+## Roster Additions (Nov 22, 2026 sweep)
+
+Three further listings from the same publisher surfaced in the November 22, 2026 standing window:
+
+| Skill | Installs | What It Does |
+|---|---|---|
+| `high-end-visual-design` | 458,915 | Opt-in classic style skill: calm, polished output with soft contrast, generous whitespace and spring motion, invoked only by name |
+| `design-taste-frontend-v2-experimental` | 19,550 | The single-file, dial-driven taste-skill that was the default before v2, kept for projects depending on its exact behaviour |
+| `image-taste-frontend` | 3,554 | Image-to-code for Codex: generates the design image first, analyzes it, then writes the frontend |
+
+Install individually:
+
+```bash
+npx skills add leonxlnx/taste-skill@high-end-visual-design
+npx skills add leonxlnx/taste-skill@design-taste-frontend-v2-experimental
+npx skills add leonxlnx/taste-skill@image-taste-frontend
 ```
 
 ---

@@ -4,7 +4,7 @@ description: "Microsoft's official Azure AI Foundry agent skills with 478K+ comb
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/microsoft-azure-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-19"
+last_updated: "2026-11-22"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
@@ -25,6 +25,7 @@ Microsoft's official skills for building, deploying, and managing AI agents on A
 npx skills add microsoft/azure-skills --skill microsoft-foundry
 npx skills add microsoft/azure-skills --skill azure-ai
 npx skills add microsoft/azure-skills --skill azure-deploy
+npx skills add microsoft/azure-skills --skill discover-azure-skills
 ```
 
 ---
@@ -37,6 +38,7 @@ npx skills add microsoft/azure-skills --skill azure-deploy
 | **azure-ai** | 474.4K | Azure AI Services resource and project management |
 | **azure-deploy** | 474.1K | Agent deployment, versioning, and multi-environment management |
 | **azure-hosted-copilot-sdk** | 443.4K | Hosted Copilot SDK for building agents on Azure AI Foundry (added Sep 29, 2026 sweep) |
+| **discover-azure-skills** | 236.6K | Searches the Azure skills catalog and recommends installable skills by matching an Azure task to skill metadata (added Nov 22, 2026 sweep) |
 
 ---
 

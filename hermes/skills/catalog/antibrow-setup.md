@@ -4,7 +4,7 @@ description: "Launch Chromium instances with real-device fingerprints via standa
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/antibrow-setup/"
 robots: "index,follow"
-last_updated: "2026-11-19"
+last_updated: "2026-11-22"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
@@ -116,6 +116,22 @@ const { liveView } = await ab.launch({
   liveView: true,
 })
 console.log('Watch live:', liveView.viewUrl)
+```
+
+---
+
+## Included Skills (Nov 22, 2026 sweep)
+
+Two skills from this publisher were not previously listed here. Both are agent-facing: one gives the agent a browser over MCP, the other verifies that a profile really is isolated rather than assuming it.
+
+| Skill | Installs | What It Does |
+|---|---|---|
+| `browser-mcp-agent` | 139.2K | Gives an agent its own real browser over MCP tool calls - launch, navigate, click, fill, screenshot, extract text, run JS - on a kernel-level real-device fingerprint |
+| `multi-account-isolation` | 138.9K | Verifies that profiles are actually isolated: each profile's timezone agrees with its own exit IP, and the rest of the fingerprint surface is checked rather than assumed |
+
+```bash
+npx skills add antibrow/anti-detect-browser-skills@browser-mcp-agent
+npx skills add antibrow/anti-detect-browser-skills@multi-account-isolation
 ```
 
 ---

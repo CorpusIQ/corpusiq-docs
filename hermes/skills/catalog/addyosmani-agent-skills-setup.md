@@ -1,10 +1,10 @@
 ---
 title: Addy Osmani - Production-Grade Agent Skills for Hermes
-description: "20 engineering skills from Google Chrome's Addy Osmani covering CI/CD, code review, performance optimization, security hardening, debugging, test-driven."
+description: "21 engineering skills from Google Chrome's Addy Osmani covering CI/CD, code review, performance optimization, security hardening, debugging, test-driven."
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/addyosmani-agent-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-19"
+last_updated: "2026-11-22"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
@@ -16,7 +16,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 **Category:** Developer Tools / Engineering
 **Quality Tier:** 🟢 Production
 
-Production-grade engineering skills for AI coding agents, authored by Addy Osmani (Google Chrome Engineering Lead, author of "Learning JavaScript Design Patterns"). These 20 skills encode battle-tested engineering practices - CI/CD automation, security hardening, performance optimization, code review, debugging, test-driven development, and shipping workflows - proven across real-world production systems.
+Production-grade engineering skills for AI coding agents, authored by Addy Osmani (Google Chrome Engineering Lead, author of "Learning JavaScript Design Patterns"). These 21 skills encode battle-tested engineering practices - CI/CD automation, security hardening, performance optimization, code review, debugging, test-driven development, and shipping workflows - proven across real-world production systems.
 
 ---
 
@@ -64,6 +64,7 @@ npx skills add addyosmani/agent-skills --skill observability-and-instrumentation
 | **test-driven-development** | - | TDD workflow: red-green-refactor cycles |
 | **using-agent-skills** | - | Meta-skill for effectively using and composing agent skills |
 | **doubt-driven-development** | 37.6K | Doubt-driven development workflow (added Sep 29, 2026 sweep) |
+| **frontend-ui-engineering** | 86.5K | Build production-quality, accessible, responsive user-facing UIs - components, pages, interaction states (added Nov 22, 2026 sweep) |
 
 ---
 

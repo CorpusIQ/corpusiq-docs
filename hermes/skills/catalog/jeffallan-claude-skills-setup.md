@@ -3,19 +3,19 @@ title: "Jeff Allan Claude Skills - Full-Stack Dev Setup"
 description: "67 specialized full-stack skills that turn Claude Code into an expert pair programmer. 11,670⭐; ~395K combined installs."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/jeffallan-claude-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-22"
 tags: ["hermes skill", "agent skill", "skill setup", "full-stack", "claude code"]
 ---
 
 # Jeff Allan Claude Skills - Setup Guide
 
 **Source:** [jeffallan/claude-skills](https://github.com/jeffallan/claude-skills) (11,670⭐)
-**Skill family:** `jeffallan/claude-skills` (67 skills in repo; 6 indexed on skills.sh)
+**Skill family:** `jeffallan/claude-skills` (67 skills in repo; 16 indexed on skills.sh)
 **Combined Installs:** ~395,488 across indexed listings (Sep 29, 2026 snapshot)
 **Category:** Developer Tools
 **Quality Tier:** 🟡 Unverified (no skills.sh Trust Hub / Socket / Snyk verdicts published - verified Sep 29, 2026)
 
-"67 Specialized Skills for Full-Stack Developers. Transform Claude Code into your expert pair programmer." This individual-maintainer library (Jeff Allan) is one of the largest skill families on skills.sh, with 11,670 GitHub stars. The Sep 29, 2026 sweep indexed six entries totaling ~395,488 installs and verified 6/6 SKILL.md files.
+"67 Specialized Skills for Full-Stack Developers. Transform Claude Code into your expert pair programmer." This individual-maintainer library (Jeff Allan) is one of the largest skill families on skills.sh, with 11,670 GitHub stars. The Sep 29, 2026 sweep indexed six entries totaling ~395,488 installs, and the November 22, 2026 standing window added ten more listings and verified 6/6 SKILL.md files.
 
 ---
 
@@ -35,6 +35,16 @@ npx skills add jeffallan/claude-skills
 | php-pro | 14,588 | PHP Pro |
 | flutter-expert | 13,716 | Flutter Expert |
 | kubernetes-specialist | 13,304 | Kubernetes Specialist |
+| wordpress-pro | 10,448 | Custom WordPress themes, plugins, Gutenberg blocks, WooCommerce |
+| spring-boot-engineer | 8,907 | Spring Boot 3.x configuration, REST controllers, Spring Security 6 |
+| embedded-systems | 7,381 | Firmware, RTOS applications and power tuning (STM32, ESP32, FreeRTOS) |
+| websocket-engineer | 7,360 | Real-time WebSocket / Socket.IO systems, Redis scaling, presence |
+| game-developer | 7,144 | Unity/Unreal game systems, ECS architecture, performance |
+| rust-engineer | 6,967 | Idiomatic Rust: ownership, lifetimes, trait design |
+| java-architect | 6,448 | Enterprise Java on Spring Boot 3.x, microservices, reactive |
+| pandas-pro | 6,334 | pandas DataFrame cleaning, aggregation and transformation |
+| fullstack-guardian | 6,167 | Security-focused full-stack apps with layered security |
+| kotlin-specialist | 5,646 | Coroutines, Flow, multiplatform and Compose patterns |
 
 *Install count derived from the family total minus the five published counts (395,488 − 81,898 = 313,590).
 
