@@ -99,6 +99,7 @@ CHORE_SUBJECTS = (
     "chore: docs perfection autofix",
     "chore: regenerate catalog rosters",
     "chore: reconcile ecosystem count stamps",
+    "chore: roll sweep log archives",
 )
 
 
@@ -518,6 +519,25 @@ def main():
     #     Hard gate, no `|| true`.
     print("2j. Conflict-marker gate (no unresolved merges)...")
     run("python3 scripts/validate_no_conflict_markers.py", fatal=True)
+
+    # 2k. Sweep-log size gate (2026-11-23). The catalog index once grew to 3.84 MB
+    #     and the sweep log to 2.36 MB, both past the 2 MB limit Google will fetch,
+    #     so the page can stop being indexed entirely. History rolls into half-month
+    #     archive pages here; the --check halves fail the deploy if either the index
+    #     or the log is over its cap again, so this cannot silently regress on a
+    #     night nobody is watching.
+    print("2k. Sweep log size gate (crawl limit)...")
+    run("python3 scripts/split_sweep_log.py --check", fatal=True)
+    run("python3 scripts/archive_sweep_log.py --apply", fatal=True)
+    run("python3 scripts/archive_sweep_log.py --check", fatal=True)
+    dirty_log = run(
+        "git status --porcelain -- 'hermes/mcp/servers/external/changelog*'").strip()
+    if dirty_log:
+        run("git add -A -- 'hermes/mcp/servers/external/changelog*' && git commit -m "
+            "'chore: roll sweep log archives'")
+        print("   Sweep log archives rolled (%d file(s))" % len(dirty_log.splitlines()))
+    else:
+        print("   Sweep log within its archive shape")
 
     # 2z. Publish the chore commits this run generated. Steps 2b, 2c, 2d and
     #     2d-i each commit derived data, but only 2b ever attempted a push - and
