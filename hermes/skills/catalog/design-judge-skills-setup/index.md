@@ -3,7 +3,7 @@ title: "Design Judge Skills - Full Setup Guide for Hermes Agent"
 description: "Install and configure SeanJ1ang/design-judge-skills - 5 evidence-driven agent skills for design award research, evaluation, matching."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/design-judge-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-23"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
@@ -11,13 +11,13 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 # Design Judge Skills - Setup Guide
 
 **Repo:** SeanJ1ang/design-judge-skills
-**Stars:** 25 · **Forks:** 6 · **License:** Apache 2.0
-**Language:** Python · **Skills:** 5 + 1 shared support package
+**Stars:** 708 · **Forks:** 99 · **License:** Apache 2.0
+**Language:** Python · **Skills:** 6 + 1 shared support package
 **Agent Support:** Hermes Agent, Claude Code, Codex, OpenClaw, OpenCode
 
 ## Overview
 
-Design Judge Skills decomposes the end-to-end design award submission process into five modular, evidence-driven agent skills. Each skill operates independently with well-defined boundaries - you can use one, several, or all five as your workflow demands.
+Design Judge Skills decomposes the end-to-end design award submission process into six modular, evidence-driven agent skills: five specialists plus a pipeline coordinator. Each skill operates independently with well-defined boundaries - you can use one, several, or all of them as your workflow demands.
 
 The skills are configured for 11 major design awards: iF DESIGN AWARD, iF DESIGN STUDENT AWARD, Red Dot Product Design, Red Dot Design Concept, IDEA, DIA, K-Design, GOOD DESIGN AWARD Japan, Core77, James Dyson, and EPDA. Award rules, deadlines, fees, eligibility, and categories are verified against official pages at runtime.
 
@@ -101,7 +101,15 @@ official rules. Output go / conditional go / no-go with itemized issues.
 
 ## Shared Support Package
 
-`design-judge-shared` is a shared support package used by the other five skills. It's automatically included when any skill is installed. You don't invoke it directly.
+`design-judge-shared` is a shared support package used by the other skills. It's automatically included when any skill is installed. You don't invoke it directly.
+
+## Coordinator Skill: design-award-pipeline
+
+The repo also ships `design-award-pipeline`, a router skill for the whole workflow. It picks the smallest sufficient route across winner research, evaluation, award matching, entry-text prep, and submission checking, and hands off to the specialist skills rather than duplicating their rules. Use it when you want one end-to-end award plan or a resumable multi-stage run and do not want to choose the specialist yourself.
+
+```bash
+npx skills add SeanJ1ang/design-judge-skills --skill design-award-pipeline -g -y
+```
 
 ## Design Principles (from the repo)
 

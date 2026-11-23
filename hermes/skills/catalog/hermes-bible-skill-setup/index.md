@@ -3,7 +3,7 @@ title: "Hermes Bible Skill Setup - CorpusIQ Docs"
 description: Install and configure the Hermes Bible community knowledge base - 169 pages of unofficial docs, 25+ real-world flows, SOUL.md patterns, and intent-based routing
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-bible-skill-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-23"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
@@ -13,7 +13,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 **Skill:** hermes-bible
 **Source:** [DeployFaith/hermes-bible-skill](https://github.com/DeployFaith/hermes-bible-skill)
 **Author:** iamlukethedev ([hermesbible.com](https://www.hermesbible.com))
-**Stars:** 4 ⭐ | **License:** MIT | **Created:** June 21, 2026
+**Stars:** 35 ⭐ | **License:** none declared - the repo ships no LICENSE file, so default copyright applies | **Created:** June 21, 2026
 
 ## 1. What It Is
 
