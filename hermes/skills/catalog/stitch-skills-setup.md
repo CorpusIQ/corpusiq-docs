@@ -1,10 +1,10 @@
 ---
 title: Stitch Skills - Google Design-to-Code Pipeline
-description: "Transform designs into production React/Shadcn code with Google's Stitch. 285K+ combined installs across 6 skills."
+description: "Transform designs into production React/Shadcn code with Google's Stitch. 285K+ combined installs across 9 skills."
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/stitch-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-19"
+last_updated: "2026-11-22"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
@@ -27,6 +27,9 @@ npx skills add google-labs-code/stitch-skills --skill react
 npx skills add google-labs-code/stitch-skills --skill enhance-prompt
 npx skills add google-labs-code/stitch-skills --skill stitch-loop
 npx skills add google-labs-code/stitch-skills --skill shadcn-ui
+npx skills add google-labs-code/stitch-skills --skill stitch-design
+npx skills add google-labs-code/stitch-skills --skill taste-design
+npx skills add google-labs-code/stitch-skills --skill extract-design-md
 ```
 
 ---
@@ -40,6 +43,9 @@ npx skills add google-labs-code/stitch-skills --skill shadcn-ui
 | **enhance-prompt** | 50.3K | Improve design prompts for better code generation output |
 | **stitch-loop** | 48.8K | Iterative refinement cycle - generate, review, fix, repeat |
 | **shadcn-ui** | 45.7K | Generate Shadcn UI components with proper theming and accessibility |
+| **stitch-design** | 25.1K | Unified entry point: prompt enhancement, design-system synthesis to .stitch/DESIGN.md, and handoff (added Nov 22, 2026 sweep) |
+| **taste-design** | 22.2K | Generates agent-friendly DESIGN.md files that enforce premium, anti-generic UI standards (added Nov 22, 2026 sweep) |
+| **stitch::extract-design-md** | 12.4K | Extracts a full DESIGN.md design system directly from frontend source - React, Vue, Svelte, Angular or plain HTML/CSS (added Nov 22, 2026 sweep) |
 
 ---
 

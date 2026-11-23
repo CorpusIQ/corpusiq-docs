@@ -1,10 +1,10 @@
 ---
 title: "Emil Kowalski Skills - Design Engineering Suite Setup"
-description: "10 design-engineering skills from Emil Kowalski (Sonner, vaul) - 694.4K combined installs."
+description: "11 design-engineering skills from Emil Kowalski (Sonner, vaul) - 694.4K combined installs."
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/emilkowalski-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-19"
+last_updated: "2026-11-22"
 tags: ["hermes skill", "agent skill", "skill setup", "design"]
 ---
 
@@ -26,13 +26,14 @@ Emil Kowalski is the creator of [Sonner](https://sonner.emilkowalski.com) (the t
 npx skills add emilkowalski/skills
 ```
 
-Installs all 10 skills. Hermes: place the SKILL.md files under your agent's skills directory, or run inside any skills.sh-compatible agent (Claude Code, Codex, Cursor, Hermes, OpenClaw, Nous Research).
+Installs every skill in the repository. Hermes: place the SKILL.md files under your agent's skills directory, or run inside any skills.sh-compatible agent (Claude Code, Codex, Cursor, Hermes, OpenClaw, Nous Research).
 
 ## Core Skills
 
 | Skill | Installs | Use For |
 |---|---|---|
 | emil-design-eng | 204.4K | Fluid, tactile interface design - the core design-engineering doctrine |
+| break-ui | 131.0K | Feed a UI worst-case data (long names, missing fields, zero items) and fix what breaks |
 | review-animations | 97.6K | Adversarial review of animation/motion code against craft bars |
 | animation-vocabulary | 85.1K | Reverse-lookup glossary: vague descriptions → named motion primitives |
 | apple-design | 77.0K | Apple's HIG-informed approach to fluid, physical interfaces |
