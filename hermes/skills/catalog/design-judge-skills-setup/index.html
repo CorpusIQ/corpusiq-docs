@@ -107,8 +107,8 @@
     "description": "Install and configure SeanJ1ang/design-judge-skills - 5 evidence-driven agent skills for design award research, evaluation, matching.",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/design-judge-skills-setup",
     
-    "datePublished": "2026-11-01",
-    "dateModified": "2026-11-01",
+    "datePublished": "2026-11-23",
+    "dateModified": "2026-11-23",
     
     "author": {
       "@type": "Organization",
@@ -132,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-11-01">
+  <meta name="last-updated" content="2026-11-23">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -184,7 +184,7 @@
   </script>
 
   
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Article", "TechArticle"], "headline": "Design Judge Skills - Full Setup Guide for Hermes Agent", "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/design-judge-skills-setup", "image": "https://www.corpusiq.io/og?title=Design%20Judge%20Skills%20-%20Full%20Setup%20Guide%20for%20Hermes%20Agent&category=Docs", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.corpusiq.io/docs/hermes/skills/catalog/design-judge-skills-setup"}, "datePublished": "2026-11-01", "dateModified": "2026-11-01", "author": {"@id": "https://www.corpusiq.io#organization"}, "publisher": {"@id": "https://www.corpusiq.io#organization"}, "isPartOf": {"@id": "https://www.corpusiq.io#website"}, "inLanguage": "en-US", "description": "Install and configure SeanJ1ang/design-judge-skills - 5 evidence-driven agent skills for design award research, evaluation, matching.", "articleSection": "Hermes"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Article", "TechArticle"], "headline": "Design Judge Skills - Full Setup Guide for Hermes Agent", "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/design-judge-skills-setup", "image": "https://www.corpusiq.io/og?title=Design%20Judge%20Skills%20-%20Full%20Setup%20Guide%20for%20Hermes%20Agent&category=Docs", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.corpusiq.io/docs/hermes/skills/catalog/design-judge-skills-setup"}, "datePublished": "2026-11-01", "dateModified": "2026-11-23", "author": {"@id": "https://www.corpusiq.io#organization"}, "publisher": {"@id": "https://www.corpusiq.io#organization"}, "isPartOf": {"@id": "https://www.corpusiq.io#website"}, "inLanguage": "en-US", "description": "Install and configure SeanJ1ang/design-judge-skills - 5 evidence-driven agent skills for design award research, evaluation, matching.", "articleSection": "Hermes"}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Docs", "item": "https://www.corpusiq.io/docs"}, {"@type": "ListItem", "position": 2, "name": "Hermes", "item": "https://www.corpusiq.io/docs/hermes"}, {"@type": "ListItem", "position": 3, "name": "Skills", "item": "https://www.corpusiq.io/docs/hermes/skills"}, {"@type": "ListItem", "position": 4, "name": "Catalog", "item": "https://www.corpusiq.io/docs/hermes/skills/catalog"}, {"@type": "ListItem", "position": 5, "name": "Design Judge Skills - Full Setup Guide for Hermes Agent", "item": "https://www.corpusiq.io/docs/hermes/skills/catalog/design-judge-skills-setup"}]}</script>
 </head>
   
@@ -14011,6 +14011,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#coordinator-skill-design-award-pipeline" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Coordinator Skill: design-award-pipeline
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#design-principles-from-the-repo" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -14220,11 +14231,11 @@
 
 <h1 id="design-judge-skills-setup-guide">Design Judge Skills - Setup Guide<a class="headerlink" href="#design-judge-skills-setup-guide" title="Anchor link to this section">&para;</a></h1>
 <p><strong>Repo:</strong> SeanJ1ang/design-judge-skills
-<strong>Stars:</strong> 25 · <strong>Forks:</strong> 6 · <strong>License:</strong> Apache 2.0
-<strong>Language:</strong> Python · <strong>Skills:</strong> 5 + 1 shared support package
+<strong>Stars:</strong> 708 · <strong>Forks:</strong> 99 · <strong>License:</strong> Apache 2.0
+<strong>Language:</strong> Python · <strong>Skills:</strong> 6 + 1 shared support package
 <strong>Agent Support:</strong> Hermes Agent, Claude Code, Codex, OpenClaw, OpenCode</p>
 <h2 id="overview">Overview<a class="headerlink" href="#overview" title="Anchor link to this section">&para;</a></h2>
-<p>Design Judge Skills decomposes the end-to-end design award submission process into five modular, evidence-driven agent skills. Each skill operates independently with well-defined boundaries - you can use one, several, or all five as your workflow demands.</p>
+<p>Design Judge Skills decomposes the end-to-end design award submission process into six modular, evidence-driven agent skills: five specialists plus a pipeline coordinator. Each skill operates independently with well-defined boundaries - you can use one, several, or all of them as your workflow demands.</p>
 <p>The skills are configured for 11 major design awards: iF DESIGN AWARD, iF DESIGN STUDENT AWARD, Red Dot Product Design, Red Dot Design Concept, IDEA, DIA, K-Design, GOOD DESIGN AWARD Japan, Core77, James Dyson, and EPDA. Award rules, deadlines, fees, eligibility, and categories are verified against official pages at runtime.</p>
 <h2 id="the-5-skills">The 5 Skills<a class="headerlink" href="#the-5-skills" title="Anchor link to this section">&para;</a></h2>
 <h3 id="1-design-award-search-find-winning-precedents">1. design-award-search - Find Winning Precedents<a class="headerlink" href="#1-design-award-search-find-winning-precedents" title="Anchor link to this section">&para;</a></h3>
@@ -14273,7 +14284,11 @@ First list missing facts, then output English draft per field with word count ve
 official rules. Output go / conditional go / no-go with itemized issues.
 </code></pre></div></p>
 <h2 id="shared-support-package">Shared Support Package<a class="headerlink" href="#shared-support-package" title="Anchor link to this section">&para;</a></h2>
-<p><code>design-judge-shared</code> is a shared support package used by the other five skills. It's automatically included when any skill is installed. You don't invoke it directly.</p>
+<p><code>design-judge-shared</code> is a shared support package used by the other skills. It's automatically included when any skill is installed. You don't invoke it directly.</p>
+<h2 id="coordinator-skill-design-award-pipeline">Coordinator Skill: design-award-pipeline<a class="headerlink" href="#coordinator-skill-design-award-pipeline" title="Anchor link to this section">&para;</a></h2>
+<p>The repo also ships <code>design-award-pipeline</code>, a router skill for the whole workflow. It picks the smallest sufficient route across winner research, evaluation, award matching, entry-text prep, and submission checking, and hands off to the specialist skills rather than duplicating their rules. Use it when you want one end-to-end award plan or a resumable multi-stage run and do not want to choose the specialist yourself.</p>
+<div class="highlight"><pre><span></span><code>npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>SeanJ1ang/design-judge-skills<span class="w"> </span>--skill<span class="w"> </span>design-award-pipeline<span class="w"> </span>-g<span class="w"> </span>-y
+</code></pre></div>
 <h2 id="design-principles-from-the-repo">Design Principles (from the repo)<a class="headerlink" href="#design-principles-from-the-repo" title="Anchor link to this section">&para;</a></h2>
 <p>These principles govern all five skills. They're worth understanding before you rely on the output:</p>
 <ol>

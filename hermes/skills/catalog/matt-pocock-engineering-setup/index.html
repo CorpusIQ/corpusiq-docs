@@ -107,8 +107,8 @@
     "description": "Install and configure the 5-skill Matt Pocock engineering suite: architecture review, PRD generation, issue decomposition, repo setup, and adversarial plan",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/matt-pocock-engineering-setup",
     
-    "datePublished": "2026-11-01",
-    "dateModified": "2026-11-01",
+    "datePublished": "2026-11-23",
+    "dateModified": "2026-11-23",
     
     "author": {
       "@type": "Organization",
@@ -132,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-11-01">
+  <meta name="last-updated" content="2026-11-23">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -184,7 +184,7 @@
   </script>
 
   
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Article", "TechArticle"], "headline": "Matt Pocock Engineering Skills - Setup Guide", "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/matt-pocock-engineering-setup", "image": "https://www.corpusiq.io/og?title=Matt%20Pocock%20Engineering%20Skills%20-%20Setup%20Guide&category=Docs", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.corpusiq.io/docs/hermes/skills/catalog/matt-pocock-engineering-setup"}, "datePublished": "2026-11-01", "dateModified": "2026-11-01", "author": {"@id": "https://www.corpusiq.io#organization"}, "publisher": {"@id": "https://www.corpusiq.io#organization"}, "isPartOf": {"@id": "https://www.corpusiq.io#website"}, "inLanguage": "en-US", "description": "Install and configure the 5-skill Matt Pocock engineering suite: architecture review, PRD generation, issue decomposition, repo setup, and adversarial plan", "articleSection": "Hermes"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Article", "TechArticle"], "headline": "Matt Pocock Engineering Skills - Setup Guide", "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/matt-pocock-engineering-setup", "image": "https://www.corpusiq.io/og?title=Matt%20Pocock%20Engineering%20Skills%20-%20Setup%20Guide&category=Docs", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.corpusiq.io/docs/hermes/skills/catalog/matt-pocock-engineering-setup"}, "datePublished": "2026-11-01", "dateModified": "2026-11-23", "author": {"@id": "https://www.corpusiq.io#organization"}, "publisher": {"@id": "https://www.corpusiq.io#organization"}, "isPartOf": {"@id": "https://www.corpusiq.io#website"}, "inLanguage": "en-US", "description": "Install and configure the 5-skill Matt Pocock engineering suite: architecture review, PRD generation, issue decomposition, repo setup, and adversarial plan", "articleSection": "Hermes"}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Docs", "item": "https://www.corpusiq.io/docs"}, {"@type": "ListItem", "position": 2, "name": "Hermes", "item": "https://www.corpusiq.io/docs/hermes"}, {"@type": "ListItem", "position": 3, "name": "Skills", "item": "https://www.corpusiq.io/docs/hermes/skills"}, {"@type": "ListItem", "position": 4, "name": "Catalog", "item": "https://www.corpusiq.io/docs/hermes/skills/catalog"}, {"@type": "ListItem", "position": 5, "name": "Matt Pocock Engineering Skills - Setup Guide", "item": "https://www.corpusiq.io/docs/hermes/skills/catalog/matt-pocock-engineering-setup"}]}</script>
 </head>
   
@@ -14164,7 +14164,7 @@
 
 
 <h1 id="matt-pocock-engineering-skills-hermes-setup-guide">Matt Pocock Engineering Skills - Hermes Setup Guide<a class="headerlink" href="#matt-pocock-engineering-skills-hermes-setup-guide" title="Anchor link to this section">&para;</a></h1>
-<p><strong>Skill Suite:</strong> Matt Pocock Engineering Skills (5 skills, 1.3M+ combined installs)
+<p><strong>Skill Suite:</strong> Matt Pocock Engineering Skills (5 skills, 4.3M+ combined installs on skills.sh)
 <strong>Source:</strong> <a href="https://github.com/mattpocock/skills">mattpocock/skills</a>
 <strong>Category:</strong> Software Engineering, Product Management, Project Management</p>
 <hr />
@@ -14182,30 +14182,31 @@
 <tr>
 <td><strong>improve-codebase-architecture</strong></td>
 <td>Scan code for improvement opportunities, visual HTML report</td>
-<td style="text-align: center;">347K</td>
+<td style="text-align: center;">1.30M</td>
 </tr>
 <tr>
 <td><strong>to-prd</strong></td>
 <td>Convert conversations into structured PRDs</td>
-<td style="text-align: center;">308K</td>
+<td style="text-align: center;">352K</td>
 </tr>
 <tr>
 <td><strong>to-issues</strong></td>
 <td>Decompose plans into executable issues (tracer-bullet slices)</td>
-<td style="text-align: center;">296K</td>
+<td style="text-align: center;">339K</td>
 </tr>
 <tr>
 <td><strong>setup-matt-pocock-skills</strong></td>
 <td>One-time repo config: issue tracker, labels, domain docs</td>
-<td style="text-align: center;">288K</td>
+<td style="text-align: center;">1.18M</td>
 </tr>
 <tr>
 <td><strong>grilling</strong></td>
 <td>Adversarial plan review - stress-test before building</td>
-<td style="text-align: center;">71K</td>
+<td style="text-align: center;">1.15M</td>
 </tr>
 </tbody>
 </table>
+<p>Install counts read from skills.sh on 23 November 2026.</p>
 <p><strong>Typical workflow:</strong> Setup repo → Grill the plan → Generate PRD → Break into issues → Improve architecture as you go.</p>
 <hr />
 <h2 id="2-prerequisites">2. Prerequisites<a class="headerlink" href="#2-prerequisites" title="Anchor link to this section">&para;</a></h2>
@@ -14221,10 +14222,14 @@
 <div class="highlight"><pre><span></span><code>npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>mattpocock/skills@setup-matt-pocock-skills
 </code></pre></div>
 <h3 id="step-2-configure-your-repo">Step 2: Configure your repo<a class="headerlink" href="#step-2-configure-your-repo" title="Anchor link to this section">&para;</a></h3>
-<p>Run the setup skill to configure your project's issue tracker, label vocabulary, and domain document layout:</p>
-<div class="highlight"><pre><span></span><code><span class="c1"># From your project directory</span>
-npx<span class="w"> </span>skills<span class="w"> </span>run<span class="w"> </span>setup-matt-pocock-skills
+<p>Run the setup skill to configure your project's issue tracker, label vocabulary, and domain document layout. Invoke it from your agent session (it is a skill, not a shell workflow):</p>
+<div class="highlight"><pre><span></span><code><span class="c1"># Ask your agent, from the project directory:</span>
+<span class="c1"># &quot;run setup-matt-pocock-skills&quot;</span>
+
+<span class="c1"># Or generate the prompt for the skill without installing it</span>
+npx<span class="w"> </span>skills<span class="w"> </span>use<span class="w"> </span>mattpocock/skills@setup-matt-pocock-skills
 </code></pre></div>
+<p><code>npx skills</code> has no <code>run</code> subcommand. Its commands are <code>add</code>, <code>use</code>, <code>remove</code>, <code>list</code>, <code>find</code>, <code>update</code>, <code>init</code>, <code>sync</code>, and <code>install</code> (restore from <code>skills-lock.json</code>).</p>
 <p>This creates:
 - Issue labels: <code>bug</code>, <code>feature</code>, <code>tech-debt</code>, <code>docs</code>, <code>epic</code>
 - Triage workflow: <code>triage</code> → <code>backlog</code> → <code>sprint</code>

@@ -107,8 +107,8 @@
     "description": "Install and configure Ershov - a staged nightly memory engine for Hermes operators with reviewable proposals, artifact-first workflow, and 4 LLM backends",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-ershov-setup",
     
-    "datePublished": "2026-11-01",
-    "dateModified": "2026-11-01",
+    "datePublished": "2026-11-23",
+    "dateModified": "2026-11-23",
     
     "author": {
       "@type": "Organization",
@@ -132,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-11-01">
+  <meta name="last-updated" content="2026-11-23">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -184,7 +184,7 @@
   </script>
 
   
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Article", "TechArticle"], "headline": "Hermes Ershov Memory Engine Setup", "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-ershov-setup", "image": "https://www.corpusiq.io/og?title=Hermes%20Ershov%20Memory%20Engine%20Setup&category=Docs", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-ershov-setup"}, "datePublished": "2026-11-01", "dateModified": "2026-11-01", "author": {"@id": "https://www.corpusiq.io#organization"}, "publisher": {"@id": "https://www.corpusiq.io#organization"}, "isPartOf": {"@id": "https://www.corpusiq.io#website"}, "inLanguage": "en-US", "description": "Install and configure Ershov - a staged nightly memory engine for Hermes operators with reviewable proposals, artifact-first workflow, and 4 LLM backends", "articleSection": "Hermes"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Article", "TechArticle"], "headline": "Hermes Ershov Memory Engine Setup", "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-ershov-setup", "image": "https://www.corpusiq.io/og?title=Hermes%20Ershov%20Memory%20Engine%20Setup&category=Docs", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-ershov-setup"}, "datePublished": "2026-11-01", "dateModified": "2026-11-23", "author": {"@id": "https://www.corpusiq.io#organization"}, "publisher": {"@id": "https://www.corpusiq.io#organization"}, "isPartOf": {"@id": "https://www.corpusiq.io#website"}, "inLanguage": "en-US", "description": "Install and configure Ershov - a staged nightly memory engine for Hermes operators with reviewable proposals, artifact-first workflow, and 4 LLM backends", "articleSection": "Hermes"}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Docs", "item": "https://www.corpusiq.io/docs"}, {"@type": "ListItem", "position": 2, "name": "Hermes", "item": "https://www.corpusiq.io/docs/hermes"}, {"@type": "ListItem", "position": 3, "name": "Skills", "item": "https://www.corpusiq.io/docs/hermes/skills"}, {"@type": "ListItem", "position": 4, "name": "Catalog", "item": "https://www.corpusiq.io/docs/hermes/skills/catalog"}, {"@type": "ListItem", "position": 5, "name": "Hermes Ershov Memory Engine Setup", "item": "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-ershov-setup"}]}</script>
 </head>
   
@@ -13984,10 +13984,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#configure-llm-backend" class="md-nav__link">
+  <a href="#configure-the-llm-backend" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Configure LLM Backend
+        Configure the LLM Backend
       
     </span>
   </a>
@@ -14075,66 +14075,51 @@
 
 
 <h1 id="hermes-ershov-memory-engine-setup">Hermes Ershov Memory Engine Setup<a class="headerlink" href="#hermes-ershov-memory-engine-setup" title="Anchor link to this section">&para;</a></h1>
-<p><strong>Plugin:</strong> hermes-ershov
-<strong>Source:</strong> <a href="https://github.com/ersh123/hermes-ershov">ersh123/hermes-ershov</a>
-<strong>Stars:</strong> 2 ⭐ | <strong>License:</strong> MIT | <strong>Created:</strong> June 19, 2026
-<strong>CI:</strong> ✅ GitHub Actions | <strong>Security:</strong> ✅ CodeQL + OpenSSF Scorecard</p>
+<p><strong>Plugin:</strong> self-ershov-memory (formerly hermes-ershov)
+<strong>Source:</strong> <a href="https://github.com/ersh123/self-ershov-memory">ersh123/self-ershov-memory</a>
+<strong>Stars:</strong> 3 ⭐ | <strong>License:</strong> MIT | <strong>Created:</strong> June 19, 2026
+<strong>CI:</strong> ✅ GitHub Actions (Python 3.11-3.13) | <strong>Security:</strong> ✅ CodeQL + OpenSSF Scorecard</p>
 <h2 id="1-what-it-is">1. What It Is<a class="headerlink" href="#1-what-it-is" title="Anchor link to this section">&para;</a></h2>
-<p>A staged nightly memory engine that turns recent Hermes sessions into <strong>reviewable memory proposals</strong> - no silent live-memory mutation. Think of it as "Git for agent memory": inspect, diff, approve, apply, revert.</p>
+<p>A self-audit memory engine. It reads Hermes dialogue history from <code>~/.hermes/state.db</code>, extracts durable operator corrections, snapshots memory files, and updates <code>USER.md</code> / <code>MEMORY.md</code> only through explicit, reviewable runs. Nothing is silently rewritten.</p>
 <p><strong>Key design principles:</strong>
-- <strong>Artifact-first:</strong> Every proposal is a JSONL file with full diffs before any memory write
-- <strong>Human-in-the-loop:</strong> No automated mutation of live memory - every change goes through review
-- <strong>Auditable:</strong> Local run ledger + <code>ERSHOV.md</code> diary tracks every decision
-- <strong>Offline-capable:</strong> Deterministic replays for demos and tests</p>
-<p><strong>How it works (nightly loop):</strong></p>
-<div class="highlight"><pre><span></span><code>Recent Sessions → Analyze → Generate Proposals (JSONL)
-                              ↓
-                    Inspect → Diff → Validate
-                              ↓
-                   Approve → Apply → Verify
-                   Reject  → Archive with reason
-                              ↓
-                   Write to ERSHOV.md diary
+- <strong>Grounded:</strong> durable memory comes from dialogue evidence, not fabricated assumptions
+- <strong>Idempotent:</strong> repeat runs skip corrections already known
+- <strong>Safe by default:</strong> <code>--dry-run</code> is the default mode; <code>--execute</code> is explicit
+- <strong>Auditable:</strong> a snapshot before every write, plus an Error Bank for repeated failures</p>
+<p><strong>How it works:</strong></p>
+<div class="highlight"><pre><span></span><code>~/.hermes/state.db dialogs
+  -&gt; correction / rule extraction
+  -&gt; Error Bank extraction for fixed compiler/runtime/test failures
+  -&gt; controlled context checkpoint / rebuild sidecar
+  -&gt; topic classification + dedup
+  -&gt; snapshot before write
+  -&gt; USER.md / MEMORY.md / error-bank / context / skill updates
 </code></pre></div>
+<p>The project was renamed from <code>hermes-ershov</code> to <code>self-ershov-memory</code>, and the maintainer removed the legacy staged-memory command surface (<code>review</code>, <code>inspect</code>, <code>approve</code>, <code>apply</code>, <code>revert</code>) from the public package. What ships now is one CLI with a dry-run / execute loop.</p>
 <h2 id="2-prerequisites">2. Prerequisites<a class="headerlink" href="#2-prerequisites" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li>Hermes Agent installed (plugin system supported)</li>
-<li>At least one LLM backend configured (DeepSeek, OpenRouter, OpenAI-compatible, or Ollama)</li>
+<li>Python 3.11, 3.12, or 3.13 - the versions the project's CI gates on</li>
+<li>DeepSeek reachable as the LLM fallback path (direct <code>deepseek</code> is the provider policy)</li>
 <li>Git (for install)</li>
-<li>Disk space: ~50KB for plugin + ledger files</li>
+<li>Disk space: small - the plugin, the <code>USER.md</code> / <code>MEMORY.md</code> snapshots, and the <code>~/.hermes/context</code> store</li>
 </ul>
 <h2 id="3-installation">3. Installation<a class="headerlink" href="#3-installation" title="Anchor link to this section">&para;</a></h2>
 <h3 id="plugin-install-recommended">Plugin Install (Recommended)<a class="headerlink" href="#plugin-install-recommended" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>plugins<span class="w"> </span>install<span class="w"> </span>ersh123/hermes-ershov<span class="w"> </span>--enable
+<div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>plugins<span class="w"> </span>install<span class="w"> </span>ersh123/self-ershov-memory<span class="w"> </span>--enable
 </code></pre></div>
 <h3 id="local-development-install">Local Development Install<a class="headerlink" href="#local-development-install" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>plugins<span class="w"> </span>install<span class="w"> </span>file:///path/to/hermes-ershov<span class="w"> </span>--enable
+<p>Clone into the profile's plugins directory, then register that checkout so updates are tracked:</p>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/ersh123/self-ershov-memory.git<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$HERMES_HOME</span><span class="s2">/plugins/self-ershov-memory&quot;</span>
+hermes<span class="w"> </span>plugins<span class="w"> </span>adopt<span class="w"> </span>self-ershov-memory
 </code></pre></div>
 <h3 id="verify-installation">Verify Installation<a class="headerlink" href="#verify-installation" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>plugins<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>ershov
-hermes<span class="w"> </span>ershov<span class="w"> </span>review<span class="w"> </span>--help
+<div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>plugins<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-i<span class="w"> </span>ershov
+self-ershov-memory<span class="w"> </span>--help
 </code></pre></div>
-<h3 id="configure-llm-backend">Configure LLM Backend<a class="headerlink" href="#configure-llm-backend" title="Anchor link to this section">&para;</a></h3>
-<p>Ershov supports 4 backends. Configure in <code>~/.hermes/config.yaml</code>:</p>
-<div class="highlight"><pre><span></span><code><span class="nt">ershov</span><span class="p">:</span>
-<span class="w">  </span><span class="nt">backend</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">deepseek</span><span class="w">           </span><span class="c1"># deepseek | openrouter | openai-compatible | ollama</span>
-<span class="w">  </span><span class="nt">model</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">deepseek-chat</span><span class="w">        </span><span class="c1"># Model name for your chosen backend</span>
-
-<span class="w">  </span><span class="c1"># Backend-specific configs (only one needed):</span>
-<span class="w">  </span><span class="nt">deepseek</span><span class="p">:</span>
-<span class="w">    </span><span class="nt">api_key_env</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">DEEPSEEK_API_KEY</span>
-<span class="w">    </span><span class="nt">base_url</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;https://api.deepseek.com/v1&quot;</span>
-
-<span class="w">  </span><span class="nt">openrouter</span><span class="p">:</span>
-<span class="w">    </span><span class="nt">api_key_env</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">OPENROUTER_API_KEY</span>
-<span class="w">    </span><span class="nt">base_url</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;https://openrouter.ai/api/v1&quot;</span>
-
-<span class="w">  </span><span class="nt">openai_compatible</span><span class="p">:</span>
-<span class="w">    </span><span class="nt">api_key_env</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">OPENAI_API_KEY</span>
-<span class="w">    </span><span class="nt">base_url</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;${OPENAI_BASE_URL}&quot;</span>
-
-<span class="w">  </span><span class="nt">ollama</span><span class="p">:</span>
-<span class="w">    </span><span class="nt">base_url</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;http://localhost:11434&quot;</span>
+<h3 id="configure-the-llm-backend">Configure the LLM Backend<a class="headerlink" href="#configure-the-llm-backend" title="Anchor link to this section">&para;</a></h3>
+<p>The provider policy is direct DeepSeek. Set the key in the environment Hermes runs in:</p>
+<div class="highlight"><pre><span></span><code><span class="nb">export</span><span class="w"> </span><span class="nv">DEEPSEEK_API_KEY</span><span class="o">=</span><span class="s2">&quot;your-key&quot;</span>
 </code></pre></div>
 <h2 id="4-capabilities">4. Capabilities<a class="headerlink" href="#4-capabilities" title="Anchor link to this section">&para;</a></h2>
 <table>
@@ -14146,100 +14131,76 @@ hermes<span class="w"> </span>ershov<span class="w"> </span>review<span class="w
 </thead>
 <tbody>
 <tr>
-<td><code>review</code></td>
-<td>Generate memory proposals from recent sessions</td>
+<td>Audit pass</td>
+<td>Extract corrections from recent dialogues; <code>--dry-run</code> shows the delta, <code>--execute</code> applies it</td>
 </tr>
 <tr>
-<td><code>inspect</code></td>
-<td>View a proposal's full diff</td>
+<td>Error Bank</td>
+<td>File-backed entries keyed <code>error_bank/&lt;language&gt;/&lt;code&gt;</code>, so repeat failures consolidate instead of flooding memory</td>
 </tr>
 <tr>
-<td><code>validate</code></td>
-<td>Validate proposals against memory constraints</td>
+<td>checkpoints</td>
+<td>MiMo-style <code>checkpoint.md</code> plus budgeted rebuild packets under <code>~/.hermes/context</code></td>
 </tr>
 <tr>
-<td><code>approve</code></td>
-<td>Approve a proposal for application</td>
+<td>rebuild</td>
+<td>Rebuild a session's context packet inside a token budget</td>
 </tr>
 <tr>
-<td><code>reject</code></td>
-<td>Reject with reason, archived for audit</td>
+<td>fts-index / fts-search</td>
+<td>Local Markdown FTS5 index over the context store</td>
 </tr>
 <tr>
-<td><code>apply</code></td>
-<td>Apply an approved proposal to live memory</td>
+<td>Snapshots</td>
+<td>Memory files are copied before any write</td>
 </tr>
 <tr>
-<td><code>revert</code></td>
-<td>Roll back an applied proposal</td>
-</tr>
-<tr>
-<td><code>ledger</code></td>
-<td>View local run history</td>
-</tr>
-<tr>
-<td><code>diary</code></td>
-<td>Read/write ERSHOV.md audit trail</td>
-</tr>
-<tr>
-<td><code>offline</code></td>
-<td>Run with <code>--offline</code> for deterministic replay</td>
+<td>Validation</td>
+<td>Size checks on memory files; no secret values in logs or doctor output</td>
 </tr>
 </tbody>
 </table>
 <h2 id="5-cli-reference">5. CLI Reference<a class="headerlink" href="#5-cli-reference" title="Anchor link to this section">&para;</a></h2>
-<div class="highlight"><pre><span></span><code><span class="c1"># Nightly review cycle</span>
-hermes<span class="w"> </span>ershov<span class="w"> </span>review<span class="w">                    </span><span class="c1"># Generate proposals</span>
-hermes<span class="w"> </span>ershov<span class="w"> </span>review<span class="w"> </span>--list<span class="w">             </span><span class="c1"># List pending proposals</span>
-hermes<span class="w"> </span>ershov<span class="w"> </span>inspect<span class="w"> </span>&lt;proposal-id&gt;<span class="w">     </span><span class="c1"># View full diff</span>
-hermes<span class="w"> </span>ershov<span class="w"> </span>validate<span class="w"> </span>&lt;proposal-id&gt;<span class="w">    </span><span class="c1"># Validate against constraints</span>
-hermes<span class="w"> </span>ershov<span class="w"> </span>approve<span class="w"> </span>&lt;proposal-id&gt;<span class="w">     </span><span class="c1"># Approve for application</span>
-hermes<span class="w"> </span>ershov<span class="w"> </span>reject<span class="w"> </span>&lt;proposal-id&gt;<span class="w"> </span>--reason<span class="w"> </span><span class="s2">&quot;factually incorrect&quot;</span>
-hermes<span class="w"> </span>ershov<span class="w"> </span>apply<span class="w"> </span>&lt;proposal-id&gt;<span class="w">       </span><span class="c1"># Write to live memory</span>
+<div class="highlight"><pre><span></span><code><span class="c1"># Inspect proposed changes (nothing is written)</span>
+self-ershov-memory<span class="w"> </span>--dry-run<span class="w"> </span>--quick
 
-<span class="c1"># Rollback</span>
-hermes<span class="w"> </span>ershov<span class="w"> </span>revert<span class="w"> </span>&lt;proposal-id&gt;<span class="w">      </span><span class="c1"># Undo an applied proposal</span>
+<span class="c1"># Full 30-day pass - still dry-run unless --execute is present</span>
+self-ershov-memory<span class="w"> </span>--dry-run<span class="w"> </span>--full
 
-<span class="c1"># Audit</span>
-hermes<span class="w"> </span>ershov<span class="w"> </span>ledger<span class="w">                    </span><span class="c1"># View run history</span>
-hermes<span class="w"> </span>ershov<span class="w"> </span>ledger<span class="w"> </span>--since<span class="w"> </span>7d<span class="w">         </span><span class="c1"># Last 7 days</span>
-hermes<span class="w"> </span>ershov<span class="w"> </span>diary<span class="w">                     </span><span class="c1"># Read ERSHOV.md</span>
+<span class="c1"># Apply after review</span>
+self-ershov-memory<span class="w"> </span>--execute<span class="w"> </span>--full
 
-<span class="c1"># Offline mode</span>
-hermes<span class="w"> </span>ershov<span class="w"> </span>review<span class="w"> </span>--offline<span class="w">          </span><span class="c1"># Deterministic replay</span>
+<span class="c1"># Controlled context rebuild sidecar</span>
+self-ershov-memory<span class="w"> </span>checkpoint<span class="w"> </span>--session<span class="w"> </span>&lt;session-id&gt;
+self-ershov-memory<span class="w"> </span>rebuild<span class="w"> </span>--session<span class="w"> </span>&lt;session-id&gt;<span class="w"> </span>--budget<span class="w"> </span><span class="m">48000</span>
+
+<span class="c1"># Local context index</span>
+self-ershov-memory<span class="w"> </span>fts-index
+self-ershov-memory<span class="w"> </span>fts-search<span class="w"> </span><span class="s2">&quot;checkpoint&quot;</span>
 </code></pre></div>
 <h2 id="6-corpusiq-use-cases">6. CorpusIQ Use Cases<a class="headerlink" href="#6-corpusiq-use-cases" title="Anchor link to this section">&para;</a></h2>
-<p><strong>For the CorpusIQ growth agent profile:</strong></p>
-<div class="highlight"><pre><span></span><code><span class="c1"># Install for corpusiq profile</span>
-hermes<span class="w"> </span>--profile<span class="w"> </span>&lt;your-profile&gt;<span class="w"> </span>plugins<span class="w"> </span>install<span class="w"> </span>ersh123/hermes-ershov<span class="w"> </span>--enable
+<p><strong>For the CorpusIQ growth agent profile.</strong> The profile flag is <code>-p</code> (<code>hermes -p &lt;profile&gt; &lt;command&gt;</code>); <code>--profile</code> is not a flag.</p>
+<div class="highlight"><pre><span></span><code><span class="c1"># Install for the corpusiq profile</span>
+hermes<span class="w"> </span>-p<span class="w"> </span>corpusiq<span class="w"> </span>plugins<span class="w"> </span>install<span class="w"> </span>ersh123/self-ershov-memory<span class="w"> </span>--enable
 
-<span class="c1"># Run nightly review on CorpusIQ sessions</span>
-hermes<span class="w"> </span>--profile<span class="w"> </span>&lt;your-profile&gt;<span class="w"> </span>ershov<span class="w"> </span>review<span class="w"> </span>--since<span class="w"> </span>24h
+<span class="c1"># Nightly dry-run audit against CorpusIQ sessions</span>
+self-ershov-memory<span class="w"> </span>--dry-run<span class="w"> </span>--full
 
-<span class="c1"># Inspect proposals about growth strategy</span>
-hermes<span class="w"> </span>--profile<span class="w"> </span>&lt;your-profile&gt;<span class="w"> </span>ershov<span class="w"> </span>inspect<span class="w"> </span>&lt;id&gt;
-
-<span class="c1"># Approve high-quality memory proposals</span>
-hermes<span class="w"> </span>--profile<span class="w"> </span>&lt;your-profile&gt;<span class="w"> </span>ershov<span class="w"> </span>approve<span class="w"> </span>&lt;id&gt;
-hermes<span class="w"> </span>--profile<span class="w"> </span>&lt;your-profile&gt;<span class="w"> </span>ershov<span class="w"> </span>apply<span class="w"> </span>&lt;id&gt;
+<span class="c1"># Apply the reviewed corrections</span>
+self-ershov-memory<span class="w"> </span>--execute<span class="w"> </span>--full
 </code></pre></div>
 <p><strong>CorpusIQ-specific config:</strong></p>
-<div class="highlight"><pre><span></span><code><span class="c1"># In ~/.hermes/profiles/&lt;your-profile&gt;/config.yaml</span>
-<span class="nt">ershov</span><span class="p">:</span>
-<span class="w">  </span><span class="nt">backend</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">deepseek</span>
-<span class="w">  </span><span class="nt">model</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">deepseek-chat</span>
-<span class="w">  </span><span class="nt">deepseek</span><span class="p">:</span>
-<span class="w">    </span><span class="nt">api_key_env</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">DEEPSEEK_API_KEY</span>
-<span class="w">    </span><span class="nt">base_url</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;https://api.deepseek.com/v1&quot;</span>
+<div class="highlight"><pre><span></span><code><span class="c1"># In the environment of the profile&#39;s process</span>
+<span class="nb">export</span><span class="w"> </span><span class="nv">DEEPSEEK_API_KEY</span><span class="o">=</span><span class="s2">&quot;your-key&quot;</span>
 </code></pre></div>
 <p><strong>Integration with CorpusIQ's existing memory stack:</strong>
-- Ershov complements (doesn't replace) Hermes' built-in <code>memory</code> tool
-- Use Ershov for: cross-session pattern detection, cleanup of stale memories, quality audits
+- Ershov complements (doesn't replace) the Hermes <code>memory</code> tool and the Sibyl provider
+- Use Ershov for: cross-session correction extraction, cleanup of stale memories, quality audits
 - Keep Hermes <code>memory</code> for: session-level facts, user preferences, quick saves
-- Ershov diary serves as a changelog for the memory layer - pairs well with Honcho's peer context</p>
+- Ershov's snapshots act as a changelog for the memory layer - pairs well with Honcho's peer context</p>
 <p><strong>Cron job for nightly review:</strong></p>
-<div class="highlight"><pre><span></span><code><span class="c1"># Add to crontab: run at 3 AM Arizona daily</span>
-<span class="m">0</span><span class="w"> </span><span class="m">3</span><span class="w"> </span>*<span class="w"> </span>*<span class="w"> </span>*<span class="w"> </span>hermes<span class="w"> </span>--profile<span class="w"> </span>&lt;your-profile&gt;<span class="w"> </span>ershov<span class="w"> </span>review<span class="w"> </span>--since<span class="w"> </span>24h<span class="w"> </span>&gt;&gt;<span class="w"> </span>~/.hermes/profiles/&lt;your-profile&gt;/logs/ershov.log<span class="w"> </span><span class="m">2</span>&gt;<span class="p">&amp;</span><span class="m">1</span>
+<div class="highlight"><pre><span></span><code><span class="c1"># Add to crontab: run at 3 AM Arizona daily. Dry-run by default; review before adding --execute.</span>
+<span class="m">0</span><span class="w"> </span><span class="m">3</span><span class="w"> </span>*<span class="w"> </span>*<span class="w"> </span>*<span class="w"> </span>self-ershov-memory<span class="w"> </span>--dry-run<span class="w"> </span>--full<span class="w"> </span>&gt;&gt;<span class="w"> </span>~/.hermes/logs/ershov-audit.log<span class="w"> </span><span class="m">2</span>&gt;<span class="p">&amp;</span><span class="m">1</span>
 </code></pre></div>
 <h2 id="7-troubleshooting">7. Troubleshooting<a class="headerlink" href="#7-troubleshooting" title="Anchor link to this section">&para;</a></h2>
 <table>
@@ -14257,29 +14218,29 @@ hermes<span class="w"> </span>--profile<span class="w"> </span>&lt;your-profile&
 <td><code>apt-get install git</code> / <code>brew install git</code></td>
 </tr>
 <tr>
-<td><code>review</code> produces 0 proposals</td>
-<td>No sessions in window</td>
-<td>Check <code>--since</code> window; run a session first</td>
+<td>No changes proposed</td>
+<td><code>--execute</code> missing, or nothing new in the window</td>
+<td>Run <code>--dry-run --full</code> and read the delta; widen the window</td>
 </tr>
 <tr>
-<td>LLM backend connection refused</td>
-<td>Wrong base URL or API key</td>
-<td>Verify env vars; test with <code>curl $base_url/models</code></td>
+<td>LLM provider error</td>
+<td>DeepSeek key missing or rejected</td>
+<td>Check <code>DEEPSEEK_API_KEY</code> in the process environment</td>
 </tr>
 <tr>
-<td><code>apply</code> fails silently</td>
-<td>Proposal conflicts with live memory</td>
-<td>Inspect diff first; resolve conflict manually</td>
+<td>Memory file rejected</td>
+<td>Size validation failed</td>
+<td>Trim the file; the previous run's snapshot is still in place</td>
+</tr>
+<tr>
+<td><code>review</code> / <code>apply</code> commands missing</td>
+<td>Staged command surface removed upstream</td>
+<td>Use the <code>--dry-run</code> / <code>--execute</code> loop above</td>
 </tr>
 <tr>
 <td>High token costs</td>
-<td>Using expensive model for proposal gen</td>
-<td>Switch backend to DeepSeek or Ollama</td>
-</tr>
-<tr>
-<td>Offline mode produces different results</td>
-<td>Non-deterministic backend configured</td>
-<td>Use <code>--model</code> override with a deterministic temp</td>
+<td>Expensive model in the fallback path</td>
+<td>Keep direct <code>deepseek</code>; use <code>--quick</code> for routine passes</td>
 </tr>
 </tbody>
 </table>

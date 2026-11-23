@@ -107,8 +107,8 @@
     "description": "Install and use Google\u0027s TimesFM for zero-shot time series forecasting from Hermes agents. Predict revenue, usage, growth - no training required.",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/timesfm-forecasting-setup",
     
-    "datePublished": "2026-11-01",
-    "dateModified": "2026-11-01",
+    "datePublished": "2026-11-23",
+    "dateModified": "2026-11-23",
     
     "author": {
       "@type": "Organization",
@@ -132,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-11-01">
+  <meta name="last-updated" content="2026-11-23">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -184,7 +184,7 @@
   </script>
 
   
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Article", "TechArticle"], "headline": "TimesFM Forecasting - Full Setup Guide for Hermes Agents", "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/timesfm-forecasting-setup", "image": "https://www.corpusiq.io/og?title=TimesFM%20Forecasting%20-%20Full%20Setup%20Guide%20for%20Hermes%20Agents&category=Docs", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.corpusiq.io/docs/hermes/skills/catalog/timesfm-forecasting-setup"}, "datePublished": "2026-11-01", "dateModified": "2026-11-01", "author": {"@id": "https://www.corpusiq.io#organization"}, "publisher": {"@id": "https://www.corpusiq.io#organization"}, "isPartOf": {"@id": "https://www.corpusiq.io#website"}, "inLanguage": "en-US", "description": "Install and use Google's TimesFM for zero-shot time series forecasting from Hermes agents. Predict revenue, usage, growth - no training required.", "articleSection": "Hermes"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Article", "TechArticle"], "headline": "TimesFM Forecasting - Full Setup Guide for Hermes Agents", "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/timesfm-forecasting-setup", "image": "https://www.corpusiq.io/og?title=TimesFM%20Forecasting%20-%20Full%20Setup%20Guide%20for%20Hermes%20Agents&category=Docs", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.corpusiq.io/docs/hermes/skills/catalog/timesfm-forecasting-setup"}, "datePublished": "2026-11-01", "dateModified": "2026-11-23", "author": {"@id": "https://www.corpusiq.io#organization"}, "publisher": {"@id": "https://www.corpusiq.io#organization"}, "isPartOf": {"@id": "https://www.corpusiq.io#website"}, "inLanguage": "en-US", "description": "Install and use Google's TimesFM for zero-shot time series forecasting from Hermes agents. Predict revenue, usage, growth - no training required.", "articleSection": "Hermes"}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Docs", "item": "https://www.corpusiq.io/docs"}, {"@type": "ListItem", "position": 2, "name": "Hermes", "item": "https://www.corpusiq.io/docs/hermes"}, {"@type": "ListItem", "position": 3, "name": "Skills", "item": "https://www.corpusiq.io/docs/hermes/skills"}, {"@type": "ListItem", "position": 4, "name": "Catalog", "item": "https://www.corpusiq.io/docs/hermes/skills/catalog"}, {"@type": "ListItem", "position": 5, "name": "TimesFM Forecasting - Full Setup Guide for Hermes Agents", "item": "https://www.corpusiq.io/docs/hermes/skills/catalog/timesfm-forecasting-setup"}]}</script>
 </head>
   
@@ -14042,10 +14042,12 @@
 
 
 <h1 id="timesfm-forecasting-setup-guide">TimesFM Forecasting - Setup Guide<a class="headerlink" href="#timesfm-forecasting-setup-guide" title="Anchor link to this section">&para;</a></h1>
-<p><strong>Source:</strong> <a href="https://github.com/k-dense-ai/scientific-agent-skills">k-dense-ai/scientific-agent-skills</a> (699 installs)
-<strong>Also available from:</strong> google-research/timesfm (153), eturkes/claude-scientific-skills (23)
+<p><strong>Source:</strong> <a href="https://github.com/k-dense-ai/scientific-agent-skills">k-dense-ai/scientific-agent-skills</a> (2,205 installs on skills.sh)
+<strong>Also available from:</strong> google-research/timesfm (198), eturkes/claude-scientific-skills (27)
+<strong>Model version:</strong> TimesFM 3.0 is the current release (<code>pip install timesfm</code> resolves to 3.0.x)
 <strong>Category:</strong> Data Science / Forecasting</p>
 <p>Google Research's TimesFM is a decoder-only foundation model for time series forecasting. Unlike traditional statistical models (ARIMA, Prophet), TimesFM requires zero training - pass historical data and get predictions immediately. The skill wraps this into a Claude Code / Hermes agent workflow.</p>
+<p><strong>License check before production use:</strong> source code is Apache-2.0 and model weights up to version 2.5 are Apache-2.0, but the TimesFM 3.0 pretrained weights ship under a separate non-commercial license and are restricted to non-commercial, non-production use. Pin a 2.x checkpoint if the forecasts feed a commercial product.</p>
 <hr />
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code>npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>k-dense-ai/scientific-agent-skills<span class="w"> </span>--skill<span class="w"> </span>timesfm-forecasting
@@ -14182,7 +14184,7 @@ python3<span class="w"> </span>SKILL_DIR/scripts/forecast.py<span class="w"> </s
 </tr>
 <tr>
 <td>Out-of-memory on large datasets</td>
-<td>TimesFM context window is 512 points. Batch longer series or downsample.</td>
+<td>TimesFM 2.5 and 3.0 accept up to 16k context points (2.0 was 2048), so cap the context length you pass to what the machine can hold and downsample longer series.</td>
 </tr>
 <tr>
 <td>Prediction looks flat</td>

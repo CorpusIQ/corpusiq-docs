@@ -107,8 +107,8 @@
     "description": "Install and configure hermespace (PabloTheThinker/hermespace) for Hermes Agent - a persistent world model with limited working-memory desk, dual decode",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/hermespace-setup",
     
-    "datePublished": "2026-11-01",
-    "dateModified": "2026-11-01",
+    "datePublished": "2026-11-23",
+    "dateModified": "2026-11-23",
     
     "author": {
       "@type": "Organization",
@@ -132,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-11-01">
+  <meta name="last-updated" content="2026-11-23">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -184,7 +184,7 @@
   </script>
 
   
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Article", "TechArticle"], "headline": "Hermespace - Persistent Agent World Setup", "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/hermespace-setup", "image": "https://www.corpusiq.io/og?title=Hermespace%20-%20Persistent%20Agent%20World%20Setup&category=Docs", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.corpusiq.io/docs/hermes/skills/catalog/hermespace-setup"}, "datePublished": "2026-11-01", "dateModified": "2026-11-01", "author": {"@id": "https://www.corpusiq.io#organization"}, "publisher": {"@id": "https://www.corpusiq.io#organization"}, "isPartOf": {"@id": "https://www.corpusiq.io#website"}, "inLanguage": "en-US", "description": "Install and configure hermespace (PabloTheThinker/hermespace) for Hermes Agent - a persistent world model with limited working-memory desk, dual decode", "articleSection": "Hermes"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Article", "TechArticle"], "headline": "Hermespace - Persistent Agent World Setup", "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/hermespace-setup", "image": "https://www.corpusiq.io/og?title=Hermespace%20-%20Persistent%20Agent%20World%20Setup&category=Docs", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.corpusiq.io/docs/hermes/skills/catalog/hermespace-setup"}, "datePublished": "2026-11-01", "dateModified": "2026-11-23", "author": {"@id": "https://www.corpusiq.io#organization"}, "publisher": {"@id": "https://www.corpusiq.io#organization"}, "isPartOf": {"@id": "https://www.corpusiq.io#website"}, "inLanguage": "en-US", "description": "Install and configure hermespace (PabloTheThinker/hermespace) for Hermes Agent - a persistent world model with limited working-memory desk, dual decode", "articleSection": "Hermes"}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Docs", "item": "https://www.corpusiq.io/docs"}, {"@type": "ListItem", "position": 2, "name": "Hermes", "item": "https://www.corpusiq.io/docs/hermes"}, {"@type": "ListItem", "position": 3, "name": "Skills", "item": "https://www.corpusiq.io/docs/hermes/skills"}, {"@type": "ListItem", "position": 4, "name": "Catalog", "item": "https://www.corpusiq.io/docs/hermes/skills/catalog"}, {"@type": "ListItem", "position": 5, "name": "Hermespace - Persistent Agent World Setup", "item": "https://www.corpusiq.io/docs/hermes/skills/catalog/hermespace-setup"}]}</script>
 </head>
   
@@ -13973,6 +13973,17 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#method-3-hermes-plugin-install" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Method 3: Hermes plugin install
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#verify-installation" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -14215,8 +14226,8 @@
 
 <h1 id="hermespace-setup-guide">Hermespace Setup Guide<a class="headerlink" href="#hermespace-setup-guide" title="Anchor link to this section">&para;</a></h1>
 <p><strong>Repo:</strong> <a href="https://github.com/PabloTheThinker/hermespace">PabloTheThinker/hermespace</a>
-<strong>Version:</strong> v0.20.0
-<strong>Stars:</strong> 46
+<strong>Version:</strong> v0.25.0
+<strong>Stars:</strong> 10
 <strong>License:</strong> MIT
 <strong>Skill:</strong> <code>npx skills add PabloTheThinker/hermespace --skill hermespace -g -y</code></p>
 <h2 id="what-it-is">What It Is<a class="headerlink" href="#what-it-is" title="Anchor link to this section">&para;</a></h2>
@@ -14234,7 +14245,7 @@
 <h2 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li>Python 3.10+</li>
-<li>Hermes Agent v0.20.0+ (v0.20.0+ recommended)</li>
+<li>Hermes Agent v0.20.0+ (the project's stated production target)</li>
 <li>Git</li>
 <li>pip or uv for Python package management</li>
 </ul>
@@ -14253,6 +14264,10 @@
 2. Symlinks <code>hermes_plugin/</code> → <code>$HERMES_HOME/plugins/hermespace</code>
 3. Symlinks <code>skills/hermespace/</code> → <code>$HERMES_HOME/skills/hermespace</code>
 4. Creates <code>~/.hermespace/</code> state directory</p>
+<h3 id="method-3-hermes-plugin-install">Method 3: Hermes plugin install<a class="headerlink" href="#method-3-hermes-plugin-install" title="Anchor link to this section">&para;</a></h3>
+<p>The repo is also installable as a Hermes plugin, which symlinks the plugin and skill in one step:</p>
+<div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>plugins<span class="w"> </span>install<span class="w"> </span>PabloTheThinker/hermespace<span class="w"> </span>--enable
+</code></pre></div>
 <h3 id="verify-installation">Verify Installation<a class="headerlink" href="#verify-installation" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="nb">cd</span><span class="w"> </span>hermespace
 ./scripts/smoke_test.sh<span class="w">    </span><span class="c1"># expect 9/9</span>

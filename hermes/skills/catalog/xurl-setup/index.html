@@ -107,8 +107,8 @@
     "description": "Install, configure, and use the xurl skill from nousresearch/hermes-agent. Post, search, DM, and manage media on X/Twitter from Hermes agents.",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/xurl-setup",
     
-    "datePublished": "2026-11-01",
-    "dateModified": "2026-11-01",
+    "datePublished": "2026-11-23",
+    "dateModified": "2026-11-23",
     
     "author": {
       "@type": "Organization",
@@ -132,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-11-01">
+  <meta name="last-updated" content="2026-11-23">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -184,7 +184,7 @@
   </script>
 
   
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Article", "TechArticle"], "headline": "xurl (X/Twitter) - Full Setup Guide for Hermes Agents", "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/xurl-setup", "image": "https://www.corpusiq.io/og?title=xurl%20%28X/Twitter%29%20-%20Full%20Setup%20Guide%20for%20Hermes%20Agents&category=Docs", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.corpusiq.io/docs/hermes/skills/catalog/xurl-setup"}, "datePublished": "2026-11-01", "dateModified": "2026-11-01", "author": {"@id": "https://www.corpusiq.io#organization"}, "publisher": {"@id": "https://www.corpusiq.io#organization"}, "isPartOf": {"@id": "https://www.corpusiq.io#website"}, "inLanguage": "en-US", "description": "Install, configure, and use the xurl skill from nousresearch/hermes-agent. Post, search, DM, and manage media on X/Twitter from Hermes agents.", "articleSection": "Hermes"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Article", "TechArticle"], "headline": "xurl (X/Twitter) - Full Setup Guide for Hermes Agents", "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/xurl-setup", "image": "https://www.corpusiq.io/og?title=xurl%20%28X/Twitter%29%20-%20Full%20Setup%20Guide%20for%20Hermes%20Agents&category=Docs", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.corpusiq.io/docs/hermes/skills/catalog/xurl-setup"}, "datePublished": "2026-11-01", "dateModified": "2026-11-23", "author": {"@id": "https://www.corpusiq.io#organization"}, "publisher": {"@id": "https://www.corpusiq.io#organization"}, "isPartOf": {"@id": "https://www.corpusiq.io#website"}, "inLanguage": "en-US", "description": "Install, configure, and use the xurl skill from nousresearch/hermes-agent. Post, search, DM, and manage media on X/Twitter from Hermes agents.", "articleSection": "Hermes"}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Docs", "item": "https://www.corpusiq.io/docs"}, {"@type": "ListItem", "position": 2, "name": "Hermes", "item": "https://www.corpusiq.io/docs/hermes"}, {"@type": "ListItem", "position": 3, "name": "Skills", "item": "https://www.corpusiq.io/docs/hermes/skills"}, {"@type": "ListItem", "position": 4, "name": "Catalog", "item": "https://www.corpusiq.io/docs/hermes/skills/catalog"}, {"@type": "ListItem", "position": 5, "name": "xurl (X/Twitter) - Full Setup Guide for Hermes Agents", "item": "https://www.corpusiq.io/docs/hermes/skills/catalog/xurl-setup"}]}</script>
 </head>
   
@@ -14061,7 +14061,11 @@
 <tbody>
 <tr>
 <td><strong>X/Twitter API credentials</strong></td>
-<td>Free tier from <a href="https://developer.x.com">developer.x.com</a>. $100/month Basic, $5,000/month Pro for elevated access.</td>
+<td>An app in the <a href="https://developer.x.com">X Developer Console</a>. The X API v2 runs on pay-per-usage credits: reads are billed per resource returned (for example $0.005 per post) and writes per request, with no subscription, plus starter credits for a first purchase.</td>
+</tr>
+<tr>
+<td><strong><code>xurl</code> CLI</strong></td>
+<td>The skill drives the official X CLI, not a Hermes subcommand. Install with <code>curl -fsSL https://raw.githubusercontent.com/xdevplatform/xurl/main/install.sh \| bash</code>, or <code>brew install --cask xdevplatform/tap/xurl</code>, <code>npm install -g @xdevplatform/xurl</code>, <code>go install github.com/xdevplatform/xurl@latest</code>.</td>
 </tr>
 <tr>
 <td><strong>Hermes Agent</strong></td>
@@ -14069,19 +14073,20 @@
 </tr>
 </tbody>
 </table>
-<p>Set credentials in your Hermes environment:</p>
-<div class="highlight"><pre><span></span><code><span class="nb">export</span><span class="w"> </span><span class="nv">X_API_KEY</span><span class="o">=</span><span class="s2">&quot;your-api-key&quot;</span>
-<span class="nb">export</span><span class="w"> </span><span class="nv">X_API_KEY_SECRET</span><span class="o">=</span><span class="s2">&quot;your-api-key-secret&quot;</span>
-<span class="nb">export</span><span class="w"> </span><span class="nv">X_ACCESS_TOKEN</span><span class="o">=</span><span class="s2">&quot;your-access-token&quot;</span>
-<span class="nb">export</span><span class="w"> </span><span class="nv">X_ACCESS_TOKEN_SECRET</span><span class="o">=</span><span class="s2">&quot;your-access-token-secret&quot;</span>
+<p>Credentials do not live in Hermes environment variables. <code>xurl</code> stores them in <code>~/.xurl</code> as YAML, per app profile, and OAuth 2.0 tokens auto-refresh. The one-time setup is run by the user, outside the agent, because it pastes secrets:</p>
+<div class="highlight"><pre><span></span><code><span class="c1"># 1. Create an app at developer.x.com with redirect URI http://localhost:8080/callback</span>
+<span class="c1"># 2. Register it locally</span>
+xurl<span class="w"> </span>auth<span class="w"> </span>apps<span class="w"> </span>add<span class="w"> </span>my-app<span class="w"> </span>--client-id<span class="w"> </span>YOUR_CLIENT_ID<span class="w"> </span>--client-secret<span class="w"> </span>YOUR_CLIENT_SECRET
+
+<span class="c1"># 3. Authenticate (opens the browser for OAuth 2.0 PKCE) and bind it as default</span>
+xurl<span class="w"> </span>auth<span class="w"> </span>oauth2<span class="w"> </span>--app<span class="w"> </span>my-app
+xurl<span class="w"> </span>auth<span class="w"> </span>default<span class="w"> </span>my-app
+
+<span class="c1"># 4. Verify</span>
+xurl<span class="w"> </span>auth<span class="w"> </span>status
+xurl<span class="w"> </span>whoami
 </code></pre></div>
-<p>Or in <code>~/.hermes/config.yaml</code>:</p>
-<div class="highlight"><pre><span></span><code><span class="nt">env</span><span class="p">:</span>
-<span class="w">  </span><span class="nt">X_API_KEY</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;your-api-key&quot;</span>
-<span class="w">  </span><span class="nt">X_API_KEY_SECRET</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;your-api-key-secret&quot;</span>
-<span class="w">  </span><span class="nt">X_ACCESS_TOKEN</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;your-access-token&quot;</span>
-<span class="w">  </span><span class="nt">X_ACCESS_TOKEN_SECRET</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;your-access-token-secret&quot;</span>
-</code></pre></div>
+<p>If OAuth returns <code>UsernameNotFound</code> or 403 on the <code>/2/users/me</code> lookup, pass the handle explicitly: <code>xurl auth oauth2 --app my-app YOUR_USERNAME</code>. Never print or upload <code>~/.xurl</code>, and avoid <code>--verbose</code> in an agent session - it can expose auth headers.</p>
 <hr />
 <h2 id="key-capabilities">Key Capabilities<a class="headerlink" href="#key-capabilities" title="Anchor link to this section">&para;</a></h2>
 <h3 id="core-features">Core Features<a class="headerlink" href="#core-features" title="Anchor link to this section">&para;</a></h3>
@@ -14102,7 +14107,7 @@
 <tr>
 <td>Search tweets</td>
 <td>"Search X for 'hermes agent'"</td>
-<td>v2 recent search (7-day window on free tier)</td>
+<td>v2 recent search, <code>xurl search "query" -n N</code>, billed per post returned</td>
 </tr>
 <tr>
 <td>Send DMs</td>
@@ -14127,20 +14132,28 @@
 </tbody>
 </table>
 <h3 id="cli-command-reference">CLI Command Reference<a class="headerlink" href="#cli-command-reference" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="c1"># Post a tweet</span>
-hermes<span class="w"> </span>xurl<span class="w"> </span>post<span class="w"> </span><span class="s2">&quot;Hello from Hermes&quot;</span>
+<p>The skill calls the <code>xurl</code> binary directly. <code>hermes xurl</code> is not a Hermes subcommand.</p>
+<div class="highlight"><pre><span></span><code><span class="c1"># Post a post</span>
+xurl<span class="w"> </span>post<span class="w"> </span><span class="s2">&quot;Hello from Hermes&quot;</span>
 
-<span class="c1"># Search recent tweets</span>
-hermes<span class="w"> </span>xurl<span class="w"> </span>search<span class="w"> </span><span class="s2">&quot;hermes agent&quot;</span><span class="w"> </span>--limit<span class="w"> </span><span class="m">10</span>
+<span class="c1"># Search posts (returns raw post JSON with IDs you can engage)</span>
+xurl<span class="w"> </span>search<span class="w"> </span><span class="s2">&quot;hermes agent&quot;</span><span class="w"> </span>-n<span class="w"> </span><span class="m">10</span>
 
-<span class="c1"># Get user timeline</span>
-hermes<span class="w"> </span>xurl<span class="w"> </span>timeline<span class="w"> </span>@username<span class="w"> </span>--count<span class="w"> </span><span class="m">20</span>
+<span class="c1"># Home timeline / mentions</span>
+xurl<span class="w"> </span>timeline<span class="w"> </span>-n<span class="w"> </span><span class="m">20</span>
+xurl<span class="w"> </span>mentions<span class="w"> </span>-n<span class="w"> </span><span class="m">10</span>
 
-<span class="c1"># Send DM</span>
-hermes<span class="w"> </span>xurl<span class="w"> </span>dm<span class="w"> </span>@username<span class="w"> </span><span class="s2">&quot;Message text&quot;</span>
+<span class="c1"># Send a DM</span>
+xurl<span class="w"> </span>dm<span class="w"> </span>@username<span class="w"> </span><span class="s2">&quot;Message text&quot;</span>
 
-<span class="c1"># Upload and post media</span>
-hermes<span class="w"> </span>xurl<span class="w"> </span>media<span class="w"> </span>--file<span class="w"> </span>/path/to/image.png<span class="w"> </span>--text<span class="w"> </span><span class="s2">&quot;Check this out&quot;</span>
+<span class="c1"># Upload media, then attach it to a post</span>
+xurl<span class="w"> </span>media<span class="w"> </span>upload<span class="w"> </span>path/to/image.png
+xurl<span class="w"> </span>post<span class="w"> </span><span class="s2">&quot;Check this out&quot;</span><span class="w"> </span>--media-id<span class="w"> </span>MEDIA_ID
+
+<span class="c1"># Reply, quote, delete</span>
+xurl<span class="w"> </span>reply<span class="w"> </span>POST_ID<span class="w"> </span><span class="s2">&quot;Nice post!&quot;</span>
+xurl<span class="w"> </span>quote<span class="w"> </span>POST_ID<span class="w"> </span><span class="s2">&quot;My take&quot;</span>
+xurl<span class="w"> </span>delete<span class="w"> </span>POST_ID
 </code></pre></div>
 <hr />
 <h2 id="corpusiq-use-cases">CorpusIQ Use Cases<a class="headerlink" href="#corpusiq-use-cases" title="Anchor link to this section">&para;</a></h2>
@@ -14154,7 +14167,7 @@ hermes<span class="w"> </span>xurl<span class="w"> </span>media<span class="w"> 
 <tbody>
 <tr>
 <td><strong>Social mining</strong></td>
-<td>Search for operator pain points: <code>hermes xurl search "my data pipeline"</code></td>
+<td>Search for business pain points: <code>xurl search "my data pipeline" -n 10</code></td>
 </tr>
 <tr>
 <td><strong>Help-first engagement</strong></td>
@@ -14186,15 +14199,15 @@ hermes<span class="w"> </span>xurl<span class="w"> </span>media<span class="w"> 
 <tbody>
 <tr>
 <td><code>401 Unauthorized</code></td>
-<td>Regenerate tokens at <a href="https://developer.x.com/portal">developer.x.com/portal</a>. Ensure OAuth 1.0a User Context.</td>
+<td>Re-run <code>xurl auth status</code>. If the app is missing, register and authenticate again with <code>xurl auth apps add</code> then <code>xurl auth oauth2 --app my-app</code>; check you bound the default app with <code>xurl auth default my-app</code>.</td>
 </tr>
 <tr>
 <td><code>403 Forbidden</code></td>
-<td>Free tier restricts to posting only. Upgrade to Basic ($100/mo) for read access.</td>
+<td>Usually an app permission or account-tier limit rather than a fixed free tier: check the app's access level in the <a href="https://developer.x.com">Developer Console</a>, then verify credits remain.</td>
 </tr>
 <tr>
 <td><code>429 Rate Limit</code></td>
-<td>Free tier: 1,500 tweets/month posting, 50 requests/24h for v2 search. Add 15-minute delays between batches.</td>
+<td>Per-endpoint rate limits apply. Check the <code>x-rate-limit-*</code> response headers, back off, and space batches of read calls.</td>
 </tr>
 <tr>
 <td>DM fails "not following"</td>
@@ -14207,8 +14220,12 @@ hermes<span class="w"> </span>xurl<span class="w"> </span>media<span class="w"> 
 <div class="highlight"><pre><span></span><code><span class="c1"># Verify skill installed</span>
 hermes<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>xurl
 
-<span class="c1"># Quick functional test - post a test tweet</span>
-hermes<span class="w"> </span>xurl<span class="w"> </span>post<span class="w"> </span><span class="s2">&quot;xurl setup verified - CorpusIQ-connected agent reporting for duty&quot;</span>
+<span class="c1"># Verify the CLI and auth</span>
+xurl<span class="w"> </span>--help
+xurl<span class="w"> </span>auth<span class="w"> </span>status
+
+<span class="c1"># Quick functional test - read who the token belongs to</span>
+xurl<span class="w"> </span>whoami
 </code></pre></div>
 <hr />
 <p><em>← <a href="https://www.corpusiq.io/docs/hermes/skills/catalog">Skills Catalog</a> | <a href="https://www.corpusiq.io/docs/hermes/skills/marketplace/new-june30-2026-update2">June 30 Update 2 Discovery</a> →</em>
