@@ -3,7 +3,7 @@ title: "Catalog Sweep Log Archive - October 16-31, 2026"
 description: "External MCP server catalog sweep log, October 16-31, 2026 archive: directory movement, measured candidates, hold decisions"
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/changelog-2026-10b/"
 robots: "noindex,follow"
-last_updated: "2026-11-19"
+last_updated: "2026-11-23"
 tags: ["mcp server", "model context protocol", "sweep log"]
 ---
 
