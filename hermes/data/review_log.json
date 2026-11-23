@@ -23841,5 +23841,117 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-11-22T11:33:23.000420+00:00"
+  },
+  {
+    "repo": "leverframe/fleet-bridge",
+    "score": 59,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-23T11:33:24.318881+00:00"
+  },
+  {
+    "repo": "Kame696/kame-api-rotation-for-hermes",
+    "score": 60,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-23T11:33:24.318891+00:00"
+  },
+  {
+    "repo": "tech4242/aquaman",
+    "score": 61,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-23T11:33:24.318892+00:00"
+  },
+  {
+    "repo": "Kame696/kame-api-rotation",
+    "score": 53,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-23T11:33:24.318894+00:00"
+  },
+  {
+    "repo": "Shizoqua/hermes-scout",
+    "score": 59,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-23T11:33:24.318895+00:00"
+  },
+  {
+    "repo": "kvnloo/limitless",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-23T11:33:24.318896+00:00"
+  },
+  {
+    "repo": "flozi00/flozi-skills",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-23T11:33:24.318897+00:00"
+  },
+  {
+    "repo": "UmutnefeS/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-23T11:33:24.318898+00:00"
+  },
+  {
+    "repo": "qingfengzxr/hermes-messagehub",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-23T11:33:24.318899+00:00"
+  },
+  {
+    "repo": "wzul/dbdesk",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-23T11:33:24.318900+00:00"
+  },
+  {
+    "repo": "weeix/hermes-lesson-review-plugin",
+    "score": 37,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-23T11:33:24.318901+00:00"
+  },
+  {
+    "repo": "maciej-makowski/hermes-bundle",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-23T11:33:24.318902+00:00"
+  },
+  {
+    "repo": "nujovich/hermes-telemetry",
+    "score": 64,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-23T11:33:24.318903+00:00"
+  },
+  {
+    "repo": "Feisty-38/Aesmyra.",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-23T11:33:24.318904+00:00"
+  },
+  {
+    "repo": "Typhoon-line/film-scan_epson",
+    "score": 27,
+    "tier": "LOW_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-23T11:33:24.318905+00:00"
+  },
+  {
+    "repo": "LumenoProject/hermes-devbox",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-23T11:33:24.318906+00:00"
   }
 ]
