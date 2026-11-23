@@ -1,0 +1,53 @@
+---
+title: "MCP Server Discovery - November 22, 2026 (Evening)"
+description: "Six new slugs and twenty-two queue arrivals: an interview surface that refuses keyless calls, a Ukrainian marketplace, and a label table with silent defaults."
+category: "MCP Ecosystem"
+last_updated: "2026-11-22"
+---
+
+# MCP Server Discovery - November 22, 2026 (Evening)
+
+Fired on the **21:00 MST** tick, roughly eleven hours after the midday pass that shipped FaxUp, Fox Davidson, Daejeon Hankok, CLIA Sentinel and eSIMX through PR #475. The directory moved **six** canonical slugs and the queue carried **twenty-two** arrivals. Three shipped, and each one answers a question with a number rather than an opinion: which questions this company asks, what a listing costs and who the seller is registered as, and what margin a label sheet expects before the print runs.
+
+## The window, measured
+
+```text
+mcpservers.org /sitemap.xml   200, sixteen maps named, TWELVE numbered server maps
+raw <loc>, maps 1-12          37,243   against 37,241 at the midday capture  (+2)
+  servers/1  ..... 4,128     servers/7  ..... 5,898
+  servers/2  ..... 2,511     servers/8  ..... 2,716
+  servers/3  ..... 2,972     servers/9  ..... 2,605
+  servers/4  ..... 3,201     servers/10 ..... 2,603
+  servers/5  ..... 3,305     servers/11 ..... 2,543
+  servers/6  ..... 2,924     servers/12 ..... 1,837     sum 37,243 exact
+distinct keys, maps 1-12      23,406
+distinct keys, union          23,455   against 23,434 on the 11:31Z capture at 1.60 URLs per key
+union diff                    +21 additions, 0 removals
+priority-servers.xml          254 raw, 34 distinct keys   (the baseline carried 254 too)
+remote-mcp-servers.xml         15 raw, 15 forms of one remote slug
+lastmod, server maps         33,732 stamped pairs; 328 rows at or after 11:31Z, 242 keys
+mcp.so /feed                 200, 158,070 bytes, 27 cards, 10 stamps above the cutoff
+submission queue              #7837 to #7858, twenty-two arrivals with bodies
+```
+
+The raw count moved by two while the per-map distribution moved by hundreds in both directions (servers/12 +51, servers/1 +17, servers/5 -61, servers/2 -17, servers/6 +13, servers/7 -58), which is a re-shard rather than an arrival pattern. The **328** fresh `lastmod` rows collapse to **242** keys because the same slugs are stamped many times inside one second: brightdata **15** times at 11:44:03Z, mastra **15** at 12:17:10Z, mcp-send-email **13** at 14:50:45Z, yachtsyai **11** at 16:03:19Z, lightningfaucet **8** at 15:42:25Z, firecrawl **7** at 11:54:52Z. The one `lastmod` row worth reading is our own mirror: `/servers/corpusiq/corpusiq-docs` is stamped **2026-11-22T16:17:43Z**, so the mcpservers.org listing of this docs repository refreshed inside this window.
+
+The union diff is the only like-for-like reading, and it is worth stating why: the stored baseline carries the 254 `priority-servers` entries, so a twelve-map capture against it invents **34 removals** (github-mcp-server, notion-mcp-server, slack-mcp-server and the rest of the priority set) that are not removals at all. On the union basis there are **0** removals and **21** additions, of which **15** are locale forms of the single remote slug `clockwise` and **6** are canonical `/servers/` slugs decomposed below.
+
+## Shipped (3, all driven)
+
+- [TrueInterview MCP - Interview Questions by Company and Round](/hermes/mcp/servers/external/trueinterview-mcp/) - submission **#7837**, filed **17:24:29Z**, fifty seconds after the registry published `io.trueinterview/trueinterview 1.26.0` at **17:10:44Z**. Forty-one tools covering a company-intel read, a question bank searched by company, type and difficulty, a job feed, resume tailoring, answer drafting and an application tracker. `initialize` and `tools/list` answer **200** keyless; four `tools/call` requests answer **401** with a twelve-scope challenge and a **200** protected-resource document. The submission states four tools work without signing in and all four refused, which the guide records as measured. First interview-preparation surface here.
+- [EX & GO MCP - Ukraine Classifieds With Seller Registration](/hermes/mcp/servers/external/ex-go-mcp/) - submission **#7842**, registry `io.exgo/marketplace 2.0.1` published **21:34:00Z** (2.0.0 on 2026-11-15), MIT client repo. Two doors: a read-only public endpoint with six tools and no auth, and an OAuth door with `listings:read`, `listings:write`, `partner:read`. The read door returned **45** categories carrying the Google Merchant Center attribute vocabulary, **242** electronics listings over **11** pages, **10** results for `iphone`, and a listing record at **698** UAH in Kyiv with lat/lng, status, photos, and the seller's trader block: name, registration number `1888904931`, declared address, `selfCertified: true` and `verified: false` as separate flags. Category and city names ship in ten languages. Two defects recorded: `city` is slug-only with no city list, and an empty exact match returns a `related` array under `total: 0`.
+- [LabelQueue MCP - Label Sheet Geometry Before the Print](/hermes/mcp/servers/external/labelqueue-mcp/) - a canonical sitemap arrival at `/servers/labelqueue-mcp`, registry `com.labelqueue/mcp 1.0.2` (endpoint reports **1.0.1**). Four keyless tools. Avery 5160 returns 3 x 10 = **30** labels at 2.625 x 1 in with a 0.5 in top margin, a 0.1875 in left margin and a 2.75 in pitch, all reproduced by hand; L7160 returns 3 x 7 = **21** on A4 at 63.5 x 38.1 mm; a 4 x 6 thermal roll returns **812 x 1218** dots at 203 dpi and **1200 x 1800** at 300 dpi, which is the roll size multiplied out; and the drift tool names Fit-to-Printable-Area as the cause of a 0.35 mm creep with three settings that fix it. Three defects recorded: an unknown code silently returns the 5160 `defaultSpec`, an unknown symbology is echoed back carrying the Code 128 answer, and the table covers six codes.
+
+## Also identified this pass (not catalogued)
+
+**Sitemap arrivals.** `rentcast-api-mcp` and `squish-mcp-server` are the two feed cards held on 2026-11-21 arriving under canonical slugs (a RentCast API gateway whose `execute-request` needs a key; domain, DNS, hosting and backup management behind OAuth 2.1) - slug acquisitions, not arrivals. `orla-mcp` was catalogued on **2026-10-08**. `imperal-mcp` is the slug of a feed card whose domain does not resolve; the product is `imperal-mcp-ai-coding-exoskeleton`, an AI coding exoskeleton, held on developer tooling beside the thirteen coding and IDE guides already here. `irmcon-org/irm-mcp-server` answered **405 Method Not Allowed** in plain text to a JSON-RPC POST and no other host resolves, so it is recorded unattributed rather than described. `youtube-transcript-mcp-by-getyoutubetext` joins a class that already carries youtube-kit-mcp, transcriptfetch, bulktranscripts and tiktok-transcript.
+
+**Queue arrivals, held with the class or the gate named.** **Agitech Site Check** (#7853) was driven keyless and returned overall **92**, speed **84** and search **74** for corpusiq.io with real query data inside the findings (*"page one for only 2 searches"*, *"top 100 for 113 searches"*, *"private ai for business"* at position **20** on about 1,600 searches a month) - held as a third-party copy of the SEO and AI-visibility surface this catalogue publishes. **MofCloud Pricing** (#7850) was driven keyless: **15** tools, `gpu_options` returning **1,102** H100 offers with GCP spot at **1.0881** USD per GPU-hour in Helsinki, prices stated as of **2026-11-22**, `price_changes` returning **0 of 0**, and `min_vcpus` refused as an unexpected property - held on the FinOps class already carried by OpenCloudCosts, Costory, Infrawise, GPUFinder and CoreHu GPU Cloud. **PaperLesson**, **BaziTools**, **MassageInChina** and **OboeLib** are four items of a five-item single-author fleet (the registry record for LabelQueue moved to `AbigailDavised` from `bdodh22` on 2026-11-10), held on consumer reference verticals; PaperLesson's entire `initialize` instructions string is the directory tag `mcprush.com-332dc5f237db547ea88dbd3f`, recorded as a discovery artifact. **Stratos** is a macOS-only local dev environment shipped as an app, and **Sonjari** an MCPB bundle, both stdio and neither driveable from here. **marketingapp.io** is Instagram Reels research, testing and posting behind a bearer token at $49 a month after a seven-day trial, on the social publishing class. **Eval Lab** is agent evaluation with a human review link, the class held on TraceCheck at midday. **llmdocs.dev** is version-pinned docs answers sold per lookup over x402, on the docs-retrieval class owned by Context7 and DeepWiki. **WDI** is a zero-dependency local stdio decision checklist. **U.S. Market Regime** returns a GREEN/YELLOW/RED composite over QQQ, VIX and distribution days, keyless, and is held on the same saturated stock-research and analytics classes that held Monk.trade and MetricRaven at midday. **BOTVBOT** is an arena where AI fighters compete under plans their agents write, which is entertainment. **Telmian SMS** is OTP and two-way SMS behind OAuth with dynamic client registration, on the communications class. **Kontext by Marco Polo** returns **401** at `initialize` with a protected-resource document naming a Supabase auth server, held on the OAuth gate plus design tooling. **todox** is working memory for coding agents, on the agent-memory class that already carries twelve entries.
+
+**Feed cards, held.** `certified-mail-sender` sends USPS Certified Mail, on the print-and-mail class and beside FaxUp as the other physical-channel surface. `proofage` is KYC and age verification, on the identity class. `wrapflow` generates complete web apps, on the app-generation class. `qurl` markets identity-before-connection sharing with zero port exposure, on the tunneling class. `tracee` turns an assistant into a social media marketing team, on the social publishing class. `greencyclepedia` maps cannabis compounds to the body, which is reference content. `skaldmaps` ranks US ZIP codes for movers and investors, a slice already carried by zip-codes-mcp, placestack-mcp, dfx-real-estate-mcp and landlens-one-mcp, and its `/mcp` URL serves an HTML marketing page rather than an endpoint.
+
+## Listings
+
+Nothing in this window touches our own directory presence, and the midday pass re-measured all five surfaces: mcpservers.org LISTED, mcp.so LISTED, Glama LISTED, Smithery NOT LISTED, Anthropic NOT LISTED. This pass's own capture independently confirms the first of those - `/servers/corpusiq/corpusiq-docs` is present and freshly stamped **2026-11-22T16:17:43Z**.
