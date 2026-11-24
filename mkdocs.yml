@@ -223,6 +223,9 @@ nav:
   - Connect Odoo to Claude: connect-odoo-to-claude.md
   - Connect Semrush to Claude: connect-semrush-to-claude.md
   - Connect TikTok to Claude: connect-tiktok-to-claude.md
+  - Connect eBay to Claude: connect-ebay-to-claude.md
+  - Connect Etsy to Claude: connect-etsy-to-claude.md
+  - Connect OneDrive to Claude: connect-onedrive-to-claude.md
 - Perplexity Integrations:
   - Connect QuickBooks to Perplexity: connect-quickbooks-to-perplexity.md
   - Connect Shopify to Perplexity: connect-shopify-to-perplexity.md

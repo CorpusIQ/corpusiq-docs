@@ -178,6 +178,29 @@ def check_file(path: str) -> list[str]:
                 f"almost always a dropped opening quote. Wrap it in one pair: "
                 f"`{key}: \"...\"`"
             )
+    # 6. A SECOND frontmatter block that leaked into the BODY. MkDocs stops
+    #    parsing at the first closing '---', so anything YAML-shaped after it is
+    #    rendered as visible page text above the real content. The classic case
+    #    is a page that carries two full blocks (`docs/security/README.md` shipped
+    #    one live: seven `key: value` lines and a stray `---` printed as text on
+    #    the security page, whose <title> came from the first block). Three or
+    #    more consecutive `key: value` lines immediately after the frontmatter
+    #    close is never legitimate prose.
+    body_lines = text[m.end():].split("\n")
+    i = 0
+    while i < len(body_lines) and not body_lines[i].strip():
+        i += 1
+    leaked = 0
+    while i < len(body_lines) and body_lines[i].strip() and KEY_RE.match(body_lines[i].strip()):
+        leaked += 1
+        i += 1
+    if leaked >= 3:
+        problems.append(
+            f"{leaked} YAML lines render as page text — a second frontmatter "
+            f"block survived after the closing '---' (delete it; MkDocs only "
+            f"reads the first block)"
+        )
+
     return problems
 
 
