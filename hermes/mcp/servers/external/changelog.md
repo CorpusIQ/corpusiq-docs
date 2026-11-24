@@ -3,13 +3,23 @@ title: "External MCP Server Catalog - Sweep Log"
 description: "Discovery pass history for the external MCP server catalog: directory movement, measured candidates, and every hold decision"
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/changelog/"
 robots: "noindex,follow"
-last_updated: "2026-11-23"
+last_updated: "2026-11-24"
 tags: ["mcp server", "model context protocol", "sweep log"]
 ---
 
 # External MCP Server Catalog - Sweep Log
 
 Every discovery pass behind the [external MCP server catalog](/hermes/mcp/servers/external/), newest first. Each entry records what the mcpservers.org and mcp.so surfaces returned, which candidates were measured, and what was held and why.
+
+## 🆕 November 23, 2026 - Midday Sweep (3 New, 3 Guides)
+
+Fired on the **10:00 MST** tick, 5.5 hours after the night pass stored its **11:31Z** baseline and shipped four. The canonical did not move: the twelve numbered server maps returned **37,519** raw `<loc>` entries against **37,555**, the per-map block summing exactly (`4,156 / 2,526 / 2,941 / 3,231 / 3,342 / 2,939 / 5,857 / 2,739 / 2,617 / 2,616 / 2,515 / 2,040`), union keys **23,661** raw and **23,647** normalised against a **23,646** normalised baseline, a like-for-like diff of **+1 addition and 0 removals** where the addition is a locale route form of a slug already held, and **zero** `lastmod` rows at or after the cutoff - the newest stamp anywhere on the surface is **10:27Z**. All three products came from the push surfaces: the feed answered **200** at **159,050** bytes with **34** anchors, **30** stamps and five cards above the cutoff, and the queue carried **#7886** to **#7911**, twenty-six arrivals.
+
+- [Koop MCP - Security Compliance Work From the Chat](/hermes/mcp/servers/external/koop-mcp/) - the catalog's first certification surface (SOC 2, ISO 27001, ISO 42001, CMMC L1 and L2, NIST SP 800-171, DFARS 252.204-7012, ISO 9001) at **from $299 a month**. Measured to the gate: a **401** whose body is an in-band JSON-RPC refusal naming both credential paths, a complete protected-resource document on the bare and the resource-relative route with three scopes (`koop:read`, `koop:write`, `koop:draft`), and an RFC 8414 document with PKCE **S256**, dynamic registration, revocation and `authorization_response_iss_parameter_supported: true`. The tool list is unreadable without an account, and the guide says so.
+- [wapi.kz MCP - WhatsApp Leads Priced Back to the Ad](/hermes/mcp/servers/external/wapi-kz-mcp/) - submission **#7910**, the attribution slice of the WhatsApp story: **28** tools listed keyless on **wapi.kz 0.5.0** with every `tools/call` refused in band, all descriptions in Russian. A number attaches as a **linked device**, not the Cloud API. `get_analytics` rolls spend into leads into sales by campaign, ad set or ad; `list_leads` carries `ctwa` joins with the ad id and link joins with utm, fbclid and gclid; `match_method` names its own weakest link as a **15-minute** time window; six Meta tools reach the ad account and `set_ad_budget` warns that a budget change spends the client's money. **330 KZT per number per day**, first day charged on add, with `add_number` inert until `confirm=true`. Registry **0.5.1** against the endpoint's **0.5.0**.
+- [RelayShield Scam Checks MCP - Keyless Fraud Screening](/hermes/mcp/servers/external/relayshield-scam-checks-mcp/) - submission **#7908**, four free keyless tools all driven: `check_link`, `check_email`, `check_breach`, `check_wallet`. Every clean answer reads `[UNKNOWN]` or a `LOW` risk qualified as unknown rather than safe. Two defects recorded rather than smoothed: `domain age=Noned` from a null template, and a batch path whose list disagrees with its own count (two URLs, "Checked 1 link(s)", one printed both as `[UNKNOWN]` and as `[NOT CHECKED - retry]`). A classic invoice-fraud subject and body scored **Risk low, Score 0** because the tool scores the fields supplied - the most useful fact in the guide.
+
+**Also identified this pass (not catalogued).** Twenty-three queue arrivals held with the class or gate named: **CartAI** (agentic checkout, the one to revisit), **Scrumpy** (boards, `401` with no protected-resource document), **OnlyDNS**, **SentriSend** (signed receipts worth a second look on the saturated email-verification class), **AgentSDR**, **FlowFeed** (**$9 a month**, macro class), **Agent Meets Agent**, **DoLoop** and **Okokumo** (one author, two filings), **Oxynet**, **HenryCrawl** (**$19 a month for 3,000 credits**), three **Scrapemint** fronts as one actor fleet, **Tintloom**, **Rainfrog**, **Musikalis**, **One Design**, **Edgegap** (a listing correction, not a product), **Agent402 pay-mcp**, **HelmSwap**, **Solana Rent and Rug Shield**, **Agent Registrar**, **OrchStep**, **Palace** and **doubao-remote**, plus **#7906** recorded as a settlement address rather than a submission.
 
 ## 🆕 November 23, 2026 - Night Sweep (4 New, 4 Guides)
 
