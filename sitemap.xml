@@ -245,12 +245,20 @@
          <lastmod>2026-11-23</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/connect-ebay-to-claude</loc>
+         <lastmod>2026-11-24</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/connect-ebay-to-perplexity</loc>
          <lastmod>2026-11-23</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connect-etsy-to-chatgpt</loc>
          <lastmod>2026-11-21</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/connect-etsy-to-claude</loc>
+         <lastmod>2026-11-24</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connect-gmail-to-chatgpt</loc>
@@ -467,6 +475,10 @@
     <url>
          <loc>https://www.corpusiq.io/docs/connect-onedrive-to-chatgpt</loc>
          <lastmod>2026-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/connect-onedrive-to-claude</loc>
+         <lastmod>2026-11-24</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connect-onedrive-to-perplexity</loc>
@@ -16062,7 +16074,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/security</loc>
-         <lastmod>2026-11-19</lastmod>
+         <lastmod>2026-11-24</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/security/compliance</loc>
