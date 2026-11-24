@@ -1,6 +1,6 @@
 ---
 title: "MCP Server Discovery - November 24, 2026 (Midday)"
-description: "A directory that moved 113 entries and not one key, and three queue arrivals that were all driven: an exchange calendar, a statutory workday table and a China data API."
+description: "A directory that moved 113 entries and no keys, and three queue arrivals driven end to end: an exchange calendar, a workday table and a China data API."
 category: "MCP Ecosystem"
 last_updated: "2026-11-24"
 ---
