@@ -1,13 +1,15 @@
 ---
 title: README
 description: "**CorpusIQ is the live-data brain you plug into ChatGPT, Claude, or any AI assistant.** Connect the tools you already use - QuickBooks, Shopify, Stripe, Hu."
-last_updated: "2026-11-15"
+last_updated: "2026-11-24"
 ---
 # CorpusIQ - Stop building reports by hand. Just ask your AI.
 
 [![MCP Toplist](https://mcptoplist.com/badge/glama%2FCorpusIQ%2Fcorpusiq-docs.svg)](https://mcptoplist.com/server/glama%2FCorpusIQ%2Fcorpusiq-docs)
 
 [![AllMCPs](https://allmcps.com/api/badge/corpusiq.svg)](https://allmcps.com/mcp/corpusiq?verify=f32a78e1-8fa4-4117-bfbe-d127ec1aeb3a)
+
+[![CorpusIQ/corpusiq-docs MCP server](https://glama.ai/mcp/servers/CorpusIQ/corpusiq-docs/badges/score.svg)](https://glama.ai/mcp/servers/CorpusIQ/corpusiq-docs)
 
 [![MCP Platform](https://img.shields.io/badge/MCP-Platform-0a2540?style=flat-square&logo=anthropic&logoColor=white)](https://www.corpusiq.io)
 [![Connectors](https://img.shields.io/badge/Connectors-40+-c9a961?style=flat-square)](https://www.corpusiq.io/connectors)
