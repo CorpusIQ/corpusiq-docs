@@ -3,7 +3,7 @@ title: Connect OneDrive to ChatGPT via MCP
 description: "Connect OneDrive to ChatGPT through CorpusIQ MCP. Ask what a contract says or what changed this quarter without opening a single folder."
 category: ChatGPT Integrations
 tags: ["connect OneDrive to ChatGPT", "OneDrive MCP", "OneDrive ChatGPT integration", "ask ChatGPT about OneDrive files", "file search in ChatGPT", "CorpusIQ MCP"]
-last_updated: "2026-11-21"
+last_updated: "2026-11-23"
 canonical: "https://www.corpusiq.io/docs/connect-onedrive-to-chatgpt"
 robots: "index,follow"
 ---
