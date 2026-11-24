@@ -119,9 +119,9 @@ CorpusIQ is the governed read layer those agents can consume.
 
 ## Related
 
-- [Security, Read-Only Access, and What CorpusIQ Never Does](read-only-and-security)
-- [MCP security best practices](/docs/mcp-security-best-practices)
-- [How the MCP architecture works](/docs/how-it-works/mcp-architecture)
-- [Connectors overview](/docs/connectors)
+- [Security, Read-Only Access, and What CorpusIQ Never Does](/hermes/security/read-only-and-security)
+- [MCP security best practices](/mcp-security-best-practices)
+- [How the MCP architecture works](/how-it-works/mcp-architecture)
+- [Connectors overview](/connectors)
 
 
