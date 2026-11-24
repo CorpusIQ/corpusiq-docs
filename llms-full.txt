@@ -9979,6 +9979,7 @@ Direct MCP retrieval does not retain raw customer files or full connector respon
 
 - [eBay connector reference](connectors/ebay.md) - what the connection can see, the seller scopes and the traffic lag
 - [Connect eBay to Perplexity](connect-ebay-to-perplexity.md) - the same GMV and fee questions, asked from Perplexity
+- [Connect eBay to Claude](connect-ebay-to-claude.md) - the same questions in Claude Desktop, with the device-login setup
 - [Connect Etsy to ChatGPT](connect-etsy-to-chatgpt.md) - the handmade marketplace beside the general one
 - [Connect Amazon Seller to ChatGPT](connect-amazon-seller-to-chatgpt.md) - the third channel in the same answer
 - [Connect Shopify to ChatGPT](connect-shopify-to-chatgpt.md) - the store you run on your own domain
@@ -9987,6 +9988,170 @@ Direct MCP retrieval does not retain raw customer files or full connector respon
 - [How to Connect Business Data to ChatGPT](how-to-connect-business-data-to-chatgpt.md) - the general setup
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+
+---
+# How to Connect eBay to Claude with CorpusIQ MCP
+URL: https://www.corpusiq.io/docs/connect-ebay-to-claude
+
+
+# How to Connect eBay to Claude with CorpusIQ MCP
+
+Every figure an eBay seller needs sits in Seller Hub, and each one has its own screen. Orders, transactions, fees, seller standards, listing traffic. One view per question, one date filter per view, and no view that answers the question you actually asked.
+
+Connecting eBay to Claude through CorpusIQ MCP replaces the tab-hopping with a question. You ask in plain language, Claude reads your live Seller Hub data, and the answer names the listings, orders and periods it used. Read-only, with no exporter in between.
+
+### Why Connect eBay to Claude?
+
+eBay is where the money lands and the least readable place to audit it. Claude gives you a way to ask about the marketplace in the same conversation as the rest of the business.
+
+- **Revenue without the date filter.** "What is my eBay GMV for the last 30 days?" One question instead of the payments screen plus a calculator.
+- **Fees, broken out.** "What did eBay charge me in fees last month, split by type?" The fee lines are already in the transaction list, so Claude can group them.
+- **Cash position.** "Show me eBay funds on hold right now, and how much has settled this week." This is the number sellers check before making a purchase.
+- **Seller health trend.** "How are my seller standards trending, and what is my INAD rate this quarter?" Both come from the standards profile and the service metrics.
+- **Traffic that explains the gap.** "Which listings got the most impressions last week but no sales?" Views without conversion is the question Seller Hub leaves to you.
+- **Cross-source context.** Pair eBay with Amazon Seller, Shopify, Stripe or QuickBooks in one thread, so marketplace revenue and the books agree.
+
+### How It Works
+
+1. **Connect eBay to CorpusIQ.** Authorize read-only access to your seller account and approve the seller scopes on eBay's consent screen.
+2. **Connect CorpusIQ to Claude** as an MCP server, using the config block from your CorpusIQ account settings.
+3. **CorpusIQ translates** your question into eBay calls, handles pagination and field mapping, and retrieves the matching orders, transactions, standards and traffic data.
+4. **Claude answers** from that retrieved content, with the listings, orders or periods it used attached to the answer.
+
+CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
+
+### Setup Steps
+
+**In CorpusIQ**
+
+1. Log in and open **Connectors**.
+2. Select **eBay**.
+3. Click Connect, sign in to eBay, and approve the requested seller scopes on the consent screen.
+4. Copy the MCP config block shown under **Settings, Integrations, Claude Desktop**.
+
+**In Claude Desktop**
+
+5. Open **Settings, Developer, Edit Config**. This opens `claude_desktop_config.json`.
+6. Add the CorpusIQ entry:
+
+```json
+{
+  "mcpServers": {
+    "corpusiq": {
+      "command": "npx",
+      "args": [
+        "-y", "mcp-remote",
+        "https://mcp2.corpusiq.io/mcp"
+      ]
+    }
+  }
+}
+```
+
+7. Save the file and fully quit Claude Desktop. Not just the window: quit the application.
+8. Reopen Claude, complete the device login when prompted, and the tools indicator appears next to the message box.
+
+If the tools indicator does not appear, work through [Claude can't see CorpusIQ](troubleshooting/claude-cant-see-corpusiq.md) before changing anything else.
+
+### Example Claude Questions
+
+**Revenue and orders**
+
+- "What is my eBay GMV for the last 30 days?"
+- "How many orders did I fulfil last week, and how many are still open?"
+- "Compare eBay GMV this month with the same month last year."
+
+**Fees and cash**
+
+- "What did eBay charge me in fees last month, broken down by type?"
+- "Show me eBay funds on hold right now."
+- "How much has settled this week, and what is my total balance?"
+
+**Seller health**
+
+- "How are my seller standards trending?"
+- "What is my INAD rate this quarter, and which listings drive it?"
+- "Which listings got the most impressions last week?"
+
+**Cross-source**
+
+- "Compare eBay GMV with Amazon sales for the same period." (requires the Amazon Seller connector)
+- "Do the eBay refunds in the transaction list match what Stripe shows?" (requires the Stripe connector)
+
+### Security
+
+- **Read-only by permission.** The connection requests read access to orders, financial transactions, seller standards, service metrics, traffic reports and the funds summary. There is no path for Claude to list items, edit a listing, refund a buyer or move funds.
+- **Enforced in two places.** The eBay seller scopes and the MCP tool set both refuse writes, so a write attempt fails rather than silently succeeding.
+- **Revocable at any time.** Removing the CorpusIQ application in eBay ends the connection immediately.
+- **Scoped direct-MCP retention.** Direct MCP retrieval is read-only. Raw customer files and full connector payloads are not retained. Operational logs keep query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
+- **TLS in transit** between eBay, CorpusIQ, and Claude.
+
+### Comparison: Seller Hub vs eBay Through Claude
+
+| Aspect | eBay Seller Hub | CorpusIQ MCP with Claude |
+|---|---|---|
+| Input | A screen per metric, a date filter per screen | A question in plain language |
+| Fees and cash | Payments tab, then arithmetic | Asked directly, grouped by type |
+| Seller health | Standards profile page | Trend question answered as text |
+| Traffic vs sales | Two views, joined by hand | Both in one answer |
+| Mixing sources | Export and reconcile elsewhere | eBay plus Amazon, Stripe or QuickBooks in one answer |
+| Write access | Yes, by you | None, read-only |
+
+Seller Hub is the right tool when you know exactly which figure you want. Claude is the right tool when you know the question and not which screen holds it.
+
+### FAQ: Common Questions
+
+<details>
+<summary><strong>Does this work with more than one eBay account?</strong></summary>
+
+Each connection is scoped to the seller account you authorized. Connect the accounts you need separately so each answer stays tied to the store you asked about.
+</details>
+
+<details>
+<summary><strong>The funds summary is empty or missing.</strong></summary>
+
+The funds summary needs the `sell.finances` scope, which is requested during the OAuth flow. Disconnect and reconnect so the scope is granted, then ask again.
+</details>
+
+<details>
+<summary><strong>The traffic report is empty for today.</strong></summary>
+
+eBay's traffic data has a 24 to 48 hour lag. Ask about yesterday or earlier rather than today.
+</details>
+
+<details>
+<summary><strong>The seller standards profile comes back blank.</strong></summary>
+
+New sellers do not have a standards profile yet. eBay requires a minimum order volume before the profile exists, so the answer is blank rather than wrong.
+</details>
+
+<details>
+<summary><strong>Can Claude list an item, edit a listing or refund a buyer?</strong></summary>
+
+No. The connection carries read access and the connector exposes retrieval tools only. It does not list items, edit listings, refund buyers or move funds.
+</details>
+
+<details>
+<summary><strong>How current is the data?</strong></summary>
+
+Every question is answered against your seller account at the moment you ask. Orders and transaction lists are live; traffic and standards data carry eBay's own reporting lag, which the answer reflects rather than hides.
+</details>
+
+<details>
+<summary><strong>What is retained after a query?</strong></summary>
+
+Direct MCP retrieval does not retain raw customer files or full connector response payloads. Operational query logs keep query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
+</details>
+
+---
+
+**Next steps:** [Connect eBay to Claude now](https://www.corpusiq.io/connectors)
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
 
 ---
 # How to Connect eBay to Perplexity with CorpusIQ MCP
@@ -10244,6 +10409,7 @@ Direct MCP retrieval does not retain raw customer files or full connector respon
 
 - [Etsy connector reference](connectors/etsy.md) - what the connection can see and the shop-scoping rules
 - [Connect eBay to ChatGPT](connect-ebay-to-chatgpt.md) - the marketplace numbers beside the handmade ones
+- [Connect Etsy to Claude](connect-etsy-to-claude.md) - the same listing and review questions in Claude Desktop
 - [Connect Amazon Seller to ChatGPT](connect-amazon-seller-to-chatgpt.md) - the third channel in the same answer
 - [Connect Shopify to ChatGPT](connect-shopify-to-chatgpt.md) - the store you run on your own domain
 - [Connect Stripe to ChatGPT](connect-stripe-to-chatgpt.md) - payouts and fees against the order totals
@@ -10251,6 +10417,162 @@ Direct MCP retrieval does not retain raw customer files or full connector respon
 - [How to Connect Business Data to ChatGPT](how-to-connect-business-data-to-chatgpt.md) - the general setup
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+
+---
+# How to Connect Etsy to Claude with CorpusIQ MCP
+URL: https://www.corpusiq.io/docs/connect-etsy-to-claude
+
+
+# How to Connect Etsy to Claude with CorpusIQ MCP
+
+An Etsy shop produces more signal than the dashboard can hold together. Views, visits, orders, revenue and reviews each sit on their own screen, for their own period, and the comparison between them is left to you.
+
+Connecting Etsy to Claude through CorpusIQ MCP turns that into a question. You ask in plain language, Claude reads your live shop data, and the answer names the listings behind it. Read-only, with nothing exported out of Etsy first.
+
+### Why Connect Etsy to Claude?
+
+Etsy is a handmade shop, so the signal that matters is which listings earn attention and which of those turn it into orders. That comparison is exactly what a per-screen dashboard does not give you.
+
+- **What sold, and what should have.** "Which Etsy listings sold best in the last 30 days?" and "which listings get views but no orders?" are the same question from two directions.
+- **Trend instead of a total.** "How did Etsy revenue trend month over month this year?" Claude reads the order data and returns the series as text you can act on.
+- **Stale inventory.** "Show me listings that have not sold in 60 days." Useful before a shop refresh, not after.
+- **Pricing spread.** "What is the price range across my active listings?" One answer instead of opening each listing.
+- **Review themes.** "What do my recent reviews complain about most?" Ratings and review volume come back as a theme, not a star average.
+- **Cross-source context.** Put Etsy beside Shopify, Stripe or QuickBooks in the same conversation, so every channel and the books agree.
+
+### How It Works
+
+1. **Connect Etsy to CorpusIQ.** Authorize read-only access to the shop you want read, using the shop owner account or an account with access to the shop's data.
+2. **Connect CorpusIQ to Claude** as an MCP server, using the config block from your CorpusIQ account settings.
+3. **CorpusIQ translates** your question into Etsy calls, handles pagination and field mapping, and retrieves the matching shop performance, listings, orders and review data.
+4. **Claude answers** from that retrieved content, with the listings it used attached to the answer.
+
+CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
+
+### Setup Steps
+
+**In CorpusIQ**
+
+1. Log in and open **Connectors**.
+2. Select **Etsy**.
+3. Click Connect, sign in to Etsy if you are not already signed in, and approve the read-only permissions on the consent screen.
+4. Copy the MCP config block shown under **Settings, Integrations, Claude Desktop**.
+
+**In Claude Desktop**
+
+5. Open **Settings, Developer, Edit Config**. This opens `claude_desktop_config.json`.
+6. Add the CorpusIQ entry:
+
+```json
+{
+  "mcpServers": {
+    "corpusiq": {
+      "command": "npx",
+      "args": [
+        "-y", "mcp-remote",
+        "https://mcp2.corpusiq.io/mcp"
+      ]
+    }
+  }
+}
+```
+
+7. Save the file and fully quit Claude Desktop. Not just the window: quit the application.
+8. Reopen Claude, complete the device login when prompted, and the tools indicator appears next to the message box.
+
+If you run more than one shop, connect each shop separately so the answers stay scoped to the right store. If the tools indicator does not appear, work through [Claude can't see CorpusIQ](troubleshooting/claude-cant-see-corpusiq.md) before changing anything else.
+
+### Example Claude Questions
+
+**Sales and revenue**
+
+- "Which Etsy listings sold best in the last 30 days?"
+- "How did Etsy revenue trend month over month this year?"
+- "What was my average order value last quarter?"
+
+**Listings**
+
+- "Which listings get views but no orders?"
+- "Show me listings that have not sold in 60 days."
+- "What is the price range across my active listings?"
+
+**Customers and reviews**
+
+- "What do my recent reviews complain about most?"
+- "How has review volume changed over the last six months?"
+
+**Cross-source**
+
+- "Compare Etsy orders with Shopify orders for the same period." (requires the Shopify connector)
+- "Which Etsy fees landed in Stripe this month?" (requires the Stripe connector)
+
+### Security
+
+- **Read-only by permission.** The connection requests read access to shop performance, listings, orders and review data. There is no path for Claude to edit a listing, change a price, refund an order or message a buyer.
+- **Enforced in two places.** The Etsy consent scopes and the MCP tool set both refuse writes, so a write attempt fails rather than silently succeeding.
+- **Revocable at any time.** Disconnecting Etsy in the CorpusIQ dashboard, or revoking the app in Etsy, ends the connection immediately.
+- **Scoped direct-MCP retention.** Direct MCP retrieval is read-only. Raw customer files and full connector payloads are not retained. Operational logs keep query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
+- **TLS in transit** between Etsy, CorpusIQ, and Claude.
+
+### Comparison: Etsy Dashboard vs Etsy Through Claude
+
+| Aspect | Etsy shop dashboard | CorpusIQ MCP with Claude |
+|---|---|---|
+| Input | A screen per metric, a period per screen | A question in plain language |
+| Views vs orders | Two screens, compared by hand | Both in one answer |
+| Reviews | Star average and a list | Themes across the reviews |
+| Mixing sources | Export and reconcile elsewhere | Etsy plus Shopify, Stripe or QuickBooks in one answer |
+| Write access | Yes, by you | None, read-only |
+
+Use the dashboard when you want to look at one listing. Use Claude when the question spans listings, periods or channels.
+
+### FAQ: Common Questions
+
+<details>
+<summary><strong>It says no shop was found.</strong></summary>
+
+The Etsy account you authorized does not own a shop. Sign in with the shop owner account and reconnect.
+</details>
+
+<details>
+<summary><strong>My most recent orders are missing.</strong></summary>
+
+Recent orders can take a few hours to appear. If a full day passes with no new orders, disconnect and reconnect the connector.
+</details>
+
+<details>
+<summary><strong>The wrong shop is connected.</strong></summary>
+
+Disconnect Etsy in the dashboard, switch accounts on etsy.com, then reconnect so the connection points at the store you meant to read.
+</details>
+
+<details>
+<summary><strong>Can Claude edit a listing, change a price or refund an order?</strong></summary>
+
+No. The connection carries read access and the connector exposes retrieval tools only. It does not edit listings, change prices, refund orders or message buyers.
+</details>
+
+<details>
+<summary><strong>Which shops can Claude see?</strong></summary>
+
+Only the shop the authorizing account owns or can access. Connect each shop separately when you run more than one, so each answer stays scoped to the store you asked about.
+</details>
+
+<details>
+<summary><strong>What is retained after a query?</strong></summary>
+
+Direct MCP retrieval does not retain raw customer files or full connector response payloads. Operational query logs keep query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
+</details>
+
+---
+
+**Next steps:** [Connect Etsy to Claude now](https://www.corpusiq.io/connectors)
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
 
 ---
 # How to Connect Gmail to ChatGPT with CorpusIQ MCP
@@ -17914,6 +18236,7 @@ Direct MCP retrieval does not retain raw customer files or full connector respon
 
 - [OneDrive connector reference](connectors/onedrive.md) - what the connection can see and how the Microsoft consent flow works
 - [Connect OneDrive to Perplexity](connect-onedrive-to-perplexity.md) - the same document questions, asked from Perplexity
+- [Connect OneDrive to Claude](connect-onedrive-to-claude.md) - the same file questions in Claude Desktop
 - [Connect Google Drive to ChatGPT](connect-google-drive-to-chatgpt.md) - the same questions against the other file store
 - [Connect SharePoint to ChatGPT](connect-sharepoint-to-chatgpt.md) - the team document libraries beside the personal store
 - [Connect Outlook to ChatGPT](connect-outlook-to-chatgpt.md) - the mailbox that usually shares the same Microsoft connection
@@ -17922,6 +18245,162 @@ Direct MCP retrieval does not retain raw customer files or full connector respon
 - [How to Connect Business Data to ChatGPT](how-to-connect-business-data-to-chatgpt.md) - the general setup
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+
+---
+# How to Connect OneDrive to Claude with CorpusIQ MCP
+URL: https://www.corpusiq.io/docs/connect-onedrive-to-claude
+
+
+# How to Connect OneDrive to Claude with CorpusIQ MCP
+
+Contracts, spreadsheets, board decks, the prior report you wrote three months ago. It is all in OneDrive, and OneDrive will find a file if you remember the name it was given.
+
+The questions that matter are the other kind. What the renewal clause says. Which pricing sheet is current. What changed since the last review. Connecting OneDrive to Claude through CorpusIQ MCP makes those answerable in the conversation, read-only, with the file named in the answer.
+
+### Why Connect OneDrive to Claude?
+
+Document search answers a filename question. The work asks a content question, and the file is the place the answer happens to live.
+
+- **Read the clause, not just find the file.** "Search OneDrive for any contract with Acme Corp and read the payment terms." Claude lists the file and reads the text inside it.
+- **Current versus stale.** "What does the latest pricing spreadsheet say?" One answer instead of opening three versions and guessing which is live.
+- **What changed.** "Which spreadsheets were edited since the first of the month?" and "show me files I opened recently" map the work that moved.
+- **Account state.** "How much OneDrive storage am I using, and which files have been shared with me?" Useful before a cleanup, not after.
+- **Cross-source context.** Put a contract in OneDrive beside the invoice in QuickBooks or the charge in Stripe, in the same conversation, so the document and the system agree.
+- **Fewer hands on the keyboard.** The alternative is download, attach, and ask again in a fresh thread. This is the question asked where the answer is needed.
+
+### How It Works
+
+1. **Connect OneDrive to CorpusIQ.** Authorize read-only access with your Microsoft 365 work or personal account. If you already connected Outlook, OneDrive may already be authorized under the same Microsoft connection.
+2. **Connect CorpusIQ to Claude** as an MCP server, using the config block from your CorpusIQ account settings.
+3. **CorpusIQ translates** your question into OneDrive file searches and reads, and retrieves the file listing or the file content you asked about.
+4. **Claude answers** from that retrieved content, with the file it used named in the answer.
+
+CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
+
+### Setup Steps
+
+**In CorpusIQ**
+
+1. Log in and open **Connectors**.
+2. Select **OneDrive** (or the Microsoft 365 card, if your account groups them).
+3. Sign in with your Microsoft account and accept the permissions shown on the consent screen.
+4. Copy the MCP config block shown under **Settings, Integrations, Claude Desktop**.
+
+**In Claude Desktop**
+
+5. Open **Settings, Developer, Edit Config**. This opens `claude_desktop_config.json`.
+6. Add the CorpusIQ entry:
+
+```json
+{
+  "mcpServers": {
+    "corpusiq": {
+      "command": "npx",
+      "args": [
+        "-y", "mcp-remote",
+        "https://mcp2.corpusiq.io/mcp"
+      ]
+    }
+  }
+}
+```
+
+7. Save the file and fully quit Claude Desktop. Not just the window: quit the application.
+8. Reopen Claude, complete the device login when prompted, and the tools indicator appears next to the message box.
+
+If the tools indicator does not appear, work through [Claude can't see CorpusIQ](troubleshooting/claude-cant-see-corpusiq.md) before changing anything else.
+
+### Example Claude Questions
+
+**Find and read**
+
+- "Find my OneDrive file about the Q3 board meeting."
+- "Search OneDrive for any contract with Acme Corp and read the payment terms."
+- "What does the latest pricing spreadsheet say?"
+
+**Change over time**
+
+- "Show me files I opened recently."
+- "Which spreadsheets were edited since the first of the month?"
+
+**Account state**
+
+- "How much OneDrive storage am I using?"
+- "Which files have been shared with me?"
+
+**Cross-source**
+
+- "Compare the invoice totals in OneDrive against the bills in QuickBooks." (requires the QuickBooks connector)
+- "Does the renewal date in the vendor contract match the next invoice date in Stripe?" (requires the Stripe connector)
+
+### Security
+
+- **Read-only by permission.** The connection requests read access to your file list, folder structure, and the contents of files you ask it to read. There is no path for Claude to edit, delete or share a file.
+- **Enforced in two places.** The Microsoft consent scopes and the MCP tool set both refuse writes, so a write attempt fails rather than silently succeeding.
+- **Revocable at any time.** Removing the CorpusIQ application in your Microsoft account, or disconnecting OneDrive in the CorpusIQ dashboard, ends the connection immediately.
+- **Scoped direct-MCP retention.** Direct MCP retrieval is read-only. Raw customer files and full connector payloads are not retained. Operational logs keep query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
+- **Tenant control.** If your Microsoft 365 admin restricts third-party applications, the connection stays blocked until the admin approves CorpusIQ for the tenant.
+- **TLS in transit** between OneDrive, CorpusIQ, and Claude.
+
+### Comparison: OneDrive Search vs OneDrive Through Claude
+
+| Aspect | OneDrive search and preview | CorpusIQ MCP with Claude |
+|---|---|---|
+| Input | A filename or a keyword | A question about the content |
+| Reading a document | Open, scroll, quote by hand | Claude reads it and answers |
+| Several documents | One at a time | Compared in one answer |
+| Mixing sources | Export and reconcile elsewhere | OneDrive plus QuickBooks, Stripe or email in one answer |
+| Write access | Yes, by you | None, read-only |
+
+OneDrive is the right tool when you know the file. Claude is the right tool when you know the question.
+
+### FAQ: Common Questions
+
+<details>
+<summary><strong>Can Claude edit, delete or share OneDrive files?</strong></summary>
+
+No. The connection carries read access and the connector exposes file listing and file read tools only. You read files inside Claude; anything that changes a file happens in OneDrive, by you.
+</details>
+
+<details>
+<summary><strong>Which file types can it read?</strong></summary>
+
+Word documents, Excel workbooks, PowerPoint decks, PDFs and plain text files. What gets read is the text embedded in the file.
+</details>
+
+<details>
+<summary><strong>It cannot find a file that exists in OneDrive.</strong></summary>
+
+Confirm the file lives in OneDrive rather than a SharePoint site or a Teams shared library. Those are different stores, and this connection reads the personal OneDrive store.
+</details>
+
+<details>
+<summary><strong>It says consent is required.</strong></summary>
+
+Your Microsoft 365 admin restricts third-party applications. Ask them to approve CorpusIQ for your tenant, then reconnect.
+</details>
+
+<details>
+<summary><strong>Permission denied on one specific file.</strong></summary>
+
+That file was shared with restricted access. Open it in OneDrive to confirm your own access, and the connector inherits the same boundary.
+</details>
+
+<details>
+<summary><strong>What is retained after a query?</strong></summary>
+
+Direct MCP retrieval does not retain raw customer files or full connector response payloads. Operational query logs keep query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
+</details>
+
+---
+
+**Next steps:** [Connect OneDrive to Claude now](https://www.corpusiq.io/connectors)
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
 
 ---
 # How to Connect OneDrive to Perplexity with CorpusIQ MCP
@@ -33039,16 +33518,6 @@ Marketing agencies can connect authorized Google Analytics, Meta Ads, and HubSpo
 # Security
 URL: https://www.corpusiq.io/docs/security
 
-
-title: "CorpusIQ Security Overview - Authentication, Encryption, and Read-Only Access"
-description: "CorpusIQ security overview: OAuth 2.0 authentication, operation-level permissions, encryption, audit logging, data handling, and security best practices."
-category: "Documentation"
-tags: ["corpusiq security overview", "authentication", "encryption", "read-only access", "oauth security", "data handling", "audit logging"]
-last_updated: "2026-08-12"
-canonical: "https://www.corpusiq.io/security"
-robots: "index,follow"
-
----
 # Security
 
 CorpusIQ is designed with security as a foundational requirement. External-source retrieval tools are marked read-only. Write-capable connector and CorpusIQ control-plane tools are separately named and carry behavior-matched safety annotations.
@@ -38195,6 +38664,7 @@ CorpusIQ never lists items, edits listings, refunds buyers, or moves funds.
 
 - [Connect eBay to ChatGPT](../connect-ebay-to-chatgpt.md) - GMV, fees, seller standards and funds on hold inside a ChatGPT thread.
 - [Connect eBay to Perplexity](../connect-ebay-to-perplexity.md) - the same figures inside a Perplexity thread, with the connector-wide next step.
+- [Connect eBay to Claude](../connect-ebay-to-claude.md) - the same GMV, fee and seller-standard questions inside Claude Desktop.
 - [Connect Etsy to ChatGPT](../connect-etsy-to-chatgpt.md) - the handmade marketplace beside the general one.
 - [Connect Amazon Seller to ChatGPT](../connect-amazon-seller-to-chatgpt.md) - the third channel in the same answer.
 
@@ -38252,6 +38722,7 @@ Read-only. CorpusIQ does not edit listings, change prices, refund orders, or mes
 ## See also
 
 - [Connect Etsy to ChatGPT](../connect-etsy-to-chatgpt.md) - listing performance, order trends and review themes inside a ChatGPT thread.
+- [Connect Etsy to Claude](../connect-etsy-to-claude.md) - the same listing, order and review questions inside Claude Desktop.
 - [Connect eBay to ChatGPT](../connect-ebay-to-chatgpt.md) - the marketplace numbers beside the handmade ones.
 - [Connect Shopify to ChatGPT](../connect-shopify-to-chatgpt.md) - the store you run on your own domain.
 
@@ -39762,6 +40233,7 @@ Read-only. CorpusIQ never edits, deletes, or shares your files.
 
 - [Connect OneDrive to ChatGPT](../connect-onedrive-to-chatgpt.md) - contracts, decks and spreadsheets read from your Microsoft file store inside a ChatGPT thread.
 - [Connect OneDrive to Perplexity](../connect-onedrive-to-perplexity.md) - the same document questions inside a Perplexity thread.
+- [Connect OneDrive to Claude](../connect-onedrive-to-claude.md) - contracts, decks and spreadsheets read inside Claude Desktop.
 - [Connect SharePoint to ChatGPT](../connect-sharepoint-to-chatgpt.md) - the team document libraries beside the personal store.
 - [Connect Google Drive to ChatGPT](../connect-google-drive-to-chatgpt.md) - the other file store, same questions.
 

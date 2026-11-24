@@ -49,6 +49,7 @@ Read-only. CorpusIQ does not edit listings, change prices, refund orders, or mes
 ## See also
 
 - [Connect Etsy to ChatGPT](../connect-etsy-to-chatgpt.md) - listing performance, order trends and review themes inside a ChatGPT thread.
+- [Connect Etsy to Claude](../connect-etsy-to-claude.md) - the same listing, order and review questions inside Claude Desktop.
 - [Connect eBay to ChatGPT](../connect-ebay-to-chatgpt.md) - the marketplace numbers beside the handmade ones.
 - [Connect Shopify to ChatGPT](../connect-shopify-to-chatgpt.md) - the store you run on your own domain.
 

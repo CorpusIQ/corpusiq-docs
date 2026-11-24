@@ -96,6 +96,7 @@ Direct MCP retrieval does not retain raw customer files or full connector respon
 
 - [Etsy connector reference](connectors/etsy.md) - what the connection can see and the shop-scoping rules
 - [Connect eBay to ChatGPT](connect-ebay-to-chatgpt.md) - the marketplace numbers beside the handmade ones
+- [Connect Etsy to Claude](connect-etsy-to-claude.md) - the same listing and review questions in Claude Desktop
 - [Connect Amazon Seller to ChatGPT](connect-amazon-seller-to-chatgpt.md) - the third channel in the same answer
 - [Connect Shopify to ChatGPT](connect-shopify-to-chatgpt.md) - the store you run on your own domain
 - [Connect Stripe to ChatGPT](connect-stripe-to-chatgpt.md) - payouts and fees against the order totals

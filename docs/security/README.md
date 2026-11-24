@@ -3,20 +3,9 @@ description: "CorpusIQ security: read-only access to connected tools, AES-256 en
 
 canonical: "https://www.corpusiq.io/security/"
 robots: "index,follow"
-last_updated: "2026-11-19"
+last_updated: "2026-11-24"
 title: "CorpusIQ Security and Compliance"
 tags: ["hermes agent", "ai agent", "documentation"]
-
----
-
-title: "CorpusIQ Security Overview - Authentication, Encryption, and Read-Only Access"
-description: "CorpusIQ security overview: OAuth 2.0 authentication, operation-level permissions, encryption, audit logging, data handling, and security best practices."
-category: "Documentation"
-tags: ["corpusiq security overview", "authentication", "encryption", "read-only access", "oauth security", "data handling", "audit logging"]
-last_updated: "2026-08-12"
-canonical: "https://www.corpusiq.io/security"
-robots: "index,follow"
-
 ---
 # Security
 
