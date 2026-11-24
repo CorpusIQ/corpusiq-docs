@@ -3,7 +3,7 @@ title: "Hermes Backup and Restore - Native Commands and Snapshots"
 description: Use hermes backup for a full zip archive or a quick state snapshot, then restore with hermes import or /snapshot restore. What is included and excluded.
 category: setup
 tags: [hermes-agent, backup, restore, snapshot, disaster-recovery, state, cron]
-last_updated: 2026-11-07
+last_updated: 2026-11-23
 canonical: "https://www.corpusiq.io/docs/hermes/setup/backup-and-restore/"
 robots: "index,follow"
 
@@ -72,6 +72,7 @@ Files, config, and the databases that hold state you cannot regenerate:
 - `config.yaml`, `.env`, `auth.json`
 - `cron/jobs.json` and `cron/executions.db`
 - `gateway_state.json`, `channel_directory.json`, `channel_aliases.json`, `processes.json`
+- `gateway/discord_message_recovery.db`, the Discord reconnect replay ledger
 - `kanban.db` and `kanban/boards` (non-default boards; workspace attachments are skipped as regenerable)
 - Pairing stores, including platform-specific pairing JSON files
 

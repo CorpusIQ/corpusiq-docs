@@ -3,7 +3,7 @@ title: "CorpusIQ MCP Troubleshooting - CorpusIQ Docs"
 description: "Common troubleshooting steps for CorpusIQ MCP with Hermes Agent - token expiry, mcpServer errors, OAuth device links, rate limits, and fork restrictions."
 canonical: "https://www.corpusiq.io/docs/hermes/troubleshooting/corpusiq/"
 robots: "index,follow"
-last_updated: "2026-11-07"
+last_updated: 2026-11-23
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---
@@ -103,7 +103,7 @@ Run `hermes mcp list` to verify it's registered, and `hermes mcp test corpusiq` 
 
 **Fix:** 
 1. Check current rate: `curl -H "Authorization: token YOUR_TOKEN" https://api.github.com/rate_limit`
-2. Rate limit resets at the top of each hour
+2. The hourly window resets 60 minutes after its first request, not on the clock; the exact moment is in the `x-ratelimit-reset` header (UTC epoch seconds)
 3. Use authenticated requests - unauthenticated gets 60/hr, authenticated gets 5,000/hr
 
 ## Fork restriction (403 on fork)
