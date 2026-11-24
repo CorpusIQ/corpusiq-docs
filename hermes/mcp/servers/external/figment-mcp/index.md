@@ -1,6 +1,6 @@
 ---
 title: "Figment MCP - A Mac Rented by the Hour, Ordered by an Agent"
-description: "Eight keyless tools that let an assistant rent real macOS by the minute: three plans priced in cents, a Stripe link the human pays, and a stop call that ends billing."
+description: "Eight keyless tools that let an assistant rent macOS by the minute: three plans priced in cents, a Stripe link a human pays, and a stop call that ends the bill."
 category: "DevOps"
 stars: "n/a (vendor-hosted; no public repository)"
 added: 2026-11-24

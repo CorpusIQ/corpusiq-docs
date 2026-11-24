@@ -1,6 +1,6 @@
 ---
 title: "Persado MCP - Score Marketing Copy Before You Send"
-description: "An enterprise language model behind a complete OAuth chain: a 0-100 predicted-response score, ranked rewrites with predicted lift, and brand voice on Enterprise."
+description: "An enterprise language model behind a complete OAuth chain: a 0-100 predicted-response score, ranked rewrites with predicted lift, brand voice on Enterprise."
 category: "Marketing"
 stars: "n/a (vendor-hosted; no public repository)"
 added: 2026-11-24

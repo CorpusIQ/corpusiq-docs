@@ -1,6 +1,6 @@
 ---
 title: "ZeroBounce MCP - Email Validation Inside the Assistant"
-description: "The official ZeroBounce server: validate one address or two hundred, score engagement, clean a CSV, run inbox placement, with credit spends and destroys flagged."
+description: "The official ZeroBounce server: validate one address or two hundred, score engagement, clean a CSV, run inbox placement, with spends and destroys flagged."
 category: "Communication & Email"
 stars: "n/a (official vendor server; open-source client at github.com/zerobounce/zerobounce-mcp)"
 added: 2026-11-24
