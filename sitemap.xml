@@ -1258,7 +1258,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes</loc>
-         <lastmod>2026-11-19</lastmod>
+         <lastmod>2026-11-24</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/agent-marketplace</loc>
@@ -1454,7 +1454,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/changelog</loc>
-         <lastmod>2026-11-19</lastmod>
+         <lastmod>2026-11-24</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/changelog/v0.10.0</loc>
@@ -1627,6 +1627,10 @@
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/changelog/v0.23.3</loc>
          <lastmod>2026-11-19</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/changelog/v0.23.4</loc>
+         <lastmod>2026-11-24</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/changelog/v0.3.0</loc>
