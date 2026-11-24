@@ -3,7 +3,7 @@ title: Connect eBay to ChatGPT via MCP
 description: "Connect eBay to ChatGPT through CorpusIQ MCP. Ask about GMV, seller standards and funds on hold in the same thread as the rest of your numbers."
 category: ChatGPT Integrations
 tags: ["connect eBay to ChatGPT", "eBay MCP", "eBay ChatGPT integration", "ask ChatGPT about eBay sales", "eBay seller analytics", "CorpusIQ MCP"]
-last_updated: "2026-11-21"
+last_updated: "2026-11-23"
 canonical: "https://www.corpusiq.io/docs/connect-ebay-to-chatgpt"
 robots: "index,follow"
 ---
