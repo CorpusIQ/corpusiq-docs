@@ -242,7 +242,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connect-ebay-to-chatgpt</loc>
-         <lastmod>2026-11-21</lastmod>
+         <lastmod>2026-11-23</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connect-ebay-to-perplexity</loc>
@@ -466,7 +466,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connect-onedrive-to-chatgpt</loc>
-         <lastmod>2026-11-21</lastmod>
+         <lastmod>2026-11-23</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connect-onedrive-to-perplexity</loc>
@@ -854,7 +854,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/perplexity-integration</loc>
-         <lastmod>2026-11-20</lastmod>
+         <lastmod>2026-11-23</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/quick-start</loc>
@@ -1082,7 +1082,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connectors/ebay</loc>
-         <lastmod>2026-11-21</lastmod>
+         <lastmod>2026-11-23</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connectors/etsy</loc>
@@ -1174,7 +1174,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connectors/onedrive</loc>
-         <lastmod>2026-11-21</lastmod>
+         <lastmod>2026-11-23</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connectors/outlook</loc>
@@ -1402,7 +1402,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/best-practices/local-coding-agent</loc>
-         <lastmod>2026-11-07</lastmod>
+         <lastmod>2026-11-23</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/best-practices/mcp-design</loc>
@@ -3263,6 +3263,10 @@
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/bounce-watch-mcp</loc>
          <lastmod>2026-11-19</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/boxtrack-mcp</loc>
+         <lastmod>2026-11-23</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/breakreach-mcp</loc>
@@ -6877,6 +6881,18 @@
          <lastmod>2026-11-19</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/steadyscrape-ads-intel-mcp</loc>
+         <lastmod>2026-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/steadyscrape-local-leads-mcp</loc>
+         <lastmod>2026-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/steadyscrape-seo-mcp</loc>
+         <lastmod>2026-11-23</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/stock-market-mcp-server</loc>
          <lastmod>2026-11-01</lastmod>
     </url>
@@ -8221,6 +8237,10 @@
          <lastmod>2026-11-22</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-november23-2026-evening</loc>
+         <lastmod>2026-11-23</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-november23-2026-midday-supplement</loc>
          <lastmod>2026-11-23</lastmod>
     </url>
@@ -9146,7 +9166,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/setup/backup-and-restore</loc>
-         <lastmod>2026-11-07</lastmod>
+         <lastmod>2026-11-23</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/setup/cloud-vps</loc>
@@ -15702,7 +15722,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/troubleshooting/corpusiq</loc>
-         <lastmod>2026-11-07</lastmod>
+         <lastmod>2026-11-23</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/how-it-works</loc>
