@@ -3,7 +3,7 @@ title: "Hermes Agent Changelog - CorpusIQ Docs"
 description: "Version history and release notes for NousResearch Hermes Agent. Track new features, breaking changes, and upgrades"
 canonical: "https://www.corpusiq.io/docs/hermes/changelog/"
 robots: "index,follow"
-last_updated: "2026-11-19"
+last_updated: "2026-11-24"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---
@@ -16,6 +16,7 @@ Track every Hermes Agent release. New versions are auto-detected and documented 
 
 | Version | Date | Name | Highlights |
 |---------|------|------|------------|
+| [v0.23.4](/hermes/changelog/v0.23.4) | November 23, 2026 | Patch Release | Patch release. This tag rolls up the ~229 PRs merged since v0.23.3 into a stable release for the GitHub release (CLI and installers), the Microsoft Store app, Docker and Hermes Cloud. Full curated notes for this window ship with v0.24.0. |
 | [v0.23.3](/hermes/changelog/v0.23.3) | November 19, 2026 | Patch Release | Patch release. This tag rolls up the ~370 PRs merged since v0.23.2 into a stable release for the GitHub release (CLI and installers), the Microsoft Store app, Docker and Hermes Cloud. Full curated notes for this window ship with v0.24.0. |
 | [v0.23.2](/hermes/changelog/v0.23.2) | November 16, 2026 | Patch Release | Patch release. This tag rolls up the ~1,989 PRs merged since v0.23.1 into a stable release for the GitHub release (CLI and installers), the Microsoft Store app, Docker and Hermes Cloud. Full curated notes for this window ship with v0.24.0. |
 | [v0.23.1](/hermes/changelog/v0.23.1) | November 9, 2026 | Patch Release | Patch release. This tag rolls up the ~618 PRs merged since v0.23.0 into a stable release for the GitHub release (CLI and installers), the Microsoft Store app, Docker and Hermes Cloud. Full curated notes for... |
@@ -85,7 +86,7 @@ When a new release is detected, a changelog page is generated, committed to `Cor
 
 ### What is the latest Hermes Agent version?
 
-v0.23.3, published November 19, 2026. See the release notes for the full changes.
+v0.23.4, published November 23, 2026. See the release notes for the full changes.
 
 ### How often is the Hermes changelog updated?
 
@@ -105,7 +106,7 @@ Run `hermes update` from the terminal, or install fresh with the official instal
       "name": "What is the latest Hermes Agent version?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "v0.23.3, published November 19, 2026. See the release notes for the full changes."
+        "text": "v0.23.4, published November 23, 2026. See the release notes for the full changes."
       }
     },
     {
