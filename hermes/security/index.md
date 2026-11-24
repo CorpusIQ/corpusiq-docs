@@ -27,6 +27,9 @@ QuickBooks, or any other connected system.
   complete answer to the questions customers ask most: can CorpusIQ
   change anything in my systems? Does it retain my data? Can it act
   like an AI agent? The answer to all three is no.
+- [What an Agent May Do at CorpusIQ](what-an-agent-may-do) - the tool
+  catalog reviewed: 105 tools read business data, 16 change state, and
+  all 16 change only your CorpusIQ workspace.
 
 ## Related
 
