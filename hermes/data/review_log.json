@@ -23953,5 +23953,110 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-11-23T11:33:24.318906+00:00"
+  },
+  {
+    "repo": "LLM-4-People/hermes-mobile",
+    "score": 56,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-24T11:33:17.932142+00:00"
+  },
+  {
+    "repo": "ironwill-cpu/hermes-autonomous-trader",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-24T11:33:17.932155+00:00"
+  },
+  {
+    "repo": "ivanbayuf/markdown-memory-hermes",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-24T11:33:17.932158+00:00"
+  },
+  {
+    "repo": "galElmalah/hermes",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-24T11:33:17.932160+00:00"
+  },
+  {
+    "repo": "quotumorg/rh-preflight",
+    "score": 61,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-24T11:33:17.932163+00:00"
+  },
+  {
+    "repo": "raitoxlol/teresis",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-24T11:33:17.932164+00:00"
+  },
+  {
+    "repo": "Davincc77/mechacut-plugin",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-24T11:33:17.932167+00:00"
+  },
+  {
+    "repo": "mojomast/uirizz",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-24T11:33:17.932168+00:00"
+  },
+  {
+    "repo": "antimeme-ai/multiplayer-plugins",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-24T11:33:17.932170+00:00"
+  },
+  {
+    "repo": "meetstream-ai/meetstream-plugin",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-24T11:33:17.932173+00:00"
+  },
+  {
+    "repo": "ChefTaco/hive",
+    "score": 39,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-24T11:33:17.932174+00:00"
+  },
+  {
+    "repo": "shuaigeyuan/hermes-agent",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-24T11:33:17.932176+00:00"
+  },
+  {
+    "repo": "yve36/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-24T11:33:17.932178+00:00"
+  },
+  {
+    "repo": "i89489627/hermes-v2-fork",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-24T11:33:17.932180+00:00"
+  },
+  {
+    "repo": "yamingmou/session-tape",
+    "score": 37,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-24T11:33:17.932182+00:00"
   }
 ]
