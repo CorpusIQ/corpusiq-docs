@@ -41,6 +41,16 @@ RECENT_DAYS = 21
 MARKET_DIR = os.path.join("hermes", "skills", "marketplace")
 INDEX_REL = os.path.join(MARKET_DIR, "index.md")
 LINK_RE = re.compile(r"/hermes/skills/marketplace/(new-[a-z0-9-]+)")
+# A slug that sits inside real markdown link syntax. The index entries carry very
+# long link texts (a batch's whole cluster list), so a stray ``]`` in that text is
+# easy to ship and it silently breaks the anchor: the entry renders as plain text
+# with visible square brackets and the batch page becomes unreachable while the
+# naive substring check above still counts it as linked.
+PROPER_LINK_RE = re.compile(
+    r"\[(?:[^\[\]]|\[[^\[\]]*\])*\]\(/hermes/skills/marketplace/(new-[a-z0-9-]+)"
+)
+CODE_SPAN_RE = re.compile(r"`[^`]*`")
+
 SLUG_RE = re.compile(r"^new-([a-z]+)(\d{1,2})?(?:-(\d{1,2}))?-(\d{4})")
 STAMP_RE = re.compile(r"^last_updated:\s*\"?(\d{4}-\d{2}-\d{2})", re.MULTILINE)
 
@@ -113,7 +123,9 @@ def check(root: str, recent_days: int = RECENT_DAYS) -> tuple[list[str], list[st
         return [f"missing marketplace index: {INDEX_REL}"], notes
 
     index_text = read(index_path)
-    linked = set(LINK_RE.findall(index_text))
+    prose = CODE_SPAN_RE.sub("", index_text)
+    linked = set(LINK_RE.findall(prose))
+    well_formed = set(PROPER_LINK_RE.findall(prose))
     pages = batch_pages(root)
 
     if not pages:
@@ -139,6 +151,13 @@ def check(root: str, recent_days: int = RECENT_DAYS) -> tuple[list[str], list[st
                 f"dangling sweep link: {INDEX_REL} links /hermes/skills/marketplace/{slug} "
                 f"but no batch page carries that slug"
             )
+
+    for slug in sorted(linked - well_formed):
+        errors.append(
+            f"malformed sweep link: {INDEX_REL} names /hermes/skills/marketplace/{slug} "
+            f"outside a well-formed markdown link, so the entry renders as plain text and the "
+            f"page cannot be reached from the index - remove the stray bracket in the link text"
+        )
 
     notes.append(
         f"checked {len(pages)} batch pages, {len(linked)} index links, "

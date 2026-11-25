@@ -7,7 +7,7 @@ last_updated: "2026-11-25"
 
 # MCP Server Discovery - November 25, 2026 (Midday Supplement)
 
-Fired on the **11:00 MST** tick, **47 minutes** after the [midday sweep](/hermes/mcp/sweeps/sweep-november25-2026-midday/) closed its capture at **17:13Z**, so this pass owns only the delta inside that hour. The directory did not move at all, the feed's only new card was not a server, and the submission queue carried **three** filings, of which **two** were keyless enough to drive end to end and are catalogued below.
+Fired on the **11:00 MST** tick, **47 minutes** after the [midday sweep](/hermes/mcp/sweeps/sweep-november25-2026-midday) closed its capture at **17:13Z**, so this pass owns only the delta inside that hour. The directory did not move at all, the feed's only new card was not a server, and the submission queue carried **three** filings, of which **two** were keyless enough to drive end to end and are catalogued below.
 
 ## The window, measured
 
