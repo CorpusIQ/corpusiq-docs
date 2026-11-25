@@ -1,7 +1,7 @@
 ---
 title: "The Harness Wars - Why AI Infrastructure Will Define"
 description: "Setup and usage guide for The Harness Wars - Why AI Infrastructure Will Define the Next Two Years. Part of the Hermes resource directory."
-last_updated: 2026-11-01
+last_updated: "2026-11-25"
 canonical: "https://www.corpusiq.io/docs/hermes/architecture/harness-wars-ai-infrastructure/"
 robots: "index,follow"
 tags: ["hermes agent", "ai agent", "nous research"]
@@ -18,9 +18,9 @@ That era is ending. The harness wars are beginning.
 
 Three things happened in 2026 that shifted the competitive landscape:
 
-**First, the evidence became undeniable.** Stanford proved you can beat frontier models by optimizing the harness around a frozen model. HuggingFace proved it on legal benchmarks. Independent researchers proved it on coding benchmarks. The model stopped being the differentiator. The scaffold became the differentiator.
+**First, the evidence became undeniable.** Stanford researchers evolved the harness around a frozen model and moved task success from 9.7% to 43.3% on unseen scenes without changing a single weight. HuggingFace did the same on Harvey's Legal Agent Benchmark: a frozen DeepSeek-V4-Pro went from 0% to 5.0% whole-task success and from 63.4% to 80.1% criterion pass rate, landing between Sonnet 4.6 and Opus 4.6 with zero weights changed. Independent researchers reproduced the result on coding benchmarks. The model stopped being the differentiator. The scaffold became the differentiator.
 
-**Second, MCP went stateless.** The July 2026 MCP specification (protocol version 2026-07-28) removed sessions, handshakes, and persistent connections. Any HTTP server can now serve MCP. Any load balancer can distribute MCP requests. The infrastructure barrier collapsed. What remains is the quality of the harness: the tools, the context, the memory, the validation.
+**Second, MCP went stateless.** The July 2026 MCP specification (protocol version 2026-07-28) removed protocol-level sessions, the `initialize` handshake, and the `Mcp-Session-Id` header. Any HTTP server can now serve MCP. Any load balancer can distribute MCP requests. The infrastructure barrier collapsed. What remains is the quality of the harness: the tools, the context, the memory, the validation.
 
 **Third, businesses started asking the hard question.** If ChatGPT can write legal briefs and code entire applications, why can it not tell me my current revenue? The answer is not the model. The answer is the harness. The data pipeline does not exist. The connectors are missing. The metric definitions are undefined.
 
