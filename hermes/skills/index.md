@@ -3,7 +3,7 @@ title: "Hermes Skills - CorpusIQ Docs"
 description: 445+ skills for Hermes agents - 90 native CorpusIQ skills, 350+ marketplace skills from skills.sh. Reusable, executable agent capabilities.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/"
 robots: "index,follow"
-last_updated: "2026-11-07"
+last_updated: "2026-11-24"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---
@@ -147,21 +147,21 @@ The skill is now available for any Hermes session in your profile. Invoke it by 
 
 The Hermes community hub includes a curated [Skills Marketplace](/hermes/skills/marketplace) with 290+ community-contributed skills. New skills are discovered through automated sweeps of skills.sh and added weekly. Browse by category, check install counts to see what's trending, and submit your own skills for inclusion.
 
-### Trending This Week
+### Latest Marketplace Sweeps
 
-[🆕 July 4, 2026 - agent-sessions (683⭐) + Hermes ArXiv Agent + 22 more →](/hermes/skills/marketplace/new-july4-2026)
+[🆕 October 31, 2026 (Morning) - 16 publisher guides, 536.1K combined installs →](/hermes/skills/marketplace/new-oct31-2026-morning-skills)
 
-[🆕 July 4, 2026 (Update) - hermes-top Dashboard + Neo Theme + Backup + AGEL-Comp →](/hermes/skills/marketplace/new-july4-2026-update)
+[🆕 October 31, 2026 (Evening) - 16 publisher guides, 332.0K combined installs →](/hermes/skills/marketplace/new-oct31-2026-evening-skills)
 
-[🆕 July 3, 2026 - Hermex iPhone App (286⭐) + 6 more tools →](/hermes/skills/marketplace/new-july3-2026)
+[🆕 October 9, 2026 (Evening) - Baoyu Skills (594.5K installs) plus 5 more publisher guides →](/hermes/skills/marketplace/new-oct9-2026-evening-skills)
 
-[🆕 July 3, 2026 (Update) - Hybrid Memory Plugin, MoA Synthesis + 4 more →](/hermes/skills/marketplace/new-july3-2026-update)
+[🆕 October 9, 2026 (Morning) - Modern Web Guidance, the official Google Chrome web best-practices skills →](/hermes/skills/marketplace/new-oct9-2026-skills)
 
 ### Recent Discoveries
 
-- [July 4, 2026 - agent-sessions (683⭐) + 22 more repos](/hermes/skills/marketplace/new-july4-2026)
-- [July 1, 2026 - Official Hermes Gap Sweep (49 skills)](/hermes/skills/marketplace/new-july1-2026)
-- [June 15, 2026 - Nous Research Expansion (23 skills)](/hermes/skills/marketplace/new-june15-2026)
+- [October 8, 2026 (Evening) - Limrun Skills, TypeSafe AI Skills, Yomiyasu and Proseify](/hermes/skills/marketplace/new-oct8-2026-evening-skills)
+- [October 7, 2026 (Evening) - Callstack Agent Skills, the official React Native suite (~80.7K installs)](/hermes/skills/marketplace/new-oct7-2026-evening-skills)
+- [October 5, 2026 (Evening) - Goldsky Agent Skills, 19 official blockchain pipeline skills](/hermes/skills/marketplace/new-oct5-2026-evening-skills)
 
 ## FAQ
 

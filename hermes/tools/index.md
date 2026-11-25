@@ -3,7 +3,7 @@ title: "Hermes Tools & SDK Reference - CorpusIQ Docs"
 description: "Complete directory of 140+ tools and SDKs compatible with Hermes Agent - browsers, search, code execution, media, deployment, and more"
 canonical: "https://www.corpusiq.io/docs/hermes/tools/"
 robots: "index,follow"
-last_updated: "2026-11-09"
+last_updated: "2026-11-24"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---
@@ -43,9 +43,9 @@ tags: ["hermes agent", "ai agent", "nous research"]
 
 | Tool | Stars | Description | Hermes Integration |
 |------|-------|-------------|-------------------|
-| [browser-use](https://github.com/browser-use/browser-use) | 120K | AI-powered browser automation | Native Hermes tool |
+| [browser-use](https://github.com/browser-use/browser-use) | 122K | AI-powered browser automation | Native Hermes tool |
 | [Playwright](https://playwright.dev) | 100K | Cross-browser automation | Via terminal + Python |
-| [patchright](https://github.com/Kaliiiiiiiiii-Vinyzu/patchright) | 5.1K | Undetected Playwright - bypasses Cloudflare, DataDome | Via Mac Mini worker |
+| [patchright](https://github.com/Kaliiiiiiiiii-Vinyzu/patchright) | 5.2K | Undetected Playwright - bypasses Cloudflare, DataDome | Via Mac Mini worker |
 | deepcloak | - | Anti-bot bypass for Cloudflare, Turnstile | Standalone service |
 | camofox | - | Camoufox stealth browser REST API | HTTP API from Hermes |
 | [Selenium](https://www.selenium.dev) | 35K | Legacy browser automation | Via terminal |
@@ -57,9 +57,9 @@ tags: ["hermes agent", "ai agent", "nous research"]
 | Tool | Stars | Description | Hermes Integration |
 |------|-------|-------------|-------------------|
 | [Firecrawl](https://www.firecrawl.dev) | - | Web scraping + search API | Native Hermes tool (Nous subscription) |
-| [Kindly Web Search MCP](https://github.com/Shelpuk-AI-Technology-Consulting/kindly-web-search-mcp-server) | 403 | Web search MCP server | MCP `hermes mcp add kindly-search` |
+| [Kindly Web Search MCP](https://github.com/Shelpuk-AI-Technology-Consulting/kindly-web-search-mcp-server) | 406 | Web search MCP server | MCP `hermes mcp add kindly-search` |
 | [Kagi Search MCP](https://github.com/KSroido/Kagi-Session2API-MCP) | 44 | Free Kagi search via session tokens | MCP |
-| [SearXNG](https://github.com/searxng/searxng) | 39K | Privacy-respecting metasearch | Configure as web provider |
+| [SearXNG](https://github.com/searxng/searxng) | 40K | Privacy-respecting metasearch | Configure as web provider |
 | [Tavily](https://tavily.com) | - | AI-optimized search API | Web provider |
 | [Brave Search](https://brave.com/search/api/) | - | Privacy-first search API | Web provider |
 | [DuckDuckGo](https://duckduckgo.com) | - | Free web search | Web provider (ddgs) |
@@ -105,11 +105,11 @@ Hermes supports these model providers natively:
 | Google | gemini-4-argon, gemini-3.8-flash, gemini-3.1-pro-preview | Multimodal |
 | Ollama | Local models (Llama, Mistral, etc.) | Privacy, free inference |
 | AWS Bedrock | Claude, GPT-6, Llama 4, Nova | Enterprise |
-| OpenRouter | 75 models in the published catalog | Model flexibility |
+| OpenRouter | 82 models in the published catalog | Model flexibility |
 | MiniMax | MiniMax-M3 | Alternative provider |
 | Z.ai | glm-5.3, glm-5.2 | Alternative provider |
 
-Model IDs verified against the live Hermes model catalog ([model-catalog.json](https://hermes-agent.nousresearch.com/docs/api/model-catalog.json), updated 2026-11-09); star counts on this page were re-checked against the GitHub API the same day.
+Model IDs verified against the live Hermes model catalog ([model-catalog.json](https://hermes-agent.nousresearch.com/docs/api/model-catalog.json), updated 2026-11-23); star counts on this page were re-checked against the GitHub API on 2026-11-24.
 
 ---
 
@@ -120,12 +120,12 @@ Model IDs verified against the live Hermes model catalog ([model-catalog.json](h
 | System | Type | Setup | Stars |
 |--------|------|-------|-------|
 | [Honcho](https://mcp.honcho.dev) | Peer memory | 2 min | - |
-| [GBrain](https://github.com/garrytan/gbrain) | Organizational knowledge | 10 min | 32K |
+| [GBrain](https://github.com/garrytan/gbrain) | Organizational knowledge | 10 min | 34K |
 | [EverOS](https://github.com/EverMind-AI/EverOS) | Self-evolving memory | 5 min | 14K |
-| [claude-mem](https://github.com/thedotmack/claude-mem) | Persistent context | 5 min | 115K |
-| [mnemosyne](https://github.com/AxDSan/mnemosyne) | Sub-ms memory | 2 min | 3.6K |
-| [memtrace](https://github.com/syncable-dev/memtrace-public) | Structural memory | 10 min | 514 |
-| [YantrikDB](https://github.com/yantrikos/yantrikdb-hermes-plugin) | Self-maintaining DB | 5 min | 96 |
+| [claude-mem](https://github.com/thedotmack/claude-mem) | Persistent context | 5 min | 119K |
+| [mnemosyne](https://github.com/AxDSan/mnemosyne) | Sub-ms memory | 2 min | 3.7K |
+| [memtrace](https://github.com/syncable-dev/memtrace-public) | Structural memory | 10 min | 516 |
+| [YantrikDB](https://github.com/yantrikos/yantrikdb-hermes-plugin) | Self-maintaining DB | 5 min | 97 |
 | memcore-cloud | Cross-session context | 5 min | - |
 
 ---
@@ -184,7 +184,7 @@ Hermes connects to 20+ messaging platforms from one gateway. The most-used ones,
 
 | Tool | Description | Stars |
 |------|-------------|-------|
-| [Shellward](https://github.com/jnMetaCode/shellward) | 8-layer defense middleware | 138 |
+| [Shellward](https://github.com/jnMetaCode/shellward) | 8-layer defense middleware | 140 |
 | [Skillguard](https://github.com/buzzicra/skillguard) | Skill safety scanner | 7 |
 | [NemoClaw](https://github.com/NVIDIA/NemoClaw) | Hardware sandboxing | 23K |
 | SSL Guard | Built-in SSL/CA verification | Core |
