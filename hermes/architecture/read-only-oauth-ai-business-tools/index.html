@@ -107,8 +107,8 @@
     "description": "Read-only OAuth lets AI read your business data without write risk. How per-source tokens and scopes keep QuickBooks, Shopify and Stripe safe.",
     "url": "https://www.corpusiq.io/docs/hermes/architecture/read-only-oauth-ai-business-tools",
     
-    "datePublished": "2026-11-01",
-    "dateModified": "2026-11-01",
+    "datePublished": "2026-11-25",
+    "dateModified": "2026-11-25",
     
     "author": {
       "@type": "Organization",
@@ -132,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-11-01">
+  <meta name="last-updated" content="2026-11-25">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -184,7 +184,7 @@
   </script>
 
   
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Article", "TechArticle"], "headline": "Why AI Should Never Write to Your Business Tools", "url": "https://www.corpusiq.io/docs/hermes/architecture/read-only-oauth-ai-business-tools", "image": "https://www.corpusiq.io/og?title=Why%20AI%20Should%20Never%20Write%20to%20Your%20Business%20Tools&category=Docs", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.corpusiq.io/docs/hermes/architecture/read-only-oauth-ai-business-tools"}, "datePublished": "2026-11-01", "dateModified": "2026-11-01", "author": {"@id": "https://www.corpusiq.io#organization"}, "publisher": {"@id": "https://www.corpusiq.io#organization"}, "isPartOf": {"@id": "https://www.corpusiq.io#website"}, "inLanguage": "en-US", "description": "Read-only OAuth lets AI read your business data without write risk. How per-source tokens and scopes keep QuickBooks, Shopify and Stripe safe.", "articleSection": "Hermes"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Article", "TechArticle"], "headline": "Why AI Should Never Write to Your Business Tools", "url": "https://www.corpusiq.io/docs/hermes/architecture/read-only-oauth-ai-business-tools", "image": "https://www.corpusiq.io/og?title=Why%20AI%20Should%20Never%20Write%20to%20Your%20Business%20Tools&category=Docs", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.corpusiq.io/docs/hermes/architecture/read-only-oauth-ai-business-tools"}, "datePublished": "2026-11-01", "dateModified": "2026-11-25", "author": {"@id": "https://www.corpusiq.io#organization"}, "publisher": {"@id": "https://www.corpusiq.io#organization"}, "isPartOf": {"@id": "https://www.corpusiq.io#website"}, "inLanguage": "en-US", "description": "Read-only OAuth lets AI read your business data without write risk. How per-source tokens and scopes keep QuickBooks, Shopify and Stripe safe.", "articleSection": "Hermes"}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Docs", "item": "https://www.corpusiq.io/docs"}, {"@type": "ListItem", "position": 2, "name": "Hermes", "item": "https://www.corpusiq.io/docs/hermes"}, {"@type": "ListItem", "position": 3, "name": "Architecture", "item": "https://www.corpusiq.io/docs/hermes/architecture"}, {"@type": "ListItem", "position": 4, "name": "Why AI Should Never Write to Your Business Tools", "item": "https://www.corpusiq.io/docs/hermes/architecture/read-only-oauth-ai-business-tools"}]}</script>
 </head>
   
@@ -14163,14 +14163,14 @@
 <p><strong>Compliance violations</strong>: Modifying records in ways that break audit trails. Changing transactions after close periods. Altering data subject to regulatory retention requirements.</p>
 <p><strong>Security exposure</strong>: Write access is a broader attack surface. If an AI with write access is compromised, every tool it can write to is compromised.</p>
 <h2 id="how-read-only-external-source-retrieval-works">How Read-Only External-Source Retrieval Works<a class="headerlink" href="#how-read-only-external-source-retrieval-works" title="Anchor link to this section">&para;</a></h2>
-<p>Read-only OAuth gives AI permission to query data but blocks all write operations. The authorization flow is:</p>
+<p>Read-only external-source retrieval gives AI permission to query data but blocks all write operations. The authorization flow is:</p>
 <ol>
 <li>You log into your tool (Shopify, QuickBooks, Stripe, etc.)</li>
-<li>You grant read-only access to the AI connector</li>
-<li>The connector receives a token scoped to read-only operations</li>
-<li>Every API call uses this token - the tool's own security rejects any write attempt</li>
+<li>You grant access to the AI connector, at the narrowest scope the provider publishes</li>
+<li>The connector receives a token bound to that one platform and that one account</li>
+<li>Every retrieval call uses this token, and the connector issues only read calls against it</li>
 </ol>
-<p>Even if the AI tries to modify data, the tool itself blocks the operation. The boundary is enforced at the API level, not the AI level.</p>
+<p>Where the provider publishes a read-only scope, that scope is the wall. Google's <code>*.readonly</code> scopes for Analytics, Gmail, Drive and Sheets, Shopify's <code>read_</code> scopes, and Microsoft's <code>Files.Read.All</code> and <code>Sites.Read.All</code> scopes cannot write, so a write attempt is rejected by the platform. Where the provider publishes no read-only scope - QuickBooks Online grants a single read-write accounting scope, and Mailchimp governs access by user role rather than by scope - the boundary is held by the connector, which only issues read calls against that token. Either way the boundary sits below the model, and it is inspectable: the granted scope is listed in the platform's own consent screen and app settings.</p>
 <p>One distinction worth stating plainly: external retrieval is read-only, but some platforms also expose configuration or control-plane operations outside the retrieval path. Those operations change scoped platform state, so they are named and annotated separately instead of being folded into the read-only claim. Ask any provider to draw that line explicitly.</p>
 <h2 id="per-source-authentication">Per-Source Authentication<a class="headerlink" href="#per-source-authentication" title="Anchor link to this section">&para;</a></h2>
 <p>Each tool gets its own read-only external-source retrieval token. Shopify has one token. QuickBooks has another. Stripe has a third. No shared credentials. No master key.</p>
