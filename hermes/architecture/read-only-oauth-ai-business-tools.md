@@ -1,7 +1,7 @@
 ---
 title: "Why AI Should Never Write to Your Business Tools"
 description: "Read-only OAuth lets AI read your business data without write risk. How per-source tokens and scopes keep QuickBooks, Shopify and Stripe safe."
-last_updated: "2026-11-01"
+last_updated: "2026-11-25"
 canonical: "https://www.corpusiq.io/docs/hermes/architecture/read-only-oauth-ai-business-tools/"
 robots: "index,follow"
 tags: ["hermes agent", "ai agent", "nous research"]
@@ -30,14 +30,14 @@ Write access risks include:
 
 ## How Read-Only External-Source Retrieval Works
 
-Read-only OAuth gives AI permission to query data but blocks all write operations. The authorization flow is:
+Read-only external-source retrieval gives AI permission to query data but blocks all write operations. The authorization flow is:
 
 1. You log into your tool (Shopify, QuickBooks, Stripe, etc.)
-2. You grant read-only access to the AI connector
-3. The connector receives a token scoped to read-only operations
-4. Every API call uses this token - the tool's own security rejects any write attempt
+2. You grant access to the AI connector, at the narrowest scope the provider publishes
+3. The connector receives a token bound to that one platform and that one account
+4. Every retrieval call uses this token, and the connector issues only read calls against it
 
-Even if the AI tries to modify data, the tool itself blocks the operation. The boundary is enforced at the API level, not the AI level.
+Where the provider publishes a read-only scope, that scope is the wall. Google's `*.readonly` scopes for Analytics, Gmail, Drive and Sheets, Shopify's `read_` scopes, and Microsoft's `Files.Read.All` and `Sites.Read.All` scopes cannot write, so a write attempt is rejected by the platform. Where the provider publishes no read-only scope - QuickBooks Online grants a single read-write accounting scope, and Mailchimp governs access by user role rather than by scope - the boundary is held by the connector, which only issues read calls against that token. Either way the boundary sits below the model, and it is inspectable: the granted scope is listed in the platform's own consent screen and app settings.
 
 One distinction worth stating plainly: external retrieval is read-only, but some platforms also expose configuration or control-plane operations outside the retrieval path. Those operations change scoped platform state, so they are named and annotated separately instead of being folded into the read-only claim. Ask any provider to draw that line explicitly.
 
