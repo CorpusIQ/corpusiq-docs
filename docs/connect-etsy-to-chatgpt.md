@@ -3,7 +3,7 @@ title: Connect Etsy to ChatGPT via MCP
 description: "Connect Etsy to ChatGPT through CorpusIQ MCP. Ask which listings convert, how orders trend and what reviewers keep mentioning."
 category: ChatGPT Integrations
 tags: ["connect Etsy to ChatGPT", "Etsy MCP", "Etsy ChatGPT integration", "ask ChatGPT about Etsy sales", "Etsy shop analytics", "CorpusIQ MCP"]
-last_updated: "2026-11-21"
+last_updated: "2026-11-24"
 canonical: "https://www.corpusiq.io/docs/connect-etsy-to-chatgpt"
 robots: "index,follow"
 ---
