@@ -3,7 +3,7 @@ title: "How to Add CorpusIQ MCP to Hermes Agent"
 description: "Connect CorpusIQ MCP to Hermes Agent - query business data from 40+ tools directly through your AI assistant. Step-by-step setup guide."
 canonical: "https://www.corpusiq.io/docs/hermes/setup/corpusiq-mcp/"
 robots: "index,follow"
-last_updated: "2026-11-07"
+last_updated: "2026-11-24"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---
@@ -57,9 +57,19 @@ CorpusIQ uses OAuth 2.0 Device Authorization Grant for CLI tools and agent loops
 2. Open the returned `verification_uri` (`https://mcp2.corpusiq.io/oauth/device/verify`) in a browser, enter the `user_code`, and approve
 3. Exchange the device code for tokens: `POST https://mcp2.corpusiq.io/oauth/token` with form data containing ONLY `grant_type=urn:ietf:params:oauth:grant-type:device_code` and `device_code=<code>`. Do NOT include `client_id`.
 4. Save both `access_token` (60-min expiry) and `refresh_token` (30-day expiry) to `mcp_tokens.json`
-5. Set the JWT in config: `headers.Authorization: Bearer <access_token>`
+5. Put the returned access token into that entry's `Authorization` header, prefixed with the word `Bearer` and a space, exactly as the device flow returned it
 
 For the Python device login script, see the account's own token store (`mcp_tokens.json`) and the device flow above.
+
+The server publishes OAuth metadata, so Hermes can run the flow for you instead of you holding the token by hand. `https://mcp2.corpusiq.io/.well-known/oauth-protected-resource` names `https://mcp2.corpusiq.io/mcp` as the protected resource, and `https://mcp2.corpusiq.io/.well-known/oauth-authorization-server` advertises `authorization_endpoint` `/oauth/authorize`, `token_endpoint` `/oauth/token`, `device_authorization_endpoint` `/oauth/device/authorize`, `registration_endpoint` `/oauth/register`, PKCE `S256`, and the `authorization_code`, `refresh_token` and device-code grants:
+
+```bash
+hermes mcp add corpusiq --url https://mcp2.corpusiq.io/mcp --auth oauth
+hermes mcp login corpusiq --flow device    # browser PKCE by default, device code on a headless host
+hermes mcp test corpusiq
+```
+
+Hermes keeps the credential in its own token store, so a cron job does not have to patch `config.yaml`. `hermes mcp reauth corpusiq` repeats the flow when the refresh credential lapses.
 
 When the access token expires, refresh silently:
 ```bash

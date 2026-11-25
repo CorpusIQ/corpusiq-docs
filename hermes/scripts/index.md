@@ -1,7 +1,7 @@
 ---
 title: "Automation Scripts - CorpusIQ Docs"
 description: Utility scripts for ecosystem discovery, agent stack installation, submission processing, and directory promotion
-last_updated: 2026-11-06
+last_updated: 2026-11-24
 canonical: "https://www.corpusiq.io/docs/hermes/scripts/"
 robots: "index,follow"
 tags: ["hermes agent", "ai agent", "nous research"]
@@ -36,16 +36,20 @@ Installs the complete Hermes Agent stack on a fresh Linux machine: Node.js, Pyth
 curl -sL https://raw.githubusercontent.com/CorpusIQ/corpusiq-docs/main/hermes/scripts/install-agent-stack.sh | bash
 ```
 
-### `process_submissions.py` - Community Submission Pipeline
+### `process_submissions.py` - Community Submission Scorer
 
-Validates and ingests community-submitted repositories, skills, and MCP servers. Checks for duplicates, validates metadata, and generates pull requests for approved submissions.
+Validates a community-submitted repository, skill or MCP server: checks for duplicates, validates metadata, and returns an approve/reject outcome. The scorer is complete. The GitHub Issues loop around it is not wired up yet, so the script runs the scoring path against a built-in sample rather than pulling live submissions.
 
 **Usage:**
 
 ```bash
-python3 process_submissions.py --test   # Score a sample submission end to end
-python3 process_submissions.py --issue 12   # Process one specific submission issue
+# the script reads its stores (approved_repos.json, contributors.json) from a checkout at /tmp/corpusiq-docs/hermes
+git clone https://github.com/CorpusIQ/corpusiq-docs /tmp/corpusiq-docs
+
+python3 process_submissions.py --test sample   # Score the sample submission end to end
 ```
+
+Run without arguments and the script only prints its ready status with a "Connect to GitHub Issues API for full automation" note. There is no per-issue selector on the command line yet.
 
 ### `promote_submission.py` - Human-Judgement Promotion
 
