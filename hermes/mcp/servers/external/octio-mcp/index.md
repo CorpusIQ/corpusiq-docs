@@ -107,7 +107,7 @@ The endpoints describe their own provenance, which is the part to read before qu
 
 ## See also
 
-- [Financial News MCP](/hermes/mcp/servers/external/financial-news-mcp/) for market coverage that is not priced per call.
+- [Financial News MCP](/hermes/mcp/servers/external/financial-news-mcp) for market coverage that is not priced per call.
 - [MarketBrew MCP](/hermes/mcp/servers/external/marketbrew-mcp/) for the other market research surface in this catalog.
 - [Stock Market MCP Server](/hermes/mcp/servers/external/stock-market-mcp-server/) for quote and fundamentals access.
 - [External MCP Server Catalog](/hermes/mcp/servers/external/) for the full index.

@@ -106,6 +106,33 @@ class SweepIndexGateTest(unittest.TestCase):
         errors, _ = gate.check(self.root)
         self.assertEqual(errors, [])
 
+    def test_stray_bracket_breaks_the_link_it_looks_like(self) -> None:
+        """A `]` inside the link text ships an entry that renders as plain text."""
+        write(self.root, f"{MARKET}/new-nov6-2026-morning-skills/index.md", page("2026-11-06"))
+        write(
+            self.root,
+            f"{MARKET}/index.md",
+            "- [Batch one (a/b, 1 listing)] - extra words](/hermes/skills/marketplace/"
+            "new-nov6-2026-morning-skills)\n",
+        )
+
+        errors, _ = gate.check(self.root)
+        self.assertEqual(len(errors), 1)
+        self.assertIn("malformed sweep link", errors[0])
+        self.assertIn("new-nov6-2026-morning-skills", errors[0])
+
+    def test_slug_in_a_code_span_is_not_a_link(self) -> None:
+        write(self.root, f"{MARKET}/new-nov6-2026-morning-skills/index.md", page("2026-11-06"))
+        write(
+            self.root,
+            f"{MARKET}/index.md",
+            "- [a](/hermes/skills/marketplace/new-nov6-2026-morning-skills)\n"
+            "Install with `npx skills add /hermes/skills/marketplace/new-nov6-2026-morning-skills`.\n",
+        )
+
+        errors, _ = gate.check(self.root)
+        self.assertEqual(errors, [])
+
 
 if __name__ == "__main__":
     unittest.main()
