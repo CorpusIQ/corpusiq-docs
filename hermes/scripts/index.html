@@ -107,8 +107,8 @@
     "description": "Utility scripts for ecosystem discovery, agent stack installation, submission processing, and directory promotion",
     "url": "https://www.corpusiq.io/docs/hermes/scripts",
     
-    "datePublished": "2026-11-06",
-    "dateModified": "2026-11-06",
+    "datePublished": "2026-11-24",
+    "dateModified": "2026-11-24",
     
     "author": {
       "@type": "Organization",
@@ -132,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-11-06">
+  <meta name="last-updated" content="2026-11-24">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -184,7 +184,7 @@
   </script>
 
   
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Article", "TechArticle"], "headline": "Automation Scripts - CorpusIQ Docs", "url": "https://www.corpusiq.io/docs/hermes/scripts", "image": "https://www.corpusiq.io/og?title=Automation%20Scripts%20-%20CorpusIQ%20Docs&category=Docs", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.corpusiq.io/docs/hermes/scripts"}, "datePublished": "2026-11-01", "dateModified": "2026-11-06", "author": {"@id": "https://www.corpusiq.io#organization"}, "publisher": {"@id": "https://www.corpusiq.io#organization"}, "isPartOf": {"@id": "https://www.corpusiq.io#website"}, "inLanguage": "en-US", "description": "Utility scripts for ecosystem discovery, agent stack installation, submission processing, and directory promotion", "articleSection": "Hermes"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Article", "TechArticle"], "headline": "Automation Scripts - CorpusIQ Docs", "url": "https://www.corpusiq.io/docs/hermes/scripts", "image": "https://www.corpusiq.io/og?title=Automation%20Scripts%20-%20CorpusIQ%20Docs&category=Docs", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.corpusiq.io/docs/hermes/scripts"}, "datePublished": "2026-11-01", "dateModified": "2026-11-24", "author": {"@id": "https://www.corpusiq.io#organization"}, "publisher": {"@id": "https://www.corpusiq.io#organization"}, "isPartOf": {"@id": "https://www.corpusiq.io#website"}, "inLanguage": "en-US", "description": "Utility scripts for ecosystem discovery, agent stack installation, submission processing, and directory promotion", "articleSection": "Hermes"}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Docs", "item": "https://www.corpusiq.io/docs"}, {"@type": "ListItem", "position": 2, "name": "Hermes", "item": "https://www.corpusiq.io/docs/hermes"}, {"@type": "ListItem", "position": 3, "name": "Automation Scripts - CorpusIQ Docs", "item": "https://www.corpusiq.io/docs/hermes/scripts"}]}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "CollectionPage", "url": "https://www.corpusiq.io/docs/hermes/scripts", "name": "Automation Scripts - CorpusIQ Docs", "mainEntity": {"@type": "ItemList", "numberOfItems": 7, "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Discover", "url": "https://www.corpusiq.io/docs/hermes/scripts/discover"}, {"@type": "ListItem", "position": 2, "name": "Ecosystem Count", "url": "https://www.corpusiq.io/docs/hermes/scripts/ecosystem_count"}, {"@type": "ListItem", "position": 3, "name": "Finish Promotion", "url": "https://www.corpusiq.io/docs/hermes/scripts/finish_promotion"}, {"@type": "ListItem", "position": 4, "name": "Install Agent Stack", "url": "https://www.corpusiq.io/docs/hermes/scripts/install-agent-stack"}, {"@type": "ListItem", "position": 5, "name": "Integrate Approved", "url": "https://www.corpusiq.io/docs/hermes/scripts/integrate_approved"}, {"@type": "ListItem", "position": 6, "name": "Process Submissions", "url": "https://www.corpusiq.io/docs/hermes/scripts/process_submissions"}, {"@type": "ListItem", "position": 7, "name": "Promote Submission", "url": "https://www.corpusiq.io/docs/hermes/scripts/promote_submission"}]}}</script>
 </head>
@@ -14102,10 +14102,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#process_submissionspy-community-submission-pipeline" class="md-nav__link">
+  <a href="#process_submissionspy-community-submission-scorer" class="md-nav__link">
     <span class="md-ellipsis">
       
-        process_submissions.py - Community Submission Pipeline
+        process_submissions.py - Community Submission Scorer
       
     </span>
   </a>
@@ -14196,12 +14196,15 @@ python3<span class="w"> </span>discover.py<span class="w"> </span>--score-only<s
 <p><strong>Usage:</strong></p>
 <div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-sL<span class="w"> </span>https://raw.githubusercontent.com/CorpusIQ/corpusiq-docs/main/hermes/scripts/install-agent-stack.sh<span class="w"> </span><span class="p">|</span><span class="w"> </span>bash
 </code></pre></div>
-<h3 id="process_submissionspy-community-submission-pipeline"><code>process_submissions.py</code> - Community Submission Pipeline<a class="headerlink" href="#process_submissionspy-community-submission-pipeline" title="Anchor link to this section">&para;</a></h3>
-<p>Validates and ingests community-submitted repositories, skills, and MCP servers. Checks for duplicates, validates metadata, and generates pull requests for approved submissions.</p>
+<h3 id="process_submissionspy-community-submission-scorer"><code>process_submissions.py</code> - Community Submission Scorer<a class="headerlink" href="#process_submissionspy-community-submission-scorer" title="Anchor link to this section">&para;</a></h3>
+<p>Validates a community-submitted repository, skill or MCP server: checks for duplicates, validates metadata, and returns an approve/reject outcome. The scorer is complete. The GitHub Issues loop around it is not wired up yet, so the script runs the scoring path against a built-in sample rather than pulling live submissions.</p>
 <p><strong>Usage:</strong></p>
-<div class="highlight"><pre><span></span><code>python3<span class="w"> </span>process_submissions.py<span class="w"> </span>--test<span class="w">   </span><span class="c1"># Score a sample submission end to end</span>
-python3<span class="w"> </span>process_submissions.py<span class="w"> </span>--issue<span class="w"> </span><span class="m">12</span><span class="w">   </span><span class="c1"># Process one specific submission issue</span>
+<div class="highlight"><pre><span></span><code><span class="c1"># the script reads its stores (approved_repos.json, contributors.json) from a checkout at /tmp/corpusiq-docs/hermes</span>
+git<span class="w"> </span>clone<span class="w"> </span>https://github.com/CorpusIQ/corpusiq-docs<span class="w"> </span>/tmp/corpusiq-docs
+
+python3<span class="w"> </span>process_submissions.py<span class="w"> </span>--test<span class="w"> </span>sample<span class="w">   </span><span class="c1"># Score the sample submission end to end</span>
 </code></pre></div>
+<p>Run without arguments and the script only prints its ready status with a "Connect to GitHub Issues API for full automation" note. There is no per-issue selector on the command line yet.</p>
 <h3 id="promote_submissionpy-human-judgement-promotion"><code>promote_submission.py</code> - Human-Judgement Promotion<a class="headerlink" href="#promote_submissionpy-human-judgement-promotion" title="Anchor link to this section">&para;</a></h3>
 <p>The submission scorer reads only a repository's name, description, and topics, so a repo that genuinely works with Hermes but never names it in metadata scores low and is rejected. This is the manual path that closes that gap: it takes a repo already in the review queue, records why it was promoted, and rewrites every downstream file in one transaction.</p>
 <p><strong>Usage:</strong></p>
