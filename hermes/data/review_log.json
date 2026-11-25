@@ -24058,5 +24058,117 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-11-24T11:33:17.932182+00:00"
+  },
+  {
+    "repo": "techwithtim/hermes-accounting-starter",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-25T11:33:13.220203+00:00"
+  },
+  {
+    "repo": "Trisert/pstacky",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-25T11:33:13.220216+00:00"
+  },
+  {
+    "repo": "matthijsberg/hermes-gemini-decisions",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-25T11:33:13.220219+00:00"
+  },
+  {
+    "repo": "ianlee168/hermes-skills",
+    "score": 39,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-25T11:33:13.220221+00:00"
+  },
+  {
+    "repo": "magic3389/hermes-live2d",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-25T11:33:13.220223+00:00"
+  },
+  {
+    "repo": "Lil-Clanky/polytropos",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-25T11:33:13.220225+00:00"
+  },
+  {
+    "repo": "pom11/orchpad",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-25T11:33:13.220226+00:00"
+  },
+  {
+    "repo": "Lil-Clanky/polymetis",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-25T11:33:13.220228+00:00"
+  },
+  {
+    "repo": "sanzi8/vetoboard-mcp",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-25T11:33:13.220230+00:00"
+  },
+  {
+    "repo": "maximskorohod/viraloop-mcp",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-25T11:33:13.220232+00:00"
+  },
+  {
+    "repo": "AlephSc/AgentLink",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-25T11:33:13.220234+00:00"
+  },
+  {
+    "repo": "abram7200/ibn-office",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-25T11:33:13.220236+00:00"
+  },
+  {
+    "repo": "Santrionlinecom/hermes-memory-tidy",
+    "score": 64,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-25T11:33:13.220238+00:00"
+  },
+  {
+    "repo": "e30goodman/hermes-async-context",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-25T11:33:13.220239+00:00"
+  },
+  {
+    "repo": "kvnloo/hermes-official-plugins-backup",
+    "score": 42,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-25T11:33:13.220241+00:00"
+  },
+  {
+    "repo": "kvnloo/hermes-labs-plugins-backup",
+    "score": 42,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-25T11:33:13.220243+00:00"
   }
 ]
