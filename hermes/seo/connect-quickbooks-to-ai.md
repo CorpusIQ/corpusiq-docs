@@ -1,7 +1,7 @@
 ---
 title: "Connect QuickBooks to AI: Ask ChatGPT About Your Financials"
 description: "QuickBooks holds your financial truth. Revenue. Expenses. Profit. Cash flow. Every number that matters to your business lives in QuickBooks."
-last_updated: 2026-11-01
+last_updated: 2026-11-26
 canonical: "https://www.corpusiq.io/docs/hermes/seo/connect-quickbooks-to-ai/"
 robots: "index,follow"
 tags: ["hermes agent", "ai agent", "nous research"]
@@ -52,7 +52,7 @@ QuickBooks alone gives you financials. Combined with other tools, it gives you t
 
 - QuickBooks + Shopify = true profitability (revenue from Shopify, costs from QuickBooks)
 - QuickBooks + Stripe = reconciled payments (what Stripe processed vs. what hit the bank)
-- QuickBooks + payroll = labor cost analysis by department, project, or client
+- QuickBooks payroll = labor cost analysis by department, project, or client
 
 Each connector works independently. Each uses its own read-only authentication. The AI queries them all at once and reconciles the results.
 

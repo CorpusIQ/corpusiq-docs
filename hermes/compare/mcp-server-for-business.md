@@ -1,7 +1,7 @@
 ---
 title: "MCP Server for Business Data - CorpusIQ Docs"
 description: "A practical guide to using Model Context Protocol (MCP) servers for business data access, and how CorpusIQ fits.."
-last_updated: "2026-11-01"
+last_updated: "2026-11-26"
 ---
 # MCP Server for Business Data
 
@@ -29,6 +29,6 @@ Production business data lives behind OAuth with per-platform scopes, rate limit
 
 ## CorpusIQ as an MCP server for business
 
-CorpusIQ is a managed MCP host with 40+ business connectors. External-source retrieval tools are read-only and separately annotated. Every answer is source-cited. No raw customer files or full connector payloads are retained.
+CorpusIQ is a managed MCP host with 40+ business connectors. External-source retrieval tools are read-only and separately annotated. Every answer is source-cited. No raw customer files or full connector payloads are retained. The service is CASA Tier 2 certified by DEKRA and hosted on Microsoft Azure, which is the part a demo server cannot show an auditor.
 
 Try it free for 30 days, no credit card: corpusiq.io/pricing
