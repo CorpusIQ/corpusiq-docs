@@ -22144,6 +22144,396 @@ CorpusIQ does not retain raw customer files or full connector response payloads.
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.CorpusIQ.io).*
 
 ---
+# How to Connect SHOPLINE to ChatGPT with CorpusIQ MCP
+URL: https://www.corpusiq.io/docs/connect-shopline-to-chatgpt
+
+
+# How to Connect SHOPLINE to ChatGPT with CorpusIQ MCP
+
+A SHOPLINE store answers every question on a different screen. Orders sit under one menu, inventory under another, refunds somewhere else again, and the customer history is a search box you have to know how to use. By the time you have read three of them, the question has changed.
+
+Connecting SHOPLINE through CorpusIQ MCP lets you ask about the store in one ChatGPT thread, read-only, and get an answer that names the orders, products and periods behind it.
+
+## What Questions Can You Ask?
+
+**Orders and revenue**
+
+- "How many SHOPLINE orders came in last week, and what did they total?"
+- "What is my average order value this month compared with last month?"
+- "Which orders are still unfulfilled right now?"
+- "How many refunds did I issue last quarter, and on which products?"
+
+**Inventory and merchandising**
+
+- "Which SKUs are below ten units on hand?"
+- "Show me inventory by location so I can see what to transfer."
+- "Which products sold out last month and are still out of stock?"
+- "Which discount codes did customers use most this quarter?"
+
+**Customers and retention**
+
+- "Which customers ordered more than once in the last 90 days?"
+- "What did my ten highest-spending customers buy?"
+- "How many new customers did I add this month?"
+- "Which returns came from repeat customers?"
+
+**Cross-source**
+
+- "Compare SHOPLINE revenue with Stripe payouts for the same week. (requires the Stripe connector)"
+- "Do the SHOPLINE refunds match what the books show in QuickBooks? (requires the QuickBooks connector)"
+- "Put SHOPLINE revenue next to my ad spend for last month. (requires a paid-media connector)"
+
+## FAQ: Common Questions
+
+<details>
+<summary><strong>Can ChatGPT change a product, price or order?</strong></summary>
+
+No. The connection exposes retrieval tools only. It does not create or edit products, change prices, fulfil orders, issue refunds or message customers.
+</details>
+
+<details>
+<summary><strong>I run more than one SHOPLINE store.</strong></summary>
+
+Each connection is scoped to the store that authorised it. Connect each store separately so an answer stays attached to the store you asked about.
+</details>
+
+<details>
+<summary><strong>An order I know exists does not come back.</strong></summary>
+
+Order lists are paged. Ask for a narrower period or a specific order number so the matching record is inside the first page of results.
+</details>
+
+<details>
+<summary><strong>Inventory levels look different from the admin panel.</strong></summary>
+
+Inventory is reported per location. If you have more than one location, ask for the location you mean or the totals will read as a mismatch.
+</details>
+
+<details>
+<summary><strong>How current is the data?</strong></summary>
+
+Orders, refunds and inventory are read from your store at the moment you ask, so the figure reflects the store as it stands.
+</details>
+
+<details>
+<summary><strong>What is retained after a query?</strong></summary>
+
+Direct MCP retrieval does not retain raw customer files or full connector response payloads. Operational query logs keep query text and bounded outcome summaries for up to 30 days.
+</details>
+
+## How It Works
+
+1. You connect SHOPLINE in the CorpusIQ dashboard and approve the read-only permissions on SHOPLINE's consent screen.
+2. CorpusIQ exposes orders, order summaries, refunds, products, inventory items and levels, locations, customers, returns, fulfillment orders and discount code price rules as MCP tools.
+3. You add the CorpusIQ MCP server to ChatGPT. See the [Quick Start guide](quick-start.md).
+4. ChatGPT retrieves the records and answers from them.
+5. The answer names the orders, products or periods behind it, so the number can be checked in the admin panel.
+
+## Setup Guide
+
+1. **Sign up** at [corpusiq.io](https://www.corpusiq.io). The 30-day trial needs no credit card.
+2. **Connect SHOPLINE.** Dashboard, then Connectors, then SHOPLINE, then sign in as the store admin and approve the permissions.
+3. **Connect ChatGPT.** Add the CorpusIQ MCP server per the [Quick Start guide](quick-start.md).
+4. **Verify.** Ask "how many orders came in last week". A real count with a real total means the connection is live.
+5. **Explore.** Then ask which products are below ten units on hand, which is the question the admin panel leaves you to work out by hand.
+
+## Related Pages
+
+- [SHOPLINE connector reference](connectors/shopline.md) - what the connection can see, the permissions it needs and how stores are scoped
+- [Connect SHOPLINE to Claude](connect-shopline-to-claude.md) - the same questions in Claude Desktop, with the device-login setup
+- [Connect SHOPLINE to Perplexity](connect-shopline-to-perplexity.md) - the same questions asked from Perplexity
+- [Connect Shopify to ChatGPT](connect-shopify-to-chatgpt.md) - the same commerce questions on the other storefront platform
+- [Connect Stripe to ChatGPT](connect-stripe-to-chatgpt.md) - check store revenue against what actually settled
+- [Connect QuickBooks to ChatGPT](connect-quickbooks-to-chatgpt.md) - put store revenue into the books view
+- [Browse all CorpusIQ connectors](connectors.md) - the full list
+- [How to Connect Business Data to ChatGPT](how-to-connect-business-data-to-chatgpt.md) - the general setup
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.CorpusIQ.io).*
+
+---
+# How to Connect SHOPLINE to Claude with CorpusIQ MCP
+URL: https://www.corpusiq.io/docs/connect-shopline-to-claude
+
+
+# How to Connect SHOPLINE to Claude with CorpusIQ MCP
+
+Your store data exists, but it exists one list at a time. Orders, products, inventory, customers, returns and discount rules each have their own view, and none of them answers a question that crosses two of those views.
+
+Connecting SHOPLINE to Claude through CorpusIQ MCP replaces the list-hopping with a question. You ask in plain language, Claude reads your live store data, and the answer names the orders, products and periods it used. Read-only, with no exporter in between.
+
+### Why Connect SHOPLINE to Claude?
+
+SHOPLINE is where the transactions happen and one of the harder places to audit them. Claude gives you a way to ask about the store in the same conversation as the rest of the business.
+
+- **Orders without the date filter.** "How many orders came in last week, and what did they total?" One question instead of a list plus a calculator.
+- **Stock that is about to run out.** "Which SKUs are below ten units on hand?" The answer is a list you can act on, per location if you ask.
+- **Refunds in context.** "How many refunds did I issue last quarter, and on which products?" Refund records and the products behind them in one answer.
+- **Repeat customers.** "Which customers ordered more than once in the last 90 days?" Retention read out of the customer records rather than guessed.
+- **Discount effectiveness.** "Which discount codes did customers use most this quarter?" Price rules matched against the orders they produced.
+- **Cross-source context.** Pair SHOPLINE with Stripe or QuickBooks in one thread, so store revenue and the books agree.
+
+### How It Works
+
+1. **Connect SHOPLINE to CorpusIQ.** Authorise read-only access to your store and approve the permissions on SHOPLINE's consent screen.
+2. **Connect CorpusIQ to Claude** as an MCP server, using the config block from your CorpusIQ account settings.
+3. **CorpusIQ translates** your question into SHOPLINE Admin API calls, handles pagination and field mapping, and retrieves the matching orders, products, inventory or customer records.
+4. **Claude answers** from that retrieved content, with the orders, products or periods it used attached to the answer.
+
+CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
+
+### Setup Steps
+
+**In CorpusIQ**
+
+1. Log in and open **Connectors**.
+2. Select **SHOPLINE**.
+3. Click Connect, sign in as the store admin, and approve the requested permissions on the consent screen.
+4. Copy the MCP config block shown under **Settings, Integrations, Claude Desktop**.
+
+**In Claude Desktop**
+
+5. Open **Settings, Developer, Edit Config**. This opens `claude_desktop_config.json`.
+6. Add the CorpusIQ entry:
+
+```json
+{
+  "mcpServers": {
+    "corpusiq": {
+      "command": "npx",
+      "args": [
+        "-y", "mcp-remote",
+        "https://mcp2.corpusiq.io/mcp"
+      ]
+    }
+  }
+}
+```
+
+7. Save the file and fully quit Claude Desktop. Not just the window: quit the application.
+8. Reopen Claude, complete the device login when prompted, and the tools indicator appears next to the message box.
+
+If the tools indicator does not appear, work through [Claude can't see CorpusIQ](troubleshooting/claude-cant-see-corpusiq.md) before changing anything else.
+
+### Example Claude Questions
+
+**Orders and revenue**
+
+- "How many SHOPLINE orders came in last week, and what did they total?"
+- "What is my average order value this month compared with last month?"
+- "Which orders are still unfulfilled right now?"
+- "How many refunds did I issue last quarter, and on which products?"
+
+**Inventory and merchandising**
+
+- "Which SKUs are below ten units on hand?"
+- "Show me inventory by location so I can see what to transfer."
+- "Which products sold out last month and are still out of stock?"
+- "Which discount codes did customers use most this quarter?"
+
+**Customers and retention**
+
+- "Which customers ordered more than once in the last 90 days?"
+- "What did my ten highest-spending customers buy?"
+- "How many new customers did I add this month?"
+- "Which returns came from repeat customers?"
+
+**Cross-source**
+
+- "Compare SHOPLINE revenue with Stripe payouts for the same week. (requires the Stripe connector)"
+- "Do the SHOPLINE refunds match what the books show in QuickBooks? (requires the QuickBooks connector)"
+- "Put SHOPLINE revenue next to my ad spend for last month. (requires a paid-media connector)"
+
+### Security
+
+- **Read-only by permission.** The connection requests read access to orders, refunds, products, inventory, locations, customers, returns, fulfillment orders and discount code price rules. There is no path for Claude to edit a product, change a price, fulfil an order or message a customer.
+- **Enforced in two places.** The permissions approved on SHOPLINE's consent screen and the MCP tool set both refuse writes, so a write attempt fails rather than silently succeeding.
+- **Revocable at any time.** Disconnecting SHOPLINE in CorpusIQ ends the connection immediately.
+- **Scoped direct-MCP retention.** Direct MCP retrieval is read-only. Raw customer files and full connector payloads are not retained. Operational logs keep query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
+- **TLS in transit** between SHOPLINE, CorpusIQ and Claude.
+
+### Comparison: SHOPLINE Admin vs SHOPLINE Through Claude
+
+| Aspect | SHOPLINE admin | CorpusIQ MCP with Claude |
+|---|---|---|
+| Input | A screen, a filter, a date range | A question |
+| Scope | Orders, products, inventory or customers, one at a time | All of them in one answer |
+| Follow-ups | Rebuild the view | Ask the next question in the same thread |
+| Outside context | Open a second tab | Same thread, same answer |
+| Cross-system | Export to a sheet | Asked across connectors |
+| Write access | Yes, by you | None through the retrieval tools |
+
+The admin panel shows you each list. It does not answer which products are selling and which are quietly tying up cash.
+
+### FAQ: Common Questions
+
+<details>
+<summary><strong>Can Claude create products or change prices?</strong></summary>
+
+No. The retrieval tools documented on this page read orders, refunds, products, inventory, locations, customers, returns, fulfilment orders and discount rules. Nothing is created, edited, fulfilled or refunded.
+</details>
+
+<details>
+<summary><strong>My store has several locations.</strong></summary>
+
+Inventory is reported per location on SHOPLINE's side. Ask for the location you mean, or ask for totals so the numbers are added rather than compared across locations.
+</details>
+
+<details>
+<summary><strong>An order I know exists does not come back.</strong></summary>
+
+Order lists are paged. Narrow the period or name the order number so the record is inside the first page of results.
+</details>
+
+<details>
+<summary><strong>Does this work only in Claude?</strong></summary>
+
+No. SHOPLINE is exposed to ChatGPT, Claude and Perplexity through the same endpoint on the same subscription.
+</details>
+
+<details>
+<summary><strong>How current is the data?</strong></summary>
+
+Orders, refunds and inventory are read from your store at the moment you ask, so the figure reflects the store as it stands.
+</details>
+
+<details>
+<summary><strong>What is retained after a query?</strong></summary>
+
+Direct MCP retrieval does not retain raw customer files or full connector response payloads. Operational query logs keep query text and bounded outcome summaries for up to 30 days.
+</details>
+
+---
+
+**Next steps:** [Connect SHOPLINE to Claude now](https://www.corpusiq.io/connectors)
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.CorpusIQ.io).*
+
+---
+# How to Connect SHOPLINE to Perplexity with CorpusIQ MCP
+URL: https://www.corpusiq.io/docs/connect-shopline-to-perplexity
+
+
+# How to Connect SHOPLINE to Perplexity with CorpusIQ MCP
+
+A store question rarely lives on one screen. Orders are one list, inventory is another, refunds a third, and a customer's history is a search you have to phrase correctly. Perplexity is good at reasoning across sources, but it cannot see your store unless something hands it the records.
+
+Connecting SHOPLINE through CorpusIQ MCP does exactly that: your live store data becomes readable to Perplexity, one connector among the rest of your business tools, and answers arrive with the orders and periods they came from.
+
+### What Questions Can You Ask?
+
+**Orders and revenue**
+
+- "How many SHOPLINE orders came in last week, and what did they total?"
+- "What is my average order value this month compared with last month?"
+- "Which orders are still unfulfilled right now?"
+- "How many refunds did I issue last quarter, and on which products?"
+
+**Inventory and merchandising**
+
+- "Which SKUs are below ten units on hand?"
+- "Show me inventory by location so I can see what to transfer."
+- "Which products sold out last month and are still out of stock?"
+- "Which discount codes did customers use most this quarter?"
+
+**Customers and retention**
+
+- "Which customers ordered more than once in the last 90 days?"
+- "What did my ten highest-spending customers buy?"
+- "How many new customers did I add this month?"
+- "Which returns came from repeat customers?"
+
+**Cross-source**
+
+- "Compare SHOPLINE revenue with Stripe payouts for the same week. (requires the Stripe connector)"
+- "Do the SHOPLINE refunds match what the books show in QuickBooks? (requires the QuickBooks connector)"
+- "Put SHOPLINE revenue next to my ad spend for last month. (requires a paid-media connector)"
+
+### Security
+
+- **Read-only retrieval tools.** The tools documented on this page read orders, order summaries, refunds, products, inventory items and levels, locations, customers, returns, fulfillment orders and discount code price rules. They do not create a product, edit a price, fulfil an order or move money.
+- **Approved on SHOPLINE's own screen.** The permissions are granted during the store sign-in flow, and the set you approve is visible there before anything is read.
+- **Store-scoped.** A connection reads the single store that authorised it, at the location level you ask about.
+- **Revocable.** Disconnecting in CorpusIQ ends the connection, and SHOPLINE's own app settings list it too.
+- **Scoped direct-MCP retention.** Raw customer files and full connector payloads are not retained. Operational logs keep query text, tool-call metadata and bounded outcome summaries for up to 30 days.
+- **TLS in transit** between SHOPLINE, CorpusIQ and Perplexity.
+
+### Comparison: SHOPLINE Admin
+
+| Aspect | SHOPLINE admin | CorpusIQ MCP with Perplexity |
+|---|---|---|
+| Input | A screen, a filter, a date range | A question |
+| Scope | Orders, products, inventory or customers, one at a time | All of them in one answer |
+| Follow-ups | Rebuild the view | Ask the next question in the same thread |
+| Outside context | Open a second tab | Same thread, same answer |
+| Cross-system | Export to a sheet | Asked across connectors |
+| Write access | Yes, by you | None through the retrieval tools |
+
+The admin panel shows you each list. It does not answer which products are selling and which are quietly tying up cash.
+
+### FAQ: Common Questions
+
+<details>
+<summary><strong>Can Perplexity change anything in my SHOPLINE store?</strong></summary>
+
+No. The retrieval tools documented on this page read orders, refunds, products, inventory, customers, returns, fulfilment orders and discount rules. Nothing is created, edited, fulfilled or refunded.
+</details>
+
+<details>
+<summary><strong>Refund totals look lower than the orders they came from.</strong></summary>
+
+Refunds are read as their own record set. Ask for refunds over a period rather than expecting them to be subtracted inside an order total, and the two will reconcile.
+</details>
+
+<details>
+<summary><strong>Inventory numbers differ between locations.</strong></summary>
+
+Levels are reported per location. Name the location, or ask for the total across locations, so the figure matches what you expect.
+</details>
+
+<details>
+<summary><strong>Does this work only in Perplexity?</strong></summary>
+
+No. SHOPLINE is exposed to ChatGPT, Claude and Perplexity through the same endpoint on the same subscription.
+</details>
+
+<details>
+<summary><strong>How current is the data?</strong></summary>
+
+Orders, refunds and inventory are read from your store at the moment you ask, so the figure reflects the store as it stands.
+</details>
+
+<details>
+<summary><strong>What is retained after a query?</strong></summary>
+
+Direct MCP retrieval does not retain raw customer files or full connector response payloads. Operational query logs keep query text and bounded outcome summaries for up to 30 days.
+</details>
+
+### See Also
+
+- [Connect SHOPLINE to ChatGPT](connect-shopline-to-chatgpt.md) - the same store questions, asked from ChatGPT
+- [SHOPLINE connector reference](connectors/shopline.md) - what the connection can see, the permissions it needs and how stores are scoped
+- [Connect Shopify to Perplexity](connect-shopify-to-perplexity.md) - the same commerce questions on the other storefront platform
+- [Connect Stripe to Perplexity](connect-stripe-to-perplexity.md) - check store revenue against what actually settled
+
+---
+
+**Next steps:** [Add CorpusIQ to Perplexity now](https://www.corpusiq.io/connectors/perplexity)
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.CorpusIQ.io).*
+
+---
 # How to Connect Slack to ChatGPT with CorpusIQ MCP
 URL: https://www.corpusiq.io/docs/connect-slack-to-chatgpt
 
@@ -40847,6 +41237,13 @@ Read-only. CorpusIQ does not edit products, change prices, fulfil orders, or mes
 - Store not found: the SHOPLINE account you authorized does not have admin access to the store. Sign in with the store admin account and reconnect.
 - Inventory numbers look stale: stock levels update as SHOPLINE recalculates them; reconnect if a full day passes without changes.
 - Wrong store connected: disconnect SHOPLINE in the dashboard, switch stores in SHOPLINE, then reconnect.
+
+## See also
+
+- [Connect SHOPLINE to ChatGPT](../connect-shopline-to-chatgpt.md) - orders, stock and refund questions inside a ChatGPT thread.
+- [Connect SHOPLINE to Claude](../connect-shopline-to-claude.md) - the same store questions in Claude Desktop, with the device-login setup.
+- [Connect SHOPLINE to Perplexity](../connect-shopline-to-perplexity.md) - the same questions asked from Perplexity.
+- [Connect Shopify to ChatGPT](../connect-shopify-to-chatgpt.md) - the store you run on the other storefront platform.
 
 ---
 

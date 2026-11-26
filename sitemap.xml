@@ -581,6 +581,18 @@
          <lastmod>2026-11-12</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/connect-shopline-to-chatgpt</loc>
+         <lastmod>2026-11-26</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/connect-shopline-to-claude</loc>
+         <lastmod>2026-11-26</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/connect-shopline-to-perplexity</loc>
+         <lastmod>2026-11-26</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/connect-slack-to-chatgpt</loc>
          <lastmod>2026-11-15</lastmod>
     </url>
@@ -7545,6 +7557,10 @@
          <lastmod>2026-11-01</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/vigialegal-mcp</loc>
+         <lastmod>2026-11-26</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/viral-manager-mcp</loc>
          <lastmod>2026-11-19</lastmod>
     </url>
@@ -8411,6 +8427,10 @@
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-november25-2026-night</loc>
          <lastmod>2026-11-25</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-november26-2026-midday-supplement</loc>
+         <lastmod>2026-11-26</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-november26-2026-midday</loc>
