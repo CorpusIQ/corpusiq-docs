@@ -1,7 +1,7 @@
 ---
 title: How Business AI Agents Handle Data Access
 description: "Setup and usage guide for How Business AI Agents Handle Data Access - The Infrastructure Layer. Part of the Hermes resource directory."
-last_updated: 2026-11-01
+last_updated: 2026-11-26
 canonical: "https://www.corpusiq.io/docs/hermes/architecture/business-ai-data-access-layers/"
 robots: "index,follow"
 tags: ["hermes agent", "ai agent", "nous research"]
@@ -45,7 +45,7 @@ Validation means:
 
 ## Why Stateless Matters
 
-The stateless MCP specification (protocol version 2026-07-28) makes this architecture practical at scale. Every connector call is a discrete HTTP request with its own authentication. No sessions. No connection state. No sticky routing.
+The stateless MCP specification ([protocol version 2026-07-28](/hermes/mcp/spec/mcp-26-stateless-migration/)) makes this architecture practical at scale. Every connector call is a discrete HTTP request with its own authentication. No sessions. No connection state. No sticky routing.
 
 If a connector goes down, the others keep working. If a user switches from ChatGPT to Claude mid-session, the same connector serves both. The data layer is independent of the AI layer.
 
