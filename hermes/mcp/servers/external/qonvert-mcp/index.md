@@ -135,7 +135,7 @@ The honest half of this server is a **pre-flight check with a citation**. Our ow
 
 ## See also
 
-- [Google Ads MCP](/hermes/mcp/servers/external/google-ads-mcp/) for reading ad performance directly rather than through an adviser layer.
-- [Google Analytics MCP](/hermes/mcp/servers/external/google-analytics-mcp/) for the analytics half of the same stack.
+- [Google Ads MCP](/hermes/mcp/servers/external/google-ads-mcp) for reading ad performance directly rather than through an adviser layer.
+- [Google Analytics MCP](/hermes/mcp/servers/external/google-analytics-mcp) for the analytics half of the same stack.
 - [GoodLeads MCP](/hermes/mcp/servers/external/goodleads-mcp/) for new-business lead data feeding the other end of the funnel.
 - [External MCP Server Catalog](/hermes/mcp/servers/external/) for the full index.
