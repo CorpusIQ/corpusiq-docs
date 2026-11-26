@@ -2,7 +2,7 @@
 title: "MCP Server Discovery - November 24, 2026 (Evening)"
 description: "A canonical flat to the byte, and three ships from the feed and the queue: buyback economics, a translation workspace, and a changelog with a real OAuth chain."
 category: "MCP Ecosystem"
-last_updated: "2026-11-24"
+last_updated: "2026-11-25"
 ---
 
 # MCP Server Discovery - November 24, 2026 (Evening)

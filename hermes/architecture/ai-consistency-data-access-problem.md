@@ -24,7 +24,7 @@ When you ask an AI about your business, it has three options for answering:
 
 **Option 2: Web search.** The AI searches the open web. If your revenue is public anywhere (investor decks, press releases, blog posts), it might find it. If it is not public, the AI is searching for something that does not exist.
 
-**Option 3: Direct access.** The AI connects to your actual business tools. Shopify for orders. Stripe for payments. QuickBooks for books. GA4 for traffic. Every answer traces back to live data. Same sources. Same answer. Every AI. Every time.
+**Option 3: Direct access.** The AI connects to your actual business tools over the Model Context Protocol (MCP). Shopify for orders. Stripe for payments. QuickBooks for books. GA4 for traffic. Every answer traces back to live data. Same sources. Same answer. Every AI. Every time.
 
 ## Why Option 3 Is the Only One That Matters
 
