@@ -111,8 +111,8 @@
     "description": "The most common issues when connecting CorpusIQ to Claude Desktop, ChatGPT, Cursor, or any MCP client. Start here before escalating to support..",
     "url": "https://www.corpusiq.io/docs/troubleshooting/mcp-connection-errors",
     
-    "datePublished": "2026-11-01",
-    "dateModified": "2026-11-01",
+    "datePublished": "2026-11-26",
+    "dateModified": "2026-11-26",
     
     "author": {
       "@type": "Organization",
@@ -136,7 +136,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-11-01">
+  <meta name="last-updated" content="2026-11-26">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -188,7 +188,7 @@
   </script>
 
   
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Article", "TechArticle"], "headline": "MCP Connection Errors", "url": "https://www.corpusiq.io/docs/troubleshooting/mcp-connection-errors", "image": "https://www.corpusiq.io/og?title=MCP%20Connection%20Errors&category=Docs", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.corpusiq.io/docs/troubleshooting/mcp-connection-errors"}, "datePublished": "2026-11-01", "dateModified": "2026-11-01", "author": {"@id": "https://www.corpusiq.io#organization"}, "publisher": {"@id": "https://www.corpusiq.io#organization"}, "isPartOf": {"@id": "https://www.corpusiq.io#website"}, "inLanguage": "en-US", "description": "The most common issues when connecting CorpusIQ to Claude Desktop, ChatGPT, Cursor, or any MCP client. Start here before escalating to support..", "articleSection": "Troubleshooting"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Article", "TechArticle"], "headline": "MCP Connection Errors", "url": "https://www.corpusiq.io/docs/troubleshooting/mcp-connection-errors", "image": "https://www.corpusiq.io/og?title=MCP%20Connection%20Errors&category=Docs", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.corpusiq.io/docs/troubleshooting/mcp-connection-errors"}, "datePublished": "2026-11-01", "dateModified": "2026-11-26", "author": {"@id": "https://www.corpusiq.io#organization"}, "publisher": {"@id": "https://www.corpusiq.io#organization"}, "isPartOf": {"@id": "https://www.corpusiq.io#website"}, "inLanguage": "en-US", "description": "The most common issues when connecting CorpusIQ to Claude Desktop, ChatGPT, Cursor, or any MCP client. Start here before escalating to support..", "articleSection": "Troubleshooting"}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Docs", "item": "https://www.corpusiq.io/docs"}, {"@type": "ListItem", "position": 2, "name": "Troubleshooting", "item": "https://www.corpusiq.io/docs/troubleshooting"}, {"@type": "ListItem", "position": 3, "name": "MCP Connection Errors", "item": "https://www.corpusiq.io/docs/troubleshooting/mcp-connection-errors"}]}</script>
 </head>
   
@@ -2334,6 +2334,17 @@
     <span class="md-ellipsis">
       
         Symptom: "MCP Server requires OAuth" or "Device login required"
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#symptom-a-new-sign-in-tab-opens-every-30-seconds-or-the-first-sign-in-never-finishes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Symptom: A new sign-in tab opens every 30 seconds, or the first sign-in never finishes
       
     </span>
   </a>
@@ -14228,6 +14239,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#symptom-a-new-sign-in-tab-opens-every-30-seconds-or-the-first-sign-in-never-finishes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Symptom: A new sign-in tab opens every 30 seconds, or the first sign-in never finishes
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#symptom-tool-not-found-or-no-tools-available" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -14351,6 +14373,18 @@
 <span class="w">  </span><span class="p">}</span>
 <span class="p">}</span>
 </code></pre></div></p>
+<h2 id="symptom-a-new-sign-in-tab-opens-every-30-seconds-or-the-first-sign-in-never-finishes">Symptom: A new sign-in tab opens every 30 seconds, or the first sign-in never finishes<a class="headerlink" href="#symptom-a-new-sign-in-tab-opens-every-30-seconds-or-the-first-sign-in-never-finishes" title="Anchor link to this section">&para;</a></h2>
+<p><strong>What it means:</strong> You are connecting through the <code>mcp-remote</code> stdio bridge, which our Claude Desktop configs use when the client cannot speak remote HTTP directly, and you are on a version older than 0.17.</p>
+<p><strong>Cause:</strong> Two bridge bugs fixed upstream:</p>
+<ul>
+<li><code>mcp-remote</code> 0.16.7 could sit forever on the first sign-in because it waited on an idle browser connection to its callback server.</li>
+<li>Versions before 0.17.1 could open a new sign-in tab every 30 seconds off an expired keep-alive token, with no limit.</li>
+</ul>
+<p><strong>Fix:</strong>
+1. Run the bridge at its latest version, for example <code>npx -y mcp-remote@latest https://mcp2.corpusiq.io/mcp</code>
+2. If your config pins a version, switch the pin to <code>mcp-remote@latest</code> and restart the client completely
+3. If an old copy is cached, clear it with <code>npm cache clean --force</code>, then launch once more</p>
+<p>After the tab completes, the token is cached locally and later launches reconnect without opening a browser.</p>
 <h2 id="symptom-tool-not-found-or-no-tools-available">Symptom: "Tool not found" or "No tools available"<a class="headerlink" href="#symptom-tool-not-found-or-no-tools-available" title="Anchor link to this section">&para;</a></h2>
 <p><strong>What it means:</strong> Authentication worked but CorpusIQ isn't exposing any tools to your client.</p>
 <p><strong>Common causes:</strong>
