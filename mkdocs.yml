@@ -183,6 +183,7 @@ nav:
   - Connect OneDrive to ChatGPT: connect-onedrive-to-chatgpt.md
   - Connect Etsy to ChatGPT: connect-etsy-to-chatgpt.md
   - Connect eBay to ChatGPT: connect-ebay-to-chatgpt.md
+  - Connect SHOPLINE to ChatGPT: connect-shopline-to-chatgpt.md
 - Claude Integrations:
   - Connect Shopify to Claude: connect-shopify-to-claude.md
   - Connect QuickBooks to Claude: connect-quickbooks-to-claude.md
@@ -225,6 +226,7 @@ nav:
   - Connect TikTok to Claude: connect-tiktok-to-claude.md
   - Connect eBay to Claude: connect-ebay-to-claude.md
   - Connect Etsy to Claude: connect-etsy-to-claude.md
+  - Connect SHOPLINE to Claude: connect-shopline-to-claude.md
   - Connect OneDrive to Claude: connect-onedrive-to-claude.md
 - Perplexity Integrations:
   - Connect QuickBooks to Perplexity: connect-quickbooks-to-perplexity.md
@@ -268,6 +270,7 @@ nav:
   - Connect Azure Cosmos DB to Perplexity: connect-cosmosdb-to-perplexity.md
   - Connect Microsoft SQL Server to Perplexity: connect-mssql-to-perplexity.md
   - Connect eBay to Perplexity: connect-ebay-to-perplexity.md
+  - Connect SHOPLINE to Perplexity: connect-shopline-to-perplexity.md
   - Connect OneDrive to Perplexity: connect-onedrive-to-perplexity.md
 - Business AI Use Cases:
   - AI for Business Intelligence: ai-for-business-intelligence.md

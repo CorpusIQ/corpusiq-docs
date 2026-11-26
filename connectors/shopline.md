@@ -47,6 +47,13 @@ Read-only. CorpusIQ does not edit products, change prices, fulfil orders, or mes
 - Inventory numbers look stale: stock levels update as SHOPLINE recalculates them; reconnect if a full day passes without changes.
 - Wrong store connected: disconnect SHOPLINE in the dashboard, switch stores in SHOPLINE, then reconnect.
 
+## See also
+
+- [Connect SHOPLINE to ChatGPT](../connect-shopline-to-chatgpt.md) - orders, stock and refund questions inside a ChatGPT thread.
+- [Connect SHOPLINE to Claude](../connect-shopline-to-claude.md) - the same store questions in Claude Desktop, with the device-login setup.
+- [Connect SHOPLINE to Perplexity](../connect-shopline-to-perplexity.md) - the same questions asked from Perplexity.
+- [Connect Shopify to ChatGPT](../connect-shopify-to-chatgpt.md) - the store you run on the other storefront platform.
+
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

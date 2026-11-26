@@ -108,7 +108,7 @@ The pattern worth taking from this server is the **restraint paragraph**. A tool
 
 ## See also
 
-- [Financial News MCP](/hermes/mcp/servers/external/financial-news-mcp/) for dated market headlines against the same events.
+- [Financial News MCP](/hermes/mcp/servers/external/financial-news-mcp) for dated market headlines against the same events.
 - [APITube News MCP](/hermes/mcp/servers/external/apitube-news-mcp/) for a general news wire rather than a bloc-framed dossier.
 - [Klarix Intelligence Engine MCP](/hermes/mcp/servers/external/klarix-intelligence-engine-mcp/) for the B2B competitive-intelligence counterpart.
 - [External MCP Server Catalog](/hermes/mcp/servers/external/) for the full index.
