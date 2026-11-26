@@ -28,7 +28,7 @@ A read-only connection between your business tools and the AI you already pay fo
 
 - One question, answered from live data, sources attached
 - The same business rules applied in ChatGPT, Claude, and Perplexity
-- Read-only access by design, nothing breaks, and CorpusIQ does not train models on your data
+- Read-only access by design, nothing breaks. CorpusIQ does not train models on customer data; conversation handling follows the selected AI provider's plan
 - Answers you can act on, because you can check them
 
 The AI will change. Your business understanding should not have to.
