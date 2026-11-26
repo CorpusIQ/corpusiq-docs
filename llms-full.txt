@@ -41219,7 +41219,8 @@ Eight pages for the most common things that go sideways.
   Start here if you see an error.
 - [MCP connection errors](mcp-connection-errors.md) - "My MCP client
   can't connect to CorpusIQ." Covers connection refused, 401 unauthorized,
-  OAuth device login, tool-not-found, timeout, and rate limit errors.
+  OAuth device login, repeated sign-in tabs or a first sign-in that never
+  finishes, tool-not-found, timeout, and rate limit errors.
 - [Connector authentication failed](connector-auth-failed.md) - "I tried to
   connect Shopify and it failed."
 - [Connector shows no data](connector-shows-no-data.md) - "It says
@@ -41804,6 +41805,22 @@ For CLI tools using device login, the config looks like:
   }
 }
 ```
+
+## Symptom: A new sign-in tab opens every 30 seconds, or the first sign-in never finishes
+
+**What it means:** You are connecting through the `mcp-remote` stdio bridge, which our Claude Desktop configs use when the client cannot speak remote HTTP directly, and you are on a version older than 0.17.
+
+**Cause:** Two bridge bugs fixed upstream:
+
+- `mcp-remote` 0.16.7 could sit forever on the first sign-in because it waited on an idle browser connection to its callback server.
+- Versions before 0.17.1 could open a new sign-in tab every 30 seconds off an expired keep-alive token, with no limit.
+
+**Fix:**
+1. Run the bridge at its latest version, for example `npx -y mcp-remote@latest https://mcp2.corpusiq.io/mcp`
+2. If your config pins a version, switch the pin to `mcp-remote@latest` and restart the client completely
+3. If an old copy is cached, clear it with `npm cache clean --force`, then launch once more
+
+After the tab completes, the token is cached locally and later launches reconnect without opening a browser.
 
 ## Symptom: "Tool not found" or "No tools available"
 
