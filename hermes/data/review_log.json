@@ -24170,5 +24170,110 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-11-25T11:33:13.220243+00:00"
+  },
+  {
+    "repo": "saasagelabs/twring",
+    "score": 65,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-26T11:33:12.645848+00:00"
+  },
+  {
+    "repo": "wallter/a2p2",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-26T11:33:12.645863+00:00"
+  },
+  {
+    "repo": "phelipefrana-droid/jarvis-guia",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-26T11:33:12.645866+00:00"
+  },
+  {
+    "repo": "Elsfa7-110/Hermes-BugHunter",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-26T11:33:12.645868+00:00"
+  },
+  {
+    "repo": "gordonfu/hermes-win7",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-26T11:33:12.645870+00:00"
+  },
+  {
+    "repo": "richardnorthcott/frontierstack-agent-kit",
+    "score": 48,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-26T11:33:12.645873+00:00"
+  },
+  {
+    "repo": "jhomhermes/google-workspace-mcp",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-26T11:33:12.645874+00:00"
+  },
+  {
+    "repo": "digitalmanager-commits/kareverse-mcp",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-26T11:33:12.645876+00:00"
+  },
+  {
+    "repo": "pleabargain/hermes-fuzzy-palette",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-26T11:33:12.645878+00:00"
+  },
+  {
+    "repo": "mechacut/plugin",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-26T11:33:12.645880+00:00"
+  },
+  {
+    "repo": "cnanaj-wq/hermes-brief-bi",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-26T11:33:12.645882+00:00"
+  },
+  {
+    "repo": "happyDxian/hermes-agent",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-26T11:33:12.645884+00:00"
+  },
+  {
+    "repo": "specivo/specivo",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-26T11:33:12.645886+00:00"
+  },
+  {
+    "repo": "ParadoxKr/hermes-feishu",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-26T11:33:12.645888+00:00"
+  },
+  {
+    "repo": "studioluftbruecke/hermes-coolifybruecke",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-26T11:33:12.645890+00:00"
   }
 ]
