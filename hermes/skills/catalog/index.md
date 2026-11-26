@@ -3,7 +3,7 @@ title: "Hermes Skills Catalog - Quality-Tiered Directory"
 description: "Curated directory of community-validated Hermes agent skills. Quality tiers (Production/Beta/Community), starter pack, evaluation guide, and installation"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/"
 robots: "index,follow"
-last_updated: "2026-11-25"
+last_updated: "2026-11-26"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
@@ -178,6 +178,27 @@ The catalog is a living resource. Skills are added weekly. Check back often, and
 
 ## All Skills Catalog Pages
 
+### New - November 26, 2026 Morning Sweep (19 publisher guides)
+
+- [FastAPI - Official FastAPI Agent Skill Setup](/hermes/skills/catalog/fastapi-setup) - fastapi/fastapi, 16,588 combined, 1 listings, 105,048 stars, MIT licence, the official FastAPI repository's single agent skill: best practices for path operations, Pydantic models, dependencies, streaming responses and serving frontend apps
+- [Claude Code Tauri Skills - Tauri v2 Development Setup](/hermes/skills/catalog/claude-code-tauri-skills-setup) - dchuk/claude-code-tauri-skills, 8,399 combined, 39 listings, 36 stars, no LICENSE file, 39 Claude Code skills for Tauri v2 desktop development across setup, security, development and distribution
+- [Remotion Motion Graphics Skill - Agent Video Setup](/hermes/skills/catalog/remotion-motion-graphics-skill-setup) - liamrjohnston/remotion-motion-graphics-skill, 8,230 combined, 4 listings, 182 stars, MIT licence, four Remotion motion-graphics skills for cinematic camera moves, article highlights and terminal inserts in AI video workflows
+- [Superpowers Laravel - Laravel Skills for Claude Code Setup](/hermes/skills/catalog/superpowers-laravel-setup) - jpcaparas/superpowers-laravel, 7,230 combined, 57 listings, 157 stars, MIT licence, a Laravel plugin on the Superpowers framework with TDD, Eloquent, queue and quality-gate skills plus a SessionStart hook that detects Laravel apps
+- [Angular Best Practices - Agent Rules and Library Skills](/hermes/skills/catalog/angular-best-practices-setup) - alfredoperez/angular-best-practices, 5,873 combined, 12 listings, 36 stars, no LICENSE file, curated Angular best practices for AI agents, archived on GitHub in March 2026
+- [Herk Edit Kit - AI Video Editing Setup](/hermes/skills/catalog/herk-edit-kit-setup) - nateherkai/herk-edit-kit, 4,046 combined, 14 listings, 3,176 stars, NOASSERTION licence field, Nate Herk's transcript-driven video editing kit with 406 motion-graphics cards and HyperFrames templates
+- [Beautiful Rust - Idiomatic Rust Skills Setup](/hermes/skills/catalog/beautifulrust-setup) - morganlinton/beautifulrust, 3,761 combined, 3 listings, 2,143 stars, MIT licence, three Rust skills that teach a coding agent to write, review and port idiomatic Rust, plus a tested clippy config
+- [HelixDB Skills - Query, Memory, and Foundry MCP Setup](/hermes/skills/catalog/helixdb-skills-setup) - helixdb/skills, 3,705 combined, 18 listings, 6 stars, MIT licence, agent skills and the Helix MCP for a cited knowledge graph of your data with graph and vector queries
+- [Claude Elixir Phoenix - Elixir/Phoenix Plugin Setup](/hermes/skills/catalog/claude-elixir-phoenix-setup) - oliver-kriska/claude-elixir-phoenix, 3,602 combined, 96 listings, 578 stars, MIT licence, an Elixir/Phoenix/LiveView Claude Code plugin with 26 specialist agents, Iron Laws enforcement and Tidewave MCP integration
+- [Astro Skills - Contributor and PR Workflows Setup](/hermes/skills/catalog/astro-setup) - withastro/astro, 3,579 combined, 10 listings, 64,220 stars, NOASSERTION licence field, the official Astro framework repository's agent skills for content-driven websites
+- [Souliane Skills - Python, Django and Codebase Review Setup](/hermes/skills/catalog/souliane-skills-setup) - souliane/skills, 3,415 combined, 9 listings, 1 stars, MIT licence, Python, Django and codebase-review skills (ac-python, ac-django, ac-reviewing-codebase) from a publisher with no repository description
+- [vladmdgolam Agent Skills - Blender and Cinema 4D Setup](/hermes/skills/catalog/vladmdgolam-agent-skills-setup) - vladmdgolam/agent-skills, 3,367 combined, 12 listings, 9 stars, MIT licence, Blender and Cinema 4D MCP bridges plus visual-feedback and reverse-engineering skills for 3D and design agents
+- [Amethyst Skills - Kotlin & Compose Expertise Setup](/hermes/skills/catalog/amethyst-setup) - vitorpamplona/amethyst, 3,131 combined, 25 listings, 1,626 stars, MIT licence, Kotlin Multiplatform and Jetpack Compose expertise skills drawn from the Amethyst Nostr client for Android
+- [Drupal Claude Skills - Drupal Development Setup](/hermes/skills/catalog/drupal-claude-skills-setup) - grasmash/drupal-claude-skills, 3,102 combined, 24 listings, 85 stars, MIT licence, Drupal skills and subagents for config management, contrib updates, security and DDEV, from a repository with an empty description on skills.sh
+- [Wren AI Skills - Governed Text-to-SQL Setup](/hermes/skills/catalog/wrenai-setup) - canner/wrenai, 2,865 combined, 6 listings, 18,407 stars, NOASSERTION licence field, Wren AI GenBI skills that turn natural-language questions into trusted SQL and dashboards through an open context layer
+- [Drupal Canvas Skills - Code Components Setup](/hermes/skills/catalog/drupal-canvas-skills-setup) - drupal-canvas/skills, 2,805 combined, 17 listings, 3 stars, MIT licence, Drupal Canvas Code Component skills for React/JSX components with metadata, styling and Storybook workflows
+- [Drupal AI - Drupal 11 Toolkit Setup](/hermes/skills/catalog/drupal-ai-setup) - edutrul/drupal-ai, 2,129 combined, 35 listings, 75 stars, MIT licence, a Drupal 11 operating environment with 35 skills, 10 subagents, 8 slash commands and rules tuned for Claude Code, Codex, Cursor and Copilot
+- [Altinity Skills - ClickHouse DBA and Dev Setup](/hermes/skills/catalog/altinity-skills-setup) - altinity/altinity-skills, 1,948 combined, 27 listings, 18 stars, Apache-2.0 licence, Altinity's ClickHouse development and DBA skills covering queries, schemas, caches and cluster operations
+- [WooCommerce Skills - Store Operations via REST API Setup](/hermes/skills/catalog/woocommerce-skill-setup) - navarroido/woocommerce-skill, 1,911 combined, 56 listings, 8 stars, MIT licence, WooCommerce skills on a claude/woocommerce-ai-skills branch covering store building and product work
 ### New - November 25, 2026 Evening Sweep (14 publisher guides)
 
 - [Continuous Claude - Context Management for Claude Code Setup](/hermes/skills/catalog/parcadei-continuous-claude-v3-setup) - parcadei/continuous-claude-v3, 53,409 combined, 96 listings, 3,953 stars, MIT licence, a persistent, learning, multi-agent development environment built on Claude Code, where hooks maintain state through ledgers and handoffs so work resumes across sessions
