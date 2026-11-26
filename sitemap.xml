@@ -2949,6 +2949,10 @@
          <lastmod>2026-11-16</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/americanspend-mcp</loc>
+         <lastmod>2026-11-26</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/amz-vault-mcp</loc>
          <lastmod>2026-11-19</lastmod>
     </url>
@@ -5045,6 +5049,10 @@
          <lastmod>2026-11-19</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/leadgen-onrc-mcp</loc>
+         <lastmod>2026-11-26</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/leadpages-mcp</loc>
          <lastmod>2026-11-01</lastmod>
     </url>
@@ -6537,6 +6545,10 @@
          <lastmod>2026-11-01</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/seacoldchain-mcp</loc>
+         <lastmod>2026-11-26</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/seatlayer-mcp</loc>
          <lastmod>2026-11-01</lastmod>
     </url>
@@ -6639,6 +6651,10 @@
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/shareglow-mcp</loc>
          <lastmod>2026-11-01</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/shelfxray-mcp</loc>
+         <lastmod>2026-11-26</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/shenton-brokers-mcp</loc>
@@ -8395,6 +8411,10 @@
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-november25-2026-night</loc>
          <lastmod>2026-11-25</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-november26-2026-midday</loc>
+         <lastmod>2026-11-26</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-november26-2026-night</loc>
