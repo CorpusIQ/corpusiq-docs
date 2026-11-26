@@ -13,7 +13,8 @@ Eight pages for the most common things that go sideways.
   Start here if you see an error.
 - [MCP connection errors](mcp-connection-errors.md) - "My MCP client
   can't connect to CorpusIQ." Covers connection refused, 401 unauthorized,
-  OAuth device login, tool-not-found, timeout, and rate limit errors.
+  OAuth device login, repeated sign-in tabs or a first sign-in that never
+  finishes, tool-not-found, timeout, and rate limit errors.
 - [Connector authentication failed](connector-auth-failed.md) - "I tried to
   connect Shopify and it failed."
 - [Connector shows no data](connector-shows-no-data.md) - "It says

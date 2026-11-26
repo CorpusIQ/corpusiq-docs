@@ -1,7 +1,7 @@
 ---
 title: "MCP Connection Errors - CorpusIQ Docs"
 description: "The most common issues when connecting CorpusIQ to Claude Desktop, ChatGPT, Cursor, or any MCP client. Start here before escalating to support.."
-last_updated: "2026-11-01"
+last_updated: "2026-11-26"
 ---
 # MCP Connection Errors - Troubleshooting Guide
 
@@ -74,6 +74,22 @@ For CLI tools using device login, the config looks like:
   }
 }
 ```
+
+## Symptom: A new sign-in tab opens every 30 seconds, or the first sign-in never finishes
+
+**What it means:** You are connecting through the `mcp-remote` stdio bridge, which our Claude Desktop configs use when the client cannot speak remote HTTP directly, and you are on a version older than 0.17.
+
+**Cause:** Two bridge bugs fixed upstream:
+
+- `mcp-remote` 0.16.7 could sit forever on the first sign-in because it waited on an idle browser connection to its callback server.
+- Versions before 0.17.1 could open a new sign-in tab every 30 seconds off an expired keep-alive token, with no limit.
+
+**Fix:**
+1. Run the bridge at its latest version, for example `npx -y mcp-remote@latest https://mcp2.corpusiq.io/mcp`
+2. If your config pins a version, switch the pin to `mcp-remote@latest` and restart the client completely
+3. If an old copy is cached, clear it with `npm cache clean --force`, then launch once more
+
+After the tab completes, the token is cached locally and later launches reconnect without opening a browser.
 
 ## Symptom: "Tool not found" or "No tools available"
 
