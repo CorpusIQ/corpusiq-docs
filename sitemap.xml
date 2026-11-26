@@ -1354,7 +1354,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/architecture/ai-consistency-data-access-problem</loc>
-         <lastmod>2026-11-01</lastmod>
+         <lastmod>2026-11-25</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/architecture/business-ai-data-access-layers</loc>
@@ -1886,7 +1886,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/guides/business-intelligence-era-of-ai</loc>
-         <lastmod>2026-11-01</lastmod>
+         <lastmod>2026-11-25</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/guides/check-ai-answer-against-your-books</loc>
@@ -6125,6 +6125,10 @@
          <lastmod>2026-11-19</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/prismintel-mcp</loc>
+         <lastmod>2026-11-25</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/privatrak-mcp</loc>
          <lastmod>2026-11-01</lastmod>
     </url>
@@ -6183,6 +6187,10 @@
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/qodflow-mcp</loc>
          <lastmod>2026-11-01</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/qonvert-mcp</loc>
+         <lastmod>2026-11-25</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/qorenext-crm-mcp</loc>
@@ -7055,6 +7063,10 @@
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/superserve-mcp</loc>
          <lastmod>2026-11-01</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/suppliers-net</loc>
+         <lastmod>2026-11-25</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/svatlas-mcp</loc>
@@ -8350,7 +8362,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-november24-2026-evening</loc>
-         <lastmod>2026-11-24</lastmod>
+         <lastmod>2026-11-25</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-november24-2026-midday-supplement</loc>
@@ -8363,6 +8375,10 @@
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-november24-2026-night</loc>
          <lastmod>2026-11-24</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-november25-2026-evening</loc>
+         <lastmod>2026-11-25</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-november25-2026-midday-supplement</loc>
@@ -9346,7 +9362,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog</loc>
-         <lastmod>2026-11-24</lastmod>
+         <lastmod>2026-11-25</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/01coder-agent-skills-setup</loc>
@@ -15266,7 +15282,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/marketplace</loc>
-         <lastmod>2026-11-24</lastmod>
+         <lastmod>2026-11-25</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/marketplace/new-aug10-2026</loc>

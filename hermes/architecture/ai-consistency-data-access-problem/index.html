@@ -107,8 +107,8 @@
     "description": "Setup and usage guide for The AI Consistency Problem No One Is Talking About. Part of the Hermes resource directory.",
     "url": "https://www.corpusiq.io/docs/hermes/architecture/ai-consistency-data-access-problem",
     
-    "datePublished": "2026-11-01",
-    "dateModified": "2026-11-01",
+    "datePublished": "2026-11-25",
+    "dateModified": "2026-11-25",
     
     "author": {
       "@type": "Organization",
@@ -132,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-11-01">
+  <meta name="last-updated" content="2026-11-25">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -184,7 +184,7 @@
   </script>
 
   
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Article", "TechArticle"], "headline": "The AI Consistency Problem No One Is Talking About", "url": "https://www.corpusiq.io/docs/hermes/architecture/ai-consistency-data-access-problem", "image": "https://www.corpusiq.io/og?title=The%20AI%20Consistency%20Problem%20No%20One%20Is%20Talking%20About&category=Docs", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.corpusiq.io/docs/hermes/architecture/ai-consistency-data-access-problem"}, "datePublished": "2026-11-01", "dateModified": "2026-11-01", "author": {"@id": "https://www.corpusiq.io#organization"}, "publisher": {"@id": "https://www.corpusiq.io#organization"}, "isPartOf": {"@id": "https://www.corpusiq.io#website"}, "inLanguage": "en-US", "description": "Setup and usage guide for The AI Consistency Problem No One Is Talking About. Part of the Hermes resource directory.", "articleSection": "Hermes"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Article", "TechArticle"], "headline": "The AI Consistency Problem No One Is Talking About", "url": "https://www.corpusiq.io/docs/hermes/architecture/ai-consistency-data-access-problem", "image": "https://www.corpusiq.io/og?title=The%20AI%20Consistency%20Problem%20No%20One%20Is%20Talking%20About&category=Docs", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.corpusiq.io/docs/hermes/architecture/ai-consistency-data-access-problem"}, "datePublished": "2026-11-01", "dateModified": "2026-11-25", "author": {"@id": "https://www.corpusiq.io#organization"}, "publisher": {"@id": "https://www.corpusiq.io#organization"}, "isPartOf": {"@id": "https://www.corpusiq.io#website"}, "inLanguage": "en-US", "description": "Setup and usage guide for The AI Consistency Problem No One Is Talking About. Part of the Hermes resource directory.", "articleSection": "Hermes"}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Docs", "item": "https://www.corpusiq.io/docs"}, {"@type": "ListItem", "position": 2, "name": "Hermes", "item": "https://www.corpusiq.io/docs/hermes"}, {"@type": "ListItem", "position": 3, "name": "Architecture", "item": "https://www.corpusiq.io/docs/hermes/architecture"}, {"@type": "ListItem", "position": 4, "name": "The AI Consistency Problem No One Is Talking About", "item": "https://www.corpusiq.io/docs/hermes/architecture/ai-consistency-data-access-problem"}]}</script>
 </head>
   
@@ -14138,7 +14138,7 @@
 <p>When you ask an AI about your business, it has three options for answering:</p>
 <p><strong>Option 1: Training data.</strong> The AI guesses based on patterns it learned during training. It might say "$50,000" because that is a common small business revenue number, not because it looked at your actual data. This is the AI equivalent of a stranger guessing your salary.</p>
 <p><strong>Option 2: Web search.</strong> The AI searches the open web. If your revenue is public anywhere (investor decks, press releases, blog posts), it might find it. If it is not public, the AI is searching for something that does not exist.</p>
-<p><strong>Option 3: Direct access.</strong> The AI connects to your actual business tools. Shopify for orders. Stripe for payments. QuickBooks for books. GA4 for traffic. Every answer traces back to live data. Same sources. Same answer. Every AI. Every time.</p>
+<p><strong>Option 3: Direct access.</strong> The AI connects to your actual business tools over the Model Context Protocol (MCP). Shopify for orders. Stripe for payments. QuickBooks for books. GA4 for traffic. Every answer traces back to live data. Same sources. Same answer. Every AI. Every time.</p>
 <h2 id="why-option-3-is-the-only-one-that-matters">Why Option 3 Is the Only One That Matters<a class="headerlink" href="#why-option-3-is-the-only-one-that-matters" title="Anchor link to this section">&para;</a></h2>
 <p>Training data gives you numbers from six months ago. Web search gives you numbers you intentionally made public. Direct access gives you the numbers your business actually runs on.</p>
 <p>The consistency problem disappears when every AI pulls from the same source. Not because the AI got smarter. Because the data pipeline replaced guessing with verification.</p>
