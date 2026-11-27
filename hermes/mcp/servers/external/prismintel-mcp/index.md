@@ -7,7 +7,7 @@ added: 2026-11-25
 source: "mcpservers.org arrival in the November 25 evening window, `servers/1..13` maps; official registry record app.prismintel/triage 1.0.0; keyless initialize, a two-tool tools/list and three tools/call requests driven against https://prismintel.app/api/mcp on 2026-11-25"
 relevance: "★★"
 tags: [geopolitics, risk, research, media-analysis, trade, supply-chain, keyless, remote-mcp]
-last_updated: "2026-11-25"
+last_updated: "2026-11-26"
 ---
 
 # Prismintel MCP

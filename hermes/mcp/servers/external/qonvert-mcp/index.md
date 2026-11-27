@@ -7,7 +7,7 @@ added: 2026-11-25
 source: "mcpservers.org arrival in the November 25 evening window, `servers/1..13` maps; official registry record ai.qonvert/qonvert 1.0.1; keyless initialize and an eighteen-tool tools/list over protocol 2025-11-25, plus ten tools/call requests driven against https://mcp.qonvert.ai/mcp on 2026-11-25"
 relevance: "★★"
 tags: [marketing, utm, tracking, google-ads, google-analytics, attribution, oauth, remote-mcp]
-last_updated: "2026-11-25"
+last_updated: "2026-11-26"
 ---
 
 # Qonvert MCP
