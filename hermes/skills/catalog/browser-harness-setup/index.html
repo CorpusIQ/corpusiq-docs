@@ -107,8 +107,8 @@
     "description": "Complete setup guide for browser-harness - AI agent browser automation skill from David Ondrej\u0027s skills collection.",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/browser-harness-setup",
     
-    "datePublished": "2026-11-01",
-    "dateModified": "2026-11-01",
+    "datePublished": "2026-11-27",
+    "dateModified": "2026-11-27",
     
     "author": {
       "@type": "Organization",
@@ -132,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-11-01">
+  <meta name="last-updated" content="2026-11-27">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -184,7 +184,7 @@
   </script>
 
   
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Article", "TechArticle"], "headline": "browser-harness Setup Guide - CorpusIQ Docs", "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/browser-harness-setup", "image": "https://www.corpusiq.io/og?title=browser-harness%20Setup%20Guide%20-%20CorpusIQ%20Docs&category=Docs", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.corpusiq.io/docs/hermes/skills/catalog/browser-harness-setup"}, "datePublished": "2026-11-01", "dateModified": "2026-11-01", "author": {"@id": "https://www.corpusiq.io#organization"}, "publisher": {"@id": "https://www.corpusiq.io#organization"}, "isPartOf": {"@id": "https://www.corpusiq.io#website"}, "inLanguage": "en-US", "description": "Complete setup guide for browser-harness - AI agent browser automation skill from David Ondrej's skills collection.", "articleSection": "Hermes"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Article", "TechArticle"], "headline": "browser-harness Setup Guide - CorpusIQ Docs", "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/browser-harness-setup", "image": "https://www.corpusiq.io/og?title=browser-harness%20Setup%20Guide%20-%20CorpusIQ%20Docs&category=Docs", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.corpusiq.io/docs/hermes/skills/catalog/browser-harness-setup"}, "datePublished": "2026-11-01", "dateModified": "2026-11-27", "author": {"@id": "https://www.corpusiq.io#organization"}, "publisher": {"@id": "https://www.corpusiq.io#organization"}, "isPartOf": {"@id": "https://www.corpusiq.io#website"}, "inLanguage": "en-US", "description": "Complete setup guide for browser-harness - AI agent browser automation skill from David Ondrej's skills collection.", "articleSection": "Hermes"}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Docs", "item": "https://www.corpusiq.io/docs"}, {"@type": "ListItem", "position": 2, "name": "Hermes", "item": "https://www.corpusiq.io/docs/hermes"}, {"@type": "ListItem", "position": 3, "name": "Skills", "item": "https://www.corpusiq.io/docs/hermes/skills"}, {"@type": "ListItem", "position": 4, "name": "Catalog", "item": "https://www.corpusiq.io/docs/hermes/skills/catalog"}, {"@type": "ListItem", "position": 5, "name": "browser-harness Setup Guide - CorpusIQ Docs", "item": "https://www.corpusiq.io/docs/hermes/skills/catalog/browser-harness-setup"}]}</script>
 </head>
   
@@ -14254,8 +14254,8 @@
 
 
 <h1 id="browser-harness-setup-guide">browser-harness Setup Guide<a class="headerlink" href="#browser-harness-setup-guide" title="Anchor link to this section">&para;</a></h1>
-<p><strong>Skill:</strong> <code>browser-harness</code> · <strong>Installs:</strong> 1,200+ · <strong>Source:</strong> <a href="https://github.com/davidondrej/skills">davidondrej/skills</a></p>
-<p>Browser harness gives AI agents browser automation capabilities - navigate pages, click elements, extract data, fill forms, and take screenshots. Designed for headless operation on VPS and remote Linux servers where GUI browsers aren't available.</p>
+<p><strong>Skill:</strong> <code>browser-harness</code> · <strong>Installs:</strong> 971 (skills.sh, 2026-11-27) · <strong>Source:</strong> <a href="https://github.com/browser-use/browser-harness">browser-use/browser-harness</a></p>
+<p>Browser harness gives AI agents control of a real Chrome browser over the DevTools Protocol - navigate pages, click elements, extract data, fill forms, and take screenshots, signed in as the user. It is now the engine inside <a href="https://github.com/browser-use/browser-use">Browser Use</a>: the <code>browser-use</code> CLI ships the same helpers and daemon, and the <code>browser-harness</code> command keeps working. On servers without a GUI, it drives a headless Chrome the same way.</p>
 <hr />
 <h2 id="capabilities">Capabilities<a class="headerlink" href="#capabilities" title="Anchor link to this section">&para;</a></h2>
 <ul>
@@ -14263,18 +14263,24 @@
 <li>Element clicking, typing, and form filling</li>
 <li>Content extraction and data scraping</li>
 <li>Screenshot capture for visual verification</li>
-<li>Cookie and session management</li>
+<li>Cookie and session management, using the browser's existing logins</li>
 </ul>
 <h2 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Anchor link to this section">&para;</a></h2>
-<p>Node.js 18+, Playwright or Puppeteer installed on the system.</p>
+<p><code>uv</code> (Python 3.12 toolchain), Chrome or Chromium with a DevTools endpoint, and write access to the agent's skills directory.</p>
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
-<div class="highlight"><pre><span></span><code>npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>davidondrej/skills<span class="w"> </span>--skill<span class="w"> </span>browser-harness
+<div class="highlight"><pre><span></span><code>uv<span class="w"> </span>tool<span class="w"> </span>install<span class="w"> </span>--python<span class="w"> </span><span class="m">3</span>.12<span class="w"> </span>--upgrade<span class="w"> </span>--force<span class="w"> </span>browser-harness
+browser-harness<span class="w"> </span>skill<span class="w"> </span>&gt;<span class="w"> </span><span class="s2">&quot;</span><span class="si">${</span><span class="nv">CODEX_HOME</span><span class="k">:-</span><span class="nv">$HOME</span><span class="p">/.codex</span><span class="si">}</span><span class="s2">/skills/browser-harness/SKILL.md&quot;</span>
+</code></pre></div>
+<p>Or register the skill through the skills CLI:</p>
+<div class="highlight"><pre><span></span><code>npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>browser-use/browser-harness<span class="w"> </span>--skill<span class="w"> </span>browser-harness
 </code></pre></div>
 <h2 id="usage">Usage<a class="headerlink" href="#usage" title="Anchor link to this section">&para;</a></h2>
-<p>Load the skill in your agent session:</p>
-<div class="highlight"><pre><span></span><code>/ browser-harness
+<p>Smoke-test the harness first:</p>
+<div class="highlight"><pre><span></span><code>browser-harness<span class="w"> </span><span class="s">&lt;&lt;&#39;PY&#39;</span>
+<span class="s">print(page_info())</span>
+<span class="s">PY</span>
 </code></pre></div>
-<p>The skill activates and provides browser automation tools accessible through natural language commands.</p>
+<p>If <code>page_info()</code> prints, open <code>chrome://inspect/#remote-debugging</code> in your browser and tick the allow checkbox so the harness can attach. Then load the skill in your agent session and it provides the browser automation tools through natural language commands. Run <code>browser-harness recordings</code> once to set the local screenshot and action-trace preference.</p>
 <h2 id="troubleshooting">Troubleshooting<a class="headerlink" href="#troubleshooting" title="Anchor link to this section">&para;</a></h2>
 <table>
 <thead>
@@ -14286,15 +14292,15 @@
 <tbody>
 <tr>
 <td>Skill not found</td>
-<td>Verify <code>npx skills add</code> completed successfully and the skill appears in <code>npx skills list</code></td>
+<td>Re-run <code>browser-harness skill</code> and write its output to the agent's skills directory; remove any stale user-installed <code>browser</code> or <code>browser-use</code> skill directory that shadows it</td>
 </tr>
 <tr>
 <td>Browser not launching</td>
-<td>Ensure Playwright/Puppeteer is installed system-wide</td>
+<td>Open <code>chrome://inspect/#remote-debugging</code> and tick the allow checkbox, or start Chrome with a DevTools port on a headless server</td>
 </tr>
 <tr>
 <td>Permission errors on VPS</td>
-<td>Check that the agent user has access to the browser binary</td>
+<td>Check that the agent user can execute the browser binary and read its profile directory</td>
 </tr>
 </tbody>
 </table>
