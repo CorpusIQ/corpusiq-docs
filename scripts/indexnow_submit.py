@@ -125,6 +125,7 @@ def url_for_md(path):
 
 def main():
     changed = []
+    target = 'HEAD'
     if '--all' in sys.argv or not os.path.exists(MARKER):
         if not os.path.exists(SITEMAP):
             print('indexnow: no site/sitemap.xml (run a build first), skipping bootstrap')
@@ -136,8 +137,28 @@ def main():
         ok, sent = submit(urls)
     else:
         last = open(MARKER).read().strip()
+        # Diff against origin/main, not HEAD. Pages merged through the GitHub API
+        # by other crons never move this clone's HEAD, and there is no IndexNow
+        # workflow in CI, so a lagging clone silently skipped pages that were
+        # already live (Nov 27 2026: contributors + ecosystem went unsubmitted).
+        target = 'HEAD'
         try:
-            out = subprocess.run(['git', 'diff', '--name-only', f'{last}..HEAD'],
+            subprocess.run(['git', 'fetch', '-q', 'origin', 'main'],
+                           capture_output=True, text=True, timeout=90)
+            om = subprocess.run(['git', 'rev-parse', '--verify', 'origin/main'],
+                                capture_output=True, text=True, timeout=20).stdout.strip()
+            if om and subprocess.run(['git', 'merge-base', '--is-ancestor', last, om],
+                                     capture_output=True).returncode == 0:
+                target = om
+                head = subprocess.run(['git', 'rev-parse', 'HEAD'], capture_output=True,
+                                      text=True, timeout=20).stdout.strip()
+                if head and head != om:
+                    print(f'indexnow: clone HEAD {head[:10]} lags origin/main {om[:10]}, '
+                          f'diffing origin/main')
+        except Exception as e:
+            print(f'indexnow: origin/main ref unavailable ({type(e).__name__}), using HEAD')
+        try:
+            out = subprocess.run(['git', 'diff', '--name-only', f'{last}..{target}'],
                                  capture_output=True, text=True, timeout=60).stdout
         except Exception as e:
             print(f'indexnow: diff failed ({e}), skipping')
@@ -169,8 +190,10 @@ def main():
     try:
         head = subprocess.run(['git', 'rev-parse', 'HEAD'], capture_output=True,
                               text=True, timeout=30).stdout.strip()
-        if head:
-            open(MARKER, 'w').write(head + '\n')
+        sha = target if target != 'HEAD' else head
+        sha = sha or head
+        if sha:
+            open(MARKER, 'w').write(sha + '\n')
     except Exception:
         pass
 
