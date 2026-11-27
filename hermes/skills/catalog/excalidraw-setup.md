@@ -3,7 +3,7 @@ title: "excalidraw - Setup Guide - CorpusIQ Docs"
 description: Generate Excalidraw diagrams, sketches, and wireframes from text descriptions - visual thinking for Hermes agents.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/excalidraw-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-27"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
@@ -74,7 +74,7 @@ The skill integrates with Hermes' file and rendering tools:
 | Issue | Likely Cause | Resolution |
 |-------|-------------|------------|
 | JSON parse errors | Malformed Excalidraw structure | Validate against Excalidraw schema |
-| Export fails | Missing browser | Use `browser_use` or `browser_navigate` |
+| Export fails | Missing browser | Run the export inside `browser_exec`: `new_tab(...)`, then `js("...")` to trigger it. The `browser_*` tools were removed in v0.23.0 - see [Upgrading Hermes](/hermes/setup/upgrading) |
 | Shapes misaligned | Coordinate overflow | Keep diagrams under 2000x2000 px |
 
 ## Verification

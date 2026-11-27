@@ -2284,6 +2284,11 @@
       "statusCode": 301
     },
     {
+      "source": "/hermes/upgrading",
+      "destination": "/hermes/setup/upgrading",
+      "statusCode": 301
+    },
+    {
       "source": "/prompts/data-analysis",
       "destination": "/hermes/prompts/data-analysis",
       "statusCode": 301

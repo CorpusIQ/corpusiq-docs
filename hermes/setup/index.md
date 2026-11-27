@@ -4,7 +4,7 @@ description: "Complete Hermes Agent setup guide for any hardware platform. Quick
 
 category: setup
 tags: [hermes-agent, installation, setup-guide, getting-started, hardware, ollama, openrouter]
-last_updated: 2026-11-19
+last_updated: 2026-11-27
 canonical: "https://www.corpusiq.io/docs/hermes/setup/"
 robots: "index,follow"
 
@@ -124,6 +124,7 @@ Once Hermes Agent is running, add capabilities:
 
 - **[Session Cleanup](session-cleanup)** - Delete or prune old sessions and reclaim state.db disk space
 - **[Backup and Restore](backup-and-restore)** - Native `hermes backup` snapshots, full archives, and `hermes import` restore
+- **[Upgrading Hermes](upgrading)** - Breaking changes by release, renamed commands, and the replacement for each removed tool
 - **[MCP Integration](/hermes/mcp)** - Connect to Gmail, Slack, databases, and 40+ platforms
 - **[CorpusIQ MCP Setup](corpusiq-mcp)** - Connect 40+ business tools to Hermes in 5 minutes
 - **[CorpusIQ Cron Patterns](corpusiq-cron-patterns)** - Autonomous business monitoring with Hermes + CorpusIQ
