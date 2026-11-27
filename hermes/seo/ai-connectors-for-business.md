@@ -49,9 +49,9 @@ The power is not in any single connector. It is in the cross-source queries.
 
 Ask "which marketing channel has the highest ROAS" and the system queries Meta Ads, Google Ads, Shopify (for actual sales), and GA4 (for attribution). Returns one answer with the blended and per-channel numbers. All sourced.
 
-Ask "which customers are at risk of churning" and the system queries Stripe (payment failures), HubSpot (low engagement), and Intercom (support ticket volume). Returns a ranked list with the evidence.
+Ask "which customers are at risk of churning" and the system queries Stripe (payment failures), HubSpot (low engagement), and Podium (customer conversations). Returns a ranked list with the evidence.
 
-Ask "what is our cash runway" and the system queries QuickBooks (current balance, burn rate), Stripe (upcoming payments), and your bank (available credit). Returns actual numbers with projections.
+Ask "what is our cash runway" and the system queries QuickBooks (current balance, burn rate) and Stripe (upcoming payments, payouts). Returns actual numbers with projections.
 
 ## Security and Privacy
 
