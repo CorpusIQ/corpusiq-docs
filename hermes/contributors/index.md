@@ -8,7 +8,7 @@ tags:
   - open-source
   - submit-repo
   - ecosystem
-last_updated: 2026-11-26
+last_updated: 2026-11-27
 canonical: "https://www.corpusiq.io/docs/hermes/contributors/"
 robots: "index,follow"
 
@@ -58,7 +58,7 @@ Check the [Pending Review Queue](https://github.com/CorpusIQ/corpusiq-docs/issue
 
 | Contributor | Submissions | Approved | Role |
 |-------------|------------|----------|------|
-| [@CorpusIQ](https://github.com/CorpusIQ) | 3405 | 222 | Maintainer |
+| [@CorpusIQ](https://github.com/CorpusIQ) | 3418 | 222 | Maintainer |
 | [@BlueSkyID666](https://github.com/BlueSkyID666) | 1 | 1 | Contributor |
 | [@louis030195](https://github.com/louis030195) | 1 | 1 | Contributor |
 | [@royan-agent](https://github.com/royan-agent) | 1 | 1 | Contributor |

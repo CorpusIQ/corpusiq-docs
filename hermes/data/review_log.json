@@ -24275,5 +24275,96 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-11-26T11:33:12.645890+00:00"
+  },
+  {
+    "repo": "Kir-Za/hermes-langfuse-toolkit",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-27T11:33:09.893967+00:00"
+  },
+  {
+    "repo": "alt-glitch/hermes-tern",
+    "score": 48,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-27T11:33:09.893981+00:00"
+  },
+  {
+    "repo": "afahmi1/hermes-mobile",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-27T11:33:09.893984+00:00"
+  },
+  {
+    "repo": "Audrey-cn/rpe-harness",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-27T11:33:09.893986+00:00"
+  },
+  {
+    "repo": "colibird-ai/local-mcp-hermes-plugin",
+    "score": 35,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-27T11:33:09.893988+00:00"
+  },
+  {
+    "repo": "moccalatte/hermes-ambient-browser",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-27T11:33:09.893990+00:00"
+  },
+  {
+    "repo": "TraceLite-AI/hermes-tracetrial-audit",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-27T11:33:09.893992+00:00"
+  },
+  {
+    "repo": "furedea/agent-harness",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-27T11:33:09.893994+00:00"
+  },
+  {
+    "repo": "UltraInstinct0x/hermes",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-27T11:33:09.893996+00:00"
+  },
+  {
+    "repo": "qxxaa/hermes-agent",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-27T11:33:09.893998+00:00"
+  },
+  {
+    "repo": "fselmg/cofre-senha-hermes",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-27T11:33:09.893999+00:00"
+  },
+  {
+    "repo": "user-7392/hermes-feishu",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-27T11:33:09.894001+00:00"
+  },
+  {
+    "repo": "xinyuan-ai/xinyuan",
+    "score": 67,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-27T11:33:09.894003+00:00"
   }
 ]
