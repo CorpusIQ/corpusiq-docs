@@ -5745,6 +5745,10 @@
          <lastmod>2026-11-01</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/ogarnio-mileage-rates-mcp</loc>
+         <lastmod>2026-11-27</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/ohmyho-st-mcp</loc>
          <lastmod>2026-11-19</lastmod>
     </url>
@@ -5847,6 +5851,10 @@
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/otto-mcp</loc>
          <lastmod>2026-11-19</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/outscraper-mcp</loc>
+         <lastmod>2026-11-27</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/outside-agent-mcp</loc>
@@ -8463,6 +8471,10 @@
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-november26-2026-night</loc>
          <lastmod>2026-11-26</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-november27-2026-midday</loc>
+         <lastmod>2026-11-27</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-november27-2026-night</loc>
