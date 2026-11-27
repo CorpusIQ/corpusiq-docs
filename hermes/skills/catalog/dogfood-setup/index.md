@@ -4,7 +4,7 @@ description: "Systematic exploratory QA testing of web applications using browse
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/dogfood-setup/"
 robots: "index,follow"
-last_updated: "2026-11-19"
+last_updated: "2026-11-27"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
@@ -27,12 +27,14 @@ npx skills add nousresearch/hermes-agent@dogfood
 
 | Requirement | Details |
 |-------------|---------|
-| Hermes Agent | Latest version with browser toolset |
-| Browser tools | `browser_navigate`, `browser_snapshot`, `browser_click`, `browser_type`, `browser_vision`, `browser_console`, `browser_scroll`, `browser_back`, `browser_press` |
+| Hermes Agent | Latest version with the browser tool (`browser_exec`) |
+| Browser tool | `browser_exec` - the built-in `browser_*` tools were removed in v0.23.0, see [Upgrading Hermes](/hermes/setup/upgrading) |
 | Target URL | The web application to test |
 | Testing scope | Features/areas to focus on (or "full site") |
 
 ## Workflow
+
+> Browser automation runs through `browser_exec`. Each call is Python, and the helpers (`new_tab`, `goto_url`, `page_info`, `js`, `fill_input`, `click_at_xy`, `capture_screenshot`, `cdp`) are pre-imported, so one call can drive a whole page.
 
 ### Phase 1: Plan
 
@@ -49,18 +51,18 @@ npx skills add nousresearch/hermes-agent@dogfood
 
 For each page in your plan:
 
-1. **Navigate**: `browser_navigate(url="https://example.com/page")`
-2. **Snapshot**: `browser_snapshot()` - understand DOM structure
-3. **Console check**: `browser_console(clear=true)` - catch JS errors after every navigation and interaction. Silent JS errors are high-value findings.
-4. **Visual assessment**: `browser_vision(question="Describe the page layout, identify visual issues, broken elements, or accessibility concerns", annotate=true)` - `annotate=true` overlays numbered `[N]` labels on interactive elements. Each `[N]` maps to ref `@eN`.
+1. **Navigate**: `new_tab("https://example.com/page")`, then `wait_for_load()`
+2. **Read the page**: `page_info()` for the title and state, `js("document.body.innerText.slice(0, 2000)")` for the text
+3. **Console check**: run the interaction inside `js("...")` and read what the page records, or inspect the browser protocol through `cdp("Runtime.evaluate", expression="...")`. Silent JS errors are high-value findings.
+4. **Visual assessment**: `capture_screenshot()` returns a file path, then load that path with the vision tool to describe layout, broken elements and accessibility concerns
 
 ### Phase 3: Interact
 
 For each interactive element identified:
 
-1. Click buttons/links: `browser_click(ref="@eN")`
-2. Fill forms: `browser_type(ref="@eN", text="test input")`
-3. Check console after each interaction
+1. Click buttons/links: `js("document.querySelector('selector').click()")`, or `click_at_xy(x, y)` for a coordinate
+2. Fill forms: `fill_input(selector, "test input")`
+3. Re-read the page and re-check for JS errors after each interaction
 4. Take screenshots of any issues
 
 ### Phase 4: Edge Cases

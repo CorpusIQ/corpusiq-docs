@@ -4,7 +4,7 @@ description: "Install and configure Freakingnolife/sg-arrival-card-skill - autom
 
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/sg-arrival-card-setup/"
 robots: "index,follow"
-last_updated: "2026-11-19"
+last_updated: "2026-11-27"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
@@ -56,15 +56,15 @@ ls ~/.hermes/skills/sg-arrival-card/
 
 ### Tool Bindings
 
-The skill uses abstract capabilities that must be bound to your agent's tools. The default Hermes bindings are:
+The skill uses abstract capabilities that must be bound to your agent's tools. The default Hermes bindings run through `browser_exec`, which replaced the individual `browser_*` tools in v0.23.0:
 
 | Capability | Hermes Tool |
 |------------|-------------|
-| `Open(url)` | `browser_navigate` |
-| `Click(target)` | `browser_click` |
-| `Type(text)` | `browser_type` then `browser_press(key="Tab")` |
-| `Commit` | `browser_press(key="Tab")` |
-| `PageJS(script)` | `browser_console(script)` or `execute_code` |
+| `Open(url)` | `browser_exec`: `new_tab(url)` |
+| `Click(target)` | `browser_exec`: `js("document.querySelector('target').click()")` |
+| `Type(text)` | `browser_exec`: `fill_input(selector, text)` |
+| `Commit` | `browser_exec`: `js("...")` to press Enter or move focus |
+| `PageJS(script)` | `browser_exec`: `js(script)`, or `execute_code` |
 | `RunCode(script)` | `execute_code` |
 | `ReadDoc(image)` | `vision_analyze` |
 | `AskUser(question)` | `clarify` or `send_message` |

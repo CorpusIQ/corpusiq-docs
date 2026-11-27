@@ -3,7 +3,7 @@ title: "bb-browser-openclaw - Setup Guide"
 description: "Full setup guide for bb-browser-openclaw: integrate Blackbox Browser (5,931⭐) with OpenClaw/Hermes agents for Chrome automation with real login state."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/bb-browser-openclaw-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-27"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
@@ -68,6 +68,8 @@ mcp_servers:
 ### 3.3. MCP Tools Provided
 
 Once connected, your agent gains these browser-control tools:
+
+> These are the bb-browser MCP server's own tools, exposed under its server namespace. Hermes' built-in `browser_*` tools were removed in v0.23.0, so if a call fails, check which namespace it resolved to - see [Upgrading Hermes](/hermes/setup/upgrading).
 
 | Tool | Description |
 |---|---|
