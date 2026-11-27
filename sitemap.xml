@@ -1238,7 +1238,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connectors/shopline</loc>
-         <lastmod>2026-11-01</lastmod>
+         <lastmod>2026-11-26</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connectors/slack</loc>
@@ -3865,6 +3865,10 @@
          <lastmod>2026-11-01</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/dealport-mcp</loc>
+         <lastmod>2026-11-26</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/dealwize-mcp</loc>
          <lastmod>2026-11-19</lastmod>
     </url>
@@ -6146,7 +6150,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/prismintel-mcp</loc>
-         <lastmod>2026-11-25</lastmod>
+         <lastmod>2026-11-26</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/privatrak-mcp</loc>
@@ -6210,7 +6214,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/qonvert-mcp</loc>
-         <lastmod>2026-11-25</lastmod>
+         <lastmod>2026-11-26</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/qorenext-crm-mcp</loc>
@@ -7417,6 +7421,10 @@
          <lastmod>2026-11-01</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/united-compute-gpu-prices-mcp</loc>
+         <lastmod>2026-11-26</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/universally-mcp</loc>
          <lastmod>2026-11-01</lastmod>
     </url>
@@ -8429,6 +8437,10 @@
          <lastmod>2026-11-25</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-november26-2026-evening</loc>
+         <lastmod>2026-11-26</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-november26-2026-midday-supplement</loc>
          <lastmod>2026-11-26</lastmod>
     </url>
@@ -9318,7 +9330,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/seo/ai-connectors-for-business</loc>
-         <lastmod>2026-11-01</lastmod>
+         <lastmod>2026-11-26</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/seo/ai-data-consistency</loc>
