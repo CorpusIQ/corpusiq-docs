@@ -1,7 +1,7 @@
 ---
 title: "CorpusIQ vs HubSpot: What Each One Does"
 description: "HubSpot runs your CRM. CorpusIQ is the layer that gives AI assistants live access to HubSpot data."
-last_updated: "2026-11-01"
+last_updated: "2026-11-27"
 ---
 
 # CorpusIQ vs HubSpot: What Each One Does
@@ -14,7 +14,7 @@ HubSpot runs your CRM. CorpusIQ is the layer that gives AI assistants live acces
 |---|---|---|
 | Primary job | CRM, marketing, and sales pipeline management | Cross-source business answers in ChatGPT, Claude, Perplexity |
 | Data access | Its own data | Reads HubSpot AND 40+ other tools in one prompt |
-| AI surface | HubSpot AI tools inside the CRM | Any AI you already use, via MCP |
+| AI surface | Agent Hub: marketing, sales, and service agents built on CRM data | Any AI you already use, via MCP |
 | Answer format | Native reports | Source-cited plain-English answers |
 | Data stored | Your records | Live retrieval with scoped operational retention; no retained raw customer files or full connector payloads. |
 
@@ -26,7 +26,7 @@ HubSpot is the right system for CRM, marketing, and sales pipeline management. I
 
 The pain starts when pipeline is not the same thing as revenue. Deals sit in HubSpot. Payments sit in Stripe. Invoices sit in QuickBooks. Web traffic sits in GA4.
 
-CorpusIQ connects HubSpot to those systems and exposes all of them to ChatGPT, Claude, and Perplexity. ask "which HubSpot deals actually closed and got paid, and what did they cost to acquire" and get one source-cited answer.
+CorpusIQ connects HubSpot to those systems and exposes all of them to ChatGPT, Claude, and Perplexity. Ask "which HubSpot deals actually closed and got paid, and what did they cost to acquire" and get one source-cited answer.
 
 ## FAQ
 

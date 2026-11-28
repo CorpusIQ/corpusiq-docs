@@ -3,7 +3,7 @@ title: Community Engagement Automation
 description: Help-first community engagement strategy - platform-specific approaches, response patterns, sentiment detection, and measurement
 canonical: "https://www.corpusiq.io/docs/hermes/content-ops/engagement/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-27"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---
@@ -13,6 +13,17 @@ tags: ["hermes agent", "ai agent", "nous research"]
 Community engagement is the difference between broadcasting into a void and building an audience that trusts you. But genuine engagement at scale requires systems that can listen, classify, respond, and escalate - without sounding like a bot.
 
 This guide covers building an automated community engagement system with Hermes: help-first strategy, platform-specific response patterns, sentiment detection, escalation rules, and measurement frameworks.
+
+## Implementation Note
+
+The code samples below are illustrative pseudocode. Hermes does not ship a `hermes_llm` module and its public API has no `tier=` argument. Two supported ways to run this logic for real:
+
+- **Inside an agent session:** call `execute_code`, which runs Python with RPC access to the session's tools.
+- **In your own service:** import the Python library with `from run_agent import AIAgent`, then call `agent.chat(...)` or `agent.run_conversation(...)`. Set `quiet_mode=True` when embedding it.
+
+The `tier="lightweight"`, `"standard"` and `"premium"` labels stand in for models you configure yourself. Hermes routes each call by provider and model name, so map each label to a model in your config.
+
+Sources: [Use Hermes as a Python Library](https://hermes-agent.nousresearch.com/docs/guides/python-library) and [Code Execution](https://hermes-agent.nousresearch.com/docs/user-guide/features/code-execution).
 
 ## The Help-First Strategy
 
