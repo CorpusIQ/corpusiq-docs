@@ -6865,23 +6865,6 @@
     "license": "MIT"
   },
   {
-    "full_name": "OnlyTerp/hermes-optimization-guide",
-    "name": "hermes-optimization-guide",
-    "description": "Hermes Agent setup, migration, LightRAG, Telegram, and skill creation guide",
-    "stars": 467,
-    "forks": 38,
-    "url": "https://github.com/OnlyTerp/hermes-optimization-guide",
-    "score": 62,
-    "reasons": [
-      "direct_hermes_reference",
-      "moderate_stars_100+",
-      "active_week"
-    ],
-    "discovery_date": "2026-06-23T00:15:28.434579-07:00",
-    "language": "Shell",
-    "license": "MIT"
-  },
-  {
     "name": "ai-workflow-space/hermes-multi-agent",
     "url": "https://github.com/ai-workflow-space/hermes-multi-agent",
     "description": null,
@@ -33688,24 +33671,6 @@
     "discovered_at": "2026-08-11T08:08:53.055170+00:00"
   },
   {
-    "name": "amanning3390/hermeshub",
-    "url": "https://github.com/amanning3390/hermeshub",
-    "description": "",
-    "stars": 0,
-    "forks": 0,
-    "language": "",
-    "topics": [],
-    "updated_at": "",
-    "score": 22,
-    "tier": "PENDING",
-    "score_reasons": [
-      "name_based_quick_score"
-    ],
-    "category": "",
-    "status": "pending",
-    "discovered_at": "2026-08-11T08:08:53.055170+00:00"
-  },
-  {
     "name": "Yonkoo11/hermes-dojo",
     "url": "https://github.com/Yonkoo11/hermes-dojo",
     "description": "",
@@ -40731,44 +40696,6 @@
       "42-evey/hermes-plugins"
     ],
     "discovered_at": "2026-08-18T05:03:36.798425+00:00",
-    "status": "pending"
-  },
-  {
-    "name": "Signet-AI/signetai",
-    "url": "https://github.com/Signet-AI/signetai",
-    "description": "Sync and store memories, shared identity files (AGENTS.md, CLAUDE.md), session transcripts, institutional knowledge, and secrets between all of your favorite harnesses and models.",
-    "stars": 250,
-    "forks": 40,
-    "language": "TypeScript",
-    "topics": [
-      "agent-memory",
-      "ai-memory",
-      "claude-code",
-      "codex",
-      "hermes-agent",
-      "hermes-agent-plugin",
-      "hermes-plugin",
-      "oh-my-pi",
-      "openclaw",
-      "opencode",
-      "opencode-plugin",
-      "pi-coding-agent",
-      "pi-extension",
-      "self-hosted"
-    ],
-    "updated_at": "2026-08-18T05:02:48Z",
-    "category": "forks",
-    "score": 67,
-    "tier": "HIGH_PRIORITY",
-    "score_reasons": [
-      "hermes_topic",
-      "moderate_stars_100+",
-      "detailed_description",
-      "active_week",
-      "has_homepage"
-    ],
-    "near_duplicates": [],
-    "discovered_at": "2026-08-18T05:03:40.495498+00:00",
     "status": "pending"
   },
   {
@@ -68225,33 +68152,6 @@
     "status": "pending"
   },
   {
-    "name": "chandra447/pi-hermes-memory",
-    "url": "https://github.com/chandra447/pi-hermes-memory",
-    "description": "Hermes-style persistent memory and learning loop for Pi coding agent",
-    "stars": 470,
-    "forks": 121,
-    "language": "TypeScript",
-    "topics": [
-      "context-engineering",
-      "harness",
-      "harness-engineering",
-      "memory",
-      "pi"
-    ],
-    "updated_at": "2026-10-03T09:59:10Z",
-    "category": "core",
-    "score": 63,
-    "tier": "HIGH_PRIORITY",
-    "score_reasons": [
-      "hermes_mention",
-      "moderate_stars_100+",
-      "active_week"
-    ],
-    "near_duplicates": [],
-    "discovered_at": "2026-10-03T10:01:11.074900+00:00",
-    "status": "pending"
-  },
-  {
     "name": "gyogaswara/gugi-os-dashboard",
     "url": "https://github.com/gyogaswara/gugi-os-dashboard",
     "description": "Personal mission control dashboard untuk monitor hermes agent",
@@ -81252,51 +81152,6 @@
     "near_duplicates": [],
     "discovered_at": "2026-10-25T05:01:23.197301+00:00",
     "status": "pending"
-  },
-  {
-    "name": "f-o-x11/deed-page-skill",
-    "url": "https://github.com/f-o-x11/deed-page-skill",
-    "description": "Agent skill: publish files to a permanent deed.page URL with one curl request. No account.",
-    "stars": 2,
-    "forks": 0,
-    "language": null,
-    "topics": [
-      "agent-skill",
-      "agent-skills",
-      "ai-agents",
-      "claude-code",
-      "claude-code-plugin",
-      "claude-skills",
-      "codex",
-      "codex-skills",
-      "deploy",
-      "gemini-cli",
-      "gemini-cli-extension",
-      "hermes-agent",
-      "hosting",
-      "html",
-      "mcp",
-      "mcp-server",
-      "publish",
-      "skill-md",
-      "skills",
-      "static-site"
-    ],
-    "updated_at": "2026-10-25T04:59:11Z",
-    "category": "Skills & Plugins",
-    "score": 52,
-    "tier": "HIGH_PRIORITY",
-    "score_reasons": [
-      "hermes_topic",
-      "agent_ecosystem",
-      "detailed_description",
-      "active_week",
-      "has_homepage"
-    ],
-    "near_duplicates": [],
-    "discovered_at": "2026-10-25T05:01:23.200736+00:00",
-    "status": "approved",
-    "approved_at": "2026-10-25T15:03:24.068618+00:00"
   },
   {
     "name": "bdaikis/student-twin",
@@ -103502,6 +103357,302 @@
     ],
     "near_duplicates": [],
     "discovered_at": "2026-11-27T11:32:38.767688+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "jeiel85/caduceus-android",
+    "url": "https://github.com/jeiel85/caduceus-android",
+    "description": "Unofficial Android client for self-hosted Hermes Agent \u2014 streaming chat, approvals, cron automations and a built-in SSH tunnel. Kotlin + Jetpack Compose.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Kotlin",
+    "topics": [
+      "agent-console",
+      "ai-agent",
+      "android",
+      "android-app",
+      "hermes-agent",
+      "jetpack-compose",
+      "kotlin",
+      "llm",
+      "material3",
+      "mobile-client",
+      "nous-research",
+      "self-hosted",
+      "ssh-tunnel",
+      "tailscale"
+    ],
+    "updated_at": "2026-11-27T16:45:41Z",
+    "category": "core",
+    "score": 65,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent-self-evolution",
+      "awizemann/scarf",
+      "Romanescu11/hermes-skill-factory",
+      "longyunfeigu/learn-hermes-agent",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "mlennie/hermes-mcp",
+      "zakahadi/llm-eval-cli",
+      "pyrate-llama/hermes-ui",
+      "MemTensor/memmy-agent",
+      "moonlight-lupin/agent-skills",
+      "cedricziel/hermes-app",
+      "rusty4444/hermes-android",
+      "EternalNight996/memory-eternal",
+      "ateymoori/pomelu"
+    ],
+    "discovered_at": "2026-11-28T11:30:35.111511+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "yyyyymmmmm/oneday-app",
+    "url": "https://github.com/yyyyymmmmm/oneday-app",
+    "description": "OneDay \u2014 a native iOS client for your self-hosted Hermes AI agent: streaming chat, tool calls, in-chat approvals, files, work ledger and model management on your own server. SwiftUI \u00b7 iOS 26 \u00b7 MIT \u00b7 open for community maintenance",
+    "stars": 0,
+    "forks": 1,
+    "language": "Swift",
+    "topics": [
+      "ai-agent",
+      "ai-assistant",
+      "chatbot",
+      "hermes",
+      "ios",
+      "ios26",
+      "llm",
+      "self-hosted",
+      "sse",
+      "swift",
+      "swiftui",
+      "tuist"
+    ],
+    "updated_at": "2026-11-25T12:02:26Z",
+    "category": "core",
+    "score": 53,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "colbymchenry/codegraph",
+      "1Panel-dev/1Panel",
+      "awizemann/scarf",
+      "Romanescu11/hermes-skill-factory",
+      "longyunfeigu/learn-hermes-agent",
+      "unmodeled-tyler/vessel-browser",
+      "H-Ali13381/hermes-linux-ricing",
+      "Bo1202/Aivy-OS",
+      "tale-project/tale",
+      "ruvnet/metaharness",
+      "PatterAI/Patter",
+      "cx2002302-lang/zettelkasten-second-memory",
+      "pyrate-llama/hermes-ui",
+      "MemTensor/memmy-agent",
+      "VasiHemanth/tokentelemetry",
+      "vivekchand/clawmetry",
+      "cogwheel0/conduit",
+      "moonlight-lupin/agent-skills",
+      "agentrq/agentrq",
+      "kaishi00/hermes-conduit",
+      "stablyai/orca",
+      "Orkas-AI/Orkas",
+      "homarr-labs/dashboard-icons",
+      "cedricziel/hermes-app",
+      "codeofaxel/Kiln",
+      "sno-ai/sno-station",
+      "dfrostar/neuralmind",
+      "EternalNight996/memory-eternal",
+      "hollisorg/iv-studio",
+      "ateymoori/pomelu"
+    ],
+    "discovered_at": "2026-11-28T11:30:35.113444+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "ParishSynthMind/hermes-agent-ai-mcp-demo",
+    "url": "https://github.com/ParishSynthMind/hermes-agent-ai-mcp-demo",
+    "description": "Hermes Agent (Nous Research) running on an LLM, with a guarded GitHub MCP server as its only tool. Real transcripts, honest write-up.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "ai-agents",
+      "github-api",
+      "hermes-agent",
+      "llm",
+      "mcp",
+      "model-context-protocol"
+    ],
+    "updated_at": "2026-11-28T11:05:34Z",
+    "category": "mcp",
+    "score": 59,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "itechmeat/open-second-brain",
+      "homarr-labs/dashboard-icons",
+      "EternalNight996/memory-eternal",
+      "hollisorg/iv-studio"
+    ],
+    "discovered_at": "2026-11-28T11:30:42.974543+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "monswyk/hermes-agent-kanban-mcp",
+    "url": "https://github.com/monswyk/hermes-agent-kanban-mcp",
+    "description": "Hermes-Agent Kanban-Plugin MCP Server",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-11-28T09:59:10Z",
+    "category": "mcp",
+    "score": 44,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-11-28T11:30:42.978412+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "sujan-ai-1313/SPS-AI-Video-Studio",
+    "url": "https://github.com/sujan-ai-1313/SPS-AI-Video-Studio",
+    "description": "One Local AI Video Studio. Every AI Agent (Claude, Gemini, ChatGPT, Grok, Hermes, OpenClaw, Cursor, Codex). Zero Cloud Video Fees \u2014 MCP + OpenAPI 3.1 + VDN-H3 Hardware Planner.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "ai-video",
+      "apple-silicon",
+      "chatgpt",
+      "claude",
+      "freevideo",
+      "gemini",
+      "grok",
+      "hermes",
+      "local-ai",
+      "mcp",
+      "openclaw"
+    ],
+    "updated_at": "2026-11-28T08:42:30Z",
+    "category": "mcp",
+    "score": 53,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "thedotmack/claude-mem",
+      "codejunkie99/agentic-stack",
+      "Shelpuk-AI-Technology-Consulting/kindly-web-search-mcp-server",
+      "jnMetaCode/shellward",
+      "ruvnet/metaharness",
+      "MemTensor/memmy-agent",
+      "sandbaseai/cli",
+      "codeofaxel/Kiln",
+      "EternalNight996/memory-eternal"
+    ],
+    "discovered_at": "2026-11-28T11:30:42.980539+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "radres/call-me",
+    "url": "https://github.com/radres/call-me",
+    "description": "Let your AI agents call and text your actual phone (iPhone or Android) \u2014 Claude Code plugin + agent skill",
+    "stars": 46,
+    "forks": 7,
+    "language": "JavaScript",
+    "topics": [
+      "agent-skills",
+      "ai-agents",
+      "claude-code",
+      "claude-code-plugin",
+      "codex",
+      "gemini-cli",
+      "gemini-cli-extension",
+      "grok",
+      "hermes-agent",
+      "human-in-the-loop",
+      "ios",
+      "mcp",
+      "mcp-server",
+      "mcp-tools",
+      "model-context-protocol",
+      "notifications",
+      "phone-call",
+      "remote-mcp",
+      "voice",
+      "voice-agent"
+    ],
+    "updated_at": "2026-11-28T07:31:09Z",
+    "category": "forks",
+    "score": 62,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_topic",
+      "agent_ecosystem",
+      "some_stars_10+",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "jnMetaCode/superpowers-zh",
+      "Romanescu11/hermes-skill-factory",
+      "Bo1202/Aivy-OS",
+      "tale-project/tale",
+      "ruvnet/metaharness",
+      "PatterAI/Patter",
+      "conorbronsdon/avoid-ai-writing",
+      "Orkas-AI/Orkas",
+      "EternalNight996/memory-eternal"
+    ],
+    "discovered_at": "2026-11-28T11:30:58.823114+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "hughdidit/hermes-session-quote-chips",
+    "url": "https://github.com/hughdidit/hermes-session-quote-chips",
+    "description": "Hermes Desktop runtime plugin: select session-log text and attach it to the composer as context chips (prototype for NousResearch/hermes-agent#160948)",
+    "stars": 0,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [],
+    "updated_at": "2026-11-28T01:51:55Z",
+    "category": "skills",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory",
+      "smfworks/smf-notebooklm-video-pipeline"
+    ],
+    "discovered_at": "2026-11-28T11:32:32.765370+00:00",
     "status": "pending"
   }
 ]

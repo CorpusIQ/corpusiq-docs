@@ -24366,5 +24366,54 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-11-27T11:33:09.894003+00:00"
+  },
+  {
+    "repo": "jeiel85/caduceus-android",
+    "score": 65,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-28T11:33:03.638925+00:00"
+  },
+  {
+    "repo": "yyyyymmmmm/oneday-app",
+    "score": 53,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-28T11:33:03.638937+00:00"
+  },
+  {
+    "repo": "ParishSynthMind/hermes-agent-ai-mcp-demo",
+    "score": 59,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-28T11:33:03.638940+00:00"
+  },
+  {
+    "repo": "monswyk/hermes-agent-kanban-mcp",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-28T11:33:03.638943+00:00"
+  },
+  {
+    "repo": "sujan-ai-1313/SPS-AI-Video-Studio",
+    "score": 53,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-28T11:33:03.638945+00:00"
+  },
+  {
+    "repo": "radres/call-me",
+    "score": 62,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-28T11:33:03.638947+00:00"
+  },
+  {
+    "repo": "hughdidit/hermes-session-quote-chips",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-28T11:33:03.638949+00:00"
   }
 ]
