@@ -107,8 +107,8 @@
     "description": "Install and configure Freakingnolife/sg-arrival-card-skill - automated Singapore Arrival Card submission via browser, covering all three residency pathways.",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/sg-arrival-card-setup",
     
-    "datePublished": "2026-11-19",
-    "dateModified": "2026-11-19",
+    "datePublished": "2026-11-27",
+    "dateModified": "2026-11-27",
     
     "author": {
       "@type": "Organization",
@@ -132,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-11-19">
+  <meta name="last-updated" content="2026-11-27">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -184,7 +184,7 @@
   </script>
 
   
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Article", "TechArticle"], "headline": "SG Arrival Card (SGAC) Automation Setup Guide", "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/sg-arrival-card-setup", "image": "https://www.corpusiq.io/og?title=SG%20Arrival%20Card%20%28SGAC%29%20Automation%20Setup%20Guide&category=Docs", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.corpusiq.io/docs/hermes/skills/catalog/sg-arrival-card-setup"}, "datePublished": "2026-11-01", "dateModified": "2026-11-19", "author": {"@id": "https://www.corpusiq.io#organization"}, "publisher": {"@id": "https://www.corpusiq.io#organization"}, "isPartOf": {"@id": "https://www.corpusiq.io#website"}, "inLanguage": "en-US", "description": "Install and configure Freakingnolife/sg-arrival-card-skill - automated Singapore Arrival Card submission via browser, covering all three residency pathways.", "articleSection": "Hermes"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Article", "TechArticle"], "headline": "SG Arrival Card (SGAC) Automation Setup Guide", "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/sg-arrival-card-setup", "image": "https://www.corpusiq.io/og?title=SG%20Arrival%20Card%20%28SGAC%29%20Automation%20Setup%20Guide&category=Docs", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.corpusiq.io/docs/hermes/skills/catalog/sg-arrival-card-setup"}, "datePublished": "2026-11-01", "dateModified": "2026-11-27", "author": {"@id": "https://www.corpusiq.io#organization"}, "publisher": {"@id": "https://www.corpusiq.io#organization"}, "isPartOf": {"@id": "https://www.corpusiq.io#website"}, "inLanguage": "en-US", "description": "Install and configure Freakingnolife/sg-arrival-card-skill - automated Singapore Arrival Card submission via browser, covering all three residency pathways.", "articleSection": "Hermes"}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Docs", "item": "https://www.corpusiq.io/docs"}, {"@type": "ListItem", "position": 2, "name": "Hermes", "item": "https://www.corpusiq.io/docs/hermes"}, {"@type": "ListItem", "position": 3, "name": "Skills", "item": "https://www.corpusiq.io/docs/hermes/skills"}, {"@type": "ListItem", "position": 4, "name": "Catalog", "item": "https://www.corpusiq.io/docs/hermes/skills/catalog"}, {"@type": "ListItem", "position": 5, "name": "SG Arrival Card (SGAC) Automation Setup Guide", "item": "https://www.corpusiq.io/docs/hermes/skills/catalog/sg-arrival-card-setup"}]}</script>
 </head>
   
@@ -11713,6 +11713,8 @@
       
         
       
+        
+      
     
     
     
@@ -11977,6 +11979,34 @@
     
   
     Backup and Restore
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://www.corpusiq.io/docs/hermes/setup/upgrading" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Upgrading Hermes Agent
   
 
     
@@ -14421,7 +14451,7 @@ cp<span class="w"> </span>-r<span class="w"> </span>sg-arrival-card-skill<span c
 </code></pre></div>
 <h2 id="4-configuration">4. Configuration<a class="headerlink" href="#4-configuration" title="Anchor link to this section">&para;</a></h2>
 <h3 id="tool-bindings">Tool Bindings<a class="headerlink" href="#tool-bindings" title="Anchor link to this section">&para;</a></h3>
-<p>The skill uses abstract capabilities that must be bound to your agent's tools. The default Hermes bindings are:</p>
+<p>The skill uses abstract capabilities that must be bound to your agent's tools. The default Hermes bindings run through <code>browser_exec</code>, which replaced the individual <code>browser_*</code> tools in v0.23.0:</p>
 <table>
 <thead>
 <tr>
@@ -14432,23 +14462,23 @@ cp<span class="w"> </span>-r<span class="w"> </span>sg-arrival-card-skill<span c
 <tbody>
 <tr>
 <td><code>Open(url)</code></td>
-<td><code>browser_navigate</code></td>
+<td><code>browser_exec</code>: <code>new_tab(url)</code></td>
 </tr>
 <tr>
 <td><code>Click(target)</code></td>
-<td><code>browser_click</code></td>
+<td><code>browser_exec</code>: <code>js("document.querySelector('target').click()")</code></td>
 </tr>
 <tr>
 <td><code>Type(text)</code></td>
-<td><code>browser_type</code> then <code>browser_press(key="Tab")</code></td>
+<td><code>browser_exec</code>: <code>fill_input(selector, text)</code></td>
 </tr>
 <tr>
 <td><code>Commit</code></td>
-<td><code>browser_press(key="Tab")</code></td>
+<td><code>browser_exec</code>: <code>js("...")</code> to press Enter or move focus</td>
 </tr>
 <tr>
 <td><code>PageJS(script)</code></td>
-<td><code>browser_console(script)</code> or <code>execute_code</code></td>
+<td><code>browser_exec</code>: <code>js(script)</code>, or <code>execute_code</code></td>
 </tr>
 <tr>
 <td><code>RunCode(script)</code></td>

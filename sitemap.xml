@@ -1742,11 +1742,11 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/compare/corpusiq-vs-google-ads</loc>
-         <lastmod>2026-11-01</lastmod>
+         <lastmod>2026-11-27</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/compare/corpusiq-vs-hubspot</loc>
-         <lastmod>2026-11-01</lastmod>
+         <lastmod>2026-11-27</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/compare/corpusiq-vs-klaviyo</loc>
@@ -1822,7 +1822,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/content-ops/engagement</loc>
-         <lastmod>2026-11-01</lastmod>
+         <lastmod>2026-11-27</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/content-ops/social</loc>
@@ -4721,6 +4721,10 @@
          <lastmod>2026-11-19</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/hiring-signals-mcp</loc>
+         <lastmod>2026-11-27</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/hive-intelligence-mcp</loc>
          <lastmod>2026-11-19</lastmod>
     </url>
@@ -7513,6 +7517,10 @@
          <lastmod>2026-11-08</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/verified-x402-mcp</loc>
+         <lastmod>2026-11-27</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/verifyapi-mcp</loc>
          <lastmod>2026-11-19</lastmod>
     </url>
@@ -8473,6 +8481,10 @@
          <lastmod>2026-11-26</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-november27-2026-evening</loc>
+         <lastmod>2026-11-27</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-november27-2026-midday</loc>
          <lastmod>2026-11-27</lastmod>
     </url>
@@ -9362,7 +9374,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/seo/ai-data-consistency</loc>
-         <lastmod>2026-11-01</lastmod>
+         <lastmod>2026-11-27</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/seo/business-data-for-chatgpt</loc>
@@ -9394,7 +9406,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/setup</loc>
-         <lastmod>2026-11-19</lastmod>
+         <lastmod>2026-11-27</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/setup/backup-and-restore</loc>
@@ -9431,6 +9443,10 @@
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/setup/session-cleanup</loc>
          <lastmod>2026-11-08</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/setup/upgrading</loc>
+         <lastmod>2026-11-27</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/setup/windows-wsl</loc>
@@ -10222,7 +10238,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/bb-browser-openclaw-setup</loc>
-         <lastmod>2026-11-01</lastmod>
+         <lastmod>2026-11-27</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/beagle-setup</loc>
@@ -11350,7 +11366,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/excalidraw-setup</loc>
-         <lastmod>2026-11-01</lastmod>
+         <lastmod>2026-11-27</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/explainer-video-skills-setup</loc>
@@ -14086,7 +14102,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/sg-arrival-card-setup</loc>
-         <lastmod>2026-11-19</lastmod>
+         <lastmod>2026-11-27</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/shadcn-improve-setup</loc>
@@ -15162,7 +15178,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/dogfood-setup</loc>
-         <lastmod>2026-11-19</lastmod>
+         <lastmod>2026-11-27</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/elevenlabs</loc>

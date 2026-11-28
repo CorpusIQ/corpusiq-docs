@@ -107,8 +107,8 @@
     "description": "Help-first community engagement strategy - platform-specific approaches, response patterns, sentiment detection, and measurement",
     "url": "https://www.corpusiq.io/docs/hermes/content-ops/engagement",
     
-    "datePublished": "2026-11-01",
-    "dateModified": "2026-11-01",
+    "datePublished": "2026-11-27",
+    "dateModified": "2026-11-27",
     
     "author": {
       "@type": "Organization",
@@ -132,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-11-01">
+  <meta name="last-updated" content="2026-11-27">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -184,7 +184,7 @@
   </script>
 
   
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Article", "TechArticle"], "headline": "Community Engagement Automation", "url": "https://www.corpusiq.io/docs/hermes/content-ops/engagement", "image": "https://www.corpusiq.io/og?title=Community%20Engagement%20Automation&category=Docs", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.corpusiq.io/docs/hermes/content-ops/engagement"}, "datePublished": "2026-11-01", "dateModified": "2026-11-01", "author": {"@id": "https://www.corpusiq.io#organization"}, "publisher": {"@id": "https://www.corpusiq.io#organization"}, "isPartOf": {"@id": "https://www.corpusiq.io#website"}, "inLanguage": "en-US", "description": "Help-first community engagement strategy - platform-specific approaches, response patterns, sentiment detection, and measurement", "articleSection": "Hermes"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Article", "TechArticle"], "headline": "Community Engagement Automation", "url": "https://www.corpusiq.io/docs/hermes/content-ops/engagement", "image": "https://www.corpusiq.io/og?title=Community%20Engagement%20Automation&category=Docs", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.corpusiq.io/docs/hermes/content-ops/engagement"}, "datePublished": "2026-11-01", "dateModified": "2026-11-27", "author": {"@id": "https://www.corpusiq.io#organization"}, "publisher": {"@id": "https://www.corpusiq.io#organization"}, "isPartOf": {"@id": "https://www.corpusiq.io#website"}, "inLanguage": "en-US", "description": "Help-first community engagement strategy - platform-specific approaches, response patterns, sentiment detection, and measurement", "articleSection": "Hermes"}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Docs", "item": "https://www.corpusiq.io/docs"}, {"@type": "ListItem", "position": 2, "name": "Hermes", "item": "https://www.corpusiq.io/docs/hermes"}, {"@type": "ListItem", "position": 3, "name": "Content Ops", "item": "https://www.corpusiq.io/docs/hermes/content-ops"}, {"@type": "ListItem", "position": 4, "name": "Community Engagement Automation", "item": "https://www.corpusiq.io/docs/hermes/content-ops/engagement"}]}</script>
 </head>
   
@@ -11713,6 +11713,8 @@
       
         
       
+        
+      
     
     
     
@@ -11977,6 +11979,34 @@
     
   
     Backup and Restore
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://www.corpusiq.io/docs/hermes/setup/upgrading" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Upgrading Hermes Agent
   
 
     
@@ -14157,6 +14187,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#implementation-note" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Implementation Note
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#the-help-first-strategy" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -14446,6 +14487,14 @@
 <h1 id="community-engagement-automation">Community Engagement Automation<a class="headerlink" href="#community-engagement-automation" title="Anchor link to this section">&para;</a></h1>
 <p>Community engagement is the difference between broadcasting into a void and building an audience that trusts you. But genuine engagement at scale requires systems that can listen, classify, respond, and escalate - without sounding like a bot.</p>
 <p>This guide covers building an automated community engagement system with Hermes: help-first strategy, platform-specific response patterns, sentiment detection, escalation rules, and measurement frameworks.</p>
+<h2 id="implementation-note">Implementation Note<a class="headerlink" href="#implementation-note" title="Anchor link to this section">&para;</a></h2>
+<p>The code samples below are illustrative pseudocode. Hermes does not ship a <code>hermes_llm</code> module and its public API has no <code>tier=</code> argument. Two supported ways to run this logic for real:</p>
+<ul>
+<li><strong>Inside an agent session:</strong> call <code>execute_code</code>, which runs Python with RPC access to the session's tools.</li>
+<li><strong>In your own service:</strong> import the Python library with <code>from run_agent import AIAgent</code>, then call <code>agent.chat(...)</code> or <code>agent.run_conversation(...)</code>. Set <code>quiet_mode=True</code> when embedding it.</li>
+</ul>
+<p>The <code>tier="lightweight"</code>, <code>"standard"</code> and <code>"premium"</code> labels stand in for models you configure yourself. Hermes routes each call by provider and model name, so map each label to a model in your config.</p>
+<p>Sources: <a href="https://hermes-agent.nousresearch.com/docs/guides/python-library">Use Hermes as a Python Library</a> and <a href="https://hermes-agent.nousresearch.com/docs/user-guide/features/code-execution">Code Execution</a>.</p>
 <h2 id="the-help-first-strategy">The Help-First Strategy<a class="headerlink" href="#the-help-first-strategy" title="Anchor link to this section">&para;</a></h2>
 <p>Every community interaction falls on a spectrum:</p>
 <div class="highlight"><pre><span></span><code>Ignore ─── Auto-Respond ─── Agent-Assisted ─── Human Required

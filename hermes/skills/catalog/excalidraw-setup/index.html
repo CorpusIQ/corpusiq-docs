@@ -107,8 +107,8 @@
     "description": "Generate Excalidraw diagrams, sketches, and wireframes from text descriptions - visual thinking for Hermes agents.",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/excalidraw-setup",
     
-    "datePublished": "2026-11-01",
-    "dateModified": "2026-11-01",
+    "datePublished": "2026-11-27",
+    "dateModified": "2026-11-27",
     
     "author": {
       "@type": "Organization",
@@ -132,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-11-01">
+  <meta name="last-updated" content="2026-11-27">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -184,7 +184,7 @@
   </script>
 
   
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Article", "TechArticle"], "headline": "excalidraw - Setup Guide - CorpusIQ Docs", "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/excalidraw-setup", "image": "https://www.corpusiq.io/og?title=excalidraw%20-%20Setup%20Guide%20-%20CorpusIQ%20Docs&category=Docs", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.corpusiq.io/docs/hermes/skills/catalog/excalidraw-setup"}, "datePublished": "2026-11-01", "dateModified": "2026-11-01", "author": {"@id": "https://www.corpusiq.io#organization"}, "publisher": {"@id": "https://www.corpusiq.io#organization"}, "isPartOf": {"@id": "https://www.corpusiq.io#website"}, "inLanguage": "en-US", "description": "Generate Excalidraw diagrams, sketches, and wireframes from text descriptions - visual thinking for Hermes agents.", "articleSection": "Hermes"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Article", "TechArticle"], "headline": "excalidraw - Setup Guide - CorpusIQ Docs", "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/excalidraw-setup", "image": "https://www.corpusiq.io/og?title=excalidraw%20-%20Setup%20Guide%20-%20CorpusIQ%20Docs&category=Docs", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.corpusiq.io/docs/hermes/skills/catalog/excalidraw-setup"}, "datePublished": "2026-11-01", "dateModified": "2026-11-27", "author": {"@id": "https://www.corpusiq.io#organization"}, "publisher": {"@id": "https://www.corpusiq.io#organization"}, "isPartOf": {"@id": "https://www.corpusiq.io#website"}, "inLanguage": "en-US", "description": "Generate Excalidraw diagrams, sketches, and wireframes from text descriptions - visual thinking for Hermes agents.", "articleSection": "Hermes"}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Docs", "item": "https://www.corpusiq.io/docs"}, {"@type": "ListItem", "position": 2, "name": "Hermes", "item": "https://www.corpusiq.io/docs/hermes"}, {"@type": "ListItem", "position": 3, "name": "Skills", "item": "https://www.corpusiq.io/docs/hermes/skills"}, {"@type": "ListItem", "position": 4, "name": "Catalog", "item": "https://www.corpusiq.io/docs/hermes/skills/catalog"}, {"@type": "ListItem", "position": 5, "name": "excalidraw - Setup Guide - CorpusIQ Docs", "item": "https://www.corpusiq.io/docs/hermes/skills/catalog/excalidraw-setup"}]}</script>
 </head>
   
@@ -11713,6 +11713,8 @@
       
         
       
+        
+      
     
     
     
@@ -11977,6 +11979,34 @@
     
   
     Backup and Restore
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://www.corpusiq.io/docs/hermes/setup/upgrading" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Upgrading Hermes Agent
   
 
     
@@ -14388,7 +14418,7 @@
 <tr>
 <td>Export fails</td>
 <td>Missing browser</td>
-<td>Use <code>browser_use</code> or <code>browser_navigate</code></td>
+<td>Run the export inside <code>browser_exec</code>: <code>new_tab(...)</code>, then <code>js("...")</code> to trigger it. The <code>browser_*</code> tools were removed in v0.23.0 - see <a href="https://www.corpusiq.io/docs/hermes/setup/upgrading">Upgrading Hermes</a></td>
 </tr>
 <tr>
 <td>Shapes misaligned</td>

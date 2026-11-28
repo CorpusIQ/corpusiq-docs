@@ -107,8 +107,8 @@
     "description": "Systematic exploratory QA testing of web applications using browser tools. 5-phase workflow for finding bugs, capturing evidence, and producing structured.",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/dogfood-setup",
     
-    "datePublished": "2026-11-19",
-    "dateModified": "2026-11-19",
+    "datePublished": "2026-11-27",
+    "dateModified": "2026-11-27",
     
     "author": {
       "@type": "Organization",
@@ -132,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-11-19">
+  <meta name="last-updated" content="2026-11-27">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -184,7 +184,7 @@
   </script>
 
   
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Article", "TechArticle"], "headline": "Dogfood - Setup Guide for Hermes Agents", "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/dogfood-setup", "image": "https://www.corpusiq.io/og?title=Dogfood%20-%20Setup%20Guide%20for%20Hermes%20Agents&category=Docs", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.corpusiq.io/docs/hermes/skills/catalog/dogfood-setup"}, "datePublished": "2026-11-01", "dateModified": "2026-11-19", "author": {"@id": "https://www.corpusiq.io#organization"}, "publisher": {"@id": "https://www.corpusiq.io#organization"}, "isPartOf": {"@id": "https://www.corpusiq.io#website"}, "inLanguage": "en-US", "description": "Systematic exploratory QA testing of web applications using browser tools. 5-phase workflow for finding bugs, capturing evidence, and producing structured.", "articleSection": "Hermes"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Article", "TechArticle"], "headline": "Dogfood - Setup Guide for Hermes Agents", "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/dogfood-setup", "image": "https://www.corpusiq.io/og?title=Dogfood%20-%20Setup%20Guide%20for%20Hermes%20Agents&category=Docs", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.corpusiq.io/docs/hermes/skills/catalog/dogfood-setup"}, "datePublished": "2026-11-01", "dateModified": "2026-11-27", "author": {"@id": "https://www.corpusiq.io#organization"}, "publisher": {"@id": "https://www.corpusiq.io#organization"}, "isPartOf": {"@id": "https://www.corpusiq.io#website"}, "inLanguage": "en-US", "description": "Systematic exploratory QA testing of web applications using browser tools. 5-phase workflow for finding bugs, capturing evidence, and producing structured.", "articleSection": "Hermes"}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Docs", "item": "https://www.corpusiq.io/docs"}, {"@type": "ListItem", "position": 2, "name": "Hermes", "item": "https://www.corpusiq.io/docs/hermes"}, {"@type": "ListItem", "position": 3, "name": "Skills", "item": "https://www.corpusiq.io/docs/hermes/skills"}, {"@type": "ListItem", "position": 4, "name": "Catalog", "item": "https://www.corpusiq.io/docs/hermes/skills/catalog"}, {"@type": "ListItem", "position": 5, "name": "Dogfood - Setup Guide for Hermes Agents", "item": "https://www.corpusiq.io/docs/hermes/skills/catalog/dogfood-setup"}]}</script>
 </head>
   
@@ -11713,6 +11713,8 @@
       
         
       
+        
+      
     
     
     
@@ -11977,6 +11979,34 @@
     
   
     Backup and Restore
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://www.corpusiq.io/docs/hermes/setup/upgrading" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Upgrading Hermes Agent
   
 
     
@@ -14322,11 +14352,11 @@
 <tbody>
 <tr>
 <td>Hermes Agent</td>
-<td>Latest version with browser toolset</td>
+<td>Latest version with the browser tool (<code>browser_exec</code>)</td>
 </tr>
 <tr>
-<td>Browser tools</td>
-<td><code>browser_navigate</code>, <code>browser_snapshot</code>, <code>browser_click</code>, <code>browser_type</code>, <code>browser_vision</code>, <code>browser_console</code>, <code>browser_scroll</code>, <code>browser_back</code>, <code>browser_press</code></td>
+<td>Browser tool</td>
+<td><code>browser_exec</code> - the built-in <code>browser_*</code> tools were removed in v0.23.0, see <a href="https://www.corpusiq.io/docs/hermes/setup/upgrading">Upgrading Hermes</a></td>
 </tr>
 <tr>
 <td>Target URL</td>
@@ -14339,6 +14369,9 @@
 </tbody>
 </table>
 <h2 id="workflow">Workflow<a class="headerlink" href="#workflow" title="Anchor link to this section">&para;</a></h2>
+<blockquote>
+<p>Browser automation runs through <code>browser_exec</code>. Each call is Python, and the helpers (<code>new_tab</code>, <code>goto_url</code>, <code>page_info</code>, <code>js</code>, <code>fill_input</code>, <code>click_at_xy</code>, <code>capture_screenshot</code>, <code>cdp</code>) are pre-imported, so one call can drive a whole page.</p>
+</blockquote>
 <h3 id="phase-1-plan">Phase 1: Plan<a class="headerlink" href="#phase-1-plan" title="Anchor link to this section">&para;</a></h3>
 <ol>
 <li>Create output directory: <code>dogfood-output/screenshots/</code></li>
@@ -14353,17 +14386,17 @@
 <h3 id="phase-2-explore">Phase 2: Explore<a class="headerlink" href="#phase-2-explore" title="Anchor link to this section">&para;</a></h3>
 <p>For each page in your plan:</p>
 <ol>
-<li><strong>Navigate</strong>: <code>browser_navigate(url="https://example.com/page")</code></li>
-<li><strong>Snapshot</strong>: <code>browser_snapshot()</code> - understand DOM structure</li>
-<li><strong>Console check</strong>: <code>browser_console(clear=true)</code> - catch JS errors after every navigation and interaction. Silent JS errors are high-value findings.</li>
-<li><strong>Visual assessment</strong>: <code>browser_vision(question="Describe the page layout, identify visual issues, broken elements, or accessibility concerns", annotate=true)</code> - <code>annotate=true</code> overlays numbered <code>[N]</code> labels on interactive elements. Each <code>[N]</code> maps to ref <code>@eN</code>.</li>
+<li><strong>Navigate</strong>: <code>new_tab("https://example.com/page")</code>, then <code>wait_for_load()</code></li>
+<li><strong>Read the page</strong>: <code>page_info()</code> for the title and state, <code>js("document.body.innerText.slice(0, 2000)")</code> for the text</li>
+<li><strong>Console check</strong>: run the interaction inside <code>js("...")</code> and read what the page records, or inspect the browser protocol through <code>cdp("Runtime.evaluate", expression="...")</code>. Silent JS errors are high-value findings.</li>
+<li><strong>Visual assessment</strong>: <code>capture_screenshot()</code> returns a file path, then load that path with the vision tool to describe layout, broken elements and accessibility concerns</li>
 </ol>
 <h3 id="phase-3-interact">Phase 3: Interact<a class="headerlink" href="#phase-3-interact" title="Anchor link to this section">&para;</a></h3>
 <p>For each interactive element identified:</p>
 <ol>
-<li>Click buttons/links: <code>browser_click(ref="@eN")</code></li>
-<li>Fill forms: <code>browser_type(ref="@eN", text="test input")</code></li>
-<li>Check console after each interaction</li>
+<li>Click buttons/links: <code>js("document.querySelector('selector').click()")</code>, or <code>click_at_xy(x, y)</code> for a coordinate</li>
+<li>Fill forms: <code>fill_input(selector, "test input")</code></li>
+<li>Re-read the page and re-check for JS errors after each interaction</li>
 <li>Take screenshots of any issues</li>
 </ol>
 <h3 id="phase-4-edge-cases">Phase 4: Edge Cases<a class="headerlink" href="#phase-4-edge-cases" title="Anchor link to this section">&para;</a></h3>
