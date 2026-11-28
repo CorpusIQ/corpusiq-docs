@@ -1,7 +1,7 @@
 ---
 title: "CorpusIQ vs Google Ads: What Each One Does"
 description: "Google Ads buys your traffic. CorpusIQ is the layer that gives AI assistants live access to Google Ads data."
-last_updated: "2026-11-01"
+last_updated: "2026-11-27"
 ---
 
 # CorpusIQ vs Google Ads: What Each One Does
@@ -14,7 +14,7 @@ Google Ads buys your traffic. CorpusIQ is the layer that gives AI assistants liv
 |---|---|---|
 | Primary job | Advertising and campaign management | Cross-source business answers in ChatGPT, Claude, Perplexity |
 | Data access | Its own data | Reads Google Ads AND 40+ other tools in one prompt |
-| AI surface | Google Ads recommendations inside the dashboard | Any AI you already use, via MCP |
+| AI surface | Campaign AI (AI Max for Search) and recommendations inside the dashboard | Any AI you already use, via MCP |
 | Answer format | Native reports | Source-cited plain-English answers |
 | Data stored | Your records | Live retrieval with scoped operational retention; no retained raw customer files or full connector payloads. |
 
@@ -26,7 +26,7 @@ Google Ads is the right system for Advertising and campaign management. It is bu
 
 The pain starts when spend is not the same thing as performance. Ad spend sits in Google Ads. Revenue sits in Shopify. Costs sit in QuickBooks. Attribution sits in GA4.
 
-CorpusIQ connects Google Ads to those systems and exposes all of them to ChatGPT, Claude, and Perplexity. ask "is our Google Ads spend actually profitable after Shopify fees and QuickBooks COGS" and get one source-cited answer.
+CorpusIQ connects Google Ads to those systems and exposes all of them to ChatGPT, Claude, and Perplexity. Ask "is our Google Ads spend actually profitable after Shopify fees and QuickBooks COGS" and get one source-cited answer.
 
 ## FAQ
 

@@ -1,9 +1,9 @@
 ---
-title: "Why Your AI Gives Different Answers to the Same"
+title: "Why Your AI Gives Different Answers to the Same Question"
 description: ChatGPT, Claude, and Perplexity can give different answers to the same revenue question. Fix it with read-only, source-cited live retrieval.
 canonical: "https://www.corpusiq.io/docs/hermes/seo/ai-data-consistency/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-27"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---
