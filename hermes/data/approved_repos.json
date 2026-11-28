@@ -925,33 +925,6 @@
     "approved_at": "2026-06-16"
   },
   {
-    "name": "AxDSan/mnemosyne",
-    "url": "https://github.com/AxDSan/mnemosyne",
-    "description": "The Zero-Dependency, Sub-Millisecond AI Memory System for Hermes Agents and Everyone Else!",
-    "stars": 1150,
-    "forks": 108,
-    "language": "Python",
-    "topics": [
-      "agents",
-      "ai",
-      "hermes",
-      "hermes-agent",
-      "ml",
-      "nousresearch"
-    ],
-    "updated_at": "2026-06-16",
-    "category": "Memory & Knowledge",
-    "score": 0,
-    "tier": "SEEDED",
-    "score_reasons": [
-      "seeded_from_initial_discovery"
-    ],
-    "near_duplicates": [],
-    "discovered_at": "2026-06-16",
-    "status": "approved",
-    "approved_at": "2026-06-16"
-  },
-  {
     "name": "awizemann/scarf",
     "url": "https://github.com/awizemann/scarf",
     "description": "Native macOS and iOS App for the Hermes AI agent \u2014 multi-window, multi-server (local + remote over SSH). Chat, dashboard, sessions, memory, cron, MCP, and more.",
@@ -1607,45 +1580,6 @@
       "self-hosted"
     ],
     "updated_at": "2026-06-12",
-    "category": "discovered",
-    "score": 0,
-    "tier": "SEEDED",
-    "score_reasons": [
-      "seeded_from_initial_discovery"
-    ],
-    "near_duplicates": [],
-    "discovered_at": "2026-06-16",
-    "status": "approved",
-    "approved_at": "2026-06-16"
-  },
-  {
-    "name": "itsXactlY/mazemaker",
-    "url": "https://github.com/itsXactlY/mazemaker",
-    "description": "Semantic memory system with knowledge graph, spreading activation, embedding-based recall, autonomous dream consolidation, and C++ LSTM+kNN pattern learning for any /MCP and the Hermes Agent.",
-    "stars": 49,
-    "forks": 8,
-    "language": "Python",
-    "topics": [
-      "aes-256",
-      "agent",
-      "agents",
-      "ai",
-      "brain",
-      "claude",
-      "codex",
-      "gpt",
-      "graph",
-      "hermes",
-      "knowledge",
-      "machine-learning-algorithms",
-      "macos",
-      "memory",
-      "not-a-toy",
-      "vscode",
-      "zero-knowledge",
-      "zero-trust"
-    ],
-    "updated_at": "2026-06-14",
     "category": "discovered",
     "score": 0,
     "tier": "SEEDED",
@@ -3354,25 +3288,6 @@
     "license": ""
   },
   {
-    "full_name": "ksimback/hermes-ecosystem",
-    "name": "hermes-ecosystem",
-    "description": "\ud83d\uddfa\ufe0f Hermes Atlas \u2014 the community map of every tool, skill, and integration for Hermes Agent by Nous Research. Live at hermesatlas.com",
-    "stars": 1050,
-    "forks": 83,
-    "url": "https://github.com/ksimback/hermes-ecosystem",
-    "score": 80,
-    "reasons": [
-      "direct_hermes_reference",
-      "high_stars_1000+",
-      "detailed_description",
-      "active_week",
-      "has_homepage"
-    ],
-    "discovery_date": "2026-06-23T00:15:28.434579-07:00",
-    "language": "HTML",
-    "license": ""
-  },
-  {
     "name": "xiaojilele-glitch/WhyBuddy",
     "url": "https://github.com/xiaojilele-glitch/WhyBuddy",
     "description": "A Simple and Universal Product Rehearsal Engine, Speccing Anything. \u7b80\u6d01\u901a\u7528\u7684\u4ea7\u54c1\u63a8\u6f14\u5f15\u64ce\uff0c\u63a8\u6f14\u4e07\u7269\u3002",
@@ -3822,7 +3737,8 @@
     ],
     "discovered_at": "2026-07-02T07:06:10.884353+00:00",
     "status": "approved",
-    "approved_at": "2026-07-02T07:06:52.246809+00:00"
+    "approved_at": "2026-07-02T07:06:52.246809+00:00",
+    "renamed_from": "AxDSan/mnemosyne"
   },
   {
     "name": "ruvnet/metaharness",
@@ -8203,6 +8119,7 @@
     ],
     "discovered_at": "2026-11-22T11:31:47.883821+00:00",
     "status": "approved",
-    "approved_at": "2026-11-22T11:33:23.000383+00:00"
+    "approved_at": "2026-11-22T11:33:23.000383+00:00",
+    "renamed_from": "itsXactlY/mazemaker"
   }
 ]
