@@ -1,7 +1,7 @@
 ---
 title: "CorpusIQ vs Shopify: What Each One Does"
 description: "Shopify runs your store. CorpusIQ is the layer that gives AI assistants live access to Shopify data."
-last_updated: "2026-11-01"
+last_updated: "2026-11-28"
 ---
 
 # CorpusIQ vs Shopify: What Each One Does
@@ -14,7 +14,7 @@ Shopify runs your store. CorpusIQ is the layer that gives AI assistants live acc
 |---|---|---|
 | Primary job | Ecommerce storefront, orders, inventory, payments | Cross-source business answers in ChatGPT, Claude, Perplexity |
 | Data access | Your store's own data | Reads Shopify AND 40+ other tools in one prompt |
-| AI surface | Shopify Magic, AI inside the admin | Any AI you already use, via MCP |
+| AI surface | Sidekick, the AI assistant inside the admin | Any AI you already use, via MCP |
 | Answer format | Shopify-native reports | Source-cited plain-English answers |
 | Data stored | Your store records | Live retrieval with scoped operational retention; no retained raw customer files or full connector payloads. |
 

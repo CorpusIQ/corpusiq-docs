@@ -3,7 +3,7 @@ title: "CorpusIQ vs Airbyte: What Each One Does"
 description: "Airbyte is an open-source ELT platform that moves data from sources to warehouses. CorpusIQ is the layer that gives AI assistants live access to that same data."
 canonical: "https://www.corpusiq.io/docs/hermes/compare/corpusiq-vs-airbyte/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-28"
 tags: ["airbyte alternative", "elt tools", "data integration", "ai business tools"]
 ---
 
@@ -29,7 +29,7 @@ Airbyte is the right system for building and owning ELT pipelines. Its 700+ conn
 
 The pain starts when the warehouse is not the same thing as an answer. Airbyte lands the data. Someone still has to query it, model it, and turn it into a decision.
 
-Airbyte is no longer pipeline-only. It ships an MCP server that lets an assistant build and repair syncs and query the warehouse, and a context layer on paid plans. That is a real overlap in surface, and the difference is where the answer comes from. Airbyte's MCP works against the pipelines and the warehouse they land in, with tools classified read, mutate, or destructive. CorpusIQ reads the business systems directly, on demand, with declared metric definitions and a citation on every number.
+Airbyte is no longer pipeline-only. It ships an MCP server that lets an assistant build and repair syncs and query the warehouse, plus a context layer on paid Airbyte Cloud plans for live reads and search. That is a real overlap in surface, and the difference is where the answer comes from. Airbyte's MCP works against the pipelines and the warehouse they land in, with each tool annotated read-only or destructive. CorpusIQ reads the business systems directly, on demand, with declared metric definitions and a citation on every number.
 
 CorpusIQ connects your business tools directly to the AI assistants you already use. Ask "what changed in our Shopify revenue this week" and get a cited answer from live data, without building a pipeline first. Airbyte keeps being your data movement layer; CorpusIQ is the layer your team actually asks questions in.
 
