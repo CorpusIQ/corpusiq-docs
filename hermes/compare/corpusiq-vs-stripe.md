@@ -1,7 +1,7 @@
 ---
 title: "CorpusIQ vs Stripe: What Each One Does"
 description: "Stripe processes payments. CorpusIQ is the layer that gives AI assistants live access to Stripe data."
-last_updated: "2026-11-01"
+last_updated: "2026-11-28"
 ---
 
 # CorpusIQ vs Stripe: What Each One Does
@@ -14,7 +14,7 @@ Stripe processes payments. CorpusIQ is the layer that gives AI assistants live a
 |---|---|---|
 | Primary job | Payment processing, subscriptions, billing | Cross-source business answers in ChatGPT, Claude, Perplexity |
 | Data access | Your payment data | Reads Stripe AND 40+ other tools in one prompt |
-| AI surface | Stripe Assistant inside the dashboard | Any AI you already use, via MCP |
+| AI surface | Dashboard assistant and Stripe Console | Any AI you already use, via MCP |
 | Answer format | Stripe-native reports | Source-cited plain-English answers |
 | Data stored | Your payment records | Live retrieval with scoped operational retention; no retained raw customer files or full connector payloads. |
 

@@ -1,7 +1,7 @@
 ---
 title: "CorpusIQ vs Klaviyo: What Each One Does"
 description: "Klaviyo runs your email and SMS. CorpusIQ is the layer that gives AI assistants live access to Klaviyo data."
-last_updated: "2026-11-01"
+last_updated: "2026-11-28"
 ---
 
 # CorpusIQ vs Klaviyo: What Each One Does
@@ -14,7 +14,7 @@ Klaviyo runs your email and SMS. CorpusIQ is the layer that gives AI assistants 
 |---|---|---|
 | Primary job | Email and SMS marketing automation | Cross-source business answers in ChatGPT, Claude, Perplexity |
 | Data access | Its own data | Reads Klaviyo AND 40+ other tools in one prompt |
-| AI surface | Klaviyo AI tools inside the platform | Any AI you already use, via MCP |
+| AI surface | K:AI inside the platform (Composer, Customer Agent) | Any AI you already use, via MCP |
 | Answer format | Native reports | Source-cited plain-English answers |
 | Data stored | Your records | Live retrieval with scoped operational retention; no retained raw customer files or full connector payloads. |
 
@@ -26,7 +26,7 @@ Klaviyo is the right system for Email and SMS marketing automation. It is built 
 
 The pain starts when campaigns are not the same thing as revenue. Email revenue sits in Klaviyo. Store revenue sits in Shopify. Margins sit in QuickBooks.
 
-CorpusIQ connects Klaviyo to those systems and exposes all of them to ChatGPT, Claude, and Perplexity. ask "which Klaviyo flows actually drive profitable revenue after COGS" and get one source-cited answer.
+CorpusIQ connects Klaviyo to those systems and exposes all of them to ChatGPT, Claude, and Perplexity. Ask "which Klaviyo flows actually drive profitable revenue after COGS" and get one source-cited answer.
 
 ## FAQ
 
