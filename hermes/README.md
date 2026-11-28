@@ -200,7 +200,7 @@ Model Context Protocol (MCP) servers extend Hermes with structured tools.
 | [mission-control](https://github.com/builderz-labs/mission-control) | 6.4K+ | Multi-agent fleet management |
 | Hermes Agency | - | P2P agent collaboration |
 
-**[Full ecosystem directory](ecosystem)** - 461+ repos indexed across 18 categories (222 auto-approved, community review welcome), updated daily.
+**[Full ecosystem directory](ecosystem)** - 461+ repos indexed across 18 categories (219 auto-approved, community review welcome), updated daily.
 
 ---
 
