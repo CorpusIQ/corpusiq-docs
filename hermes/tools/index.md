@@ -3,7 +3,7 @@ title: "Hermes Tools & SDK Reference - CorpusIQ Docs"
 description: "Complete directory of 140+ tools and SDKs compatible with Hermes Agent - browsers, search, code execution, media, deployment, and more"
 canonical: "https://www.corpusiq.io/docs/hermes/tools/"
 robots: "index,follow"
-last_updated: "2026-11-24"
+last_updated: "2026-11-28"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---
@@ -43,9 +43,9 @@ tags: ["hermes agent", "ai agent", "nous research"]
 
 | Tool | Stars | Description | Hermes Integration |
 |------|-------|-------------|-------------------|
-| [browser-use](https://github.com/browser-use/browser-use) | 122K | AI-powered browser automation | Native Hermes tool |
+| [browser-use](https://github.com/browser-use/browser-use) | 122K | AI-powered browser automation | `browser_exec` - the single built-in browser tool |
 | [Playwright](https://playwright.dev) | 100K | Cross-browser automation | Via terminal + Python |
-| [patchright](https://github.com/Kaliiiiiiiiii-Vinyzu/patchright) | 5.2K | Undetected Playwright - bypasses Cloudflare, DataDome | Via Mac Mini worker |
+| [patchright](https://github.com/Kaliiiiiiiiii-Vinyzu/patchright) | 5.2K | Undetected Playwright - bypasses Cloudflare, DataDome | Via terminal on a worker node |
 | deepcloak | - | Anti-bot bypass for Cloudflare, Turnstile | Standalone service |
 | camofox | - | Camoufox stealth browser REST API | HTTP API from Hermes |
 | [Selenium](https://www.selenium.dev) | 35K | Legacy browser automation | Via terminal |
@@ -188,6 +188,7 @@ Hermes connects to 20+ messaging platforms from one gateway. The most-used ones,
 | [Skillguard](https://github.com/buzzicra/skillguard) | Skill safety scanner | 7 |
 | [NemoClaw](https://github.com/NVIDIA/NemoClaw) | Hardware sandboxing | 23K |
 | SSL Guard | Built-in SSL/CA verification | Core |
+
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

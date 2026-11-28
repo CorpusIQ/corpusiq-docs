@@ -256,7 +256,7 @@ Complete official documentation: quickstart, CLI, configuration, messaging gatew
 ### Hermes Official Release Notes
 [github.com/NousResearch/hermes-agent/releases](https://github.com/NousResearch/hermes-agent/releases)
 
-Official changelog with feature highlights, migration notes, and fixes for each version. v0.22.0 is current (November 2026).
+Official changelog with feature highlights, migration notes, and fixes for each version. v0.23.5 is current (November 2026).
 
 ---
 
