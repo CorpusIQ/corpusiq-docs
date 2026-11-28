@@ -4209,6 +4209,10 @@
          <lastmod>2026-11-01</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/fatturapa-mcp</loc>
+         <lastmod>2026-11-28</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/faxup-mcp</loc>
          <lastmod>2026-11-22</lastmod>
     </url>
@@ -5267,6 +5271,10 @@
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/mailfixture-mcp</loc>
          <lastmod>2026-11-01</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/mailmergic-mcp</loc>
+         <lastmod>2026-11-28</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/mailsenpai-mcp</loc>
@@ -7817,6 +7825,10 @@
          <lastmod>2026-11-01</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/yellowstake-agent-desk-mcp</loc>
+         <lastmod>2026-11-28</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/yg3-mcp</loc>
          <lastmod>2026-11-19</lastmod>
     </url>
@@ -8495,6 +8507,10 @@
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-november27-2026-night</loc>
          <lastmod>2026-11-27</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-november28-2026-night</loc>
+         <lastmod>2026-11-28</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-november3-2026-evening</loc>
