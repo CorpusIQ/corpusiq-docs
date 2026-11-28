@@ -3,7 +3,7 @@ title: "Upgrading Hermes Agent - Breaking Changes and Migration"
 description: "Track Hermes Agent breaking changes by release: removed tools, renamed commands and the exact replacement for each migration step."
 category: setup
 tags: [hermes-agent, upgrade, migration, breaking-changes, release-notes, browser-tools]
-last_updated: 2026-11-27
+last_updated: 2026-11-28
 canonical: "https://www.corpusiq.io/docs/hermes/setup/upgrading/"
 robots: "index,follow"
 
@@ -76,6 +76,20 @@ Anything the old tools exposed through a protocol command is still available thr
 
 One caveat on the name: the removal applies to Hermes' own built-in tools. A third-party MCP server can still publish its own tools called `browser_navigate` or `browser_click` under its server namespace, so check where a tool comes from before you assume it survived or disappeared.
 
+## Patch windows after v0.23.0
+
+Not every useful change is a breaking one. Three patch releases in the v0.23 line change how an existing install behaves, and each has one action attached.
+
+| Release | What it changes for an install you already run | What to do |
+|---|---|---|
+| v0.23.1 | `hermes plugins install` used the catalog bundled with the release instead of the live one, because the published catalog had grown past the 2 MiB client limit; the cap is now 16 MiB | Update to v0.23.1 or newer before adding any plugin |
+| v0.23.4 | `hermes gateway migrate --backends` moves a host still running the separate serve or dashboard backend onto the gateway, and `hermes plugins config` edits plugin settings from the terminal | Run the migrate once on any host that predates the fold; `hermes update --plan` shows which services exist |
+| v0.23.5 | Patch rollup of roughly 338 pull requests across the CLI, Microsoft Store app, Docker and Hermes Cloud | Nothing beyond the normal update |
+
+### Why does hermes plugins install say a plugin does not exist?
+
+On v0.23.0 and older the installer reads a catalog snapshot that shipped with your release, and that snapshot quietly stopped matching the published one after November 9. The install then reports a plugin as unknown while its name is correct. Confirm with `hermes --version` and update: from v0.23.1 the live catalog is used again, so a name that resolves on the catalog site also resolves on the machine. If the name is still unknown after the update, check the package name itself against the catalog listing rather than the repository name.
+
 ## Breaking changes in v0.22.0
 
 | Change | What it means for an existing home | What to do |
@@ -114,6 +128,7 @@ Work from the symptom, because each symptom has one or two known causes:
 | Symptom | First check |
 |---|---|
 | The agent says a tool does not exist | The browser removal and the renames above |
+| A plugin install reports an unknown plugin | Your version - v0.23.0 and older read a stale bundled catalog |
 | An MCP client cannot start Hermes | Its arguments still say `mcp serve` |
 | A scheduled job did not fire | Whether the service came back - `hermes update --plan` shows what should be running |
 | A chat looks emptier than expected | Pruning defaults, then whether the session was pinned |
